@@ -33,4 +33,9 @@ And proprioception <em>solves</em> it (§7.5). Which is encouraging for olfactio
 
 The redundancy is not purely a problem. More sensors than degrees of freedom means the transformation is over-determined, so errors can be averaged out and individual sensor noise suppressed.
 
+<x-figure src="content/07-proprioception/figures/redundant-array.js"
+  caption="Redundancy against estimation error. More muscles reporting on the same joints reduces error — but note the gap from the ideal √n line: because muscles act together their sensitivity vectors are non-orthogonal, and a badly-conditioned array wastes much of what it collects. The same caveat as glomerular convergence, for the same reason.">
+</x-figure>
+
+
 This is the same structural situation as glomerular convergence (§3.5) — many noisy sensors reporting related quantities — and the same caveat applies: pooling helps only for independent noise. Spindles in synergistic muscles see correlated fluctuations, which caps the benefit exactly as §3.5's correlated-noise argument does.

@@ -13,6 +13,11 @@ So far, unremarkable.
 
 **Spinocerebellar tracts carry proprioceptive and some tactile information directly to the cerebellum, bypassing the thalamus entirely.**
 
+<x-figure src="content/00-toolkit/figures/pathway-depth.js"
+  caption="Pathway depth across the modalities. Sorted by synapses to action, touch's grip-correction loop is near the top — and the spinocerebellar route bypasses thalamus entirely, exactly as olfaction does. What those two share is a tight deadline and a consumer that wants speed rather than re-mapping, not evolutionary antiquity.">
+</x-figure>
+
+
 This deserves more attention than it usually gets in the olfactory literature, because it undermines a common framing.
 
 <x-callout class="x-callout is-key">

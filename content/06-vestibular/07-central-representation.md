@@ -15,6 +15,11 @@ The setup: train an animal to judge heading direction from visual optic flow alo
 
 Both predictions hold, behaviourally and in the neurons: MSTd responses to combined cues reflect reliability-weighted combination, and the weighting shifts when reliability is manipulated.
 
+<x-figure src="content/06-vestibular/figures/cue-combination.js"
+  caption="Reliability-weighted combination. The combined estimate is narrower than either cue alone, and dragging visual reliability down slides it toward the vestibular estimate — by the predicted amount, in behaviour and in MSTd. Then add conflict: at large disagreement the right answer is to segregate rather than average, which is causal inference rather than cue combination.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">What a fully worked normative account looks like</div>
 This is worth holding up against §0.2's five criteria, because it passes all of them and almost nothing else in the course does.

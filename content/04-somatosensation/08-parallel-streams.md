@@ -27,6 +27,11 @@ It is worth being precise that these two splits are justified differently, becau
 
 <strong>Discriminative/affective is a loss-function argument.</strong> Fine texture judgement wants metric detail preserved. Pain wants a fast, categorical, high-priority signal that drives withdrawal — and preserving metric detail about exactly how much it hurts is worth little.
 
+<x-figure src="content/00-toolkit/figures/stream-splits.js"
+  caption="The three reasons streams split, with every instance in the course. Touch is the only modality that shows two different reasons operating at once — invariance for what/where, loss function for discriminative/affective — which is what makes it the clearest demonstration that these are distinct principles rather than one described twice.">
+</x-figure>
+
+
 §1.1 introduced the loss-function argument using gustation; §5 develops it. Touch is where both arguments operate <em>in the same modality at once</em>, which makes it the clearest demonstration that they are distinct principles rather than one principle described two ways.
 
 <strong>For olfaction:</strong> §3.8 identified the piriform/cortical-amygdala split as a loss-function division — learned identity against innate valence. The what/where division is the invariance one, and it is separately predicted and separately missing.

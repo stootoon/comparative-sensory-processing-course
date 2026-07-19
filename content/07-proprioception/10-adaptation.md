@@ -11,6 +11,11 @@ Proprioception's calibration problem is unusual: **the sensor's relationship to 
 
 So recalibration is continuous, and it uses the same error signal the cerebellum uses for motor learning — the mismatch between predicted and actual sensory consequences.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Proprioceptive recalibration in context. It sits in the middle of the range, and it is the useful middle case for the argument this section makes: it is self-supervised, needing no external teacher, because a forward model generates predictions that reality can falsify.">
+</x-figure>
+
+
 Adaptation after loading, prism adaptation, and tool incorporation are all instances of the same mechanism: a forward model updated by prediction error.
 
 <x-callout class="x-callout is-key">

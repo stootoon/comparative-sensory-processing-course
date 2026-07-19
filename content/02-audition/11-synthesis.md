@@ -17,6 +17,11 @@ estimatedMinutes: 14
 
 ## The comparative datasheet
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="The datasheet across all eight modalities. Audition matches vision on ensemble, stationarity and ordering, and differs sharply on dimensionality and tuning — which is what makes it the control condition that turns a two-way contrast into a trend.">
+</x-figure>
+
+
 | Property | Vision | Audition | Olfaction |
 |---|---|---|---|
 | Array ordering | ordered | ordered | **unordered** |

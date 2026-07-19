@@ -21,6 +21,11 @@ Neurons in Clarke's nucleus and the dorsal spinocerebellar tract do **not** simp
 
 A transformation from muscle coordinates into a task-relevant, whole-limb coordinate system, **by the second synapse.**
 
+<x-figure src="content/07-proprioception/figures/clarke-recoding.js"
+  caption="The same step cycle in two bases. Individual muscle lengths are a tangle of phase-shifted signals; limb axis length and orientation are smooth and interpretable, and are what Clarke's nucleus neurons actually report. The second view plots the cycle in the limb basis, where it becomes a simple closed loop — the transformation adds no information, it makes existing structure legible to the consumer.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The consumer determines the code — demonstrated</div>
 §1.1 introduced this as an argument. Here it is as a result.

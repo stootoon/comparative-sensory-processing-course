@@ -9,6 +9,11 @@ Taste divides into an **identity** stream — what is this substance, supporting
 
 Unlike vision's what/where, this is not an invariance argument. Both streams care about the same variable — which taste is present. They differ in **what they do with it**.
 
+<x-figure src="content/00-toolkit/figures/stream-splits.js"
+  caption="Filter to 'conflicting loss functions' and gustation is the purest case: one decision, grossly asymmetric loss, and a value stream that reaches motor output without cortex. The confirmed olfactory instance sits directly below it — a prediction derived from this argument that held in a system nobody had connected to it.">
+</x-figure>
+
+
 ## Conditioned taste aversion
 
 The clearest window onto the value stream. Pair a novel flavour with subsequent illness and animals develop a lasting aversion, with two properties that violate normal learning rules:

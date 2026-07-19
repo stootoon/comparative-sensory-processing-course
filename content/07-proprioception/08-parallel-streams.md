@@ -14,6 +14,11 @@ Proprioceptive information diverges to consumers with very different requirement
 
 This is a **deadline-driven split** of the vestibular kind (§6.8): the same content delivered to consumers needing it at different latencies.
 
+<x-figure src="content/00-toolkit/figures/stream-splits.js"
+  caption="Proprioception's split is the deadline kind, and it spans the widest latency range of any: a 30 ms monosynaptic reflex through to conscious position sense. Filter by each reason in turn to see how differently the three arguments distribute across modalities.">
+</x-figure>
+
+
 ## Conscious position sense as a by-product
 
 The clinical evidence is striking. Patients with large-fibre sensory neuropathy lose conscious proprioception and are severely impaired, but with visual guidance can relearn substantial motor control — indicating that the *conscious* representation is not what the motor system primarily uses.

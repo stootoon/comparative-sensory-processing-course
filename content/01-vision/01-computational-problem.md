@@ -17,6 +17,11 @@ where $R$ is surface reflectance, $L$ is illumination, and $\theta$ is the angle
 
 Inversion is therefore impossible without additional constraints. Those constraints come from the statistics of the world: illumination varies smoothly over space while reflectance has sharp edges; surfaces are mostly locally planar; light usually comes from above. Vision works because the world is not arbitrary, and §1.2 is about exactly which regularities it exploits.
 
+<x-figure src="content/01-vision/figures/ill-posed.js"
+  caption="One measurement, three unknowns. Move reflectance and illumination in opposite directions and the receptor reading barely changes — a dark surface brightly lit and a light surface dimly lit are, at this receptor, identical. Compare §3.1, where the same shape of problem has five unknowns and no straight lines to help recover the geometry.">
+</x-figure>
+
+
 This is the first place a naive efficient-coding framing needs care. Efficient coding says *represent the input faithfully*. But the input is not what the animal cares about — the causes behind it are. A system that perfectly transmitted retinal intensities while discarding the information needed to separate reflectance from illumination would be an excellent codec and a useless visual system.
 
 ## What is actually being estimated

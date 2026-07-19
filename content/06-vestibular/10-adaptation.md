@@ -11,6 +11,11 @@ The VOR must produce eye rotation exactly equal and opposite to head rotation. I
 
 Retinal slip is therefore an **error signal**, and the system uses it. Fit an animal with magnifying or minifying spectacles and VOR gain adapts over hours to days to restore image stability. The cerebellar flocculus is required.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Vestibular adaptation spans from the canal's seconds-long mechanical decay to VOR recalibration over days. The slow end is genuinely supervised — retinal slip is an unambiguous error signal from an independent sense — which is the luxury the olfactory case does not have.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Why this is the best-understood plasticity anywhere</div>
 Because the problem is well-posed in a way most sensory adaptation is not:

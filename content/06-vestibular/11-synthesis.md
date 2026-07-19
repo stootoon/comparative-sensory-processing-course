@@ -28,6 +28,11 @@ For olfaction this is a genuinely actionable diagnosis. The field's instinct has
 
 ## Datasheet row
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="Vestibular's profile is the inverse of olfaction's on almost every row — measured ensemble, stationary statistics, orthogonal array, known forward model, and the most mature normative theory in the course. It is what a well-posed sensory problem looks like.">
+</x-figure>
+
+
 | Property | Vestibular |
 |---|---|
 | Array ordering | ordered, **geometrically orthogonal** |

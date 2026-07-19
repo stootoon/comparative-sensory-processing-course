@@ -15,6 +15,11 @@ That is itself a finding. **A modality can have a good normative account with no
 
 ## Datasheet row
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="Proprioception scores high on active control and forward model and middling elsewhere — a profile unlike any other modality here. Note that it and vestibular are the two with forward models available, which is the row §12 argues olfaction most needs to borrow from.">
+</x-figure>
+
+
 | Property | Proprioception |
 |---|---|
 | Array ordering | **ordered by body, not by the estimated variable** |

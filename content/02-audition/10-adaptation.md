@@ -13,6 +13,11 @@ A neuron has a limited dynamic range: its firing rate saturates over perhaps 30�
 
 Laughlin's version was evolutionary: the fly's curve matches the fly's habitat. The auditory version is **dynamic**. Present sounds drawn from a distribution with a particular mean and variance, and inferior colliculus neurons shift and rescale their rate–level functions to match, improving the accuracy of the population code near the most probable levels [@dean2005]. Change the distribution and they re-adjust, within tens of milliseconds to seconds.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Where auditory adaptation sits among the others. The level-statistics re-tuning measured by Dean and colleagues is among the fastest 'statistics adaptation' entries anywhere — which is what makes it the paradigm §3.10 proposes transplanting to olfaction.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Why this matters for olfaction, specifically</div>
 §3.2 argued that olfaction's input statistics are <strong>non-stationary</strong> — they change with wind, substrate and time of day — and concluded that a non-stationary modality cannot hard-wire an efficient code and must adapt continuously.

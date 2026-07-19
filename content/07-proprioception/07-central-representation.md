@@ -32,4 +32,9 @@ Three completely different structures occupying the same functional slot. A skel
 
 What the cerebellum computes is a **forward model**: given the current state and a motor command, predict the next state. Direct psychophysical evidence supports this [@wolpert1995] — errors in estimating limb position after movement in the dark propagate exactly as optimal state estimation predicts.
 
+<x-figure src="content/07-proprioception/figures/forward-model.js"
+  caption="The central representation, as a predictor rather than a map. With the forward model on, the estimate tracks true position despite an 80 ms sensory delay; switch it off and the estimate lags and jitters. This is why the answer to 'where is proprioception's central representation' is the cerebellum rather than area 3a.">
+</x-figure>
+
+
 Proprioception's central representation is therefore not a representation of the body in the way V1 is a representation of the image. It is a **predictor**, and the sensory signal's role is to correct it.

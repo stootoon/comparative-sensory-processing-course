@@ -35,3 +35,8 @@ So the olfactory inference problem is <strong>strictly harder than the vestibula
 The canals are mechanically band-limited: fluid inertia and cupula elasticity make them act as **integrating accelerometers** over the mid-frequency range, so their output approximates angular *velocity* rather than acceleration — but only within a band, roughly 0.1–10 Hz.
 
 That band is not arbitrary. It matches the frequency content of natural head movement. The sensor is tuned to the ensemble, mechanically, without any neural computation — another instance of accessory-structure computation (§4.3).
+
+<x-figure src="content/06-vestibular/figures/head-motion-stats.js"
+  caption="The canal's mechanical passband sits on top of where natural head motion has its power, and the match holds as you change behaviour. Where it fails — at very low frequencies, as the cupula returns to rest — velocity storage patches it neurally. A prior about the world, implemented as a circuit, covering a known deficiency in the transducer.">
+</x-figure>
+

@@ -17,6 +17,11 @@ This is a genuinely harder starting point than vision's. In a visual scene, obje
 
 Formally the system receives $x(t) = \sum_i s_i(t)$ and must recover the individual $s_i$. With one measurement per time point and $N$ unknown sources, this is underdetermined by a factor of $N$. It is soluble only because the $s_i$ are not arbitrary — natural sounds have structure, and that structure is what the grouping cues exploit.
 
+<x-figure src="content/02-audition/figures/superposition.js"
+  caption="Two sources, and the single waveform the eardrum actually receives. Nothing is hidden and nothing is clean — every sample is a sum. Set the two fundamentals to a simple ratio and the sum fuses; set them awkwardly and it becomes rough and separable. Harmonicity is the structure that rescues the problem, and chemistry offers no equivalent.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Why this module matters for olfaction</div>
 Olfaction faces a mixture problem too, and audition is the modality that has thought hardest about it. But the two differ in ways that turn out to be more instructive than the similarity:

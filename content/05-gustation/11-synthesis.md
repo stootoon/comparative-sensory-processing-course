@@ -15,6 +15,11 @@ estimatedMinutes: 11
 
 ## Datasheet row
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="Gustation is the control condition. Highlight it, then highlight Olfaction, and compare the two columns: they agree on array ordering and metric structure and disagree on dimensionality. Since gustation has none of olfaction's difficulties, that disagreement localises the cause.">
+</x-figure>
+
+
 | Property | Gustation |
 |---|---|
 | Array ordering | **unordered** |

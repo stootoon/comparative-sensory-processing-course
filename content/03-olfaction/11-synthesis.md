@@ -19,6 +19,11 @@ Held against the five criteria of §0.2, and the record is mixed in a specific a
 
 ## The completed datasheet
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="The datasheet, sorted by how much the modalities differ. Olfaction is at or near the bottom of the top four rows, and those rows are not independent — dimensionality is what drives the rest. Switch the highlight to Gustation for the control case: also unordered, also non-metric, and without any of the difficulties.">
+</x-figure>
+
+
 | Property | Vision | Audition | Olfaction |
 |---|---|---|---|
 | Array ordering | ordered, metric | ordered, metric | **unordered, non-metric** |

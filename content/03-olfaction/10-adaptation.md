@@ -7,6 +7,11 @@ estimatedMinutes: 12
 
 Adaptation runs at every level: receptor neurons through calcium feedback, the bulb through granule-cell inhibition and centrifugal modulation, and cortex strikingly rapidly — piriform responses to a sustained odour decline within seconds, which is faster than most cortical adaptation elsewhere.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Olfaction against the rest. Two things stand out: cortical odour adaptation is at the fast end of anything here, and bulbar neurogenesis is at the extreme slow end — a span of six orders of magnitude within one modality. The volatility view tests whether that fast end is what the non-stationarity argument predicts.">
+</x-figure>
+
+
 ## The background problem
 
 The functional case is clear. An animal in a stable odour environment needs to detect *changes*, and a receptor tonically occupied by a background odour is wasting its dynamic range. Adapting away the background restores sensitivity to new arrivals.

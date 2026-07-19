@@ -17,6 +17,11 @@ Vision's ventral/dorsal split could be explained by its receptor array: the reti
 
 Two systems with completely different input geometries, converging on the same divergence, is good evidence that <strong>the split is driven by the computational problem rather than by the sensor</strong>. Identity requires invariance to location; location requires invariance to identity. You cannot optimise one representation for both, so split.
 
+<x-figure src="content/00-toolkit/figures/stream-splits.js"
+  caption="Every parallel-stream split in the course, grouped by why it exists. Filter to 'conflicting invariance requirements' and note that vision, audition and touch are three independent instances with three different receptor geometries — and that the predicted olfactory instance is the one nobody has located.">
+</x-figure>
+
+
 <strong>Which forces the question of §3.8 and §12.</strong> Olfaction faces the same pair of problems — identity in chemical space, location from plume statistics — and they are, if anything, <em>more</em> dissimilar than vision's or audition's. So where is olfaction's dorsal stream? The comparative argument now rests on two independent instances, and predicts a third.
 </x-callout>
 

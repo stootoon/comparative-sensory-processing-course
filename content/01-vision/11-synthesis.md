@@ -19,6 +19,11 @@ estimatedMinutes: 14
 
 ## The comparative datasheet
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="The full datasheet, pivoted. Highlight Vision and read its profile: measured ensemble, stationary statistics, ordered metric array, mature theory. Then highlight Olfaction and compare — the rows where they differ are the candidate explanations for the theoretical gap.">
+</x-figure>
+
+
 | Property | Vision |
 |---|---|
 | Array ordering | ordered, metric |

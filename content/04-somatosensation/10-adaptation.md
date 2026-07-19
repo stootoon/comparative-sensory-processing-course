@@ -11,6 +11,11 @@ You do not feel your clothes. A constant pressure fades from awareness within se
 
 Touch is therefore the modality where the general principle is most obvious: **sensory systems report change, not state.** The reason is the one from §0.2 — a sustained signal is predictable, predictable signals carry no information, and dynamic range spent representing them is wasted.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Touch has the fastest peripheral adaptation in the course — Pacinian afferents stop responding within milliseconds of a step. That speed is partly mechanical rather than neural (§4.3): the corpuscle's lamellae relax and stop transmitting force, so the adaptation costs nothing.">
+</x-figure>
+
+
 Adaptation operates at several levels: mechanical relaxation in accessory structures (§4.3), channel inactivation, synaptic depression, and central gain control.
 
 <x-callout class="x-callout is-key">

@@ -24,6 +24,11 @@ That makes sense given §5.1. Taste answers "should I swallow this", and the cor
 
 Sustained exposure reduces sensitivity — hold a solution in the mouth and it fades — and there are well-known cross-adaptation effects between compounds sharing a receptor, which is one of the tools used to argue about receptor classes.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Gustation's timescales, in context. Note the satiety entry: alliesthesia operates over minutes to hours, far slower than any receptor process, because it is tracking nutritional state rather than stimulus statistics. And note that both chemosenses — and only the chemosenses — have receptor-cell turnover on the scale of days.">
+</x-figure>
+
+
 The famous **miracle fruit** effect belongs here too: miraculin binds the sweet receptor and converts it to an acid-activated state, so sour tastes become sweet. It is a striking demonstration that percept follows receptor activation rather than chemistry, and it belongs with the receptor-swap experiments of §5.4 as evidence for labelled lines.
 
 ## Peripheral turnover

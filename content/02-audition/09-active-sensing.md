@@ -11,6 +11,11 @@ The exceptions are worth listing because each has a counterpart elsewhere.
 
 **Head movement to resolve ambiguity.** Interaural cues are ambiguous: a cone of positions produces identical ITD and ILD — the classic front-back confusion. Rotating the head changes the cues in a direction that depends on where the source actually is, resolving the ambiguity.
 
+<x-figure src="content/00-toolkit/figures/sampling-rhythms.js"
+  caption="Audition is the most passive modality here — it has no sampling rhythm of its own, and the only entry in this band that belongs to it is the syllable rate of the speech it receives rather than anything it generates. That absence is the point of this section: audition resolves ambiguity by moving the head, not by controlling when the stimulus arrives.">
+</x-figure>
+
+
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">The same move, three modalities</div>
 This is <strong>structurally identical to casting in odour tracking</strong>. In both cases a single sample is ambiguous, the ambiguity has known geometry, and movement of the sensor produces a change whose direction disambiguates.

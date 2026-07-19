@@ -106,6 +106,11 @@ The format is fixed, and every item must reach step four. An analogy that stops 
 
 ## The running datasheet
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="The whole course in one grid, sorted by how much the modalities differ. This is what the comparative method produces: a set of axes on which every modality has a position, so that 'olfaction is unusual' becomes a specific claim about which properties and in which direction.">
+</x-figure>
+
+
 <x-matrix>
 <script type="application/json">
 {

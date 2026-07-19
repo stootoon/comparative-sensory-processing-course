@@ -11,6 +11,11 @@ Proprioceptive information takes two broadly separate routes.
 
 **The cerebellar route:** spinocerebellar tracts → cerebellum, **bypassing the thalamus entirely.**
 
+<x-figure src="content/00-toolkit/figures/pathway-depth.js"
+  caption="Sorted by synapses to action, proprioception is shortest of all — the monosynaptic stretch reflex. Its cerebellar route bypasses thalamus entirely, as olfaction's does, and proprioception is not evolutionarily ancient in any special way. That is the strongest available evidence against the antiquity explanation of olfaction's missing relay.">
+</x-figure>
+
+
 ## The second bypass
 
 §4.6 introduced this and it is worth stating fully here, because it is the strongest evidence available against the antiquity explanation of olfaction's missing relay.

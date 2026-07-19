@@ -9,6 +9,11 @@ estimatedMinutes: 12
 
 Ambient light varies over about ten log units between starlight and noon. A neuron's firing rate spans perhaps two. The gap is closed by adaptation: the system continuously rescales so that its limited range covers the *current* distribution.
 
+<x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
+  caption="Adaptation timescales across every modality in the course. Filter to Vision and note the three-decade span from photoreceptor calcium feedback to the rod–cone handover — no single mechanism covers the range, so several are stacked. Then switch to the volatility view for the prediction this section ends on.">
+</x-figure>
+
+
 Mechanisms stack across timescales — pupil (fast, small range), photoreceptor gain via calcium feedback in the transduction cascade, synaptic depression, network-level gain in bipolar and ganglion circuits, and the rod-to-cone handover across the widest range.
 
 The result is that visual neurons encode **contrast** rather than absolute intensity, which is the right variable: contrast is a property of surfaces, while absolute intensity mostly reflects illumination the animal does not care about.

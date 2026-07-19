@@ -19,6 +19,11 @@ That is a striking claim, because it would mean the map is *computed* rather tha
 
 The other body of work finds gustatory cortical responses that are **temporally structured and state-dependent**. Responses evolve through identifiable phases — an early detection phase, then identity, then palatability — with the palatability phase timed near when the decision to swallow or reject is made.
 
+<x-figure src="content/05-gustation/figures/cortical-dynamics.js"
+  caption="The three response phases, with palatability arriving around the moment of decision. Switch to expected delivery and anticipatory activity appears before the stimulus does — which a sensory representation should not do. This is closer to an evolving decision variable than to a code for chemical identity.">
+</x-figure>
+
+
 And responses are strongly modulated by **expectation**: the same taste delivered expectedly and unexpectedly produces different cortical responses, with anticipatory activity before delivery.
 
 <x-callout class="x-callout is-key">

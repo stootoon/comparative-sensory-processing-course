@@ -24,6 +24,11 @@ The course has now met three distinct reasons a sensory system divides into para
 
 <strong>3. Conflicting deadlines</strong> — vestibular. The same content, at the same precision, delivered to consumers that need it at 10 ms and at 200 ms. You cannot serve both with one pathway, so build a short reflex arc and a long integrative one in parallel.
 
+<x-figure src="content/00-toolkit/figures/stream-splits.js"
+  caption="All three reasons, side by side. Filter to 'conflicting deadlines' and note that the mitral/tufted split appears there as PROPOSED rather than established — the framing this section argues has been less explored than the invariance and loss-function readings, and fits the speed–accuracy evidence better than either.">
+</x-figure>
+
+
 <strong>For olfaction:</strong> §3.8 identified the piriform / cortical-amygdala split as type 2, and predicted an unlocated type 1 split. The vestibular case raises a third possibility nobody has looked for — <strong>is the mitral/tufted split a type 3 division?</strong> Tufted cells respond earlier and more reliably at low concentration; mitral cells later and more sparsely. That is exactly what a deadline-driven split looks like, and it fits the speed–accuracy framing better than either of the other two types.
 </x-callout>
 

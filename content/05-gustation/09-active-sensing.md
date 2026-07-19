@@ -18,6 +18,11 @@ Like sniffing and whisking, licking:
 
 Gustatory responses are locked to the lick cycle, and the timing of a response within the cycle carries information.
 
+<x-figure src="content/00-toolkit/figures/sampling-rhythms.js"
+  caption="Licking joins sniffing, whisking and saccades in the 4–12 Hz band. Four self-generated sampling rhythms, four modalities, one frequency range — a convergence nobody has convincingly explained, and one where the biomechanical and integration-time accounts make opposite predictions about how the band should scale with body size.">
+</x-figure>
+
+
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">The 4–12 Hz club, now with four members</div>
 <strong>Sniffing</strong> 2–10 Hz · <strong>Whisking</strong> 5–15 Hz · <strong>Licking</strong> ~6 Hz · <strong>Saccades</strong> ~3 Hz — plus hippocampal theta and the syllable rate of speech (§2.2) in the same band.

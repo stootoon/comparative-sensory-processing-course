@@ -15,6 +15,11 @@ estimatedMinutes: 12
 
 ## Datasheet row
 
+<x-figure src="content/00-toolkit/figures/datasheet.js"
+  caption="Touch in context. It matches vision on ordering and metric structure — everything §1.4 said ordering buys — and still relies on millisecond timing, which is this module's correction to the olfactory coding debate.">
+</x-figure>
+
+
 | Property | Touch |
 |---|---|
 | Array ordering | ordered |

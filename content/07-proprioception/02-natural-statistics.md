@@ -11,6 +11,11 @@ The human arm has seven degrees of freedom; the hand has more than twenty. But n
 
 Analyses of natural hand postures consistently find that a small number of components — often two or three — account for most of the variance. Grasping a mug and grasping an apple are far more similar than random points in joint space. Movement lives on a **low-dimensional manifold** embedded in a high-dimensional space.
 
+<x-figure src="content/07-proprioception/figures/posture-manifold.js"
+  caption="Natural postures on a low-dimensional manifold. Twenty degrees of freedom, and three components capture most of the variance — which is what makes the coordinate transformation of §7.5 tractable. Vision's spectral space compresses the same way. Whether natural odour scenes do is unmeasured, and it is the most consequential unknown number in olfaction.">
+</x-figure>
+
+
 The reasons are structural: anatomical coupling between digits, muscles spanning multiple joints, and the fact that behaviourally useful postures are a small subset of mechanically possible ones.
 
 <x-callout class="x-callout is-key">

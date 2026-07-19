@@ -13,6 +13,11 @@ Three consequences.
 
 **The forward model is continuously updated by the signal it predicts.** The cerebellum predicts the sensory consequences of a command; the actual proprioceptive input either confirms or corrects it. Sensing and control are one loop, not two.
 
+<x-figure src="content/00-toolkit/figures/sampling-rhythms.js"
+  caption="Proprioception is the one modality with no sampling rhythm at all — because there is nothing to sample. The sensor is the effector, and the loop runs continuously rather than in discrete packets. It anchors the far end of the active-sensing spectrum this section sets out.">
+</x-figure>
+
+
 **Sensory attenuation.** Self-generated movement produces attenuated proprioceptive and tactile responses (§4.10). The prediction is subtracted.
 
 <x-callout class="x-callout is-key">
