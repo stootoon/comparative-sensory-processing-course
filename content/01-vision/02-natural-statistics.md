@@ -15,12 +15,44 @@ $$S(f) \propto \frac{1}{f^{2-\eta}},$$
 
 with $\eta$ small — typically $0.1$ to $0.3$. To a good approximation, power falls as the inverse square of spatial frequency.
 
-The deep reason is scale invariance. Natural scenes contain objects at all distances, so the same object appears at many angular sizes, and no spatial scale is privileged. A statistically scale-invariant ensemble has a power-law spectrum, and the exponent near $2$ follows from the dimensionality and the edge-like structure of the underlying scenes [@simoncelli2001].
+### What that actually means, in pictures
 
-Two consequences matter for everything downstream:
+The equation is compact and easy to nod at without absorbing. Three concrete ways to hold it:
 
-- **Massive spatial correlation.** Nearby pixels are highly redundant. Transmitting them independently wastes capacity, which is what makes whitening attractive.
-- **Almost all the power is at low frequencies.** Which is what makes naive whitening dangerous, since it means high frequencies are where signal is weakest relative to noise. This is the tension §0.2 resolved.
+**As a statement about blur.** Most of an image's energy is in its slow, gradual variation. Blur a photograph heavily and it still looks broadly like the scene — the layout, the large regions of light and dark survive. Keep *only* the fine detail (subtract the blurred version) and you get a faint edge map that is nearly black. The blurred version holds nearly all the variance; that is $1/f^2$ restated.
+
+**As a statement about neighbours.** As §0.2 set out, a steeply falling spectrum and strong spatial correlation are the same fact seen through a Fourier transform. Adjacent pixels in a natural image typically correlate at $r > 0.9$; pixels ten apart still correlate at maybe $0.6$. That slow decay is a wide autocorrelation function, and a wide function has a narrow transform concentrated at low frequencies.
+
+**As a statement about scale.** Photograph a forest from 2 m and from 20 m. The second image is not statistically different from the first — it just contains different objects at the same range of angular sizes. Natural scenes contain structure at every scale, because they contain objects at every distance, so no spatial frequency is privileged. An ensemble with no preferred scale must have a power-law spectrum: power laws are the only functions that look the same under rescaling [@simoncelli2001].
+
+<x-figure src="content/01-vision/figures/correlation-spectrum.js"
+  caption="The same fact, two ways. Left: the autocorrelation function — how similar are two points a given distance apart. Right: its Fourier transform, the power spectrum. Drag the correlation length and watch the two move in opposite directions: broader correlation means a steeper, more concentrated spectrum. Switch to the scale-invariance view to see why natural scenes have no characteristic length at all.">
+</x-figure>
+
+### Why it matters downstream
+
+Two consequences drive everything in §1.5:
+
+- **Massive spatial correlation means massive redundancy.** If a neuron's neighbour can predict most of what it will say, transmitting both costs two neurons and delivers not much more than one neuron's worth of information. This is what makes whitening attractive.
+- **Almost all the power is at low frequencies.** Which is what makes naive whitening dangerous: it means high frequencies are where the signal is weakest relative to a noise floor that does not fall. This is the tension §0.2 resolved, and the reason the retina's filter changes shape with light level.
+
+<details class="x-deeper">
+<summary>Go deeper: why the exponent is near 2, and when it is not<span class="x-deeper-tag">theory</span></summary>
+<div class="x-deeper-body">
+
+For a scale-invariant ensemble in $d$ dimensions, the exponent is set by how image intensity scales under magnification. If an image looks the same when you zoom by a factor $a$ — formally, if $I(a\mathbf{x})$ has the same statistics as $I(\mathbf{x})$ — then the spectrum must satisfy $S(af) = a^{-\alpha}S(f)$, forcing a power law.
+
+The value $\alpha \approx 2$ has a specific origin: **occlusion edges**. A scene made of opaque objects at random distances produces intensity discontinuities at object boundaries. A single step edge has a $1/f^2$ power spectrum, and a scene that is essentially a collage of edges inherits it. The small deviation $\eta$ comes from texture and shading within objects, which are smoother than a step.
+
+**When it breaks:**
+- Underwater scenes have steeper spectra — scattering removes high frequencies.
+- Close-up textures (bark, sand) are flatter, closer to $1/f$.
+- Human-made environments have excess power at horizontal and vertical orientations, which is why the *orientation-averaged* spectrum hides real anisotropy. Cortical orientation preference distributions are correspondingly non-uniform.
+
+This matters for the comparison later: vision's ensemble is unusually well-behaved. Not every modality gets a single stable exponent to build a theory on, and olfaction gets nothing like it.
+
+</div>
+</details>
 
 ## Non-Gaussian structure, and what PCA misses
 

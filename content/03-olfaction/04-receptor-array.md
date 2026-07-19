@@ -21,7 +21,36 @@ So far this sounds like trichromacy with more channels. It is not, and the diffe
 
 **There is no natural ordering of receptor identity.** Receptor 42 and receptor 43 have no more in common than receptor 42 and receptor 907. The numbering is arbitrary; permuting it changes nothing.
 
+### A test for whether an array is really ordered
+
+That claim is easy to nod at, so here is an operational version. Take the receptor array and shuffle the labels — physically rewire which receptor sends its output where. Does the system still work?
+
+- **Vision: catastrophically not.** Permute retinal positions and every downstream computation breaks. Edge detection, motion, stereo, and object recognition all assume that adjacent inputs come from adjacent points in the world. The map *is* the computation.
+- **Audition: not really.** Permute cochlear place and you destroy the frequency axis. Harmonic templates, formant structure, and pitch all depend on knowing which channel is which *relative to* the others.
+- **Olfaction: nothing breaks.** Permute which glomerulus receives which receptor and, provided the downstream connections are learned rather than hard-wired by position, the system is unaffected. There is no ordering to violate, because no downstream computation depends on one.
+
+That thought experiment is a good working definition of what "ordered" means: **an array is ordered when permuting its channels destroys information that downstream circuits rely on.** By that test, olfaction's array is genuinely unordered — not merely unmapped or poorly mapped.
+
 Physical position in the bulb does not fix this. Glomeruli adjacent on the bulb surface do not respond to chemically or perceptually similar odorants in any strong, reliable way. There are coarse regional biases, and the extent of "chemotopy" is genuinely contested — but nothing approaching retinotopy's precise, metric, invertible mapping between sensor position and stimulus dimension.
+
+<details class="x-deeper">
+<summary>Go deeper: why "chemotopy" is contested, and what would settle it<span class="x-deeper-tag">evidence</span></summary>
+<div class="x-deeper-body">
+
+The literature does report spatial structure in the bulb: broad regional biases, with some chemical classes tending to activate dorsal versus ventral zones, and clustering of glomeruli responding to related molecules. So is the array ordered after all?
+
+The disagreement is mostly about what would count as a map. Three standards, in increasing strength:
+
+1. **Any statistical clustering** — nearby glomeruli respond more similarly than chance. Reasonably supported.
+2. **A smooth, monotonic gradient** in some chemical parameter, analogous to tonotopy. Weakly supported at best; proposed parameters (carbon chain length, functional group, water solubility) each account for a small fraction of variance and disagree with each other.
+3. **A metric, invertible map** — the position of a glomerulus tells you its tuning, and the distance between two glomeruli tells you how similar their tunings are. **No serious evidence.** This is what retinotopy and tonotopy provide, and it is what the computational motifs of §1.4 actually require.
+
+The honest position: standard 1 is probably true and standard 3 is probably false, and much of the disagreement in the literature comes from authors arguing past each other about which one is at issue.
+
+**What would settle it:** the wiring test above, done properly. Measure whether the inhibitory or associative connectivity a glomerulus receives is predicted by its *physical position* versus by its *response similarity* to other glomeruli. If position predicts connectivity, there is a functional map. If only response similarity does, the spatial arrangement is developmental happenstance and the real organisation is in feature space.
+
+</div>
+</details>
 
 Now recall the list from §1.4 of what ordering buys, and cross each item off:
 

@@ -81,3 +81,10 @@ body {
   background: none;
   min-height: 4em;
 }
+
+/* Go-deeper boxes are collapsed on screen but must be OPEN on paper — a
+   printed page with a hidden section is just an incomplete page, and the
+   reader has already lost the interactivity that made collapsing useful. */
+details.x-deeper > .x-deeper-body { display: block !important; }
+details.x-deeper > summary::before { content: "▾ "; }
+details.x-deeper { break-inside: avoid; }

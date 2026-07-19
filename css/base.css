@@ -165,6 +165,15 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 
 /* --- Callouts ----------------------------------------------------------- */
 
+/* The element selector matters and is not redundant.
+   <x-callout> is not a registered custom element, and an unknown element
+   defaults to display:inline — so border, padding and margin fragment across
+   every line box and the callout renders as a stack of broken part-boxes. */
+x-callout,
+.x-callout {
+  display: block;
+}
+
 .x-callout {
   margin: 1.8em 0;
   padding: 1rem 1.15rem;
@@ -390,3 +399,66 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 }
 .x-banner.is-error { background: var(--color-error-wash); border-color: var(--color-error); }
 .x-banner span { flex: 1; }
+
+/* --- Go-deeper boxes ----------------------------------------------------
+   The two-tier device. The main narrative stays readable for someone with a
+   neuroscience background and no appetite for derivations; everything a
+   theorist wants — the algebra, the limiting cases, the caveats — lives in
+   these, collapsed by default so it never interrupts the argument. */
+
+.x-deeper {
+  max-width: var(--measure);
+  margin: 1.6em 0;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent-edge);
+  border-radius: var(--radius);
+  background: var(--bg-raised);
+  font-family: var(--font-ui);
+  font-size: 0.93rem;
+}
+
+.x-deeper > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.7rem 0.95rem;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 550;
+  color: var(--accent);
+}
+.x-deeper > summary::-webkit-details-marker { display: none; }
+.x-deeper > summary::before {
+  content: "▸";
+  font-size: 0.75em;
+  transition: transform 0.15s;
+}
+.x-deeper[open] > summary::before { transform: rotate(90deg); }
+.x-deeper > summary:hover { background: var(--accent-wash); }
+
+.x-deeper-tag {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.x-deeper-body {
+  padding: 0.2rem 0.95rem 0.9rem;
+  line-height: 1.62;
+  border-top: 1px solid var(--rule);
+}
+.x-deeper-body > :first-child { margin-top: 0.8rem; }
+.x-deeper-body > :last-child { margin-bottom: 0; }
+.x-deeper-body ul, .x-deeper-body ol { padding-left: 1.3em; }
+
+/* Figure credit line — for figures redrawn from published results. */
+.x-figure-credit {
+  margin-top: 0.35rem;
+  font-family: var(--font-ui);
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}

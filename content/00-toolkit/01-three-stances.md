@@ -15,9 +15,23 @@ The defence is precision about which claim is being made. There are three distin
 
 The input ensemble is the natural stimulus distribution. The constraint is some cost — number of neurons, spikes, synapses, metabolic energy. The prediction is a code: receptive fields, tuning curves, nonlinearities.
 
-This is the oldest of the three, going back to the observation that natural stimuli are massively redundant and that a sensible system would not waste capacity re-transmitting what it could have predicted [@attneave1954; @barlow1961]. Its first quantitative success was Laughlin's demonstration that the contrast–response function of a fly's large monopolar cell matches the cumulative distribution of contrasts in its natural environment [@laughlin1981] — precisely the transformation that equalises the output distribution and so maximises transmitted information.
+This is the oldest of the three, going back to the observation that natural stimuli are massively redundant and that a sensible system would not waste capacity re-transmitting what it could have predicted [@attneave1954; @barlow1961].
 
-Notice what efficient coding does *not* mention: any task, any behaviour, any loss function. It is about faithfully representing the input, full stop.
+Its first quantitative success is worth walking through, because it is the cleanest example in the whole field of a normative prediction with almost no room to wriggle.
+
+**The setup.** A fly's large monopolar cell responds to contrast with a bounded output range. Ask: what shape should its contrast–response curve be, to transmit as much information as possible about contrast?
+
+**The argument.** Information is maximised when the output distribution is *uniform* — every response level used equally often. A level the neuron almost never visits is capacity it is paying to maintain and not using; a level it saturates at is detail being thrown away. The transformation that turns any input distribution into a uniform output is that distribution's own **cumulative distribution function**. So the prediction is: the contrast–response curve should be the cumulative distribution of contrasts the animal actually encounters — steep where contrasts are common, shallow where they are rare.
+
+**The test.** Laughlin measured the contrast distribution in the fly's woodland habitat, and separately measured the neuron's response curve. They matched [@laughlin1981].
+
+Note what makes this compelling: the contrast histogram was measured **independently of the neuron**, so there was no freedom to tune it. The prediction had essentially no free parameters and could easily have failed.
+
+<x-figure src="content/01-vision/figures/laughlin-matching.js"
+  caption="Laughlin's result, and what happens when you break it. The fly's response curve is fixed; drag the environment's contrast statistics away from the fly's own and watch the optimal curve separate from it. The second view shows the cost directly: how evenly the neuron's output range gets used.">
+</x-figure>
+
+Notice what efficient coding does *not* mention: any task, any behaviour, any loss function. It is about faithfully representing the input, full stop. A fly LMC obeying Laughlin's rule is not doing anything *for* a purpose beyond transmission — which is precisely what distinguishes this stance from the next two.
 
 ## Bayesian inference
 

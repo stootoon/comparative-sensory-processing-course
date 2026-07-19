@@ -17,7 +17,30 @@ The argument is the retina's, from §1.5. Pooling $n$ independent noisy sensors 
 
 $$\mathrm{SNR}_{\text{glom}} = \sqrt{n}\;\mathrm{SNR}_{\text{ORN}}.$$
 
-With $n \approx 1000$, that is roughly a thirtyfold improvement, which matters because transduction is limited by molecular shot noise — at threshold concentrations, a receptor neuron may bind only a handful of molecules per sniff.
+With $n \approx 1000$, that is roughly a thirtyfold improvement.
+
+Why it matters is worth making concrete. Odour transduction is limited by **molecular shot noise**: at threshold concentrations a receptor neuron may bind only a handful of molecules during a sniff. Binding is a Poisson process, so if the expected count is $k$, the standard deviation is $\sqrt{k}$ — and with $k \approx 10$, a single neuron's estimate carries roughly 30% error before any downstream noise is added. Pool a thousand such neurons and the fractional error drops to about 1%.
+
+<details class="x-deeper">
+<summary>Go deeper: where the √n law comes from, and when it fails<span class="x-deeper-tag">algebra</span></summary>
+<div class="x-deeper-body">
+
+For $n$ sensors each reporting $x_i = s + \eta_i$ with independent noise of variance $\sigma^2$, the average $\bar{x}$ has variance $\sigma^2/n$. Signal amplitude is unchanged, so
+
+$$\mathrm{SNR}_{\text{pooled}} = \frac{s}{\sigma/\sqrt{n}} = \sqrt{n}\,\frac{s}{\sigma}.$$
+
+**The independence assumption is doing all the work, and it is the first thing to check in any real system.** If the noise is correlated across sensors with correlation $\rho$, the pooled variance becomes
+
+$$\mathrm{Var}(\bar{x}) = \frac{\sigma^2}{n}\left[1 + (n-1)\rho\right] \;\xrightarrow[n \to \infty]{}\; \sigma^2\rho,$$
+
+which does **not** go to zero. Correlated noise puts a hard ceiling on what pooling can buy, no matter how many sensors you add.
+
+For glomerular convergence this is a live question rather than a technicality. Receptor neurons expressing the same receptor sample the *same air*, so fluctuations driven by the plume itself are perfectly correlated across the population — pooling cannot remove them. What pooling removes is the *independent* part: stochastic binding, transduction noise, spike generation. So the √1000 figure is an upper bound, and the true benefit depends on how the noise budget splits between shared and independent sources.
+
+This is the same reason correlated variability limits population codes in cortex, and it is one of the cleaner places where an olfactory question has an exact analogue in another modality.
+
+</div>
+</details>
 
 But there is a crucial difference from the retina. **Retinal convergence costs spatial resolution.** Pooling rods trades acuity for sensitivity, which is why the fovea refuses the trade.
 

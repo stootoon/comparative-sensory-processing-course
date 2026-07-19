@@ -13,9 +13,42 @@ The canonical retinal computation is the antagonistic centre–surround receptiv
 
 The predictive-coding reading of this is precise and worth stating properly [@srinivasan1982]. The surround computes a weighted average of the neighbourhood — a *statistical prediction* of the centre, given the spatial correlations of natural scenes. That prediction is subtracted from the actual centre signal. What the ganglion cell transmits is the residual: the part the surround could not predict.
 
-The benefit is dynamic range. Natural scenes span enormous intensity ranges but are locally smooth, so the residual has far smaller variance than the raw signal. A neuron with a bounded firing rate can devote its whole range to that small residual, making fine detail detectable against downstream noise.
+### A worked example
 
-This is the same computation as whitening, seen from a different angle. Subtracting a local prediction removes the low-frequency, high-power components, flattening the output spectrum.
+Abstract statements about dynamic range become concrete quickly with numbers.
+
+Take a ganglion cell viewing a patch of a natural scene. Suppose intensities in the scene span 0 to 1000 arbitrary units, and the cell can fire between 0 and 100 spikes/s.
+
+**Without a surround.** The cell must map the full 0–1000 range onto 0–100 spikes. Each spike therefore represents about 10 units of intensity. Two adjacent points differing by 5 units — a faint edge — produce *the same firing rate*. The edge is invisible, not because the retina failed to see it, but because it was quantised away.
+
+**With a surround.** The cell now reports centre minus local average. Because natural scenes are locally smooth, that residual is small — say it spans −50 to +50 units in this patch, rather than 0 to 1000. The same 100 spikes/s now covers a range of 100 units, so each spike represents 1 unit. The 5-unit edge produces a 5 spike/s change: clearly visible.
+
+**The same neuron, the same spike budget, a tenfold improvement in contrast sensitivity** — bought entirely by subtracting something predictable. Nothing was added; something redundant was removed.
+
+<details class="x-deeper">
+<summary>Go deeper: the optimal surround weights, and why they are not just "average the neighbours"<span class="x-deeper-tag">algebra</span></summary>
+<div class="x-deeper-body">
+
+The surround is the least-squares predictor of the centre from its neighbours. For a centre $c$ and neighbours $\mathbf{n}$, we want weights $\mathbf{w}$ minimising
+
+$$\mathbb{E}\left[(c - \mathbf{w}^\top \mathbf{n})^2\right],$$
+
+whose solution is the Wiener–Hopf equation
+
+$$\mathbf{w} = \mathbf{C}_{nn}^{-1}\,\mathbf{c}_{nc},$$
+
+where $\mathbf{C}_{nn}$ is the covariance among neighbours and $\mathbf{c}_{nc}$ the covariance between neighbours and centre. Both come straight from the scene statistics of §1.2.
+
+Two consequences that a naive "average the neighbours" account misses:
+
+**The weights are not uniform, and not all positive.** Because neighbours are correlated *with each other*, $\mathbf{C}_{nn}^{-1}$ down-weights redundant ones. Nearer neighbours get most of the weight; the profile can go slightly negative at larger radii, which is why measured surrounds sometimes show a weak secondary positive lobe.
+
+**The weights depend on noise.** With noisy measurements, replace $\mathbf{C}_{nn}$ by $\mathbf{C}_{nn} + \sigma^2\mathbf{I}$. As $\sigma^2$ grows this regularises toward smaller weights — the surround weakens. This is the §0.2 result arriving by a different route: the SNR-dependence is not an extra assumption bolted on, it falls out of doing the estimation properly.
+
+</div>
+</details>
+
+This is the same computation as whitening, seen from a different angle. Subtracting a local prediction removes the low-frequency, high-power components, flattening the output spectrum. If you prefer the frequency-domain picture, return to the figure in §0.2 and switch it to the receptive-field view — that is this same filter, drawn in space.
 
 ## The prediction that made it credible
 
