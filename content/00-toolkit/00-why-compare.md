@@ -25,6 +25,11 @@ That gives us the one thing a single-system study can never provide: **a way to 
 - A motif appearing in some and not others tells you what it is *for*, because you can ask what those modalities share. Topographic maps exist wherever the receptor array has a metric and are absent where it does not — which tells you maps are about the sensor's geometry, not about sensation as such.
 - A motif appearing in exactly one is either a solution to something peculiar about that modality, or a historical accident. Distinguishing those two is hard, and the comparison is what makes it possible at all.
 
+<x-figure src="content/00-toolkit/figures/modality-space.js"
+  caption="The whole course on two axes. Pick any pair and see where the modalities fall. Dimensionality against theory maturity separates olfaction sharply; ensemble-measured against theory maturity is close to a straight line, which is this course's central empirical claim. Ordered-array against theory does NOT separate it, which is the §5.4 argument that the problem is dimensionality rather than disorder.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The method in one line</div>
 Vary the physics, hold the computational problem roughly fixed, and see what stays the same. Anything invariant across radically different sensors is a candidate for a genuine principle rather than an implementation detail.
@@ -78,6 +83,11 @@ Proprioception recodes muscle lengths into task-relevant limb variables because 
 So: *who consumes the olfactory code, and what basis do they want?* If the answer is navigation, the wanted variables are bearing and distance to source, not molecular identity — which predicts a stream nobody has convincingly located.
 
 ### Lesson 7 — Early splitting into complementary channels
+
+<x-figure src="content/00-toolkit/figures/sampling-rhythms.js"
+  caption="A motif you will meet in five modules: self-generated sampling rhythms, all landing in the 4–12 Hz band. Sniffing, whisking, licking, saccades, and the syllable rate of speech. Nobody has established why, and the three candidate explanations make opposite predictions about how the band should scale with body size.">
+</x-figure>
+
 
 Retinal sustained and transient cells. SA/RA/PC afferents in touch. Regular and irregular vestibular afferents. Position, velocity and vibration channels in the fly's chordotonal organ. Mitral and tufted cells.
 

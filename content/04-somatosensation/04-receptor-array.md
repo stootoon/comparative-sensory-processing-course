@@ -39,6 +39,11 @@ Look at what those four are. They are <strong>not</strong> four samples of diffe
 
 Audition builds a filterbank in frequency across a spatial array (§2.4). Touch builds a filterbank in temporal frequency at every point of a spatial array. Same idea, different axis.
 
+<x-figure src="content/04-somatosensation/figures/afferent-filterbank.js"
+  caption="The four afferent classes as frequency responses. Together they tile roughly three decades of temporal frequency with four broad channels. The second view sets them against a cochlear-style bank over the same span: audition spends ~3,500 narrow channels because frequency IS its stimulus dimension; touch spends four broad ones because temporal frequency is a secondary cue to texture.">
+</x-figure>
+
+
 And this is the same motif again: <strong>one channel cannot optimise sensitivity, temporal precision and dynamic range simultaneously</strong>, so split early. Retinal sustained/transient, cochlear bushy/stellate/octopus, vestibular regular/irregular, mitral/tufted, and now SA1/RA1/PC/SA2. Five modalities, independently.
 </x-callout>
 

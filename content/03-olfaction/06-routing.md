@@ -9,6 +9,11 @@ Mitral and tufted cells leave the olfactory bulb in the lateral olfactory tract 
 
 **Two synapses from the sensory surface to cortex.** Vision takes four, audition five or more. And unlike them, olfaction has no obligatory relay.
 
+<x-figure src="content/00-toolkit/figures/pathway-depth.js"
+  caption="Olfaction is shallowest to cortex — and, sorted by synapses to motor output, it is the LONGEST. It has no fast reflex arc comparable to the VOR or the gape response. So its shallowness cannot be about reflex speed, which supports the reading developed below: there is simply no geometric re-mapping for a relay to perform.">
+</x-figure>
+
+
 The textbook framing is that olfaction is "the only sense that bypasses the thalamus," usually delivered as a curiosity and attributed to evolutionary antiquity. That framing is a dead end. §1.6 set up the better question.
 
 ## The services, and where olfaction provides them

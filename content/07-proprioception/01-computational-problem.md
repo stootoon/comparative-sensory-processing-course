@@ -15,6 +15,11 @@ Here is what makes it different from everything else in this course.
 
 So the central problem is a **coordinate transformation** from a sensor basis nobody wants into a task basis nobody measures.
 
+<x-figure src="content/07-proprioception/figures/coordinate-transform.js"
+  caption="Drag the two joints. The endpoint moves smoothly while the muscle lengths change non-monotonically — and the bi-articular muscle, spanning both joints, can hold its length across quite different postures. The second view plots those iso-length contours directly: every point on a curve is a posture that muscle cannot distinguish.">
+</x-figure>
+
+
 Compare: the retina measures light at positions, and position is what vision needs. The cochlea measures frequency, and frequency is a variable audition uses directly. Proprioception's sensors measure something that is not the answer.
 
 <x-callout class="x-callout is-key">

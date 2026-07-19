@@ -32,6 +32,11 @@ The division tracks the two things taste must do, and the timescales differ by o
 
 The bitter rejection reflex needs <strong>two or three synapses</strong> to reach motor output. It has to, because the alternative to acting fast is swallowing a poison.
 
+<x-figure src="content/00-toolkit/figures/pathway-depth.js"
+  caption="Sort this by deadline and then by synapses-to-action: the correlation is the point. The VOR at 10 ms is three synapses; grip correction at 70 ms is two; the gape reflex is two to three. Pathway length is set by how fast the fastest dependent behaviour must be.">
+</x-figure>
+
+
 The vestibulo-ocular reflex is a <strong>three-neuron arc</strong> (§6.5), for the same reason: the eyes must counter-rotate within milliseconds.
 
 Grip-force correction on slip closes in about <strong>70 ms</strong> (§4.9).

@@ -15,6 +15,11 @@ Nothing reaches the olfactory epithelium unless the animal draws it there. Sniff
 
 That is not a small point. A latency code needs a reference, and most modalities have to find one. Olfaction manufactures its own.
 
+<x-figure src="content/03-olfaction/figures/sniff-phase-code.js"
+  caption="Latency referenced to sniff onset. Drag concentration across three decades: amplitudes change enormously and all latencies shorten, but the ORDER of first spikes barely moves, because it is set by receptor affinity rather than concentration. That stability is the basis of the primacy account and of how piriform achieves concentration invariance without normalising amplitude.">
+</x-figure>
+
+
 **It shapes the stimulus.** Flow rate affects the sorption of molecules along the epithelium, so sniff vigour changes not just how much odour arrives but the relative activation across receptor types. The animal partly controls its own transfer function.
 
 <x-callout class="x-callout is-invertebrate">

@@ -21,6 +21,11 @@ The properties, in the same order as the other two modules:
 
 **Tuning is narrow**, and actively sharpened (§2.3). A single auditory nerve fibre responds to a small fraction of the audible range — the opposite of the cone's spectral promiscuity.
 
+<x-figure src="content/02-audition/figures/critical-band.js"
+  caption="The critical band, measured behaviourally. Widen the masker and masking increases only while the masker fits inside the auditory filter; beyond that it plateaus. This is a psychophysical experiment that reads out a peripheral filter width — and §12.6 proposes the olfactory analogue, where the sharp prediction is that masking should track receptor-activation overlap rather than perceptual similarity.">
+</x-figure>
+
+
 ## Narrow tuning, and why that is the right choice here
 
 §1.4 built a normative account of tuning breadth: for a fixed channel count and noise level, the optimal width depends on the **dimensionality of the stimulus space**. Narrow tuning wins in one dimension, where channels can tile the space; broad tuning wins in high dimensions, where narrow tuning leaves most stimuli in gaps.

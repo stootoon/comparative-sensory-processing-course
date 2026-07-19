@@ -7,6 +7,11 @@ estimatedMinutes: 14
 
 The ascending auditory pathway is long. From cochlear nucleus the signal passes through the superior olivary complex, the lateral lemniscus, the **inferior colliculus**, and the medial geniculate body of the thalamus before reaching cortex — five or more synapses, against vision's four and olfaction's two.
 
+<x-figure src="content/00-toolkit/figures/pathway-depth.js"
+  caption="Pathway depth across all the modalities. Sort by synapses-to-cortex and audition is deepest, olfaction shallowest. Then sort by synapses-to-ACTION and the ordering inverts — proprioception is shortest, olfaction longest. That inversion is the evidence for the rule this course proposes: depth tracks the deadline of the fastest dependent behaviour, and how much geometric work must be done before the signal is useful, not evolutionary age.">
+</x-figure>
+
+
 <x-figure src="content/media/auditory-pathway.jpg"
   caption="The ascending auditory pathway. Count the stations between cochlea and cortex, then compare with the two-synapse olfactory route in §3.6. The inferior colliculus, near the top, is an obligatory hub that nearly everything ascending passes through — a bottleneck with no equivalent in vision or olfaction."
   credit="Jonathan E. Peelle. CC BY 4.0."

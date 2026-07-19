@@ -18,6 +18,11 @@ The costs of the two errors are not remotely comparable.
 
 An optimal decision rule under that asymmetry does not sit at the point of equal evidence. It sits far toward rejection, accepting many false alarms to avoid one miss.
 
+<x-figure src="content/05-gustation/figures/loss-asymmetry.js"
+  caption="The asymmetric loss, made quantitative. Raise the cost of swallowing a toxin and the optimal criterion slides away from the equal-evidence point, accepting a high rate of rejected safe food to hold the miss rate down. Slide the ratio back to 1 and a symmetric loss gives a symmetric detector — roughly what olfaction has.">
+</x-figure>
+
+
 This single fact predicts a great deal:
 
 - **Bitter is aversive and innate**, requiring no learning, because learning a toxin by experience may not be survivable.

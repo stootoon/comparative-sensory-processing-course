@@ -22,6 +22,11 @@ But **gravity is an acceleration**. An otolith organ tilted relative to gravity 
 
 This is not a limitation of biological sensors. It is Einstein's equivalence principle: gravitational and inertial acceleration are locally indistinguishable, and **no accelerometer of any construction can separate them.** A better sensor would not help.
 
+<x-figure src="content/06-vestibular/figures/tilt-translation.js"
+  caption="The ambiguity, and its resolution. Drive tilt and acceleration to produce the same otolith shear two different ways and watch the readout not move — distinct world states, identical sensor signal. Then switch the canal input off and see the somatogravic illusion appear. This is the exact structural analogue of olfaction's concentration/distance/transport confound.">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The structural match to olfaction</div>
 This is the most exact analogy in the course, and §3.1 flagged it in advance.
