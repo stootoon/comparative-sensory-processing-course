@@ -75,8 +75,10 @@ class FigureElement extends HTMLElement {
       return;
     }
 
-    // Static SVG or raster: just show it.
-    if (/\.(svg|png|jpe?g|webp)$/i.test(this.src)) {
+    // Static SVG or raster: just show it. Anything not matching here is
+    // treated as an ES module, so a missing extension in this list produces
+    // a confusing "expected a JavaScript module, got image/gif" error.
+    if (/\.(svg|png|jpe?g|gif|webp|avif)$/i.test(this.src)) {
       const img = document.createElement('img');
       img.src = url(this.src);
       img.alt = this.getAttribute('alt') ?? this.caption ?? '';

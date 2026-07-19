@@ -270,5 +270,61 @@
     "venue": "Journal of Neuroscience 16(10):3351–3362",
     "doi": "10.1523/JNEUROSCI.16-10-03351.1996",
     "note": "LGN responses to natural movies are temporally white, as whitening predicts."
+  },
+  "lewicki2002": {
+    "authors": "Lewicki, M. S.",
+    "year": 2002,
+    "title": "Efficient coding of natural sounds",
+    "venue": "Nature Neuroscience 5(4):356–363",
+    "doi": "10.1038/nn831",
+    "note": "Filters optimised to encode natural sounds reproduce auditory-nerve tuning — audition's answer to the derivation vision got for colour."
+  },
+  "smith2006": {
+    "authors": "Smith, E. C. & Lewicki, M. S.",
+    "year": 2006,
+    "title": "Efficient auditory coding",
+    "venue": "Nature 439(7079):978–982",
+    "doi": "10.1038/nature04485",
+    "note": "A spike-based code optimised for natural sounds matches cochlear filter estimates quantitatively."
+  },
+  "mcdermott2011": {
+    "authors": "McDermott, J. H. & Simoncelli, E. P.",
+    "year": 2011,
+    "title": "Sound texture perception via statistics of the auditory periphery: evidence from sound synthesis",
+    "venue": "Neuron 71(5):926–940",
+    "doi": "10.1016/j.neuron.2011.06.032",
+    "note": "Time-averaged statistics of an auditory model are sufficient to synthesise recognisable textures — the ensemble, characterised."
+  },
+  "dean2005": {
+    "authors": "Dean, I., Harper, N. S. & McAlpine, D.",
+    "year": 2005,
+    "title": "Neural population coding of sound level adapts to stimulus statistics",
+    "venue": "Nature Neuroscience 8(12):1684–1689",
+    "doi": "10.1038/nn1541",
+    "note": "Midbrain neurons re-tune their dynamic range to the current sound-level distribution — dynamic efficient coding, measured."
+  },
+  "mcalpine2001": {
+    "authors": "McAlpine, D., Jiang, D. & Palmer, A. R.",
+    "year": 2001,
+    "title": "A neural code for low-frequency sound localization in mammals",
+    "venue": "Nature Neuroscience 4(4):396–401",
+    "doi": "10.1038/86049",
+    "note": "Two broad hemispheric channels rather than a Jeffress place map — optimal given the ITD range a small head actually experiences."
+  },
+  "carr1990": {
+    "authors": "Carr, C. E. & Konishi, M.",
+    "year": 1990,
+    "title": "A circuit for detection of interaural time differences in the brain stem of the barn owl",
+    "venue": "Journal of Neuroscience 10(10):3227–3246",
+    "doi": "10.1523/JNEUROSCI.10-10-03227.1990",
+    "note": "Delay lines and coincidence detectors, as Jeffress proposed — the mechanism exists, in the owl."
+  },
+  "shera2002": {
+    "authors": "Shera, C. A., Guinan, J. J. & Oxenham, A. J.",
+    "year": 2002,
+    "title": "Revised estimates of human cochlear tuning from otoacoustic and behavioral measurements",
+    "venue": "PNAS 99(5):3318–3323",
+    "doi": "10.1073/pnas.032675099",
+    "note": "Human cochlear tuning is sharper than the other mammals measured — a species difference a normative theory should explain."
   }
 }

@@ -50,3 +50,31 @@ copied.
 - **Source:** https://commons.wikimedia.org/wiki/File:Mouse_olfactory_bulb_@_20x_(4864327869).jpg
 - **Used in:** §3.2 Natural statistics (adult neurogenesis)
 - **Note:** Reproduced unmodified apart from downscaling.
+
+## cochlea-travelling-wave.gif
+
+- **Author:** Richard F. Lyon
+- **Licence:** CC BY-SA 3.0
+- **Source:** https://commons.wikimedia.org/wiki/File:Cochlea_wave_animated.gif
+- **Used in:** §2.3 Transduction
+
+## cochlea-anatomy.png
+
+- **Authors:** Taniguchi M, Yamamoto N, Nakagawa T, Ogino E, Ito J
+- **Licence:** CC BY 4.0
+- **Source:** https://commons.wikimedia.org/wiki/File:Anatomy_of_the_cochlea.png
+- **Used in:** §2.3 Transduction
+
+## hair-cells-sem.png
+
+- **Authors:** Lorente-Cánovas B, Eckrich S, Lewis MA, Johnson SL, Marcotti W, Steel KP
+- **Licence:** CC BY 4.0
+- **Source:** https://commons.wikimedia.org/wiki/File:Analysis_of_cochlear_hair_cells_and_their_stereocilia._cropped.png
+- **Used in:** §2.3 Transduction
+
+## auditory-pathway.png
+
+- **Author:** Jonathan E. Peelle
+- **Licence:** CC BY 4.0
+- **Source:** https://commons.wikimedia.org/wiki/File:Auditory_Pathway.png
+- **Used in:** §2.6 Routing

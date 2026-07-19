@@ -1,11 +1,11 @@
 ---
 id: m12.s01
 title: What the comparison buys
-lede: Four sections of vision against four of olfaction. Here is what that alone licenses — each import carried to a concrete, falsifiable prediction rather than an analogy.
-estimatedMinutes: 22
+lede: Three modalities, eleven sections each. Here is what the comparison licenses — every import carried to a concrete, falsifiable prediction rather than an analogy.
+estimatedMinutes: 30
 ---
 
-The full capstone works through eight modalities. This sampler has two, and four sections of each. So this page is deliberately limited: only what vision has *already* licensed.
+The full capstone works through eight modalities. This release has three — vision, audition, olfaction — each in all eleven sections. What follows is what those three license.
 
 The format is fixed, and every item must reach step four. An analogy that stops at "these are similar" has done no work.
 
@@ -76,6 +76,34 @@ The format is fixed, and every item must reach step four. An analogy that stops 
 </script>
 </x-free-response>
 
+## 12.5 From audition — temporal correlation is olfaction's harmonicity
+
+**Imported:** audition faces the mixture problem in its purest form — sources sum exactly in a shared one-dimensional carrier — and solves it with **lawful relations between components of one source**. Harmonicity above all: partials at integer multiples of a fundamental are almost certainly one object.
+
+**Candidate analogue:** molecules from one source travel together through the same turbulent eddies, so their concentrations fluctuate together. Molecules from separated sources decorrelate. Temporal correlation occupies the same slot in the same inference that harmonicity occupies in audition.
+
+**The disanalogy:** harmonicity is a *physical law* about vibrating objects, known in advance and identical for every source. Temporal correlation is a *statistical* relation that depends on flow geometry, wind, and distance — it must be estimated, not assumed. And the estimate degrades exactly where it is most needed, far from the source.
+
+**Prediction:** if temporal correlation is the binding cue, there should be neurons in piriform or anterior olfactory nucleus that respond to **coincident onset across glomeruli** more strongly than to the same glomeruli activated asynchronously — a common-onset detector, the direct analogue of auditory grouping units. Mice can discriminate correlations up to 40 Hz [@ackels2021], so the resolution exists. **Test:** deliver two odorants through separate lines, vary their cross-correlation while holding mean concentration and identity fixed, and look for cells whose response depends on correlation alone.
+
+## 12.6 From audition — is there an olfactory critical band?
+
+**Imported:** the critical band is the resolution limit of the cochlear filterbank, measured *behaviourally* by masking. A background masks a target if and only if it falls within the same auditory filter. It is a psychophysical measurement of a peripheral property, and it works.
+
+**Candidate analogue:** a masking bandwidth in chemical space. Does a background odorant mask a target if and only if their receptor activation patterns overlap beyond some threshold?
+
+**The disanalogy:** the critical band is a *distance* on a metric axis. Chemical space has no metric (§3.4), so "bandwidth" must be redefined as overlap in receptor activation rather than as a distance.
+
+**Prediction, and this is the sharp one:** masking should be governed by **receptor-activation overlap**, not by perceptual similarity. Those two dissociate — molecules can smell alike while activating different receptors, and vice versa. **Where they dissociate is the crucial test**, and it distinguishes a peripheral account of masking from a central one. The experiment is a standard psychophysical masking paradigm with odorant pairs chosen from receptor-response data to dissociate the two similarity measures.
+
+## 12.7 From audition — the range that matters is the range encountered
+
+**Imported:** the ITD-coding dispute (§2.5) resolved not by deciding who was right but by noticing that owl and gerbil face different problems. A place map is worth building when many cycles fit inside the physiological range; two broad channels win when the whole range is a fraction of a cycle. **The optimal code depends on the range of stimuli actually encountered, not the range physically possible.**
+
+**Candidate analogue:** apply the same test before asking whether the olfactory system should map anything. For any candidate variable — concentration, source distance, temporal contrast — ask what range the animal actually experiences and whether there is room in it for a map to be worth building.
+
+**Prediction:** concentration spans orders of magnitude and is behaviourally important, which by this criterion is the *best* candidate for an olfactory map of a derived variable — better than identity, which has no metric to map. **Look for orderly spatial organisation of concentration preference** in a downstream structure, not in the bulb.
+
 ## The running datasheet
 
 <x-matrix>
@@ -93,10 +121,12 @@ The format is fixed, and every item must reach step four. An analogy that stops 
     "Sensor bandwidth vs signal bandwidth",
     "Can the code be hard-wired?"
   ],
-  "columns": ["Vision", "Olfaction", "Consequence"],
+  "columns": ["Vision", "Audition", "Olfaction"],
   "cells": {
     "Natural ensemble characterised?|Vision": { "answer": "yes", "accept": ["yes", "well characterised", "measured"] },
+    "Natural ensemble characterised?|Audition": { "answer": "yes", "accept": ["yes", "measured", "well characterised"] },
     "Natural ensemble characterised?|Olfaction": { "answer": "no", "accept": ["no", "not yet", "partially", "poorly"] },
+    "Stimulus statistics stationary across environments?|Audition": { "answer": "yes", "accept": ["yes", "stationary", "mostly"] },
     "Stimulus statistics stationary across environments?|Olfaction": {
       "answer": "no",
       "accept": ["no", "non-stationary", "not stationary", "varies"]
@@ -105,6 +135,7 @@ The format is fixed, and every item must reach step four. An analogy that stops 
       "answer": "temporal correlations",
       "accept": ["temporal", "time", "correlations", "temporal correlation", "timing", "fluctuations"]
     },
+    "Sensor bandwidth vs signal bandwidth|Audition": { "answer": "sensor much faster than signal", "accept": ["faster", "sensor faster", "much faster", "microseconds"] },
     "Sensor bandwidth vs signal bandwidth|Olfaction": {
       "answer": "sensor is slower than the signal",
       "accept": ["sensor slower", "slower", "sensor is slower", "mismatch", "signal faster"]
@@ -125,6 +156,7 @@ What the comparison has sharpened, in priority order. Each is tagged with the se
 4. **Is the bulb's real receptive field temporal rather than chemical?** (§3.4) Would reframe the silent-neuron literature entirely.
 5. **Does receptor abundance track natural encounter frequency?** (§1.4) The cheapest test on this list.
 6. **Kinetic heterogeneity or pooling for fast fluctuations?** (§3.2) A solved precedent exists in electroreception.
-7. **Is there an olfactory analogue of the critical band?** (§1.4) Requires the audition module — a masking experiment in chemical space.
+7. **Is there an olfactory critical band?** (§12.6) A masking experiment in chemical space, with the sharp version being that masking should track receptor overlap rather than perceptual similarity.
+8. **Is there a common-onset detector in piriform?** (§12.5) The direct analogue of auditory grouping units, and the mechanistic test of the temporal-correlation claim.
 
-The full course adds audition, somatosensation, gustation, vestibular, proprioception, and the exotic senses. Each contributes its own imports, and several of the sharpest — cancellation of predicted input from electroreception, acuity-as-deconvolution from infrared sensing, ambiguity resolution from the vestibular system — have no analogue in vision at all.
+The full course adds somatosensation, gustation, vestibular, proprioception, and the exotic senses. Several of the sharpest imports still to come have no analogue in either vision or audition: cancellation of predicted input from electroreception, acuity-as-deconvolution from infrared sensing, and ambiguity resolution under a forward model from the vestibular system — which §3.1 already flagged as the closest structural match to olfaction's concentration/distance/transport confound.
