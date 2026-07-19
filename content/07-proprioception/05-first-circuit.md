@@ -1,7 +1,7 @@
 ---
 id: m07.s05
 title: The first circuit — spinal cord and Clarke's nucleus
-lede: The recoding happens early. By the second synapse, neurons report global limb variables rather than individual muscle lengths — which is the clearest evidence anywhere that the consumer determines the code.
+lede: The recoding happens early. By the second synapse, neurons report global limb variables rather than individual muscle lengths — the course's clearest case of the consumer determining the code, with the caveat that the limb's own mechanics supply part of the transformation.
 estimatedMinutes: 14
 ---
 
@@ -17,9 +17,20 @@ This is the shortest sensorimotor loop in the body, and it exists because stabil
 
 Here is the finding that makes this module matter for the course's argument.
 
-Neurons in Clarke's nucleus and the dorsal spinocerebellar tract do **not** simply relay individual muscle lengths. Their firing is better predicted by **global limb variables** — the length and orientation of the axis from hip to foot — than by the lengths of the individual muscles supplying them.
+Neurons in Clarke's nucleus and the dorsal spinocerebellar tract do **not** simply relay individual muscle lengths. Their firing is better predicted by **global limb variables** — the length and orientation of the axis from hip to foot — than by the lengths of the individual muscles supplying them [@bosco2001].
 
 A transformation from muscle coordinates into a task-relevant, whole-limb coordinate system, **by the second synapse.**
+
+<x-callout class="x-callout is-key">
+<div class="x-callout-title">How much of this is neural — the caveat the tidy version omits</div>
+The result is usually stated as the nervous system computing a coordinate transformation. Part of it is not neural at all.
+
+The limb's segments are mechanically linked, so muscle lengths are already correlated with limb-axis variables before any neuron does anything. A global representation could therefore arise from <strong>biomechanics</strong> rather than from spinal processing — the same "accessory structures compute for free" point §4.3 makes about cochlear stiffness gradients and Pacinian lamellae.
+
+Bosco and Poppele posed exactly this question and tested it, by decoupling limb geometry from endpoint position during passive step-cycle trajectories [@bosco2003]. About half of the 89 cells studied changed their response pattern under the perturbations. Under joint constraints the changes were accounted for by re-weighting the <em>same</em> response components, which supports genuine global processing. Under muscle stimulation, additional components appeared and stimulus parameters were explicitly represented — which does not.
+
+So the honest reading is <strong>partly neural, partly biomechanical, and the split is not cleanly quantified.</strong> The transformation is real and it does happen early, which is what the course's argument needs. But "the nervous system recodes into limb coordinates" credits neurons with work the skeleton is doing some of, and the course should not repeat that.
+</x-callout>
 
 <x-figure src="content/07-proprioception/figures/clarke-recoding.js"
   caption="The same step cycle in two bases. Individual muscle lengths are a tangle of phase-shifted signals; limb axis length and orientation are smooth and interpretable, and are what Clarke's nucleus neurons actually report. The second view plots the cycle in the limb basis, where it becomes a simple closed loop — the transformation adds no information, it makes existing structure legible to the consumer.">

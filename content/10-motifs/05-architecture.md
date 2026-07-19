@@ -62,7 +62,7 @@ The subtlety, and the reason this is worth stating formally: the argument forces
 
 Lesson 6, and the one most likely to redirect a research programme.
 
-The demonstration is proprioceptive. Clarke's nucleus recodes muscle lengths into global limb variables by the second synapse — not because muscle length is a bad thing to represent, but because the consumer is the cerebellum, running a forward model for control, and it wants limb-level variables [@wolpert1995]. The first circuit is performing a coordinate transformation, not a decorrelation.
+The demonstration is proprioceptive. Clarke's nucleus recodes muscle lengths into global limb variables by the second synapse — not because muscle length is a bad thing to represent, but because the consumer is the cerebellum, running a forward model for control, and it wants limb-level variables [@bosco2001]. The caveat from §7.5 applies — the limb's mechanics supply part of the recoding for free [@bosco2003] — and it sharpens the olfactory version rather than weakening it: the nose has almost no accessory structure, so a bulb doing this job would have to pay for all of it neurally. The first circuit is performing a coordinate transformation, not a decorrelation.
 
 The second demonstration is gustatory. Taste collapses hundreds of bitter compounds onto one axis because the consumer makes one binary decision under a wildly asymmetric loss [@chandrashekar2006]. Vision preserves metric detail because its consumers are open-ended and unknown in advance.
 

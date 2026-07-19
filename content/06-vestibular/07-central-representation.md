@@ -13,7 +13,11 @@ Area **MSTd** in macaque contains neurons responsive to both visual optic flow a
 
 The setup: train an animal to judge heading direction from visual optic flow alone, vestibular motion alone, or both together. Bayesian theory predicts that combined-cue performance should exceed either single cue, with the two weighted by their **reliabilities** — and that changing the reliability of one cue (by degrading the visual stimulus) should shift the weights accordingly.
 
-Both predictions hold, behaviourally and in the neurons: MSTd responses to combined cues reflect reliability-weighted combination, and the weighting shifts when reliability is manipulated.
+Both predictions hold, behaviourally and in the neurons: MSTd responses to combined cues reflect reliability-weighted combination, and the weighting shifts when reliability is manipulated [@fetsch2011].
+
+**With one qualification that is worth more than the headline.** The animals are *near*-optimal rather than optimal — the measured weights show modest but reproducible deviations from the Bayesian prediction. What makes the result compelling is not that the deviations are absent but that **population decoding of MSTd predicted the behavioural weights including the deviations** [@fetsch2011]. The neurons track the shortfall, not just the ideal.
+
+That is a better outcome for the normative programme than exact optimality would have been, and the reason is methodological. A theory that predicts only the optimum has one prediction and passes or fails it. A theory whose neural implementation predicts the *specific way* behaviour falls short of the optimum is being tested at many more points, and §0.2's fourth criterion — a risky prediction that could have failed — is satisfied far more stringently. **Take this as the template for what a confirmed normative account actually looks like**: not a system doing the ideal thing, but a system whose departures from the ideal are themselves predicted by the implementation.
 
 <x-figure src="content/06-vestibular/figures/cue-combination.js"
   caption="Reliability-weighted combination. The combined estimate is narrower than either cue alone, and dragging visual reliability down slides it toward the vestibular estimate — by the predicted amount, in behaviour and in MSTd. Then add conflict: at large disagreement the right answer is to segregate rather than average, which is causal inference rather than cue combination.">

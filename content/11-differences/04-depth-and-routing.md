@@ -92,6 +92,14 @@ Made that way, olfaction is not behind. It is approximately where vision is at t
 
 One further consequence, less reassuring. Depth is where intermediate representations get built, and a system with fewer stages has fewer places to put them. Audition builds sound-source location across six synapses because it must construct a variable the cochlea never measures. If olfaction needs to construct source location — a variable the receptor array equally never measures — it has two synapses to cortex in which to do it, and no obligatory relay in which to do it. Either the construction happens in the bulb, or it happens in or after piriform, or it happens on a pathway nobody has looked at. The datasheet does not record an answer, and the honest entry is **unmeasured**.
 
+## A note on what "obligatory" was doing
+
+One last piece of bookkeeping, because it changes how the whole row should be read. "Obligatory relay" is scored as a binary and the entries are LGN, IC and MGB, VPL, none. But obligatory is a claim about anatomy — that no ascending fibre reaches cortex without synapsing — and the interesting question is functional. Gustation has a thalamic relay and a two-to-three-synapse rejection reflex that never uses it. Proprioception has both routes at once. Touch has both routes at once.
+
+So four of the seven modalities have *parallel* routing, one relayed and one not, serving different consumers. Olfaction's distinction is not that it bypasses a relay; several modalities do. It is that it has **no relayed route at all** for its primary pathway — the thalamic connection to orbitofrontal cortex arrives after piriform rather than before it, which makes it a projection from cortex through thalamus to cortex, not a sensory relay.
+
+That reformulation is worth more than the binary. It says the comparative question is not "why is there no relay" but "why is the relay placed after the first cortical area instead of before it", and that is a question about what has to be computed at each stage rather than about evolutionary sequence.
+
 <x-mcq>
 <script type="application/json">
 {

@@ -9,7 +9,9 @@ estimatedMinutes: 12
 
 **Vestibular passes all five criteria of §0.2**, which nothing else in this course does.
 
-Measured ensemble (natural head motion). Physical constraints (two noisy sensors, known reliabilities, a provable ambiguity). A precisely stated objective (minimum-variance estimate of self-motion). Quantitative risky predictions (reliability-weighted cue combination, and the specific way weights shift). Confirmed, behaviourally and neurally [@angelaki2004].
+Measured ensemble (natural head motion). Physical constraints (two noisy sensors, known reliabilities, a provable ambiguity). A precisely stated objective (minimum-variance estimate of self-motion). Quantitative risky predictions (reliability-weighted cue combination, and the specific way weights shift). Confirmed, behaviourally and neurally [@angelaki2004; @fetsch2011].
+
+The confirmation is not that behaviour is optimal — it is measurably *near*-optimal, with reproducible deviations — but that MSTd population decoding predicts the behavioural weights including those deviations [@fetsch2011]. §6.7 argues this is a more stringent test than exact optimality would have been, and it is the standard the other modalities should be held to.
 
 **And the success is central, not peripheral.** MSTd and the brainstem–cerebellar circuits are where the account works, while the peripheral story — hair cells in various packages — is comparatively unremarkable.
 

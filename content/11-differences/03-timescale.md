@@ -35,6 +35,8 @@ The brief's Lesson 4 says the mismatch is "close to unique among the classical s
 
 **Olfaction.** ORNs follow roughly 5 Hz; behaviour uses 40 Hz. $\rho \approx 0.1$ — measured on both sides.
 
+One caution on that number. "ORNs follow roughly 5 Hz" describes the low-pass behaviour of the transduction cascade averaged over cells, and there is real heterogeneity underneath it: some ORNs are considerably faster, and the population's effective cutoff is not the same quantity as any single cell's. The ratio is therefore a summary of a distribution, and the tail of that distribution is exactly what the population arguments below need. Reporting $\rho$ as a single number is convenient and slightly dishonest, and the honest version is that the *typical* ORN is an order of magnitude too slow while the fastest are less so.
+
 The verdict: the claim holds against every classical modality where the ratio has been measured on both sides, and there is exactly one classical modality where it has not been measured and the result could go the other way. That is a defensible claim with a stated exposure, which is better than a universal.
 
 ## The claim is false if "classical" is dropped

@@ -72,7 +72,11 @@ The constructive version: state the olfactory problem as an estimation problem w
 
 ## 12.16 From §7.5 — the first circuit may be transforming coordinates, not decorrelating
 
-**Imported:** Clarke's nucleus recodes individual muscle lengths into whole-limb variables — axis length and orientation — **by the second synapse**, because that is the basis its consumer, the cerebellum, wants. The transformation adds no information. It makes existing structure legible to the consumer.
+**Imported:** Clarke's nucleus recodes individual muscle lengths into whole-limb variables — axis length and orientation — **by the second synapse**, because that is the basis its consumer, the cerebellum, wants [@bosco2001]. The transformation adds no information. It makes existing structure legible to the consumer.
+
+**With one caveat carried forward from §7.5**, because it affects how far the import travels: part of that global representation comes from the limb's mechanical linkages rather than from spinal processing, and the neural and biomechanical contributions have not been cleanly separated [@bosco2003]. The transformation is real and early; how much of it neurons perform is not settled.
+
+That caveat has a sharp consequence for the olfactory version. Olfaction has almost no accessory structure to do this kind of work for free — the nose does very little computation the way the cochlea or the limb skeleton does. **So if the bulb performs a coordinate transformation, it must pay for all of it neurally**, and the circuit should look correspondingly more elaborate than Clarke's nucleus rather than comparable to it.
 
 **Candidate analogue:** the olfactory bulb, doing the same kind of job.
 

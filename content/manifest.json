@@ -1,13 +1,13 @@
 {
   "title": "Comparative Sensory Processing",
   "description": "A graduate course on how sensory systems solve their computational problems — and on what the comparison between modalities reveals about olfaction.",
-  "version": "0.3",
+  "version": "1.0",
   "intro": [
     "Most sensory neuroscience is taught one modality at a time, as a tour of anatomy: receptors, then relays, then cortex. This course is organised the other way round. Each module begins with a computational problem — what must the animal infer, from what, under what loss, on what deadline — and treats the biology as evidence about how that problem is solved.",
     "The reason for doing it this way is comparative. Vision and audition have mature normative theories: we can derive retinal receptive fields and cochlear filters from the statistics of natural input and check the answer against the biology. Olfaction has no theory of comparable maturity. The wager of this course is that this gap is informative, and that the clearest route to a theory of smell runs through the modalities that already have one.",
     "So every module uses the same eleven-section skeleton, in the same order, so that §4 always means the receptor array whether you are reading about cones or odorant receptors. You should be able to read across modules as easily as down one. Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why."
   ],
-  "samplerNote": "Eight modalities in full, all using the identical eleven-section skeleton so they can be read across as easily as down. The remaining work is the synthesis modules — common motifs, key differences, and the full capstone.",
+  "samplerNote": "Eight modalities in full, all using the identical eleven-section skeleton so they can be read across as easily as down, plus the three synthesis modules: common motifs, key differences, and the capstone. The capstone ends with a ranked research agenda — the course's deliverable.",
   "modules": [
     {
       "id": "m00",
@@ -835,6 +835,56 @@
           "file": "05-architecture.md",
           "title": "Architecture",
           "blurb": "Pathway depth against deadlines, thalamus decomposed into services, stream splits and their anatomical signatures, and the consumer that determines the code. Lessons 6 and 7, and the ledger for all seven."
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "slug": "differences",
+      "dir": "11-differences",
+      "label": "Module 11",
+      "title": "Key Differences",
+      "blurb": "Five quantitative axes from the comparative datasheet, each stated as a prediction and checked against all eight modalities — including where it fails.",
+      "subsections": [
+        {
+          "id": "m11.s01",
+          "slug": "ordering-and-metric",
+          "sectionNumber": "11.1",
+          "file": "01-ordering-and-metric.md",
+          "title": "Ordering and metric",
+          "blurb": "The course's central claim, audited motif by motif and then attacked — six of fourteen motifs never needed a metric at all."
+        },
+        {
+          "id": "m11.s02",
+          "slug": "dimensionality",
+          "sectionNumber": "11.2",
+          "file": "02-dimensionality.md",
+          "title": "Dimensionality",
+          "blurb": "From D = 1 to D ≈ 1000. Why high dimensionality is olfaction's handicap for identity and its advantage for demixing — the same number, opposite signs."
+        },
+        {
+          "id": "m11.s03",
+          "slug": "timescale",
+          "sectionNumber": "11.3",
+          "file": "03-timescale.md",
+          "title": "Timescale and the sensor–signal ratio",
+          "blurb": "A sensor an order of magnitude too slow for structure animals demonstrably use, and the one other sense with the same problem — which has already solved it."
+        },
+        {
+          "id": "m11.s04",
+          "slug": "depth-and-routing",
+          "sectionNumber": "11.4",
+          "file": "04-depth-and-routing.md",
+          "title": "Depth and routing",
+          "blurb": "Two synapses to cortex, five to action, no obligatory relay. Testing the antiquity explanation against spinocerebellar bypass, and reporting what survives."
+        },
+        {
+          "id": "m11.s05",
+          "slug": "the-consumer",
+          "sectionNumber": "11.5",
+          "file": "05-the-consumer.md",
+          "title": "What the consumer wants",
+          "blurb": "The loss function as a design variable — the only axis here that never fails, and why that should make you uneasy rather than satisfied."
         }
       ]
     },

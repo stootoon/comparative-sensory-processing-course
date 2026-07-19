@@ -382,5 +382,29 @@
     "venue": "Nature 464(7291):1006–1011",
     "doi": "10.1038/nature08943",
     "note": "TRPA1 as the infrared transducer — a nociceptive channel repurposed as an imaging sensor."
+  },
+  "bosco2001": {
+    "authors": "Bosco, G. & Poppele, R. E.",
+    "year": 2001,
+    "title": "Proprioception from a spinocerebellar perspective",
+    "venue": "Physiological Reviews 81(2):539–568",
+    "doi": "10.1152/physrev.2001.81.2.539",
+    "note": "The source of the global-limb-variable claim. Note the review is explicit that the global representation originates partly in the biomechanical linkages of the limb, not in neural processing alone."
+  },
+  "bosco2003": {
+    "authors": "Bosco, G. & Poppele, R. E.",
+    "year": 2003,
+    "title": "Modulation of dorsal spinocerebellar responses to limb movement. II. Effect of sensory input",
+    "venue": "Journal of Neurophysiology 90(5):3372–3383",
+    "doi": "10.1152/jn.00204.2003",
+    "note": "Decouples limb geometry from endpoint position to ask whether the global representation is neural or biomechanical. About half of 89 cells changed response pattern; muscle stimulation revealed explicit representation of stimulus parameters. The answer is partly neural, not wholly."
+  },
+  "fetsch2011": {
+    "authors": "Fetsch, C. R., Pouget, A., DeAngelis, G. C. & Angelaki, D. E.",
+    "year": 2011,
+    "title": "Neural correlates of reliability-based cue weighting during multisensory integration",
+    "venue": "Nature Neuroscience 15(1):146–154",
+    "doi": "10.1038/nn.2983",
+    "note": "The direct neural test. MSTd population decoding predicted behavioural cue weighting including its modest deviations from optimality — so the animals are near-optimal rather than optimal, and the neurons track the shortfall."
   }
 }

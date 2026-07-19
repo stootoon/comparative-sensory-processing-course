@@ -7,7 +7,7 @@ estimatedMinutes: 12
 
 ## Scoring the theories
 
-**What works.** State estimation is the right frame and it is well supported [@wolpert1995]. The recoding into global limb variables at Clarke's nucleus is a clean demonstration that the code serves the consumer. The low intrinsic dimensionality of natural movement is measured and makes the transformation tractable.
+**What works.** State estimation is the right frame and it is well supported [@wolpert1995]. The recoding into global limb variables at Clarke's nucleus is the course's best demonstration that the code serves the consumer [@bosco2001] — though §7.5 records the caveat that the limb's mechanical linkages supply part of the transformation for free, so the neural contribution is real but not cleanly quantified [@bosco2003]. The low intrinsic dimensionality of natural movement is measured and makes the transformation tractable.
 
 **What is unusual.** Efficient coding barely features. Nobody derives spindle tuning from the statistics of natural movement the way retinal filters are derived from image statistics — and the reason is that proprioception is not obviously trying to transmit information about its input faithfully. It is trying to support control.
 
