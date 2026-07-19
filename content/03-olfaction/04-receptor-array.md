@@ -13,6 +13,13 @@ Mammals express a large family of odorant receptor genes — roughly 400 functio
 
 Neurons expressing the same receptor are scattered across the epithelium but converge onto one or a few **glomeruli** in the olfactory bulb, with convergence ratios in the thousands. So the glomerular array is a map of *receptor identity*, and each glomerulus reports the total activation of one receptor type.
 
+<x-figure src="content/media/orn-glomeruli.jpg"
+  caption="The wiring that sentence describes. Each colour is one receptor type. Note that same-coloured neurons are NOT neighbours in the epithelium — they are scattered, and their axons cross over one another to reach the glomerulus of matching colour. The sorting is chemical, not spatial. A retina wired this way, with axons ignoring position and sorting by some other property, would be unable to see."
+  credit="Wikimedia Commons user “Noodle brain”, 2017. CC BY-SA 4.0, reproduced unmodified apart from downscaling."
+  source="https://commons.wikimedia.org/wiki/File:Olfactory_Sensory_Neurons_innervating_Olfactory_Glomeruli.jpg">
+</x-figure>
+
+
 The code is combinatorial: one receptor responds to many odorants, one odorant activates many receptors, and identity is carried by the pattern across the array [@malnic1999]. Slight changes in a molecule, or in its concentration, change the pattern.
 
 <x-figure src="content/03-olfaction/figures/combinatorial-code.js"

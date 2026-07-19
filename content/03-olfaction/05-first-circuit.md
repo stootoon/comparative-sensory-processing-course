@@ -88,9 +88,20 @@ Treat odour recognition as inference in a linear model: a small number of source
 
 The bulb does not have all-to-all connectivity. Nothing in the brain does.
 
-The resolution turns on the bulb's *sister cells* — multiple mitral cells receiving input from the same glomerulus, previously hard to account for functionally. Distributing the inference across sister cells reaches the MAP solution using **sparse** connectivity [@tootoonian2022]. Redundancy that looked wasteful turns out to be what makes biologically plausible connectivity sufficient.
+So either the bulb is not doing this computation, or it is doing it by some route that does not need dense wiring.
 
-This is a good example of a normative argument doing real work: it takes an anatomical feature that had no functional story and shows it is required by a computation the system must perform anyway.
+One proposal starts from the bulb's *sister cells* — the several mitral cells that receive input from the same glomerulus, and whose redundancy has no obvious functional explanation. If the inference is distributed across sisters rather than concentrated in one cell per glomerulus, an algorithm exists that provably reaches the MAP solution using only **sparse** connectivity [@tootoonian2022]. On that reading, the apparent redundancy is what makes biologically plausible wiring sufficient.
+
+<x-callout class="x-callout is-key">
+<div class="x-callout-title">How much this is, and is not, established</div>
+This is a <strong>proof of possibility, not a claim about what the bulb does.</strong> It shows the computation is achievable under a realistic connectivity constraint, and it makes sister cells a candidate solution to a real problem rather than an anatomical curiosity. It does not show the bulb uses this algorithm, and there are other accounts of sister cells — differences in their response properties and downstream targets suggest they may not be interchangeable in the way the model assumes.
+
+Hold it against the five criteria from §0.2 and it scores well on constraint and objective, poorly on the measured ensemble, and it has not yet made a risky prediction that has been checked. That is a normal and useful position for a theory to occupy. It is not the same as being right.
+</x-callout>
+
+Worth noting what the argument *does* buy regardless of whether the specific algorithm is correct. It reframes a piece of anatomy that had no functional story into a candidate answer to a well-posed question — and it identifies what would count as evidence. If sister cells are implementing distributed inference, their responses should be systematically related in a way the model specifies, and that relationship should be measurable.
+
+**This is the pattern to take from the section**, and it recurs everywhere in the course: a normative framework rarely proves what a circuit does. What it reliably does is turn "why is this here?" into "here is a computation that would need exactly this, and here is what you would measure to find out."
 
 ## Parallel output channels
 

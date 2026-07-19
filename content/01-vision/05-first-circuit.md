@@ -7,6 +7,19 @@ estimatedMinutes: 20
 
 The retina is not a relay. Between photoreceptor and optic nerve sit three synaptic layers and more than a dozen interneuron classes, and the signal leaving is profoundly transformed from the signal arriving. Roughly $10^8$ photoreceptors converge onto about $10^6$ ganglion cells — a hundredfold compression — and the retina decides what survives.
 
+<x-figure src="content/media/cajal-retina.jpg"
+  caption="Cajal's drawing of the mammalian retina, c. 1900. Light enters from below in this orientation and travels through the ganglion and inner nuclear layers before reaching the photoreceptors at the top — the retina is built back to front. Every cell class in the circuit below is visible here: rods and cones (a, b), horizontal cells (e), bipolars (f, g), amacrines (h), and ganglion cells (i, j). Cajal inferred the direction of signal flow from morphology alone, before any of it could be recorded."
+  credit="Santiago Ramón y Cajal, c. 1900. Public domain. Original held by Instituto Cajal, CSIC, Madrid."
+  source="https://commons.wikimedia.org/wiki/File:Cajal_Retina.jpg">
+</x-figure>
+
+<x-figure src="content/media/retina-organization.png"
+  caption="The same circuit as a modern schematic, with the layer abbreviations you will meet in the literature: ONL outer nuclear layer, OPL outer plexiform, INL inner nuclear, IPL inner plexiform, GCL ganglion cell layer. P photoreceptor, H horizontal, B bipolar, A amacrine, G ganglion. Note that the two lateral cell classes — horizontal and amacrine — sit in the two plexiform layers, exactly where the vertical pathway is relayed. That placement is what lets them intercept and subtract."
+  credit="Suh B, Baccus SA. CC BY 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Organization_of_the_retina.png">
+</x-figure>
+
+
 ## Centre–surround as predictive coding
 
 The canonical retinal computation is the antagonistic centre–surround receptive field: a ganglion cell excited by light in a small central region and inhibited by light in an annulus around it.

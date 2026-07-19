@@ -33,6 +33,28 @@ class FigureElement extends HTMLElement {
       this.appendChild(caption);
     }
 
+    // Attribution travels with the image, not in a file nobody opens.
+    // Reused images carry a licence obligation; rendering the credit next to
+    // the figure is both the correct thing to do and the only way it stays
+    // attached when someone screenshots a section.
+    const credit = this.getAttribute('credit');
+    if (credit) {
+      const line = document.createElement('p');
+      line.className = 'x-figure-credit';
+      const source = this.getAttribute('source');
+      line.textContent = credit;
+      if (source) {
+        line.append(' ');
+        const link = document.createElement('a');
+        link.href = source;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = 'source ↗';
+        line.appendChild(link);
+      }
+      this.appendChild(line);
+    }
+
     this.canvasHost.innerHTML = '<div class="x-figure-loading">Loading figure…</div>';
 
     const observer = new IntersectionObserver(

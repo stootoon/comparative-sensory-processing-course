@@ -78,6 +78,13 @@ The normative consequence is direct: **a modality whose input statistics are non
 
 This may be the best available normative rationale for two otherwise puzzling features of the olfactory bulb: its extreme plasticity, and adult neurogenesis — the continuous addition of new granule cells throughout life, in a structure two synapses from the sensory surface. If the decorrelating transformation must track a moving target, then machinery for continuously rebuilding that transformation stops looking like a developmental oddity and starts looking like a requirement.
 
+<x-figure src="content/media/mouse-bulb-20x.jpg"
+  caption="Newly generated neurons (green) in the adult mouse olfactory bulb, against a neuronal marker (red). The bulb keeps adding neurons for the animal's whole life — something no other sensory structure at this depth does, and which looks gratuitous until you ask what it would take to keep an efficient code matched to statistics that will not hold still."
+  credit="Jason Snyder, 2010. CC BY 2.0, reproduced unmodified apart from downscaling."
+  source="https://commons.wikimedia.org/wiki/File:Mouse_olfactory_bulb_@_20x_(4864327869).jpg">
+</x-figure>
+
+
 <x-free-response>
 <script type="application/json">
 {
