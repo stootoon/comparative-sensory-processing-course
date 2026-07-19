@@ -789,6 +789,56 @@
       ]
     },
     {
+      "id": "m10",
+      "slug": "motifs",
+      "dir": "10-motifs",
+      "label": "Module 10",
+      "title": "Common Motifs",
+      "blurb": "The seven lessons promised in §0.0, discharged against the assembled comparative record. Five motif families, each ending in a concrete falsifiable prediction for olfaction, with the absent-versus-unmeasured distinction as the running theme.",
+      "subsections": [
+        {
+          "id": "m10.s01",
+          "slug": "sampling",
+          "sectionNumber": "10.1",
+          "file": "01-sampling.md",
+          "title": "Sampling",
+          "blurb": "Active sensing, the 4–12 Hz band and its three competing explanations, efference copy, and sampling as optimal experiment design. Lessons 1 and 5."
+        },
+        {
+          "id": "m10.s02",
+          "slug": "early-computation",
+          "sectionNumber": "10.2",
+          "file": "02-early-computation.md",
+          "title": "Early computation",
+          "blurb": "Divisive normalisation, whitening and its SNR reversal, convergence for signal-to-noise, and predictive subtraction — four operations with four different derivations. Lessons 1, 2 and 5."
+        },
+        {
+          "id": "m10.s03",
+          "slug": "central-representation",
+          "sectionNumber": "10.3",
+          "file": "03-central-representation.md",
+          "title": "The central representation",
+          "blurb": "Expansion recoding, sparseness, recurrence, and maps — four motifs the vision-trained reader receives as one package, separated by the modality that has three of them and not the fourth. Lesson 3."
+        },
+        {
+          "id": "m10.s04",
+          "slug": "dynamics",
+          "sectionNumber": "10.4",
+          "file": "04-dynamics.md",
+          "title": "Dynamics",
+          "blurb": "Adaptation across four decades of time, splitting into complementary channels for three distinct reasons, and how a population compensates for a sensor slower than its signal. Lessons 4 and 7."
+        },
+        {
+          "id": "m10.s05",
+          "slug": "architecture",
+          "sectionNumber": "10.5",
+          "file": "05-architecture.md",
+          "title": "Architecture",
+          "blurb": "Pathway depth against deadlines, thalamus decomposed into services, stream splits and their anatomical signatures, and the consumer that determines the code. Lessons 6 and 7, and the ledger for all seven."
+        }
+      ]
+    },
+    {
       "id": "m12",
       "slug": "mirror",
       "dir": "12-capstone",
