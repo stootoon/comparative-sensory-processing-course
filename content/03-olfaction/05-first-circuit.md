@@ -9,6 +9,11 @@ The olfactory bulb occupies the structural position the retina occupies in visio
 
 The parallel is close enough to be worth pushing hard, and it breaks in exactly the informative places.
 
+<x-figure src="content/03-olfaction/figures/olfactory-pathway.js"
+  caption="The olfactory pathway, drawn to be set beside the retinal circuit in §1.5. Same parts list — receptors, massive convergence, lateral inhibition, parallel output cells — but note that the receptor neurons are interleaved in the epithelium: their spatial arrangement carries no information, and only chemical identity determines where they project. The second view puts the synapse counts side by side.">
+</x-figure>
+
+
 ## Convergence: the same argument, more extreme
 
 Thousands of receptor neurons expressing the same receptor converge onto a single glomerulus — ratios in the low thousands in mouse, roughly 50 in *Drosophila*.

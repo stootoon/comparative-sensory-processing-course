@@ -13,6 +13,11 @@ The canonical retinal computation is the antagonistic centre–surround receptiv
 
 The predictive-coding reading of this is precise and worth stating properly [@srinivasan1982]. The surround computes a weighted average of the neighbourhood — a *statistical prediction* of the centre, given the spatial correlations of natural scenes. That prediction is subtracted from the actual centre signal. What the ganglion cell transmits is the residual: the part the surround could not predict.
 
+<x-figure src="content/01-vision/figures/retina-circuit.js"
+  caption="The circuit that produces it. Horizontal cells pool across a wide lateral extent and feed back negatively onto the photoreceptor–bipolar synapse; that pooled average is the prediction being subtracted. Isolate each pathway with the selector. The centre–surround receptive field is not an abstraction imposed on the retina — it is what this wiring does.">
+</x-figure>
+
+
 ### A worked example
 
 Abstract statements about dynamic range become concrete quickly with numbers.

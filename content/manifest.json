@@ -15,9 +15,17 @@
       "dir": "00-toolkit",
       "label": "Module 0",
       "title": "The Normative Toolkit",
-      "blurb": "Shared vocabulary: three normative stances, and why efficient coding predicts opposite things at high and low SNR.",
+      "blurb": "Why the comparison works, the lessons it yields, and the shared vocabulary the modality modules assume.",
       "open": true,
       "subsections": [
+        {
+          "id": "m00.s00",
+          "slug": "why-compare",
+          "sectionNumber": "0.0",
+          "file": "00-why-compare.md",
+          "title": "Why compare modalities",
+          "blurb": "Sensory systems as natural experiments, and the seven lessons the course is built around."
+        },
         {
           "id": "m00.s01",
           "slug": "three-stances",

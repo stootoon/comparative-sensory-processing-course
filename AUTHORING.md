@@ -231,6 +231,45 @@ export function draw(root, values, { createPlot, sample }) {
 `draw` is called on every control change and must rebuild from scratch — the
 host clears the container first.
 
+### Circuit diagrams
+
+Anatomy figures use `createDiagram` instead of `createPlot`. They are drawn in
+code rather than shipped as `.svg` so they inherit the theme (an exported SVG is
+stuck with the colours it was drawn in and looks wrong in dark mode), can be
+annotated interactively, and stay editable by someone who can read JavaScript
+but does not own a drawing program.
+
+```js
+export function draw(root, values, { createDiagram }) {
+  const d = createDiagram(root, { width: 760, height: 470, title: '…' });
+
+  // Anatomy on the left; `extent` keeps the bands clear of the notes column.
+  d.layer(66, 62, 'photoreceptors', { className: 'alt', extent: 430 });
+
+  const cell = d.cell(264, 92, {
+    r: 8, className: 'receptor', label: 'bipolar',
+    dendrites: { width: 26, height: 18, up: true },
+    axon: { to: 210 },
+  });
+
+  d.connect(from, to, { sign: 'inhibit' });   // 'excite' → arrowhead, 'inhibit' → bar
+  d.blob(130, 192, 17, { label: 'G1' });      // glomerulus or other neuropil
+  d.bracket(424, 140, 178, 'lateral spread', { side: 'left' });
+
+  // The reason these figures exist: computation called out beside anatomy.
+  d.note(460, 96, ['SURROUND', 'horizontal cells pool over a', 'wide lateral extent…']);
+}
+```
+
+Cell classes (`receptor`, `excite`, `inhibit`, `output`, `dim`) colour the soma,
+dendrites, and axon together and are theme-aware.
+
+**The house rule for anatomy figures:** never draw a circuit without saying what
+it computes. Every diagram puts the anatomy on the left and a `note()` column on
+the right explaining what each part does computationally. A picture of a retina
+that does not connect to centre–surround is a picture the reader could have got
+from any textbook.
+
 Plot API: `line`, `area`, `points`, `bars`, `vline`, `hline`, `annotate`,
 `legend`. Series colours are `series-1` … `series-5`, theme-aware in light and
 dark. Data is clipped to the plot rectangle, so curves running off the domain

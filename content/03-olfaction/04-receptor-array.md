@@ -15,6 +15,11 @@ Neurons expressing the same receptor are scattered across the epithelium but con
 
 The code is combinatorial: one receptor responds to many odorants, one odorant activates many receptors, and identity is carried by the pattern across the array [@malnic1999]. Slight changes in a molecule, or in its concentration, change the pattern.
 
+<x-figure src="content/03-olfaction/figures/combinatorial-code.js"
+  caption="The combinatorial code, made concrete. No single glomerulus is the odorant and none is private to it — identity is the whole pattern. Drag the receptor count down to three and watch two odorants become confusable: that is the quantitative reason olfaction keeps hundreds of channels where vision manages with three.">
+</x-figure>
+
+
 So far this sounds like trichromacy with more channels. It is not, and the differences are the point.
 
 ## The array is unordered

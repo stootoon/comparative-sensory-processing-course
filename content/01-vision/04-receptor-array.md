@@ -41,6 +41,11 @@ The physical stimulus is a spectral power distribution — a function of wavelen
 
 This is drastic dimensionality reduction, and it is lossy in a specific and interesting way. Two physically different spectra that produce identical $(L, M, S)$ triplets are **metamers**: indistinguishable, permanently, by any downstream process. Colour vision is not measuring the spectrum. It is measuring a three-dimensional projection of it and discarding the rest.
 
+<x-figure src="content/01-vision/figures/cone-spectra.js"
+  caption="The three cone pigments, and what their overlap costs. L and M peak only about 30 nm apart, so their responses to natural surfaces are correlated at r ≈ 0.95 — nearly redundant channels. The second view plots those responses against each other and shows the cloud collapsing onto a line, which is exactly the structure the opponent transform removes.">
+</x-figure>
+
+
 Why is that acceptable? Because three dimensions capture most of the variance in *natural* reflectance spectra, which are smooth and well described by a handful of basis functions. The system is optimised for the spectra it actually encounters, and metamerism is the price — paid, ordinarily, without cost.
 
 <x-matrix>

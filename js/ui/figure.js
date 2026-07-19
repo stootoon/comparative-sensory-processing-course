@@ -11,6 +11,7 @@
 
 import { url, authorError } from '../base.js';
 import { createPlot, createControls, sample } from '../plot.js';
+import { createDiagram } from '../diagram.js';
 
 class FigureElement extends HTMLElement {
   connectedCallback() {
@@ -93,7 +94,7 @@ class FigureElement extends HTMLElement {
     const redraw = (values) => {
       plotHost.replaceChildren();
       try {
-        module.draw(plotHost, values, { createPlot, sample });
+        module.draw(plotHost, values, { createPlot, sample, createDiagram });
       } catch (error) {
         authorError(this.src, `draw() threw: ${error.message}`);
         plotHost.innerHTML = `<div class="x-figure-error">${error.message}</div>`;
