@@ -1,0 +1,122 @@
+[
+  {
+    "file": "content/media/apteronotus-black-ghost-knifefish.jpg",
+    "topic": "Weakly electric fish: Apteronotus albifrons (black ghost knifefish), lateral view",
+    "caption_hint": "The black ghost knifefish Apteronotus albifrons, a wave-type gymnotiform. Note the long undulating anal fin used for ribbon-fin swimming, which keeps the body rigid and straight so that the self-generated electric field is not distorted by locomotion.",
+    "credit": "Clinton & Charles Robertson. CC BY 2.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Apteronotus_albifrons.jpg",
+    "licence": "CC BY 2.0"
+  },
+  {
+    "file": "content/media/eigenmannia-virescens.jpg",
+    "topic": "Weakly electric fish: Eigenmannia virescens (glass knifefish)",
+    "caption_hint": "Eigenmannia virescens, the glass knifefish. A wave-type gymnotiform whose near-sinusoidal electric organ discharge underlies the classic jamming avoidance response, in which two fish with similar discharge frequencies shift apart in frequency.",
+    "credit": "Luis Ruiz Berti. CC BY-SA 3.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Eigenmannia_virescens_000.jpg",
+    "licence": "CC BY-SA 3.0"
+  },
+  {
+    "file": "content/media/electric-image-scene-analysis.jpg",
+    "topic": "Electric field lines around a weakly electric fish and the electric image cast by conductive vs non-conductive objects",
+    "caption_hint": "Active electrolocation. The electric organ in the tail (blue) generates a field (cyan) sensed across the electroreceptive skin. A conductive object (left, plant) draws field lines in and brightens the local electric image; a non-conductive object (right, stone) spreads them and casts an electrical shadow. Two electric foveas at the snout and chin are used to inspect objects.",
+    "credit": "Chiswick Chap, after Lewicki, Olshausen, Surlykke & Moss. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Scene_analysis_in_electroreception_coloured.jpg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/eod-waveform-paramormyrops.png",
+    "topic": "Electric organ discharge (EOD) waveform, recorded from two Paramormyrops specimens",
+    "caption_hint": "Electric organ discharge waveforms from two Paramormyrops hopkinsi specimens collected in the Ivindo River, Gabon. The EOD is a stereotyped biphasic pulse lasting roughly a millisecond; the small head-negative pre-pulse (shown at 20x gain) and the late tail phase (arrows) differ between the male and female, and such waveform details carry species and sex identity.",
+    "credit": "Cdh8 (Wikimedia Commons). CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Electric_organ_discharge_waveform_for_Paramormyrops_hopkinsi.png",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/mormyromast-tuberous-electroreceptor.png",
+    "topic": "Tuberous electroreceptor structure: the mormyromast of mormyrid fish",
+    "caption_hint": "A mormyromast, the tuberous electroreceptor organ of mormyrid electric fish. The organ sits in an epidermal invagination open to the water, and contains two classes of receptor cell (A and B) with separate afferent nerve fibres, allowing amplitude and waveform of the returning electric image to be encoded independently.",
+    "credit": "Ian Alexander. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Mormyromast_diagram.svg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/ampullary-receptor-epithelium.png",
+    "topic": "Ampullary electroreceptor: sensory epithelium ultrastructure",
+    "caption_hint": "Sensory epithelium of an ampulla of Lorenzini. Receptor cells (rec) bearing a kinocilium (kc) are wedged between supporting cells (sc) with microvilli (mv), sealed by tight junctions (t) so that voltage drops across the apical membrane only, and drive afferent nerve endings (ne) through ribbon synapses (syn) at the basement membrane (bm).",
+    "credit": "Thomas Haslwanter. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Lorenzini_Sensory_Epithelium.png",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/ampullae-of-lorenzini-3d.png",
+    "topic": "Ampullae of Lorenzini: three-dimensional organisation of pore, jelly-filled duct and ampulla",
+    "caption_hint": "Three-dimensional organisation of the ampullae of Lorenzini in elasmobranchs. Each surface pore leads through a long, highly conductive jelly-filled duct to a deep ampulla innervated by a branch of the lateral line nerve, so that the receptor measures the voltage difference between the skin pore and the animal's interior. This geometry gives sharks sensitivity to fields below a microvolt per centimetre.",
+    "credit": "Chiswick Chap. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Ampullae_of_Lorenzini.svg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/lorenzini-pores-tiger-shark.jpg",
+    "topic": "Ampullary pores on the snout of a live tiger shark",
+    "caption_hint": "Pores of the ampullae of Lorenzini densely covering the underside of a tiger shark's snout. The clustered pore fields form the sampling array for passive electroreception, used to detect the bioelectric fields of buried or hidden prey at close range.",
+    "credit": "Albert Kok. CC BY-SA 3.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Lorenzini_pores_on_snout_of_tiger_shark.jpg",
+    "licence": "CC BY-SA 3.0"
+  },
+  {
+    "file": "content/media/echolocating-bat-myotis-flight.jpg",
+    "topic": "Echolocating bat in flight approaching prey",
+    "caption_hint": "An echolocating Bechstein's bat (Myotis bechsteinii) manoeuvring among foliage while approaching a moth resting on a leaf. Gleaning bats must resolve prey echoes against the dense background clutter returned by the surrounding vegetation.",
+    "credit": "Dietmar Nill, published in PLoS Computational Biology (2009). CC BY 2.5.",
+    "source": "https://commons.wikimedia.org/wiki/File:Myotis_bechsteinii-flying.jpg",
+    "licence": "CC BY 2.5"
+  },
+  {
+    "file": "content/media/bat-echolocation-spectrogram-buzz.jpg",
+    "topic": "Bat echolocation call spectrogram: search-phase FM sweeps followed by a terminal feeding buzz",
+    "caption_hint": "Oscillogram (top) and spectrogram (bottom) of a bat's echolocation sequence. Widely spaced downward frequency-modulated sweeps during the search phase give way, at the right of the trace, to the terminal feeding buzz: pulse rate rises sharply and call duration and bandwidth shrink as the bat closes on its target.",
+    "credit": "Xofc (Wikimedia Commons). CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Bat.nav%2Bbuzz.20250704_204120.jpg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/bat-auditory-cortex-map.jpg",
+    "topic": "Functional subdivisions of the mustached bat auditory cortex, including delay-tuned FM-FM area",
+    "caption_hint": "Functional areas of the bat auditory cortex: A, FM-FM area (delay-tuned neurons that respond to a pulse-echo pair at a specific delay, encoding target distance); B, CF-CF area; C, amplitude-sensitive area; D, frequency-sensitive (tonotopic) area; E, Doppler-shifted constant-frequency (DSCF) area, hugely over-representing the narrow band of echo frequencies used for velocity and wingbeat analysis. Note: the letter key is supplied here because it is not rendered in the figure itself.",
+    "credit": "Goran tek-en, after Kaldari. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Bat_Auditory_Cortex.svg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/rattlesnake-facial-pit-organs.jpg",
+    "topic": "Pit viper facial pit organ, photographed on a rattlesnake specimen",
+    "caption_hint": "The facial pit of a rattlesnake (circled), a deep opening between the eye and the nostril on each side of the head. The paired pits give the snake an overlapping pair of infrared receptive fields, functioning as a crude pinhole thermal imaging system.",
+    "credit": "Ryansnow (Wikimedia Commons). CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Heat_Sensing_Pits,_Rattlesnake.jpg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/crotaline-pit-organ-diagram.jpg",
+    "topic": "Internal anatomy of the crotaline (pit viper) pit organ",
+    "caption_hint": "Cross-section through the pit organ of a crotaline snake. A thin suspended pit membrane, densely innervated by a branch of the trigeminal nerve, is sandwiched between an anterior and a posterior air chamber. The air on both sides thermally isolates the membrane, so incoming infrared radiation warms it rapidly and the temperature change is transduced by TRPA1 channels in the trigeminal terminals.",
+    "credit": "Serpent nirvana (Wikimedia Commons). Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Diagram_of_the_Crotaline_Pit_Organ.jpg",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/cryptochrome-radical-pair-magnetoreception.jpg",
+    "topic": "Cryptochrome radical-pair mechanism for light-dependent magnetoreception",
+    "caption_hint": "Proposed radical-pair mechanism for magnetoreception. A blue photon absorbed by FAD in retinal cryptochrome transfers an electron from a tryptophan, creating a radical pair whose two unpaired electron spins interconvert between singlet and triplet states. The Earth's field biases the singlet-triplet ratio, altering the yield of the signalling state and hence the neural output, giving an inclination compass rather than a polarity compass.",
+    "credit": "Chiswick Chap. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Quantum_Magnetoreception_in_Birds.svg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/magnetotactic-bacteria-magnetosomes.jpg",
+    "topic": "Magnetotactic bacteria: TEM of intracellular magnetite magnetosome chains",
+    "caption_hint": "Transmission electron micrographs of magnetite magnetosomes in magnetotactic Alphaproteobacteria. (A) A chain of elongated magnetosomes inside a single cell; (B) double chains from a freshwater coccus; (C) high-resolution image of one crystal with (D) its electron diffraction pattern and (E) the reconstructed crystal habit. Aligned in a chain, the membrane-bound crystals act as a single permanent magnetic dipole that passively orients the cell along geomagnetic field lines.",
+    "credit": "Mihály Pósfai, Christopher T. Lefèvre, Denis Trubitsyn, Dennis A. Bazylinski & Richard B. Frankel, Frontiers in Microbiology 4:344 (2013). CC BY 3.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Alphaproteobacteria_magnetosomes.png",
+    "licence": "CC BY 3.0"
+  }
+]

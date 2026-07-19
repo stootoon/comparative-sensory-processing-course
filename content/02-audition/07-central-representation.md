@@ -7,6 +7,13 @@ estimatedMinutes: 14
 
 Primary auditory cortex is tonotopically organised, inheriting the cochlear frequency axis. Beyond that, the honest summary is that A1 has been harder to characterise than V1, and the difficulty is instructive.
 
+<x-figure src="content/media/tonotopic-map-human-cortex.jpg"
+  caption="Tonotopy in human auditory cortex, measured with high-field fMRI. The frequency gradient is real and reproducible — and note that it is inherited directly from the cochlear array (§2.4) rather than computed, exactly as retinotopy is inherited from the retina."
+  credit="Sandra Da Costa, Wietske van der Zwaag, Jose P. Marques, Richard S. J. Frackowiak, Stephanie Clarke, Melissa Saenz. CC BY-SA 3.0."
+  source="https://commons.wikimedia.org/wiki/File:Tonotopic_maps_in_human_auditory_cortex.jpg">
+</x-figure>
+
+
 ## The failure of the linear model
 
 The workhorse description of an A1 neuron is the **spectrotemporal receptive field** — the linear filter over the time-frequency representation that best predicts its response. STRFs are estimable and interpretable, and they do not work very well: for natural sounds a linear STRF typically captures a modest fraction of response variance.

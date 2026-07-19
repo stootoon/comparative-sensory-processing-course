@@ -1,0 +1,128 @@
+[
+ {
+  "file": "content/media/cone-mosaic-normal-vs-protanope.jpg",
+  "topic": "Human foveal cone mosaic, colour-normal vs protanope, from adaptive-optics imaging",
+  "caption_hint": "Pseudocoloured cone mosaics of the living human fovea imaged with adaptive optics. Left: colour-normal retina with interleaved L (red), M (green) and sparse S (blue) cones. Right: a protanope, whose L cones are absent so the mosaic is dominated by M cones. Note the near-total absence of S cones at the foveal centre and the clumpy, irregular L/M arrangement.",
+  "credit": "Mark Fairchild. CC BY-SA 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:ConeMosaics.jpg",
+  "licence": "CC BY-SA 3.0",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/cone-mosaic-chicken-retina.jpg",
+  "topic": "Avian (chicken) five-type photoreceptor mosaic, Voronoi tessellation",
+  "caption_hint": "The chicken retina packs five spectrally distinct cone types (four single cones plus double cones) into a single layer. Each cell's territory is drawn as a Voronoi polygon and coloured by type. Each type is individually 'hyperuniform' — spaced more evenly than chance — while the combined mosaic looks disordered. A useful comparative contrast with the clumpy primate L/M mosaic.",
+  "credit": "Jyfreesun (Wikimedia Commons). CC BY-SA 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Cones-mosaic.jpg",
+  "licence": "CC BY-SA 4.0",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/v1-orientation-map-pinwheels.jpg",
+  "topic": "Orientation preference map in cat V1 with pinwheel singularities",
+  "caption_hint": "Optical imaging of intrinsic signals in cat primary visual cortex. Each pixel is coloured by the stimulus orientation that drove it best (see key at left). Preference varies smoothly across the surface except at pinwheel centres (stars), point singularities where all orientations meet. This is the canonical demonstration that V1 maps orientation continuously across the cortical sheet.",
+  "credit": "Crair et al. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Pinwheel_orientation.jpg",
+  "licence": "CC BY 3.0",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/ventral-dorsal-streams.jpg",
+  "topic": "Ventral and dorsal visual streams on a lateral view of the human brain",
+  "caption_hint": "Two cortical processing streams leave primary visual cortex (V1, orange). The ventral 'what' stream (pink) runs into inferotemporal cortex and supports object and form recognition; the dorsal 'where/how' stream (green) runs into posterior parietal cortex and supports spatial localisation and visually guided action.",
+  "credit": "Andrey Vyshedskiy, Shreyas Mahapatra, Rita Dunn. CC BY 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Ventral_and_dorsal_stream_in_visual_information_processing.png",
+  "licence": "CC BY 4.0",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/lgn-layers-marmoset.jpg",
+  "topic": "Laminar organisation of the dorsal LGN in the marmoset (Nissl-stained coronal sections)",
+  "caption_hint": "Thionin-stained coronal sections through the marmoset dorsal lateral geniculate nucleus at three rostro-caudal levels. Dashed lines outline the external and internal parvocellular layers (PE, PI), the external and internal magnocellular layers (ME, MI), and the interleaved koniocellular layers (K1-K4). The laminae keep the magnocellular, parvocellular and koniocellular retinal channels segregated all the way to V1.",
+  "credit": "Santana NNM, da Silva MMO, Silva EHA, dos Santos SF, Bezerra LL, Escariao WKM, et al. (PLOS ONE), Fig. 1. CC BY 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Morphology_of_marmoset_dorsal_lateral_geniculate_nucleus_(DLG).png",
+  "licence": "CC BY 4.0",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/yarbus-scanpaths-task.jpg",
+  "topic": "Yarbus scanpaths over Repin's 'The Unexpected Visitor' under seven different tasks",
+  "caption_hint": "Eye-movement records from a single observer viewing the same painting for three minutes under seven different instructions. Fixations cluster on faces under 'give the ages of the people', but spread over the room and furnishings under 'remember the positions of objects'. Classic evidence that saccadic sampling is driven by the task, not by the image alone.",
+  "credit": "After Yarbus, A. L. (1967), Eye Movements and Vision, Plenum Press. Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Yarbus_The_Visitor.jpg",
+  "licence": "Public domain",
+  "module": "vision"
+ },
+ {
+  "file": "content/media/tonotopic-map-human-cortex.jpg",
+  "topic": "Tonotopic maps in human auditory cortex measured with 7T fMRI",
+  "caption_hint": "High-field fMRI tonotopy in human auditory cortex. Subjects heard pure-tone bursts cycling from 88 Hz to 8 kHz (A); voxels are coloured by preferred frequency, red for low and blue for high. Individual right-hemisphere maps (D) show a low-frequency band flanked by two high-frequency reversals, defining mirror-symmetric fields hA1 and hR in the group average (E).",
+  "credit": "Sandra Da Costa, Wietske van der Zwaag, Jose P. Marques, Richard S. J. Frackowiak, Stephanie Clarke, Melissa Saenz. CC BY-SA 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Tonotopic_maps_in_human_auditory_cortex.jpg",
+  "licence": "CC BY-SA 3.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/tonotopic-map-interpretations.jpg",
+  "topic": "Competing interpretations of the tonotopic gradient axis in human auditory cortex",
+  "caption_hint": "How the same tonotopic data can be parcellated. (A) Inflated left hemisphere with Heschl's gyrus outlined. (B) The classical interpretation places the A1/R gradient reversal along Heschl's gyrus; (C) the orthogonal interpretation rotates it; (D) additional high- and low-frequency regions outside the core. A good illustration that field boundaries in auditory cortex remain contested.",
+  "credit": "Michelle Moerel, Federico De Martino, Elia Formisano, Front. Neurosci. 8:225, Fig. 3. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Interpretations_of_tonotopic_maps_Fnins-08-00225-g003.jpg",
+  "licence": "CC BY 3.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/superior-olivary-complex-itd.png",
+  "topic": "Medial superior olive delay-line circuit for interaural time differences",
+  "caption_hint": "Schematic of the medial superior olive (orange) in a brainstem cross-section (inset). MSO principal cells receive excitation from both cochlear nuclei via axons of systematically differing length. Each cell fires maximally when the two inputs arrive together, so a given ITD excites a particular position along the nucleus — the Jeffress delay-line and coincidence-detection scheme.",
+  "credit": "Cristiane Tilelli (Wikimedia Commons). CC BY-SA 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Oliva_superior_medial.png",
+  "licence": "CC BY-SA 4.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/spectrogram-speech-vowels.jpg",
+  "topic": "Spectrogram of the vowels [i], [u] and [a] with formants marked",
+  "caption_hint": "Wideband spectrogram of three spoken vowels. Time runs left to right, frequency bottom to top, darkness codes energy. The horizontal bands are formants: F1 and F2 are labelled for each vowel. [i] has a low F1 and very high F2, [u] has both low, [a] has a high F1 — the acoustic signature the auditory system must extract to identify a vowel.",
+  "credit": "Wikimedia Commons contributor. CC BY 2.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Spectrogram_-iua-.png",
+  "licence": "CC BY 2.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/spectrogram-birdsong-warbler.jpg",
+  "topic": "Spectrogram (sonogram) of melodious warbler song",
+  "caption_hint": "Sonogram of ~25 s of melodious warbler (Hippolais polyglotta) song, frequency in Hz against time in seconds. Compared with speech, birdsong occupies a higher band (roughly 1-8 kHz here) and is built from rapid frequency-modulated sweeps and repeated syllable types — a natural stimulus with far faster spectrotemporal structure than a vowel.",
+  "credit": "Justin Jansen. Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Hippolais_polyglotta_song_spectrogram.png",
+  "licence": "Public domain",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/osn-glomerular-convergence.jpg",
+  "topic": "Convergence of olfactory sensory neurons onto glomeruli in the olfactory bulb",
+  "caption_hint": "Each olfactory sensory neuron in the epithelium expresses a single odorant receptor type (colours). Axons of all neurons expressing the same receptor, though scattered across the epithelium, converge onto one or two stereotyped glomeruli in the olfactory bulb, where they synapse onto mitral cells whose axons form the lateral olfactory tract. Receptor identity is thereby converted into a spatial map of glomerular activity.",
+  "credit": "Noodle brain (Wikimedia Commons). CC BY-SA 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Olfactory_Sensory_Neurons_innervating_Olfactory_Glomeruli.jpg",
+  "licence": "CC BY-SA 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/piriform-cortex-mouse.jpg",
+  "topic": "Piriform cortex lamination in mouse (fluorescence micrograph)",
+  "caption_hint": "Piriform cortex of a 14-day-old D2-eGFP mouse, immunostained for enkephalin (red) with DAPI nuclear counterstain (blue) and eGFP-positive cells in green. The densely packed cell band running across the upper part of the field is layer II, where the pyramidal cells that receive diffuse, non-topographic input from the olfactory bulb are concentrated; layer III lies below.",
+  "credit": "National Institutes of Health (NIH). Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Piriform_cortex_of_a_mouse.jpg",
+  "licence": "Public domain",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/drosophila-mushroom-body-mbons.jpg",
+  "topic": "Drosophila mushroom body output neurons registered to a standard brain",
+  "caption_hint": "Reconstructed mushroom body output neurons (MBONs) of Drosophila, each cell type in a different colour, registered to a template brain (frontal view; optic lobes at the sides). The MBON dendrites tile the mushroom body lobes into discrete compartments, each paired with its own dopaminergic input — the anatomical substrate for compartmentalised olfactory learning.",
+  "credit": "Aso et al. (2014), eLife, via eLife on Flickr. CC BY 2.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Drosophila_mushroom_body_output_neurons_(16017044898).jpg",
+  "licence": "CC BY 2.0",
+  "module": "olfaction"
+ }
+]

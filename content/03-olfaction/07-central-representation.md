@@ -7,6 +7,13 @@ estimatedMinutes: 18
 
 Piriform cortex receives mitral and tufted cell axons directly. It has three layers rather than six. And its most important structural fact is that **recurrent connections vastly outnumber afferent ones**: a piriform neuron receives far more input from other piriform neurons than from the bulb.
 
+<x-figure src="content/media/piriform-cortex-mouse.jpg"
+  caption="Piriform cortex. Note the dense cell-body layer and the absence of the six-layer organisation of neocortex — this is three-layer paleocortex, structurally closer to hippocampus than to V1. There is no topography here: neurons responding to the same odorant are scattered rather than clustered."
+  credit="National Institutes of Health (NIH). Public domain."
+  source="https://commons.wikimedia.org/wiki/File:Piriform_cortex_of_a_mouse.jpg">
+</x-figure>
+
+
 ## What piriform is not
 
 It is worth listing the ways the V1 analogy fails, because each failure is informative.

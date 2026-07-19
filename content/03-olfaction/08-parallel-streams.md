@@ -16,6 +16,13 @@ Mitral and tufted cells project in parallel to piriform cortex, anterior olfacto
 
 The invertebrate parallel is closer and better characterised, which is why the full course leans on it. In *Drosophila*, projection neurons target both the **mushroom body** — random connectivity, plastic, the site of learned associations — and the **lateral horn**, which is stereotyped across individuals and mediates innate responses, with an organisation reflecting behavioural category rather than chemical identity.
 
+<x-figure src="content/media/drosophila-mushroom-body-mbons.jpg"
+  caption="Mushroom body output neurons in Drosophila, registered to a standard brain. The mushroom body's compartmental organisation is what makes it the best-characterised associative structure in any olfactory system — and its random Kenyon cell connectivity (§3.4) is the invertebrate demonstration of expansion recoding."
+  credit="Aso et al. (2014), eLife, via eLife on Flickr. CC BY 2.0."
+  source="https://commons.wikimedia.org/wiki/File:Drosophila_mushroom_body_output_neurons_(16017044898).jpg">
+</x-figure>
+
+
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">A confirmed cross-modality import</div>
 §1.1 argued from gustation that a sense whose consumer makes one decision under an asymmetric loss should <em>collapse</em> distinctions, while one serving open-ended uses should preserve them.

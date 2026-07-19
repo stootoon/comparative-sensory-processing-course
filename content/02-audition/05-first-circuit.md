@@ -37,6 +37,13 @@ The classical proposal is the **Jeffress model**: axonal delay lines of graded l
 
 In the **barn owl**, this is essentially correct. Magnocellular axons act as delay lines whose conduction time varies systematically with depth in nucleus laminaris, laminaris neurons act as coincidence detectors, and the result is an orderly map of ITD [@carr1990]. Delay lines, coincidence detectors, place code — as proposed.
 
+<x-figure src="content/media/superior-olivary-complex-itd.png"
+  caption="The Jeffress scheme: axons of graded length act as delay lines, and coincidence detectors fire maximally when the delay exactly offsets the interaural time difference. The circuit exists as drawn in the barn owl. In small mammals the arrangement is different, and §2.5 argues the difference is a normative consequence of head size rather than a disagreement about mechanism."
+  credit="Cristiane Tilelli (Wikimedia Commons). CC BY-SA 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Oliva_superior_medial.png">
+</x-figure>
+
+
 In **small mammals**, it is not. Recordings in the inferior colliculus show a systematic relationship between a neuron's best frequency and its best ITD, such that the steepest part of each neuron's ITD tuning curve — the region of maximum slope, where discrimination is best — falls near the midline for every neuron regardless of frequency. That is not a place map. It is consistent with **two broad hemispheric channels**, with azimuth read out from the *balance* between them [@mcalpine2001].
 
 <details class="x-deeper">

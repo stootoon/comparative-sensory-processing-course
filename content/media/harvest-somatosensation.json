@@ -1,0 +1,98 @@
+[
+  {
+    "file": "content/media/somato-mechanoreceptors-skin.jpg",
+    "topic": "Labelled cross-section of hairy and glabrous skin showing Merkel, Meissner, Ruffini and Pacinian receptors plus free nerve and hair endings.",
+    "caption_hint": "The four encapsulated mechanoreceptor classes sit at different depths: Merkel discs and Meissner corpuscles superficially in the epidermal-dermal junction (small receptive fields, fine spatial acuity), Ruffini endings and Pacinian corpuscles deep in the dermis (large fields, sensitive to stretch and to high-frequency vibration). Note the split between hairy and glabrous skin - hair follicle receptors replace Meissner corpuscles in hairy skin.",
+    "credit": "Thomas Haslwanter. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Skin_proprioception.jpg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/somato-pacinian-gray935.jpg",
+    "topic": "Classic anatomical engraving of a Pacinian corpuscle in longitudinal section, showing the concentric lamellar capsule and the central nerve terminal.",
+    "caption_hint": "The onion-like capsule is the mechanical filter, not the transducer. Each lamella is separated by fluid, so a maintained indentation is dissipated by slippage between layers and never reaches the core axon (n). Only rapid changes in pressure are transmitted, which is why the Pacinian afferent is exquisitely rapidly adapting and tuned to vibration around 200-300 Hz. Strip the capsule away and the bare terminal becomes slowly adapting.",
+    "credit": "Henry Vandyke Carter, Gray's Anatomy (1918). Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Gray935.png",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-pacinian-histology.jpg",
+    "topic": "H&E histological section of a real Pacinian corpuscle in subcutaneous tissue, showing dozens of concentric lamellae around a central core.",
+    "caption_hint": "The real thing, next to the schematic: a Pacinian corpuscle in human subcutaneous tissue, roughly 1 mm across and visible to the naked eye - by far the largest of the cutaneous mechanoreceptors. Adipose tissue sits to the right. Count the lamellae to appreciate how much mechanical low-pass filtering is built into the accessory structure.",
+    "credit": "Mikael Haggstrom, M.D. CC0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Histology_of_a_Pacinian_corpuscle.jpg",
+    "licence": "CC0"
+  },
+  {
+    "file": "content/media/somato-meissner-micrograph.jpg",
+    "topic": "Light micrograph of glabrous skin with an arrow marking a Meissner corpuscle inside a dermal papilla.",
+    "caption_hint": "A Meissner corpuscle sits inside a dermal papilla, pushed right up against the epidermis. That superficial placement gives it a receptive field only a few millimetres across, and the density of these papillae on the fingertip is what sets the spatial resolution of fine touch.",
+    "credit": "OpenStax Anatomy and Physiology. CC BY 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:514_Light_Micrograph_of_a_Meissner_Corpuscle.jpg",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/somato-homunculus.jpg",
+    "topic": "Sensory homunculus draped over a coronal section of primary somatosensory cortex, with body parts labelled along the postcentral gyrus.",
+    "caption_hint": "Cortical territory in S1 is allocated by innervation density, not by body surface area. The hand, lips and tongue occupy a wildly disproportionate share of the postcentral gyrus while the trunk and legs are compressed - a magnification factor directly analogous to the foveal over-representation in V1. The somatotopic order runs from genitals and feet on the medial wall to face and pharynx laterally.",
+    "credit": "OpenStax College; derivative work by Popadius. CC BY 3.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:Sensory_Homunculus-en.svg",
+    "licence": "CC BY 3.0"
+  },
+  {
+    "file": "content/media/somato-dcml-gray759.jpg",
+    "topic": "Diagram of the dorsal column-medial lemniscal pathway from posterior nerve roots through gracile and cuneate nuclei, the sensory decussation, medial lemniscus, thalamus and cortex.",
+    "caption_hint": "The dorsal column-medial lemniscal route carries discriminative touch, vibration and proprioception. First-order afferents ascend ipsilaterally in fasciculus gracilis (lower body) and fasciculus cuneatus (upper body) without synapsing, terminate in the gracile and cuneate nuclei of the medulla, and only then cross at the sensory decussation to form the medial lemniscus. Because the crossing happens in the brainstem rather than the cord, a spinal lesion produces ipsilateral loss of fine touch - the diagnostic contrast with the spinothalamic tract.",
+    "credit": "Henry Vandyke Carter, Gray's Anatomy (1918). Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Gray759.png",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-two-point-discrimination.jpg",
+    "topic": "Psychometric functions for two-point discrimination (2PD) and two-point orientation discrimination (2POD) at fingertip, finger base, palm and forearm.",
+    "caption_hint": "Tactile spatial acuity measured psychophysically across the body. Performance saturates at a few millimetres of point separation on the fingertip but requires tens of millimetres on the forearm, tracking the innervation density gradient and, downstream, the cortical magnification seen in the homunculus. The authors also make the methodological point that classical 2PD (A) is confounded by non-spatial cues, and that an orientation-discrimination variant (B) gives a cleaner acuity estimate.",
+    "credit": "Tong J, Mao O, Goldreich D (2013), Front Hum Neurosci 7:579; uploaded by Commons user Conejo23. CC BY-SA 4.0.",
+    "source": "https://commons.wikimedia.org/wiki/File:2-point_orientation_discrimination_(2POD)_compared_to_traditional_two-point_discrimination_(2PD).jpg",
+    "licence": "CC BY-SA 4.0"
+  },
+  {
+    "file": "content/media/somato-barrel-cortex-layer4.jpg",
+    "topic": "Cytochrome oxidase stained tangential section of rat layer 4 somatosensory cortex showing the posteromedial barrel subfield, with individual barrels labelled by their corresponding whisker (A1-E1, arcs 2-7).",
+    "caption_hint": "Each dark cytochrome-oxidase-rich barrel in layer 4 receives input from exactly one whisker, and the barrels are arranged in the same rows and arcs as the whiskers on the snout. This is the clearest example anywhere in cortex of a receptor array being reproduced as discrete anatomical modules - a somatotopic map you can see in a single stained section rather than infer from recordings.",
+    "credit": "Commons user Imbrickle. Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Labeled40xVibrissae.jpg",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-whisker-pathways.jpg",
+    "topic": "Block diagram of the parallel lemniscal, extralemniscal and paralemniscal pathways from whisker follicle through trigeminal nuclei and thalamus to barrel cortex.",
+    "caption_hint": "Whisker information does not travel to cortex by one route. The lemniscal pathway (principal trigeminal nucleus to VPMdm to layer 4 barrels) carries the classic one-whisker-one-barrel signal, while the extralemniscal and paralemniscal streams route via caudal and rostral interpolaris to septa, S2 and layer 5. Parallel pathways with different response properties converging on the same cortical area is a recurring motif worth comparing with the auditory and visual modules.",
+    "credit": "Commons user Peterhaslehurst. Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Barrel_cortex_pathways.jpg",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-muscle-spindle.jpg",
+    "topic": "Schematic of a mammalian muscle spindle with intrafusal fibres, Ia and II afferents, gamma-static and gamma-dynamic motoneurons, shown alongside its spinal circuit.",
+    "caption_hint": "The muscle spindle is a length sensor wired in parallel with the extrafusal fibres. Ia afferents report both length and rate of change, group II afferents report static length. The key trick is efferent control: gamma motoneurons contract the intrafusal fibres so the spindle stays sensitive even while the whole muscle shortens. This is an unusually explicit case of the nervous system actively setting the operating point of its own receptor.",
+    "credit": "Kowalczewski & Prochazka (Neuromechanics). Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Muscle_spindle_model.jpg",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-golgi-tendon-organ.jpg",
+    "topic": "Schematic of a Golgi tendon organ at the musculotendinous junction, with the Ib afferent woven between collagen fascicles, plus its spinal circuit.",
+    "caption_hint": "The Golgi tendon organ is the force sensor to the spindle's length sensor. It sits in series with the muscle at the tendon junction, and the Ib afferent terminals are braided between collagen bundles so that tension squeezes the terminal directly. Pairing this figure with the spindle makes the complementarity explicit: length in parallel, force in series.",
+    "credit": "Kowalczewski & Prochazka (Neuromechanics). Public domain.",
+    "source": "https://commons.wikimedia.org/wiki/File:Tendon_organ_model.jpg",
+    "licence": "Public domain"
+  },
+  {
+    "file": "content/media/somato-piezo2-mechanogating.jpg",
+    "topic": "Schematic of the PIEZO2 mechanosensitive ion channel in closed and open states, labelling blades, beams, anchors, cap and the membrane nano-dome.",
+    "caption_hint": "PIEZO2 is the transduction molecule for light touch and proprioception. Its three curved blades bow the surrounding membrane into a nano-dome; membrane tension flattens that dome, and the resulting conformational change is levered through the beam and anchor domains to open the central pore. Force gates the channel directly through the lipid bilayer, with no second messenger in between - the fastest transduction scheme in any sensory system.",
+    "credit": "Commons user BPM1234. CC0.",
+    "source": "https://commons.wikimedia.org/wiki/File:PIEZO2_Mechanogating.jpg",
+    "licence": "CC0"
+  }
+]

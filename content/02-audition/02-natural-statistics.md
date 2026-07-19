@@ -20,6 +20,13 @@ Two robust regularities:
 
 The single most exploitable regularity in natural sound is that vibrating objects produce **harmonic series** — energy at integer multiples of a fundamental frequency.
 
+<x-figure src="content/media/spectrogram-speech-vowels.jpg"
+  caption="Spectrogram of three vowels, with formants marked. The horizontal bands are harmonics of the vocal fold fundamental; the vowel identity is carried by which harmonics are emphasised by the vocal tract. Everything that makes this decodable — the integer relations, the common onset, the shared modulation — is a lawful relation between components of one source. Olfaction has no chemical equivalent."
+  credit="Wikimedia Commons contributor. CC BY 2.0."
+  source="https://commons.wikimedia.org/wiki/File:Spectrogram_-iua-.png">
+</x-figure>
+
+
 This matters enormously for the mixture problem. Given a superposition of components, "which components share a common fundamental?" is a well-posed question with a usually-correct answer. Harmonicity converts an underdetermined separation problem into a tractable grouping problem.
 
 <x-callout class="x-callout is-key">

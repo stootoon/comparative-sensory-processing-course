@@ -1,13 +1,13 @@
 {
   "title": "Comparative Sensory Processing",
   "description": "A graduate course on how sensory systems solve their computational problems — and on what the comparison between modalities reveals about olfaction.",
-  "version": "0.2",
+  "version": "0.3",
   "intro": [
     "Most sensory neuroscience is taught one modality at a time, as a tour of anatomy: receptors, then relays, then cortex. This course is organised the other way round. Each module begins with a computational problem — what must the animal infer, from what, under what loss, on what deadline — and treats the biology as evidence about how that problem is solved.",
     "The reason for doing it this way is comparative. Vision and audition have mature normative theories: we can derive retinal receptive fields and cochlear filters from the statistics of natural input and check the answer against the biology. Olfaction has no theory of comparable maturity. The wager of this course is that this gap is informative, and that the clearest route to a theory of smell runs through the modalities that already have one.",
     "So every module uses the same eleven-section skeleton, in the same order, so that §4 always means the receptor array whether you are reading about cones or odorant receptors. You should be able to read across modules as easily as down one. Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why."
   ],
-  "samplerNote": "Three modalities in full — vision, audition, olfaction — using an identical eleven-section skeleton so they can be read across as easily as down. The full course adds somatosensation, gustation, vestibular, proprioception and the exotic senses.",
+  "samplerNote": "Eight modalities in full, all using the identical eleven-section skeleton so they can be read across as easily as down. The remaining work is the synthesis modules — common motifs, key differences, and the full capstone.",
   "modules": [
     {
       "id": "m00",
@@ -335,6 +335,456 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and open questions",
           "blurb": "Scoring the attempts honestly, and a ranked list of what to do next."
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "slug": "somatosensation",
+      "dir": "04-somatosensation",
+      "label": "Module 4",
+      "title": "Somatosensation",
+      "blurb": "Ordered and metric like vision, and reliant on millisecond timing anyway. The control condition for the metric argument.",
+      "subsections": [
+        {
+          "id": "m04.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "4.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "What must be inferred, from what, under what loss, on what deadline."
+        },
+        {
+          "id": "m04.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "4.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Physics of the carrier, and the measured statistics of natural input."
+        },
+        {
+          "id": "m04.s03",
+          "slug": "transduction",
+          "sectionNumber": "4.3",
+          "file": "03-transduction.md",
+          "title": "Transduction and physical limits",
+          "blurb": "The sensor as a physical device: noise floor, bandwidth, dynamic range."
+        },
+        {
+          "id": "m04.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "4.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Channel count, tuning breadth, ordered or unordered."
+        },
+        {
+          "id": "m04.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "4.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit — dorsal horn and cuneate",
+          "blurb": "Spatial lateral inhibition, on an array where proximity means something."
+        },
+        {
+          "id": "m04.s06",
+          "slug": "routing",
+          "sectionNumber": "4.6",
+          "file": "06-routing.md",
+          "title": "Routing",
+          "blurb": "How the signal reaches central structures, and what gates it."
+        },
+        {
+          "id": "m04.s07",
+          "slug": "central-representation",
+          "sectionNumber": "4.7",
+          "file": "07-central-representation.md",
+          "title": "The central representation — S1",
+          "blurb": "The homunculus as budget allocation, and millisecond timing in a spatial cortex."
+        },
+        {
+          "id": "m04.s08",
+          "slug": "parallel-streams",
+          "sectionNumber": "4.8",
+          "file": "08-parallel-streams.md",
+          "title": "Parallel streams",
+          "blurb": "Identity, location, value, action."
+        },
+        {
+          "id": "m04.s09",
+          "slug": "active-sensing",
+          "sectionNumber": "4.9",
+          "file": "09-active-sensing.md",
+          "title": "Active sensing and the motor loop",
+          "blurb": "How movement shapes the input; sampling as experiment design."
+        },
+        {
+          "id": "m04.s10",
+          "slug": "adaptation",
+          "sectionNumber": "4.10",
+          "file": "10-adaptation.md",
+          "title": "Adaptation, gain control, and state",
+          "blurb": "Across timescales, milliseconds to lifetime."
+        },
+        {
+          "id": "m04.s11",
+          "slug": "synthesis",
+          "sectionNumber": "4.11",
+          "file": "11-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "Having a map does not mean the code is spatial."
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "slug": "gustation",
+      "dir": "05-gustation",
+      "label": "Module 5",
+      "title": "Gustation",
+      "blurb": "The low-dimensional categorical chemical sense — the perfect foil for olfaction, and the best evidence that loss functions shape architecture.",
+      "subsections": [
+        {
+          "id": "m05.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "5.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "What must be inferred, from what, under what loss, on what deadline."
+        },
+        {
+          "id": "m05.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "5.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Physics of the carrier, and the measured statistics of natural input."
+        },
+        {
+          "id": "m05.s03",
+          "slug": "transduction",
+          "sectionNumber": "5.3",
+          "file": "03-transduction.md",
+          "title": "Transduction and physical limits",
+          "blurb": "The sensor as a physical device: noise floor, bandwidth, dynamic range."
+        },
+        {
+          "id": "m05.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "5.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Channel count, tuning breadth, ordered or unordered."
+        },
+        {
+          "id": "m05.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "5.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit — geniculate ganglion and NST",
+          "blurb": "What a first circuit does when the standard jobs do not apply."
+        },
+        {
+          "id": "m05.s06",
+          "slug": "routing",
+          "sectionNumber": "5.6",
+          "file": "06-routing.md",
+          "title": "Routing",
+          "blurb": "How the signal reaches central structures, and what gates it."
+        },
+        {
+          "id": "m05.s07",
+          "slug": "central-representation",
+          "sectionNumber": "5.7",
+          "file": "07-central-representation.md",
+          "title": "The central representation — insular cortex",
+          "blurb": "A sensory cortex that is mostly about decision."
+        },
+        {
+          "id": "m05.s08",
+          "slug": "parallel-streams",
+          "sectionNumber": "5.8",
+          "file": "08-parallel-streams.md",
+          "title": "Parallel streams",
+          "blurb": "Identity, location, value, action."
+        },
+        {
+          "id": "m05.s09",
+          "slug": "active-sensing",
+          "sectionNumber": "5.9",
+          "file": "09-active-sensing.md",
+          "title": "Active sensing and the motor loop",
+          "blurb": "How movement shapes the input; sampling as experiment design."
+        },
+        {
+          "id": "m05.s10",
+          "slug": "adaptation",
+          "sectionNumber": "5.10",
+          "file": "10-adaptation.md",
+          "title": "Adaptation, gain control, and state",
+          "blurb": "Across timescales, milliseconds to lifetime."
+        },
+        {
+          "id": "m05.s11",
+          "slug": "synthesis",
+          "sectionNumber": "5.11",
+          "file": "11-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "Two chemosenses, one chemistry, opposite designs."
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "slug": "vestibular",
+      "dir": "06-vestibular",
+      "label": "Module 6",
+      "title": "Vestibular",
+      "blurb": "The one modality with an essentially complete normative account, and the exact structural match to olfaction's worst confound.",
+      "subsections": [
+        {
+          "id": "m06.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "6.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "What must be inferred, from what, under what loss, on what deadline."
+        },
+        {
+          "id": "m06.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "6.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Physics of the carrier, and the measured statistics of natural input."
+        },
+        {
+          "id": "m06.s03",
+          "slug": "transduction",
+          "sectionNumber": "6.3",
+          "file": "03-transduction.md",
+          "title": "Transduction and physical limits",
+          "blurb": "The sensor as a physical device: noise floor, bandwidth, dynamic range."
+        },
+        {
+          "id": "m06.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "6.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Channel count, tuning breadth, ordered or unordered."
+        },
+        {
+          "id": "m06.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "6.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit — vestibular nuclei",
+          "blurb": "Three synapses to the eye muscles. Design dictated by a deadline."
+        },
+        {
+          "id": "m06.s06",
+          "slug": "routing",
+          "sectionNumber": "6.6",
+          "file": "06-routing.md",
+          "title": "Routing",
+          "blurb": "How the signal reaches central structures, and what gates it."
+        },
+        {
+          "id": "m06.s07",
+          "slug": "central-representation",
+          "sectionNumber": "6.7",
+          "file": "07-central-representation.md",
+          "title": "The central representation — distributed and multisensory",
+          "blurb": "Optimal cue combination, and the course's one complete normative account."
+        },
+        {
+          "id": "m06.s08",
+          "slug": "parallel-streams",
+          "sectionNumber": "6.8",
+          "file": "08-parallel-streams.md",
+          "title": "Parallel streams",
+          "blurb": "Identity, location, value, action."
+        },
+        {
+          "id": "m06.s09",
+          "slug": "active-sensing",
+          "sectionNumber": "6.9",
+          "file": "09-active-sensing.md",
+          "title": "Active sensing and the motor loop",
+          "blurb": "How movement shapes the input; sampling as experiment design."
+        },
+        {
+          "id": "m06.s10",
+          "slug": "adaptation",
+          "sectionNumber": "6.10",
+          "file": "10-adaptation.md",
+          "title": "Adaptation, gain control, and state",
+          "blurb": "Across timescales, milliseconds to lifetime."
+        },
+        {
+          "id": "m06.s11",
+          "slug": "synthesis",
+          "sectionNumber": "6.11",
+          "file": "11-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "Where the normative programme succeeded — centrally, not peripherally."
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "slug": "proprioception",
+      "dir": "07-proprioception",
+      "label": "Module 7",
+      "title": "Proprioception",
+      "blurb": "Estimate body configuration in coordinates no receptor measures. Where the consumer-determines-the-code argument is demonstrated.",
+      "subsections": [
+        {
+          "id": "m07.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "7.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "What must be inferred, from what, under what loss, on what deadline."
+        },
+        {
+          "id": "m07.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "7.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Physics of the carrier, and the measured statistics of natural input."
+        },
+        {
+          "id": "m07.s03",
+          "slug": "transduction",
+          "sectionNumber": "7.3",
+          "file": "03-transduction.md",
+          "title": "Transduction and physical limits",
+          "blurb": "The sensor as a physical device: noise floor, bandwidth, dynamic range."
+        },
+        {
+          "id": "m07.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "7.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Channel count, tuning breadth, ordered or unordered."
+        },
+        {
+          "id": "m07.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "7.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit — spinal cord and Clarke's nucleus",
+          "blurb": "Coordinate transformation by the second synapse."
+        },
+        {
+          "id": "m07.s06",
+          "slug": "routing",
+          "sectionNumber": "7.6",
+          "file": "06-routing.md",
+          "title": "Routing",
+          "blurb": "How the signal reaches central structures, and what gates it."
+        },
+        {
+          "id": "m07.s07",
+          "slug": "central-representation",
+          "sectionNumber": "7.7",
+          "file": "07-central-representation.md",
+          "title": "The central representation — mostly cerebellum",
+          "blurb": "A forward model, not a map."
+        },
+        {
+          "id": "m07.s08",
+          "slug": "parallel-streams",
+          "sectionNumber": "7.8",
+          "file": "08-parallel-streams.md",
+          "title": "Parallel streams",
+          "blurb": "Identity, location, value, action."
+        },
+        {
+          "id": "m07.s09",
+          "slug": "active-sensing",
+          "sectionNumber": "7.9",
+          "file": "09-active-sensing.md",
+          "title": "Active sensing and the motor loop",
+          "blurb": "How movement shapes the input; sampling as experiment design."
+        },
+        {
+          "id": "m07.s10",
+          "slug": "adaptation",
+          "sectionNumber": "7.10",
+          "file": "10-adaptation.md",
+          "title": "Adaptation, gain control, and state",
+          "blurb": "Across timescales, milliseconds to lifetime."
+        },
+        {
+          "id": "m07.s11",
+          "slug": "synthesis",
+          "sectionNumber": "7.11",
+          "file": "11-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "The consumer determines the code — demonstrated, not argued."
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "slug": "exotic",
+      "dir": "09-exotic",
+      "label": "Module 9",
+      "title": "Exotic Senses",
+      "blurb": "Electroreception, echolocation, infrared, magnetoreception — natural experiments that populate the design space the familiar five leave empty.",
+      "subsections": [
+        {
+          "id": "m09.s01",
+          "slug": "natural-experiments",
+          "sectionNumber": "9.1",
+          "file": "01-natural-experiments.md",
+          "title": "Exotic senses as natural experiments",
+          "blurb": "Each isolates one design variable the familiar five confound."
+        },
+        {
+          "id": "m09.s02",
+          "slug": "electroreception",
+          "sectionNumber": "9.2",
+          "file": "02-electroreception.md",
+          "title": "Electroreception — cancelling the predictable",
+          "blurb": "The clearest circuit-level implementation of subtracting a prediction."
+        },
+        {
+          "id": "m09.s03",
+          "slug": "echolocation",
+          "sectionNumber": "9.3",
+          "file": "03-echolocation.md",
+          "title": "Echolocation — designing the experiment",
+          "blurb": "Real-time probe control, and maps of computed variables."
+        },
+        {
+          "id": "m09.s04",
+          "slug": "infrared",
+          "sectionNumber": "9.4",
+          "file": "04-infrared.md",
+          "title": "Infrared sensing — acuity as deconvolution",
+          "blurb": "Terrible optics, good performance, recovered computationally."
+        },
+        {
+          "id": "m09.s05",
+          "slug": "magnetoreception",
+          "sectionNumber": "9.5",
+          "file": "05-magnetoreception.md",
+          "title": "Magnetoreception — a sense with no known receptor",
+          "blurb": "What the difficulty teaches about grounding a sensory channel."
+        },
+        {
+          "id": "m09.s06",
+          "slug": "synthesis",
+          "sectionNumber": "9.6",
+          "file": "06-synthesis.md",
+          "title": "Synthesis — what the exotic senses hand olfaction",
+          "blurb": "Three mechanistic templates, each with a runnable experiment."
         }
       ]
     },

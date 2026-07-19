@@ -7,7 +7,7 @@ estimatedMinutes: 14
 
 The ascending auditory pathway is long. From cochlear nucleus the signal passes through the superior olivary complex, the lateral lemniscus, the **inferior colliculus**, and the medial geniculate body of the thalamus before reaching cortex — five or more synapses, against vision's four and olfaction's two.
 
-<x-figure src="content/media/auditory-pathway.png"
+<x-figure src="content/media/auditory-pathway.jpg"
   caption="The ascending auditory pathway. Count the stations between cochlea and cortex, then compare with the two-synapse olfactory route in §3.6. The inferior colliculus, near the top, is an obligatory hub that nearly everything ascending passes through — a bottleneck with no equivalent in vision or olfaction."
   credit="Jonathan E. Peelle. CC BY 4.0."
   source="https://commons.wikimedia.org/wiki/File:Auditory_Pathway.png">

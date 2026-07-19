@@ -17,7 +17,14 @@ Roughly $10^8$ photoreceptors tile a two-dimensional surface. Four properties of
 
 **It is two-dimensional**, with the third dimension recovered by inference from stereo, parallax, and pictorial cues rather than sampled directly.
 
-**It is non-uniformly sampled.** Cone density in the fovea exceeds peripheral density by more than two orders of magnitude. This is a budget allocation: a fixed number of downstream fibres can be spent uniformly for mediocre resolution everywhere, or concentrated for excellent resolution somewhere, with eye movements bringing the somewhere to wherever it is needed.
+**It is non-uniformly sampled.** Cone density in the fovea exceeds peripheral density by more than two orders of magnitude.
+
+<x-figure src="content/media/cone-mosaic-normal-vs-protanope.jpg"
+  caption="The living human cone mosaic, imaged through adaptive optics. Left: a colour-normal retina, with L, M and S cones pseudo-coloured. Right: a protanope, missing L cones entirely — note that the mosaic is still fully tiled, because the remaining classes fill the gaps. The array is ordered and metric in space, but the assignment of spectral class to position is close to random."
+  credit="Mark Fairchild. CC BY-SA 3.0."
+  source="https://commons.wikimedia.org/wiki/File:ConeMosaics.jpg">
+</x-figure>
+ This is a budget allocation: a fixed number of downstream fibres can be spent uniformly for mediocre resolution everywhere, or concentrated for excellent resolution somewhere, with eye movements bringing the somewhere to wherever it is needed.
 
 The consequences of ordering and metric structure are enormous, and they are so pervasive in visual neuroscience that it takes effort to notice them as assumptions at all:
 

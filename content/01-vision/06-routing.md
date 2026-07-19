@@ -13,6 +13,13 @@ Retinal ganglion cell axons terminate in the lateral geniculate nucleus, and LGN
 
 The striking fact: **only about 5–10% of synapses in LGN come from the retina.** The rest come from cortex, from the thalamic reticular nucleus, and from brainstem modulatory systems. Descending corticothalamic projections outnumber ascending thalamocortical ones by roughly ten to one.
 
+<x-figure src="content/media/lgn-layers-marmoset.jpg"
+  caption="The layered LGN. Magnocellular, parvocellular and koniocellular laminae are anatomically distinct and receive from different ganglion cell classes — the parallel streams of §1.8 are already separate here, one synapse before cortex."
+  credit="Santana NNM, da Silva MMO, Silva EHA, dos Santos SF, Bezerra LL, Escariao WKM, et al. (PLOS ONE), Fig. 1. CC BY 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Morphology_of_marmoset_dorsal_lateral_geniculate_nucleus_(DLG).png">
+</x-figure>
+
+
 A structure receiving ten times more feedback than feedforward input is not a relay in any ordinary sense of the word.
 
 The standard framework distinguishes **drivers** from **modulators**. Retinal input is the driver: it determines what the LGN cell responds to. The vastly more numerous cortical and brainstem inputs are modulators: they determine *whether, when and how strongly* that response is transmitted.

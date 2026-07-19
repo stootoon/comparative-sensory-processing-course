@@ -11,6 +11,13 @@ Vision is not passive. The high-resolution fovea covers about two degrees, so se
 
 Each saccade is a decision about where to sample next, and fixations are not distributed uniformly. Gaze goes to informative regions, and where those are depends on the current task: the same scene is scanned differently depending on the question being asked.
 
+<x-figure src="content/media/yarbus-scanpaths-task.jpg"
+  caption="Yarbus's classic demonstration. The same painting, viewed by the same observer under seven different instructions — free viewing, estimate the family's wealth, guess their ages, and so on. The scanpaths differ completely. Sampling is not driven by the image; it is driven by the question, which is optimal experiment design in its most direct behavioural form."
+  credit="After Yarbus, A. L. (1967), Eye Movements and Vision, Plenum Press. Public domain."
+  source="https://commons.wikimedia.org/wiki/File:Yarbus_The_Visitor.jpg">
+</x-figure>
+
+
 This is **optimal experiment design** — choose the measurement that most reduces uncertainty about what you care about. The same framing covers sniff strategy in odour search, whisking, and echolocation call design, and §12 asks whether sniffing adapts to posterior uncertainty the way bat call rate does.
 
 ## Fixational drift, and a lovely result

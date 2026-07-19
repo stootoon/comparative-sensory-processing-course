@@ -25,7 +25,7 @@ The mapping is approximately **logarithmic** in frequency, and this matters norm
   source="https://commons.wikimedia.org/wiki/File:Cochlea_wave_animated.gif">
 </x-figure>
 
-<x-figure src="content/media/cochlea-anatomy.png"
+<x-figure src="content/media/cochlea-anatomy.jpg"
   caption="Cochlear anatomy. The spiral, and cross-sections showing the scalae and the organ of Corti sitting on the basilar membrane. Position along the spiral is frequency — the array's single ordered dimension (§2.4)."
   credit="Taniguchi M, Yamamoto N, Nakagawa T, Ogino E, Ito J. CC BY 4.0."
   source="https://commons.wikimedia.org/wiki/File:Anatomy_of_the_cochlea.png">

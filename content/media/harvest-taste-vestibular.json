@@ -1,0 +1,106 @@
+[
+ {
+  "file": "content/media/taste-bud-structure.jpg",
+  "topic": "Labelled schematic of a mammalian taste bud embedded in tongue epithelium, showing taste pore, elongate taste receptor cells, basal cells and afferent nerve fibres.",
+  "caption_hint": "A taste bud is an onion-shaped cluster of 50-100 elongate cells spanning the epithelium. Only the apical microvilli, which project through the taste pore, contact the tastant-bearing saliva; the rest of the cell is sealed off by tight junctions. Basal cells at the bottom are the stem population that continuously replaces taste cells on a ~10 day cycle - a striking difference from the non-renewing hair cells of the ear, and a feature taste shares with olfaction.",
+  "credit": "Jonas Tole. CC0 (public domain dedication).",
+  "source": "https://commons.wikimedia.org/wiki/File:Taste_bud_2_eng.svg",
+  "licence": "CC0"
+ },
+ {
+  "file": "content/media/tongue-foliate-papilla-section.jpg",
+  "topic": "Gray's Anatomy plate: vertical histological section through foliate papillae of the rabbit tongue, with taste buds (gustatory calyculi) labelled in the lateral walls.",
+  "caption_hint": "Classic histology of foliate papillae. Note that the taste buds sit in the lateral walls of the clefts between folia, not on the exposed surface - the same architecture is used by vallate papillae, where buds line the trench. This geometry matters functionally: tastants must diffuse into a narrow, saliva-filled trench flushed by von Ebner's glands, which sets the temporal dynamics of taste responses.",
+  "credit": "Henry Vandyke Carter, Gray's Anatomy (1918), plate 1021. Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Gray1021.png",
+  "licence": "Public domain"
+ },
+ {
+  "file": "content/media/vallate-papilla-sem.jpg",
+  "topic": "False-coloured scanning electron micrograph of the collagenous skeleton of a vallate (circumvallate) lingual papilla, with 100 um scale bar.",
+  "caption_hint": "SEM of the connective-tissue scaffold of a single vallate papilla after epithelial digestion, seen from above: the central papilla (yellow) is ringed by a circular trench and surrounding wall (purple), set in a field of filiform papillae (cyan). In humans only 8-12 vallate papillae sit at the back of the tongue, but each houses hundreds of taste buds in its trench walls.",
+  "credit": "Hanna Jackowiak. CC BY 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Brodawka_j%C4%99zykowa_okolona.tif",
+  "licence": "CC BY 4.0"
+ },
+ {
+  "file": "content/media/taste-cell-types-receptors.png",
+  "topic": "Transduction machinery of Type I, II and III taste cells: ENaC and ecto-ATPase, T1R/T2R GPCRs with TRPM5 and pannexin-1 ATP release, and PKD/H+ sour transduction with serotonergic synapse.",
+  "caption_hint": "Three functional classes of taste cell use three different transduction logics. Type II cells detect sweet, umami and bitter with T1R and T2R GPCRs, transduce via PLC-beta2 and TRPM5, and release ATP non-vesicularly through CALHM/pannexin channels - they have no conventional synapse. Type III cells detect sour via proton entry (PKD2L1, and now known to be the proton channel OTOP1) and block of a K+ channel, and do make classical serotonergic synapses. Type I cells are glia-like, clear transmitter with ecto-ATPase, and are the leading candidate for amiloride-sensitive ENaC salt transduction. Note the diagram predates the identification of OTOP1 as the sour receptor and of CALHM1/3 as the ATP conduit - worth flagging when teaching.",
+  "credit": "Sagearbor. CC BY-SA 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Taste_cells_-_Type_I_II_III_Receptors_grey.png",
+  "licence": "CC BY-SA 4.0"
+ },
+ {
+  "file": "content/media/gustatory-pathway-neuroanatomy.jpg",
+  "topic": "Peripheral gustatory neuroanatomy: chorda tympani, greater superficial petrosal and glossopharyngeal fields on the tongue and palate, their geniculate and petrosal ganglion cell bodies, and their terminal fields in the nucleus of the solitary tract.",
+  "caption_hint": "Taste is carried by three cranial nerves with segregated territories: chorda tympani (VII) from the anterior tongue, greater superficial petrosal (VII) from the palate, and glossopharyngeal (IX) from the vallate and foliate papillae. First-order cell bodies lie in the geniculate ganglion (VII) and petrosal ganglion (IX). Crucially, their central terminals remain topographically ordered in the rostral NST (inset, GSP green vs CT red), so the first central relay preserves a map of oral location, not of taste quality.",
+  "credit": "Robin F. Krimm. CC BY 2.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Basic_neuroanatomy_of_the_gustatory_system.jpg",
+  "licence": "CC BY 2.0"
+ },
+ {
+  "file": "content/media/flavor-three-pathways.jpg",
+  "topic": "Full central gustatory pathway in context: cranial nerves VII/IX/X to NST, to VPM thalamus, to insular (primary gustatory) cortex and OFC, shown alongside the olfactory and trigeminal chemesthetic routes that combine into flavour.",
+  "caption_hint": "The mammalian gustatory pathway - geniculate/petrosal/nodose ganglia to NST to (in primates directly, in rodents via the parabrachial nucleus) VPM thalamus to insular cortex - is only one of three chemosensory streams. Retronasal olfaction (I to OB to piriform) and trigeminal chemesthesis (V to SpV) converge with taste in orbitofrontal cortex to produce what we call flavour. This is why the perceptual object we report is almost never pure gustation, and why the primate pathway lacking an obligatory pontine relay is a good comparative talking point.",
+  "credit": "John E. Hayes and Allison N. Baker. CC BY 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Summary_of_three_distinct_sensory_pathways_involved_in_flavor_perception.jpg",
+  "licence": "CC BY 4.0"
+ },
+ {
+  "file": "content/media/bony-labyrinth-labelled.jpg",
+  "topic": "Labelled 3D computed-tomography reconstruction of the human bony labyrinth: cochlea, vestibule, and superior, lateral and posterior semicircular canals.",
+  "caption_hint": "The vestibular labyrinth in situ. The three semicircular canals are close to mutually orthogonal, so any head rotation is decomposed into three components - a hardware implementation of a 3D angular-velocity basis. The vestibule between them houses the utricle and saccule. Because the labyrinth is encased in the densest bone in the body, fossil petrosals preserve it, and canal radius of curvature scales with agility across species - a favourite comparative measure.",
+  "credit": "Jose Braga; Ross Whitwam. CC BY-SA 4.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Bony_labyrinth_labelled.png",
+  "licence": "CC BY-SA 4.0"
+ },
+ {
+  "file": "content/media/vestibular-hair-cells-innervation.jpg",
+  "topic": "Comparison of cochlear (IHC/OHC) and vestibular (Type I/Type II) hair cells and their afferent innervation, with kinocilium, stereocilia bundle, tip links, ribbon synapses and the calyx ending labelled.",
+  "caption_hint": "Right panel: vestibular hair cells retain a true kinocilium alongside the graded stereocilia staircase - it is lost from mature mammalian cochlear hair cells (left) - and bundle orientation relative to the kinocilium sets the cell's directional polarity. Type I cells are enveloped by a single large calyx afferent ending, a synaptic arrangement found nowhere else in the nervous system and unique to amniotes; Type II cells receive conventional bouton contacts. This division underlies the irregular vs regular afferent firing classes.",
+  "credit": "Masetto S, Spaiardi P, Johnson SL, Figure 2. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Auditory_and_vestibular_hair_cells_and_their_innervation_in_adult_mammals.png",
+  "licence": "CC BY 3.0"
+ },
+ {
+  "file": "content/media/crista-ampullaris-histology.jpg",
+  "topic": "H&E histological section through the ampulla of a semicircular canal showing the crista ampullaris ridge projecting into the ampullary lumen, with perilymphatic space labelled.",
+  "caption_hint": "The crista ampullaris is a transverse saddle-shaped ridge of sensory epithelium at the swollen end of each semicircular canal. In life the gelatinous cupula extends from the crista to the roof of the ampulla, forming a watertight elastic diaphragm; the cupula is not visible in routine H&E because it shrinks away during fixation. Endolymph inertia during head rotation deflects this diaphragm, bending the hair bundles beneath - so the canal reports angular velocity rather than acceleration over the physiological bandwidth.",
+  "credit": "Jozeppy26. Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Semicircular_canal_-_ampulla.png",
+  "licence": "Public domain"
+ },
+ {
+  "file": "content/media/otolith-organ-nasa.jpg",
+  "topic": "Labelled cross-section of an otolith organ macula showing otoconia, the otolithic (gelatinous) membrane, hair cells with hair processes, supporting cells and nerve fibres.",
+  "caption_hint": "The macula of the utricle and saccule. Calcium carbonate otoconia sit on top of a gelatinous otolithic membrane, making it denser than the surrounding endolymph. Any linear acceleration - including the constant 1 g of gravity - shears the loaded membrane across the sensory epithelium and deflects the hair bundles. The utricular macula is roughly horizontal (sensitive to fore-aft and lateral acceleration and to head tilt) and the saccular macula roughly vertical.",
+  "credit": "NASA. Public domain.",
+  "source": "https://commons.wikimedia.org/wiki/File:Otolith_organ_of_vestibular_system.jpg",
+  "licence": "Public domain"
+ },
+ {
+  "file": "content/media/vor-openstax.jpg",
+  "topic": "Mammalian horizontal vestibulo-ocular reflex circuit: semicircular canal to vestibular nucleus to abducens and oculomotor nuclei to lateral and medial rectus, with excitation and inhibition colour-coded on both sides.",
+  "caption_hint": "The three-neuron arc: primary afferent, vestibular nucleus neuron, extraocular motoneuron. Rightward head rotation excites the right horizontal canal and inhibits the left; the vestibular nucleus drives contralateral abducens and, via the medial longitudinal fasciculus, ipsilateral medial rectus, producing a compensating leftward eye movement. Total latency is under about 10 ms - far faster than any visually driven eye movement - which is precisely why the reflex is built from so few synapses.",
+  "credit": "OpenStax College, Anatomy & Physiology. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:1419_Vestibulo-Ocular_Reflex.jpg",
+  "licence": "CC BY 3.0"
+ },
+ {
+  "file": "content/media/vor-three-neuron-arc-fish.jpg",
+  "topic": "Comparative horizontal VOR circuitry in goldfish, flatfish and shark, showing the three-neuronal arc from horizontal canal to vestibular nucleus to abducens/oculomotor nuclei, and how it is rewired when the vestibular and visual axes are misaligned.",
+  "caption_hint": "The three-neuron VOR arc is conserved across vertebrates, but flatfish reveal how it is remapped. Goldfish and shark have vestibular and visual axes aligned, and the horizontal canal drives horizontal recti. Flatfish undergo a 90 degree ocular migration during metamorphosis so the vestibular axis is rotated relative to the visual axis; the horizontal canal now drives the vertical recti and obliques instead. The reflex geometry, not the sensor, is what evolution adjusts - a clean demonstration that the VOR must implement a coordinate transform, not a fixed wiring rule.",
+  "credit": "Hans Straka and Robert Baker. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Horizontal_vestibulo-ocular_reflex_in_fish.jpg",
+  "licence": "CC BY 3.0"
+ },
+ {
+  "file": "content/media/vestibular-thalamocortical-pathways.jpg",
+  "topic": "Ascending projections of the four vestibular nuclei (SVN, LVN, MVN, DVN) through multiple thalamic nuclei (VPL/VPS, Vim, VPI/VPM, SG, Pulv) to insula, PIVC, areas 2v/3a, 3b, 5, 7, temporal and posterior parietal cortex, with visual and MLF routes shown.",
+  "caption_hint": "Unlike vision or audition, vestibular signals have no single dedicated primary cortex. The four vestibular nuclei project through at least five thalamic nuclei to a distributed network - parieto-insular vestibular cortex (PIVC), areas 3a and 2v, and posterior parietal cortex - all of which are multisensory, combining vestibular with visual, somatosensory and motor signals. This anatomical dispersion is the substrate for the fact that vestibular input is almost never consciously perceived as its own modality, but instead calibrates our sense of self-motion and upright.",
+  "credit": "Hitier M, Besnard S, Smith PF. CC BY 3.0.",
+  "source": "https://commons.wikimedia.org/wiki/File:Vestibular_pathways_to_cortices_through_the_thalamus.jpg",
+  "licence": "CC BY 3.0"
+ }
+]

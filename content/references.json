@@ -326,5 +326,61 @@
     "venue": "PNAS 99(5):3318–3323",
     "doi": "10.1073/pnas.032675099",
     "note": "Human cochlear tuning is sharper than the other mammals measured — a species difference a normative theory should explain."
+  },
+  "johnson2001": {
+    "authors": "Johnson, K. O.",
+    "year": 2001,
+    "title": "The roles and functions of cutaneous mechanoreceptors",
+    "venue": "Current Opinion in Neurobiology 11(4):455–461",
+    "doi": "10.1016/s0959-4388(00)00234-8",
+    "note": "Each of the four afferent classes serves a distinct perceptual function, and each receptor is specialised for it."
+  },
+  "saal2014": {
+    "authors": "Saal, H. P. & Bensmaia, S. J.",
+    "year": 2014,
+    "title": "Touch is a team effort: interplay of submodalities in cutaneous sensibility",
+    "venue": "Trends in Neurosciences 37(12):689–697",
+    "doi": "10.1016/j.tins.2014.08.012",
+    "note": "The corrective to labelled lines in touch: natural stimuli excite all afferent classes and cortical neurons pool across them."
+  },
+  "chandrashekar2006": {
+    "authors": "Chandrashekar, J., Hoon, M. A., Ryba, N. J. P. & Zuker, C. S.",
+    "year": 2006,
+    "title": "The receptors and cells for mammalian taste",
+    "venue": "Nature 444(7117):288–294",
+    "doi": "10.1038/nature05401",
+    "note": "The labelled-line case: distinct cell types with unique receptors, each tuned to one basic taste."
+  },
+  "angelaki2004": {
+    "authors": "Angelaki, D. E., Shaikh, A. G., Green, A. M. & Dickman, J. D.",
+    "year": 2004,
+    "title": "Neurons compute internal models of the physical laws of motion",
+    "venue": "Nature 430(6999):560–564",
+    "doi": "10.1038/nature02754",
+    "note": "Brainstem and cerebellar neurons resolve the tilt–translation ambiguity — neurons implementing a specified estimator."
+  },
+  "cullen2012": {
+    "authors": "Cullen, K. E.",
+    "year": 2012,
+    "title": "The vestibular system: multimodal integration and encoding of self-motion for motor control",
+    "venue": "Trends in Neurosciences 35(3):185–196",
+    "doi": "10.1016/j.tins.2011.12.001",
+    "note": "Vestibular nuclei cancel self-generated head motion but not passive motion — explicit subtraction of an efference-copy prediction."
+  },
+  "wolpert1995": {
+    "authors": "Wolpert, D. M., Ghahramani, Z. & Jordan, M. I.",
+    "year": 1995,
+    "title": "An internal model for sensorimotor integration",
+    "venue": "Science 269(5232):1880–1882",
+    "doi": "10.1126/science.7569931",
+    "note": "Direct evidence for a forward model: error propagation follows optimal state estimation."
+  },
+  "gracheva2010": {
+    "authors": "Gracheva, E. O., Ingolia, N. T., Kelly, Y. M., Cordero-Morales, J. F., Hollopeter, G., Chesler, A. T., Sánchez, E. E., Perez, J. C., Weissman, J. S. & Julius, D.",
+    "year": 2010,
+    "title": "Molecular basis of infrared detection by snakes",
+    "venue": "Nature 464(7291):1006–1011",
+    "doi": "10.1038/nature08943",
+    "note": "TRPA1 as the infrared transducer — a nociceptive channel repurposed as an imaging sensor."
   }
 }

@@ -7,6 +7,13 @@ estimatedMinutes: 12
 
 Beyond V1, visual processing diverges into a **ventral** stream toward inferotemporal cortex, concerned with object identity, and a **dorsal** stream toward parietal cortex, concerned with spatial relationships and visually guided action.
 
+<x-figure src="content/media/ventral-dorsal-streams.jpg"
+  caption="The two streams. Ventral toward temporal cortex for identity, dorsal toward parietal for location and action. Audition arrives at the same division from a receptor array with no spatial dimension at all (§2.8) — which is what makes the split a consequence of the task rather than the sensor."
+  credit="Andrey Vyshedskiy, Shreyas Mahapatra, Rita Dunn. CC BY 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Ventral_and_dorsal_stream_in_visual_information_processing.png">
+</x-figure>
+
+
 ## Why split at all
 
 The normative argument is about **conflicting invariance requirements**.
