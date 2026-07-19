@@ -7,6 +7,13 @@ estimatedMinutes: 14
 
 Mitral and tufted cells project in parallel to piriform cortex, anterior olfactory nucleus, olfactory tubercle, cortical amygdala and entorhinal cortex. Unlike vision, where streams separate *after* primary cortex, olfaction's divergence happens at the output of the first circuit.
 
+<x-figure src="content/media/oa-drosophila-antennal-lobe-glomeruli.jpg"
+  caption="The Drosophila antennal lobe, imaged with a calcium indicator. Roughly fifty glomeruli, individually identifiable across animals — which is why the fly is where the olfactory circuit is best characterised, and why the mushroom-body/lateral-horn dissociation is the clearest evidence for the identity/valence split."
+  credit="Mohamed AAM, Retzke T, Das Chakraborty S, Fabian B, Hansson BS, Knaden M, Sachse S (2019). CC BY 4.0."
+  source="https://doi.org/10.1038/s41467-019-09069-1">
+</x-figure>
+
+
 ## The division that is well supported
 
 **Piriform versus cortical amygdala** looks like a genuine functional split, and it maps onto a division the comparison predicts.

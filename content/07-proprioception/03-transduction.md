@@ -46,6 +46,13 @@ That is predictive subtraction implemented in the periphery, and it belongs on t
 
 Located at the muscle–tendon junction, in **series** with the muscle rather than in parallel, so they report **force** rather than length. Together with spindles the system measures both kinematics and kinetics.
 
+<x-figure src="content/media/somato-spindle-gto-fluorescence.jpg"
+  caption="Spindle and Golgi tendon organ imaged in situ in mouse muscle, with the sensory terminals fluorescently labelled. The spindle's spiral wrapping around intrafusal fibres and the GTO's branching within the tendon are visible — two quite different endings, and the difference in placement is what makes one report length and the other force."
+  credit="Sonner MJ, Walters MC, Ladle DR (2017), PLOS ONE 12(1):e0170751, Figure 1. CC BY 4.0."
+  source="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170751">
+</x-figure>
+
+
 <x-figure src="content/media/somato-golgi-tendon-organ.jpg"
   caption="A Golgi tendon organ, at the muscle–tendon junction. Being in series with the muscle rather than parallel to it is the whole difference: a series element reports the force transmitted, a parallel element reports length. The same transducer, two placements, two different measured quantities — the accessory-structure principle again (§4.3)."
   credit="Kowalczewski & Prochazka (Neuromechanics). Public domain."

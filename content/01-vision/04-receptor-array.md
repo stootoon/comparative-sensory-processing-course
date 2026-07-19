@@ -24,7 +24,8 @@ Roughly $10^8$ photoreceptors tile a two-dimensional surface. Four properties of
   credit="Mark Fairchild. CC BY-SA 3.0."
   source="https://commons.wikimedia.org/wiki/File:ConeMosaics.jpg">
 </x-figure>
- This is a budget allocation: a fixed number of downstream fibres can be spent uniformly for mediocre resolution everywhere, or concentrated for excellent resolution somewhere, with eye movements bringing the somewhere to wherever it is needed.
+
+This is a budget allocation: a fixed number of downstream fibres can be spent uniformly for mediocre resolution everywhere, or concentrated for excellent resolution somewhere, with eye movements bringing the somewhere to wherever it is needed.
 
 The consequences of ordering and metric structure are enormous, and they are so pervasive in visual neuroscience that it takes effort to notice them as assumptions at all:
 

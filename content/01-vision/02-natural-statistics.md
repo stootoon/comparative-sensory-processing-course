@@ -75,6 +75,13 @@ The retina samples the spectrum with three cone types whose sensitivities overla
 
 Apply principal component analysis to the responses of L, M, and S cones to natural scenes. The components that come out are, in order:
 
+<x-figure src="content/media/cone-mosaic-chicken-retina.jpg"
+  caption="A five-type photoreceptor mosaic from chicken retina, Voronoi-tessellated. Birds have four cone classes plus double cones — more spectral channels than primates, and arranged in a strikingly regular mosaic. A useful reminder that trichromacy is a particular solution rather than the only one, and that channel count is set by ecology rather than by physics."
+  credit="Jyfreesun (Wikimedia Commons). CC BY-SA 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Cones-mosaic.jpg">
+</x-figure>
+
+
 1. $L + M$ — an achromatic luminance axis carrying most of the variance
 2. $L - M$ — a red–green opponent axis
 3. $S - (L + M)$ — a blue–yellow opponent axis

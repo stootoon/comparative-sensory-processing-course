@@ -456,3 +456,122 @@ copied.
 - **Credit:** Hitier M, Besnard S, Smith PF. CC BY 3.0.
 - **Licence:** CC BY 3.0
 - **Source:** https://commons.wikimedia.org/wiki/File:Vestibular_pathways_to_cortices_through_the_thalamus.jpg
+
+## oa-glomerular-odour-map.jpg
+
+- **Shows:** Odour-evoked glomerular activity maps on the dorsal and lateral surfaces of the mouse olfactory bulb
+- **Credit:** Baker KL, Vasan G, Gumaste A, Pieribone VA, Verhagen JV (2019). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.1371/journal.pbio.3000409
+
+## oa-odour-plume-turbulent.jpg
+
+- **Shows:** Turbulent odour plume structure from direct numerical simulation of a turbulent boundary layer
+- **Credit:** Rigolli N, Magnoli N, Rosasco L, Seminara A (2022). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.7554/eLife.72196
+
+## oa-piriform-sparse.jpg
+
+- **Shows:** Sparse, distributed and trial-variable odour responses in mouse piriform cortex
+- **Credit:** Roland B, Deneux T, Franks KM, Bathellier B, Fleischmann A (2017). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.7554/eLife.26337
+
+## oa-drosophila-antennal-lobe-glomeruli.jpg
+
+- **Shows:** Drosophila antennal lobe glomeruli imaged with calcium indicators in projection neurons
+- **Credit:** Mohamed AAM, Retzke T, Das Chakraborty S, Fabian B, Hansson BS, Knaden M, Sachse S (2019). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.1038/s41467-019-09069-1
+
+## oa-mitral-tufted-morphology.jpg
+
+- **Shows:** Morphology and laminar position of mitral and tufted cell subtypes in the rodent olfactory bulb
+- **Credit:** Imamura F, Ito A, LaFever BJ (2020). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.3389/fncir.2020.561822
+
+## oa-auditory-nerve-tuning-curves.jpg
+
+- **Shows:** Frequency threshold tuning curves of single auditory nerve fibres
+- **Credit:** Karosas DM, Gonzales L, Wang Y, Bergevin C, Carney LH, Henry KS (2025). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.7554/eLife.102911
+
+## oa-auditory-brainstem-cn-celltypes.jpg
+
+- **Shows:** Auditory brainstem circuit showing cochlear nucleus cell types and their giant synapses
+- **Credit:** Keine C, Englitz B (2025). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.3389/fncel.2025.1568506
+
+## oa-ell-circuit.jpg
+
+- **Shows:** Electrosensory lateral line lobe (ELL) of the weakly electric fish: a cerebellum-like circuit
+- **Credit:** Hofmann V, Chacron MJ (2019). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://doi.org/10.3389/fnint.2019.00052
+
+## proprioceptor-overview.jpg
+
+- **Shows:** Overview of the muscle proprioceptive system: Golgi tendon organ with Ib afferents at the musculotendinous junction, muscle spindle with intrafusal fibres, Ia and II afferents and efferent (gamma) innervation, plus the ascending pathway via the external cuneate nucleus
+- **Credit:** Lallemend F, Techameena P, Hadjab S (2025), eLife 14:e106803, Figure 1. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://elifesciences.org/articles/106803
+
+## somato-spindle-gto-fluorescence.jpg
+
+- **Shows:** Muscle spindle and Golgi tendon organ imaged in situ in mouse soleus muscle by genetic fluorescent labelling of proprioceptive afferents (tdTomato) with VGLUT1 counterstain
+- **Credit:** Sonner MJ, Walters MC, Ladle DR (2017), PLOS ONE 12(1):e0170751, Figure 1. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170751
+
+## somato-s1-areas-3a-3b-1-2.jpg
+
+- **Shows:** Somatosensory pathway from spinal cord to cortex in the squirrel monkey, with primary somatosensory cortex subdivided into areas 3a, 3b, 1 and 2 on the postcentral gyrus
+- **Credit:** Qi H-X, Kaas JH, Reed JL (2014), Frontiers in Systems Neuroscience 8:84, Figure 1. CC BY.
+- **Licence:** CC BY 4.0
+- **Source:** https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2014.00084/full
+
+## whisking-mouse-kinematics.jpg
+
+- **Shows:** Head-fixed mouse actively whisking on a circular treadmill, with high-speed whisker tracking, and the decomposition of the whisk cycle into offset, amplitude and phase
+- **Credit:** Chinta S, Pluta SR (2025), PLOS Biology 23(4):e3003087, Figure 1a,c (cropped). CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003087
+
+## taste-transduction-cascade.jpg
+
+- **Shows:** Taste transduction cascade in a type II taste bud cell: T1R2/T1R3 receptor, gustducin (alpha-gustducin) and other G-protein subunits, PLCbeta2, IP3, calcium release, TRPM5 opening, depolarisation and CALHM1/3-mediated ATP release onto the afferent nerve
+- **Credit:** von Molitor E, Riedel K, Krohn M, Hafner M, Rudolf R, Cesetti T (2021), Frontiers in Human Neuroscience 15:667709, Figure 1. CC BY.
+- **Licence:** CC BY 4.0
+- **Source:** https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.667709/full
+
+## vestib-semicircular-canal-planes.jpg
+
+- **Shows:** The three orthogonal semicircular canals (anterior, posterior, horizontal) in the head, plus the otolith organs, the ampulla with its hair cells and axis of maximum sensitivity, and afferent firing during head rotation
+- **Credit:** Wiboonsaksakul KP, Leavitt Brown OME, Cullen KE (2024), eLife 13:e99516, Figure 1. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://elifesciences.org/articles/99516
+
+## odor-plume-mouse-tracking.jpg
+
+- **Shows:** Mouse tracking an odour source in a wind tunnel with a head-mounted real-time odour sensor and accelerometer; trajectories toward the source with concurrent head acceleration, speed and odour concentration traces
+- **Credit:** Tariq MF, Sterrett SC, Moore S, Lane L, Perkel DJ, Gire DH (2024), PLOS ONE 19(9):e0310254, Figure 1. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310254
+
+## drosophila-antenna-sensilla-map.jpg
+
+- **Shows:** Drosophila melanogaster third antennal segment: spatial map of trichoid and intermediate olfactory sensilla across the anterior and posterior antennal faces, and the ORN composition of each sensillum class
+- **Credit:** Lin C-C, Potter CJ (2015), PLOS ONE 10(10):e0139675, Figure 5. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139675
+
+## turbulent-odor-plume-dns.jpg
+
+- **Shows:** Snapshot of a turbulent odour plume from direct numerical simulation of the Navier-Stokes equations, showing intermittent filaments, and the resulting whiff/blank concentration time series at three distances from the source
+- **Credit:** Rando M, James M, Verri A, Rosasco L, Seminara A (2025), eLife 13:RP102906, Figure 1. CC BY 4.0.
+- **Licence:** CC BY 4.0
+- **Source:** https://elifesciences.org/articles/102906

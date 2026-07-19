@@ -10,6 +10,13 @@ estimatedMinutes: 12
 Place all the modalities on the course's axes and the exotic senses populate regions the familiar five leave empty.
 
 | | Active control of stimulus | Forward model known? | Dimensionality |
+
+<x-figure src="content/media/ampullae-of-lorenzini-3d.png"
+  caption="Three-dimensional organisation of the ampullae of Lorenzini: pores on the skin, jelly-filled canals, and the sensory ampullae. The canal length sets the spatial baseline over which voltage is compared — an accessory structure performing a computation, as in the cochlea and the semicircular canal, and again something olfaction does not have."
+  credit="Chiswick Chap. CC BY-SA 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Ampullae_of_Lorenzini.svg">
+</x-figure>
+
 |---|---|---|---|
 | Vision | selective (saccades) | n/a | low–moderate |
 | Audition | minimal | n/a | low |

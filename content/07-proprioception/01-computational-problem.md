@@ -11,7 +11,15 @@ Proprioception reports where the body is: joint angles, limb positions, movement
 
 Here is what makes it different from everything else in this course.
 
-**No receptor measures the quantity of interest.** Muscle spindles measure muscle *length* and rate of change of length. But the animal needs joint angles, or endpoint position — and the mapping from muscle lengths to joint configuration is nonlinear, redundant, and posture-dependent. Multi-joint muscles mean a single muscle's length depends on several joint angles at once.
+**No receptor measures the quantity of interest.** Muscle spindles measure muscle *length* and rate of change of length. But the animal needs joint angles, or endpoint position — and the mapping from muscle lengths to joint configuration is nonlinear, redundant, and posture-dependent.
+
+<x-figure src="content/media/proprioceptor-overview.jpg"
+  caption="The two proprioceptors. Spindles lie in parallel with the muscle and report length and its rate of change via Ia and II afferents; Golgi tendon organs lie in series at the tendon and report force via Ib afferents. Note the gamma efferents onto the intrafusal fibres — the brain setting its own receptor's gain, which no other sensor in this course can do."
+  credit="Lallemend F, Techameena P, Hadjab S (2025), eLife 14:e106803, Figure 1. CC BY 4.0."
+  source="https://elifesciences.org/articles/106803">
+</x-figure>
+
+Multi-joint muscles mean a single muscle's length depends on several joint angles at once.
 
 So the central problem is a **coordinate transformation** from a sensor basis nobody wants into a task basis nobody measures.
 

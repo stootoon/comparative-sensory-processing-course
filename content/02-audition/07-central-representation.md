@@ -7,6 +7,13 @@ estimatedMinutes: 14
 
 Primary auditory cortex is tonotopically organised, inheriting the cochlear frequency axis. Beyond that, the honest summary is that A1 has been harder to characterise than V1, and the difficulty is instructive.
 
+<x-figure src="content/media/tonotopic-map-interpretations.jpg"
+  caption="Competing parcellations of human auditory cortex from the same tonotopic data. The gradient is reproducible; where the field boundaries lie, and how many fields there are, is not agreed. That disagreement is itself informative — the map is real but the functional units it implies are not obvious, which is part of why A1 has resisted the normative treatment the cochlea received."
+  credit="Michelle Moerel, Federico De Martino, Elia Formisano, Front. Neurosci. 8:225, Fig. 3. CC BY 3.0."
+  source="https://commons.wikimedia.org/wiki/File:Interpretations_of_tonotopic_maps_Fnins-08-00225-g003.jpg">
+</x-figure>
+
+
 <x-figure src="content/media/tonotopic-map-human-cortex.jpg"
   caption="Tonotopy in human auditory cortex, measured with high-field fMRI. The frequency gradient is real and reproducible — and note that it is inherited directly from the cochlear array (§2.4) rather than computed, exactly as retinotopy is inherited from the retina."
   credit="Sandra Da Costa, Wietske van der Zwaag, Jose P. Marques, Richard S. J. Frackowiak, Stephanie Clarke, Melissa Saenz. CC BY-SA 3.0."

@@ -33,6 +33,13 @@ Two main hypotheses survive:
 
 **Electromagnetic induction** is a third route available to marine elasmobranchs, whose ampullae of Lorenzini are sensitive enough to detect the voltage induced by swimming through the field.
 
+<x-figure src="content/media/lorenzini-pores-tiger-shark.jpg"
+  caption="Ampullary pores on the snout of a tiger shark. Each leads to a jelly-filled canal ending in an electroreceptor, and the array is sensitive enough to detect the tiny voltages induced by swimming through the Earth's magnetic field — one of the few routes to magnetoreception whose physics is uncontroversial."
+  credit="Albert Kok. CC BY-SA 3.0."
+  source="https://commons.wikimedia.org/wiki/File:Lorenzini_pores_on_snout_of_tiger_shark.jpg">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">What the failure teaches</div>
 Every other modality in this course was grounded by the same route: find the receptor, characterise its tuning, work upward. Magnetoreception shows what happens when that route is blocked.

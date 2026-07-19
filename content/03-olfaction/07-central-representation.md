@@ -22,6 +22,13 @@ It is worth listing the ways the V1 analogy fails, because each failure is infor
 
 **Sparse, distributed ensembles.** Any odour activates a small percentage of neurons, scattered. Identity is carried by which sparse set is active.
 
+<x-figure src="content/media/oa-piriform-sparse.jpg"
+  caption="Odour responses in piriform cortex: sparse, distributed, and scattered with no spatial organisation. Compare the glomerular map in §3.4 — the bulb has an orderly array of receptor-identity units, and piriform discards that arrangement entirely in favour of a distributed code, which is what an associative memory wants."
+  credit="Roland B, Deneux T, Franks KM, Bathellier B, Fleischmann A (2017). CC BY 4.0."
+  source="https://doi.org/10.7554/eLife.26337">
+</x-figure>
+
+
 **Afferent drive is a minority input.** V1 is also recurrence-dominated, but piriform is more extreme, and the recurrent connections are long-range and non-topographic rather than local.
 
 **Not laminated like neocortex.** Three layers, paleocortex, more similar in organisation to hippocampus than to V1 [@haberly2001].

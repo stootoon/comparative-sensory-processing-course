@@ -1,0 +1,74 @@
+[
+  {
+    "file": "content/media/proprioceptor-overview.jpg",
+    "topic": "Overview of the muscle proprioceptive system: Golgi tendon organ with Ib afferents at the musculotendinous junction, muscle spindle with intrafusal fibres, Ia and II afferents and efferent (gamma) innervation, plus the ascending pathway via the external cuneate nucleus",
+    "caption_hint": "The two muscle proprioceptors side by side. The Golgi tendon organ (top right) is innervated by Ib afferents and sits in series with the tendon, so it reports muscle force. The muscle spindle (bottom right) lies in parallel with extrafusal fibres, is innervated by Ia and II afferents, and receives its own efferent (fusimotor) supply that resets its sensitivity as the muscle shortens. Both feed local spinal circuits, the cerebellum via the external cuneate nucleus, and cortex via thalamus.",
+    "credit": "Lallemend F, Techameena P, Hadjab S (2025), eLife 14:e106803, Figure 1. CC BY 4.0.",
+    "source": "https://elifesciences.org/articles/106803",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/somato-spindle-gto-fluorescence.jpg",
+    "topic": "Muscle spindle and Golgi tendon organ imaged in situ in mouse soleus muscle by genetic fluorescent labelling of proprioceptive afferents (tdTomato) with VGLUT1 counterstain",
+    "caption_hint": "Real proprioceptors in situ, not a schematic. Proprioceptive afferents in mouse soleus are labelled with tdTomato (magenta) and their terminals with VGLUT1 (green). Top rows: the annulospiral endings wrapping intrafusal fibres of a muscle spindle. Bottom rows: the branched, braided ending of a Golgi tendon organ interdigitating with collagen fascicles at the musculotendinous junction. The two receptor morphologies are diagnostic.",
+    "credit": "Sonner MJ, Walters MC, Ladle DR (2017), PLOS ONE 12(1):e0170751, Figure 1. CC BY 4.0.",
+    "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0170751",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/somato-s1-areas-3a-3b-1-2.jpg",
+    "topic": "Somatosensory pathway from spinal cord to cortex in the squirrel monkey, with primary somatosensory cortex subdivided into areas 3a, 3b, 1 and 2 on the postcentral gyrus",
+    "caption_hint": "The postcentral gyrus is not one map but four. Areas 3a, 3b, 1 and 2 lie in a rostrocaudal strip across the central sulcus (CS): 3a in the sulcal fundus takes muscle-spindle input, 3b on the rostral bank is the principal cutaneous map, and areas 1 and 2 sit progressively more caudally with larger, more complex receptive fields. Below, the dorsal-column and spinothalamic routes converge on ventroposterior thalamus (VPL hand/foot, VPM face) before reaching cortex.",
+    "credit": "Qi H-X, Kaas JH, Reed JL (2014), Frontiers in Systems Neuroscience 8:84, Figure 1. CC BY.",
+    "source": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2014.00084/full",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/whisking-mouse-kinematics.jpg",
+    "topic": "Head-fixed mouse actively whisking on a circular treadmill, with high-speed whisker tracking, and the decomposition of the whisk cycle into offset, amplitude and phase",
+    "caption_hint": "Active sensing in the rodent whisker system. A head-fixed mouse whisks in air while running on a circular treadmill; a high-speed camera tracks whisker position. The whisk is decomposed into slow variables (set-point offset and amplitude, which the animal controls over hundreds of milliseconds) and the fast phase within each ~10 Hz protraction-retraction cycle. Touch is timed against this self-generated motor rhythm.",
+    "credit": "Chinta S, Pluta SR (2025), PLOS Biology 23(4):e3003087, Figure 1a,c (cropped). CC BY 4.0.",
+    "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003087",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/taste-transduction-cascade.jpg",
+    "topic": "Taste transduction cascade in a type II taste bud cell: T1R2/T1R3 receptor, gustducin (alpha-gustducin) and other G-protein subunits, PLCbeta2, IP3, calcium release, TRPM5 opening, depolarisation and CALHM1/3-mediated ATP release onto the afferent nerve",
+    "caption_hint": "The canonical GPCR taste cascade, drawn here for sweet. A T1R2/T1R3 heterodimer activates a heterotrimeric G protein whose alpha subunit is gustducin; the beta-gamma-13 subunits drive PLC-beta-2, generating IP3 and releasing calcium from stores. Calcium opens the monovalent-selective TRPM5 channel, the cell depolarises, and ATP leaves through CALHM1/3 channels to excite the gustatory afferent. The same downstream chain (gustducin, PLC-beta-2, TRPM5, CALHM) serves bitter T2Rs and umami T1R1/T1R3; only the receptor at the top differs.",
+    "credit": "von Molitor E, Riedel K, Krohn M, Hafner M, Rudolf R, Cesetti T (2021), Frontiers in Human Neuroscience 15:667709, Figure 1. CC BY.",
+    "source": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.667709/full",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/vestib-semicircular-canal-planes.jpg",
+    "topic": "The three orthogonal semicircular canals (anterior, posterior, horizontal) in the head, plus the otolith organs, the ampulla with its hair cells and axis of maximum sensitivity, and afferent firing during head rotation",
+    "caption_hint": "Three canals, three planes. The anterior, posterior and horizontal semicircular canals are arranged roughly orthogonally in the head, so any head rotation is decomposed onto the three canal axes. Endolymph inertia deflects the cupula and its hair cells along an axis of maximum sensitivity, giving a bidirectional signal: firing rises above the high resting rate for rotation in the excitatory direction and falls below it for the opposite direction. The utricle and saccule handle linear acceleration.",
+    "credit": "Wiboonsaksakul KP, Leavitt Brown OME, Cullen KE (2024), eLife 13:e99516, Figure 1. CC BY 4.0.",
+    "source": "https://elifesciences.org/articles/99516",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/odor-plume-mouse-tracking.jpg",
+    "topic": "Mouse tracking an odour source in a wind tunnel with a head-mounted real-time odour sensor and accelerometer; trajectories toward the source with concurrent head acceleration, speed and odour concentration traces",
+    "caption_hint": "Sniffing out a source in real time. A mouse carries a head-mounted photoionisation-style odour sensor and accelerometer, so plume encounters can be timed against the animal's own head movements. The trajectories (B, D1, D2) run toward the source (red cross), coloured by instantaneous odour concentration; the traces show that plume encounters are preceded by increased head-pitch motion in the 5-14 Hz active-search band and followed by the animal lowering its head and turning toward the source.",
+    "credit": "Tariq MF, Sterrett SC, Moore S, Lane L, Perkel DJ, Gire DH (2024), PLOS ONE 19(9):e0310254, Figure 1. CC BY 4.0.",
+    "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310254",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/drosophila-antenna-sensilla-map.jpg",
+    "topic": "Drosophila melanogaster third antennal segment: spatial map of trichoid and intermediate olfactory sensilla across the anterior and posterior antennal faces, and the ORN composition of each sensillum class",
+    "caption_hint": "The fly's nose is a field of sensilla. Each hair-like sensillum on the third antennal segment houses one to four olfactory receptor neurons in a stereotyped combination, and sensilla of a given class occupy reproducible zones on the anterior and posterior antennal faces (the sacculus and arista are marked for orientation). Panel B shows the ORN complements of the trichoid (at) and intermediate (ai) classes, with each neuron named by the receptor gene it expresses. This stereotypy is what makes the fly olfactory system a wiring diagram you can name neuron by neuron.",
+    "credit": "Lin C-C, Potter CJ (2015), PLOS ONE 10(10):e0139675, Figure 5. CC BY 4.0.",
+    "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139675",
+    "licence": "CC BY 4.0"
+  },
+  {
+    "file": "content/media/turbulent-odor-plume-dns.jpg",
+    "topic": "Snapshot of a turbulent odour plume from direct numerical simulation of the Navier-Stokes equations, showing intermittent filaments, and the resulting whiff/blank concentration time series at three distances from the source",
+    "caption_hint": "Why olfactory search is hard. A turbulent plume is not a smooth gradient: mixing shreds the odour into filaments, so a searcher downwind receives a sparse, intermittent series of whiffs separated by blanks (right panels, at the three coloured positions). Concentration itself is a poor guide to distance; the statistics of encounters - whiff frequency and blank duration - carry the usable information.",
+    "credit": "Rando M, James M, Verri A, Rosasco L, Seminara A (2025), eLife 13:RP102906, Figure 1. CC BY 4.0.",
+    "source": "https://elifesciences.org/articles/102906",
+    "licence": "CC BY 4.0"
+  }
+]

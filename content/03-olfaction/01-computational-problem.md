@@ -17,6 +17,13 @@ Stated that way it sounds like vision. It is not, and the differences begin at t
 
 **Location.** Where is the source? A statistical inference over an intermittent, turbulent time series — much closer to a signal-processing problem than to anything in the identity story.
 
+<x-figure src="content/media/oa-odour-plume-turbulent.jpg"
+  caption="A turbulent odour plume, side and top view, from direct numerical simulation. This is the signal. Identity must be recovered from the chemical composition of a filament; location must be recovered from the statistics of when filaments arrive. The figure makes plain how little the two problems have in common."
+  credit="Rigolli N, Magnoli N, Rosasco L, Seminara A (2022). CC BY 4.0."
+  source="https://doi.org/10.7554/eLife.72196">
+</x-figure>
+
+
 These have almost nothing in common. Identity is a static classification in high-dimensional chemical space. Location is a dynamic inference from temporal statistics in which chemical identity is nearly irrelevant — you locate a source by the *timing* of whiffs, not by what is in them.
 
 <x-callout class="x-callout is-key">

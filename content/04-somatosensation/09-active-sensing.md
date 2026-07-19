@@ -17,6 +17,13 @@ The olfactory question follows directly: is sniff strategy similarly matched to 
 
 Rodents sweep their whiskers back and forth at 5–15 Hz to palpate their surroundings, and the system has become the workhorse preparation for active sensing.
 
+<x-figure src="content/media/whisking-mouse-kinematics.jpg"
+  caption="A head-fixed mouse whisking, with the whisk cycle decomposed into offset, amplitude and phase. That decomposition is exactly what makes phase-referenced decoding tractable here and not yet in the bulb — and §12 proposes importing it, since sniffing supplies the same kind of self-generated phase reference."
+  credit="Chinta S, Pluta SR (2025), PLOS Biology 23(4):e3003087, Figure 1a,c (cropped). CC BY 4.0."
+  source="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003087">
+</x-figure>
+
+
 <x-figure src="content/media/somato-barrel-cortex-layer4.jpg"
   caption="Barrel cortex in layer 4, with individual whiskers mapped one-to-one onto anatomically discrete barrels. This precise, visible somatotopy is what made the whisker system the workhorse preparation for active sensing — and it is exactly what the olfactory bulb does not offer, which is part of why phase-referenced decoding is far better characterised here than in the bulb."
   credit="Commons user Imbrickle. Public domain."

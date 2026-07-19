@@ -107,6 +107,13 @@ Worth noting what the argument *does* buy regardless of whether the specific alg
 
 The bulb sends output through at least two projection-neuron classes — mitral and tufted cells — with different thresholds, latencies, sniff-phase locking, and downstream targets.
 
+<x-figure src="content/media/oa-mitral-tufted-morphology.jpg"
+  caption="Mitral and tufted cells: different somatic depths, different dendritic arborisations, different downstream targets. The course argues this is the sixth independent instance of the split-early motif — and §6.8 raises the possibility, not much pursued, that it is specifically a DEADLINE-driven split rather than an invariance or loss-function one."
+  credit="Imamura F, Ito A, LaFever BJ (2020). CC BY 4.0."
+  source="https://doi.org/10.3389/fncir.2020.561822">
+</x-figure>
+
+
 Every modality in this course does something structurally similar: sustained and transient retinal ganglion cells, SA/RA/PC afferents in touch, regular and irregular vestibular afferents, position/velocity/vibration channels in the fly chordotonal organ.
 
 The generic normative account: **a single channel cannot simultaneously optimise sensitivity, temporal precision, and dynamic range**, so split. In olfaction the natural reading is a speed–accuracy decomposition — tufted cells firing earlier and more reliably at low concentration, supporting rapid coarse inference; mitral cells later and more sparsely, supporting slower, more nuanced inference integrating cortical feedback.

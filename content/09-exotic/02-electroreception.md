@@ -20,6 +20,13 @@ This is what makes the system uniquely tractable. The animal produces the carrie
 
 Two receptor classes: **ampullary** receptors, tuned to low frequencies and used for passive detection of external fields, and **tuberous** receptors, tuned to the animal's own discharge frequency and used for active electrolocation.
 
+<x-figure src="content/media/mormyromast-tuberous-electroreceptor.png"
+  caption="A mormyromast — a tuberous electroreceptor, tuned to the animal's own discharge. Tuberous and ampullary receptors sit in the same skin and serve entirely different jobs: one reads the self-generated probe for active electrolocation, the other listens passively for external fields. Two receptor classes, one surface, split by whether the signal is self-caused."
+  credit="Ian Alexander. CC BY-SA 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Mormyromast_diagram.svg">
+</x-figure>
+
+
 The electric image is intrinsically **blurry** — the field spreads, so a small object produces a broad, low-contrast pattern. Spatial acuity is poor by visual standards, and much of what the system does is recovering information from a badly smeared signal.
 
 <x-figure src="content/media/electric-image-scene-analysis.jpg"
@@ -41,6 +48,13 @@ Here is the result that earns this section its length.
 
 
 The **electrosensory lateral line lobe** is a cerebellum-like structure receiving both electroreceptor input and a large parallel-fibre input carrying efference copy, proprioceptive signals, and prior electrosensory activity.
+
+<x-figure src="content/media/oa-ell-circuit.jpg"
+  caption="The electrosensory lateral line lobe. Electroreceptor input arrives on one pathway; a broad, delayed parallel-fibre input carrying efference copy and prior activity arrives on another. Anti-Hebbian plasticity at the parallel-fibre synapses builds the negative image. Compare the bulb: granule cells carrying massive cortical feedback onto mitral cells is the same architecture, which is why §9.6 proposes the timecourse experiment."
+  credit="Hofmann V, Chacron MJ (2019). CC BY 4.0."
+  source="https://doi.org/10.3389/fnint.2019.00052">
+</x-figure>
+
 
 Principal cells in this structure **learn to predict and subtract** the reafferent input — the part of the signal caused by the animal's own discharge and its own movements. The learning uses anti-Hebbian plasticity at parallel-fibre synapses, and it builds what is called a **negative image**: an internally generated pattern that cancels the expected input.
 

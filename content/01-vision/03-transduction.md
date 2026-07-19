@@ -30,6 +30,13 @@ Amplification of that depth takes time. The rod's single-photon response peaks a
 
 **The duplex retina** resolves the conflict structurally: two receptor systems with different gains, spanning together about ten log units of intensity. Rods for photon-starved conditions with slow, high-gain, saturating responses; cones for daylight with fast, low-gain, non-saturating ones.
 
+<x-figure src="content/media/cone-mosaic-normal-vs-protanope.jpg"
+  caption="The cone mosaic, imaged in a living eye. The duplex arrangement means this mosaic is only half the story — interleaved rods, far more numerous, carry vision at low light with entirely different gain and speed. Two receptor systems for one stimulus dimension, because no single transducer covers ten log units."
+  credit="Mark Fairchild. CC BY-SA 3.0."
+  source="https://commons.wikimedia.org/wiki/File:ConeMosaics.jpg">
+</x-figure>
+
+
 This is the same solution as the mitral/tufted split and the SA/RA/PC split — **one channel cannot cover the whole range, so build two and let the consumer choose.** It appears here at the transducer itself, which is earlier than in any other modality in the course.
 
 ## Noise floors

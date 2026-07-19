@@ -1,0 +1,74 @@
+[
+ {
+  "file": "content/media/oa-glomerular-odour-map.jpg",
+  "topic": "Odour-evoked glomerular activity maps on the dorsal and lateral surfaces of the mouse olfactory bulb",
+  "caption_hint": "Wide-field calcium imaging of olfactory sensory neuron input to the mouse olfactory bulb (GCaMP6f), recorded simultaneously from the dorsal (top row) and lateral (bottom row) surfaces. Each column is a different monomolecular odorant. Bright spots are individual activated glomeruli: every odorant drives its own reproducible spatial subset, and chemically related odorants (e.g. heptanol vs heptanone) give partially overlapping maps. This is the canonical demonstration that odour identity is written as a spatial pattern across the glomerular sheet. Cropped from panel A of the original figure.",
+  "credit": "Baker KL, Vasan G, Gumaste A, Pieribone VA, Verhagen JV (2019). CC BY 4.0.",
+  "source": "https://doi.org/10.1371/journal.pbio.3000409",
+  "licence": "CC BY 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/oa-odour-plume-turbulent.jpg",
+  "topic": "Turbulent odour plume structure from direct numerical simulation of a turbulent boundary layer",
+  "caption_hint": "The odour signal an animal actually receives. (a) Streamwise velocity in a turbulent boundary layer. (b, c) Snapshots of the odour concentration field released from a point source, side view and top view, on a logarithmic colour scale spanning six decades. The plume is not a smooth gradient but a meandering, intermittent filament that breaks into discrete wisps separated by odour-free gaps. Any gradient-climbing strategy fails here; animals must instead use the statistics of intermittent encounters. Cropped from panels a-c of the original figure.",
+  "credit": "Rigolli N, Magnoli N, Rosasco L, Seminara A (2022). CC BY 4.0.",
+  "source": "https://doi.org/10.7554/eLife.72196",
+  "licence": "CC BY 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/oa-piriform-sparse.jpg",
+  "topic": "Sparse, distributed and trial-variable odour responses in mouse piriform cortex",
+  "caption_hint": "Two-photon calcium imaging of a field of piriform cortex neurons. Each panel is one trial (columns) of one odorant (rows); cells are coloured by response amplitude. Unlike the orderly glomerular map of the bulb, piriform responses are sparse, spatially scattered with no topography, and partially overlapping between odorants - and they vary considerably from trial to trial. Odour identity is carried by which distributed ensemble is active, not by where in the cortex activity falls. Cropped from panel d of the original figure.",
+  "credit": "Roland B, Deneux T, Franks KM, Bathellier B, Fleischmann A (2017). CC BY 4.0.",
+  "source": "https://doi.org/10.7554/eLife.26337",
+  "licence": "CC BY 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/oa-drosophila-antennal-lobe-glomeruli.jpg",
+  "topic": "Drosophila antennal lobe glomeruli imaged with calcium indicators in projection neurons",
+  "caption_hint": "The fly antennal lobe, the insect analogue of the vertebrate olfactory bulb. Left column ('Morph') shows the anatomical glomerular structure at three depths with identified glomeruli outlined and named (DL1, DL5, DM1-DM4); remaining columns show odour-evoked calcium responses in projection neurons to two odorants and their mixture. Note the same design principle as in mammals - a modest number of anatomically identifiable glomeruli, each the target of one receptor type, activated in odour-specific combinations. Cropped from panel b of the original figure.",
+  "credit": "Mohamed AAM, Retzke T, Das Chakraborty S, Fabian B, Hansson BS, Knaden M, Sachse S (2019). CC BY 4.0.",
+  "source": "https://doi.org/10.1038/s41467-019-09069-1",
+  "licence": "CC BY 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/oa-mitral-tufted-morphology.jpg",
+  "topic": "Morphology and laminar position of mitral and tufted cell subtypes in the rodent olfactory bulb",
+  "caption_hint": "Schematic of the projection neurons of the main olfactory bulb. All of them send a single apical dendrite to one glomerulus, but they differ systematically in soma depth and in which sublamina of the external plexiform layer their lateral dendrites occupy: external tufted (eT) cells sit highest, then middle tufted (mT), then internal tufted (iT) and mitral cells (M:I, M:II) in the mitral cell layer. Right panel shows the birthdates of each class. These are parallel output channels, not one homogeneous population: tufted cells fire earlier and at lower concentrations than mitral cells and project to different cortical targets.",
+  "credit": "Imamura F, Ito A, LaFever BJ (2020). CC BY 4.0.",
+  "source": "https://doi.org/10.3389/fncir.2020.561822",
+  "licence": "CC BY 4.0",
+  "module": "olfaction"
+ },
+ {
+  "file": "content/media/oa-auditory-nerve-tuning-curves.jpg",
+  "topic": "Frequency threshold tuning curves of single auditory nerve fibres",
+  "caption_hint": "Threshold sound level required to excite single cochlear nerve fibres, plotted against tone frequency (budgerigar). Each coloured curve is one fibre. Curves are sharply V-shaped: a fibre is exquisitely sensitive at its characteristic frequency, the frequency at the tip, and needs 40-60 dB more level to be driven an octave away. Crosses are thresholds of the whole population. Because each fibre inherits its tuning from the place on the basilar membrane it innervates, the array of tuning curves tiles frequency - the cochlea's mechanical filter bank read out neuron by neuron. Cropped from panel a of the original figure.",
+  "credit": "Karosas DM, Gonzales L, Wang Y, Bergevin C, Carney LH, Henry KS (2025). CC BY 4.0.",
+  "source": "https://doi.org/10.7554/eLife.102911",
+  "licence": "CC BY 4.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/oa-auditory-brainstem-cn-celltypes.jpg",
+  "topic": "Auditory brainstem circuit showing cochlear nucleus cell types and their giant synapses",
+  "caption_hint": "Wiring of the mammalian auditory brainstem, with morphological insets. Auditory nerve fibres from inner hair cells terminate in the cochlear nucleus on spherical and globular bushy cells (SBC, GBC) via the endbulb of Held, and on octopus cells, whose broad dendrites splay across the incoming nerve fibre array so they sum inputs from many frequencies at once - the anatomy of a coincidence detector. Bushy cells relay refined timing to MSO and, via the calyx of Held in MNTB, to LSO for binaural comparison. Red = excitation, blue = inhibition.",
+  "credit": "Keine C, Englitz B (2025). CC BY 4.0.",
+  "source": "https://doi.org/10.3389/fncel.2025.1568506",
+  "licence": "CC BY 4.0",
+  "module": "audition"
+ },
+ {
+  "file": "content/media/oa-ell-circuit.jpg",
+  "topic": "Electrosensory lateral line lobe (ELL) of the weakly electric fish: a cerebellum-like circuit",
+  "caption_hint": "The first central stage of electrosensation in Apteronotus. (A) Body and electroreceptive surface. (B) Electroreceptor afferents trifurcate onto three parallel maps (LS, CLS, CMS). (C) Columnar arrangement of ON and OFF pyramidal cells. (D) The cerebellum-like plan: pyramidal cells receive receptor input on basal dendrites while their apical dendrites sit in a molecular layer traversed by parallel fibres from EGp granule cells, plus multiple descending feedback loops via nP and TS. This parallel-fibre-over-principal-cell architecture is the same motif found in the cerebellum, the dorsal cochlear nucleus and the elasmobranch dorsal octavolateral nucleus, and it supports adaptive cancellation of self-generated signals.",
+  "credit": "Hofmann V, Chacron MJ (2019). CC BY 4.0.",
+  "source": "https://doi.org/10.3389/fnint.2019.00052",
+  "licence": "CC BY 4.0",
+  "module": "electroreception"
+ }
+]

@@ -21,6 +21,13 @@ The properties, in the same order as the other two modules:
 
 **Tuning is narrow**, and actively sharpened (§2.3). A single auditory nerve fibre responds to a small fraction of the audible range — the opposite of the cone's spectral promiscuity.
 
+<x-figure src="content/media/oa-auditory-nerve-tuning-curves.jpg"
+  caption="Frequency threshold tuning curves from single auditory nerve fibres. Each fibre has a sharply defined best frequency with a steep high-frequency flank — the sharpness is what the cochlear amplifier buys (§2.3), and it is what makes ~3,500 narrow channels an efficient way to tile a one-dimensional stimulus space."
+  credit="Karosas DM, Gonzales L, Wang Y, Bergevin C, Carney LH, Henry KS (2025). CC BY 4.0."
+  source="https://doi.org/10.7554/eLife.102911">
+</x-figure>
+
+
 <x-figure src="content/02-audition/figures/critical-band.js"
   caption="The critical band, measured behaviourally. Widen the masker and masking increases only while the masker fits inside the auditory filter; beyond that it plateaus. This is a psychophysical experiment that reads out a peripheral filter width — and §12.6 proposes the olfactory analogue, where the sharp prediction is that masking should track receptor-activation overlap rather than perceptual similarity.">
 </x-figure>

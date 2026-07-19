@@ -7,6 +7,13 @@ estimatedMinutes: 14
 
 Primary somatosensory cortex contains an orderly map of the body surface, with four subdivisions — areas 3a, 3b, 1 and 2 — forming a rough hierarchy from simple to complex response properties.
 
+<x-figure src="content/media/somato-s1-areas-3a-3b-1-2.jpg"
+  caption="The somatosensory pathway and the S1 subdivisions. Areas 3a (muscle spindle input), 3b (cutaneous), 1 and 2 (increasingly complex, combining both) form a hierarchy — and note that 3a is where proprioceptive input arrives, which is why touch and proprioception are hard to separate cleanly."
+  credit="Qi H-X, Kaas JH, Reed JL (2014), Frontiers in Systems Neuroscience 8:84, Figure 1. CC BY."
+  source="https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2014.00084/full">
+</x-figure>
+
+
 ## The homunculus as budget allocation
 
 The map is grotesquely distorted: hands and lips occupy vastly more cortex than their surface area warrants, and the distortion tracks **innervation density**, which itself tracks behavioural importance.

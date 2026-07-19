@@ -13,6 +13,13 @@ The behaviourally relevant classes number about five: sweet (caloric sugars), um
 
 Each corresponds to a **nutritional or toxicological category**, not to a chemical family. That is the key structural fact: taste's dimensions are defined by what the compounds *do to the animal*, not by what they are.
 
+<x-figure src="content/media/tongue-foliate-papilla-section.jpg"
+  caption="A foliate papilla in section, with taste buds embedded in the trench walls. The anatomy is elaborate; the stimulus space it serves has about five dimensions. Compare the olfactory epithelium, whose anatomy is far simpler and whose stimulus space has hundreds — a reminder that structural complexity does not track computational difficulty."
+  credit="Henry Vandyke Carter, Gray's Anatomy (1918), plate 1021. Public domain."
+  source="https://commons.wikimedia.org/wiki/File:Gray1021.png">
+</x-figure>
+
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Dimensions defined by consequence, not chemistry</div>
 This is worth dwelling on, because it is the sharpest version of the §12 question about olfactory coordinates.

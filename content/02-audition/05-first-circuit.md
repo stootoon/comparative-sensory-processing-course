@@ -11,7 +11,15 @@ Every auditory nerve fibre entering the brainstem terminates in the **cochlear n
 
 The retina compresses $10^8$ photoreceptors to $10^6$ ganglion cells. The bulb converges thousands of receptor neurons onto each glomerulus. The cochlear nucleus **expands**: the same auditory nerve input is copied into several parallel streams, each with cell types specialised for a different property.
 
-- **Bushy cells** preserve timing with extraordinary fidelity. They receive giant terminals — the endbulbs of Held, among the largest synapses in the brain — that reliably drive a spike per input spike. They can even *improve* timing precision over their input by coincidence-detecting a few converging fibres. Their job is to protect phase-locking for the binaural comparison downstream.
+- **Bushy cells** preserve timing with extraordinary fidelity. They receive giant terminals — the endbulbs of Held, among the largest synapses in the brain — that reliably drive a spike per input spike.
+
+<x-figure src="content/media/oa-auditory-brainstem-cn-celltypes.jpg"
+  caption="The auditory brainstem circuit, with the cochlear nucleus cell types and their targets. Every auditory nerve fibre branches to contact several of these — the same input, copied into parallel streams specialised for timing, level, spectrum and onset. This is decomposition rather than compression, and it is the third distinct answer to what a first circuit does."
+  credit="Keine C, Englitz B (2025). CC BY 4.0."
+  source="https://doi.org/10.3389/fncel.2025.1568506">
+</x-figure>
+
+They can even *improve* timing precision over their input by coincidence-detecting a few converging fibres. Their job is to protect phase-locking for the binaural comparison downstream.
 - **Octopus cells** do the opposite: they integrate across many fibres spanning a wide frequency range, responding only to broadband transients. They are onset detectors with sub-millisecond precision.
 - **Stellate cells** encode the spectral envelope with sustained, regular firing — the "what is the spectrum right now" channel.
 - **Fusiform cells** in the dorsal cochlear nucleus integrate auditory input with somatosensory input about head and pinna position, which is what makes spectral cues for elevation usable.

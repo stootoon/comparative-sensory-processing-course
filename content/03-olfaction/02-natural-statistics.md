@@ -38,7 +38,15 @@ Odour is transported by turbulent flow. That single fact determines nearly every
 
 **Concentration distributions are heavy-tailed.** Mean concentration is a poor summary; the mode is often near zero while rare large excursions dominate the mean. An animal averaging concentration over a long window would discard most of the information.
 
-**There are no useful spatial gradients at the scale of an animal.** This is the crucial negative result. Chemotaxis by gradient ascent — the bacterial strategy — fails at macroscopic scales because turbulent mixing destroys monotonic gradients. Locating a source by climbing a concentration gradient is not available, which is why search strategies based on information gain rather than gradient ascent reproduce the casting and zigzagging that real animals do [@vergassola2007].
+**There are no useful spatial gradients at the scale of an animal.** This is the crucial negative result. Chemotaxis by gradient ascent — the bacterial strategy — fails at macroscopic scales because turbulent mixing destroys monotonic gradients.
+
+<x-figure src="content/media/turbulent-odor-plume-dns.jpg"
+  caption="A turbulent odour plume from direct numerical simulation, with the concentration time series a fixed sensor would see. Note that there is no smooth gradient anywhere — the plume is filamentous, and a sensor experiences it as intermittent whiffs separated by blanks. This is why gradient ascent fails and why the informative structure is temporal."
+  credit="Rando M, James M, Verri A, Rosasco L, Seminara A (2025), eLife 13:RP102906, Figure 1. CC BY 4.0."
+  source="https://elifesciences.org/articles/102906">
+</x-figure>
+
+Locating a source by climbing a concentration gradient is not available, which is why search strategies based on information gain rather than gradient ascent reproduce the casting and zigzagging that real animals do [@vergassola2007].
 
 ## Where the spatial information actually lives
 

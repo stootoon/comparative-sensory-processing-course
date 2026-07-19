@@ -13,11 +13,25 @@ The first stage is stochastic in a way photon absorption is not, and the differe
 
 At threshold, a receptor neuron may register only a handful of binding events per sniff. Binding is Poisson, so with an expected count $k$ the fractional error is $1/\sqrt{k}$ — with $k \approx 10$, roughly 30% before any downstream noise. **This is the shot-noise limit that glomerular convergence exists to beat** (§3.5).
 
+<x-figure src="content/media/drosophila-antenna-sensilla-map.jpg"
+  caption="The Drosophila antenna, with sensillum types mapped across its surface and the receptor neurons each contains. Note the arrangement: sensillum types are distributed in a rough spatial pattern, but which receptor a neuron expresses is what determines where it projects — the same identity-not-position principle as the mammalian epithelium."
+  credit="Lin C-C, Potter CJ (2015), PLOS ONE 10(10):e0139675, Figure 5. CC BY 4.0."
+  source="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139675">
+</x-figure>
+
+
 ## The speed problem
 
 Here is the fact this module keeps returning to.
 
 The olfactory receptor neuron response to a concentration step has a time constant of roughly **100 milliseconds**. The cascade has several stages, each contributing delay, and the mucus layer adds diffusion time before a molecule reaches the receptor at all.
+
+<x-figure src="content/media/osn-glomerular-convergence.jpg"
+  caption="Receptor neurons converging onto glomeruli. Thousands of same-receptor neurons pooling onto one target is the architecture that beats molecular shot noise — and, per §3.3, may be doing temporal rather than amplitude work: pooling n noisy timers sharpens timing as √n, which is how a ~100 ms sensor can contribute to resolving 40 Hz structure."
+  credit="Noodle brain (Wikimedia Commons). CC BY-SA 4.0."
+  source="https://commons.wikimedia.org/wiki/File:Olfactory_Sensory_Neurons_innervating_Olfactory_Glomeruli.jpg">
+</x-figure>
+
 
 Natural plumes carry structure to **tens of hertz** (§3.2). Mice discriminate correlated from anti-correlated fluctuations up to 40 Hz [@ackels2021].
 

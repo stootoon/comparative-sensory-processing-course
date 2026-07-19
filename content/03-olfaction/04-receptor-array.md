@@ -22,6 +22,13 @@ Neurons expressing the same receptor are scattered across the epithelium but con
 
 The code is combinatorial: one receptor responds to many odorants, one odorant activates many receptors, and identity is carried by the pattern across the array [@malnic1999]. Slight changes in a molecule, or in its concentration, change the pattern.
 
+<x-figure src="content/media/oa-glomerular-odour-map.jpg"
+  caption="Odour-evoked glomerular activity, imaged across the dorsal bulb. Each odorant activates a distinctive subset of glomeruli — this is the combinatorial code, measured. Note that the active glomeruli are scattered rather than clustered: there is no region of the map that is 'the aldehyde area'."
+  credit="Baker KL, Vasan G, Gumaste A, Pieribone VA, Verhagen JV (2019). CC BY 4.0."
+  source="https://doi.org/10.1371/journal.pbio.3000409">
+</x-figure>
+
+
 <x-figure src="content/03-olfaction/figures/combinatorial-code.js"
   caption="The combinatorial code, made concrete. No single glomerulus is the odorant and none is private to it — identity is the whole pattern. Drag the receptor count down to three and watch two odorants become confusable: that is the quantitative reason olfaction keeps hundreds of channels where vision manages with three.">
 </x-figure>

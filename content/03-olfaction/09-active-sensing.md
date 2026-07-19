@@ -37,6 +37,13 @@ The full course treats this as a motif in its own right. It is worth flagging th
 
 What works instead is search that treats detections as **evidence** rather than as a gradient. Maximising expected information gain about source location reproduces the casting and zigzagging that moths and rodents actually do [@vergassola2007] — cast across the wind when no odour has been detected recently, surge upwind on detection.
 
+<x-figure src="content/media/odor-plume-mouse-tracking.jpg"
+  caption="A mouse tracking an odour source, carrying a head-mounted sensor that records what it actually encountered. Recordings like this are what turned plume tracking from a behavioural description into a quantitative problem — you can see both the search trajectory and the intermittent signal that drove it."
+  credit="Tariq MF, Sterrett SC, Moore S, Lane L, Perkel DJ, Gire DH (2024), PLOS ONE 19(9):e0310254, Figure 1. CC BY 4.0."
+  source="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310254">
+</x-figure>
+
+
 The structure is worth naming: **an ambiguous instantaneous signal, a known forward model of how movement changes it, and movement chosen to disambiguate.** §2.9 identified the same structure in head rotation to resolve auditory front-back confusion, and the vestibular tilt–translation problem is a third instance.
 
 ## Closer to echolocation than to vision

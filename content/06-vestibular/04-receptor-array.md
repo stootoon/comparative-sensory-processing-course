@@ -11,6 +11,13 @@ Three semicircular canals and two otolith organs per ear: **ten sensors in total
 
 The array is **ordered** and **metric** in an unusual sense — not spatially, but *geometrically*. Each canal is oriented along a particular axis in head coordinates, and the three canals on one side are approximately mutually orthogonal.
 
+<x-figure src="content/media/vestib-semicircular-canal-planes.jpg"
+  caption="The three semicircular canals in their planes within the head, with the ampulla and afferent responses. The near-orthogonality is the point: three canals form a basis for three-dimensional rotation, so ten sensors resolve the variable completely. Compare olfaction's ~1,000 broad overlapping channels for a space with no known basis at all."
+  credit="Wiboonsaksakul KP, Leavitt Brown OME, Cullen KE (2024), eLife 13:e99516, Figure 1. CC BY 4.0."
+  source="https://elifesciences.org/articles/99516">
+</x-figure>
+
+
 That orthogonality is the point. **The array is a basis for the space it measures.** Angular velocity is a three-dimensional vector; three orthogonal canals resolve it completely. Linear acceleration is a three-dimensional vector; the two maculae with their varied hair-cell orientations span it.
 
 <x-callout class="x-callout is-key">

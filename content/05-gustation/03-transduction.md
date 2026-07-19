@@ -17,6 +17,13 @@ estimatedMinutes: 12
 
 - **Umami** — T1R1+T1R3, another dimer, detecting L-glutamate and some other amino acids.
 - **Bitter** — the **T2R family, roughly 25 receptors in humans**, collectively responding to hundreds of structurally unrelated compounds.
+
+<x-figure src="content/media/taste-transduction-cascade.jpg"
+  caption="The taste transduction cascade in a Type II cell: receptor → gustducin → PLCβ2 → IP3 → calcium release → TRPM5 → CALHM channels for neurotransmitter release. Sweet, umami and bitter all share this downstream machinery and differ only in the receptor — which is precisely why twenty-five bitter receptors can converge on one perceptual axis without any additional wiring."
+  credit="von Molitor E, Riedel K, Krohn M, Hafner M, Rudolf R, Cesetti T (2021), Frontiers in Human Neuroscience 15:667709, Figure 1. CC BY."
+  source="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.667709/full">
+</x-figure>
+
 - **Sour** — OTOP1, a proton channel, detecting acidity directly.
 - **Salty** — ENaC, a sodium channel, detecting Na⁺ directly.
 

@@ -48,6 +48,13 @@ This is worth naming precisely: it is a **prior about the world implemented as a
 
 The two sides are connected by inhibitory commissural fibres, implementing the push–pull comparison centrally as well as mechanically. This is lateral inhibition — but between *matched sensors measuring opposite signs of the same variable*, not between neighbours in a map.
 
+<x-figure src="content/media/vor-three-neuron-arc-fish.jpg"
+  caption="Horizontal VOR circuitry compared across goldfish, flatfish and shark. The same three-neuron plan is rewired to suit each animal's body axis — flatfish lie on their side, and the circuit compensates. A clean demonstration that the deadline fixes the number of synapses while the connectivity adapts to the geometry."
+  credit="Hans Straka and Robert Baker. CC BY 3.0."
+  source="https://commons.wikimedia.org/wiki/File:Horizontal_vestibulo-ocular_reflex_in_fish.jpg">
+</x-figure>
+
+
 Worth adding to the list of what "lateral inhibition" can mean:
 
 - **Retina, cuneate:** between spatial neighbours, removing spatial redundancy.
