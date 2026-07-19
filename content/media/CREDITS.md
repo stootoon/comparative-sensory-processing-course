@@ -65,7 +65,7 @@ copied.
 - **Source:** https://commons.wikimedia.org/wiki/File:Anatomy_of_the_cochlea.png
 - **Used in:** §2.3 Transduction
 
-## hair-cells-sem.png
+## hair-cells-sem.jpg
 
 - **Authors:** Lorente-Cánovas B, Eckrich S, Lewis MA, Johnson SL, Marcotti W, Steel KP
 - **Licence:** CC BY 4.0

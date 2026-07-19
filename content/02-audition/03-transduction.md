@@ -47,7 +47,7 @@ In each case the computation is free: no spikes, no energy, no delay. Olfaction 
 
 Passive mechanics alone would give tuning far broader than what is measured, and sensitivity far worse. The resolution is that the cochlea is **active**: outer hair cells change length in response to voltage, feeding mechanical energy back into the travelling wave on a cycle-by-cycle basis.
 
-<x-figure src="content/media/hair-cells-sem.png"
+<x-figure src="content/media/hair-cells-sem.jpg"
   caption="Scanning electron micrographs of the organ of Corti. Panel A: three rows of outer hair cells with their characteristic V-shaped stereocilia bundles (top), and a single row of inner hair cells (bottom). Panels C and D: individual OHC and IHC bundles. The asymmetry is functional — the ~3,500 inner hair cells are the sensors that report to the brain, while the ~12,000 outer hair cells are mostly the amplifier, contracting and elongating to feed energy back into the travelling wave."
   credit="Lorente-Cánovas B, Eckrich S, Lewis MA, Johnson SL, Marcotti W, Steel KP. CC BY 4.0."
   source="https://commons.wikimedia.org/wiki/File:Analysis_of_cochlear_hair_cells_and_their_stereocilia._cropped.png">
