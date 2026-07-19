@@ -1,13 +1,15 @@
 ---
 id: m12.s01
-title: What the comparison buys
-lede: Three modalities, eleven sections each. Here is what the comparison licenses — every import carried to a concrete, falsifiable prediction rather than an analogy.
+title: Imports from vision and audition
+lede: The method, and the first two modalities to run it on. Every import is carried to a concrete falsifiable prediction — an analogy that stops at "these are similar" has done no work.
 estimatedMinutes: 30
 ---
 
-The full capstone works through eight modalities. This release has three — vision, audition, olfaction — each in all eleven sections. What follows is what those three license.
+The capstone works through the eight modalities in turn, asking of each: what does it know that olfaction could use?
 
-The format is fixed, and every item must reach step four. An analogy that stops at "these are similar" has done no work.
+This section sets out the method and applies it to vision and audition, the two modalities with mature normative theories. §12.2 takes touch and taste, §12.3 the vestibular and proprioceptive systems, §12.4 the exotic senses, and §12.5 collects everything into a ranked agenda.
+
+The format is fixed, and every item must reach step four.
 
 1. The imported concept
 2. The candidate olfactory analogue
@@ -151,9 +153,9 @@ The format is fixed, and every item must reach step four. An analogy that stops 
 </script>
 </x-matrix>
 
-## Open questions, ranked
+## What vision and audition have handed over
 
-What the comparison has sharpened, in priority order. Each is tagged with the section that generated it.
+What these two modalities alone have sharpened. §12.5 re-ranks the whole list once the other six have contributed, and the order changes substantially — several items below are displaced by cheaper experiments imported from the vestibular and electrosensory systems.
 
 1. **Is there a derivable coordinate system for odour?** (§1.2) The flagship question. Blocked on the natural-odour-scene database, not on theory.
 2. **Does the bulb implement structured decorrelation or global normalisation?** (§1.5, §3.5) Directly testable, and the answer determines whether adult neurogenesis has a normative rationale.
@@ -164,4 +166,8 @@ What the comparison has sharpened, in priority order. Each is tagged with the se
 7. **Is there an olfactory critical band?** (§12.6) A masking experiment in chemical space, with the sharp version being that masking should track receptor overlap rather than perceptual similarity.
 8. **Is there a common-onset detector in piriform?** (§12.5) The direct analogue of auditory grouping units, and the mechanistic test of the temporal-correlation claim.
 
-The full course adds somatosensation, gustation, vestibular, proprioception, and the exotic senses. Several of the sharpest imports still to come have no analogue in either vision or audition: cancellation of predicted input from electroreception, acuity-as-deconvolution from infrared sensing, and ambiguity resolution under a forward model from the vestibular system — which §3.1 already flagged as the closest structural match to olfaction's concentration/distance/transport confound.
+Notice what is *not* on this list. Every item above came from a modality with an ordered, metric receptor array and a mature normative theory, and every one of them consequently frames olfaction's problem as a coding problem — find the coordinates, derive the filter, measure the tuning.
+
+The remaining six modalities change that framing rather than extending it. The sharpest imports still to come have no analogue in either vision or audition: cancellation of predicted input from electroreception, acuity-as-deconvolution from infrared sensing, coordinate transformation as a first-circuit job from proprioception, and ambiguity resolution under a forward model from the vestibular system — which §3.1 already flagged as the closest structural match to olfaction's concentration/distance/transport confound.
+
+Two of those will turn out to be cheaper to run than anything on this list.

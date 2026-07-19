@@ -794,15 +794,47 @@
       "dir": "12-capstone",
       "label": "Capstone",
       "title": "Olfaction in the Mirror",
-      "blurb": "What these four comparisons alone license: candidate analogues, the disanalogies that break them, and testable predictions.",
+      "blurb": "For each imported concept: the analogue, the disanalogy that breaks it, and a concrete falsifiable prediction. Ends with a ranked, costed research agenda.",
       "subsections": [
         {
           "id": "m12.s01",
           "slug": "teaser",
           "sectionNumber": "12.1",
           "file": "01-teaser.md",
-          "title": "What the comparison buys",
-          "blurb": "Four imports from vision, each carried to a concrete prediction — and the running comparison table."
+          "title": "Imports from vision and audition",
+          "blurb": "The method, and the two modalities with mature normative theories."
+        },
+        {
+          "id": "m12.s02",
+          "slug": "touch-and-taste",
+          "sectionNumber": "12.2",
+          "file": "02-touch-and-taste.md",
+          "title": "Imports from touch and taste",
+          "blurb": "A map does not imply a spatial code; and unordered does not entail high-dimensional."
+        },
+        {
+          "id": "m12.s03",
+          "slug": "vestibular-and-proprioception",
+          "sectionNumber": "12.3",
+          "file": "03-vestibular-and-proprioception.md",
+          "title": "Imports from the vestibular and proprioceptive systems",
+          "blurb": "The closest structural match to olfaction's central ambiguity, and a different job description for a first circuit."
+        },
+        {
+          "id": "m12.s04",
+          "slug": "exotic-senses",
+          "sectionNumber": "12.4",
+          "file": "04-exotic-senses.md",
+          "title": "Imports from the exotic senses",
+          "blurb": "Cancellation with the mechanism known, hyperacuity from slow elements, and localisation as blind deconvolution."
+        },
+        {
+          "id": "m12.s05",
+          "slug": "the-agenda",
+          "sectionNumber": "12.5",
+          "file": "05-the-agenda.md",
+          "title": "The research agenda",
+          "blurb": "Everything the comparison generated, ranked by informativeness per unit cost — with the null results costed too."
         }
       ]
     }
