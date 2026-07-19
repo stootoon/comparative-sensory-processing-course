@@ -1,0 +1,140 @@
+/* Design tokens.
+ *
+ * Light and dark are both first-class. The default follows the OS via
+ * prefers-color-scheme; [data-theme] on <html> overrides it in both
+ * directions when the reader picks explicitly in settings.
+ *
+ * The palette is deliberately restrained — this is a long-form reading
+ * environment, and saturated colour is reserved for meaning (correct, wrong,
+ * data series) rather than decoration. */
+
+:root {
+  /* Ink and ground */
+  --bg:            #fbfaf8;
+  --bg-raised:     #ffffff;
+  --bg-sunken:     #f2f0ec;
+  --bg-inset:      #eceae5;
+  --ink:           #1c1a17;
+  --ink-muted:     #5c574f;
+  --ink-faint:     #8b8579;
+  --rule:          #dedad2;
+  --rule-strong:   #c6c1b6;
+
+  /* Accent — a muted ink-blue that reads as "academic", not "product" */
+  --accent:        #2f5d7c;
+  --accent-strong: #234a63;
+  --accent-wash:   #e8f0f5;
+  --accent-edge:   #b9d0de;
+
+  /* Semantic */
+  --color-correct:      #2c6e49;
+  --color-correct-wash: #e4f0e8;
+  --color-error:        #a33a2a;
+  --color-error-wash:   #f8e7e3;
+  --color-warn:         #8a6416;
+  --color-warn-wash:    #f9f0dc;
+
+  /* Data series — distinguishable in both themes and for common CVD types.
+     Ordered by first-use priority, not by hue. */
+  --series-1: #2f5d7c;
+  --series-2: #b5651d;
+  --series-3: #4a7c59;
+  --series-4: #7b4a8c;
+  --series-5: #8a6416;
+  --marker:   #8b8579;
+
+  /* Figure ink, so hand-authored SVG responds to theme */
+  --fig-ink:   var(--ink);
+  --fig-faint: var(--rule);
+  --fig-bg:    var(--bg-raised);
+
+  /* Type */
+  --font-prose: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, serif;
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  --measure: 34rem;      /* ~68 characters at the prose size */
+  --sidebar-w: 19rem;
+  --toc-w: 14rem;
+  --header-h: 3.25rem;
+
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --shadow-sm: 0 1px 2px rgb(28 26 23 / 0.06), 0 1px 3px rgb(28 26 23 / 0.04);
+  --shadow-md: 0 4px 12px rgb(28 26 23 / 0.10), 0 1px 3px rgb(28 26 23 / 0.06);
+  --shadow-lg: 0 12px 32px rgb(28 26 23 / 0.16), 0 2px 8px rgb(28 26 23 / 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:            #16171a;
+    --bg-raised:     #1e2024;
+    --bg-sunken:     #121316;
+    --bg-inset:      #26282d;
+    --ink:           #e6e3dd;
+    --ink-muted:     #a8a49b;
+    --ink-faint:     #7d7970;
+    --rule:          #32353b;
+    --rule-strong:   #454951;
+
+    --accent:        #7fb3d3;
+    --accent-strong: #a3cbe4;
+    --accent-wash:   #1c2b36;
+    --accent-edge:   #2f4b5e;
+
+    --color-correct:      #6bbf8a;
+    --color-correct-wash: #17291f;
+    --color-error:        #e08a76;
+    --color-error-wash:   #2e1c18;
+    --color-warn:         #d4ac5e;
+    --color-warn-wash:    #2b2416;
+
+    --series-1: #7fb3d3;
+    --series-2: #e09a5c;
+    --series-3: #7fc39a;
+    --series-4: #b98fd0;
+    --series-5: #d4ac5e;
+    --marker:   #7d7970;
+
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 4px 12px rgb(0 0 0 / 0.45);
+    --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.55);
+  }
+}
+
+/* Explicit dark, chosen in settings — must win over a light OS preference. */
+:root[data-theme="dark"] {
+  --bg:            #16171a;
+  --bg-raised:     #1e2024;
+  --bg-sunken:     #121316;
+  --bg-inset:      #26282d;
+  --ink:           #e6e3dd;
+  --ink-muted:     #a8a49b;
+  --ink-faint:     #7d7970;
+  --rule:          #32353b;
+  --rule-strong:   #454951;
+
+  --accent:        #7fb3d3;
+  --accent-strong: #a3cbe4;
+  --accent-wash:   #1c2b36;
+  --accent-edge:   #2f4b5e;
+
+  --color-correct:      #6bbf8a;
+  --color-correct-wash: #17291f;
+  --color-error:        #e08a76;
+  --color-error-wash:   #2e1c18;
+  --color-warn:         #d4ac5e;
+  --color-warn-wash:    #2b2416;
+
+  --series-1: #7fb3d3;
+  --series-2: #e09a5c;
+  --series-3: #7fc39a;
+  --series-4: #b98fd0;
+  --series-5: #d4ac5e;
+  --marker:   #7d7970;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 0.45);
+  --shadow-lg: 0 12px 32px rgb(0 0 0 / 0.55);
+}

@@ -1,0 +1,207 @@
+/* Figures and plots.
+ *
+ * Styled to read like figures in a paper rather than dashboard widgets:
+ * thin rules, restrained grid, labels in the UI face at small size. */
+
+.x-figure {
+  display: block;
+  max-width: min(46rem, 100%);
+  margin: 2.2rem 0;
+}
+
+.x-figure-body {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  background: var(--fig-bg);
+  overflow: hidden;
+}
+
+.x-figure-plot { padding: 0.5rem 0.75rem 0.75rem; }
+
+.x-figure-caption {
+  margin-top: 0.6rem;
+  font-family: var(--font-ui);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
+
+/* Live commentary a figure module appends under its plot — updates with the
+   controls, so it says what the current parameter values mean. */
+.x-figure-note {
+  margin: 0.5rem 0.85rem 0.9rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  font-family: var(--font-ui);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
+.x-figure-note strong { color: var(--ink); }
+
+.x-figure-loading, .x-figure-error {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.87rem;
+  color: var(--ink-faint);
+}
+.x-figure-error { color: var(--color-error); }
+
+.x-figure img { display: block; width: 100%; }
+
+/* --- Controls ----------------------------------------------------------- */
+
+.x-figure-controls:not(:empty) {
+  padding: 0.85rem 0.95rem;
+  background: var(--bg-sunken);
+  border-bottom: 1px solid var(--rule);
+}
+
+.x-controls { display: grid; gap: 0.55rem; }
+
+.x-control {
+  display: grid;
+  grid-template-columns: minmax(8rem, 13rem) 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+}
+
+.x-control-label { color: var(--ink-muted); }
+
+.x-control-slider {
+  width: 100%;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.x-control-value {
+  min-width: 3.2rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 550;
+  color: var(--ink);
+}
+
+.x-control-select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.82rem;
+  grid-column: 2 / -1;
+}
+
+@media (max-width: 620px) {
+  .x-control {
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "label value" "slider slider";
+    gap: 0.3rem 0.6rem;
+  }
+  .x-control-label { grid-area: label; }
+  .x-control-value { grid-area: value; }
+  .x-control-slider { grid-area: slider; }
+  .x-control-select { grid-area: slider; }
+}
+
+/* --- Plot internals ----------------------------------------------------- */
+
+.x-plot { display: block; width: 100%; height: auto; overflow: visible; }
+
+.x-plot-grid line {
+  stroke: var(--rule);
+  stroke-width: 1;
+  opacity: 0.65;
+}
+
+.x-plot-axis { stroke: var(--rule-strong); stroke-width: 1; }
+
+.x-plot-tick {
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  fill: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.x-plot-label {
+  font-family: var(--font-ui);
+  font-size: 11.5px;
+  fill: var(--ink-muted);
+}
+
+.x-plot-annotation {
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  fill: var(--ink-muted);
+}
+
+.x-plot-line {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.x-plot-line.is-dashed { stroke-dasharray: 5 4; }
+
+.x-plot-area { opacity: 0.14; stroke: none; }
+
+.x-plot-marker {
+  stroke: var(--marker);
+  stroke-width: 1.25;
+}
+.x-plot-marker.is-dashed { stroke-dasharray: 3 3; }
+
+/* Series colours. Applied to stroke for lines, fill for areas/dots/bars. */
+.series-1 { stroke: var(--series-1); }
+.series-2 { stroke: var(--series-2); }
+.series-3 { stroke: var(--series-3); }
+.series-4 { stroke: var(--series-4); }
+.series-5 { stroke: var(--series-5); }
+
+.x-plot-area.series-1 { fill: var(--series-1); }
+.x-plot-area.series-2 { fill: var(--series-2); }
+.x-plot-area.series-3 { fill: var(--series-3); }
+.x-plot-area.series-4 { fill: var(--series-4); }
+.x-plot-area.series-5 { fill: var(--series-5); }
+
+.x-plot-dot.series-1, .x-plot-bar.series-1 { fill: var(--series-1); stroke: none; }
+.x-plot-dot.series-2, .x-plot-bar.series-2 { fill: var(--series-2); stroke: none; }
+.x-plot-dot.series-3, .x-plot-bar.series-3 { fill: var(--series-3); stroke: none; }
+.x-plot-dot.series-4, .x-plot-bar.series-4 { fill: var(--series-4); stroke: none; }
+.x-plot-dot.series-5, .x-plot-bar.series-5 { fill: var(--series-5); stroke: none; }
+
+/* Hand-authored SVG in content/ inherits theme through these. */
+.x-figure svg .fig-ink { fill: var(--fig-ink); stroke: var(--fig-ink); }
+.x-figure svg .fig-faint { fill: var(--fig-faint); stroke: var(--fig-faint); }
+.x-figure svg .fig-label { fill: var(--ink-muted); font-family: var(--font-ui); font-size: 11px; }
+
+/* Legend, rendered as HTML below the plot rather than inside it — no corner
+   of a plot is reliably empty across every parameter setting. */
+.x-plot-legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0.35rem 0 0.2rem;
+  padding: 0 0.2rem;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+.x-plot-legend-item { display: inline-flex; align-items: center; gap: 0.4rem; }
+.x-plot-legend-swatch {
+  width: 18px;
+  height: 0;
+  border-top: 2px solid currentColor;
+  flex: none;
+}
+.x-plot-legend-swatch[data-dashed="true"] { border-top-style: dashed; }
+.x-plot-legend-swatch.series-1 { color: var(--series-1); }
+.x-plot-legend-swatch.series-2 { color: var(--series-2); }
+.x-plot-legend-swatch.series-3 { color: var(--series-3); }
+.x-plot-legend-swatch.series-4 { color: var(--series-4); }
+.x-plot-legend-swatch.series-5 { color: var(--series-5); }

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparative Sensory Processing</title>
+  <meta name="description" content="An interactive graduate-level course comparing sensory modalities from a normative perspective — and what the comparison reveals about olfaction.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="stylesheet" href="./vendor/katex-0.16.11/katex.min.css">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/exercises.css">
+  <link rel="stylesheet" href="./css/figures.css">
+  <link rel="stylesheet" href="./css/print.css" media="print">
+
+  <!-- KaTeX is a classic script so katex.renderToString is available
+       synchronously to the module pipeline. -->
+  <script defer src="./vendor/katex-0.16.11/katex.min.js"></script>
+</head>
+<body>
+  <a class="x-skip" href="#main">Skip to content</a>
+
+  <div id="app-shell" data-nav-open="false">
+    <header class="x-header">
+      <button id="nav-toggle" class="x-btn x-btn-icon x-nav-toggle"
+              aria-label="Toggle contents" aria-expanded="false">☰</button>
+      <a class="x-header-title" href="#/">Comparative Sensory Processing</a>
+      <button id="settings-btn" class="x-btn x-btn-icon x-settings-btn"
+              aria-label="Progress and settings">⚙</button>
+    </header>
+
+    <aside id="sidebar" class="x-sidebar"></aside>
+
+    <main id="main" class="x-main" tabindex="-1">
+      <div class="x-loading">Loading…</div>
+    </main>
+
+    <aside id="toc" class="x-toc" hidden></aside>
+  </div>
+
+  <noscript>
+    <div class="x-fatal">
+      <h1>This course needs JavaScript</h1>
+      <p>The exercises, figures, and progress tracking are all client-side.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

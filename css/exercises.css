@@ -1,0 +1,286 @@
+/* Exercises.
+ *
+ * Visually distinct from prose so a reader scanning a section can see where
+ * the interactive bits are, but not so loud that they break reading flow. */
+
+.x-exercise {
+  display: block;
+  max-width: var(--measure);
+  margin: 2rem 0;
+  padding: 1.15rem 1.25rem 1.1rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-lg);
+  font-family: var(--font-ui);
+  font-size: 0.94rem;
+}
+
+.x-exercise[data-state="answered"],
+.x-exercise[data-state="revealed"],
+.x-exercise[data-state="self-assessed"] {
+  border-color: var(--rule);
+}
+
+.x-exercise[data-stale="true"] { opacity: 0.92; }
+
+.x-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-wash);
+  padding: 0.2rem 0.5rem;
+  border-radius: 99px;
+  margin-bottom: 0.7rem;
+}
+
+.x-prompt { margin-bottom: 0.9rem; line-height: 1.55; }
+.x-prompt p:last-child { margin-bottom: 0; }
+
+.x-actions {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.x-textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  resize: vertical;
+}
+.x-textarea:read-only { background: var(--bg-sunken); color: var(--ink-muted); }
+
+/* --- MCQ ---------------------------------------------------------------- */
+
+.x-options { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+
+.x-option {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.12s, background 0.12s;
+}
+.x-option label {
+  display: flex; gap: 0.65rem; align-items: flex-start;
+  padding: 0.65rem 0.8rem;
+  cursor: pointer;
+  line-height: 1.5;
+}
+.x-option:hover:not(.is-chosen):not(.is-correct) { background: var(--bg-sunken); }
+.x-option input { margin-top: 0.32em; flex: none; accent-color: var(--accent); }
+
+.x-option.is-chosen { border-color: var(--ink-faint); }
+.x-option.is-correct {
+  border-color: var(--color-correct);
+  background: var(--color-correct-wash);
+}
+.x-option.is-wrong {
+  border-color: var(--color-error);
+  background: var(--color-error-wash);
+}
+
+.x-option-feedback {
+  padding: 0.6rem 0.8rem 0.7rem 2.1rem;
+  font-size: 0.87rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+  border-top: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--bg-raised) 70%, transparent);
+}
+
+.x-verdict {
+  margin-top: 0.85rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+.x-verdict.is-correct { background: var(--color-correct-wash); color: var(--color-correct); }
+.x-verdict.is-wrong { background: var(--color-error-wash); color: var(--color-error); }
+.x-verdict.is-partial { background: var(--color-warn-wash); color: var(--color-warn); }
+
+/* --- Predict / free response -------------------------------------------- */
+
+.x-reveal-body {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--rule-strong);
+}
+.x-reveal-body h4 {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.x-reveal-body p { line-height: 1.6; }
+.x-reveal-body p:last-child { margin-bottom: 0; }
+
+.x-followup {
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.85rem;
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+
+.x-rubric {
+  margin-top: 1rem;
+  padding: 0.8rem 0.95rem;
+  background: var(--bg-sunken);
+  border-radius: var(--radius);
+}
+.x-rubric h5 {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.x-rubric ul { margin: 0; padding-left: 1.2em; font-size: 0.88rem; }
+.x-rubric li { margin-bottom: 0.3em; }
+
+.x-selfassess {
+  margin: 1.1rem 0 0;
+  padding: 0.85rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+}
+.x-selfassess legend {
+  padding: 0;
+  font-size: 0.82rem;
+  font-weight: 550;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Order -------------------------------------------------------------- */
+
+.x-order-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; counter-reset: order; }
+
+.x-order-item {
+  display: flex; align-items: center; gap: 0.6rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--bg);
+  cursor: grab;
+  counter-increment: order;
+}
+.x-order-item::before {
+  content: counter(order);
+  flex: none;
+  width: 1.4rem;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-faint);
+}
+.x-order-item.is-dragging { opacity: 0.4; }
+.x-order-item.is-dropzone { border-color: var(--accent); background: var(--accent-wash); }
+.x-order-item.is-right { border-color: var(--color-correct); background: var(--color-correct-wash); }
+.x-order-item.is-wrong { border-color: var(--rule-strong); }
+
+.x-order-handle { color: var(--ink-faint); cursor: grab; user-select: none; }
+.x-order-text { flex: 1; line-height: 1.45; }
+.x-order-controls { display: flex; gap: 0.2rem; flex: none; }
+.x-order-controls .x-btn { padding: 0.2rem 0.4rem; font-size: 0.8rem; }
+
+/* --- Matrix ------------------------------------------------------------- */
+
+/* Wide tables scroll inside their own container — the page body must never
+   scroll horizontally. */
+.x-table-scroll {
+  overflow-x: auto;
+  margin: 0 -0.4rem;
+  padding: 0 0.4rem;
+}
+
+.x-matrix {
+  width: 100%;
+  min-width: 30rem;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+.x-matrix th, .x-matrix td {
+  border: 1px solid var(--rule);
+  padding: 0.3rem;
+  text-align: left;
+  vertical-align: top;
+}
+.x-matrix thead th {
+  background: var(--bg-sunken);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.5rem 0.4rem;
+}
+.x-matrix tbody th {
+  background: var(--bg-sunken);
+  font-weight: 550;
+  white-space: nowrap;
+  padding: 0.5rem 0.6rem;
+}
+
+.x-cell {
+  width: 100%;
+  min-width: 7rem;
+  padding: 0.35rem 0.4rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.84rem;
+}
+.x-cell:focus { border-color: var(--accent); outline: none; }
+.x-cell[data-graded="false"] { background: var(--bg-sunken); color: var(--ink-muted); }
+.x-cell.is-right { border-color: var(--color-correct); background: var(--color-correct-wash); }
+.x-cell.is-wrong { border-color: var(--color-error); background: var(--color-error-wash); }
+
+.x-cell-answer {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--color-correct);
+}
+
+.x-matrix-note {
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.85rem;
+  background: var(--accent-wash);
+  border-radius: var(--radius);
+  font-size: 0.87rem;
+  line-height: 1.5;
+}
+
+/* --- Stale / errors ----------------------------------------------------- */
+
+.x-stale-banner {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;
+  margin: -0.3rem 0 0.9rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--color-warn-wash);
+  border: 1px solid var(--color-warn);
+  border-radius: var(--radius);
+  font-size: 0.84rem;
+}
+.x-stale-banner span { flex: 1; min-width: 14rem; }
+
+.x-exercise-error {
+  padding: 0.85rem 1rem;
+  background: var(--color-error-wash);
+  border: 1px solid var(--color-error);
+  border-radius: var(--radius);
+  color: var(--color-error);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.x-math-error { color: var(--color-error); }

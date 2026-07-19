@@ -1,0 +1,142 @@
+{
+  "title": "Comparative Sensory Processing",
+  "description": "A graduate course on how sensory systems solve their computational problems — and on what the comparison between modalities reveals about olfaction.",
+  "version": "0.1-sampler",
+  "intro": [
+    "Most sensory neuroscience is taught one modality at a time, as a tour of anatomy: receptors, then relays, then cortex. This course is organised the other way round. Each module begins with a computational problem — what must the animal infer, from what, under what loss, on what deadline — and treats the biology as evidence about how that problem is solved.",
+    "The reason for doing it this way is comparative. Vision and audition have mature normative theories: we can derive retinal receptive fields and cochlear filters from the statistics of natural input and check the answer against the biology. Olfaction has no theory of comparable maturity. The wager of this course is that this gap is informative, and that the clearest route to a theory of smell runs through the modalities that already have one.",
+    "So every module uses the same eleven-section skeleton, in the same order, so that §4 always means the receptor array whether you are reading about cones or odorant receptors. You should be able to read across modules as easily as down one. Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why."
+  ],
+  "samplerNote": "This is a sampler: two modalities, four sections each, chosen because they are where vision and olfaction diverge most sharply. The full course adds audition, somatosensation, gustation, vestibular, proprioception, the exotic senses, and the synthesis modules.",
+  "modules": [
+    {
+      "id": "m00",
+      "slug": "toolkit",
+      "dir": "00-toolkit",
+      "label": "Module 0",
+      "title": "The Normative Toolkit",
+      "blurb": "Shared vocabulary: three normative stances, and why efficient coding predicts opposite things at high and low SNR.",
+      "open": true,
+      "subsections": [
+        {
+          "id": "m00.s01",
+          "slug": "three-stances",
+          "sectionNumber": "0.1",
+          "file": "01-three-stances.md",
+          "title": "Three normative stances",
+          "blurb": "Efficient coding, Bayesian inference, and task optimality make different predictions. Telling them apart is the core skill."
+        },
+        {
+          "id": "m00.s02",
+          "slug": "two-regimes",
+          "sectionNumber": "0.2",
+          "file": "02-two-regimes.md",
+          "title": "Efficient coding in two regimes",
+          "blurb": "Whiten at high SNR, pool at low SNR — the cleanest quantitative prediction in sensory neuroscience."
+        }
+      ]
+    },
+    {
+      "id": "m01",
+      "slug": "vision",
+      "dir": "01-vision",
+      "label": "Module 1",
+      "title": "Vision",
+      "blurb": "The reference modality. Taught first and deepest, because it supplies the templates everything else is measured against.",
+      "subsections": [
+        {
+          "id": "m01.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "1.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "Inverse optics, ill-posedness, and the loss functions that actually matter."
+        },
+        {
+          "id": "m01.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "1.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Scale invariance, 1/f² spectra, and the colour statistics that yield opponent axes."
+        },
+        {
+          "id": "m01.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "1.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Ordered, metric, two-dimensional — and radically dimension-reducing in colour."
+        },
+        {
+          "id": "m01.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "1.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit: retina",
+          "blurb": "Centre–surround as whitening, and the confirmed prediction that made the theory credible."
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "slug": "olfaction",
+      "dir": "03-olfaction",
+      "label": "Module 3",
+      "title": "Olfaction",
+      "blurb": "The same four sections, asked of a modality where almost every assumption vision teaches you turns out to fail.",
+      "subsections": [
+        {
+          "id": "m03.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "3.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "Three problems usually conflated: identity, intensity, and location."
+        },
+        {
+          "id": "m03.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "3.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "Turbulent plumes, intermittency, and where the spatial information actually lives."
+        },
+        {
+          "id": "m03.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "3.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Unordered, high-dimensional, broadly tuned — and the opposite of trichromacy in every respect."
+        },
+        {
+          "id": "m03.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "3.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit: olfactory bulb",
+          "blurb": "What lateral inhibition can mean when there is no metric on the receptor array."
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "slug": "mirror",
+      "dir": "12-capstone",
+      "label": "Capstone",
+      "title": "Olfaction in the Mirror",
+      "blurb": "What these four comparisons alone license: candidate analogues, the disanalogies that break them, and testable predictions.",
+      "subsections": [
+        {
+          "id": "m12.s01",
+          "slug": "teaser",
+          "sectionNumber": "12.1",
+          "file": "01-teaser.md",
+          "title": "What the comparison buys",
+          "blurb": "Four imports from vision, each carried to a concrete prediction — and the running comparison table."
+        }
+      ]
+    }
+  ]
+}

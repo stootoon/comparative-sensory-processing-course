@@ -1,0 +1,83 @@
+/* Print / PDF.
+ *
+ * Grad students print things. Cheap to do now, painful to retrofit.
+ *
+ * The key decision: every reveal is EXPANDED in print. A printed page with a
+ * hidden answer behind a button is just a broken page, and someone reading on
+ * paper has already lost the interactivity that made hiding it worthwhile. */
+
+@page { margin: 18mm 16mm; }
+
+body {
+  background: #fff;
+  color: #000;
+  font-size: 11pt;
+}
+
+/* Chrome that means nothing on paper. */
+.x-header,
+.x-sidebar,
+.x-toc,
+.x-skip,
+.x-settings,
+.x-cite-backdrop,
+.x-cite-popover,
+.x-banner,
+.x-pager,
+.x-complete-row,
+.x-figure-controls,
+.x-actions,
+.x-order-controls,
+.x-order-handle,
+.x-nav-toggle,
+.x-settings-btn {
+  display: none !important;
+}
+
+#app-shell {
+  display: block;
+  min-height: auto;
+}
+
+.x-main { padding: 0; }
+
+/* Expand everything the reader would otherwise have to click. */
+.x-reveal-body,
+.x-option-feedback,
+.x-matrix-note,
+.x-verdict {
+  display: block !important;
+  visibility: visible !important;
+}
+[hidden] { display: revert !important; }
+.x-sr-only { display: none !important; }
+
+.x-exercise {
+  break-inside: avoid;
+  border: 1pt solid #999;
+  background: none;
+}
+
+.x-figure { break-inside: avoid; }
+.x-figure-body { border: 1pt solid #999; }
+
+.x-prose h2, .x-prose h3 { break-after: avoid; }
+.x-prose p, .x-prose li { orphans: 3; widows: 3; }
+
+.x-prose > * { max-width: none; }
+
+/* Show link targets — a printed citation with no destination is useless. */
+.x-ref-link::after { content: " (" attr(href) ")"; font-size: 8pt; word-break: break-all; }
+
+.x-cite {
+  color: #000;
+  border-bottom: 0;
+}
+
+.x-references { break-before: auto; }
+
+.x-textarea {
+  border: 1pt solid #999;
+  background: none;
+  min-height: 4em;
+}

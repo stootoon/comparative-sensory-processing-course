@@ -1,0 +1,100 @@
+---
+id: m03.s05
+title: The first circuit — olfactory bulb
+lede: The bulb has all the machinery the retina has — convergence, lateral inhibition, parallel output channels — deployed on an array with no metric. Watching each motif get re-derived without a spatial neighbourhood is the payoff of the whole comparison.
+estimatedMinutes: 26
+---
+
+The olfactory bulb occupies the structural position the retina occupies in vision: the first circuit, obligatory, one synapse from the receptors, doing substantial computation before anything reaches cortex.
+
+The parallel is close enough to be worth pushing hard, and it breaks in exactly the informative places.
+
+## Convergence: the same argument, more extreme
+
+Thousands of receptor neurons expressing the same receptor converge onto a single glomerulus — ratios in the low thousands in mouse, roughly 50 in *Drosophila*.
+
+The argument is the retina's, from §1.5. Pooling $n$ independent noisy sensors improves signal-to-noise:
+
+$$\mathrm{SNR}_{\text{glom}} = \sqrt{n}\;\mathrm{SNR}_{\text{ORN}}.$$
+
+With $n \approx 1000$, that is roughly a thirtyfold improvement, which matters because transduction is limited by molecular shot noise — at threshold concentrations, a receptor neuron may bind only a handful of molecules per sniff.
+
+But there is a crucial difference from the retina. **Retinal convergence costs spatial resolution.** Pooling rods trades acuity for sensitivity, which is why the fovea refuses the trade.
+
+**Glomerular convergence costs nothing equivalent**, because the neurons being pooled all express the same receptor and are therefore, from the standpoint of odour identity, redundant. There is no acuity to lose. The trade that dominates retinal design simply does not arise.
+
+What convergence *does* cost is temporal resolution, if the pooling is a slow average — and §3.2 showed the system needs tens-of-hertz resolution. Which makes the convergence architecture look less like a sensitivity mechanism and more like a mechanism for recovering temporal precision from slow sensors: pooling $n$ noisy timers sharpens timing as $\sqrt{n}$, the same argument that gives electric fish sub-microsecond acuity from millisecond neurons.
+
+## Lateral inhibition without a neighbourhood
+
+Now the interesting failure.
+
+The bulb has powerful inhibition: granule cells form reciprocal dendrodendritic synapses with mitral and tufted cells, and there is inhibition in the glomerular layer as well. Textbooks routinely describe this as "lateral inhibition, as in the retina, sharpening contrast between glomeruli".
+
+That description does not survive §3.4. Retinal lateral inhibition works because the surround is a **statistical prediction of the centre**, and it is a good prediction because neighbouring receptors view correlated parts of the world. The predictive-coding account depends entirely on physical proximity implying statistical correlation.
+
+In the bulb, physical proximity implies nothing. Adjacent glomeruli respond to unrelated odorants. An inhibitory surround defined by proximity on the bulb surface would subtract a prediction that has no predictive value.
+
+So there are only two coherent possibilities.
+
+**Global normalisation.** Inhibition is non-specific and scales with total activity. Cheap, requires no learning. But it removes only the mean — first-order redundancy — and cannot decorrelate. This is demonstrably what the fly antennal lobe does: lateral inhibition scales with total ORN activity, and a two-variable model predicts projection-neuron responses well [@olsen2010].
+
+**Structured, learned connectivity.** Inhibition connects glomeruli that are correlated in the animal's odour environment. This can genuinely decorrelate, but the connectivity is not specifiable by any local wiring rule — it must be learned from experience and relearned when the environment changes.
+
+There is real evidence for something beyond global normalisation. In zebrafish, mitral-cell ensemble representations of similar odours become progressively *less* similar over the course of a response, without individual tuning curves sharpening [@friedrich2001]. Decorrelation is happening at the population level, produced by bulb circuit dynamics rather than inherited from the input.
+
+Granule cells are the natural substrate. Modelling the bulb as a balance between excitatory drive and granule-cell inhibition reproduces both the combinatorial and the temporal sparseness seen in awake recordings, and gives the dendrodendritic synapse a specific functional role rather than leaving it as an anatomical curiosity [@koulakov2011].
+
+<x-callout class="x-callout is-key">
+<div class="x-callout-title">The normative payoff, and a testable claim</div>
+If the bulb implements structured decorrelation, the connectivity must track odour statistics that are <em>non-stationary</em> (§3.2). Machinery for continuously rebuilding that connectivity is then not a curiosity but a requirement — which is the strongest normative rationale available for the bulb's extreme plasticity and for adult neurogenesis two synapses from the sensory surface.
+
+<strong>The experiment:</strong> does the inhibition a glomerulus receives depend on <em>which</em> other glomeruli are active, or only on <em>how many</em>? And does that dependence change after prolonged exposure to a structured odour environment? Global normalisation predicts no dependence and no change. Structured decorrelation predicts both.
+</x-callout>
+
+## The sparse-connectivity problem
+
+There is a deeper architectural difficulty, and it is where the inference framing pays off.
+
+Treat odour recognition as inference in a linear model: a small number of sources are present out of a very large possible set, and receptor activations are a linear mixture. This is a sparse recovery problem, and the standard algorithms that provably find the MAP solution require **all-to-all connectivity** between the units representing the variables.
+
+The bulb does not have all-to-all connectivity. Nothing in the brain does.
+
+The resolution turns on the bulb's *sister cells* — multiple mitral cells receiving input from the same glomerulus, previously hard to account for functionally. Distributing the inference across sister cells reaches the MAP solution using **sparse** connectivity [@tootoonian2022]. Redundancy that looked wasteful turns out to be what makes biologically plausible connectivity sufficient.
+
+This is a good example of a normative argument doing real work: it takes an anatomical feature that had no functional story and shows it is required by a computation the system must perform anyway.
+
+## Parallel output channels
+
+The bulb sends output through at least two projection-neuron classes — mitral and tufted cells — with different thresholds, latencies, sniff-phase locking, and downstream targets.
+
+Every modality in this course does something structurally similar: sustained and transient retinal ganglion cells, SA/RA/PC afferents in touch, regular and irregular vestibular afferents, position/velocity/vibration channels in the fly chordotonal organ.
+
+The generic normative account: **a single channel cannot simultaneously optimise sensitivity, temporal precision, and dynamic range**, so split. In olfaction the natural reading is a speed–accuracy decomposition — tufted cells firing earlier and more reliably at low concentration, supporting rapid coarse inference; mitral cells later and more sparsely, supporting slower, more nuanced inference integrating cortical feedback.
+
+This connects directly to the deadline of §3.1. If a decision must be made within one sniff but more accuracy is available with more time, an optimal system does not choose — it computes both and lets the downstream consumer decide which to use.
+
+What the bulb hands downstream is worth noting even though piriform is beyond this sampler's scope. Bulbar responses remain strongly concentration-dependent, yet identity representations in piriform are not: recurrent collateral circuitry, driven by the earliest-responding bulbar cells, recruits global feedback inhibition that truncates the later concentration-dependent input [@bolding2018]. Concentration invariance is *computed* in cortex rather than inherited — and it is computed by recurrence, which is the defining feature of piriform as a three-layer associative network rather than a primary sensory area in the V1 sense [@haberly2001].
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m03.s05.p1",
+  "contentRev": 1,
+  "prompt": "Recall from §1.5 that the retinal surround weakens as SNR falls — the filter shifts from whitening to pooling. Predict the olfactory analogue: what should happen to bulbar inhibition as odour concentration falls toward threshold, and what would make this prediction hard to test?",
+  "placeholder": "What should happen, and why is it hard to check?",
+  "reveal": "The analogous prediction is that at low concentration — where molecular shot noise dominates and each glomerulus's estimate is unreliable — the system should shift from decorrelating (subtracting predictions between glomeruli) toward pooling (averaging across them). Inhibition should weaken, and the effective code should become less sparse and more redundant.\n\nTwo things make this much harder to test than the retinal version.\n\n**There is no equivalent of 'spatial frequency'.** In vision the prediction is sharp because you can characterise the filter in a well-defined frequency domain and watch its shape change. Olfaction has no agreed stimulus space in which to define the analogous filter, so 'the surround weakened' has no direct measurement. This is §3.2's missing-ensemble problem reappearing as a measurement problem.\n\n**Concentration is confounded.** Lowering concentration changes which receptors are above threshold, not just the SNR of a fixed set — because receptor affinities span orders of magnitude, so the pattern changes shape as well as scale. In vision, dimming the light scales all cone responses roughly together; in olfaction, diluting an odorant can change its perceived quality.\n\nA workable version: use the *temporal* domain, where the ensemble IS characterised. Predict that discrimination of correlated versus anti-correlated fluctuations should degrade at low concentration in a specific way, and that the frequency band carrying most information should shift downward as SNR falls — a direct translation of the whitening-to-pooling crossover into the domain where olfaction actually has measured statistics."
+}
+</script>
+</x-predict>
+
+## Where this leaves the comparison
+
+The bulb has the retina's motifs — massive convergence, lateral inhibition, parallel output channels, adaptation — but each one has to be re-justified on an array with no metric, and each comes out differently:
+
+- **Convergence** buys SNR *without* the acuity cost that dominates retinal design, and may be doing temporal rather than amplitude work.
+- **Lateral inhibition** cannot be spatial and must be either globally non-specific or learned from odour statistics.
+- **Parallel channels** implement a speed–accuracy split rather than a spatial-frequency or SNR split.
+- **Plasticity** is not a refinement but a requirement, because the statistics are non-stationary.
+
+Same parts list. Different machine.
