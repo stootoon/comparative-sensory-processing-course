@@ -22,7 +22,7 @@ Two systems with completely different input geometries, converging on the same d
 </x-figure>
 
 
-<strong>Which forces the question of §3.8 and §12.</strong> Olfaction faces the same pair of problems — identity in chemical space, location from plume statistics — and they are, if anything, <em>more</em> dissimilar than vision's or audition's. So where is olfaction's dorsal stream? The comparative argument now rests on two independent instances, and predicts a third.
+<strong>Which forces the question of §3.8 and §13.</strong> Olfaction faces the same pair of problems — identity in chemical space, location from plume statistics — and they are, if anything, <em>more</em> dissimilar than vision's or audition's. So where is olfaction's dorsal stream? The comparative argument now rests on two independent instances, and predicts a third.
 </x-callout>
 
 ## Scene analysis as inference
@@ -31,4 +31,4 @@ The deepest computation downstream is **auditory scene analysis**: deciding how 
 
 The grouping cues from §2.2 — harmonicity, common onset, common modulation, spatial coincidence — are best understood not as heuristics but as **likelihood terms in an inference over generative models of the scene**. A set of components sharing a fundamental is far more probable under "one harmonic source" than under "several coincidentally related sources."
 
-That framing matters for the comparison. Olfaction's demixing problem has the same logical structure and almost none of the same cues: no harmonicity, minimal spatial resolution, leaving temporal correlation to carry the load. When §12 argues that temporal correlation is olfaction's harmonicity, this is the claim being made — not that they are similar cues, but that they occupy the same slot in the same inference.
+That framing matters for the comparison. Olfaction's demixing problem has the same logical structure and almost none of the same cues: no harmonicity, minimal spatial resolution, leaving temporal correlation to carry the load. When §13 argues that temporal correlation is olfaction's harmonicity, this is the claim being made — not that they are similar cues, but that they occupy the same slot in the same inference.

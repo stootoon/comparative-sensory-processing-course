@@ -1,11 +1,11 @@
 ---
-id: m12.s06
+id: m13.s06
 title: Conclusion — gaps, open questions, and where to read next
-lede: What the comparison established, the four structural gaps behind every experiment in §12.5, the questions this course could not answer, and an annotated route into the literature.
+lede: What the comparison established, the four structural gaps behind every experiment in §13.5, the questions this course could not answer, and an annotated route into the literature.
 estimatedMinutes: 30
 ---
 
-§12.5 is a work plan. This section is the wider view: what the course actually established, what is missing at the level of the field rather than the experiment, and where to read next.
+§13.5 is a work plan. This section is the wider view: what the course actually established, what is missing at the level of the field rather than the experiment, and where to read next.
 
 ## What the comparison established
 
@@ -19,7 +19,7 @@ Three things, and it is worth noticing that all three are **eliminations or refr
 
 ## The four structural gaps
 
-Every experiment in §12.5 is downstream of one of these. They are gaps in how the field is equipped, not gaps in anyone's reasoning, and none of them is fixed by a single study.
+Every experiment in §13.5 is downstream of one of these. They are gaps in how the field is equipped, not gaps in anyone's reasoning, and none of them is fixed by a single study.
 
 ### Gap 1 — There is no natural odour-scene database
 
@@ -42,7 +42,7 @@ It is worth being precise that the natural-image databases were not built this w
 
 ### Gap 2 — The objective has not been stated precisely enough to solve
 
-The subtler gap, and §12.15 argues it may be as binding as the first.
+The subtler gap, and Import 15 argues it may be as binding as the first.
 
 The vestibular system's normative success came from a precisely posed estimation problem: given canal and otolith signals with known noise and known head dynamics, estimate tilt and translation. Once posed that way the optimum is derivable and the neural test is obvious.
 
@@ -56,10 +56,10 @@ The methodological gap, and the one most likely to be invisible from inside the 
 
 Olfactory physiology overwhelmingly presents monomolecular odorants at steady concentration, from a fixed port, on the experimenter's clock. That paradigm holds constant nearly every variable the course's open questions are about:
 
-- **Temporal structure** is absent, so a temporal code has nothing to encode (§12.8).
+- **Temporal structure** is absent, so a temporal code has nothing to encode (Import 8).
 - **Source location** is fixed, so a location stream cannot be detected however strong it is (§10.4).
-- **Plume statistics** are absent, so neurons tuned to intermittency or whiff frequency look unresponsive (§12.13).
-- **Sniff timing** is decoupled from delivery, so any phase-referenced code is destroyed by design (§12.9).
+- **Plume statistics** are absent, so neurons tuned to intermittency or whiff frequency look unresponsive (Import 13).
+- **Sniff timing** is decoupled from delivery, so any phase-referenced code is destroyed by design (Import 9).
 
 This is why the course insists throughout on distinguishing **genuinely absent** from **never looked for**. Several of olfaction's most-discussed absences — no dorsal stream, no map, silent cells — are entirely consistent with a system whose relevant variables have been held constant by construction.
 
@@ -74,7 +74,7 @@ This is downstream of Gap 1 but not identical to it: even without a natural-scen
 <x-order>
 <script type="application/json">
 {
-  "id": "m12.s06.o1",
+  "id": "m13.s06.o1",
   "contentRev": 1,
   "points": 1,
   "shuffleSeed": 23,
@@ -93,19 +93,19 @@ This is downstream of Gap 1 but not identical to it: even without a natural-scen
 
 ## Questions the course could not answer
 
-Distinct from §12.5's list, which is a set of costed experiments. These are the deeper questions the comparison sharpened without resolving, and none has an obvious first experiment.
+Distinct from §13.5's list, which is a set of costed experiments. These are the deeper questions the comparison sharpened without resolving, and none has an obvious first experiment.
 
 **1. Is olfaction an efficient-coding problem or an inference problem?** The course leans toward inference and does not establish it. The two frameworks give different answers about what the bulb should do — decorrelate versus estimate latent causes — and the discriminating measurement is not obvious, because both predict some form of redundancy reduction as a by-product.
 
 **2. What is the effective dimensionality of natural odour space?** The receptor count is ~1000. The *intrinsic* dimensionality of the natural ensemble is unmeasured, and §11.2 flags proprioception as the standing warning: 20 nominal degrees of freedom, about 3 effective. If odour scenes compress similarly, most of the course's dimensionality arguments would need restating.
 
-**3. Who is the dominant consumer of the olfactory code?** §10.5 and §12.17 argue that the answer determines what the code should look like, and that if it is navigation, the psychophysics literature may be characterising a side effect with great care. This is a question about ecology as much as neuroscience, and it probably has different answers in rodents and primates.
+**3. Who is the dominant consumer of the olfactory code?** §10.5 and Import 17 argue that the answer determines what the code should look like, and that if it is navigation, the psychophysics literature may be characterising a side effect with great care. This is a question about ecology as much as neuroscience, and it probably has different answers in rodents and primates.
 
 **4. Why do the sampling rhythms all land at 4–12 Hz?** Sniffing, whisking, licking, saccades, the syllable rate of speech. Five behaviours, four modalities, one band. §10.1 gives three candidate explanations — biomechanical resonance, integration-time matching, and a shared central oscillator — which make opposite predictions about how the band should scale with body size. Nobody has run the comparative measurement, and it would be neither expensive nor difficult.
 
 **5. Is there a normative account of adult neurogenesis?** The bulb keeps adding neurons for life, at two synapses from the sensory surface, and no other sensory structure at that depth does. The non-stationarity argument of §3.2 is the best available rationale and remains an argument rather than a result — §6.11 notes it must rest on an unsupervised objective, since olfaction has no equivalent of retinal slip to serve as a teacher.
 
-**6. What is the olfactory bulb's granule cell layer actually computing?** Decorrelation, normalisation, negative-image subtraction, and coordinate transformation are all on the table, they are not exclusive, and the course reaches no verdict. §12.18's timecourse experiment discriminates one pair of them, which is a start rather than an answer.
+**6. What is the olfactory bulb's granule cell layer actually computing?** Decorrelation, normalisation, negative-image subtraction, and coordinate transformation are all on the table, they are not exclusive, and the course reaches no verdict. Import 18's timecourse experiment discriminates one pair of them, which is a start rather than an answer.
 
 ## Where to read next
 
@@ -117,7 +117,7 @@ Start with the foundational statements rather than the reviews. Attneave [@attne
 
 ### Efficient coding where it worked
 
-Laughlin [@laughlin1981] ★ is the cleanest demonstration in the literature: measure the contrast distribution, predict the response curve, compare. Read it before anything else in this section. Srinivasan et al. [@srinivasan1982] introduce predictive coding at the retina; Atick and Redlich [@atick1992] ★ derive the whitening-to-lowpass crossover; Dan et al. [@dan1996] confirm it in LGN. Olshausen and Field [@olshausen1996] is the sparse-coding result. For colour, Buchsbaum and Gottschalk [@buchsbaum1983] and Ruderman et al. [@ruderman1998] give the opponent-axis derivation that §12.1 wants an olfactory analogue of.
+Laughlin [@laughlin1981] ★ is the cleanest demonstration in the literature: measure the contrast distribution, predict the response curve, compare. Read it before anything else in this section. Srinivasan et al. [@srinivasan1982] introduce predictive coding at the retina; Atick and Redlich [@atick1992] ★ derive the whitening-to-lowpass crossover; Dan et al. [@dan1996] confirm it in LGN. Olshausen and Field [@olshausen1996] is the sparse-coding result. For colour, Buchsbaum and Gottschalk [@buchsbaum1983] and Ruderman et al. [@ruderman1998] give the opponent-axis derivation that §13.1 wants an olfactory analogue of.
 
 For audition, Lewicki [@lewicki2002] ★ and Smith and Lewicki [@smith2006] are the filterbank derivations, and are the direct template for the olfactory calculation nobody can yet run.
 
@@ -135,30 +135,30 @@ Celani et al. [@celani2014] ★ characterises odour landscapes in turbulence and
 
 ### Odour space and its geometry
 
-Zhou et al. [@zhou2018] propose hyperbolic geometry for odour space; Koulakov and Rinberg [@koulakov2011] and Krishnamurthy et al. [@krishnamurthy2022] approach the representation problem from different directions. This is the most contested area in the course and the reading should be done adversarially — the proposals disagree, and §12.1 suggests the comparison that would separate two of them.
+Zhou et al. [@zhou2018] propose hyperbolic geometry for odour space; Koulakov and Rinberg [@koulakov2011] and Krishnamurthy et al. [@krishnamurthy2022] approach the representation problem from different directions. This is the most contested area in the course and the reading should be done adversarially — the proposals disagree, and §13.1 suggests the comparison that would separate two of them.
 
 ### The other modalities, for import
 
 For each, one entry point that carries the argument this course borrows.
 
-**Touch:** Johnson [@johnson2001] ★ on the afferent classes, Saal and Bensmaia [@saal2014] on submodality interplay — the source of §12.8's correction that a map does not imply a spatial code.
+**Touch:** Johnson [@johnson2001] ★ on the afferent classes, Saal and Bensmaia [@saal2014] on submodality interplay — the source of Import 8's correction that a map does not imply a spatial code.
 **Vestibular:** Angelaki et al. [@angelaki2004] ★ and Cullen [@cullen2012] ★. If you read two papers from outside olfaction, make them these — they are the clearest worked example of neurons implementing a specified estimator, and Fetsch et al. [@fetsch2011] is the direct neural test of reliability weighting.
 **Proprioception:** Bosco and Poppele [@bosco2001] ★ for the recoding into limb variables, and [@bosco2003] for the honest treatment of how much of it is neural versus biomechanical. Wolpert et al. [@wolpert1995] for forward models.
-**Taste:** Chandrashekar et al. [@chandrashekar2006] ★ — the receptor-swap experiments that settled a coding dispute, and the model §12.11 wants an olfactory version of.
-**Audition, spatial:** Carr and Konishi [@carr1990] and McAlpine et al. [@mcalpine2001] together, in that order — the dispute and its resolution, which §12.7 turns into a general lesson about the range that matters being the range encountered.
+**Taste:** Chandrashekar et al. [@chandrashekar2006] ★ — the receptor-swap experiments that settled a coding dispute, and the model Import 11 wants an olfactory version of.
+**Audition, spatial:** Carr and Konishi [@carr1990] and McAlpine et al. [@mcalpine2001] together, in that order — the dispute and its resolution, which §13.7 turns into a general lesson about the range that matters being the range encountered.
 
 ### If you want to start work tomorrow
 
 The three cheapest entry points, all requiring no new apparatus:
 
-1. **The receptor-abundance analysis** (§12.5, item 2) — existing data, existing methods, a built-in comparative control.
-2. **The geometry comparison** (§12.5, item 10) — fit hyperbolic and Euclidean models to published co-occurrence data and compare held-out likelihood. Purely computational.
-3. **The sniff-triggered versus passive experiment** (§12.5, item 1) — the best cost-to-information ratio in the course, and both outcomes reframe an existing literature.
+1. **The receptor-abundance analysis** (§13.5, item 2) — existing data, existing methods, a built-in comparative control.
+2. **The geometry comparison** (§13.5, item 10) — fit hyperbolic and Euclidean models to published co-occurrence data and compare held-out likelihood. Purely computational.
+3. **The sniff-triggered versus passive experiment** (§13.5, item 1) — the best cost-to-information ratio in the course, and both outcomes reframe an existing literature.
 
 <x-free-response>
 <script type="application/json">
 {
-  "id": "m12.s06.f1",
+  "id": "m13.s06.f1",
   "contentRev": 1,
   "points": 1,
   "prompt": "You have finished the course. Write the paragraph you would send to a colleague who works on olfaction and has not taken it — what the comparative method gave you that working within olfaction would not have, and what you now think they are getting wrong. Be specific enough to be argued with.",
@@ -180,8 +180,8 @@ This course made a wager, stated in §0.0: that the clues to understanding olfac
 
 The wager paid, but not in the way the framing suggests. What the comparison produced was not a set of mechanisms imported into olfaction. It was a set of **controls** — cases where a property olfaction has appears without the consequence olfaction suffers, which is what lets you say that the property is not the cause. Taste for disorder, touch and proprioception for the missing relay, electroreception for the slow sensor, audition for the what/where split in an array with no spatial dimension at all.
 
-That is a more modest product than "here is the theory of smell", and a more reliable one. §12.5's free-response makes the case that the method systematically over-produces plausible-looking questions and under-weights the properties with no analogue anywhere — and that case is correct, and it is the reason the eliminations are worth more than the predictions.
+That is a more modest product than "here is the theory of smell", and a more reliable one. §13.5's free-response makes the case that the method systematically over-produces plausible-looking questions and under-weights the properties with no analogue anywhere — and that case is correct, and it is the reason the eliminations are worth more than the predictions.
 
-**The specific claim the course ends on:** olfaction's open questions can be stated sharply enough to design experiments against, and the sharpening came from outside olfaction. Every item in §12.5 traces to a cell in the datasheet where olfaction differs from a modality that has an answer.
+**The specific claim the course ends on:** olfaction's open questions can be stated sharply enough to design experiments against, and the sharpening came from outside olfaction. Every item in §13.5 traces to a cell in the datasheet where olfaction differs from a modality that has an answer.
 
 The difference, not the similarity, is what generated the question.

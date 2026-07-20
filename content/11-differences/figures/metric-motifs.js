@@ -100,7 +100,7 @@ export function draw(root, values, { createDiagram }) {
       `becomes a tuning curve over an index set. And a map can be built centrally over a variable the receptors ` +
       `never measured, which is what bats do with echo delay.`
     : `The survivors. Every one of these is defined by second-order or higher statistics of the population, never by ` +
-      `the ordering of the index. This is why §12's flagship calculation — opponent axes from the covariance of ` +
+      `the ordering of the index. This is why §13's flagship calculation — opponent axes from the covariance of ` +
       `receptor responses to natural scenes — is blocked on the missing ensemble and not on the missing metric.`;
   root.appendChild(n);
   const c=document.createElement('p'); c.className='x-figure-credit';

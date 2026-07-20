@@ -1,5 +1,5 @@
 ---
-id: m09.s01
+id: m08.s01
 title: Exotic senses as natural experiments
 lede: Not a curiosity cabinet. Each of these isolates one design variable that is confounded in the familiar modalities — which is exactly what a comparative course needs.
 estimatedMinutes: 10
@@ -11,7 +11,7 @@ Their value is that each one **isolates a variable** that the five familiar moda
 
 ## What each one isolates
 
-**Electroreception in weakly electric fish** isolates *active sensing with a known probe*. The animal generates its own carrier signal, so the forward model is exactly known — which makes it the cleanest possible system for studying cancellation of predictable input. §9.2 argues this is the mechanistic archetype for the olfactory silent-neuron account.
+**Electroreception in weakly electric fish** isolates *active sensing with a known probe*. The animal generates its own carrier signal, so the forward model is exactly known — which makes it the cleanest possible system for studying cancellation of predictable input. §8.2 argues this is the mechanistic archetype for the olfactory silent-neuron account.
 
 <x-figure src="content/media/eigenmannia-virescens.jpg"
   caption="Eigenmannia virescens, a glass knifefish. Like Apteronotus it swims by undulating a long ventral fin, holding the body rigid — which keeps the geometry of its self-generated electric field stable and therefore its sensory consequences predictable. The behaviour and the sensory strategy are built around each other."
@@ -20,9 +20,9 @@ Their value is that each one **isolates a variable** that the five familiar moda
 </x-figure>
 
 
-**Echolocation in bats** isolates *real-time control of the probe signal*. Bats adapt call rate, bandwidth and beam direction to current uncertainty, which makes it the best worked example of sensing as optimal experiment design. It also builds cortical maps of *computed* variables, which is the existence proof §12 needs.
+**Echolocation in bats** isolates *real-time control of the probe signal*. Bats adapt call rate, bandwidth and beam direction to current uncertainty, which makes it the best worked example of sensing as optimal experiment design. It also builds cortical maps of *computed* variables, which is the existence proof §13 needs.
 
-**Infrared sensing in pit vipers** isolates *acuity as a computational achievement*. The optics are terrible — a wide-aperture pinhole producing a badly blurred thermal image — and the resolution is recovered by deconvolution. §9.4 argues this is the single most generative import for olfactory localisation.
+**Infrared sensing in pit vipers** isolates *acuity as a computational achievement*. The optics are terrible — a wide-aperture pinhole producing a badly blurred thermal image — and the resolution is recovered by deconvolution. §8.4 argues this is the single most generative import for olfactory localisation.
 
 **Magnetoreception** isolates *a sense at the edge of physical possibility*, with no confirmed receptor. It is the low-dimensional, low-bandwidth extreme, and a useful lesson in how hard it is to ground-truth a sensory channel.
 
@@ -37,7 +37,7 @@ The exotic senses break the correlations:
 <strong>Infrared</strong> has terrible optics with good performance — the reverse of the usual arrangement.<br>
 <strong>Magnetoreception</strong> has almost no bandwidth and works anyway.
 
-Each populates a region of design space the familiar five leave empty. That is the whole justification for the module, and it is why the sharpest imports in §12 come from here rather than from vision.
+Each populates a region of design space the familiar five leave empty. That is the whole justification for the module, and it is why the sharpest imports in §13 come from here rather than from vision.
 </x-callout>
 
 ## What to carry through

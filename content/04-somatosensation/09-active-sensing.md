@@ -18,7 +18,7 @@ The olfactory question follows directly: is sniff strategy similarly matched to 
 Rodents sweep their whiskers back and forth at 5–15 Hz to palpate their surroundings, and the system has become the workhorse preparation for active sensing.
 
 <x-figure src="content/media/whisking-mouse-kinematics.jpg"
-  caption="A head-fixed mouse whisking, with the whisk cycle decomposed into offset, amplitude and phase. That decomposition is exactly what makes phase-referenced decoding tractable here and not yet in the bulb — and §12 proposes importing it, since sniffing supplies the same kind of self-generated phase reference."
+  caption="A head-fixed mouse whisking, with the whisk cycle decomposed into offset, amplitude and phase. That decomposition is exactly what makes phase-referenced decoding tractable here and not yet in the bulb — and §13 proposes importing it, since sniffing supplies the same kind of self-generated phase reference."
   credit="Chinta S, Pluta SR (2025), PLOS Biology 23(4):e3003087, Figure 1a,c (cropped). CC BY 4.0."
   source="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003087">
 </x-figure>
@@ -53,7 +53,7 @@ The parallel with sniffing is unusually close, and worth laying out explicitly:
 <div class="x-callout-title">The transferable machinery</div>
 Both systems generate a rhythm, both lock sensory responses to its phase, and both make latency-relative-to-phase a meaningful quantity. In whisking, the machinery for <strong>phase-referenced decoding</strong> has been worked out in some detail — how downstream neurons combine phase and amplitude, where the reference signal comes from, whether it is reafferent or a corollary discharge.
 
-That machinery is directly importable, and §12 proposes it as one of the more concrete transfers available: <strong>does the bulb implement phase-referenced decoding the way barrel cortex does, and where does its copy of the sniff phase come from?</strong>
+That machinery is directly importable, and §13 proposes it as one of the more concrete transfers available: <strong>does the bulb implement phase-referenced decoding the way barrel cortex does, and where does its copy of the sniff phase come from?</strong>
 
 The one asymmetry: whisker contact is binary and localised, so phase-to-contact mapping is relatively clean. Odour arrival is graded and continuous within a sniff, so the olfactory version is harder. But the question is well-posed, which is more than can be said for most olfactory coding questions.
 </x-callout>

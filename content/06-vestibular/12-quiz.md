@@ -131,7 +131,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Record from piriform rather than the bulb, since cancellation in vestibular occurs at the first *central* synapse and the bulb is peripheral.",
       "correct": false,
-      "feedback": "Correct under a strict reading of \"first central synapse\", and the anatomical care is appropriate. But the mapping is wrong: the bulb is the first central circuit in olfaction, receiving receptor-neuron input directly, and it has the architecture cancellation requires — granule cells delivering broad, delayed cortical feedback onto mitral cells, the same arrangement as the electrosensory negative image (§9.2). Piriform is one synapse too late."
+      "feedback": "Correct under a strict reading of \"first central synapse\", and the anatomical care is appropriate. But the mapping is wrong: the bulb is the first central circuit in olfaction, receiving receptor-neuron input directly, and it has the architecture cancellation requires — granule cells delivering broad, delayed cortical feedback onto mitral cells, the same arrangement as the electrosensory negative image (§8.2). Piriform is one synapse too late."
     },
     {
       "text": "Introduce a novel constant background odour and measure how long bulbar cells take to stop responding to it.",

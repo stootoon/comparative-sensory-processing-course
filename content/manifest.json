@@ -795,68 +795,134 @@
       ]
     },
     {
-      "id": "m09",
+      "id": "m08",
       "slug": "exotic",
-      "dir": "09-exotic",
-      "label": "Module 9",
+      "dir": "08-exotic",
+      "label": "Module 8",
       "title": "Exotic Senses",
       "blurb": "Electroreception, echolocation, infrared, magnetoreception — natural experiments that populate the design space the familiar five leave empty.",
       "subsections": [
         {
-          "id": "m09.s01",
+          "id": "m08.s01",
           "slug": "natural-experiments",
-          "sectionNumber": "9.1",
+          "sectionNumber": "8.1",
           "file": "01-natural-experiments.md",
           "title": "Exotic senses as natural experiments",
           "blurb": "Each isolates one design variable the familiar five confound."
         },
         {
-          "id": "m09.s02",
+          "id": "m08.s02",
           "slug": "electroreception",
-          "sectionNumber": "9.2",
+          "sectionNumber": "8.2",
           "file": "02-electroreception.md",
           "title": "Electroreception — cancelling the predictable",
           "blurb": "The clearest circuit-level implementation of subtracting a prediction."
         },
         {
-          "id": "m09.s03",
+          "id": "m08.s03",
           "slug": "echolocation",
-          "sectionNumber": "9.3",
+          "sectionNumber": "8.3",
           "file": "03-echolocation.md",
           "title": "Echolocation — designing the experiment",
           "blurb": "Real-time probe control, and maps of computed variables."
         },
         {
-          "id": "m09.s04",
+          "id": "m08.s04",
           "slug": "infrared",
-          "sectionNumber": "9.4",
+          "sectionNumber": "8.4",
           "file": "04-infrared.md",
           "title": "Infrared sensing — acuity as deconvolution",
           "blurb": "Terrible optics, good performance, recovered computationally."
         },
         {
-          "id": "m09.s05",
+          "id": "m08.s05",
           "slug": "magnetoreception",
-          "sectionNumber": "9.5",
+          "sectionNumber": "8.5",
           "file": "05-magnetoreception.md",
           "title": "Magnetoreception — a sense with no known receptor",
           "blurb": "What the difficulty teaches about grounding a sensory channel."
+        },
+        {
+          "id": "m08.s06",
+          "slug": "synthesis",
+          "sectionNumber": "8.6",
+          "file": "06-synthesis.md",
+          "title": "Synthesis — what the exotic senses hand olfaction",
+          "blurb": "Three mechanistic templates, each with a runnable experiment."
+        },
+        {
+          "id": "m08.s07",
+          "slug": "quiz",
+          "sectionNumber": "8.7",
+          "file": "07-quiz.md",
+          "title": "Module quiz — Exotic Senses",
+          "blurb": "Four natural experiments, and what each holds constant that the familiar five confound."
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "slug": "devo-evo",
+      "dir": "09-devo-evo",
+      "label": "Module 9",
+      "title": "Development and Evolution",
+      "blurb": "The two constraint sources the course assumed and never examined — how a system must be built, and how it got here. Convergence between insects and vertebrates is the strongest normative argument olfaction has; developmental specifiability is where the missing metric actually costs the animal something.",
+      "subsections": [
+        {
+          "id": "m09.s01",
+          "slug": "why",
+          "sectionNumber": "9.1",
+          "file": "01-why.md",
+          "title": "Why development and evolution belong in a normative course",
+          "blurb": "Three kinds of explanation — optimality, developmental accessibility, historical contingency — and how to tell them apart."
+        },
+        {
+          "id": "m09.s02",
+          "slug": "what-a-genome-can-specify",
+          "sectionNumber": "9.2",
+          "file": "02-what-a-genome-can-specify.md",
+          "title": "What a genome can specify",
+          "blurb": "A genome writes rules, not connections. A rule needs an ordering — which is where the missing metric imposes a cost rather than an absence."
+        },
+        {
+          "id": "m09.s03",
+          "slug": "receptor-repertoire",
+          "sectionNumber": "9.3",
+          "file": "03-receptor-repertoire.md",
+          "title": "The receptor repertoire as an evolving object",
+          "blurb": "Birth-and-death evolution, pseudogenes, and the genomic alternative that makes the capstone's abundance null interpretable."
+        },
+        {
+          "id": "m09.s04",
+          "slug": "convergence",
+          "sectionNumber": "9.4",
+          "file": "04-convergence.md",
+          "title": "Convergent solutions",
+          "blurb": "Insects and vertebrates built the same architecture from non-homologous parts. What that licenses, what it does not, and the three objections weighed."
+        },
+        {
+          "id": "m09.s05",
+          "slug": "plasticity",
+          "sectionNumber": "9.5",
+          "file": "05-plasticity.md",
+          "title": "Critical periods, plasticity, and adult neurogenesis",
+          "blurb": "Olfaction is the outlier at a depth no other sensory system matches — and the non-stationarity explanation is currently a story, not a result."
         },
         {
           "id": "m09.s06",
           "slug": "synthesis",
           "sectionNumber": "9.6",
           "file": "06-synthesis.md",
-          "title": "Synthesis — what the exotic senses hand olfaction",
-          "blurb": "Three mechanistic templates, each with a runnable experiment."
+          "title": "Synthesis and the olfaction hook",
+          "blurb": "Scoring the three arguments, the developmental datasheet row, and six clues handed to the capstone."
         },
         {
           "id": "m09.s07",
           "slug": "quiz",
           "sectionNumber": "9.7",
           "file": "07-quiz.md",
-          "title": "Module quiz — Exotic Senses",
-          "blurb": "Four natural experiments, and what each holds constant that the familiar five confound."
+          "title": "Module quiz — Development and Evolution",
+          "blurb": "Eight questions on constraint, convergence, and the discipline of not telling stories."
         }
       ]
     },
@@ -978,64 +1044,130 @@
     },
     {
       "id": "m12",
+      "slug": "artificial",
+      "dir": "12-artificial",
+      "label": "Module 12",
+      "title": "Artificial Sensing",
+      "blurb": "The course's central claim, tested outside biology. Machine vision and audition succeeded after their corpora were built; machine olfaction stalled at the same place the theory did — in systems with no evolution, no metabolism and no anatomy to blame.",
+      "subsections": [
+        {
+          "id": "m12.s01",
+          "slug": "why-artificial",
+          "sectionNumber": "12.1",
+          "file": "01-why-artificial.md",
+          "title": "Why artificial systems are evidence about biology",
+          "blurb": "What a working artefact licenses you to conclude about an organism, and what a stalled one does — five rungs of inference, of which this module stands on three."
+        },
+        {
+          "id": "m12.s02",
+          "slug": "datasets",
+          "sectionNumber": "12.2",
+          "file": "02-datasets.md",
+          "title": "What vision and audition got from their datasets",
+          "blurb": "The corpus came first, assembled by people who did not know what would exploit it — plus the convergence of trained networks on cortex-like early filters."
+        },
+        {
+          "id": "m12.s03",
+          "slug": "machine-olfaction",
+          "sectionNumber": "12.3",
+          "file": "03-machine-olfaction.md",
+          "title": "Machine olfaction, and why it stalled",
+          "blurb": "Electronic noses adopted the biological array design on purpose. Drift and cross-sensitivity are individually survivable and jointly fatal, and the stall is at the input representation."
+        },
+        {
+          "id": "m12.s04",
+          "slug": "the-asymmetry",
+          "sectionNumber": "12.4",
+          "file": "04-the-asymmetry.md",
+          "title": "The same asymmetry, outside biology",
+          "blurb": "The independent test, four rival explanations stated at full strength, and the honest verdict — supported and not isolated, with the five measurements that would change that."
+        },
+        {
+          "id": "m12.s05",
+          "slug": "what-it-would-need",
+          "sectionNumber": "12.5",
+          "file": "05-what-it-would-need.md",
+          "title": "What a solved machine olfaction would need",
+          "blurb": "Gaps 1 and 4 as an engineering specification — and the finding that the cheapest subset is the one buying the normative theory rather than the working device."
+        },
+        {
+          "id": "m12.s06",
+          "slug": "synthesis",
+          "sectionNumber": "12.6",
+          "file": "06-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "Scoring the module's own argument against the five criteria it has applied to everyone else, which it fails on the first — and seven clues to the capstone, one contradicting the thesis."
+        },
+        {
+          "id": "m12.s07",
+          "slug": "quiz",
+          "sectionNumber": "12.7",
+          "file": "07-quiz.md",
+          "title": "Module quiz — Artificial Sensing",
+          "blurb": "Eight questions on an argument deliberately weaker than it first appears, several of which ask you to attack it."
+        }
+      ]
+    },
+    {
+      "id": "m13",
       "slug": "mirror",
-      "dir": "12-capstone",
-      "label": "Capstone",
+      "dir": "13-capstone",
+      "label": "Module 13",
       "title": "Olfaction in the Mirror",
       "blurb": "For each imported concept: the analogue, the disanalogy that breaks it, and a concrete falsifiable prediction. Ends with a ranked, costed research agenda.",
       "subsections": [
         {
-          "id": "m12.s01",
+          "id": "m13.s01",
           "slug": "teaser",
-          "sectionNumber": "12.1",
+          "sectionNumber": "13.1",
           "file": "01-vision-and-audition.md",
           "title": "Imports from vision and audition",
           "blurb": "The method, and the two modalities with mature normative theories."
         },
         {
-          "id": "m12.s02",
+          "id": "m13.s02",
           "slug": "touch-and-taste",
-          "sectionNumber": "12.2",
+          "sectionNumber": "13.2",
           "file": "02-touch-and-taste.md",
           "title": "Imports from touch and taste",
           "blurb": "A map does not imply a spatial code; and unordered does not entail high-dimensional."
         },
         {
-          "id": "m12.s03",
+          "id": "m13.s03",
           "slug": "vestibular-and-proprioception",
-          "sectionNumber": "12.3",
+          "sectionNumber": "13.3",
           "file": "03-vestibular-and-proprioception.md",
           "title": "Imports from the vestibular and proprioceptive systems",
           "blurb": "The closest structural match to olfaction's central ambiguity, and a different job description for a first circuit."
         },
         {
-          "id": "m12.s04",
+          "id": "m13.s04",
           "slug": "exotic-senses",
-          "sectionNumber": "12.4",
+          "sectionNumber": "13.4",
           "file": "04-exotic-senses.md",
           "title": "Imports from the exotic senses",
           "blurb": "Cancellation with the mechanism known, hyperacuity from slow elements, and localisation as blind deconvolution."
         },
         {
-          "id": "m12.s05",
+          "id": "m13.s05",
           "slug": "the-agenda",
-          "sectionNumber": "12.5",
+          "sectionNumber": "13.5",
           "file": "05-the-agenda.md",
           "title": "The research agenda",
           "blurb": "Everything the comparison generated, ranked by informativeness per unit cost — with the null results costed too."
         },
         {
-          "id": "m12.s06",
+          "id": "m13.s06",
           "slug": "conclusion",
-          "sectionNumber": "12.6",
+          "sectionNumber": "13.6",
           "file": "06-conclusion.md",
           "title": "Conclusion — gaps, open questions, and where to read next",
-          "blurb": "The four structural gaps behind every experiment in §12.5, the questions the course could not answer, and an annotated route into the literature."
+          "blurb": "The four structural gaps behind every experiment in §13.5, the questions the course could not answer, and an annotated route into the literature."
         },
         {
-          "id": "m12.s07",
+          "id": "m13.s07",
           "slug": "final-exam",
-          "sectionNumber": "12.7",
+          "sectionNumber": "13.7",
           "file": "07-final-exam.md",
           "title": "Final exam",
           "blurb": "Eleven cumulative questions, none answerable from a single module — and three free-response questions that reward saying what is uncertain."

@@ -52,4 +52,4 @@ The course's suggestion here is that olfaction's usual comparison class is wrong
 
 Vision is largely passive: photons arrive, and eye movements select among them but do not create them. Olfaction is closer to **active sensing** in the strong sense — the animal controls the timing, the amount, and to a degree the spectral character of what it samples, and it uses movement to resolve ambiguity that a single sample cannot.
 
-Echolocating bats adapt call rate, bandwidth and beam direction to current uncertainty, increasing rate as they close on a target. **Does sniff strategy adapt the same way?** Sniff frequency does change with task, but whether it tracks posterior uncertainty in the way an optimal-experiment-design account predicts is largely untested — and §12 makes it a concrete proposal.
+Echolocating bats adapt call rate, bandwidth and beam direction to current uncertainty, increasing rate as they close on a target. **Does sniff strategy adapt the same way?** Sniff frequency does change with task, but whether it tracks posterior uncertainty in the way an optimal-experiment-design account predicts is largely untested — and §13 makes it a concrete proposal.

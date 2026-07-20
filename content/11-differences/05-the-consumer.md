@@ -86,7 +86,7 @@ Summarising across the module, four things go forward.
 
 **Three.** The two axes where olfaction is not the outlier — active control of the stimulus, and forward models — are where the transferable machinery lives. Electroreception, echolocation and vestibular all solved problems olfaction has, using pooling, optimal sampling and forward models respectively.
 
-**Four.** The binding constraint is a stateable objective, not more data. Every axis in this module ends at the same place: nobody has written down precisely what the olfactory system is estimating, and the three candidates demand different codes. That is what §12 has to fix before anything else in it can be evaluated.
+**Four.** The binding constraint is a stateable objective, not more data. Every axis in this module ends at the same place: nobody has written down precisely what the olfactory system is estimating, and the three candidates demand different codes. That is what §13 has to fix before anything else in it can be evaluated.
 
 <x-figure src="content/00-toolkit/figures/datasheet.js"
   caption="Highlight each modality in turn and read only the bottom two rows — forward model available, and normative theory maturity. They track almost perfectly, and vestibular and proprioception lead on both. That is the same claim as this section's, in the datasheet's own coarse scoring: knowing what the consumer wants is what makes an objective stateable, and a stateable objective is what makes the normative calculation well-posed. Olfaction scores 1 on forward model and 2 on maturity, and those are not independent numbers.">

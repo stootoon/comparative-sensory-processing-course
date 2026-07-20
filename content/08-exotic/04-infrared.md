@@ -1,5 +1,5 @@
 ---
-id: m09.s04
+id: m08.s04
 title: Infrared sensing — acuity as deconvolution
 lede: An imaging system with terrible optics and usable performance. The pit viper recovers resolution computationally, and reframing olfactory localisation the same way may be the single most generative import in this course.
 estimatedMinutes: 14

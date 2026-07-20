@@ -1,5 +1,5 @@
 ---
-id: m12.s03
+id: m13.s03
 title: Imports from the vestibular and proprioceptive systems
 lede: The closest structural match to olfaction's central ambiguity, and the clearest demonstration that a first circuit can be transforming coordinates rather than decorrelating. These two modules carry the sharpest imports in the course.
 estimatedMinutes: 30
@@ -39,7 +39,7 @@ The consequence is a hard trade-off with no analogue in the vestibular case. A l
 
 **Imported:** vestibular nuclei subtract self-generated head motion at the **first central synapse**, using an efference copy of the motor command. Neurons that have successfully subtracted their prediction go quiet, and look unresponsive to anyone measuring their response to passive motion [@cullen2012].
 
-**Candidate analogue:** the bulb has the architecture for this. Granule cells carry massive cortical and centrifugal feedback onto mitral cells, in the same configuration — a broad, delayed input onto principal cells — that implements the negative image in electrosensory lobes (§9.2).
+**Candidate analogue:** the bulb has the architecture for this. Granule cells carry massive cortical and centrifugal feedback onto mitral cells, in the same configuration — a broad, delayed input onto principal cells — that implements the negative image in electrosensory lobes (§8.2).
 
 **The disanalogy:** vestibular cancellation subtracts a signal the animal generated *and knows the parameters of*. The sniff generates a predictable component too, but what arrives during a sniff depends on the odour environment as well as on the motor command, so the predictable part is a smaller fraction of the total.
 
@@ -91,7 +91,7 @@ Two independent arguments converging on the same prediction is worth more than e
 <x-order>
 <script type="application/json">
 {
-  "id": "m12.s03.o1",
+  "id": "m13.s03.o1",
   "contentRev": 1,
   "points": 1,
   "shuffleSeed": 41,
@@ -122,7 +122,7 @@ Two independent arguments converging on the same prediction is worth more than e
 <x-free-response>
 <script type="application/json">
 {
-  "id": "m12.s03.f1",
+  "id": "m13.s03.f1",
   "contentRev": 1,
   "points": 1,
   "prompt": "The vestibular system is the course's best example of a normative theory that worked. List the ingredients that made it work, then go through them for olfaction and say which are present, which are absent, and which are absent for reasons that are fixable within a few years.",

@@ -101,7 +101,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Olfactory perception is largely learned, so there are no innate axes for the calculation to recover.",
       "correct": false,
-      "feedback": "Correct under the assumption that the axes must be innate to be real — and this is a genuinely open possibility that §12.12 develops, where coordinates come from consequence rather than from chemistry. But it is a hypothesis about the answer rather than an obstacle to the calculation, and if it were true the calculation would still be informative, just about the wrong thing."
+      "feedback": "Correct under the assumption that the axes must be innate to be real — and this is a genuinely open possibility that Import 12 develops, where coordinates come from consequence rather than from chemistry. But it is a hypothesis about the answer rather than an obstacle to the calculation, and if it were true the calculation would still be informative, just about the wrong thing."
     }
   ]
 }
@@ -119,7 +119,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "The standard explanation for why maps exist is wiring-length minimisation, which requires a metric on the receptor array to have anything to minimise. Olfaction has none, so the explanation predicts no map.",
       "correct": true,
-      "feedback": "This is the argument, and its virtue is that it turns an absence into a consequence. Maps are usually explained as minimising the wire needed for local interactions among similar values. 'Similar' requires a metric; olfactory receptor identity supplies none. So the absence is what the theory of maps predicts, rather than a gap in olfaction. Note that this leaves open a map of a *derived* variable, which §12.2 pursues."
+      "feedback": "This is the argument, and its virtue is that it turns an absence into a consequence. Maps are usually explained as minimising the wire needed for local interactions among similar values. 'Similar' requires a metric; olfactory receptor identity supplies none. So the absence is what the theory of maps predicts, rather than a gap in olfaction. Note that this leaves open a map of a *derived* variable, which §13.2 pursues."
     },
     {
       "text": "Olfaction reaches cortex in two synapses, which is too few to construct a map.",
@@ -157,7 +157,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     { "id": "e", "text": "Compare the optimum against the measured biology." }
   ],
   "correctOrder": ["a", "b", "c", "d", "e"],
-  "modelAnswerNote": "The order matters more than it looks, and the reason is the failure mode it prevents.\n\nIf you specify the objective and constraints *after* seeing the biology, you can almost always find a combination that makes the observed solution optimal — which is how optimisation arguments become unfalsifiable. Fixing (a) through (c) before (d) and (e) is what makes the exercise a test.\n\nFor olfaction, steps 2 through 5 are ready and step 1 does not exist. That is the whole gap, and §2.4 states it in exactly these terms. But §12.15 adds a subtler point: step 2 is also not settled for olfaction, because 'encode odour identity efficiently' names no latent variable and no loss. The field may be missing two ingredients, not one."
+  "modelAnswerNote": "The order matters more than it looks, and the reason is the failure mode it prevents.\n\nIf you specify the objective and constraints *after* seeing the biology, you can almost always find a combination that makes the observed solution optimal — which is how optimisation arguments become unfalsifiable. Fixing (a) through (c) before (d) and (e) is what makes the exercise a test.\n\nFor olfaction, steps 2 through 5 are ready and step 1 does not exist. That is the whole gap, and §2.4 states it in exactly these terms. But Import 15 adds a subtler point: step 2 is also not settled for olfaction, because 'encode odour identity efficiently' names no latent variable and no loss. The field may be missing two ingredients, not one."
 }
 </script>
 </x-order>
@@ -173,7 +173,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Because it converts \"olfaction has no thalamus\" from a single mysterious fact into a checklist — which services does olfaction implement, and where?",
       "correct": true,
-      "feedback": "Exactly. A relay is a thing you either have or lack; a set of services is something you can audit. §3.6 can then ask, service by service, whether the bulb's granule-cell gating under cortical feedback provides attentional gain control and state-dependent gating, and §12.10 turns that into a quantitative comparison against LGN. Decomposition is what makes an absence investigable."
+      "feedback": "Exactly. A relay is a thing you either have or lack; a set of services is something you can audit. §3.6 can then ask, service by service, whether the bulb's granule-cell gating under cortical feedback provides attentional gain control and state-dependent gating, and Import 10 turns that into a quantitative comparison against LGN. Decomposition is what makes an absence investigable."
     },
     {
       "text": "Because LGN turns out not to be a relay at all, given that most of its input is cortical feedback.",
@@ -183,7 +183,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Because it shows that olfaction's missing relay is explained by evolutionary antiquity.",
       "correct": false,
-      "feedback": "Correct under the antiquity hypothesis, which this course examines and largely rejects — §12.10 and §11.4 show touch and proprioception also bypass thalamus and are not ancient. The service decomposition is neutral between explanations; it is a tool for asking the question, not an answer to it."
+      "feedback": "Correct under the antiquity hypothesis, which this course examines and largely rejects — Import 10 and §11.4 show touch and proprioception also bypass thalamus and are not ancient. The service decomposition is neutral between explanations; it is a tool for asking the question, not an answer to it."
     },
     {
       "text": "Because thalamic services are conserved across modalities, so olfaction must have them somewhere.",
@@ -216,7 +216,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     "Statistics stationary?|Vision": { "answer": "yes", "accept": ["yes","stationary","largely","mostly"] },
     "Obligatory thalamic relay|Vision": { "answer": "LGN", "accept": ["lgn","yes","lateral geniculate","lateral geniculate nucleus"] }
   },
-  "modelAnswerNote": "Vision is the reference column, and the reason to know it cold is that every claim about olfaction being unusual is implicitly a claim about a difference from this profile. When you meet 'olfaction has no obligatory relay', the useful next question is what LGN was doing — which is §1.6's decomposition, and which §12.10 turns into an experiment."
+  "modelAnswerNote": "Vision is the reference column, and the reason to know it cold is that every claim about olfaction being unusual is implicitly a claim about a difference from this profile. When you meet 'olfaction has no obligatory relay', the useful next question is what LGN was doing — which is §1.6's decomposition, and which Import 10 turns into an experiment."
 }
 </script>
 </x-matrix>
@@ -228,7 +228,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
   "contentRev": 1,
   "points": 1,
   "prompt": "Vision's normative theory is strong at the retina, partial at V1, and absent beyond. State the best explanation you can for where the wall is, then say what that predicts for olfaction — which reaches cortex in two synapses rather than four.",
-  "modelAnswer": "**Where the wall is, and why.**\n\nThe retina admits a precise problem statement: given natural image statistics and a known noise level, transmit maximum information through a limited-capacity optic nerve. Every term is measurable, so the optimum is derivable and testable. V1 admits a partial one — sparse coding of natural images recovers oriented filters [@olshausen1996] — but the objective is already less forced, and several different objectives yield similar filters, which weakens the test. Beyond V1 nobody can write down what V4 or IT is estimating with comparable precision.\n\nThe best diagnosis, and §6.11 makes it from the other direction, is that **the wall is where the objective stops being statable**, not where the circuits become complicated. The vestibular system is evidence for this reading: its normative success is *central* rather than peripheral, because 'estimate heading with minimum variance' is precise even though the circuits are not simple. Complexity is not the barrier; specifiability is.\n\n**What it predicts for olfaction.**\n\nExpect the theory to run out sooner in synapse count, and do not mistake that for olfaction being harder. If the wall arrives roughly where the objective becomes unstatable, and olfaction reaches cortex in two synapses, then the tractable zone is the epithelium and the bulb, and piriform is already past it. That matches the state of the literature.\n\nThe non-obvious consequence: a theorist working on piriform is attempting something closer to a V4-level problem than a retina-level one, and should expect correspondingly less traction. **The productive response is not to work harder on piriform but to find the parts of olfaction where an objective can be stated** — which §12.15 argues are the temporal ones, since plume statistics support a precise estimation problem in a way chemical identity currently does not.",
+  "modelAnswer": "**Where the wall is, and why.**\n\nThe retina admits a precise problem statement: given natural image statistics and a known noise level, transmit maximum information through a limited-capacity optic nerve. Every term is measurable, so the optimum is derivable and testable. V1 admits a partial one — sparse coding of natural images recovers oriented filters [@olshausen1996] — but the objective is already less forced, and several different objectives yield similar filters, which weakens the test. Beyond V1 nobody can write down what V4 or IT is estimating with comparable precision.\n\nThe best diagnosis, and §6.11 makes it from the other direction, is that **the wall is where the objective stops being statable**, not where the circuits become complicated. The vestibular system is evidence for this reading: its normative success is *central* rather than peripheral, because 'estimate heading with minimum variance' is precise even though the circuits are not simple. Complexity is not the barrier; specifiability is.\n\n**What it predicts for olfaction.**\n\nExpect the theory to run out sooner in synapse count, and do not mistake that for olfaction being harder. If the wall arrives roughly where the objective becomes unstatable, and olfaction reaches cortex in two synapses, then the tractable zone is the epithelium and the bulb, and piriform is already past it. That matches the state of the literature.\n\nThe non-obvious consequence: a theorist working on piriform is attempting something closer to a V4-level problem than a retina-level one, and should expect correspondingly less traction. **The productive response is not to work harder on piriform but to find the parts of olfaction where an objective can be stated** — which Import 15 argues are the temporal ones, since plume statistics support a precise estimation problem in a way chemical identity currently does not.",
   "rubric": [
     "Identifies statability of the objective, rather than circuit complexity, as what sets the wall",
     "Notes that the retinal problem has every term measurable and the extrastriate one does not",

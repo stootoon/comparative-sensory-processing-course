@@ -1,5 +1,5 @@
 ---
-id: m09.s07
+id: m08.s07
 title: Module quiz — Exotic Senses
 lede: Seven questions on the four natural experiments. Every distractor is the right answer under a different normative assumption, so read the feedback on the ones you get right too.
 estimatedMinutes: 26
@@ -12,7 +12,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m09.s07.q1",
+  "id": "m08.s07.q1",
   "contentRev": 1,
   "points": 1,
   "prompt": "You introduce a novel constant background odour and measure how bulbar responses to it decline. What single feature of the result would most strongly favour learned negative-image subtraction over simple adaptation?",
@@ -45,7 +45,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m09.s07.q2",
+  "id": "m08.s07.q2",
   "contentRev": 1,
   "points": 1,
   "prompt": "Electric fish achieve sub-microsecond behavioural precision from neurons with millisecond jitter, by pooling. Which part of that precedent is the part olfaction most needs and most often omits?",
@@ -78,7 +78,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m09.s07.q3",
+  "id": "m08.s07.q3",
   "contentRev": 1,
   "points": 1,
   "prompt": "Bats maintain an orderly cortical map of echo delay. What does this establish, stated as narrowly as the evidence allows?",
@@ -111,7 +111,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m09.s07.q4",
+  "id": "m08.s07.q4",
   "contentRev": 1,
   "points": 1,
   "prompt": "The pit organ recovers behavioural acuity from a badly blurred thermal image by deconvolving a known point-spread function. What is the most important disanalogy when the frame is transferred to odour localisation?",
@@ -144,7 +144,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m09.s07.q5",
+  "id": "m08.s07.q5",
   "contentRev": 1,
   "points": 1,
   "prompt": "Magnetoreception has excellent normative reasoning, decades of effort, and no agreed transduction mechanism. What is the right lesson to draw for olfaction?",
@@ -177,7 +177,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-order>
 <script type="application/json">
 {
-  "id": "m09.s07.o1",
+  "id": "m08.s07.o1",
   "contentRev": 1,
   "points": 1,
   "shuffleSeed": 41,
@@ -197,7 +197,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-matrix>
 <script type="application/json">
 {
-  "id": "m09.s07.mx1",
+  "id": "m08.s07.mx1",
   "contentRev": 1,
   "points": 6,
   "corner": "Property",
@@ -224,7 +224,7 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <x-free-response>
 <script type="application/json">
 {
-  "id": "m09.s07.f1",
+  "id": "m08.s07.f1",
   "contentRev": 1,
   "points": 1,
   "prompt": "Pick two of the four exotic systems. For each, name precisely what it holds constant that the familiar five confound, and say what conclusion that licenses which no comparison among vision, audition, touch, taste and vestibular could have licensed. Then name one thing your two chosen systems jointly fail to control for.",
@@ -248,13 +248,13 @@ This quiz tests whether you can say, for each one, *what was held constant and w
 <div class="x-callout-title">What to carry into the next module</div>
 Four templates leave this module, and they are templates rather than analogies — each comes with a specified measurement.
 
-<strong>Cancellation with a known predictor</strong> (§9.2) — the bulb has the electrosensory architecture: a broad delayed input onto principal cells. Whether it runs the electrosensory computation is a timecourse measurement, and the off-response is the diagnostic.
+<strong>Cancellation with a known predictor</strong> (§8.2) — the bulb has the electrosensory architecture: a broad delayed input onto principal cells. Whether it runs the electrosensory computation is a timecourse measurement, and the off-response is the diagnostic.
 
-<strong>Hyperacuity with a ceiling</strong> (§9.2) — pooling buys precision as √N until shared noise stops it. Olfactory receptor neurons of one type sample the same air, so the ceiling is not a technicality here. Carry the ceiling, not just the square root.
+<strong>Hyperacuity with a ceiling</strong> (§8.2) — pooling buys precision as √N until shared noise stops it. Olfactory receptor neurons of one type sample the same air, so the ceiling is not a technicality here. Carry the ceiling, not just the square root.
 
-<strong>Maps of derived variables</strong> (§9.3) — an unordered receptor array precludes *inherited* topography, not central topography. §10.3 turns this into the question of whether olfaction's missing map is absent or unlooked-for, and the answer favours unlooked-for.
+<strong>Maps of derived variables</strong> (§8.3) — an unordered receptor array precludes *inherited* topography, not central topography. §10.3 turns this into the question of whether olfaction's missing map is absent or unlooked-for, and the answer favours unlooked-for.
 
-<strong>Acuity as deconvolution</strong> (§9.4) — the plume is a blur kernel applied to a point source, and the kernel is stochastic rather than fixed. That is a harder problem with a literature, which is the whole value of the import.
+<strong>Acuity as deconvolution</strong> (§8.4) — the plume is a blur kernel applied to a point source, and the kernel is stochastic rather than fixed. That is a harder problem with a literature, which is the whole value of the import.
 
 And one warning, from magnetoreception: decades of good normative reasoning did not produce a transduction mechanism, because the bottleneck was biological. Before prescribing more theory or more data for olfaction, say which ingredient is actually missing.
 </x-callout>

@@ -38,7 +38,7 @@ estimatedMinutes: 11
 
 <strong>2. Which olfactory distinctions are worthless?</strong> Taste collapses hundreds of bitter compounds because the action is the same for all of them. The question for olfaction is which distinctions are similarly worthless — and the prediction, confirmed, is that innate-valence pathways collapse while identity pathways preserve (§3.8, §5.3).
 
-<strong>3. Coordinates could be defined by consequence rather than by chemistry.</strong> Taste's dimensions are nutritional categories, not chemical families. §12's search for olfactory coordinates has been posed as a statistics-of-the-stimulus problem; taste suggests a second possibility, where coordinates come from what odours <em>do</em>. Both could hold in different pathways.
+<strong>3. Coordinates could be defined by consequence rather than by chemistry.</strong> Taste's dimensions are nutritional categories, not chemical families. §13's search for olfactory coordinates has been posed as a statistics-of-the-stimulus problem; taste suggests a second possibility, where coordinates come from what odours <em>do</em>. Both could hold in different pathways.
 
 <strong>4. Receptor swaps settle coding disputes.</strong> Express a bitter receptor in a sweet cell and behaviour follows the cell. The olfactory analogue — swap which receptor a glomerulus expresses, ask whether behaviour follows receptor or glomerulus — is feasible and would settle several arguments about what glomerular identity means.
 

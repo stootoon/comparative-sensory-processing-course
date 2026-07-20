@@ -1,5 +1,5 @@
 ---
-id: m12.s02
+id: m13.s02
 title: Imports from touch and taste
 lede: Touch corrects the assumption that a map implies a spatial code. Taste dissociates two properties that vision and olfaction vary together, and in doing so localises the source of olfaction's difficulty.
 estimatedMinutes: 26
@@ -56,7 +56,7 @@ The implication for olfaction is uncomfortable and worth stating plainly: **the 
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m12.s02.q1",
+  "id": "m13.s02.q1",
   "contentRev": 1,
   "points": 1,
   "prompt": "Touch and proprioception both route some traffic around the thalamus. What does that fact do to the claim that olfaction lacks an obligatory relay because it is evolutionarily ancient?",
@@ -120,7 +120,7 @@ The test that would settle it is comparative: find or engineer a case with high 
 <x-predict>
 <script type="application/json">
 {
-  "id": "m12.s02.p1",
+  "id": "m13.s02.p1",
   "contentRev": 1,
   "prompt": "Taste settles coding disputes with receptor swaps: express a bitter receptor in a sweet-sensing cell, and behaviour follows the cell rather than the receptor [@chandrashekar2006]. Design the olfactory analogue. State what each outcome would establish — and then say why the experiment is harder to interpret in olfaction than in taste.",
   "placeholder": "What do you swap, and what does each result mean?",

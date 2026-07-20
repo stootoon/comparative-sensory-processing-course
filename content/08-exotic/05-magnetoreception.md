@@ -1,5 +1,5 @@
 ---
-id: m09.s05
+id: m08.s05
 title: Magnetoreception — a sense with no known receptor
 lede: Animals demonstrably use the magnetic field, and nobody can say for certain what detects it. The most useful thing about magnetoreception for this course is what its difficulty teaches about grounding a sensory channel.
 estimatedMinutes: 12

@@ -8,7 +8,7 @@ estimatedMinutes: 16
 Primary visual cortex neurons respond to oriented edges at particular positions, spatial frequencies and phases. Simple cells are approximately linear and phase-sensitive; complex cells are phase-invariant.
 
 <x-figure src="content/media/v1-orientation-map-pinwheels.jpg"
-  caption="Orientation preference in V1, mapped by optical imaging. Colour codes preferred orientation; the singularities marked are pinwheels, around which all orientations are represented. This is a map of a COMPUTED variable — orientation is nowhere in the retinal array — and it is the vertebrate precedent for §12's question about whether olfaction could map something it does not directly sample."
+  caption="Orientation preference in V1, mapped by optical imaging. Colour codes preferred orientation; the singularities marked are pinwheels, around which all orientations are represented. This is a map of a COMPUTED variable — orientation is nowhere in the retinal array — and it is the vertebrate precedent for §13's question about whether olfaction could map something it does not directly sample."
   credit="Crair et al. CC BY 3.0."
   source="https://commons.wikimedia.org/wiki/File:Pinwheel_orientation.jpg">
 </x-figure>

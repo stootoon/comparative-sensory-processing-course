@@ -53,7 +53,7 @@ export function draw(root, values, { createDiagram }) {
       `<br><br>They transfer differently, which is why keeping them apart matters. Filter by each in turn and note ` +
       `where olfaction sits: its <strong>loss-function split is confirmed</strong> (piriform vs cortical amygdala), ` +
       `its <strong>deadline split is proposed</strong> (mitral vs tufted), and its <strong>invariance split is ` +
-      `predicted by three independent instances and has not been located</strong>. That last gap is §12's most ` +
+      `predicted by three independent instances and has not been located</strong>. That last gap is §13's most ` +
       `actionable item.`
     : f==='invariance'
     ? `Three independent instances — and vision, audition and touch have completely different receptor geometries. ` +

@@ -19,7 +19,7 @@ Primary somatosensory cortex contains an orderly map of the body surface, with f
 The map is grotesquely distorted: hands and lips occupy vastly more cortex than their surface area warrants, and the distortion tracks **innervation density**, which itself tracks behavioural importance.
 
 <x-figure src="content/media/somato-homunculus.jpg"
-  caption="The sensory homunculus. This is not a picture of the body — it is a picture of how much cortex each part is allocated, which tracks innervation density, which tracks how much the animal needs to resolve there. Maps allocate by importance rather than reproducing sensor layout, which reframes §12's question: is there any olfactory variable whose values differ enough in importance to be worth allocating unevenly?"
+  caption="The sensory homunculus. This is not a picture of the body — it is a picture of how much cortex each part is allocated, which tracks innervation density, which tracks how much the animal needs to resolve there. Maps allocate by importance rather than reproducing sensor layout, which reframes §13's question: is there any olfactory variable whose values differ enough in importance to be worth allocating unevenly?"
   credit="OpenStax College; derivative work by Popadius. CC BY 3.0."
   source="https://commons.wikimedia.org/wiki/File:Sensory_Homunculus-en.svg">
 </x-figure>
@@ -31,7 +31,7 @@ Two consequences worth drawing out.
 
 **Maps are plastic.** Cortical magnification changes with use — over-represented in trained digits, reorganised after amputation. A map that reallocates according to use is behaving like a resource being budgeted, not like a fixed wiring diagram.
 
-**Maps track importance, not geometry.** The homunculus is not a picture of the body; it is a picture of how much the animal cares about each part. That reframing matters for §12's retinotopy question — if maps allocate by importance rather than reproducing sensor layout, the question for olfaction becomes "is there any variable whose values differ in importance enough to be worth allocating unevenly?"
+**Maps track importance, not geometry.** The homunculus is not a picture of the body; it is a picture of how much the animal cares about each part. That reframing matters for §13's retinotopy question — if maps allocate by importance rather than reproducing sensor layout, the question for olfaction becomes "is there any variable whose values differ in importance enough to be worth allocating unevenly?"
 
 ## Timing in a spatial cortex
 

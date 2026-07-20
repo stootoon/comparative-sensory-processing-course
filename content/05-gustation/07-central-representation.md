@@ -13,7 +13,7 @@ Imaging in mice has reported **spatially segregated "hotspots"** for different t
 
 That is a striking claim, because it would mean the map is *computed* rather than inherited, exactly as bat delay maps are (§9). Extent and sharpness remain debated, and the spatial scale is coarse.
 
-**This is worth flagging for §12.** If taste can construct a topographic map from an unordered receptor array, then unorderedness does not preclude central topography. The olfactory question — "is there a map anywhere downstream?" — is not answered by pointing at the bulb's disorder.
+**This is worth flagging for §13.** If taste can construct a topographic map from an unordered receptor array, then unorderedness does not preclude central topography. The olfactory question — "is there a map anywhere downstream?" — is not answered by pointing at the bulb's disorder.
 
 ## Dynamics and expectation
 

@@ -1,5 +1,5 @@
 ---
-id: m09.s02
+id: m08.s02
 title: Electroreception — cancelling the predictable
 lede: The animal generates its own signal, so it knows exactly what to expect. That makes the electrosensory lobe the clearest circuit-level implementation of "subtract the prediction" in all of neuroscience — and the archetype the olfactory silent-neuron account needs.
 estimatedMinutes: 18
@@ -30,7 +30,7 @@ Two receptor classes: **ampullary** receptors, tuned to low frequencies and used
 The electric image is intrinsically **blurry** — the field spreads, so a small object produces a broad, low-contrast pattern. Spatial acuity is poor by visual standards, and much of what the system does is recovering information from a badly smeared signal.
 
 <x-figure src="content/media/electric-image-scene-analysis.jpg"
-  caption="Field lines around a weakly electric fish, and the electric image an object casts on the skin. Note how broad and low-contrast the image is: like the pit organ (§9.4), this is a sensor with poor optics whose usable acuity is a computational achievement."
+  caption="Field lines around a weakly electric fish, and the electric image an object casts on the skin. Note how broad and low-contrast the image is: like the pit organ (§8.4), this is a sensor with poor optics whose usable acuity is a computational achievement."
   credit="Chiswick Chap, after Lewicki, Olshausen, Surlykke & Moss. CC BY-SA 4.0."
   source="https://commons.wikimedia.org/wiki/File:Scene_analysis_in_electroreception_coloured.jpg">
 </x-figure>
@@ -50,7 +50,7 @@ Here is the result that earns this section its length.
 The **electrosensory lateral line lobe** is a cerebellum-like structure receiving both electroreceptor input and a large parallel-fibre input carrying efference copy, proprioceptive signals, and prior electrosensory activity.
 
 <x-figure src="content/media/oa-ell-circuit.jpg"
-  caption="The electrosensory lateral line lobe. Electroreceptor input arrives on one pathway; a broad, delayed parallel-fibre input carrying efference copy and prior activity arrives on another. Anti-Hebbian plasticity at the parallel-fibre synapses builds the negative image. Compare the bulb: granule cells carrying massive cortical feedback onto mitral cells is the same architecture, which is why §9.6 proposes the timecourse experiment."
+  caption="The electrosensory lateral line lobe. Electroreceptor input arrives on one pathway; a broad, delayed parallel-fibre input carrying efference copy and prior activity arrives on another. Anti-Hebbian plasticity at the parallel-fibre synapses builds the negative image. Compare the bulb: granule cells carrying massive cortical feedback onto mitral cells is the same architecture, which is why §8.6 proposes the timecourse experiment."
   credit="Hofmann V, Chacron MJ (2019). CC BY 4.0."
   source="https://doi.org/10.3389/fnint.2019.00052">
 </x-figure>

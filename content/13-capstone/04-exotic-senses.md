@@ -1,5 +1,5 @@
 ---
-id: m12.s04
+id: m13.s04
 title: Imports from the exotic senses
 lede: Four natural experiments, each isolating a variable the familiar senses confound. Two of them solve a problem olfaction is still arguing about, and one converts an ill-posed question into a problem with an existing literature.
 estimatedMinutes: 28
@@ -9,7 +9,7 @@ The exotic senses are in this course because they populate regions of the design
 
 Three of the four supply direct imports. The fourth supplies a warning.
 
-## Import 18 — from §9.2: cancellation, with the mechanism known
+## Import 18 — from §8.2: cancellation, with the mechanism known
 
 **Imported:** electrosensory lobes learn a **negative image** of the animal's own electric organ discharge and subtract it, leaving only externally-caused deviations. The mechanism is characterised down to the synapse: anti-Hebbian plasticity at a broad, delayed parallel-fibre input onto principal cells.
 
@@ -50,7 +50,7 @@ Pure adaptation has no stored $\hat{s}$. Its state variable is a gain or a thres
 **The signature is therefore an overshoot whose magnitude scales with $b$ and whose decay time matches the acquisition time.** That double match — magnitude scaling with background strength, and symmetric acquisition and release timescales — is very difficult to produce by adaptation, and it is measurable in a single experiment.
 </details>
 
-## Import 19 — from §9.2: hyperacuity from slow elements, with the scaling worked out
+## Import 19 — from §8.2: hyperacuity from slow elements, with the scaling worked out
 
 **Imported:** the jamming avoidance response achieves **sub-microsecond behavioural precision from neurons with millisecond precision**. The mechanism is pooling across a large afferent population, and the analysis has been done properly — including the ceiling imposed by correlated noise, which is the part usually left out.
 
@@ -70,7 +70,7 @@ Both are manipulable — convergence number via genetic reduction of receptor ne
 <x-mcq>
 <script type="application/json">
 {
-  "id": "m12.s04.q1",
+  "id": "m13.s04.q1",
   "contentRev": 1,
   "points": 1,
   "prompt": "Pooling n independent sensors improves temporal precision as √n. Glomerular convergence in mouse is roughly 1000:1. Why does that not immediately settle the question of how olfaction resolves 40 Hz fluctuations?",
@@ -100,7 +100,7 @@ Both are manipulable — convergence number via genetic reduction of receptor ne
 </script>
 </x-mcq>
 
-## Import 20 — from §9.4: acuity as deconvolution
+## Import 20 — from §8.4: acuity as deconvolution
 
 **Imported:** the pit organ of an infrared-sensing snake is a pinhole camera with a very large aperture, so its optics are catastrophically blurred — far too blurred to support the localisation accuracy the animal demonstrably has. The resolution is that the nervous system **deconvolves**: the blur kernel is fixed and knowable, so acuity is recovered computationally rather than optically [@gracheva2010].
 
@@ -117,7 +117,7 @@ Whether the problem is well-posed depends on how much structure the kernel has. 
 <x-predict>
 <script type="application/json">
 {
-  "id": "m12.s04.p1",
+  "id": "m13.s04.p1",
   "contentRev": 1,
   "prompt": "Infotaxis reproduces the casting and zigzagging real animals do while searching a plume, without any model of transport [@vergassola2007]. The deconvolution framing above proposes something quite different — an internal model of the blur kernel. Both predict successful search. Say how you would distinguish them, and be specific about what each predicts when the flow is manipulated mid-trial.",
   "placeholder": "What manipulation separates model-based from model-free search?",
@@ -126,7 +126,7 @@ Whether the problem is well-posed depends on how much structure the kernel has. 
 </script>
 </x-predict>
 
-## Import 21 — from §9.5: the warning
+## Import 21 — from §8.5: the warning
 
 Magnetoreception is the low-dimensional extreme: a sense with essentially one or two behaviourally relevant variables, and — after decades of work — no agreed transduction mechanism.
 

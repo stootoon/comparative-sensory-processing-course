@@ -1,5 +1,5 @@
 ---
-id: m12.s01
+id: m13.s01
 title: Imports from vision and audition
 lede: The method, and the first two modalities to run it on. Every import is carried to a concrete falsifiable prediction — an analogy that stops at "these are similar" has done no work.
 estimatedMinutes: 30
@@ -7,7 +7,7 @@ estimatedMinutes: 30
 
 The capstone works through the eight modalities in turn, asking of each: what does it know that olfaction could use?
 
-This section sets out the method and applies it to vision and audition, the two modalities with mature normative theories. §12.2 takes touch and taste, §12.3 the vestibular and proprioceptive systems, §12.4 the exotic senses, and §12.5 collects everything into a ranked agenda.
+This section sets out the method and applies it to vision and audition, the two modalities with mature normative theories. §13.2 takes touch and taste, §13.3 the vestibular and proprioceptive systems, §13.4 the exotic senses, and §13.5 collects everything into a ranked agenda.
 
 The format is fixed, and every item must reach step four.
 
@@ -63,7 +63,7 @@ The format is fixed, and every item must reach step four.
 <x-free-response>
 <script type="application/json">
 {
-  "id": "m12.s01.f1",
+  "id": "m13.s01.f1",
   "contentRev": 1,
   "points": 1,
   "prompt": "Pick the one prediction above you would actually run first, and defend the choice on grounds of cost and informativeness. What would a null result tell you?",
@@ -116,7 +116,7 @@ The format is fixed, and every item must reach step four.
 <x-matrix>
 <script type="application/json">
 {
-  "id": "m12.s01.mx1",
+  "id": "m13.s01.mx1",
   "contentRev": 1,
   "points": 5,
   "corner": "Axis",

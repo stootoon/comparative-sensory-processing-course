@@ -1,5 +1,5 @@
 ---
-id: m09.s03
+id: m08.s03
 title: Echolocation — designing the experiment
 lede: Bats choose their own stimulus, in real time, according to what they currently need to know. And they build cortical maps of quantities the receptor array never measured — which is the existence proof olfaction's map question requires.
 estimatedMinutes: 16
@@ -21,7 +21,7 @@ The bat controls its own stimulus, and adapts it continuously:
 - **Call rate rises** as the bat closes on a target, from a few per second during search to two hundred per second in the terminal "feeding buzz".
 
 <x-figure src="content/media/bat-echolocation-spectrogram-buzz.jpg"
-  caption="Spectrogram of an approach sequence. Widely spaced FM sweeps during search give way to the terminal buzz as the bat closes — call rate rising with proximity is sampling rate rising with uncertainty about a rapidly changing quantity. This is the pattern §9.3 proposes testing in sniffing."
+  caption="Spectrogram of an approach sequence. Widely spaced FM sweeps during search give way to the terminal buzz as the bat closes — call rate rising with proximity is sampling rate rising with uncertainty about a rapidly changing quantity. This is the pattern §8.3 proposes testing in sniffing."
   credit="Xofc (Wikimedia Commons). CC BY-SA 4.0."
   source="https://commons.wikimedia.org/wiki/File:Bat.nav%2Bbuzz.20250704_204120.jpg">
 </x-figure>
@@ -43,12 +43,12 @@ As far as this course is aware, that has not been done, and it is a clean test o
 
 ## Maps of computed variables
 
-Now the result that matters most for §12.
+Now the result that matters most for §13.
 
 Bat auditory cortex contains areas where neurons are tuned to specific **echo delays** — the time between call and echo, which corresponds to target range. These delay-tuned neurons are arranged systematically, forming an orderly map of range.
 
 <x-figure src="content/media/bat-auditory-cortex-map.jpg"
-  caption="Functional subdivisions of mustached bat auditory cortex, including the delay-tuned FM-FM area where echo delay — and therefore target range — is mapped systematically. Range is nowhere in the cochlear array; the map is built on a computed quantity. This is the existence proof §12 needs."
+  caption="Functional subdivisions of mustached bat auditory cortex, including the delay-tuned FM-FM area where echo delay — and therefore target range — is mapped systematically. Range is nowhere in the cochlear array; the map is built on a computed quantity. This is the existence proof §13 needs."
   credit="Goran tek-en, after Kaldari. CC BY-SA 4.0."
   source="https://commons.wikimedia.org/wiki/File:Bat_Auditory_Cortex.svg">
 </x-figure>

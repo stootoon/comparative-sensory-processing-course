@@ -35,7 +35,7 @@ By now the course has met several modalities that fail to look like vision, and 
 
 These are different departures. Olfaction has a dedicated cortex organised unusually; vestibular has no dedicated cortex. Neither resembles V1, and they do not resemble each other.
 
-<strong>The lesson for §12:</strong> "does olfaction have a cortical area like V1" is the wrong question, because most modalities do not. The better question is what the central representation is <em>for</em> — associative memory in piriform's case, multisensory self-motion estimation in vestibular's.
+<strong>The lesson for §13:</strong> "does olfaction have a cortical area like V1" is the wrong question, because most modalities do not. The better question is what the central representation is <em>for</em> — associative memory in piriform's case, multisensory self-motion estimation in vestibular's.
 </x-callout>
 
 ## Why the cortical route exists at all

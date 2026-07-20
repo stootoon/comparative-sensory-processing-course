@@ -18,7 +18,7 @@ Each saccade is a decision about where to sample next, and fixations are not dis
 </x-figure>
 
 
-This is **optimal experiment design** — choose the measurement that most reduces uncertainty about what you care about. The same framing covers sniff strategy in odour search, whisking, and echolocation call design, and §12 asks whether sniffing adapts to posterior uncertainty the way bat call rate does.
+This is **optimal experiment design** — choose the measurement that most reduces uncertainty about what you care about. The same framing covers sniff strategy in odour search, whisking, and echolocation call design, and §13 asks whether sniffing adapts to posterior uncertainty the way bat call rate does.
 
 ## Fixational drift, and a lovely result
 

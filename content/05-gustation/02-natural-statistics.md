@@ -22,11 +22,11 @@ Each corresponds to a **nutritional or toxicological category**, not to a chemic
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Dimensions defined by consequence, not chemistry</div>
-This is worth dwelling on, because it is the sharpest version of the §12 question about olfactory coordinates.
+This is worth dwelling on, because it is the sharpest version of the §13 question about olfactory coordinates.
 
 The reason taste has an easy ensemble is not that its chemistry is simple — bitter compounds are chemically wildly heterogeneous. It is that <strong>the dimensions were chosen by the consequence</strong>. "Bitter" is not a chemical category; it is the category of things that made ancestors ill.
 
-So when §12 asks whether olfaction has derivable coordinates, there are two quite different hopes on the table:
+So when §13 asks whether olfaction has derivable coordinates, there are two quite different hopes on the table:
 
 <strong>The vision-style hope:</strong> coordinates fall out of the statistics of the stimulus itself, as opponent axes do from cone correlations.<br>
 <strong>The taste-style hope:</strong> coordinates are defined by behavioural consequence, and would have to be derived from what odours <em>do</em> rather than from what they are.
