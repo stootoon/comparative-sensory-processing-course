@@ -1,6 +1,6 @@
 // Adaptation across modalities and timescales.
 //
-// Serves the §10 section of every module. The argument the course makes
+// Serves the §11 section of every module. The argument the course makes
 // repeatedly is that adaptation timescale should track the VOLATILITY of the
 // input statistics — fast where the world changes fast. Laying the modalities
 // on one log-time axis is the only way to see whether that holds.

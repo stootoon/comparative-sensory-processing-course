@@ -28,7 +28,7 @@ This is the distinction §1.4 introduced for colour and it recurs here in its cl
 
 That last point is the crux, and it is worth being careful about because it is an empirical claim that has not been settled. If natural odour scenes turned out to occupy a low-dimensional manifold — as the co-occurrence work hints they might [@zhou2018] — then olfaction would be in the same position as vision and proprioception, and a low-dimensional recoding would be available.
 
-<strong>The measurement that would settle it is the same one §13 keeps asking for.</strong> The intrinsic dimensionality of natural odour scenes is the single most consequential unmeasured number in olfaction.
+<strong>The measurement that would settle it is the same one §14 keeps asking for.</strong> The intrinsic dimensionality of natural odour scenes is the single most consequential unmeasured number in olfaction.
 </x-callout>
 
 <x-predict>

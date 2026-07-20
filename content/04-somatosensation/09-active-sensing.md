@@ -18,7 +18,7 @@ The olfactory question follows directly: is sniff strategy similarly matched to 
 Rodents sweep their whiskers back and forth at 5–15 Hz to palpate their surroundings, and the system has become the workhorse preparation for active sensing.
 
 <x-figure src="content/media/whisking-mouse-kinematics.jpg"
-  caption="A head-fixed mouse whisking, with the whisk cycle decomposed into offset, amplitude and phase. That decomposition is exactly what makes phase-referenced decoding tractable here and not yet in the bulb — and §13 proposes importing it, since sniffing supplies the same kind of self-generated phase reference."
+  caption="A head-fixed mouse whisking, with the whisk cycle decomposed into offset, amplitude and phase. That decomposition is exactly what makes phase-referenced decoding tractable here and not yet in the bulb — and §14 proposes importing it, since sniffing supplies the same kind of self-generated phase reference."
   credit="Chinta S, Pluta SR (2025), PLOS Biology 23(4):e3003087, Figure 1a,c (cropped). CC BY 4.0."
   source="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003087">
 </x-figure>
@@ -53,7 +53,7 @@ The parallel with sniffing is unusually close, and worth laying out explicitly:
 <div class="x-callout-title">The transferable machinery</div>
 Both systems generate a rhythm, both lock sensory responses to its phase, and both make latency-relative-to-phase a meaningful quantity. In whisking, the machinery for <strong>phase-referenced decoding</strong> has been worked out in some detail — how downstream neurons combine phase and amplitude, where the reference signal comes from, whether it is reafferent or a corollary discharge.
 
-That machinery is directly importable, and §13 proposes it as one of the more concrete transfers available: <strong>does the bulb implement phase-referenced decoding the way barrel cortex does, and where does its copy of the sniff phase come from?</strong>
+That machinery is directly importable, and §14 proposes it as one of the more concrete transfers available: <strong>does the bulb implement phase-referenced decoding the way barrel cortex does, and where does its copy of the sniff phase come from?</strong>
 
 The one asymmetry: whisker contact is binary and localised, so phase-to-contact mapping is relatively clean. Odour arrival is graded and continuous within a sniff, so the olfactory version is harder. But the question is well-posed, which is more than can be said for most olfactory coding questions.
 </x-callout>
@@ -69,7 +69,7 @@ The one asymmetry: whisker contact is binary and localised, so phase-to-contact 
     {
       "text": "Whisker contact is binary and localised, so the phase-to-contact mapping is clean; odour arrival is graded and continuous within a sniff, so the quantity being decoded against phase is not a discrete event.",
       "correct": true,
-      "feedback": "This is the one asymmetry, and stating it precisely is what keeps the transfer honest. In whisking, 'when in the cycle did contact occur' is a well-defined scalar with an unambiguous ground truth. In sniffing, concentration rises and falls continuously through the cycle and receptors are being differentially recruited throughout, so latency-relative-to-phase needs a definition before it can be decoded. Note that this makes the olfactory version harder rather than ill-posed — which is more than can be said for most olfactory coding questions, and why §13 nominates it as one of the more concrete available transfers."
+      "feedback": "This is the one asymmetry, and stating it precisely is what keeps the transfer honest. In whisking, 'when in the cycle did contact occur' is a well-defined scalar with an unambiguous ground truth. In sniffing, concentration rises and falls continuously through the cycle and receptors are being differentially recruited throughout, so latency-relative-to-phase needs a definition before it can be decoded. Note that this makes the olfactory version harder rather than ill-posed — which is more than can be said for most olfactory coding questions, and why §14 nominates it as one of the more concrete available transfers."
     },
     {
       "text": "The bulb has no somatotopy, so there is no anatomical frame in which to reference the phase.",

@@ -24,7 +24,7 @@ This is <strong>structurally identical to casting in odour tracking</strong>. In
 <strong>Olfaction:</strong> cast across the wind, watch how encounter rate changes, infer bearing to source.<br>
 <strong>Vestibular:</strong> the tilt–translation ambiguity, resolved by combining canal signals under a forward model.
 
-The general form is: <em>ambiguity plus a known forward model of how movement changes the signal equals resolution.</em> §13 argues this is the shape any olfactory localisation account must take, and that the required forward model is a model of turbulent transport.
+The general form is: <em>ambiguity plus a known forward model of how movement changes the signal equals resolution.</em> §14 argues this is the shape any olfactory localisation account must take, and that the required forward model is a model of turbulent transport.
 </x-callout>
 
 **Pinna movement**, in species that have it, steers spectral filtering. The filtering itself is worth being precise about: the head, shoulders and folded auricle impose deep, narrow spectral notches above about 8 kHz whose frequencies shift with source direction, and because the auricle is asymmetric front-to-back as well as top-to-bottom, the notch pattern disambiguates both elevation and front from back. The pattern is idiosyncratic to each individual, so it cannot be innate — and indeed, if the shape of the ear is experimentally altered, even adult humans relearn the new mapping [@kandel2021]. That is the callout's "known forward model" being *acquired*, which is the more demanding claim and the one that has actually been demonstrated here.

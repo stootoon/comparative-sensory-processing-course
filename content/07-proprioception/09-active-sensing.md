@@ -25,7 +25,7 @@ Three consequences.
 <strong>Passive:</strong> audition — sound arrives, head movement helps only marginally (§2.9).<br>
 <strong>Selective:</strong> vision — saccades choose among available signals but do not create them (§1.9).<br>
 <strong>Sampling-controlled:</strong> olfaction, touch, taste — sniffing, whisking, licking determine when and how much stimulus arrives, and partly shape it (§3.9, §4.9, §5.9).<br>
-<strong>Self-generated carrier:</strong> echolocation, active electrolocation — the animal creates the probe signal (§9).<br>
+<strong>Self-generated carrier:</strong> echolocation, active electrolocation — the animal creates the probe signal (§10).<br>
 <strong>Sensor is the effector:</strong> proprioception. No separation at all.
 
 Olfaction sits in the middle and is usually taught as though it belonged at the passive end. §3.9 argued it is closer to echolocation than to vision; this spectrum places it precisely, and shows that the neighbours worth borrowing from are touch and echolocation rather than vision.

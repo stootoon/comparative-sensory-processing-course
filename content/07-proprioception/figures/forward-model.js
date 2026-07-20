@@ -37,7 +37,7 @@ export function draw(root, values, { createPlot, sample }) {
       `is fatal for control, because a controller acting on a ${values.delay} ms-old estimate oscillates. ` +
       `<br><br>This is why §7.7 calls the central representation a <em>predictor</em> rather than a map, and why ` +
       `the cerebellum rather than area 3a is the answer to "where is proprioception's central representation". ` +
-      `It is also the object §13 argues olfaction needs for plume transport — with the crucial difference that ` +
+      `It is also the object §14 argues olfaction needs for plume transport — with the crucial difference that ` +
       `body dynamics are stationary and turbulence is not.`
     : `Without a forward model the estimate is just the sensor: lagging by <strong>${values.delay} ms</strong> and ` +
       `carrying its full noise. Compare the true trace — the estimate is consistently behind, and a controller ` +

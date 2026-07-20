@@ -47,7 +47,7 @@ The filter is not computed. It is a property of the packaging.
 <strong>Cochlea:</strong> graded stiffness of the basilar membrane performs a frequency decomposition before transduction (§2.3).<br>
 <strong>Pacinian corpuscle:</strong> lamellae high-pass the mechanical input.<br>
 <strong>Semicircular canals:</strong> fluid inertia integrates angular acceleration into velocity (§6.3).<br>
-<strong>Pit organ:</strong> a pinhole aperture forms a crude thermal image (§9).
+<strong>Pit organ:</strong> a pinhole aperture forms a crude thermal image (§10).
 
 Each of these is a transformation obtained for free — no spikes, no metabolic cost, no delay.
 

@@ -32,7 +32,7 @@ Vision's split could be explained by its receptor array: the retina samples spac
 
 Two systems with entirely different input geometries converging on the same divergence is strong evidence that the split follows from <strong>the structure of the task</strong>, not the sensor.
 
-Olfaction faces the same pair of problems, and §3.1 argued they are <em>more</em> dissimilar than vision's: identity is categorisation in a non-metric chemical space, location is statistical inference over an intermittent time series. If the argument holds, olfaction should have separate machinery — and nobody can confidently point to it. That is §13's most actionable gap.
+Olfaction faces the same pair of problems, and §3.1 argued they are <em>more</em> dissimilar than vision's: identity is categorisation in a non-metric chemical space, location is statistical inference over an intermittent time series. If the argument holds, olfaction should have separate machinery — and nobody can confidently point to it. That is §14's most actionable gap.
 </x-callout>
 
 ## The labels are too tidy

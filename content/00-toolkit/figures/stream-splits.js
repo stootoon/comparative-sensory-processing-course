@@ -1,6 +1,6 @@
 // Why sensory systems split into parallel streams — three distinct reasons.
 //
-// Serves the §8 section of every module. The course establishes three
+// Serves the §9 section of every module. The course establishes three
 // separate arguments and they transfer differently, so keeping them apart
 // matters. This lays every instance on one grid.
 
@@ -53,7 +53,7 @@ export function draw(root, values, { createDiagram }) {
       `<br><br>They transfer differently, which is why keeping them apart matters. Filter by each in turn and note ` +
       `where olfaction sits: its <strong>loss-function split is confirmed</strong> (piriform vs cortical amygdala), ` +
       `its <strong>deadline split is proposed</strong> (mitral vs tufted), and its <strong>invariance split is ` +
-      `predicted by three independent instances and has not been located</strong>. That last gap is §13's most ` +
+      `predicted by three independent instances and has not been located</strong>. That last gap is §14's most ` +
       `actionable item.`
     : f==='invariance'
     ? `Three independent instances — and vision, audition and touch have completely different receptor geometries. ` +
@@ -72,6 +72,6 @@ export function draw(root, values, { createDiagram }) {
       `cortical feedback — and it has been less explored than the other two framings.`;
   root.appendChild(n);
   const c=document.createElement('p'); c.className='x-figure-credit';
-  c.textContent='Compiled from the §8 sections across the course. Faded markers are predicted or proposed rather than established.';
+  c.textContent='Compiled from the §9 sections across the course. Faded markers are predicted or proposed rather than established.';
   root.appendChild(c);
 }

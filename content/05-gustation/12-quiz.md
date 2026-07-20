@@ -83,7 +83,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
   "id": "m05.s12.q3",
   "contentRev": 1,
   "points": 1,
-  "prompt": "Taste's dimensions are nutritional categories — sugar, sodium, protein, acid, toxin — not chemical families. What does that suggest about the search for olfactory coordinates, which §13 poses as a statistics-of-the-stimulus problem?",
+  "prompt": "Taste's dimensions are nutritional categories — sugar, sodium, protein, acid, toxin — not chemical families. What does that suggest about the search for olfactory coordinates, which §14 poses as a statistics-of-the-stimulus problem?",
   "options": [
     {
       "text": "Coordinates can be defined by consequence rather than by chemistry, so a second class of candidate axes exists that no amount of receptor-response statistics would recover — and both kinds could hold in different olfactory pathways.",

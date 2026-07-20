@@ -60,7 +60,7 @@ The general principle §2.6 proposed — that depth before cortex tracks how muc
     {
       "text": "It holds the modality's age, receptors and sensory surface fixed while the routing varies, so any explanation appealing to those properties predicts no difference and is refuted by one.",
       "correct": true,
-      "feedback": "This is the within-modality control, and it is the same move §12.4 makes with olfaction's plume and chemical strands: vary one factor while everything a rival could appeal to stays constant. Antiquity, receptor kinetics and surface geometry are identical across the two touch routes; deadline and consumer are not. That is what upgrades the observation from a counterexample to a discriminating test."
+      "feedback": "This is the within-modality control, and it is the same move §13.4 makes with olfaction's plume and chemical strands: vary one factor while everything a rival could appeal to stays constant. Antiquity, receptor kinetics and surface geometry are identical across the two touch routes; deadline and consumer are not. That is what upgrades the observation from a counterexample to a discriminating test."
     },
     {
       "text": "It shows the thalamic relay is optional, so the services §1.6 attributes to it must be implemented elsewhere in both pathways.",

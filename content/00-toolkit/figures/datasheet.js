@@ -1,6 +1,6 @@
 // The comparative datasheet, as a live heatmap.
 //
-// Serves the §11 synthesis section of every module and the capstone. Each
+// Serves the §12 synthesis section of every module and the capstone. Each
 // module fills in its own row in prose; this pivots the whole thing so the
 // columns can be compared, which is the move the synthesis modules exist to
 // make.
@@ -70,7 +70,7 @@ export function draw(root, values, { createDiagram }) {
       `none of olfaction's difficulties. Switch the highlight to Gustation and compare the two columns directly.` +
       `<br><br>Note the two rows where olfaction is <em>not</em> the outlier: active control of the stimulus, where ` +
       `it sits mid-range with touch, and forward model available, where proprioception and vestibular lead. Those ` +
-      `are the rows §13 argues olfaction should be borrowing from.`
+      `are the rows §14 argues olfaction should be borrowing from.`
     : hi==='none'
     ? `The whole course in one grid. Rows are sorted by how much the modalities disagree, so the top rows are the ` +
       `axes that actually separate them. Highlight a column to read one modality's profile.`

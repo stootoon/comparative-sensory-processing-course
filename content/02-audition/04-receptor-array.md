@@ -66,7 +66,7 @@ Pushed further with a spike-based code that represents the waveform by the timin
 
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">This is the template for the olfaction question</div>
-Note the structure of what was done, because it is exactly the calculation §13 asks someone to run for smell:
+Note the structure of what was done, because it is exactly the calculation §14 asks someone to run for smell:
 
 <strong>1.</strong> Assemble an ensemble of natural stimuli.<br>
 <strong>2.</strong> Specify the representation being optimised — here, a set of filters.<br>

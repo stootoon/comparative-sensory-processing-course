@@ -91,7 +91,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Odour space has no metric, so principal components have no interpretation as directions.",
       "correct": false,
-      "feedback": "Correct under the assumption that PCA requires a metric on the *stimulus* space. It does not — PCA operates on the receptor-activation vectors, which live in a perfectly good Euclidean space of dimension equal to the receptor count, exactly as cone responses do. This is a case where the course's central claim about metrics does NOT apply, and §11.1 flags the opponent-axis calculation as one of the six audited motifs that never needed a metric."
+      "feedback": "Correct under the assumption that PCA requires a metric on the *stimulus* space. It does not — PCA operates on the receptor-activation vectors, which live in a perfectly good Euclidean space of dimension equal to the receptor count, exactly as cone responses do. This is a case where the course's central claim about metrics does NOT apply, and §12.1 flags the opponent-axis calculation as one of the six audited motifs that never needed a metric."
     },
     {
       "text": "There are ~1000 receptor types rather than 3, so the covariance matrix cannot be estimated reliably.",
@@ -119,7 +119,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "The standard explanation for why maps exist is wiring-length minimisation, which requires a metric on the receptor array to have anything to minimise. Olfaction has none, so the explanation predicts no map.",
       "correct": true,
-      "feedback": "This is the argument, and its virtue is that it turns an absence into a consequence. Maps are usually explained as minimising the wire needed for local interactions among similar values. 'Similar' requires a metric; olfactory receptor identity supplies none. So the absence is what the theory of maps predicts, rather than a gap in olfaction. Note that this leaves open a map of a *derived* variable, which §13.2 pursues."
+      "feedback": "This is the argument, and its virtue is that it turns an absence into a consequence. Maps are usually explained as minimising the wire needed for local interactions among similar values. 'Similar' requires a metric; olfactory receptor identity supplies none. So the absence is what the theory of maps predicts, rather than a gap in olfaction. Note that this leaves open a map of a *derived* variable, which §14.2 pursues."
     },
     {
       "text": "Olfaction reaches cortex in two synapses, which is too few to construct a map.",
@@ -183,7 +183,7 @@ Answer before revealing. The distractor feedback is where most of the teaching i
     {
       "text": "Because it shows that olfaction's missing relay is explained by evolutionary antiquity.",
       "correct": false,
-      "feedback": "Correct under the antiquity hypothesis, which this course examines and largely rejects — Import 10 and §11.4 show touch and proprioception also bypass thalamus and are not ancient. The service decomposition is neutral between explanations; it is a tool for asking the question, not an answer to it."
+      "feedback": "Correct under the antiquity hypothesis, which this course examines and largely rejects — Import 10 and §12.4 show touch and proprioception also bypass thalamus and are not ancient. The service decomposition is neutral between explanations; it is a tool for asking the question, not an answer to it."
     },
     {
       "text": "Because thalamic services are conserved across modalities, so olfaction must have them somewhere.",
@@ -249,7 +249,7 @@ Vision supplies the templates, and four of them recur throughout the course.
 
 <strong>The SNR reversal</strong> (§1.5) — the same principle predicts opposite structures in different regimes. Any claim of the form "sensory systems do X" should prompt: under what conditions, and what do they do otherwise?
 
-<strong>The metric dependence</strong> (§1.4) — surrounds, maps, interpolation, convolution all need "nearby" to mean something. §11.1 audits which of these actually survive without a metric, and the answer is more than you would expect.
+<strong>The metric dependence</strong> (§1.4) — surrounds, maps, interpolation, convolution all need "nearby" to mean something. §12.1 audits which of these actually survive without a metric, and the answer is more than you would expect.
 
 <strong>Thalamus as services, not a relay</strong> (§1.6) — the decomposition that makes olfaction's missing relay investigable rather than merely puzzling.
 </x-callout>

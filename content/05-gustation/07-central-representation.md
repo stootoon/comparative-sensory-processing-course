@@ -11,7 +11,7 @@ The primary gustatory area lies in the insula. Two findings dominate, and they p
 
 Imaging in mice has reported **spatially segregated "hotspots"** for different taste qualities in insular cortex — a sweet region, a bitter region — which would be a topographic map of a fundamentally unordered array (§5.4).
 
-That is a striking claim, because it would mean the map is *computed* rather than inherited, exactly as bat delay maps are (§9). Extent and sharpness remain debated, and the spatial scale is coarse.
+That is a striking claim, because it would mean the map is *computed* rather than inherited, exactly as bat delay maps are (§10). Extent and sharpness remain debated, and the spatial scale is coarse.
 
 The hotspots also come with a causal result that the section below has to reckon with. Optogenetic activation of the sweet field produces appetitive licking and of the bitter field produces aversive orofacial rejection — and it does so in mice whose sweet and bitter transduction has been knocked out, so the behaviour cannot be a learned association with a taste they have ever had [@kandel2021]. Whatever else insular cortex is doing, a patch of it can stand in for a tastant and drive the innate response.
 
@@ -28,7 +28,7 @@ The hotspots also come with a causal result that the section below has to reckon
     {
       "text": "Because it removes disorder at the receptor array as a sufficient reason to stop looking for a central olfactory map — the bulb's lack of chemotopy would no longer settle the question downstream.",
       "correct": true,
-      "feedback": "This is the transfer, and it is why a contested taste result earns space in an olfaction course. §1.4's wiring-length argument explains map absence by appeal to a missing metric at the input. If a map of an unordered array can be *constructed* centrally — as bat delay maps are, for a quantity the cochlea never measures — then the argument constrains inherited maps only. The olfactory question becomes what derived variable a map might be of, which is where §13 goes."
+      "feedback": "This is the transfer, and it is why a contested taste result earns space in an olfaction course. §1.4's wiring-length argument explains map absence by appeal to a missing metric at the input. If a map of an unordered array can be *constructed* centrally — as bat delay maps are, for a quantity the cochlea never measures — then the argument constrains inherited maps only. The olfactory question becomes what derived variable a map might be of, which is where §14 goes."
     },
     {
       "text": "Because taste has only five qualities, so a five-region map is trivial to build, whereas olfaction would need hundreds of regions.",

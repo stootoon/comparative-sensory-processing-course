@@ -74,11 +74,11 @@ The cancellation requires the brain to predict the sensory consequences of a mot
 The model has to be of more than the head. A neck motor command specifies head-on-trunk motion, whereas the canals report head-in-space motion, and the two differ by whatever the trunk is doing. So the prediction is constructed from a forward model of the canals, the otoliths *and* the neck proprioceptors together [@kandel2021] — which is why the cancellation survives when the animal moves its head while the trunk is also moving, and why it is not simply a copy of the neck command subtracted from the afferent.
 
 <x-figure src="content/07-proprioception/figures/forward-model.js"
-  caption="A forward model correcting a delayed, noisy sensor. Switch the model off and the estimate inherits both the lag and the noise. This is the object vestibular cancellation requires, and the same one §13 argues olfaction needs for plume transport — with the crucial difference that head dynamics are stationary and turbulence is not.">
+  caption="A forward model correcting a delayed, noisy sensor. Switch the model off and the estimate inherits both the lag and the noise. This is the object vestibular cancellation requires, and the same one §14 argues olfaction needs for plume transport — with the crucial difference that head dynamics are stationary and turbulence is not.">
 </x-figure>
 
 
-This is the same computational object as the one in motor control [@wolpert1995], and it is the same object §13 argues olfaction needs for plume transport. The vestibular version is easier in one crucial respect: **the forward model of head dynamics is stationary.** Heads obey Newtonian mechanics that do not change. Turbulent transport does not have that property, which is again why the olfactory inference problem is strictly harder (§6.2).
+This is the same computational object as the one in motor control [@wolpert1995], and it is the same object §14 argues olfaction needs for plume transport. The vestibular version is easier in one crucial respect: **the forward model of head dynamics is stationary.** Heads obey Newtonian mechanics that do not change. Turbulent transport does not have that property, which is again why the olfactory inference problem is strictly harder (§6.2).
 
 <x-free-response>
 <script type="application/json">

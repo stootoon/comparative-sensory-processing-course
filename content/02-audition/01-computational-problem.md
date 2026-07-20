@@ -30,7 +30,7 @@ Olfaction faces a mixture problem too, and audition is the modality that has tho
 
 <strong>Olfaction mixes in a ~1000-dimensional space, non-linearly at the receptor.</strong> Components collide only if they happen to share receptors, so high dimensionality does most of the demixing work for free. But receptor-level competition and antagonism break the superposition assumption that auditory scene analysis leans on.
 
-By §13 the claim will be that <em>temporal correlation is to olfaction what harmonicity is to audition</em>: the primary cue that two things came from the same place.
+By §14 the claim will be that <em>temporal correlation is to olfaction what harmonicity is to audition</em>: the primary cue that two things came from the same place.
 </x-callout>
 
 ## What is being estimated
@@ -42,7 +42,7 @@ By §13 the claim will be that <em>temporal correlation is to olfaction what har
 
 Note that **location is a genuine inference in audition in a way it is not in vision.** The retina samples direction directly: which photoreceptor fired tells you where the light came from. The cochlea samples *frequency*, not direction, so spatial location must be computed from interaural differences — a few hundred microseconds of time, and, at frequencies short enough for the head to cast an acoustic shadow, up to some tens of decibels of level.
 
-That has a consequence worth carrying forward: audition builds a map of auditory space in the midbrain — in the superior colliculus, where it is registered with the visual and somatosensory maps and with the motor map for orienting — and that map is **computed**, not inherited from the receptor surface [@kandel2021]. It is one of the clearest existence proofs that a topographic map can exist for a derived variable — which is precisely the possibility §13 raises for olfaction.
+That has a consequence worth carrying forward: audition builds a map of auditory space in the midbrain — in the superior colliculus, where it is registered with the visual and somatosensory maps and with the motor map for orienting — and that map is **computed**, not inherited from the receptor surface [@kandel2021]. It is one of the clearest existence proofs that a topographic map can exist for a derived variable — which is precisely the possibility §14 raises for olfaction.
 
 ## The loss function and the deadline
 

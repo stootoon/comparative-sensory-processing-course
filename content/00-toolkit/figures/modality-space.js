@@ -96,7 +96,7 @@ export function draw(root, values, { createPlot }) {
       `<br><br>The case for blaming dimensionality anyway does not rest on the correlation — it rests on ` +
       `gustation being an <em>outlier</em> on the disorder axis. Taste is maximally disordered and has a perfectly ` +
       `serviceable theory, which is a counterexample the correlation coefficient averages away. Highlight it and ` +
-      `see. This is why §11.1 settles on a <strong>disorder × dimensionality interaction</strong> rather than ` +
+      `see. This is why §12.1 settles on a <strong>disorder × dimensionality interaction</strong> rather than ` +
       `pinning it on either alone, and it is a good demonstration that a scatter of nine points can mislead you ` +
       `if you read only the summary statistic.`;
   } else {
@@ -105,7 +105,7 @@ export function draw(root, values, { createPlot }) {
       `theory maturity, r = 0.91</strong> — this course's central empirical claim, and the view this figure opens ` +
       `on. Next come dimensionality against sensor speed (−0.83) and ordered array against theory (0.76). ` +
       `Dimensionality against theory maturity, which the course leans on most heavily in prose, is only ` +
-      `−0.69 — weaker than the disorder axis it is usually contrasted with. §11.1 takes that seriously rather ` +
+      `−0.69 — weaker than the disorder axis it is usually contrasted with. §12.1 takes that seriously rather ` +
       `than explaining it away.`;
   }
   n.innerHTML = body + `<br><br>Scores are ordinal and deliberately coarse — they are for locating modalities ` +

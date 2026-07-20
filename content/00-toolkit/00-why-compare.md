@@ -26,7 +26,7 @@ That gives us the one thing a single-system study can never provide: **a way to 
 - A motif appearing in exactly one is either a solution to something peculiar about that modality, or a historical accident. Distinguishing those two is hard, and the comparison is what makes it possible at all.
 
 <x-figure src="content/00-toolkit/figures/modality-space.js"
-  caption="The whole course on two axes; pick any pair. The opening view is the course's central empirical claim — measured ensemble against theoretical maturity, r = 0.91 across nine modalities, the strongest relationship in the datasheet, with olfaction alone in the bottom-left. Then check the two rival explanations of why olfaction lacks a theory: ordered array against theory gives r = 0.76, dimensionality against theory gives −0.69. Disorder correlates with poor theory slightly BETTER than dimensionality does, which is not what the course's slogan implies — the case for blaming dimensionality rests on gustation being an outlier the coefficient averages away, not on the correlation. Highlight gustation and see, then read §11.1.">
+  caption="The whole course on two axes; pick any pair. The opening view is the course's central empirical claim — measured ensemble against theoretical maturity, r = 0.91 across nine modalities, the strongest relationship in the datasheet, with olfaction alone in the bottom-left. Then check the two rival explanations of why olfaction lacks a theory: ordered array against theory gives r = 0.76, dimensionality against theory gives −0.69. Disorder correlates with poor theory slightly BETTER than dimensionality does, which is not what the course's slogan implies — the case for blaming dimensionality rests on gustation being an outlier the coefficient averages away, not on the correlation. Highlight gustation and see, then read §12.1.">
 </x-figure>
 
 
@@ -66,11 +66,11 @@ Receptive fields, centre–surround, topographic maps, interpolation, smoothing 
 
 Much of what looks strange about olfactory circuits looks strange only because we arrive with expectations calibrated on vision.
 
-**Read that as a hypothesis, not a conclusion — the course sets out to test it and it does not survive intact.** §11.1 audits fourteen motifs one at a time, asking of each exactly which property of the metric it consumes, and finds that **six never needed one**. Among the survivors is the opponent-axis calculation of §1.2, which is the closest thing the course has to a flagship olfactory question and which turns out to be blocked on the missing ensemble rather than on the missing metric.
+**Read that as a hypothesis, not a conclusion — the course sets out to test it and it does not survive intact.** §12.1 audits fourteen motifs one at a time, asking of each exactly which property of the metric it consumes, and finds that **six never needed one**. Among the survivors is the opponent-axis calculation of §1.2, which is the closest thing the course has to a flagship olfactory question and which turns out to be blocked on the missing ensemble rather than on the missing metric.
 
-What survives the audit is narrower and more useful than the slogan: motifs consuming a neighbourhood, a betweenness relation, or a translation group are genuinely unavailable, while motifs defined by population statistics transfer unchanged. Gustation is what forces the weakening — it is unordered like olfaction, low-dimensional unlike it, and has none of olfaction's difficulties, so disorder alone cannot be the culprit (§11.1, §5.3).
+What survives the audit is narrower and more useful than the slogan: motifs consuming a neighbourhood, a betweenness relation, or a translation group are genuinely unavailable, while motifs defined by population statistics transfer unchanged. Gustation is what forces the weakening — it is unordered like olfaction, low-dimensional unlike it, and has none of olfaction's difficulties, so disorder alone cannot be the culprit (§12.1, §5.3).
 
-Stating the claim strongly here and then weakening it in §11.1 is deliberate. It is the course's own worked example of skill 1 above: take a claim that would change how you read your field, work out what would falsify it, and then actually check.
+Stating the claim strongly here and then weakening it in §12.1 is deliberate. It is the course's own worked example of skill 1 above: take a claim that would change how you read your field, work out what would falsify it, and then actually check.
 
 ### Lesson 4 — Where the sensor is slower than the signal, the population must compensate
 
@@ -122,15 +122,15 @@ Fourteen modules, doing four different jobs.
 
 **Seven modality modules (§1–§7)**, each using the identical eleven-section skeleton, in the same order, with the same numbering. §4 means the receptor array whether you are reading about cones or odorant receptors, so you can read *across* modules as easily as down one. Vision comes first because it supplies the templates everything else is measured against; olfaction comes third, after two mature normative theories, so you arrive equipped.
 
-**Two modules of natural experiments (§8–§9).** The exotic senses are not a curiosity cabinet — electroreception, echolocation, infrared and magnetoreception each hold constant something the familiar seven confound. Development and evolution then supply the two constraint sources the earlier modules assume without examining: how a system must be *built*, and how it *got here*.
+**Two modules of natural experiments (§9–§10).** The exotic senses are not a curiosity cabinet — electroreception, echolocation, infrared and magnetoreception each hold constant something the familiar seven confound. Development and evolution then supply the two constraint sources the earlier modules assume without examining: how a system must be *built*, and how it *got here*.
 
-**Four synthesis modules (§10–§13)**, which introduce little new material and mostly pivot what is already established. §10 collects the motifs that recur; §11 the axes on which modalities differ, where the course audits its own central claim and weakens it; §12 tests the central empirical claim outside biology, in engineered systems where no evolutionary or metabolic explanation is available; and §13 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
+**Four synthesis modules (§11–§14)**, which introduce little new material and mostly pivot what is already established. §11 collects the motifs that recur; §12 the axes on which modalities differ, where the course audits its own central claim and weakens it; §13 tests the central empirical claim outside biology, in engineered systems where no evolutionary or metabolic explanation is available; and §14 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
 
-Every module ends with a quiz, and §13.8 is a cumulative final exam.
+Every module ends with a quiz, and §14.8 is a cumulative final exam.
 
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">Why there is no module between 7 and 8 in the obvious place</div>
-Nothing is missing. The eleven-section skeleton is used by §1–§7 only, because those are the modules where a receptor array, a first circuit and a central representation all exist to be compared. §8 onward have their own structures because they are asking different questions — a module about convergent evolution has no "receptor array" section to fill, and forcing one would be padding.
+Nothing is missing. The eleven-section skeleton is used by §1–§7 only, because those are the modules where a receptor array, a first circuit and a central representation all exist to be compared. §9 onward have their own structures because they are asking different questions — a module about convergent evolution has no "receptor array" section to fill, and forcing one would be padding.
 
 If you are reading across rather than down, read across §1–§7. The later modules are where the across-reading gets cashed out.
 </x-callout>
@@ -141,7 +141,7 @@ If you are reading across rather than down, read across §1–§7. The later mod
 
 <strong>Across</strong> — the same section number in every module, in turn. Read every §4 and you get a comparative treatment of receptor arrays; read every §6 and you get the question of what thalamus is actually for, asked of eight systems, two of which manage without one. <strong>The across-reading is what the parallel skeleton exists to enable</strong>, and it is where most of the course's arguments actually come from.
 
-If you only have time for a slice: §0, then all of §1 (vision) as the template, then all of §3 (olfaction) as the case, then §13.6 for what the comparison produced.
+If you only have time for a slice: §0, then all of §1 (vision) as the template, then all of §3 (olfaction) as the case, then §14.6 for what the comparison produced.
 </x-callout>
 
 **No section is ever deleted.** Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why. Those absences are the most comparatively informative data in the course, and deleting the section would destroy the information.
@@ -154,7 +154,7 @@ If you only have time for a slice: §0, then all of §1 (vision) as the template
   "prompt": "Before going further — commit to a guess. You know that vision has topographic maps (retinotopy) and that olfaction does not have anything comparable. Give your best reason WHY a sensory system would build a topographic map at all. What is it for? Then predict what a system lacking one has to do instead.",
   "placeholder": "What is a map actually for?",
   "reveal": "The usual first answer is \"so the brain knows where things are\", and it is worth seeing why that cannot be right: the information about position is in *which* neuron fires, whether or not those neurons are arranged tidily. A scrambled retina would carry identical information. Maps are not required for representing position.\n\nThe better answers are about **wiring and local computation**:\n\n- **Wiring length.** Neurons that need to interact frequently should be close, because axon is expensive in volume, energy and delay. If computation is local in stimulus space — comparing a point to its neighbours — then laying out the sheet to match stimulus space minimises total wiring.\n- **Local interaction becomes cheap.** Centre–surround needs each cell to sample its neighbourhood. With a map, \"neighbourhood\" is a short local connection requiring no specificity beyond proximity. Without one, the same computation needs precise long-range connectivity that must somehow be specified.\n- **Development becomes cheap.** Gradients of guidance molecules can build a map without specifying each connection individually.\n\nNotice that all three are about *implementation*, not representation. This matters: it means a system without a metric on its receptor array is not missing a representational capability, it is missing a set of cheap implementation tricks — and must pay for the same computations some other way.\n\n**What olfaction has to do instead** is the subject of §3.5, and the answer is one of: learn the connectivity from experience (expensive, plastic, and a possible rationale for adult neurogenesis in the bulb), or give up on structured decorrelation and use non-specific global normalisation (cheap, but removes only the mean).",
-  "followUp": "Keep your answer. §3.4 asks you to apply it, and §13 turns it into a testable prediction about where in the olfactory system a map could exist after all."
+  "followUp": "Keep your answer. §3.4 asks you to apply it, and §14 turns it into a testable prediction about where in the olfactory system a map could exist after all."
 }
 </script>
 </x-predict>
