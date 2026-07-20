@@ -12,6 +12,7 @@ import { EXPORT_FORMAT, EXPORT_FORMAT_VERSION, normalise } from './schema.js';
 import { CURRENT_SCHEMA_VERSION } from './schema.js';
 import { migrate } from './migrations.js';
 import { url } from '../base.js';
+import * as highlights from '../highlights/store.js';
 
 let siteVersion = null;
 
@@ -30,6 +31,10 @@ export function buildExport() {
     exportedAt: new Date().toISOString(),
     site: siteVersion,
     data: getState(),
+    // Highlights ride along in the same envelope. Kept in their own key at
+    // rest, but a reader who exports "their progress" means all of it — losing
+    // notes on a device move would be worse than not having the feature.
+    highlights: highlights.getState(),
   };
 }
 
@@ -85,7 +90,16 @@ export function parseImport(text) {
     data = migrate(data, version, CURRENT_SCHEMA_VERSION);
   }
 
-  return normalise(data);
+  const result = normalise(data);
+  // Carry the envelope's highlights alongside, without adding an enumerable
+  // key: the progress store persists whatever it is handed, and a stray
+  // property would end up written into csp:progress.
+  Object.defineProperty(result, '__highlights', {
+    value: payload.highlights ?? null,
+    enumerable: false,
+    writable: false,
+  });
+  return result;
 }
 
 /** Human-readable diff so the reader knows what they are about to do. */
@@ -112,6 +126,7 @@ export function summariseImport(incoming) {
 }
 
 export function applyReplace(incoming) {
+  if (incoming?.__highlights) highlights.replaceAll(incoming.__highlights);
   return replaceAll(incoming);
 }
 
@@ -122,6 +137,7 @@ export function applyReplace(incoming) {
  * and is never what the reader wants.
  */
 export function applyMerge(incoming) {
+  if (incoming?.__highlights) highlights.mergeAll(incoming.__highlights);
   return update((draft) => {
     for (const [id, entry] of Object.entries(incoming.subsections)) {
       const existing = draft.subsections[id];

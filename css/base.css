@@ -462,3 +462,113 @@ x-callout,
   color: var(--ink-faint);
   font-style: italic;
 }
+
+/* --- Highlights -----------------------------------------------------------
+   Four colours, tuned to stay legible in both themes rather than to be bright.
+   The mark element is inline by default, which is what we want here — unlike
+   x-callout, a highlight must flow with the text it wraps. */
+
+mark.x-hl {
+  background: var(--hl-yellow);
+  color: inherit;
+  padding: 0.05em 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+mark.x-hl-yellow { background: var(--hl-yellow); }
+mark.x-hl-green  { background: var(--hl-green); }
+mark.x-hl-blue   { background: var(--hl-blue); }
+mark.x-hl-pink   { background: var(--hl-pink); }
+
+/* A highlight carrying a note gets an underline so it is findable by eye. */
+mark.x-hl[data-has-note="true"] { border-bottom: 2px solid var(--ink-faint); }
+/* Re-anchored to a repeated phrase, so possibly the wrong occurrence. */
+mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
+
+:root {
+  --hl-yellow: rgba(250, 220, 90, 0.42);
+  --hl-green:  rgba(130, 220, 150, 0.40);
+  --hl-blue:   rgba(130, 190, 245, 0.40);
+  --hl-pink:   rgba(245, 150, 190, 0.38);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hl-yellow: rgba(200, 165, 40, 0.34);
+    --hl-green:  rgba(70, 160, 95, 0.34);
+    --hl-blue:   rgba(70, 130, 200, 0.34);
+    --hl-pink:   rgba(200, 90, 140, 0.32);
+  }
+}
+:root[data-theme="dark"] {
+  --hl-yellow: rgba(200, 165, 40, 0.34);
+  --hl-green:  rgba(70, 160, 95, 0.34);
+  --hl-blue:   rgba(70, 130, 200, 0.34);
+  --hl-pink:   rgba(200, 90, 140, 0.32);
+}
+:root[data-theme="light"] {
+  --hl-yellow: rgba(250, 220, 90, 0.42);
+  --hl-green:  rgba(130, 220, 150, 0.40);
+  --hl-blue:   rgba(130, 190, 245, 0.40);
+  --hl-pink:   rgba(245, 150, 190, 0.38);
+}
+
+/* --- Selection toolbar --------------------------------------------------- */
+
+.x-hl-bar {
+  position: absolute;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  font-size: 0.85rem;
+}
+.x-hl-bar[hidden] { display: none; }
+.x-hl-label { color: var(--ink-faint); }
+
+.x-hl-swatch {
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--rule-strong);
+  cursor: pointer;
+  padding: 0;
+}
+.x-hl-swatch.is-current { outline: 2px solid var(--ink); outline-offset: 1px; }
+.x-hl-swatch.x-hl-yellow { background: var(--hl-yellow); }
+.x-hl-swatch.x-hl-green  { background: var(--hl-green); }
+.x-hl-swatch.x-hl-blue   { background: var(--hl-blue); }
+.x-hl-swatch.x-hl-pink   { background: var(--hl-pink); }
+
+.x-hl-action {
+  background: none;
+  border: none;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0.15rem 0.3rem;
+  border-radius: 4px;
+  font: inherit;
+}
+.x-hl-action:hover { background: var(--rule); }
+.x-hl-danger { color: var(--danger, #b3261e); }
+
+/* --- Notes page ---------------------------------------------------------- */
+
+.x-notes-section { margin: 2rem 0; }
+.x-notes-list { list-style: none; padding: 0; margin: 0; }
+.x-notes-item {
+  margin: 0.75rem 0;
+  padding: 0.6rem 0.9rem;
+  border-left: 4px solid var(--hl-yellow);
+  background: var(--surface-sunken, transparent);
+  border-radius: 0 6px 6px 0;
+}
+.x-notes-item.x-hl-green  { border-left-color: var(--hl-green); }
+.x-notes-item.x-hl-blue   { border-left-color: var(--hl-blue); }
+.x-notes-item.x-hl-pink   { border-left-color: var(--hl-pink); }
+.x-notes-item blockquote { margin: 0; font-style: italic; }
+.x-notes-note { margin: 0.4rem 0 0; color: var(--ink-faint); }
+.x-notes-gone { color: var(--ink-faint); }

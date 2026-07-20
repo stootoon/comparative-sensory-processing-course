@@ -1,9 +1,10 @@
-// The non-subsection pages: home, module overview, bibliography, progress.
+// The non-subsection pages: home, module overview, bibliography, progress, notes.
 
 import { getManifest, getModules, routeFor, getFlatIndex } from './manifest.js';
 import { moduleProgress, overallProgress, exerciseScore, resumeTarget, subsectionStatus } from './progress/derive.js';
 import { allEntries, formatEntry, getCitedBy } from './citations.js';
 import { findById } from './manifest.js';
+import * as highlights from './highlights/store.js';
 
 const escapeHtml = (text) =>
   String(text ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -174,6 +175,68 @@ export function renderProgressPage() {
 
       <p class="x-progress-hint">Use the settings button in the header to export a copy,
       move your progress to another device, or start over.</p>
+    </article>`;
+}
+
+export function renderNotesPage() {
+  const items = highlights.all();
+
+  if (!items.length) {
+    return `
+      <article class="x-notes-page">
+        <h1>Your notes</h1>
+        <p class="x-lede">Nothing highlighted yet.</p>
+        <p>Select any passage in a section and choose a colour. Highlights are
+        saved in this browser and collected here, with whatever notes you attach
+        to them.</p>
+      </article>`;
+  }
+
+  // Group by module, then by section, in course order rather than by when the
+  // reader made them — the point of this page is to read back an argument.
+  const order = getFlatIndex().map((e) => e.id);
+  const bySection = new Map();
+  for (const h of items) {
+    if (!bySection.has(h.subsectionId)) bySection.set(h.subsectionId, []);
+    bySection.get(h.subsectionId).push(h);
+  }
+  const sections = [...bySection.keys()].sort(
+    (a, b) => order.indexOf(a) - order.indexOf(b)
+  );
+
+  const withNotes = items.filter((h) => h.note).length;
+
+  return `
+    <article class="x-notes-page">
+      <h1>Your notes</h1>
+      <p class="x-lede">${items.length} highlight${items.length === 1 ? '' : 's'}
+         across ${sections.length} section${sections.length === 1 ? '' : 's'}${
+           withNotes ? `, ${withNotes} with a note` : ''}.
+         Stored in this browser only, and included when you export your progress.</p>
+
+      ${sections.map((sid) => {
+        const entry = findById(sid);
+        const list = bySection.get(sid);
+        const heading = entry
+          ? `<a href="${routeFor(entry)}">${entry.sectionNumber ? `§${entry.sectionNumber} ` : ''}${escapeHtml(entry.title)}</a>`
+          : `<span class="x-notes-gone">${escapeHtml(sid)} — this section no longer exists</span>`;
+        return `
+        <section class="x-notes-section">
+          <h2>${heading}</h2>
+          <ul class="x-notes-list">
+            ${list.map((h) => `
+              <li class="x-notes-item x-hl-${escapeHtml(h.colour || 'yellow')}">
+                <blockquote>${escapeHtml(h.quote)}</blockquote>
+                ${h.note ? `<p class="x-notes-note">${escapeHtml(h.note)}</p>` : ''}
+              </li>`).join('')}
+          </ul>
+        </section>`;
+      }).join('')}
+
+      <p class="x-progress-hint">Highlights are anchored to the words themselves,
+      not to a position, so they survive edits elsewhere in a section. If a
+      highlighted passage is rewritten the highlight stops appearing on the page
+      but is kept here, because the note attached to it is yours.</p>
     </article>`;
 }
 

@@ -87,6 +87,19 @@ conditions rather than the clock. **If a suite fails after adding content,
 suspect the harness before the site**, and verify the specific page or flow
 individually before believing it.
 
+Two harness traps found while building highlights, both of which produced
+*passing* tests that proved nothing:
+
+- **Navigating to a URL that differs only in the hash does not reload the
+  page.** A "restored after reload" assertion was really testing in-memory
+  state. Force a real load with a unique query string before the hash.
+- **The dev server sends no cache headers, so the browser heuristically
+  caches `content/*.md`.** File edits never reached the page, which silently
+  turned the whole prose-edit suite into a no-op — including the assertion
+  that justified the anchoring design. Set `Cache-Control: no-cache` on the
+  context. A test that edits content and does not verify the edit arrived is
+  worthless.
+
 ---
 
 ## Structural notes

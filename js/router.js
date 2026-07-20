@@ -23,6 +23,7 @@ export function parseHash(hash = location.hash) {
   if (segments.length === 0) return { name: 'home', anchor };
   if (segments[0] === 'bibliography') return { name: 'bibliography', anchor };
   if (segments[0] === 'progress') return { name: 'progress', anchor };
+  if (segments[0] === 'notes') return { name: 'notes', anchor };
   if (segments.length === 1) return { name: 'module', moduleSlug: segments[0], anchor };
 
   return {

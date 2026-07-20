@@ -13,8 +13,10 @@ import { mountSidebar, setActive } from './ui/sidebar.js';
 import { mountToc, unmountToc } from './ui/toc.js';
 import { initCitePopover } from './ui/cite-popover.js';
 import { mountSettings, applyStoredTheme } from './ui/settings-panel.js';
+import * as highlights from './highlights/store.js';
+import { initHighlighter, mountHighlighter, unmountHighlighter } from './ui/highlighter.js';
 import {
-  renderHome, renderModuleOverview, renderBibliography, renderProgressPage, renderNotFound,
+  renderHome, renderModuleOverview, renderBibliography, renderProgressPage, renderNotesPage, renderNotFound,
 } from './views.js';
 import './exercises/index.js';
 import './ui/figure.js';
@@ -32,6 +34,8 @@ const app = {
 async function boot() {
   applyStoredTheme();
   store.load();
+  highlights.load();
+  initHighlighter();
   store.watchOtherTabs();
 
   app.main = document.getElementById('main');
@@ -97,7 +101,13 @@ async function handleRoute(route) {
       setActive(null);
       break;
     case 'progress':
+      unmountHighlighter();
       show(renderProgressPage());
+      setActive(null);
+      break;
+    case 'notes':
+      unmountHighlighter();
+      show(renderNotesPage());
       setActive(null);
       break;
     case 'subsection':
@@ -180,7 +190,12 @@ async function showSubsection(route) {
 
   article.appendChild(buildFooter(entry));
 
-  const headings = assignHeadingIds(app.main.querySelector('.x-prose'));
+  const prose = app.main.querySelector('.x-prose');
+  // After headings, so the ids exist, and after the article is fully assembled:
+  // highlights are anchored to text, and re-anchoring needs the final DOM.
+  mountHighlighter(prose, entry.id);
+
+  const headings = assignHeadingIds(prose);
   mountToc(app.toc, headings);
 
   setActive(entry.id);

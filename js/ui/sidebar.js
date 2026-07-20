@@ -36,6 +36,7 @@ function render() {
     </nav>
     <div class="x-sidebar-foot">
       <a href="#/bibliography">Bibliography</a>
+      <a href="#/notes">Your notes</a>
       <a href="#/progress">Your progress</a>
     </div>`;
 }
