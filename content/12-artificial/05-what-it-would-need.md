@@ -1,7 +1,7 @@
 ---
 id: m12.s05
 title: What a solved machine olfaction would need
-lede: §13.6's Gaps 1 and 4, restated as an engineering specification — and itemised, because the pieces are separable, they cost wildly different amounts, and the cheapest subset is the one that buys the normative theory rather than the working device.
+lede: §13.7's Gaps 1 and 4, restated as an engineering specification — and itemised, because the pieces are separable, they cost wildly different amounts, and the cheapest subset is the one that buys the normative theory rather than the working device.
 estimatedMinutes: 24
 ---
 
@@ -51,7 +51,7 @@ What makes this cheaper than it sounds is that **it needs no labels**. No panel,
 
 The design consequence is worth stating flatly, because it inverts the usual framing: **the version of Gap 1 that unblocks this course's questions is substantially smaller and cheaper than the version that would produce a working artificial nose.** The course has consistently described the missing database as a heroic effort, and the heroic part is the labelling, which the theory does not need.
 
-And the route §13.6 identifies for building it stands up better on this reading than on the other. Atmospheric chemistry, food science, flavour research and entomology are already generating compositional measurements of real air for their own purposes. Persuading those communities to publish raw compositions in a common format produces exactly the unlabelled marginal, at close to zero marginal cost, and it does not require anyone to agree about perception. That is not a substitute for a purpose-built effort but it is a first version, and the natural image databases were assembled the same accidental way.
+And the route §13.7 identifies for building it stands up better on this reading than on the other. Atmospheric chemistry, food science, flavour research and entomology are already generating compositional measurements of real air for their own purposes. Persuading those communities to publish raw compositions in a common format produces exactly the unlabelled marginal, at close to zero marginal cost, and it does not require anyone to agree about perception. That is not a substitute for a purpose-built effort but it is a first version, and the natural image databases were assembled the same accidental way.
 
 ## 4. A receptor forward model, which is the piece nobody lists
 
@@ -61,11 +61,11 @@ That model does not exist at scale. Ligand–receptor data covers a small fracti
 
 This has a specific and uncomfortable consequence for the flagship calculation. The colour version worked because cone responses to a mixture of wavelengths add, so the map from spectrum to cone activation is linear and known, and PCA on cone responses is a well-defined operation [@buchsbaum1983]. The olfactory version has neither property. §1.12's third question puts exactly this to the reader, and the answer is that the obstacle is the non-additivity rather than the dimensionality or the missing metric.
 
-So the specification has a fourth component that the "olfaction needs its ImageNet" framing hides: **the ensemble is not enough without a model of the transduction it passes through.** It is medium-cost, it is measurable with existing methods, and it is a prerequisite for the calculation the course most wants run. That it is rarely named as part of Gap 1 is a small failure of the field's own accounting, and this module's most concrete addition to §13.6.
+So the specification has a fourth component that the "olfaction needs its ImageNet" framing hides: **the ensemble is not enough without a model of the transduction it passes through.** It is medium-cost, it is measurable with existing methods, and it is a prerequisite for the calculation the course most wants run. That it is rarely named as part of Gap 1 is a small failure of the field's own accounting, and this module's most concrete addition to §13.7.
 
 ## 5. A benchmark task, chosen carefully because it will shape the field
 
-Benchmarks are not neutral instruments. A field optimises what its benchmark scores, so the choice of task determines what gets built for a decade. §12.3 noted that the one benchmark-shaped episode in machine olfaction was built on single molecules at fixed concentration rated by human panellists — a well-designed challenge on a badly chosen stimulus, which is §13.6's Gap 3 in engineering dress.
+Benchmarks are not neutral instruments. A field optimises what its benchmark scores, so the choice of task determines what gets built for a decade. §12.3 noted that the one benchmark-shaped episode in machine olfaction was built on single molecules at fixed concentration rated by human panellists — a well-designed challenge on a badly chosen stimulus, which is §13.7's Gap 3 in engineering dress.
 
 A benchmark worth having would score:
 
@@ -77,7 +77,7 @@ A benchmark worth having would score:
 
 **A metric that penalises confident error.** Olfaction's loss function is asymmetric (§5.1), and a benchmark scoring plain accuracy will select for systems that ignore that.
 
-Assembling this requires no new measurement beyond the corpus itself. §13.6 makes the same point about Gap 4 — an agreed benchmark could be assembled from existing data, and what is missing is agreement rather than instrumentation.
+Assembling this requires no new measurement beyond the corpus itself. §13.7 makes the same point about Gap 4 — an agreed benchmark could be assembled from existing data, and what is missing is agreement rather than instrumentation.
 
 ## 6. An agreed interchange representation, which is less than it sounds
 
@@ -98,7 +98,7 @@ Three considerations pull the requirement down sharply.
 
 **The leading subspace is what is wanted, not the full covariance.** The opponent-axis result used three cone types and recovered three axes; the olfactory analogue asks for the leading tens of components, not all thousand. Estimating a $k$-dimensional principal subspace needs samples scaling with $k$ and the spectral gap, not with $D$, and regularised or structured estimators do better still.
 
-**The intrinsic dimensionality is probably far below the nominal one.** §13.6 flags this as an open question and names proprioception as the warning: 20 nominal degrees of freedom, about 3 effective. Natural odour scenes are mixtures generated by a modest number of sources with strongly correlated emission profiles, so there is good reason to expect heavy compression. If the effective dimensionality is tens rather than a thousand, the sample requirement falls by orders of magnitude — and, usefully, **estimating the intrinsic dimensionality is itself much cheaper than estimating the covariance**, so it is the right first analysis on a small pilot corpus and it determines the size of everything after.
+**The intrinsic dimensionality is probably far below the nominal one.** §13.7 flags this as an open question and names proprioception as the warning: 20 nominal degrees of freedom, about 3 effective. Natural odour scenes are mixtures generated by a modest number of sources with strongly correlated emission profiles, so there is good reason to expect heavy compression. If the effective dimensionality is tens rather than a thousand, the sample requirement falls by orders of magnitude — and, usefully, **estimating the intrinsic dimensionality is itself much cheaper than estimating the covariance**, so it is the right first analysis on a small pilot corpus and it determines the size of everything after.
 
 **Temporal samples are cheap once you are sampling at all.** The expensive unit is the deployment, not the measurement. Dense temporal sampling at one site gives many samples that are not independent, but they are exactly what the temporal problem needs, and they are close to free.
 
@@ -115,4 +115,4 @@ If it were built, and a system trained on it worked, what would have been shown?
 
 This is the module's one actionable recommendation and it is a recommendation about publication policy rather than about science, which is uncomfortable but appears to be where the binding constraint sits.
 
-Finally, and connecting to what §12.6 has to score: none of this touches §13.6's Gap 2. A corpus does not state an objective. If the olfactory problem is an inference problem rather than an efficient-coding problem, a beautifully characterised $p(x)$ leaves you needing to say what latent variable is being estimated under what loss — and that costs nothing but thought, is not helped by any amount of data, and is the gap §13.6 ranks first for exactly that reason.
+Finally, and connecting to what §12.6 has to score: none of this touches §13.7's Gap 2. A corpus does not state an objective. If the olfactory problem is an inference problem rather than an efficient-coding problem, a beautifully characterised $p(x)$ leaves you needing to say what latent variable is being estimated under what loss — and that costs nothing but thought, is not helped by any amount of data, and is the gap §13.7 ranks first for exactly that reason.

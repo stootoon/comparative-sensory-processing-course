@@ -1150,25 +1150,33 @@
         },
         {
           "id": "m13.s05",
-          "slug": "the-agenda",
+          "slug": "devo-evo-and-artificial",
           "sectionNumber": "13.5",
-          "file": "05-the-agenda.md",
+          "file": "05-devo-evo-and-artificial.md",
+          "title": "Imports from development, evolution, and artificial sensing",
+          "blurb": "Convergence as evidence for a constraint rather than optimality, the reagent that rescues the receptor-swap experiment, and the control no animal could provide."
+        },
+        {
+          "id": "m13.s06",
+          "slug": "the-agenda",
+          "sectionNumber": "13.6",
+          "file": "06-the-agenda.md",
           "title": "The research agenda",
           "blurb": "Everything the comparison generated, ranked by informativeness per unit cost — with the null results costed too."
         },
         {
-          "id": "m13.s06",
+          "id": "m13.s07",
           "slug": "conclusion",
-          "sectionNumber": "13.6",
-          "file": "06-conclusion.md",
+          "sectionNumber": "13.7",
+          "file": "07-conclusion.md",
           "title": "Conclusion — gaps, open questions, and where to read next",
           "blurb": "The four structural gaps behind every experiment in §13.5, the questions the course could not answer, and an annotated route into the literature."
         },
         {
-          "id": "m13.s07",
+          "id": "m13.s08",
           "slug": "final-exam",
-          "sectionNumber": "13.7",
-          "file": "07-final-exam.md",
+          "sectionNumber": "13.8",
+          "file": "08-final-exam.md",
           "title": "Final exam",
           "blurb": "Eleven cumulative questions, none answerable from a single module — and three free-response questions that reward saying what is uncertain."
         }

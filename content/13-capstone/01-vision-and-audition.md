@@ -5,9 +5,9 @@ lede: The method, and the first two modalities to run it on. Every import is car
 estimatedMinutes: 30
 ---
 
-The capstone works through the eight modalities in turn, asking of each: what does it know that olfaction could use?
+The capstone works through the eight modalities in turn, and then the two modules that are not modalities, asking of each: what does it know that olfaction could use?
 
-This section sets out the method and applies it to vision and audition, the two modalities with mature normative theories. §13.2 takes touch and taste, §13.3 the vestibular and proprioceptive systems, §13.4 the exotic senses, and §13.5 collects everything into a ranked agenda.
+This section sets out the method and applies it to vision and audition, the two modalities with mature normative theories. §13.2 takes touch and taste, §13.3 the vestibular and proprioceptive systems, §13.4 the exotic senses, and §13.5 the two modules that are not modalities at all — development and evolution, and artificial sensing. §13.6 collects everything into a ranked agenda, §13.7 draws the conclusions, and §13.8 is the final exam.
 
 The format is fixed, and every item must reach step four.
 

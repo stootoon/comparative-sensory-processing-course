@@ -1,11 +1,11 @@
 ---
-id: m13.s06
+id: m13.s07
 title: Conclusion — gaps, open questions, and where to read next
-lede: What the comparison established, the four structural gaps behind every experiment in §13.5, the questions this course could not answer, and an annotated route into the literature.
+lede: What the comparison established, the four structural gaps behind every experiment in §13.6, the questions this course could not answer, and an annotated route into the literature.
 estimatedMinutes: 30
 ---
 
-§13.5 is a work plan. This section is the wider view: what the course actually established, what is missing at the level of the field rather than the experiment, and where to read next.
+§13.6 is a work plan. This section is the wider view: what the course actually established, what is missing at the level of the field rather than the experiment, and where to read next.
 
 ## What the comparison established
 
@@ -19,7 +19,7 @@ Three things, and it is worth noticing that all three are **eliminations or refr
 
 ## The four structural gaps
 
-Every experiment in §13.5 is downstream of one of these. They are gaps in how the field is equipped, not gaps in anyone's reasoning, and none of them is fixed by a single study.
+Every experiment in §13.6 is downstream of one of these. They are gaps in how the field is equipped, not gaps in anyone's reasoning, and none of them is fixed by a single study.
 
 ### Gap 1 — There is no natural odour-scene database
 
@@ -39,6 +39,20 @@ No individual lab is incentivised to build it. It would consume years, produce f
 
 It is worth being precise that the natural-image databases were not built this way either — they accumulated, from people collecting images for their own purposes, and were repurposed. That suggests a cheaper route than a dedicated effort: <strong>persuade the people already doing analytical chemistry on environmental air samples to publish raw compositions in a common format.</strong> Atmospheric chemistry, food science, and entomology are all generating this data for their own reasons, and none of it is organised for this use.
 </x-callout>
+
+#### Gap 1 is two objects, and the cheaper one is the one the theory needs
+
+§13.5 (Import 28) splits it, and the split matters because the description above — a heroic decade-long effort — fits only one half.
+
+Efficient-coding theory consumes the **unlabelled marginal** over natural odour scenes: compositions, their covariance, their temporal structure, with no annotation of any kind. A working device needs **labelled pairs**: composition alongside a source identity or a percept. Only the second requires annotation, human panels, or any agreement about what odours are perceptually, and that is where nearly all of the cost sits.
+
+So the flagship calculation of §13.6's item 10 is blocked on the smaller object. It is a substantially cheaper thing to build than the field's usual framing of Gap 1 implies, and it could be assembled from data other fields are already generating. The risk is the default trajectory: the labelled version has a product at the end and therefore a funding case, so it is the one that gets built, and it answers none of the questions in this section.
+
+#### The component nobody lists: a receptor forward model
+
+There is a second omission, and it is a prerequisite rather than a refinement. A compositional ensemble cannot be pushed through a receptor array without a model of **composition → receptor activation**, and in olfaction that map is neither linear nor known, because mixtures do not superpose at the receptor [@shen2013].
+
+The colour derivation worked partly because its analogous map is linear and measured [@buchsbaum1983]. The olfactory opponent-axis calculation that §13.1 wants cannot run on an odour-scene database alone, however good the database is — it needs this map as well. The forward model is measurable with existing methods and at a small fraction of the database's cost, and its absence from the field's accounting of what is missing is a small error with a large consequence: a lab could complete Gap 1 as usually described and still be unable to run the calculation it was built for.
 
 ### Gap 2 — The objective has not been stated precisely enough to solve
 
@@ -74,7 +88,7 @@ This is downstream of Gap 1 but not identical to it: even without a natural-scen
 <x-order>
 <script type="application/json">
 {
-  "id": "m13.s06.o1",
+  "id": "m13.s07.o1",
   "contentRev": 1,
   "points": 1,
   "shuffleSeed": 23,
@@ -93,7 +107,7 @@ This is downstream of Gap 1 but not identical to it: even without a natural-scen
 
 ## Questions the course could not answer
 
-Distinct from §13.5's list, which is a set of costed experiments. These are the deeper questions the comparison sharpened without resolving, and none has an obvious first experiment.
+Distinct from §13.6's list, which is a set of costed experiments. These are the deeper questions the comparison sharpened without resolving, and none has an obvious first experiment.
 
 **1. Is olfaction an efficient-coding problem or an inference problem?** The course leans toward inference and does not establish it. The two frameworks give different answers about what the bulb should do — decorrelate versus estimate latent causes — and the discriminating measurement is not obvious, because both predict some form of redundancy reduction as a by-product.
 
@@ -145,20 +159,20 @@ For each, one entry point that carries the argument this course borrows.
 **Vestibular:** Angelaki et al. [@angelaki2004] ★ and Cullen [@cullen2012] ★. If you read two papers from outside olfaction, make them these — they are the clearest worked example of neurons implementing a specified estimator, and Fetsch et al. [@fetsch2011] is the direct neural test of reliability weighting.
 **Proprioception:** Bosco and Poppele [@bosco2001] ★ for the recoding into limb variables, and [@bosco2003] for the honest treatment of how much of it is neural versus biomechanical. Wolpert et al. [@wolpert1995] for forward models.
 **Taste:** Chandrashekar et al. [@chandrashekar2006] ★ — the receptor-swap experiments that settled a coding dispute, and the model Import 11 wants an olfactory version of.
-**Audition, spatial:** Carr and Konishi [@carr1990] and McAlpine et al. [@mcalpine2001] together, in that order — the dispute and its resolution, which §13.7 turns into a general lesson about the range that matters being the range encountered.
+**Audition, spatial:** Carr and Konishi [@carr1990] and McAlpine et al. [@mcalpine2001] together, in that order — the dispute and its resolution, which §13.8 turns into a general lesson about the range that matters being the range encountered.
 
 ### If you want to start work tomorrow
 
 The three cheapest entry points, all requiring no new apparatus:
 
-1. **The receptor-abundance analysis** (§13.5, item 2) — existing data, existing methods, a built-in comparative control.
-2. **The geometry comparison** (§13.5, item 10) — fit hyperbolic and Euclidean models to published co-occurrence data and compare held-out likelihood. Purely computational.
-3. **The sniff-triggered versus passive experiment** (§13.5, item 1) — the best cost-to-information ratio in the course, and both outcomes reframe an existing literature.
+1. **The receptor-abundance analysis** (§13.6, item 2) — existing data, existing methods, a built-in comparative control.
+2. **The geometry comparison** (§13.6, item 10) — fit hyperbolic and Euclidean models to published co-occurrence data and compare held-out likelihood. Purely computational.
+3. **The sniff-triggered versus passive experiment** (§13.6, item 1) — the best cost-to-information ratio in the course, and both outcomes reframe an existing literature.
 
 <x-free-response>
 <script type="application/json">
 {
-  "id": "m13.s06.f1",
+  "id": "m13.s07.f1",
   "contentRev": 1,
   "points": 1,
   "prompt": "You have finished the course. Write the paragraph you would send to a colleague who works on olfaction and has not taken it — what the comparative method gave you that working within olfaction would not have, and what you now think they are getting wrong. Be specific enough to be argued with.",
@@ -180,8 +194,8 @@ This course made a wager, stated in §0.0: that the clues to understanding olfac
 
 The wager paid, but not in the way the framing suggests. What the comparison produced was not a set of mechanisms imported into olfaction. It was a set of **controls** — cases where a property olfaction has appears without the consequence olfaction suffers, which is what lets you say that the property is not the cause. Taste for disorder, touch and proprioception for the missing relay, electroreception for the slow sensor, audition for the what/where split in an array with no spatial dimension at all.
 
-That is a more modest product than "here is the theory of smell", and a more reliable one. §13.5's free-response makes the case that the method systematically over-produces plausible-looking questions and under-weights the properties with no analogue anywhere — and that case is correct, and it is the reason the eliminations are worth more than the predictions.
+That is a more modest product than "here is the theory of smell", and a more reliable one. §13.6's free-response makes the case that the method systematically over-produces plausible-looking questions and under-weights the properties with no analogue anywhere — and that case is correct, and it is the reason the eliminations are worth more than the predictions.
 
-**The specific claim the course ends on:** olfaction's open questions can be stated sharply enough to design experiments against, and the sharpening came from outside olfaction. Every item in §13.5 traces to a cell in the datasheet where olfaction differs from a modality that has an answer.
+**The specific claim the course ends on:** olfaction's open questions can be stated sharply enough to design experiments against, and the sharpening came from outside olfaction. Every item in §13.6 traces to a cell in the datasheet where olfaction differs from a modality that has an answer.
 
 The difference, not the similarity, is what generated the question.

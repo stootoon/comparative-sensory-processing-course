@@ -26,7 +26,7 @@ That gives us the one thing a single-system study can never provide: **a way to 
 - A motif appearing in exactly one is either a solution to something peculiar about that modality, or a historical accident. Distinguishing those two is hard, and the comparison is what makes it possible at all.
 
 <x-figure src="content/00-toolkit/figures/modality-space.js"
-  caption="The whole course on two axes. Pick any pair and see where the modalities fall. Dimensionality against theory maturity separates olfaction sharply; ensemble-measured against theory maturity is close to a straight line, which is this course's central empirical claim. Ordered-array against theory does NOT separate it, which is the §5.4 argument that the problem is dimensionality rather than disorder.">
+  caption="The whole course on two axes; pick any pair. The opening view is the course's central empirical claim — measured ensemble against theoretical maturity, r = 0.91 across nine modalities, the strongest relationship in the datasheet, with olfaction alone in the bottom-left. Then check the two rival explanations of why olfaction lacks a theory: ordered array against theory gives r = 0.76, dimensionality against theory gives −0.69. Disorder correlates with poor theory slightly BETTER than dimensionality does, which is not what the course's slogan implies — the case for blaming dimensionality rests on gustation being an outlier the coefficient averages away, not on the correlation. Highlight gustation and see, then read §11.1.">
 </x-figure>
 
 
@@ -126,7 +126,7 @@ Fourteen modules, doing four different jobs.
 
 **Four synthesis modules (§10–§13)**, which introduce little new material and mostly pivot what is already established. §10 collects the motifs that recur; §11 the axes on which modalities differ, where the course audits its own central claim and weakens it; §12 tests the central empirical claim outside biology, in engineered systems where no evolutionary or metabolic explanation is available; and §13 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
 
-Every module ends with a quiz, and §13.7 is a cumulative final exam.
+Every module ends with a quiz, and §13.8 is a cumulative final exam.
 
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">Why there is no module between 7 and 8 in the obvious place</div>
@@ -141,7 +141,7 @@ If you are reading across rather than down, read across §1–§7. The later mod
 
 <strong>Across</strong> — the same section number in every module, in turn. Read every §4 and you get a comparative treatment of receptor arrays; read every §6 and you get the question of what thalamus is actually for, asked of eight systems, two of which manage without one. <strong>The across-reading is what the parallel skeleton exists to enable</strong>, and it is where most of the course's arguments actually come from.
 
-If you only have time for a slice: §0, then all of §1 (vision) as the template, then all of §3 (olfaction) as the case, then §13.5 for what the comparison produced.
+If you only have time for a slice: §0, then all of §1 (vision) as the template, then all of §3 (olfaction) as the case, then §13.6 for what the comparison produced.
 </x-callout>
 
 **No section is ever deleted.** Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why. Those absences are the most comparatively informative data in the course, and deleting the section would destroy the information.

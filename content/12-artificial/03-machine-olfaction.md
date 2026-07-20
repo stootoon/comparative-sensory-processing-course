@@ -62,7 +62,7 @@ The second is a supervised learning problem with no training set. That is a stri
 
 ## No standard representation, and no benchmark
 
-Two absences follow, and they are the engineering statement of §13.6's Gaps 1 and 4.
+Two absences follow, and they are the engineering statement of §13.7's Gaps 1 and 4.
 
 **There is no agreed representation of an odour.** Ask what the input to a machine vision system is and the answer is an array of pixel intensities — universally agreed, device-independent, and lossless with respect to the thing being modelled. Ask for audio and the answer is a sampled waveform, with the same properties. Ask what the input to a machine olfaction system is, and there are at least four incompatible answers in current use: the raw response vector of a particular sensor array (device-specific and drifting); a list of compounds with concentrations from GC-MS (correct but not obtainable at speed and not what any nose measures); a vector of computed physicochemical descriptors of a molecule (defined only for single molecules, and the choice of descriptors is arbitrary); or a vector of receptor activations (biologically motivated, measured for a small fraction of receptors and a small fraction of ligands).
 
@@ -70,7 +70,7 @@ Nothing in vision or audition corresponds to this. The dispute over what odour s
 
 **There is no benchmark.** Consequently, results are reported on idiosyncratic odour panels, collected on idiosyncratic hardware, evaluated with idiosyncratic protocols, and are not comparable. A new method cannot be scored against an old one. The elimination mechanism that drove speech recognition for decades — many groups, one test set, one metric — has never operated in machine olfaction, and no amount of individual cleverness substitutes for it.
 
-The nearest thing the field has had to a benchmark episode is instructive on both counts. A published psychophysical dataset — single molecules, presented at fixed concentrations, rated by human panellists on verbal descriptor scales — was used as the basis of an open prediction challenge in which many groups predicted perceptual ratings from molecular structure. It produced measurable, rapid progress, exactly as the benchmark argument predicts. And the scope of it is the argument's other half: **single molecules, at fixed concentration, described in words.** That is not the natural ensemble. It is §13.6's Gap 3 — the standard stimulus cannot reveal what is at issue — reappearing in engineering, and it means the one place machine olfaction has had a benchmark is the one place it has moved.
+The nearest thing the field has had to a benchmark episode is instructive on both counts. A published psychophysical dataset — single molecules, presented at fixed concentrations, rated by human panellists on verbal descriptor scales — was used as the basis of an open prediction challenge in which many groups predicted perceptual ratings from molecular structure. It produced measurable, rapid progress, exactly as the benchmark argument predicts. And the scope of it is the argument's other half: **single molecules, at fixed concentration, described in words.** That is not the natural ensemble. It is §13.7's Gap 3 — the standard stimulus cannot reveal what is at issue — reappearing in engineering, and it means the one place machine olfaction has had a benchmark is the one place it has moved.
 
 <details class="x-deeper">
 <summary>Why the labelled-set problem is worse in olfaction than the annotation-cost argument suggests</summary>
@@ -87,7 +87,7 @@ This has a consequence the cost argument misses. In vision the corpus is a set o
 
 So the odour corpus that would be analogous is not merely more expensive to build. It is a different kind of object, and getting it to transfer requires solving the standardisation problem first. This is the strongest version of the sensor-hardware objection in §12.4, and it should be stated at full strength rather than the weak version about drift being annoying.
 
-The escape route, and §12.5 takes it: **make composition the interchange format.** A GC-MS composition is device-independent in a way a sensor response is not. It is expensive, slow and not a nose — but it is publishable, comparable, and reusable, which the alternatives are not. That is the same argument §13.6 makes for persuading atmospheric chemists and food scientists to publish raw compositions, arrived at from the engineering side.
+The escape route, and §12.5 takes it: **make composition the interchange format.** A GC-MS composition is device-independent in a way a sensor response is not. It is expensive, slow and not a nose — but it is publishable, comparable, and reusable, which the alternatives are not. That is the same argument §13.7 makes for persuading atmospheric chemists and food scientists to publish raw compositions, arrived at from the engineering side.
 </details>
 
 ## Where that leaves the test

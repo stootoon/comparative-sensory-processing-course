@@ -63,7 +63,7 @@ export function draw(root, values, { createDiagram }) {
       `components a working device needs, and the reason is that efficient-coding theory optimises against the ` +
       `<em>unlabelled</em> input distribution. No annotation. No panel. No agreement about what the answer is. ` +
       `Air samples, composition, a receptor model, and a common format.` +
-      `<br><br>Which reframes §13.6's Gap 1 in a useful way: the course has been describing the missing database as ` +
+      `<br><br>Which reframes §13.7's Gap 1 in a useful way: the course has been describing the missing database as ` +
       `a heroic decade-long effort, and the version that unblocks the <em>theory</em> is a substantially smaller ` +
       `object than the version that unblocks the <em>engineering</em>. The expensive part is the part this course ` +
       `does not need.`
