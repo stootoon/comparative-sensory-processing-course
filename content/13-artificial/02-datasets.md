@@ -10,7 +10,7 @@ Two engineered sensing problems were solved to a standard nobody expected: recog
 The interesting thing for this course is not the architectures. It is what had to exist before the architectures could do anything, and the order in which it appeared.
 
 <x-figure src="content/13-artificial/figures/dataset-first.js"
-  caption="The same table twice, in two substrates sharing almost nothing. What raises this above a correlation is the ordering, which is historical record rather than reconstruction: in every successful row the input was characterised first, by people who did not know what would exploit it. Filter to biology and note the row that breaks olfaction's uniform failure — the plume ensemble is measured and is the one place olfactory normative work has traction, which is the course's claim reproducing itself inside a single modality with anatomy, deadline and animal held fixed.">
+  caption="The same table twice, in two substrates sharing almost nothing. What raises this above a correlation is the ordering, which is historical record rather than reconstruction: in every successful row the input was characterised first, by people who did not know what would exploit it. Filter to biology and note the row that breaks olfaction's uniform failure — the plume ensemble is measured and is the one place olfactory normative work has traction, a dissociation inside a single modality with anatomy, deadline and animal held fixed. Whether measurement is what produced it, or something correlated with it, is the question §13.4 leaves open.">
 </x-figure>
 
 ## The ordering, in engineering
@@ -80,7 +80,7 @@ So the sentence "vision had a dataset and olfaction does not" is doing double du
 - **The theory reading.** Vision had a measured $p(x)$, which made efficient-coding derivations possible. Olfaction has no measured $p(x)$ over chemical composition, which is why the analogous derivation cannot be run. This is §14.7's Gap 1 exactly.
 - **The engineering reading.** Vision had a large $p(y\mid x)$ sample, which made supervised learning possible. Olfaction has no comparable labelled set.
 
-These come apart, and the direction they come apart in is the uncomfortable one for this course. **A large labelled corpus buys engineering success without necessarily buying any normative theory.** A network trained on a large odour dataset could plausibly identify odours well while yielding nothing that answers a single question in §14.7 — no derived coordinates, no account of receptor tuning breadth, no statement of what the bulb is computing. Conversely, a measured $p(x)$ with no labels at all would be exactly what the theory needs and would not by itself produce a working device.
+These come apart, and the direction they come apart in is the uncomfortable one for candidate (a). **A large labelled corpus buys engineering success without necessarily buying any normative theory.** A network trained on a large odour dataset could plausibly identify odours well while yielding nothing that answers a single question in §14.7 — no derived coordinates, no account of receptor tuning breadth, no statement of what the bulb is computing. Conversely, a measured $p(x)$ with no labels at all would be exactly what the theory needs and would not by itself produce a working device.
 
 The reason to keep them together anyway, and it is a real reason rather than a rescue: **collecting the input is the shared prerequisite.** Both readings require going out into the world and recording what actually arrives at the sensor, in a common format, at scale. That is the step olfaction has not taken, and it is the step both goods are downstream of. But it should now be clear that taking it guarantees neither good, and §13.5 has to specify which one it is trying to buy.
 </details>
@@ -136,10 +136,12 @@ The caveat from §13.1's box applies and should be kept in view: convolutional a
 
 ## What this predicts for a modality with no dataset
 
-Put the two threads together and the prediction is sharp.
+Put the two threads together and candidate (a) makes a sharp prediction.
 
 If input statistics are what determine the representation, and if characterising them is the prerequisite for both the derivation and the training, then a modality whose input statistics nobody has characterised should show **both** failures — no normative theory, and no working engineered system — and it should show them for the same reason, and the failure should sit at the input representation rather than downstream of it.
 
-That is a strong prediction because it is conjunctive and because it specifies a location. It would be embarrassed by a modality with a mature theory and no dataset, by one with a working machine and no dataset, or by an engineered failure that turned out to be a failure of classifiers rather than of representations.
+That is a strong prediction in the sense that matters — it is conjunctive and it specifies a location. It would be embarrassed by a modality with a mature theory and no dataset, by one with a working machine and no dataset, or by an engineered failure that turned out to be a failure of classifiers rather than of representations.
 
-Olfaction is the test case, and §13.3 goes and looks.
+What it is not is a *discriminating* prediction, and this is the part to hold on to. Candidate (b) — no metric, hence no architectural prior, hence a far larger sample requirement — predicts a stall at the input representation as well, by a different route. Candidate (c) — non-superposition — predicts that the calculations which break are the ones that assumed linearity, and the input representation is exactly where those live. Candidate (e) — a smaller, younger, thinner-funded field — predicts a stall wherever the effort was not applied, and effort in engineering goes first to the input. Three of the four candidates converge on the same prediction, which means confirming it moves all of them together.
+
+Olfaction is the case to look at, and §13.3 goes and looks. What it finds constrains the list; it does not shorten it to one.

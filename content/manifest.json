@@ -1154,7 +1154,7 @@
       "dir": "13-artificial",
       "label": "Module 13",
       "title": "Artificial Sensing",
-      "blurb": "The course's central claim, tested outside biology. Machine vision and audition succeeded after their corpora were built; machine olfaction stalled at the same place the theory did — in systems with no evolution, no metabolism and no anatomy to blame.",
+      "blurb": "What engineered sensing can and cannot tell you about the biological case. Machine vision and audition succeeded after their corpora were built; machine olfaction stalled. Several explanations fit that, and this module sets out what each predicts rather than picking one.",
       "subsections": [
         {
           "id": "m13.s01",

@@ -142,7 +142,9 @@ The honest counterweight: samples from one environment are not samples from the 
 
 If it were built, and a system trained on it worked, what would have been shown?
 
-**That the dataset was binding**, against the hardware and intrinsic-difficulty rivals — provided it worked on today's imperfect sensors, which is why the transfer standard is item one rather than a detail. This is §13.4's isolating experiment.
+**That the missing ensemble was binding**, against the hardware and intrinsic-difficulty candidates — provided it worked on today's imperfect sensors, which is why the transfer standard is item one rather than a detail. This is the separating experiment §13.4 could not run on the historical record.
+
+And it is worth being clear about the other outcome, since §13.4 reaches no verdict and this section should not smuggle one in. If the corpus gets built and nothing follows, that is evidence for the intrinsic-difficulty candidate, and specifically for the missing-metric form of it: the data requirement was larger than anyone budgeted for because the relational structure a convolutional prior supplies for free had to be learned instead. Both outcomes are informative, which is the property that makes this worth funding regardless of what one currently believes.
 
 **Not necessarily anything normative.** The callout in §13.4 states the objection and the specification above is the response to it: build the corpus so that the *unlabelled marginal is published as a first-class object*, not merely as an intermediate consumed by a training pipeline. If only the labelled pairs and the trained model are released, olfaction gets a device and the course gets nothing. If the compositional ensemble is published, the derivations become possible whether or not the device is ever built — and, per the figure, that is the cheaper half.
 

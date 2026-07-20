@@ -50,10 +50,24 @@ priority of the three — the physics is covered, the normative angle is thin.
 ## quietly forgotten
 
 - **The datasheet scores are hand-assigned ordinals.** `datasheet.js` and
-  `modality-space.js` both run on 0–10 scores authored to summarise the prose.
-  The correlations they display (notably ensemble-vs-theory, r = 0.91) are
-  therefore partly a measure of authoring consistency, not only of the world.
-  Both captions say so. Do not let anyone quote r = 0.91 as a result.
+  `modality-space.js` run on 0–10 scores authored to summarise the prose, so any
+  correlation over them partly measures authoring consistency. As of 2026-07-20
+  these correlations are **no longer used as evidence anywhere** — the captions
+  say plainly that nothing rests on the number. Do not reintroduce them as
+  support.
+
+- **The course takes no position on why olfaction lacks a theory, deliberately.**
+  An earlier pass promoted one candidate — the unmeasured input ensemble — into
+  "the course's central empirical claim" and built structure on it. That was the
+  author's spin being over-committed, and it has been undone. §0.0 now puts four
+  candidates on the table with parity: unmeasured ensemble, intrinsic difficulty
+  from dimensionality and the missing metric, mixture non-superposition breaking
+  the linear machinery, and a younger smaller field. The reader decides.
+  **If you add material here, argue from the comparison and stop; do not let one
+  candidate become the message again.** The eliminations (taste dissociating
+  disorder from difficulty; spinocerebellar bypass killing antiquity;
+  nociception being ordered, low-dimensional and theory-less) stay assertive —
+  those are subtractions, not a thesis.
 
 - **The overclaiming scan was targeted, not exhaustive.** It covered modules
   4–7 and checked known-controversial claims rather than reading all 129

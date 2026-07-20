@@ -1,7 +1,7 @@
 ---
 id: m13.s03
 title: Machine olfaction, and why it stalled
-lede: Electronic noses were designed explicitly on the biological plan — a small array of broadly cross-sensitive sensors read out by pattern recognition — and they work in closed worlds and nowhere else. The stall is at the input representation, not at the classifier, which is the location the course's claim predicts.
+lede: Electronic noses were designed explicitly on the biological plan — a small array of broadly cross-sensitive sensors read out by pattern recognition — and they work in closed worlds and nowhere else. The stall is at the input representation, not at the classifier — a location that several of the candidate explanations predict, for different reasons.
 estimatedMinutes: 24
 ---
 
@@ -36,7 +36,7 @@ The failure is entirely downstream of the array, and it has a specific shape.
   "contentRev": 1,
   "prompt": "Drift and cross-sensitivity are always named together in the electronic-nose literature. Before reading on: take each alone and say whether it is survivable, and what rescue is available. Then say what happens when both are present at once, and why the rescues stop working.",
   "placeholder": "What invariant survives drift alone? What survives cross-sensitivity alone? What survives both?",
-  "reveal": "Each alone leaves an invariant, and the rescues are built on it.\n\n**Drift with selective sensors.** Each channel still means 'the amount of compound X'. Drift merely rescales that quantity, so ratios, internal standards or periodic recalibration against a known reference recover it. The meaning of a channel is stable even when its gain is not.\n\n**Cross-sensitivity with stable sensors.** Each channel reports a fixed weighted mixture. The mixing matrix is a property of the device, so characterise it once and invert it, or simply train a classifier on the raw pattern and use it indefinitely. The gain is stable and so is the mixing.\n\n**Both together.** Every channel reports a mixture, and the mixing weights themselves wander. Now there is no quantity in the raw data with a device-independent meaning and no quantity with a *time*-independent meaning either. Normalisation has nothing to key on, because there is no channel whose reading can be interpreted alone and therefore no reference against which to fit the transform. The pattern *is* the measurement, and the pattern moves.\n\n**The consequence that matters for this module** is not that classification is hard. It is that no corpus transfers: a dataset collected on one device is a dataset about that device, on that day. §13.4 promotes this to Rival 1, and the deeper box in this section states its strongest form — an odour corpus is not merely expensive, it is not a redistributable object.\n\nNotice also what this implies about the fix. The rescue is not drift-free hardware, which is a materials problem that has resisted decades of work. It is a shared reference object that restores a common frame — which is why §13.5 puts the transfer standard first, ahead of the sensors."
+  "reveal": "Each alone leaves an invariant, and the rescues are built on it.\n\n**Drift with selective sensors.** Each channel still means 'the amount of compound X'. Drift merely rescales that quantity, so ratios, internal standards or periodic recalibration against a known reference recover it. The meaning of a channel is stable even when its gain is not.\n\n**Cross-sensitivity with stable sensors.** Each channel reports a fixed weighted mixture. The mixing matrix is a property of the device, so characterise it once and invert it, or simply train a classifier on the raw pattern and use it indefinitely. The gain is stable and so is the mixing.\n\n**Both together.** Every channel reports a mixture, and the mixing weights themselves wander. Now there is no quantity in the raw data with a device-independent meaning and no quantity with a *time*-independent meaning either. Normalisation has nothing to key on, because there is no channel whose reading can be interpreted alone and therefore no reference against which to fit the transform. The pattern *is* the measurement, and the pattern moves.\n\n**The consequence that matters for this module** is not that classification is hard. It is that no corpus transfers: a dataset collected on one device is a dataset about that device, on that day. §13.4 takes this as a candidate explanation in its own right, and the deeper box in this section states its strongest form — an odour corpus is not merely expensive, it is not a redistributable object.\n\nNotice also what this implies about the fix. The rescue is not drift-free hardware, which is a materials problem that has resisted decades of work. It is a shared reference object that restores a common frame — which is why §13.5 puts the transfer standard first, ahead of the sensors."
 }
 </script>
 </x-predict>
@@ -45,7 +45,7 @@ Separately, each of these is manageable. A drifting but selective sensor can be 
 
 Together they are not manageable, and the figure shows why. When every channel reports a different weighted mixture and the weights themselves wander, the representation has no invariant. There is nothing the classifier could have keyed on that persists. The pattern *is* the measurement, and the pattern moves.
 
-Now compare a camera. Photon counting is close to linear, essentially does not drift over the life of the device, and is standardised well enough that an image collected on one camera is usable data for a model trained on another. A microphone is the same story. This is not a small difference, and §13.4 has to take seriously the possibility that it is the whole difference.
+Now compare a camera. Photon counting is close to linear, essentially does not drift over the life of the device, and is standardised well enough that an image collected on one camera is usable data for a model trained on another. A microphone is the same story. This is not a small difference, and it may well be the whole engineering difference; §13.4 states it at full strength as one of the candidates rather than as an objection to be answered.
 
 ## What has worked, and the shape of the successes
 
@@ -88,12 +88,12 @@ The second is a supervised learning problem with no training set. That is a stri
     {
       "text": "That chemical sensor hardware is the binding constraint.",
       "correct": false,
-      "feedback": "Correct under the assumption that GC-MS counts as a chemical sensor for these purposes — and it does bound the *nose* rather than the problem, which is genuinely a hit against Rival 1 (§13.4). But it does not kill the hardware story, because GC-MS is not deployable as a nose: too slow by three or four orders of magnitude, too large, sample-consuming. A perfect fast array delivered tomorrow would still leave the composition-to-source mapping unlearned."
+      "feedback": "Correct under the assumption that GC-MS counts as a chemical sensor for these purposes — and it does bound the *nose* rather than the problem, which is genuinely a hit against the hardware candidate (§13.4). But it does not kill the hardware story, because GC-MS is not deployable as a nose: too slow by three or four orders of magnitude, too large, sample-consuming. A perfect fast array delivered tomorrow would still leave the composition-to-source mapping unlearned."
     },
     {
       "text": "That the problem is intrinsically harder than vision.",
       "correct": false,
-      "feedback": "Correct under the assumption that intrinsic difficulty means difficulty of *measurement*. But §13.4's surviving version of that rival is computational, not measurement-related: odour has no metric, hence no convolutional prior, hence a higher sample requirement. GC-MS says nothing about that, and the two are compatible."
+      "feedback": "Correct under the assumption that intrinsic difficulty means difficulty of *measurement*. But the surviving version of that candidate is computational, not measurement-related: odour has no metric, hence no convolutional prior, hence a higher sample requirement (§13.4). GC-MS says nothing about that, and the two are compatible — which is the general shape of the trouble in this module, since most of the candidates are compatible with most of the others."
     },
     {
       "text": "That the stall is at the classifier rather than the input representation.",
@@ -120,7 +120,7 @@ The nearest thing the field has had to a benchmark episode is instructive on bot
 <details class="x-deeper">
 <summary>Why the labelled-set problem is worse in olfaction than the annotation-cost argument suggests</summary>
 
-The obvious statement of the difficulty is cost: labelling an image takes a human a second or two, whereas ground-truthing an air sample needs an analytical instrument. §13.4 treats that as a rival explanation and it deserves to be.
+The obvious statement of the difficulty is cost: labelling an image takes a human a second or two, whereas ground-truthing an air sample needs an analytical instrument. §13.4 treats that as a candidate explanation and it deserves to be.
 
 But there is a structural problem underneath the cost, and it is not fixed by money.
 
@@ -130,18 +130,18 @@ In olfaction there is no such object. A stimulus cannot be stored, transmitted, 
 
 This has a consequence the cost argument misses. In vision the corpus is a set of **stimulus–label pairs that can be redistributed**, so the annotation effort is spent once by anyone and reused by everyone. In olfaction, any corpus of sensor responses is a corpus of *one device's responses*, and a corpus of GC-MS compositions is a corpus of measurements at *one sampling point at one time* that no other lab can reproduce or verify against its own instrument.
 
-So the odour corpus that would be analogous is not merely more expensive to build. It is a different kind of object, and getting it to transfer requires solving the standardisation problem first. This is the strongest version of the sensor-hardware objection in §13.4, and it should be stated at full strength rather than the weak version about drift being annoying.
+So the odour corpus that would be analogous is not merely more expensive to build. It is a different kind of object, and getting it to transfer requires solving the standardisation problem first. This is the strongest version of the sensor-hardware candidate in §13.4, and it should be stated at full strength rather than the weak version about drift being annoying.
 
 The escape route, and §13.5 takes it: **make composition the interchange format.** A GC-MS composition is device-independent in a way a sensor response is not. It is expensive, slow and not a nose — but it is publishable, comparable, and reusable, which the alternatives are not. That is the same argument §14.7 makes for persuading atmospheric chemists and food scientists to publish raw compositions, arrived at from the engineering side.
 </details>
 
-## Where that leaves the test
+## Where that leaves the checks
 
-Against §13.1's four checks:
+Against §13.1's four:
 
 1. **Dataset present in the successes, absent in the failure.** Holds.
 2. **Dataset first.** Holds in vision and speech, on the historical record. Vacuous in olfaction, where there is nothing to order.
 3. **The stall is at the input representation.** Holds, and this is the strongest of the four. Machine olfaction is not short of classifiers, optimisers, or compute — it has full access to everything the successful domains used. It is short of an agreed input, of ground-truth pairs, and of a way to make either transfer between devices.
 4. **The stall persists without biological constraints.** Holds. No electronic nose has a metabolic budget, a 200 ms deadline [@uchida2003], adult neurogenesis, a missing thalamus, or receptors it cannot choose. The design of its array it borrowed from biology deliberately; every constraint it did not borrow, it does not have. It stalls anyway, in the same place.
 
-All four checks pass, which is the point at which one should become suspicious rather than satisfied. §13.4 is about what else could have produced exactly this pattern.
+All four checks pass, which is the point at which one should become suspicious rather than satisfied. Checks that a hypothesis passes easily are usually checks that its competitors pass too, and §13.4 is about what else could have produced exactly this pattern. The answer is: most of the list.

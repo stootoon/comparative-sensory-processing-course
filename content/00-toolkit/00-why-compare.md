@@ -9,9 +9,11 @@ Here is the situation this course is a response to.
 
 We have a mature, quantitative, genuinely predictive theory of the retina. We can start from measured statistics of natural images, apply a principle, and derive receptive field shapes that match what electrophysiologists find — including how those shapes should *change* when the light dims, which was predicted before it was checked.
 
-We have nothing of the kind for olfaction. Not because the field is less careful or less clever, but because the ingredients that made the visual result possible are missing.
+We have nothing of the kind for olfaction. Certainly not because the field is less careful or less clever — so why not?
 
-**Both facts are informative, and the second is only interpretable in light of the first.** Studying olfaction alone, you cannot tell whether the missing theory reflects a gap in our knowledge or a genuine difference in how the system works. Studying it beside vision, you can start to say which.
+**That question is the course, and it is left open on purpose.** Studying olfaction alone you cannot tell whether the missing theory reflects a gap in what has been measured, a property of the problem that makes it genuinely harder, or an accident of which questions got asked first. Studying it beside seven other senses, you can at least see which explanations survive contact with the comparison.
+
+What this course supplies is the comparison, laid out on the same axes for every modality, with the evidence for each candidate explanation kept separate rather than blended. **The conclusion is yours to draw.** Where a section argues for a particular answer — and some do — it says so, and you should read those parts more sceptically than the rest.
 
 ## Sensory systems as natural experiments
 
@@ -26,7 +28,7 @@ That gives us the one thing a single-system study can never provide: **a way to 
 - A motif appearing in exactly one is either a solution to something peculiar about that modality, or a historical accident. Distinguishing those two is hard, and the comparison is what makes it possible at all.
 
 <x-figure src="content/00-toolkit/figures/modality-space.js"
-  caption="The whole course on two axes; pick any pair. The opening view is the course's central empirical claim — measured ensemble against theoretical maturity, r = 0.92 across ten modalities, the strongest relationship in the datasheet, with olfaction alone in the bottom-left. Then check the two rival explanations of why olfaction lacks a theory: ordered array against theory gives r = 0.62, dimensionality against theory gives −0.54. Both are weaker, and nociception is why — it is ordered and low-dimensional and still has no theory, because its ensemble is unmeasured. Highlight it, then highlight gustation, which is the mirror case: unordered and low-dimensional with a serviceable theory. Between them they isolate the measured ensemble as the operative variable better than either does alone.">
+  caption="The whole course on two axes; pick any pair and see where the modalities fall. It opens on two descriptive properties — dimensionality against ordering — because the interesting question is what those have to do with theoretical maturity, and that is for you to explore rather than for the figure to assert. Several pairings are moderately correlated and they point in different directions. Watch the outliers rather than the lines: gustation is unordered and low-dimensional with a serviceable theory, nociception is ordered and low-dimensional with none, and neither fits a single-factor story. The scores are the author's own summary of the course's prose, so any correlation partly measures how consistently they were assigned.">
 </x-figure>
 
 
@@ -52,7 +54,11 @@ Rather than leave these to emerge, here is the map. Each is developed where it f
 
 The single most productive idea in sensory neuroscience. Measure what the world actually delivers, ask what representation would be efficient given that, and the biology often matches. It works for retinal receptive fields, for cochlear filter shapes, for the contrast–response curve of a fly neuron.
 
-**The comparative twist:** it only works when someone has measured the ensemble. Vision and audition have; olfaction has not, and that single gap explains most of the asymmetry in theoretical maturity between them. **This is a data problem masquerading as a theory problem**, which is worth knowing before you spend a career on the theory side.
+**The comparative twist:** it only works when someone has measured the ensemble. Vision and audition have; olfaction has not.
+
+Whether that gap *explains* olfaction's thinner theory is a question this course puts to you rather than answers. It is one candidate. Others are live: that odour is intrinsically harder because of its dimensionality and the absence of a metric; that mixtures do not superpose at the receptor, so the linear machinery that worked elsewhere does not apply; that the objective has never been stated precisely enough to solve; or simply that the field is younger and smaller. These are not mutually exclusive, and several could be true at once.
+
+You will meet evidence bearing on all of them. **Keep score as you go, and notice when a section is arguing for one rather than reporting.**
 
 ### Lesson 2 — The same principle predicts opposite structures in different regimes
 
@@ -124,7 +130,7 @@ Fifteen modules, doing four different jobs.
 
 **Two modules of natural experiments (§9–§10).** The exotic senses are not a curiosity cabinet — electroreception, echolocation, infrared and magnetoreception each hold constant something the familiar eight confound. Development and evolution then supply the two constraint sources the earlier modules assume without examining: how a system must be *built*, and how it *got here*.
 
-**Four synthesis modules (§11–§14)**, which introduce little new material and mostly pivot what is already established. §11 collects the motifs that recur; §12 the axes on which modalities differ, where the course audits its own central claim and weakens it; §13 tests the central empirical claim outside biology, in engineered systems where no evolutionary or metabolic explanation is available; and §14 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
+**Four synthesis modules (§11–§14)**, which introduce little new material and mostly pivot what is already established. §11 collects the motifs that recur; §12 the axes on which modalities differ, where the course audits its own central claim and weakens it; §13 asks what engineered sensing systems add, since they let you vary things biology holds fixed; and §14 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
 
 Every module ends with a quiz, and §14.8 is a cumulative final exam.
 

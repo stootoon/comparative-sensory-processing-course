@@ -18,8 +18,8 @@ const AXES = [
 ];
 
 export const controls = [
-  { id: 'xAxis', label: 'Horizontal axis', type: 'select', value: 'ensemble', options: AXES },
-  { id: 'yAxis', label: 'Vertical axis',   type: 'select', value: 'theory',   options: AXES },
+  { id: 'xAxis', label: 'Horizontal axis', type: 'select', value: 'dim', options: AXES },
+  { id: 'yAxis', label: 'Vertical axis',   type: 'select', value: 'ordered', options: AXES },
 ];
 
 // Ordinal scores, 0–10. Deliberately coarse — the figure is for locating
@@ -79,39 +79,26 @@ export function draw(root, values, { createPlot }) {
   const n=document.createElement('p'); n.className='x-figure-note';
   let body;
   if(xa===ya){
-    body = `Both axes are showing the same property, so every modality necessarily lies on the diagonal. ` +
-      `Change one of them to compare two different properties.`;
-  } else if(xa==='ensemble'&&ya==='theory'||xa==='theory'&&ya==='ensemble'){
-    body = `<strong>This is the course's central empirical claim, and the opening view.</strong> Measured ensemble ` +
-      `against theoretical maturity, <strong>r = ${rTxt}</strong> across ten modalities. Every modality whose input ` +
-      `statistics someone characterised has a normative theory; the one whose statistics nobody characterised does ` +
-      `not, and olfaction sits alone in the bottom-left corner. ` +
-      `<br><br>The correlation is not evidence of the causal direction, and the honest alternative is that both ` +
-      `track a third variable — tractability, or how long a field has had good tools. The reason to prefer the ` +
-      `causal reading is historical rather than statistical: in vision and audition the ensemble was measured ` +
-      `<em>first</em>, largely by people not thinking about coding theory, and the theory followed. ` +
-      `<br><br>Now try the two rival explanations of <em>why</em> olfaction lacks a theory, and note that the ` +
-      `numbers do not go the way the course's slogan implies. Ordered array against theory gives r = 0.62; ` +
-      `dimensionality against theory gives r = −0.54. <strong>Disorder correlates with poor theory slightly ` +
-      `better than dimensionality does.</strong> ` +
-      `<br><br>The case for blaming dimensionality anyway does not rest on the correlation — it rests on ` +
-      `gustation being an <em>outlier</em> on the disorder axis. Taste is maximally disordered and has a perfectly ` +
-      `serviceable theory, which is a counterexample the correlation coefficient averages away. Highlight it and ` +
-      `see. This is why §12.1 settles on a <strong>disorder × dimensionality interaction</strong> rather than ` +
-      `pinning it on either alone, and it is a good demonstration that a scatter of nine points can mislead you ` +
-      `if you read only the summary statistic.`;
+    body = `Both axes show the same property, so every modality lies on the diagonal. ` +
+      `Change one of them.`;
   } else {
-    body = `Olfaction is drawn larger. <strong>r = ${rTxt}</strong> across the ten modalities on these two axes. ` +
-      `<br><br>For reference, the strongest pair in the whole datasheet is <strong>ensemble measured against ` +
-      `theory maturity, r = 0.92</strong> — this course's central empirical claim, and the view this figure opens ` +
-      `on. Next come dimensionality against sensor speed (−0.82) and ordered array against theory (0.62). ` +
-      `Dimensionality against theory maturity, which the course leans on most heavily in prose, is only ` +
-      `−0.54 — still weaker than the disorder axis it is usually contrasted with, though both rivals weakened when nociception was added. §12.1 takes that seriously rather ` +
-      `than explaining it away.`;
+    body = `Olfaction is drawn larger, because it is the case the course is aimed at — not because ` +
+      `it is special on these axes. <strong>r = ${rTxt}</strong> for the pair on screen.` +
+      `<br><br>Worth trying, in no particular order: dimensionality against theory maturity; ` +
+      `ordered array against theory maturity; measured ensemble against theory maturity; ` +
+      `sensor speed against dimensionality. Several of these are moderately strong, they point in ` +
+      `different directions, and the course does not settle which one matters. That is deliberate — ` +
+      `what the comparison is good for is showing you the shape of the design space, not telling you ` +
+      `which axis is causal.` +
+      `<br><br>Watch for the outliers rather than the lines. Gustation is unordered and low-dimensional ` +
+      `with a serviceable theory; nociception is ordered and low-dimensional with none. Neither fits a ` +
+      `single-factor story, and a scatter of ten points will mislead you if you read only the ` +
+      `coefficient.`;
   }
-  n.innerHTML = body + `<br><br>Scores are ordinal and deliberately coarse — they are for locating modalities ` +
-    `relative to one another, not for pretending to precision, and <em>r</em> on ten hand-assigned ordinal ` +
-    `scores is an illustration rather than a statistical result.`;
+  n.innerHTML = body + `<br><br><em>These scores were assigned by the course's author to summarise its own ` +
+    `prose.</em> They are ordinal, coarse, and not independent measurements, so <em>r</em> here partly ` +
+    `reflects how consistently they were scored. Treat the picture as a way of organising what you have ` +
+    `read, not as evidence about the world.`;
   root.appendChild(n);
   const c=document.createElement('p'); c.className='x-figure-credit';
   c.textContent='Summary figure generated for this course from the per-module datasheets.';

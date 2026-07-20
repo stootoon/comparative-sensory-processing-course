@@ -9,28 +9,34 @@ estimatedMinutes: 30
 
 ## What the comparison established
 
-Three things, and it is worth noticing that all three are **eliminations or reframings** rather than positive mechanistic proposals. That is not a shortfall. It is what comparison is good for — a well-chosen control tells you what a property is *not* sufficient for, and that is more durable than a mechanism.
+The secure results are **eliminations and reframings** rather than positive mechanistic proposals. That is not a shortfall. It is what comparison is good for — a well-chosen control tells you what a property is *not* sufficient for, and one case is enough to establish it.
 
-**1. Disorder is not sufficient for difficulty.** Taste is unordered and low-dimensional and has a serviceable normative account. Whatever makes olfaction hard, mere absence of a metric on the receptor array is not it — §12.1 works through the audit and lands on a disorder × dimensionality interaction rather than either alone.
+**1. Disorder is not sufficient for difficulty.** Taste is unordered and low-dimensional and has a serviceable normative account. Whatever makes olfaction hard, mere absence of a metric on the receptor array is not it — §12.1 works through the audit and lands on a disorder × dimensionality interaction rather than either alone, and the interaction is an inference where the elimination is a fact.
 
 **2. Thalamic bypass does not require antiquity.** Touch and proprioception both route traffic around the thalamus and neither is ancient. The antiquity explanation of olfaction's missing relay loses its generality, though §12.4 is careful that the replacement — deadline pressure — does not survive intact either.
 
-**3. Olfaction's tractable normative problems are temporal, not chemical.** The plume ensemble is measured, analytically characterised, and under-exploited; the chemical ensemble is not measured and will not be soon. Effort is currently allocated in close to inverse proportion to tractability.
+**3. Neither ordering nor low dimensionality is sufficient for a theory to exist.** Nociception has an ordered array and few dimensions and no normative account at all. Whatever explains which modalities acquired theories, the two structural properties most often invoked do not do it on their own.
+
+**4. Intrinsic difficulty and data requirement compound rather than compete.** No metric means no neighbourhood, hence no convolutional prior and no smoothing — so a system without a metric needs *more* measured input statistics to reach the same place, not fewer. The two most-discussed explanations of olfaction's position are usually posed as rivals, and this is the reason they are not.
+
+**What the comparison did not establish** is which explanation of olfaction's position is correct. §0.0 set out four candidates — the unmeasured ensemble, intrinsic difficulty from dimensionality and the missing metric, mixtures not superposing at the receptor, and the field being younger and smaller. Evidence bearing on all four appears throughout the course. None is excluded, several could hold at once, and the sections below are laid out so you can weigh them rather than so they add up.
 
 ## The four structural gaps
 
 Every experiment in §14.6 is downstream of one of these. They are gaps in how the field is equipped, not gaps in anyone's reasoning, and none of them is fixed by a single study.
 
+They are presented in no order of importance, and that is deliberate. **Which gap binds depends on which explanation of olfaction's position is right, and that is exactly what is unresolved.** If the unmeasured ensemble is the operative constraint, Gap 1 is everything and the others are downstream. If the problem is that nobody has posed a solvable estimation problem, Gap 2 binds and a database arrives without a question to ask of it. If the field is mainly younger and smaller, Gap 4 is the cheap accelerant and the rest resolve themselves as the field grows. If mixture nonlinearity at the receptor is what breaks the imported machinery, none of the four is the right frame and the forward model described below is. Read the descriptions as four things that are true about how olfaction is equipped, and hold the ranking open.
+
 ### Gap 1 — There is no natural odour-scene database
 
-The single most consequential absence in the field, and the one this course returns to most often.
+The absence this course returns to most often, and the one whose consequences are easiest to trace.
 
 Vision and audition have measured input ensembles. Natural image statistics and natural sound statistics were characterised — largely by people not thinking about coding theory at all — and only then could anyone derive retinal receptive fields [@atick1992; @srinivasan1982] or cochlear filter shapes [@lewicki2002; @smith2006]. §2.4 sets out the five-step template; steps 2 through 5 are ready for olfaction, and step 1 does not exist.
 
 What would be needed: air samples from ecologically relevant environments, with ground-truth composition by GC-MS, sampled densely enough in time to capture plume dynamics and across enough environments to estimate variability. The obstacle is not conceptual. It is that the instrument is expensive, slow, and cannot be pointed, and that the work is unglamorous relative to its importance.
 
 <x-figure src="content/00-toolkit/figures/modality-space.js"
-  caption="The course's central empirical claim, and the reason Gap 1 is first: measured ensemble against theoretical maturity, r = 0.92 across ten modalities, with olfaction alone in the bottom-left. Read the causal direction cautiously — the honest alternative is that both track tractability. What tips it is historical rather than statistical: in vision and audition the ensemble was measured first, largely by people not thinking about coding theory, and the theory followed. Then switch the axes to ordered array against theory (r = 0.76) and watch gustation break the tidy story, which is the argument of §12.1.">
+  caption="Measured ensemble against theoretical maturity, with olfaction in the bottom-left. The figure reports a correlation; treat it as a picture of the argument, not as evidence for it. Both axes are ordinal scores this course assigned to summarise its own prose, so the coefficient partly measures how consistently the author scored — and ten modalities sharing descent and a research culture are not ten independent draws, so it has no interpretable standard error. Nothing here rests on the number. What is worth looking at is the layout: switch the axes to ordered array against theory and gustation breaks the tidy story (§12.1); highlight nociception, which is ordered and low-dimensional and still has no account. Both are eliminations, and neither needs a correlation.">
 </x-figure>
 
 <x-callout class="x-callout is-key">
@@ -92,15 +98,32 @@ This is downstream of Gap 1 but not identical to it: even without a natural-scen
   "contentRev": 1,
   "points": 1,
   "shuffleSeed": 23,
-  "prompt": "Rank the four structural gaps by how much closing each would accelerate the field — most first. Assume you could close any one of them completely.",
+  "prompt": "Rank the four structural gaps by how expensive they are to close, cheapest first. This is deliberately not a ranking by importance — which gap matters most depends on which explanation of olfaction's position is right, and that is unresolved. Cost does not.",
   "items": [
-    { "id": "a", "text": "Gap 1 — no natural odour-scene database with ground-truth composition." },
-    { "id": "b", "text": "Gap 2 — the objective has not been stated as a solvable estimation problem." },
-    { "id": "c", "text": "Gap 3 — the standard stimulus cannot reveal the codes under dispute." },
-    { "id": "d", "text": "Gap 4 — no shared benchmark, so competing models cannot be scored." }
+    {
+      "id": "a",
+      "text": "Gap 1 — no natural odour-scene database with ground-truth composition."
+    },
+    {
+      "id": "b",
+      "text": "Gap 2 — the objective has not been stated as a solvable estimation problem."
+    },
+    {
+      "id": "c",
+      "text": "Gap 3 — the standard stimulus cannot reveal the codes under dispute."
+    },
+    {
+      "id": "d",
+      "text": "Gap 4 — no shared benchmark, so competing models cannot be scored."
+    }
   ],
-  "correctOrder": ["b", "c", "a", "d"],
-  "modelAnswerNote": "The intended ranking is deliberately not the obvious one, and the argument is about cost as much as impact.\n\n**Gap 2 first.** It is free. Stating the problem as an estimation problem with a named latent variable, a loss, and a noise model costs nothing but thought, and it is a precondition for the other three being useful — a database you cannot pose a question against does not help, and a benchmark requires knowing what is being scored. It is also the gap most likely to be dismissed as merely philosophical, which is why it is worth putting first.\n\n**Gap 3 second.** Changing the stimulus is cheap relative to building a database, and it is the gap currently generating false negatives. Several apparent absences in olfaction may simply be artefacts of what gets presented, and every one of those is a wrong belief actively directing effort elsewhere.\n\n**Gap 1 third — despite being the most consequential.** If it were closed tomorrow it would unlock the flagship calculation. But it is a years-long effort, it cannot be closed by reasoning, and closing it without Gap 2 would produce a large dataset nobody knows what to optimise against.\n\n**Gap 4 last.** Real, and the cheapest of all in principle, but its benefit is to the field's ability to adjudicate rather than to generate. Adjudication matters most when there are many competing quantitative models, and olfaction does not yet have that problem.\n\nA reasonable person could swap 2 and 3, or argue Gap 1 first on the grounds that impact should beat cost. The indefensible answer is Gap 4 first."
+  "correctOrder": [
+    "b",
+    "d",
+    "c",
+    "a"
+  ],
+  "modelAnswerNote": "Cost is orthogonal to importance, which is why it can be ranked when importance cannot.\n\n**Gap 2 — stating the objective — is free.** It costs thought and nothing else. Writing down the latent variable, the loss and the noise model requires no new measurement, and where it has been done for source separation it produced quantitative results immediately.\n\n**Gap 4 — a shared benchmark — costs agreement.** Assembling published receptor-response data and behavioural results into a scored benchmark needs no new experiments at all. It is cheap in resources and expensive in coordination, which is a different kind of hard.\n\n**Gap 3 — changing the standard stimulus — costs apparatus and habit.** A wind tunnel, controlled plume geometry, sniff-triggered delivery. Real money and real rebuilding of protocols, but months rather than years, and several labs already have the pieces.\n\n**Gap 1 — the odour-scene database — costs years.** Analytical chemistry on air samples across many environments, with a receptor forward model to go with it. It cannot be closed by reasoning or by agreement, only by a large and unglamorous measurement effort.\n\n**What this ordering does not tell you is what to do.** If the ensemble explanation is right, the expensive gap is the one that matters and the cheap ones buy little. If the objective explanation is right, the free one is decisive. The honest position is that closing Gap 2 first is the best bet under uncertainty, precisely because it is free — not because the course knows it is the binding constraint."
 }
 </script>
 </x-order>
@@ -176,12 +199,13 @@ The three cheapest entry points, all requiring no new apparatus:
   "contentRev": 1,
   "points": 1,
   "prompt": "You have finished the course. Write the paragraph you would send to a colleague who works on olfaction and has not taken it — what the comparative method gave you that working within olfaction would not have, and what you now think they are getting wrong. Be specific enough to be argued with.",
-  "modelAnswer": "There is no single correct answer, but a good one is concrete about mechanism rather than enthusiastic about breadth.\n\nA strong version might run: *the most useful thing was the eliminations, not the analogies.* Working within olfaction you can notice that the receptor array is unordered and that the field is stuck, and it is very natural to connect them. Taste breaks that connection — unordered, low-dimensional, and not stuck — and no amount of work inside olfaction produces that control. Similarly, the antiquity explanation of the missing thalamic relay is entirely plausible until you notice that touch and proprioception bypass thalamus too and are not ancient. Both corrections come from outside and neither is available from within.\n\nOn what the field may be getting wrong, the defensible candidates are the ones this course argues for at length: that the standard stimulus paradigm cannot detect the codes the field is arguing about, so several confident claims of absence are unsupported; that effort is allocated in close to inverse proportion to tractability, with the measured temporal ensemble under-exploited while the unmeasured chemical one absorbs most of the theory; and that the objective has never been stated precisely enough to be solved, which no amount of additional data fixes.\n\nA weaker answer lists analogies without saying what they predict. The course's own standard is that an import which stops at \"these are similar\" has done no work, and that applies to this paragraph too.\n\nThe strongest answers will also say where the comparative method misled — for instance that it systematically under-weights the properties with no analogue elsewhere, which in olfaction means the mixture problem and the sheer dimensionality. Notice that Tier 1 of the agenda contains no experiment addressing either.",
+  "modelAnswer": "There is no single correct answer, but a good one is concrete about mechanism rather than enthusiastic about breadth.\n\nA strong version might run: *the most useful thing was the eliminations, not the analogies.* Working within olfaction you can notice that the receptor array is unordered and that the field is stuck, and it is very natural to connect them. Taste breaks that connection — unordered, low-dimensional, and not stuck — and no amount of work inside olfaction produces that control. Similarly, the antiquity explanation of the missing thalamic relay is entirely plausible until you notice that touch and proprioception bypass thalamus too and are not ancient. Both corrections come from outside and neither is available from within.\n\nOn what the field may be getting wrong, the defensible candidates are ones the course supplies evidence for without settling: that the standard stimulus paradigm cannot detect the codes the field is arguing about, so several confident claims of absence are unsupported; that the measured temporal ensemble is under-exploited while the unmeasured chemical one absorbs most of the theoretical effort — though whether that is a misallocation depends on why olfaction lacks a theory, which is open; and that the objective has never been stated precisely enough to be solved, which no amount of additional data fixes. A colleague is entitled to answer that the field is simply younger and smaller and needs no diagnosis, and the paragraph is better if it says what would distinguish that from the alternatives.\n\nA weaker answer lists analogies without saying what they predict. The course's own standard is that an import which stops at \"these are similar\" has done no work, and that applies to this paragraph too.\n\nThe strongest answers will also say where the comparative method misled — for instance that it systematically under-weights the properties with no analogue elsewhere, which in olfaction means the mixture problem and the sheer dimensionality. Notice that Tier 1 of the agenda contains no experiment addressing either.",
   "rubric": [
     "Identifies at least one specific claim that only the comparison could establish",
     "Prefers the eliminations (taste, spinocerebellar bypass) over loose analogies",
     "Names a concrete belief the field may hold wrongly, with the reason",
     "States something the comparative method itself is bad at",
+    "Treats the explanations of olfaction's position as competing candidates and says what would separate them, rather than asserting one",
     "Bonus: notices that the mixture problem is absent from the top of the agenda"
   ]
 }
