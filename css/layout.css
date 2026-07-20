@@ -126,6 +126,17 @@
 
 .x-nav-num { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
 
+/* Module number in the sidebar. Right-aligned in a fixed box so single- and
+   double-digit modules line their titles up rather than stepping in by a
+   character once the list passes 9. */
+.x-nav-module-num {
+  display: inline-block;
+  min-width: 1.35em;
+  text-align: right;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+
 .x-nav-mark {
   flex: none;
   width: 7px; height: 7px;

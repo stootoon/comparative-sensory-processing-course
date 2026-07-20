@@ -44,7 +44,7 @@ estimatedMinutes: 14
 <div class="x-callout-title">The olfaction hook</div>
 Four things vision hands forward, in descending order of how ready they are to use.
 
-<strong>1. The opponent-axis calculation.</strong> PCA on natural cone responses yielded the axes along which colour is represented. The olfactory version — decorrelate receptor activations across natural odour scenes, ask whether the resulting axes have perceptual reality — is well-posed and blocked only on the ensemble. §12.1 makes it the flagship question.
+<strong>1. The opponent-axis calculation.</strong> PCA on natural cone responses yielded the axes along which colour is represented. The olfactory version — decorrelate receptor activations across natural odour scenes, ask whether the resulting axes have perceptual reality — is well-posed and blocked only on the ensemble. Import 1 makes it the flagship question.
 
 <strong>2. Every metric-dependent motif is at risk.</strong> Surrounds, maps, interpolation, smoothing priors, convolution, the receptive field itself — all need "nearby" to mean something. §3.4 removes that. The productive move is not to note the absence but to ask, for each motif, what it was buying and what could buy the same thing without a metric.
 

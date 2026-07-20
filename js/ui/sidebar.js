@@ -40,15 +40,28 @@ function render() {
     </div>`;
 }
 
+// The module number comes from its own subsections' section numbers rather than
+// from the id or the label, so the "1" in "1 Vision" is always the same "1" the
+// reader sees in the §1.4 beneath it. Deriving it from the id would silently
+// drift if a module were ever renumbered, and the labels are not all numeric —
+// the capstone's is "Capstone".
+function moduleNumber(module) {
+  const first = module.subsections?.find((s) => s.sectionNumber);
+  if (first) return String(first.sectionNumber).split('.')[0];
+  const m = /^m(\d+)$/.exec(module.id ?? '');
+  return m ? String(Number(m[1])) : null;
+}
+
 function renderModule(module, activeId) {
   const progress = moduleProgress(module.id);
   const done = progress.total > 0 && progress.completed === progress.total;
   const hasActive = module.subsections.some((sub) => sub.id === activeId);
+  const num = moduleNumber(module);
 
   return `
     <details class="x-nav-module${done ? ' is-done' : ''}" ${hasActive || module.open ? 'open' : ''}>
       <summary>
-        <span class="x-nav-module-title">${module.title}</span>
+        <span class="x-nav-module-title">${num ? `<span class="x-nav-module-num">${num}</span> ` : ''}${module.title}</span>
         <span class="x-nav-count">${progress.completed}/${progress.total}</span>
       </summary>
       <ul class="x-nav-list">

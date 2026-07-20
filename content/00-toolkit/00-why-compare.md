@@ -108,13 +108,26 @@ Fly and locust work appears throughout, and not as decoration. For several of th
 The right attitude is to use those results to interpret vertebrate data, not the other way round.
 </x-callout>
 
-## What this sampler covers
+## How the course is laid out
 
-You are reading a sampler: two modalities, four sections each, plus this toolkit and a capstone.
+Twelve modules, and they do three different jobs.
 
-The four sections are §1 (the computational problem), §2 (natural statistics), §4 (the receptor array) and §5 (the first circuit) — chosen because that is where vision and olfaction diverge most sharply, and because the vision sections supply templates the olfaction sections can be measured against.
+**This toolkit (§0)** supplies the vocabulary everything else uses: the three normative stances and how to tell them apart, and why efficient coding predicts opposite structures at high and low SNR. It is short, and it is worth reading first — the modality modules assume it.
 
-The full course adds audition, somatosensation, gustation, vestibular, proprioception and the exotic senses, then synthesis modules that pivot everything into a single comparative table.
+**Eight modality modules (§1–§9)**, each using the identical eleven-section skeleton, in the same order, with the same numbering. §4 means the receptor array whether you are reading about cones or odorant receptors, so you can read *across* modules as easily as down one. Vision comes first because it supplies the templates everything else is measured against; olfaction comes third, after two mature normative theories, so you arrive equipped. The exotic senses (§9) come last and are not a curiosity cabinet — each isolates one design variable the familiar senses confound.
+
+**Three synthesis modules (§10–§12)**, which introduce almost no new material. They pivot what the modality modules have already established: §10 collects the motifs that recur, §11 the axes on which the modalities differ, and §12 works through what each modality lends olfaction, ending in a ranked research agenda.
+
+<x-callout class="x-callout is-key">
+<div class="x-callout-title">Two ways to read this</div>
+<strong>Down</strong> — one modality at a time, all eleven sections. This is the natural route if you want to learn a modality you do not know.
+
+<strong>Across</strong> — the same section number in every module, in turn. Read every §4 and you get a comparative treatment of receptor arrays; read every §6 and you get the question of what thalamus is actually for, asked of eight systems, two of which manage without one. <strong>The across-reading is what the parallel skeleton exists to enable</strong>, and it is where most of the course's arguments actually come from.
+
+If you only have time for a slice: §0, then all of §1 (vision) as the template, then all of §3 (olfaction) as the case, then §12.5 for what the comparison produced.
+</x-callout>
+
+**No section is ever deleted.** Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why. Those absences are the most comparatively informative data in the course, and deleting the section would destroy the information.
 
 <x-predict>
 <script type="application/json">

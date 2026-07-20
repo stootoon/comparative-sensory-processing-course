@@ -16,7 +16,7 @@ The format is fixed, and every item must reach step four.
 3. The disanalogy that breaks it
 4. **A concrete prediction or experiment**
 
-## 12.1 From §1.2 — the opponent-channel question
+## Import 1 — from §1.2: the opponent-channel question
 
 **Imported:** PCA on natural cone responses yields the achromatic and two opponent axes. A stimulus space with no obvious coordinate system was given derived coordinates, from measured statistics alone [@buchsbaum1983; @ruderman1998].
 
@@ -26,7 +26,7 @@ The format is fixed, and every item must reach step four.
 
 **Prediction:** if odour statistics have a dominant low-dimensional structure inherited from biochemistry — compounds co-occurring because shared metabolic pathways produce them — then the derived axes should align with *biosynthetic* rather than physicochemical categories. This is testable now against existing co-occurrence data, and it is a different prediction from the hyperbolic-geometry proposal [@zhou2018], which says the space is not Euclidean at all. **The two can be distinguished**: hyperbolic embedding predicts that hierarchical distances are preserved while Euclidean PCA predicts a flat opponent structure. Fit both to the same co-occurrence data and compare held-out likelihood.
 
-## 12.2 From §1.4 — the retinotopy question
+## Import 2 — from §1.4: the retinotopy question
 
 **Imported:** vision's map is inherited free from the sensor sheet, and almost every computational motif depends on it.
 
@@ -40,7 +40,7 @@ The format is fixed, and every item must reach step four.
 
 **Prediction:** if a computed map exists, it should be for a behaviourally derived variable, and it should be **downstream of the bulb** — in anterior olfactory nucleus, olfactory tubercle, or a cortical subregion — not in the bulb, whose organisation is set by receptor identity. Given §3.2, the highest-prior candidate is **source distance**, since plume statistics carry that information and it is exactly the kind of continuous variable local interactions help with. Look for it with wide-field imaging under controlled plume geometry, varying distance while holding identity and mean concentration fixed.
 
-## 12.3 From §1.4 — the tuning-breadth benchmark
+## Import 3 — from §1.4: the tuning-breadth benchmark
 
 **Imported:** optimal tuning width is derivable given stimulus dimensionality, channel count, and noise, and optimal tuning density tracks the prior [@ganguli2014]. Vision sits near the predicted optimum.
 
@@ -50,7 +50,7 @@ The format is fixed, and every item must reach step four.
 
 **Prediction, and this one is sharp:** receptor *abundance* varies over orders of magnitude across types. If the Ganguli–Simoncelli logic holds, abundance should track the **prior probability of encountering ligands for that receptor in the animal's natural environment**. That is testable without solving the full dimensionality problem — it needs only relative encounter frequencies, which are far easier to estimate than a complete odour-scene ensemble. It also predicts that receptor abundance distributions should differ between species with different ecologies in a direction predictable from diet and habitat.
 
-## 12.4 From §1.5 — whitening under SNR
+## Import 4 — from §1.5: whitening under SNR
 
 **Imported:** the crown-jewel result. The optimal filter shifts from bandpass to lowpass as SNR falls, predicted in advance and confirmed [@srinivasan1982; @atick1992; @dan1996].
 
@@ -78,7 +78,7 @@ The format is fixed, and every item must reach step four.
 </script>
 </x-free-response>
 
-## 12.5 From audition — temporal correlation is olfaction's harmonicity
+## Import 5 — from audition: temporal correlation is olfaction's harmonicity
 
 **Imported:** audition faces the mixture problem in its purest form — sources sum exactly in a shared one-dimensional carrier — and solves it with **lawful relations between components of one source**. Harmonicity above all: partials at integer multiples of a fundamental are almost certainly one object.
 
@@ -88,7 +88,7 @@ The format is fixed, and every item must reach step four.
 
 **Prediction:** if temporal correlation is the binding cue, there should be neurons in piriform or anterior olfactory nucleus that respond to **coincident onset across glomeruli** more strongly than to the same glomeruli activated asynchronously — a common-onset detector, the direct analogue of auditory grouping units. Mice can discriminate correlations up to 40 Hz [@ackels2021], so the resolution exists. **Test:** deliver two odorants through separate lines, vary their cross-correlation while holding mean concentration and identity fixed, and look for cells whose response depends on correlation alone.
 
-## 12.6 From audition — is there an olfactory critical band?
+## Import 6 — from audition: is there an olfactory critical band?
 
 **Imported:** the critical band is the resolution limit of the cochlear filterbank, measured *behaviourally* by masking. A background masks a target if and only if it falls within the same auditory filter. It is a psychophysical measurement of a peripheral property, and it works.
 
@@ -98,7 +98,7 @@ The format is fixed, and every item must reach step four.
 
 **Prediction, and this is the sharp one:** masking should be governed by **receptor-activation overlap**, not by perceptual similarity. Those two dissociate — molecules can smell alike while activating different receptors, and vice versa. **Where they dissociate is the crucial test**, and it distinguishes a peripheral account of masking from a central one. The experiment is a standard psychophysical masking paradigm with odorant pairs chosen from receptor-response data to dissociate the two similarity measures.
 
-## 12.7 From audition — the range that matters is the range encountered
+## Import 7 — from audition: the range that matters is the range encountered
 
 **Imported:** the ITD-coding dispute (§2.5) resolved not by deciding who was right but by noticing that owl and gerbil face different problems. A place map is worth building when many cycles fit inside the physiological range; two broad channels win when the whole range is a fraction of a cycle. **The optimal code depends on the range of stimuli actually encountered, not the range physically possible.**
 
@@ -120,7 +120,7 @@ The format is fixed, and every item must reach step four.
   "contentRev": 1,
   "points": 5,
   "corner": "Axis",
-  "prompt": "The comparative datasheet as it stands after this sampler. In the full course this table grows a column per modality and becomes the backbone of the synthesis modules.",
+  "prompt": "The datasheet as vision and audition leave it. Fill in what these two modalities alone establish — §11 pivots the completed version, with a column per modality, into the axes the course argues on.",
   "rows": [
     "Natural ensemble characterised?",
     "Stimulus statistics stationary across environments?",
@@ -155,7 +155,7 @@ The format is fixed, and every item must reach step four.
 
 ## What vision and audition have handed over
 
-What these two modalities alone have sharpened. §12.5 re-ranks the whole list once the other six have contributed, and the order changes substantially — several items below are displaced by cheaper experiments imported from the vestibular and electrosensory systems.
+What these two modalities alone have sharpened. Import 5 re-ranks the whole list once the other six have contributed, and the order changes substantially — several items below are displaced by cheaper experiments imported from the vestibular and electrosensory systems.
 
 1. **Is there a derivable coordinate system for odour?** (§1.2) The flagship question. Blocked on the natural-odour-scene database, not on theory.
 2. **Does the bulb implement structured decorrelation or global normalisation?** (§1.5, §3.5) Directly testable, and the answer determines whether adult neurogenesis has a normative rationale.
@@ -163,8 +163,8 @@ What these two modalities alone have sharpened. §12.5 re-ranks the whole list o
 4. **Is the bulb's real receptive field temporal rather than chemical?** (§3.4) Would reframe the silent-neuron literature entirely.
 5. **Does receptor abundance track natural encounter frequency?** (§1.4) The cheapest test on this list.
 6. **Kinetic heterogeneity or pooling for fast fluctuations?** (§3.2) A solved precedent exists in electroreception.
-7. **Is there an olfactory critical band?** (§12.6) A masking experiment in chemical space, with the sharp version being that masking should track receptor overlap rather than perceptual similarity.
-8. **Is there a common-onset detector in piriform?** (§12.5) The direct analogue of auditory grouping units, and the mechanistic test of the temporal-correlation claim.
+7. **Is there an olfactory critical band?** (Import 6) A masking experiment in chemical space, with the sharp version being that masking should track receptor overlap rather than perceptual similarity.
+8. **Is there a common-onset detector in piriform?** (Import 5) The direct analogue of auditory grouping units, and the mechanistic test of the temporal-correlation claim.
 
 Notice what is *not* on this list. Every item above came from a modality with an ordered, metric receptor array and a mature normative theory, and every one of them consequently frames olfaction's problem as a coding problem — find the coordinates, derive the filter, measure the tuning.
 

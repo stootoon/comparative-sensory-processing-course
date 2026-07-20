@@ -29,7 +29,7 @@ The properties, in the same order as the other two modules:
 
 
 <x-figure src="content/02-audition/figures/critical-band.js"
-  caption="The critical band, measured behaviourally. Widen the masker and masking increases only while the masker fits inside the auditory filter; beyond that it plateaus. This is a psychophysical experiment that reads out a peripheral filter width — and §12.6 proposes the olfactory analogue, where the sharp prediction is that masking should track receptor-activation overlap rather than perceptual similarity.">
+  caption="The critical band, measured behaviourally. Widen the masker and masking increases only while the masker fits inside the auditory filter; beyond that it plateaus. This is a psychophysical experiment that reads out a peripheral filter width — and Import 6 proposes the olfactory analogue, where the sharp prediction is that masking should track receptor-activation overlap rather than perceptual similarity.">
 </x-figure>
 
 

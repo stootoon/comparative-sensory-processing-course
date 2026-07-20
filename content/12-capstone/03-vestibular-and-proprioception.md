@@ -7,7 +7,7 @@ estimatedMinutes: 30
 
 These two are the least-taught modalities in the course and the most useful. The vestibular system supplies the only worked example anywhere of neurons implementing a specified Bayesian estimator, against an ambiguity with exactly olfaction's structure. Proprioception supplies the demonstration that a first circuit's job may be a coordinate transformation rather than a decorrelation — a possibility the bulbar literature has largely not considered.
 
-## 12.13 From §6.1 — the ambiguity template
+## Import 13 — from §6.1: the ambiguity template
 
 **Imported:** the otolith organs cannot distinguish head tilt from linear acceleration. By the equivalence principle the two produce identical stimulation, so the ambiguity is a fact about physics rather than a limitation of the sensor. The system resolves it by combining canal signals under an internal model of head dynamics, and neurons in the vestibular nuclei and cerebellum carry responses reflecting **the combination rather than either input alone** [@angelaki2004; @cullen2012].
 
@@ -35,7 +35,7 @@ The consequence is a hard trade-off with no analogue in the vestibular case. A l
 
 **Prediction:** bulbar or piriform neurons should exist whose responses to a fixed receptor activation pattern depend on the *recent temporal statistics* of the stimulus — intermittency, whiff frequency, blank duration — because those statistics are what a transport model would use to convert concentration into distance. The experiment holds the odorant and its mean concentration fixed while varying the fluctuation statistics, which is achievable with existing odour delivery. A neuron reporting concentration alone is not doing inference. A neuron whose concentration tuning shifts with intermittency is.
 
-## 12.14 From §6.9 — cancellation is real, early, and specific
+## Import 14 — from §6.9: cancellation is real, early, and specific
 
 **Imported:** vestibular nuclei subtract self-generated head motion at the **first central synapse**, using an efference copy of the motor command. Neurons that have successfully subtracted their prediction go quiet, and look unresponsive to anyone measuring their response to passive motion [@cullen2012].
 
@@ -58,7 +58,7 @@ This matters enough to state as a clean contrast, because the two make opposite 
 Every one of those is measurable with current methods, and the two accounts are not exclusive — some silent cells will be one and some the other. <strong>The informative measurement is the proportion</strong>, and it is currently unknown because the experiment separating them has not been run.
 </x-callout>
 
-## 12.15 From §6.11 — state the objective before gathering more data
+## Import 15 — from §6.11: state the objective before gathering more data
 
 **Imported:** the vestibular system's normative success came from a precisely stated estimation problem. Not "what does this system encode" but: given canal and otolith signals with known noise, and known head dynamics, estimate tilt and translation. Once posed that way the optimal solution is derivable and the neural test is obvious.
 
@@ -70,7 +70,7 @@ Every one of those is measurable with current methods, and the two accounts are 
 
 The constructive version: state the olfactory problem as an estimation problem with a named latent variable — source position, say, or source composition — a specified loss, and a noise model, and the machinery of §0.1 becomes available. Where that has been done, on the source-separation problem, it has yielded quantitative results [@tootoonian2025]. Where it has not, the field has qualitative arguments.
 
-## 12.16 From §7.5 — the first circuit may be transforming coordinates, not decorrelating
+## Import 16 — from §7.5: the first circuit may be transforming coordinates, not decorrelating
 
 **Imported:** Clarke's nucleus recodes individual muscle lengths into whole-limb variables — axis length and orientation — **by the second synapse**, because that is the basis its consumer, the cerebellum, wants [@bosco2001]. The transformation adds no information. It makes existing structure legible to the consumer.
 
@@ -84,7 +84,7 @@ That caveat has a sharp consequence for the olfactory version. Olfaction has alm
 
 Two independent arguments converging on the same prediction is worth more than either alone, and it is the strongest reason in the course to go looking for that stream.
 
-**The disanalogy:** Clarke's nucleus knows what basis to transform into because the limb's geometry is fixed and known. The olfactory equivalent requires knowing what the consumer wants, which returns to §12.15's problem — and if the consumer is navigation, the wanted variables are bearing and distance to source, not molecular identity.
+**The disanalogy:** Clarke's nucleus knows what basis to transform into because the limb's geometry is fixed and known. The olfactory equivalent requires knowing what the consumer wants, which returns to Import 15's problem — and if the consumer is navigation, the wanted variables are bearing and distance to source, not molecular identity.
 
 **Prediction:** record in the bulb under controlled plume geometry, varying source distance and bearing while holding odorant identity and mean concentration fixed. A decorrelating circuit predicts responses depending on the chemical pattern and not on the geometry. A coordinate-transforming circuit predicts a population carrying distance and bearing. **These are cleanly distinguishable**, and the reason the experiment has not been done is that standard protocols present no plume geometry at all — a single odorant from a single port at a fixed distance. The variable of interest has been held constant by construction.
 
@@ -104,12 +104,12 @@ Two independent arguments converging on the same prediction is worth more than e
     { "id": "e", "text": "Swap which odorant receptor a defined glomerulus expresses and ask whether innate valence follows receptor or glomerulus." }
   ],
   "correctOrder": ["b", "a", "c", "d", "e"],
-  "modelAnswerNote": "The intended ranking, though a defensible case can be made for swapping the middle three.\n\n**(b) first** — it is the cheapest experiment on the list, needs no new apparatus beyond sniff-triggered delivery, and either outcome reframes a large existing literature. Cheap and high-yield is the combination to look for.\n\n**(a) second** — more effort, since it requires controlled plume geometry, but it tests a prediction that two independent arguments converge on (§12.16 and §3.8), which raises the prior on a positive result. A null result is also informative: it would argue against the dorsal-stream hypothesis in the place it is most likely to be true.\n\n**(c) third** — the direct test of whether the bulb does inference rather than reporting. Conceptually the sharpest of the five, but it needs careful stimulus control to hold mean concentration fixed while varying fluctuation statistics, which is harder than it sounds.\n\n**(d) fourth** — genuinely useful and apparently not done, but it is a quantitative comparison that settles an interpretive question rather than revealing a new mechanism. Lower ceiling.\n\n**(e) last** — the most conceptually decisive but by far the hardest, and it has a technical problem that may make it uninterpretable: glomerular targeting is activity-dependent during development, so changing the receptor may change where the axons go and destroy the manipulation. High value, low feasibility.\n\nThe general lesson is that the ranking is dominated by cost and interpretability rather than by how interesting the question is. The most interesting question on this list is last."
+  "modelAnswerNote": "The intended ranking, though a defensible case can be made for swapping the middle three.\n\n**(b) first** — it is the cheapest experiment on the list, needs no new apparatus beyond sniff-triggered delivery, and either outcome reframes a large existing literature. Cheap and high-yield is the combination to look for.\n\n**(a) second** — more effort, since it requires controlled plume geometry, but it tests a prediction that two independent arguments converge on (Import 16 and §3.8), which raises the prior on a positive result. A null result is also informative: it would argue against the dorsal-stream hypothesis in the place it is most likely to be true.\n\n**(c) third** — the direct test of whether the bulb does inference rather than reporting. Conceptually the sharpest of the five, but it needs careful stimulus control to hold mean concentration fixed while varying fluctuation statistics, which is harder than it sounds.\n\n**(d) fourth** — genuinely useful and apparently not done, but it is a quantitative comparison that settles an interpretive question rather than revealing a new mechanism. Lower ceiling.\n\n**(e) last** — the most conceptually decisive but by far the hardest, and it has a technical problem that may make it uninterpretable: glomerular targeting is activity-dependent during development, so changing the receptor may change where the axons go and destroy the manipulation. High value, low feasibility.\n\nThe general lesson is that the ranking is dominated by cost and interpretability rather than by how interesting the question is. The most interesting question on this list is last."
 }
 </script>
 </x-order>
 
-## 12.17 From §7.7 — perception may be the by-product
+## Import 17 — from §7.7: perception may be the by-product
 
 **Imported:** a proprioception literature built on conscious position sense would have missed the cerebellum entirely. The dominant consumer of proprioceptive information is a controller, not an experience, and the psychophysics of limb position sense is close to a side effect of machinery built for something else.
 

@@ -35,7 +35,7 @@ export function draw(root, values, { createPlot, sample }) {
     `evidence — nothing is hidden, and nothing is pure.` +
     `<br><br>What makes it soluble is that the components are not arbitrary. Set the two fundamentals to a simple ` +
     `ratio and watch the sum become periodic and fuse; set them to an awkward ratio and it becomes rough and ` +
-    `separable. <strong>Harmonicity is the structure that rescues the problem</strong> — and §12.5 argues ` +
+    `separable. <strong>Harmonicity is the structure that rescues the problem</strong> — and Import 5 argues ` +
     `temporal correlation occupies exactly that slot in olfaction, since chemistry offers no lawful relation ` +
     `between components of one source.`;
   root.appendChild(n);

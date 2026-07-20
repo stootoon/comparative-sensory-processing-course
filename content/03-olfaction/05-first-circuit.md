@@ -120,7 +120,7 @@ The generic normative account: **a single channel cannot simultaneously optimise
 
 This connects directly to the deadline of §3.1. If a decision must be made within one sniff but more accuracy is available with more time, an optimal system does not choose — it computes both and lets the downstream consumer decide which to use.
 
-What the bulb hands downstream is worth noting even though piriform is beyond this sampler's scope. Bulbar responses remain strongly concentration-dependent, yet identity representations in piriform are not: recurrent collateral circuitry, driven by the earliest-responding bulbar cells, recruits global feedback inhibition that truncates the later concentration-dependent input [@bolding2018]. Concentration invariance is *computed* in cortex rather than inherited — and it is computed by recurrence, which is the defining feature of piriform as a three-layer associative network rather than a primary sensory area in the V1 sense [@haberly2001].
+What the bulb hands downstream is worth noting here, before §3.7 takes up piriform properly. Bulbar responses remain strongly concentration-dependent, yet identity representations in piriform are not: recurrent collateral circuitry, driven by the earliest-responding bulbar cells, recruits global feedback inhibition that truncates the later concentration-dependent input [@bolding2018]. Concentration invariance is *computed* in cortex rather than inherited — and it is computed by recurrence, which is the defining feature of piriform as a three-layer associative network rather than a primary sensory area in the V1 sense [@haberly2001].
 
 <x-predict>
 <script type="application/json">

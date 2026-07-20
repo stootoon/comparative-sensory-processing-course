@@ -11,26 +11,30 @@ no signup, no backend. Each visitor's progress is stored in their own browser.
 
 ---
 
-## Status: sampler
+## Status: complete, v1.0
 
-This is a **sampler**, not the finished course — two modalities, four sections
-each, chosen because they are where vision and olfaction diverge most sharply.
+Twelve modules, 101 sections, ~114,000 words, 157 figures, 51 references.
 
-| | Vision | Olfaction |
+| Module | | Sections |
 |---|---|---|
-| §1 | The computational problem | The computational problem |
-| §2 | Natural image statistics | Plume statistics |
-| §4 | The receptor array | The receptor array |
-| §5 | The first circuit: retina | The first circuit: bulb |
+| 0 | The Normative Toolkit | 3 |
+| 1–7 | Vision, Audition, Olfaction, Somatosensation, Gustation, Vestibular, Proprioception | 11 each |
+| 9 | Exotic Senses | 6 |
+| 10 | Common Motifs | 5 |
+| 11 | Key Differences | 5 |
+| 12 | Olfaction in the Mirror (capstone) | 5 |
 
-Plus a Module 0 toolkit covering the normative vocabulary those sections use,
-and a capstone teaser carrying each vision→olfaction import to a falsifiable
-prediction.
+Every modality module uses the **identical eleven-section skeleton**, in the same
+order, with the same numbering — so §4 means the receptor array whether you are
+reading about cones or odorant receptors, and the course can be read *across*
+modules as easily as down one. No section is ever deleted: where a structure is
+absent, the section says so and asks why, because those absences are the most
+comparatively informative data in the course.
 
-The full course adds audition, somatosensation, gustation, vestibular,
-proprioception, the exotic senses, and the synthesis modules. Nothing here is
-throwaway — it is the first slice, and the remaining sections drop into the
-same structure.
+The three synthesis modules introduce almost no new material. They pivot what
+the modality modules established: §10 the recurring motifs, §11 the axes on
+which modalities differ, §12 what each modality lends olfaction — ending in a
+ranked, costed research agenda, which is the course's deliverable.
 
 ---
 

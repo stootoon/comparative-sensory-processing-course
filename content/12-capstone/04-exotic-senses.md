@@ -9,13 +9,13 @@ The exotic senses are in this course because they populate regions of the design
 
 Three of the four supply direct imports. The fourth supplies a warning.
 
-## 12.18 From §9.2 — cancellation, with the mechanism known
+## Import 18 — from §9.2: cancellation, with the mechanism known
 
 **Imported:** electrosensory lobes learn a **negative image** of the animal's own electric organ discharge and subtract it, leaving only externally-caused deviations. The mechanism is characterised down to the synapse: anti-Hebbian plasticity at a broad, delayed parallel-fibre input onto principal cells.
 
 **Candidate analogue:** the bulb has that architecture. Granule cells carry broad, delayed cortical and centrifugal feedback onto mitral cells — the same configuration in the same position relative to the principal neuron.
 
-**Why this import is stronger than §12.14's.** The vestibular version establishes that cancellation happens and matters. The electrosensory version supplies the **learning rule and the timecourse**, which converts a qualitative expectation into a quantitative prediction with a number attached.
+**Why this import is stronger than Import 14's.** The vestibular version establishes that cancellation happens and matters. The electrosensory version supplies the **learning rule and the timecourse**, which converts a qualitative expectation into a quantitative prediction with a number attached.
 
 <x-figure src="content/media/oa-ell-circuit.jpg"
   caption="The circuit the import rests on. Receptor input arrives on one pathway; a broad, delayed input carrying prior activity arrives on another, and anti-Hebbian plasticity between them builds the negative image. Set this beside the bulb — granule cells carrying massive cortical feedback onto mitral cells — and the architectures correspond component for component. Architectural resemblance is not function, which is exactly why the timecourse experiment below is worth running rather than assuming."
@@ -50,7 +50,7 @@ Pure adaptation has no stored $\hat{s}$. Its state variable is a gain or a thres
 **The signature is therefore an overshoot whose magnitude scales with $b$ and whose decay time matches the acquisition time.** That double match — magnitude scaling with background strength, and symmetric acquisition and release timescales — is very difficult to produce by adaptation, and it is measurable in a single experiment.
 </details>
 
-## 12.19 From §9.2 — hyperacuity from slow elements, with the scaling worked out
+## Import 19 — from §9.2: hyperacuity from slow elements, with the scaling worked out
 
 **Imported:** the jamming avoidance response achieves **sub-microsecond behavioural precision from neurons with millisecond precision**. The mechanism is pooling across a large afferent population, and the analysis has been done properly — including the ceiling imposed by correlated noise, which is the part usually left out.
 
@@ -100,7 +100,7 @@ Both are manipulable — convergence number via genetic reduction of receptor ne
 </script>
 </x-mcq>
 
-## 12.20 From §9.4 — acuity as deconvolution
+## Import 20 — from §9.4: acuity as deconvolution
 
 **Imported:** the pit organ of an infrared-sensing snake is a pinhole camera with a very large aperture, so its optics are catastrophically blurred — far too blurred to support the localisation accuracy the animal demonstrably has. The resolution is that the nervous system **deconvolves**: the blur kernel is fixed and knowable, so acuity is recovered computationally rather than optically [@gracheva2010].
 
@@ -121,12 +121,12 @@ Whether the problem is well-posed depends on how much structure the kernel has. 
   "contentRev": 1,
   "prompt": "Infotaxis reproduces the casting and zigzagging real animals do while searching a plume, without any model of transport [@vergassola2007]. The deconvolution framing above proposes something quite different — an internal model of the blur kernel. Both predict successful search. Say how you would distinguish them, and be specific about what each predicts when the flow is manipulated mid-trial.",
   "placeholder": "What manipulation separates model-based from model-free search?",
-  "reveal": "**The two are not distinguished by whether search succeeds**, which is why the behavioural literature has not settled this. Both produce casting, both produce zigzagging, and both localise sources. Matching the trajectory statistics of real animals is weak evidence for either.\n\n**The discriminating manipulation is a mid-trial change in flow conditions**, and the two accounts predict different *kinds* of failure.\n\n*Infotaxis is model-free in the relevant sense.* It maintains a posterior over source location and moves to maximise expected information gain. Change the flow and the posterior is updated by subsequent observations; the search degrades gracefully and the errors are **unbiased** — the animal takes longer but does not systematically go to the wrong place.\n\n*Deconvolution under a transport model* assumes a kernel. Change the flow without giving the animal time to re-estimate, and the assumed kernel is now wrong in a specific way, so the inferred source position is wrong in a **specific, predictable direction**. If the true plume is wider than assumed, the source is inferred too close; if the flow has veered, the bearing estimate is displaced by an amount computable from the veer.\n\n**So the measurement is the bias, not the error magnitude.** Run many trials with a controlled step in wind direction or turbulence intensity partway through, and ask whether the resulting localisation errors have a mean displaced in the direction the kernel mismatch predicts, or merely a larger variance.\n\n**Two things worth noting.** First, these are not exclusive — a plausible system does infotaxis-like search using a likelihood that embeds a transport model, in which case you would see both signatures and the model contributes the likelihood rather than a point estimate. Second, the experiment has a built-in control: after enough post-step trials the animal should re-estimate the kernel, so **the bias should decay with a timescale that is itself informative** about how fast transport statistics are tracked. That timescale is the quantity §12.13's deeper box argues is set by the drift rate of the statistics, so the same experiment measures it."
+  "reveal": "**The two are not distinguished by whether search succeeds**, which is why the behavioural literature has not settled this. Both produce casting, both produce zigzagging, and both localise sources. Matching the trajectory statistics of real animals is weak evidence for either.\n\n**The discriminating manipulation is a mid-trial change in flow conditions**, and the two accounts predict different *kinds* of failure.\n\n*Infotaxis is model-free in the relevant sense.* It maintains a posterior over source location and moves to maximise expected information gain. Change the flow and the posterior is updated by subsequent observations; the search degrades gracefully and the errors are **unbiased** — the animal takes longer but does not systematically go to the wrong place.\n\n*Deconvolution under a transport model* assumes a kernel. Change the flow without giving the animal time to re-estimate, and the assumed kernel is now wrong in a specific way, so the inferred source position is wrong in a **specific, predictable direction**. If the true plume is wider than assumed, the source is inferred too close; if the flow has veered, the bearing estimate is displaced by an amount computable from the veer.\n\n**So the measurement is the bias, not the error magnitude.** Run many trials with a controlled step in wind direction or turbulence intensity partway through, and ask whether the resulting localisation errors have a mean displaced in the direction the kernel mismatch predicts, or merely a larger variance.\n\n**Two things worth noting.** First, these are not exclusive — a plausible system does infotaxis-like search using a likelihood that embeds a transport model, in which case you would see both signatures and the model contributes the likelihood rather than a point estimate. Second, the experiment has a built-in control: after enough post-step trials the animal should re-estimate the kernel, so **the bias should decay with a timescale that is itself informative** about how fast transport statistics are tracked. That timescale is the quantity Import 13's deeper box argues is set by the drift rate of the statistics, so the same experiment measures it."
 }
 </script>
 </x-predict>
 
-## 12.21 From §9.5 — the warning
+## Import 21 — from §9.5: the warning
 
 Magnetoreception is the low-dimensional extreme: a sense with essentially one or two behaviourally relevant variables, and — after decades of work — no agreed transduction mechanism.
 
@@ -134,7 +134,7 @@ Magnetoreception is the low-dimensional extreme: a sense with essentially one or
 
 Magnetoreception has had no shortage of normative reasoning. The task is clear, the physics is constrained, the candidate mechanisms are enumerable, and the optimal strategies are derivable. None of that produced the answer, because the bottleneck was never the theory. It was that nobody could identify the receptor.
 
-**What this warns against.** This capstone lists a great many experiments that follow from normative arguments, and the arguments are good. But every one of them presupposes that the relevant biology has been identified — that the cells being recorded are the cells doing the computation. Olfaction's periphery is well characterised, so this is a mild worry at the bulb. It is a much larger worry for the structures §12.16 and §3.8 point at, because **a dorsal stream that has not been found may not have been found because it is not there, or because nobody has recorded in the right place.** Those two are not distinguishable by any amount of theorising.
+**What this warns against.** This capstone lists a great many experiments that follow from normative arguments, and the arguments are good. But every one of them presupposes that the relevant biology has been identified — that the cells being recorded are the cells doing the computation. Olfaction's periphery is well characterised, so this is a mild worry at the bulb. It is a much larger worry for the structures Import 16 and §3.8 point at, because **a dorsal stream that has not been found may not have been found because it is not there, or because nobody has recorded in the right place.** Those two are not distinguishable by any amount of theorising.
 
 The honest position is that the comparative method is very good at generating sharp questions and has no special power to locate the tissue that answers them.
 
@@ -144,7 +144,7 @@ Each held constant something the familiar five vary, which is what made them wor
 
 <strong>Electroreception</strong> holds the stimulus constant and self-generated, which is what makes cancellation measurable — the prediction is exactly known, so the residual is exactly interpretable. In every other modality the predicted component has to be estimated, and the estimate contaminates the measurement.
 
-<strong>Echolocation</strong> holds the receptor array fixed while the mapped variable is <em>derived</em> — bats build orderly cortical maps of echo delay, a computed quantity the array never measures. That is the existence proof licensing §12.2's search for an olfactory map of a derived variable, and without it the search would be unmotivated.
+<strong>Echolocation</strong> holds the receptor array fixed while the mapped variable is <em>derived</em> — bats build orderly cortical maps of echo delay, a computed quantity the array never measures. That is the existence proof licensing Import 2's search for an olfactory map of a derived variable, and without it the search would be unmotivated.
 
 <strong>Infrared</strong> holds acuity high while optics are terrible, isolating computation from sensor quality, and supplies the deconvolution framing.
 

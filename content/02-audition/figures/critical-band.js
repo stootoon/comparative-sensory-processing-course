@@ -1,6 +1,6 @@
 // The critical band, and the olfactory question it poses.
 //
-// §12.6 proposes an olfactory masking experiment by analogy with the auditory
+// Import 6 proposes an olfactory masking experiment by analogy with the auditory
 // critical band. That analogy needs the auditory version shown first: masking
 // is a psychophysical measurement of a peripheral filter width.
 
@@ -48,7 +48,7 @@ export function draw(root, values, { createPlot, sample }) {
       : `The masker still fits <em>inside</em> the filter, so all its energy contributes and widening it makes ` +
         `masking worse. <strong>Keep widening</strong> until the curve flattens: the width at which it stops is ` +
         `the critical band.`) +
-    `<br><br><strong>The olfactory version (§12.6):</strong> is there a masking bandwidth in chemical space? ` +
+    `<br><br><strong>The olfactory version (Import 6):</strong> is there a masking bandwidth in chemical space? ` +
     `The sharp prediction is that masking should track <em>receptor-activation overlap</em>, not perceptual ` +
     `similarity — and those two dissociate, since molecules can smell alike while activating different receptors. ` +
     `Where they come apart is the crucial test, and it distinguishes a peripheral account of olfactory masking ` +

@@ -17,7 +17,7 @@ Two robust regularities:
 - **Modulations are correlated across frequency bands.** When a source gets louder it gets louder across its whole spectrum, so bands belonging to one source rise and fall together. **This correlation is the raw material of scene analysis** — it is what makes common modulation a usable grouping cue.
 
 <x-figure src="content/media/spectrogram-birdsong-warbler.jpg"
-  caption="Birdsong, as a spectrogram. Notice the structure the auditory system exploits: elements with common onset, coherent frequency sweeps, and modulation shared across bands. Each of those is a grouping cue — a lawful relation between components of one source — and none has a chemical analogue, which is why §12.5 argues temporal correlation must carry olfaction's entire grouping load."
+  caption="Birdsong, as a spectrogram. Notice the structure the auditory system exploits: elements with common onset, coherent frequency sweeps, and modulation shared across bands. Each of those is a grouping cue — a lawful relation between components of one source — and none has a chemical analogue, which is why Import 5 argues temporal correlation must carry olfaction's entire grouping load."
   credit="Justin Jansen. Public domain."
   source="https://commons.wikimedia.org/wiki/File:Hippolais_polyglotta_song_spectrogram.png">
 </x-figure>

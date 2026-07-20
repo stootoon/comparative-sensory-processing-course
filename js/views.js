@@ -40,7 +40,7 @@ export function renderHome() {
 
       <section class="x-home-modules">
         <h2>Contents</h2>
-        <p class="x-home-note">${escapeHtml(manifest.samplerNote ?? '')}</p>
+        <p class="x-home-note">${escapeHtml(manifest.homeNote ?? '')}</p>
         <ol class="x-module-grid">
           ${getModules().map(renderModuleCard).join('')}
         </ol>

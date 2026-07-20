@@ -7,7 +7,7 @@ estimatedMinutes: 34
 
 The preceding four sections produced around twenty experiments. Most of them will not be done, and the useful question is which few should be.
 
-This section ranks them. The ranking criterion is deliberately not "how interesting is the question" — by that measure the flagship problem of §12.1 wins and is also the one blocked on a decade of analytical chemistry. The criterion is **informativeness per unit cost, with a null result counted as an outcome rather than a failure.**
+This section ranks them. The ranking criterion is deliberately not "how interesting is the question" — by that measure the flagship problem of Import 1 wins and is also the one blocked on a decade of analytical chemistry. The criterion is **informativeness per unit cost, with a null result counted as an outcome rather than a failure.**
 
 An experiment earns its place here only if you can say what a negative answer establishes. Several otherwise attractive proposals fail that test, and they are named at the end.
 
@@ -21,7 +21,7 @@ An experiment earns its place here only if you can say what a negative answer es
 
 Cheap, runnable with existing methods, and informative whichever way they come out.
 
-**1. Do silent bulbar cells respond to passively delivered odour?** *(§12.14, from vestibular)*
+**1. Do silent bulbar cells respond to passively delivered odour?** *(Import 14, from vestibular)*
 
 Deliver identical odour transients sniff-triggered versus on an external schedule. If cancellation explains bulbar silence, the passive version should evoke responses the active version does not.
 
@@ -31,7 +31,7 @@ Deliver identical odour transients sniff-triggered versus on an external schedul
 
 *What a null result buys:* nearly as much. It would argue that bulbar silence is genuinely about tuning, which supports the labelled-channel view of glomerular identity and removes one of the main functional proposals for the granule–mitral feedback loop. Either answer changes what people work on.
 
-**2. Does receptor abundance track natural encounter frequency?** *(§12.3, from vision)*
+**2. Does receptor abundance track natural encounter frequency?** *(Import 3, from vision)*
 
 Relative ligand encounter frequencies against existing receptor abundance data, with a comparative control across species of differing ecology.
 
@@ -39,7 +39,7 @@ Relative ligand encounter frequencies against existing receptor abundance data, 
 
 *What a null result buys:* this is the case where the negative outcome may be the more valuable one. If abundance does not track encounter frequency, then either the Ganguli–Simoncelli logic [@ganguli2014] does not transfer to unordered arrays, or abundance is set by genomic and developmental constraints rather than by coding optimality. The second would be an important limit on how far optimality arguments reach in a receptor family shaped by birth-and-death evolution.
 
-**3. Does a novel constant background produce a negative image?** *(§12.18, from electroreception)*
+**3. Does a novel constant background produce a negative image?** *(Import 18, from electroreception)*
 
 Introduce a stable background odour; measure the decline of bulbar responses to it, its plasticity dependence, and critically whether removing it produces an off-response.
 
@@ -49,15 +49,15 @@ Introduce a stable background odour; measure the decline of bulbar responses to 
 
 ### Tier 2 — high value, moderate cost
 
-**4. Do bulbar populations carry plume geometry?** *(§12.16 and §3.8)*
+**4. Do bulbar populations carry plume geometry?** *(Import 16 and §3.8)*
 
 Vary source distance and bearing under controlled flow while holding odorant identity and mean concentration fixed.
 
 *Why it is here rather than Tier 1:* it needs a wind tunnel and controlled plume geometry, which is real apparatus. But two independent arguments converge on this prediction — the coordinate-transformation argument imported from proprioception, and the parallel-streams argument from §3.8 — and convergence from unrelated premises is the best prior-raising evidence available without doing the experiment.
 
-*What a null result buys:* it would argue against the dorsal-stream hypothesis in the location where it is most likely to be true, which is genuinely informative. The caution from §12.21 applies: a null in the bulb does not exclude the stream existing downstream.
+*What a null result buys:* it would argue against the dorsal-stream hypothesis in the location where it is most likely to be true, which is genuinely informative. The caution from Import 21 applies: a null in the bulb does not exclude the stream existing downstream.
 
-**5. Does concentration tuning shift with recent intermittency?** *(§12.13, from vestibular)*
+**5. Does concentration tuning shift with recent intermittency?** *(Import 13, from vestibular)*
 
 Hold mean concentration fixed, vary fluctuation statistics, ask whether neurons' concentration tuning moves.
 
@@ -65,13 +65,13 @@ Hold mean concentration fixed, vary fluctuation statistics, ask whether neurons'
 
 *Cost:* moderate, and the difficulty is stimulus control — holding the mean genuinely fixed while varying higher-order statistics is harder than it sounds and is where the experiment would most likely fail on technical rather than scientific grounds.
 
-**6. Pooling or kinetic diversity for fast fluctuations?** *(§12.19, from electroreception)*
+**6. Pooling or kinetic diversity for fast fluctuations?** *(Import 19, from electroreception)*
 
 Manipulate convergence number and kinetic heterogeneity separately; ask which degrades 40 Hz discrimination.
 
 *What makes it tractable:* the precedent is solved elsewhere with the scaling analysis published, including the correlated-noise ceiling. This is not an open-ended question but a choice between two characterised mechanisms that are not exclusive — so the informative output is the relative contribution rather than a winner.
 
-**7. Is masking governed by receptor overlap or by perceptual similarity?** *(§12.6, from audition)*
+**7. Is masking governed by receptor overlap or by perceptual similarity?** *(Import 6, from audition)*
 
 A standard psychophysical masking paradigm, with odorant pairs chosen from receptor-response data specifically to dissociate the two similarity measures.
 
@@ -79,19 +79,19 @@ A standard psychophysical masking paradigm, with odorant pairs chosen from recep
 
 ### Tier 3 — decisive but expensive, or blocked
 
-**8. Do the thalamic services have thalamic signatures?** *(§12.10, from touch)*
+**8. Do the thalamic services have thalamic signatures?** *(Import 10, from touch)*
 
 Quantitative comparison of attentional modulation depth, time constants and state dependence between bulb and LGN under matched task demands.
 
 *Why Tier 3 despite being cheap:* it settles an interpretive question rather than revealing a mechanism, and its ceiling is correspondingly lower. Worth doing, unlikely to redirect a field. It is included because it is apparently not done and is the only direct test of the computational-versus-antiquity account of the missing relay.
 
-**9. Does representational geometry diverge with learned valence?** *(§12.12, from taste)*
+**9. Does representational geometry diverge with learned valence?** *(Import 12, from taste)*
 
 Train groups with opposite valence assignments over the same odour set; ask whether piriform geometry diverges while bulbar geometry does not.
 
 *Cost:* high — long training, chronic recording, careful geometric analysis. But it is the cleanest available test of whether olfactory coordinates come from stimulus statistics or from consequence, and it distinguishes them by a signature (individual versus shared) that no other experiment here provides.
 
-**10. Is there a derivable coordinate system for odour?** *(§12.1, the flagship)*
+**10. Is there a derivable coordinate system for odour?** *(Import 1, the flagship)*
 
 *Blocked, and the reason should be stated exactly.* Not blocked on theory — the calculation is well posed and steps 2 through 5 of §2.4's template are ready. Blocked on the natural-odour-scene database with ground-truth composition, which is a years-long analytical-chemistry effort.
 
@@ -121,13 +121,13 @@ Train groups with opposite valence assignments over the same odour set; ask whet
 
 Naming the rejects is part of the deliverable. Each of these follows from a decent argument and still should not be run first.
 
-**Swapping which receptor a glomerulus expresses.** (§12.11) The most conceptually decisive experiment in the course and probably uninterpretable, because glomerular targeting is activity-dependent during development — change the receptor and the axons may go somewhere else, destroying the dissociation the experiment depends on. It also needs an innate-valence pathway, since with a learned readout the animal can simply relearn and produce "behaviour follows receptor" for reasons unrelated to coding. Worth doing when the targeting problem is solved. Not before.
+**Swapping which receptor a glomerulus expresses.** (Import 11) The most conceptually decisive experiment in the course and probably uninterpretable, because glomerular targeting is activity-dependent during development — change the receptor and the axons may go somewhere else, destroying the dissociation the experiment depends on. It also needs an innate-valence pathway, since with a learned readout the animal can simply relearn and produce "behaviour follows receptor" for reasons unrelated to coding. Worth doing when the targeting problem is solved. Not before.
 
-**Searching broadly for an olfactory map.** (§12.2) The prediction is that a map, if it exists, is of a *derived* variable and lies downstream of the bulb — most plausibly source distance. That is a specific enough target to search for. An unguided hunt for chemotopy is not, and the existing evidence for bulbar chemotopy is contested and at best coarse. **Search for the derived-variable map; do not re-run the chemotopy argument.**
+**Searching broadly for an olfactory map.** (Import 2) The prediction is that a map, if it exists, is of a *derived* variable and lies downstream of the bulb — most plausibly source distance. That is a specific enough target to search for. An unguided hunt for chemotopy is not, and the existing evidence for bulbar chemotopy is contested and at best coarse. **Search for the derived-variable map; do not re-run the chemotopy argument.**
 
-**Anything that requires settling the identity-versus-timing coding argument first.** (§12.8) Touch's lesson is that this is likely a false choice, and experiments predicated on resolving it inherit a premise that is probably wrong. The double-dissociation design sidesteps it entirely and should be preferred.
+**Anything that requires settling the identity-versus-timing coding argument first.** (Import 8) Touch's lesson is that this is likely a false choice, and experiments predicated on resolving it inherit a premise that is probably wrong. The double-dissociation design sidesteps it entirely and should be preferred.
 
-**Freely-moving search as a first experiment.** (§12.17) The argument that head-fixed discrimination may be studying a side effect is a serious one, and it points at freely-moving work. But freely-moving preparations trade experimental control for ecological validity, and several Tier 1 and 2 experiments need precisely the control that would be given up. Do the controlled experiments, then take what they establish into the freely-moving preparation.
+**Freely-moving search as a first experiment.** (Import 17) The argument that head-fixed discrimination may be studying a side effect is a serious one, and it points at freely-moving work. But freely-moving preparations trade experimental control for ecological validity, and several Tier 1 and 2 experiments need precisely the control that would be given up. Do the controlled experiments, then take what they establish into the freely-moving preparation.
 
 <x-free-response>
 <script type="application/json">
@@ -136,14 +136,14 @@ Naming the rejects is part of the deliverable. Each of these follows from a dece
   "contentRev": 1,
   "points": 1,
   "prompt": "This agenda was generated by comparison with other modalities rather than by working on olfaction directly. Make the strongest case you can that this was the wrong method — that a comparative course produces plausible-looking questions that a specialist would recognise as naive. Then say what in the agenda survives your own objection.",
-  "modelAnswer": "**The case against, made properly.**\n\n*Imports carry hidden premises.* Every analogy in this capstone assumes the imported concept means the same thing in the new setting. \"Cancellation\" in an electric fish is subtraction of a self-generated signal with known parameters; in the bulb it would be subtraction of an environmental regularity learned from statistics. Calling both cancellation may be smuggling in an equivalence that does not hold, and the experiment inherits it.\n\n*Comparison selects for the tractable rather than the true.* The method rewards questions with clean analogues elsewhere. Olfaction's actual central difficulties — the absence of a metric, the nonlinearity of mixture responses at the receptor, the sheer dimensionality — are precisely the properties with no analogue, so a comparative method systematically under-weights them. Notice that the Tier 1 list contains no experiment addressing the mixture problem, which is arguably olfaction's hardest.\n\n*A specialist's objection to specific items.* The sniff-triggered versus passive experiment (item 1) has a confound the capstone does not mention: passive delivery changes the flow profile through the nose, so any response difference may reflect altered stimulus dynamics rather than cancellation. Controlling for that is not trivial and may be the reason the experiment is discussed more than done.\n\n*Convergence can be spurious.* §12.16 leans on two independent arguments converging on plume-geometry tuning. But both descend from the same premise — that olfaction has a location problem structurally like vision's — so they are less independent than presented, and the convergence is weaker evidence than claimed.\n\n**What survives.**\n\nThe cheap experiments survive, because their value does not depend on the analogy being deep. Item 1 is worth running whether or not electrosensory cancellation is the right frame, because the measurement — do silent cells respond to passive delivery — is interpretable on its own terms, once the flow confound is controlled. The same holds for item 2, which is a statistical test on existing data and needs no import at all to be worth doing.\n\nThe reframings survive best of all, and they are the most defensible product of the method. Blind deconvolution (§12.20) is valuable not because snakes are like noses but because it moves source localisation into a formalism with known identifiability conditions. That gain is real regardless of whether the biological analogy holds.\n\nThe *eliminations* survive, and they are the most secure things here. Taste establishes that disorder alone does not produce olfaction's difficulties, because taste has disorder and lacks the difficulties. Touch and proprioception establish that thalamic bypass does not require antiquity. Neither conclusion depends on an analogy holding — both are of the form \"this property is not sufficient for that consequence\", which is exactly what a well-chosen control establishes.\n\n**What is weakest** is the middle layer: the specific mechanistic predictions that depend on the import being deep rather than structural. Those should be held loosely, and the capstone's format — which forces every item to a falsifiable prediction — makes them look more confident than the reasoning supports.",
+  "modelAnswer": "**The case against, made properly.**\n\n*Imports carry hidden premises.* Every analogy in this capstone assumes the imported concept means the same thing in the new setting. \"Cancellation\" in an electric fish is subtraction of a self-generated signal with known parameters; in the bulb it would be subtraction of an environmental regularity learned from statistics. Calling both cancellation may be smuggling in an equivalence that does not hold, and the experiment inherits it.\n\n*Comparison selects for the tractable rather than the true.* The method rewards questions with clean analogues elsewhere. Olfaction's actual central difficulties — the absence of a metric, the nonlinearity of mixture responses at the receptor, the sheer dimensionality — are precisely the properties with no analogue, so a comparative method systematically under-weights them. Notice that the Tier 1 list contains no experiment addressing the mixture problem, which is arguably olfaction's hardest.\n\n*A specialist's objection to specific items.* The sniff-triggered versus passive experiment (item 1) has a confound the capstone does not mention: passive delivery changes the flow profile through the nose, so any response difference may reflect altered stimulus dynamics rather than cancellation. Controlling for that is not trivial and may be the reason the experiment is discussed more than done.\n\n*Convergence can be spurious.* Import 16 leans on two independent arguments converging on plume-geometry tuning. But both descend from the same premise — that olfaction has a location problem structurally like vision's — so they are less independent than presented, and the convergence is weaker evidence than claimed.\n\n**What survives.**\n\nThe cheap experiments survive, because their value does not depend on the analogy being deep. Item 1 is worth running whether or not electrosensory cancellation is the right frame, because the measurement — do silent cells respond to passive delivery — is interpretable on its own terms, once the flow confound is controlled. The same holds for item 2, which is a statistical test on existing data and needs no import at all to be worth doing.\n\nThe reframings survive best of all, and they are the most defensible product of the method. Blind deconvolution (Import 20) is valuable not because snakes are like noses but because it moves source localisation into a formalism with known identifiability conditions. That gain is real regardless of whether the biological analogy holds.\n\nThe *eliminations* survive, and they are the most secure things here. Taste establishes that disorder alone does not produce olfaction's difficulties, because taste has disorder and lacks the difficulties. Touch and proprioception establish that thalamic bypass does not require antiquity. Neither conclusion depends on an analogy holding — both are of the form \"this property is not sufficient for that consequence\", which is exactly what a well-chosen control establishes.\n\n**What is weakest** is the middle layer: the specific mechanistic predictions that depend on the import being deep rather than structural. Those should be held loosely, and the capstone's format — which forces every item to a falsifiable prediction — makes them look more confident than the reasoning supports.",
   "rubric": [
     "Identifies that imports carry hidden premises about what a concept means in the new setting",
     "Notices that comparison systematically under-weights properties with no analogue — the mixture problem is absent from Tier 1",
     "Raises at least one concrete technical objection to a specific listed experiment",
     "Distinguishes the eliminations (secure, analogy-independent) from the mechanistic predictions (analogy-dependent)",
     "Recognises that the reframings retain value regardless of whether the biology matches",
-    "Bonus: notices that §12.16's two 'independent' arguments share a premise"
+    "Bonus: notices that Import 16's two 'independent' arguments share a premise"
   ]
 }
 </script>
@@ -153,11 +153,11 @@ Naming the rejects is part of the deliverable. Each of these follows from a dece
 
 If the course reduces to three claims, these are they. Each is an elimination or a reframing rather than a positive mechanistic proposal, which is not an accident — those are what comparison is actually good for.
 
-**1. It is dimensionality, not disorder.** Taste is unordered and easy. The property that makes olfaction hard is the one it does not share with taste, and the metric hunt that has absorbed a great deal of effort is addressing the wrong variable. *(§12.11)*
+**1. It is dimensionality, not disorder.** Taste is unordered and easy. The property that makes olfaction hard is the one it does not share with taste, and the metric hunt that has absorbed a great deal of effort is addressing the wrong variable. *(Import 11)*
 
-**2. Olfaction's tractable normative problems are temporal.** The plume ensemble is measured, analytically characterised, and under-exploited; the chemical ensemble is not measured and will not be soon. Four of the five ingredients that made the vestibular system a normative success are already present on the temporal side and absent on the chemical side. **Effort is currently allocated in inverse proportion to tractability.** *(§12.15)*
+**2. Olfaction's tractable normative problems are temporal.** The plume ensemble is measured, analytically characterised, and under-exploited; the chemical ensemble is not measured and will not be soon. Four of the five ingredients that made the vestibular system a normative success are already present on the temporal side and absent on the chemical side. **Effort is currently allocated in inverse proportion to tractability.** *(Import 15)*
 
-**3. The missing relay is a computational fact, not an evolutionary one — provisionally.** Touch and proprioception bypass thalamus too, and neither is ancient. What the bypasses share is a tight deadline and a consumer wanting speed rather than re-mapping. The provisional label is earned: the quantitative comparison that would confirm it (item 8) has not been run. *(§12.10)*
+**3. The missing relay is a computational fact, not an evolutionary one — provisionally.** Touch and proprioception bypass thalamus too, and neither is ancient. What the bypasses share is a tight deadline and a consumer wanting speed rather than re-mapping. The provisional label is earned: the quantitative comparison that would confirm it (item 8) has not been run. *(Import 10)*
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">What this course claims, and what it does not</div>

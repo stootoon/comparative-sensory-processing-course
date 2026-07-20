@@ -9,7 +9,7 @@ The two modalities in this section are the course's best controls, and they earn
 
 Touch has everything vision has — an ordered array, a metric, a somatotopic map — and still encodes its hardest stimulus in spike timing rather than in position. Taste has olfaction's disorder without olfaction's dimensionality, and none of olfaction's difficulties. Between them they break two confounds that the vision–olfaction comparison alone leaves standing.
 
-## 12.8 From §4.4 — a map does not imply a spatial code
+## Import 8 — from §4.4: a map does not imply a spatial code
 
 **Imported:** touch is topographic, metric, and somatotopically mapped, and it encodes fine texture in **millisecond spike timing** [@johnson2001; @saal2014]. The map and the temporal code coexist, carrying different aspects of one stimulus. Having a spatial organisation did not oblige the system to use it for everything.
 
@@ -29,7 +29,7 @@ This is the same methodological trap §4.11 flags for touch: labelled-line accou
 The implication for olfaction is uncomfortable and worth stating plainly: **the field's dominant stimulus paradigm is one that cannot detect the code half the field is arguing for.** That is a design problem, not an empirical result.
 </details>
 
-## 12.9 From §4.9 — whisking is sniffing's twin, and its decoder is already built
+## Import 9 — from §4.9: whisking is sniffing's twin, and its decoder is already built
 
 **Imported:** whisking and sniffing are the same act. Both are self-generated, voluntary, in the 4–12 Hz band, and both *alter the stimulus* rather than merely sampling it. Barrel cortex decoding referenced to whisk phase is characterised in detail; the bulbar equivalent is not.
 
@@ -39,7 +39,7 @@ The implication for olfaction is uncomfortable and worth stating plainly: **the 
 
 **Prediction:** bulbar response latency relative to sniff onset should carry identity information *independently of* firing rate, and the two should be separately decodable — the standard result in barrel cortex. This has partial support already [@wachowiak2011]. The sharper and untested version: **that latency code should degrade when the animal is passively presented with odour on an externally-timed schedule rather than sniffing it**, because the phase reference is then unavailable to the decoder. Sniff-triggered versus experimenter-triggered delivery of identical stimuli is the manipulation, and it isolates the contribution of the reference rather than of the sampling.
 
-## 12.10 From §4.6 — olfaction is not uniquely thalamus-free
+## Import 10 — from §4.6: olfaction is not uniquely thalamus-free
 
 **Imported:** the spinocerebellar tracts carry proprioceptive and some tactile information to the cerebellum, bypassing the thalamus entirely. Proprioception's reflex arc is shorter still.
 
@@ -86,7 +86,7 @@ The implication for olfaction is uncomfortable and worth stating plainly: **the 
 </script>
 </x-mcq>
 
-## 12.11 From §5.3 — unordered does not entail high-dimensional
+## Import 11 — from §5.3: unordered does not entail high-dimensional
 
 **Imported:** taste is unordered, like olfaction. Its receptor array has no metric — there is no sense in which the sweet receptor is "between" the sour and bitter ones. And taste has essentially none of olfaction's difficulties: its normative account is in reasonable shape, its dimensionality is about five, and nobody thinks the field is stalled.
 
@@ -105,11 +105,11 @@ What the argument establishes securely is narrower but still worth having: <stro
 The test that would settle it is comparative: find or engineer a case with high dimensionality and an <em>ordered</em> array, and see whether the difficulties persist. Vision's spectral system at three dimensions is too small; the closest natural candidate is the auditory system treated as a high-dimensional spectrotemporal problem, which is ordered and does not stall. That points the same way, but it is again a comparison rather than a manipulation.
 </x-callout>
 
-## 12.12 From §5.3 — coordinates could come from consequence rather than from chemistry
+## Import 12 — from §5.3: coordinates could come from consequence rather than from chemistry
 
 **Imported:** taste's dimensions are not chemical families. They are **nutritional categories** — energy, protein, electrolyte, toxin, spoilage. Twenty-five bitter receptors converge onto one axis because the correct action is the same for all of them, regardless of what the molecules have in common chemically, which is often nothing. The coordinate system is defined by what the stimulus *does*, not by what it *is*.
 
-**Candidate analogue:** olfactory coordinates defined by consequence. §12.1 posed the search for odour coordinates as a statistics-of-the-stimulus problem — decorrelate receptor activations across natural scenes and read off the axes. Taste suggests a second and quite different possibility, in which the axes are behavioural categories and the chemistry is incidental.
+**Candidate analogue:** olfactory coordinates defined by consequence. Import 1 posed the search for odour coordinates as a statistics-of-the-stimulus problem — decorrelate receptor activations across natural scenes and read off the axes. Taste suggests a second and quite different possibility, in which the axes are behavioural categories and the chemistry is incidental.
 
 **The disanalogy:** taste's consequences are few, innate, and unambiguous, with a ground-truth teaching signal arriving post-ingestively. Olfaction's consequences are numerous, largely learned, and context-dependent. A consequence-derived coordinate system for smell would have to be learned rather than innate, and would differ between individuals with different histories.
 

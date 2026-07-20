@@ -7,7 +7,7 @@
     "The reason for doing it this way is comparative. Vision and audition have mature normative theories: we can derive retinal receptive fields and cochlear filters from the statistics of natural input and check the answer against the biology. Olfaction has no theory of comparable maturity. The wager of this course is that this gap is informative, and that the clearest route to a theory of smell runs through the modalities that already have one.",
     "So every module uses the same eleven-section skeleton, in the same order, so that §4 always means the receptor array whether you are reading about cones or odorant receptors. You should be able to read across modules as easily as down one. Where a structure is absent — and olfaction is missing several that vision teaches you to expect — the section says so and asks why."
   ],
-  "samplerNote": "Eight modalities in full, all using the identical eleven-section skeleton so they can be read across as easily as down, plus the three synthesis modules: common motifs, key differences, and the capstone. The capstone ends with a ranked research agenda — the course's deliverable.",
+  "homeNote": "Eight modalities in full, all using the identical eleven-section skeleton so they can be read across as easily as down, plus the three synthesis modules: common motifs, key differences, and the capstone. The capstone ends with a ranked research agenda — the course's deliverable.",
   "modules": [
     {
       "id": "m00",
@@ -900,7 +900,7 @@
           "id": "m12.s01",
           "slug": "teaser",
           "sectionNumber": "12.1",
-          "file": "01-teaser.md",
+          "file": "01-vision-and-audition.md",
           "title": "Imports from vision and audition",
           "blurb": "The method, and the two modalities with mature normative theories."
         },
@@ -935,6 +935,14 @@
           "file": "05-the-agenda.md",
           "title": "The research agenda",
           "blurb": "Everything the comparison generated, ranked by informativeness per unit cost — with the null results costed too."
+        },
+        {
+          "id": "m12.s06",
+          "slug": "conclusion",
+          "sectionNumber": "12.6",
+          "file": "06-conclusion.md",
+          "title": "Conclusion — gaps, open questions, and where to read next",
+          "blurb": "The four structural gaps behind every experiment in §12.5, the questions the course could not answer, and an annotated route into the literature."
         }
       ]
     }

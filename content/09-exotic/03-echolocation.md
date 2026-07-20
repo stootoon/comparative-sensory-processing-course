@@ -58,7 +58,7 @@ Bat auditory cortex contains areas where neurons are tuned to specific **echo de
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">A map can exist for something the sensor never measured</div>
-This is the existence proof §12.2 needs, and it changes the olfactory map question.
+This is the existence proof Import 2 needs, and it changes the olfactory map question.
 
 The usual argument is: olfaction's receptor array is unordered, so there is nothing to be topographic about, so no map. The bat shows the inference is invalid. <strong>Maps can be constructed for derived variables.</strong>
 
