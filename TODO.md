@@ -181,6 +181,22 @@ Nociception is now Module 8 (done, 2026-07-20). Two follow-ups it generated:
 
 ---
 
+## Sidebar collapse (added 2026-07-20)
+
+The header toggle collapses the sidebar on desktop and opens it as a drawer on
+mobile, with the desktop state persisted in `csp:prefs`.
+
+**The knob for reading measure when collapsed** is one line in `css/layout.css`:
+`#app-shell[data-nav-collapsed="true"] { --measure: min(48rem, 62vw); }`.
+Open is 34rem (~68 characters), collapsed is 48rem (~90). Raise it to fill more
+of the gap before the TOC, lower it to read more comfortably. Because
+`--measure` is overridden on the shell, the change cascades to prose, ledes,
+exercises and figure captions together — do not widen them individually.
+
+**Do not cap non-prose pages at `--measure`.** An early version applied the cap
+to every child of `.x-main`, which made the home page's module grid *narrower*
+when the sidebar collapsed. Grid pages should use the freed width.
+
 ## Highlighting (added 2026-07-20)
 
 Select text in any section to highlight it; collected on `#/notes`. Stored in

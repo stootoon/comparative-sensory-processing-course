@@ -49,11 +49,21 @@
    left edge with a wide dead gap before the TOC. Widening the column does not
    help, because the prose is capped at --measure — so centre the block instead
    and let the whitespace fall evenly either side. */
+/* Collapsing frees 19rem, and the point of freeing it is to read more per
+   line. Widening --measure here cascades to everything that uses it — prose,
+   lede, exercises, figure captions — so the whole column grows together rather
+   than the text sitting in a centred ribbon with dead space either side.
+   34rem is ~68 characters; 48rem is ~90, which is wide for prose but inside
+   what technical documentation normally runs. Spending the whole freed 19rem
+   would give ~106 and is past the point where lines are easy to track, so this
+   stops short. The vw term keeps it from overrunning on narrower desktops.
+   THIS IS THE KNOB: raise 48rem to fill more of the gap, lower it to read
+   more comfortably. */
+#app-shell[data-nav-collapsed="true"] { --measure: min(48rem, 62vw); }
+/* Centre whatever is left over, so the remainder falls either side of the text
+   instead of pooling in one gap against the TOC. */
 #app-shell[data-nav-collapsed="true"] .x-main > * { margin-inline: auto; }
-/* Only the reading article is capped. Pages built on a grid — the home
-   contents, the notes list — should USE the extra width, not be squeezed into
-   a prose measure by a rule meant for prose. */
-#app-shell[data-nav-collapsed="true"] .x-main > .x-subsection { max-width: var(--measure); }
+#app-shell[data-nav-collapsed="true"] .x-subsection { max-width: var(--measure); }
 
 /* --- Sidebar ------------------------------------------------------------ */
 
