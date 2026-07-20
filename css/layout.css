@@ -3,6 +3,7 @@
 #app-shell {
   display: grid;
   grid-template-columns: var(--sidebar-w) minmax(0, 1fr) var(--toc-w);
+  transition: grid-template-columns 0.22s ease;
   grid-template-rows: var(--header-h) 1fr;
   grid-template-areas:
     "header header header"
@@ -30,7 +31,29 @@
   margin-right: auto;
 }
 
-.x-nav-toggle { display: none; }
+/* The contents toggle works at every width. Above the mobile breakpoint it
+   collapses the sidebar column to zero to reclaim reading width; below it, it
+   opens the sidebar as an overlay drawer instead. */
+.x-nav-toggle { display: block; }
+
+/* Collapsed: the column goes to zero and the panel slides out of it. The inner
+   wrapper keeps its own width so the nav does not reflow while it animates. */
+#app-shell[data-nav-collapsed="true"] { grid-template-columns: 0 minmax(0, 1fr) var(--toc-w); }
+#app-shell[data-nav-collapsed="true"] .x-sidebar {
+  transform: translateX(-100%);
+  border-right-color: transparent;
+}
+.x-sidebar-inner { width: calc(var(--sidebar-w) - 1.7rem); }
+
+/* With the sidebar gone the reading column would otherwise stay pinned to the
+   left edge with a wide dead gap before the TOC. Widening the column does not
+   help, because the prose is capped at --measure — so centre the block instead
+   and let the whitespace fall evenly either side. */
+#app-shell[data-nav-collapsed="true"] .x-main > * { margin-inline: auto; }
+/* Only the reading article is capped. Pages built on a grid — the home
+   contents, the notes list — should USE the extra width, not be squeezed into
+   a prose measure by a rule meant for prose. */
+#app-shell[data-nav-collapsed="true"] .x-main > .x-subsection { max-width: var(--measure); }
 
 /* --- Sidebar ------------------------------------------------------------ */
 
@@ -43,6 +66,8 @@
   border-right: 1px solid var(--rule);
   padding: 1.25rem 0.85rem 2rem;
   background: var(--bg-sunken);
+  overflow-x: hidden;
+  transition: transform 0.22s ease, border-right-color 0.22s ease;
 }
 
 .x-sidebar-head { padding: 0 0.5rem 1rem; }
@@ -443,6 +468,7 @@
       "header header"
       "sidebar main";
   }
+  #app-shell[data-nav-collapsed="true"] { grid-template-columns: 0 minmax(0, 1fr); }
   .x-toc { display: none; }
   .x-main { padding: 2.5rem 2rem 5rem; }
 }
@@ -464,6 +490,10 @@
     box-shadow: var(--shadow-lg);
   }
   #app-shell[data-nav-open="true"] .x-sidebar { transform: translateX(0); }
+  /* The desktop collapse must not fight the drawer at small widths. */
+  #app-shell[data-nav-collapsed="true"] { grid-template-columns: minmax(0, 1fr); }
+  #app-shell[data-nav-collapsed="true"][data-nav-open="true"] .x-sidebar { transform: translateX(0); }
+  .x-sidebar-inner { width: auto; }
 
   .x-main { padding: 1.75rem 1.25rem 4rem; }
   .x-subsection-head h1 { font-size: 1.5rem; }

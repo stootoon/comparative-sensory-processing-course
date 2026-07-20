@@ -19,6 +19,7 @@ function render() {
   const activeId = root.dataset.activeId ?? null;
 
   root.innerHTML = `
+    <div class="x-sidebar-inner">
     <div class="x-sidebar-head">
       <a class="x-sidebar-title" href="#/">Comparative<br>Sensory Processing</a>
       <div class="x-sidebar-progress">
@@ -38,6 +39,7 @@ function render() {
       <a href="#/bibliography">Bibliography</a>
       <a href="#/notes">Your notes</a>
       <a href="#/progress">Your progress</a>
+    </div>
     </div>`;
 }
 

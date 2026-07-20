@@ -58,7 +58,7 @@ async function boot() {
   mountSidebar(app.sidebar);
   mountSettings(document.getElementById('settings-btn'));
   initCitePopover();
-  wireMobileNav();
+  wireNav();
 
   onRouteChange(handleRoute);
   startRouter();
@@ -66,21 +66,61 @@ async function boot() {
   document.getElementById('app-shell').dataset.ready = 'true';
 }
 
-function wireMobileNav() {
+const MOBILE_BREAKPOINT = 880;
+const isMobileLayout = () => window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
+
+function wireNav() {
   const toggle = document.getElementById('nav-toggle');
   const shell = document.getElementById('app-shell');
+  if (!toggle || !shell) return;
 
-  toggle?.addEventListener('click', () => {
-    const open = shell.dataset.navOpen === 'true';
-    shell.dataset.navOpen = open ? 'false' : 'true';
-    toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+  // Restore the desktop collapse before first paint so the layout does not
+  // flash open and then shut.
+  const prefs = store.loadPrefs();
+  if (prefs.navCollapsed) shell.dataset.navCollapsed = 'true';
+
+  const syncLabel = () => {
+    const hidden = isMobileLayout()
+      ? shell.dataset.navOpen !== 'true'
+      : shell.dataset.navCollapsed === 'true';
+    toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+    toggle.setAttribute('aria-label', hidden ? 'Show contents' : 'Hide contents');
+    toggle.title = hidden ? 'Show contents' : 'Hide contents';
+  };
+  syncLabel();
+
+  toggle.addEventListener('click', () => {
+    if (isMobileLayout()) {
+      // Small screens: the sidebar is an overlay drawer, so this opens and
+      // closes it. Collapse state is meaningless here and is left alone.
+      shell.dataset.navOpen = shell.dataset.navOpen === 'true' ? 'false' : 'true';
+    } else {
+      const collapsed = shell.dataset.navCollapsed === 'true';
+      shell.dataset.navCollapsed = collapsed ? 'false' : 'true';
+      store.savePrefs({ ...store.loadPrefs(), navCollapsed: !collapsed });
+    }
+    syncLabel();
   });
 
   // Any navigation closes the drawer — otherwise on a phone you tap a link
-  // and the menu stays over the text you just asked for.
+  // and the menu stays over the text you just asked for. On desktop the
+  // sidebar is not covering anything, so collapse is left as the reader set it.
   app.sidebar.addEventListener('click', (event) => {
-    if (event.target.closest('a')) shell.dataset.navOpen = 'false';
+    if (event.target.closest('a') && isMobileLayout()) {
+      shell.dataset.navOpen = 'false';
+      syncLabel();
+    }
   });
+
+  window.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && isMobileLayout() && shell.dataset.navOpen === 'true') {
+      shell.dataset.navOpen = 'false';
+      syncLabel();
+    }
+  });
+
+  // Crossing the breakpoint changes what the button means.
+  window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).addEventListener('change', syncLabel);
 }
 
 async function handleRoute(route) {
