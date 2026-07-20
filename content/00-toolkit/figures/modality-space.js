@@ -4,17 +4,22 @@
 // reader knows what they are accumulating. Pick any two axes and watch
 // olfaction separate from the modalities with mature theories.
 
+// Both dropdowns offer every axis. They used to offer disjoint subsets, which
+// made two of the three comparisons this figure's own caption recommends —
+// ensemble against theory, and ordered against theory — impossible to select.
+const AXES = [
+  {value:'dim',      label:'Stimulus dimensionality'},
+  {value:'ensemble', label:'Is the natural ensemble measured?'},
+  {value:'theory',   label:'Maturity of normative theory'},
+  {value:'ordered',  label:'Is the receptor array ordered?'},
+  {value:'synapses', label:'Synapses to cortex'},
+  {value:'active',   label:'Active control of stimulus'},
+  {value:'speed',    label:'Sensor speed vs signal speed'},
+];
+
 export const controls = [
-  { id: 'xAxis', label: 'Horizontal axis', type: 'select', value: 'dim',
-    options: [{value:'dim',label:'Stimulus dimensionality'},
-              {value:'synapses',label:'Synapses to cortex'},
-              {value:'active',label:'Active control of stimulus'},
-              {value:'speed',label:'Sensor speed vs signal speed'}] },
-  { id: 'yAxis', label: 'Vertical axis', type: 'select', value: 'theory',
-    options: [{value:'theory',label:'Maturity of normative theory'},
-              {value:'ensemble',label:'Is the natural ensemble measured?'},
-              {value:'ordered',label:'Is the receptor array ordered?'},
-              {value:'dim',label:'Stimulus dimensionality'}] },
+  { id: 'xAxis', label: 'Horizontal axis', type: 'select', value: 'ensemble', options: AXES },
+  { id: 'yAxis', label: 'Vertical axis',   type: 'select', value: 'theory',   options: AXES },
 ];
 
 // Ordinal scores, 0–10. Deliberately coarse — the figure is for locating
@@ -35,8 +40,24 @@ const LAB={dim:'stimulus dimensionality →',synapses:'synapses to cortex →',
  theory:'maturity of normative theory →',ensemble:'natural ensemble measured →',
  ordered:'receptor array ordered →'};
 
+// Pearson r across the nine modalities, for whichever pair is on screen. The
+// caption used to assert "the correlation is close to perfect"; showing the
+// number lets the reader check the claim instead of taking it.
+function corr(a, b) {
+  const n=M.length;
+  const xs=M.map(m=>m[a]), ys=M.map(m=>m[b]);
+  const mx=xs.reduce((s,v)=>s+v,0)/n, my=ys.reduce((s,v)=>s+v,0)/n;
+  let sxy=0, sxx=0, syy=0;
+  for(let i=0;i<n;i++){
+    const dx=xs[i]-mx, dy=ys[i]-my;
+    sxy+=dx*dy; sxx+=dx*dx; syy+=dy*dy;
+  }
+  if(sxx===0||syy===0) return null;   // a constant axis has no correlation
+  return sxy/Math.sqrt(sxx*syy);
+}
+
 export function draw(root, values, { createPlot }) {
-  const xa=values.xAxis??'dim', ya=values.yAxis??'theory';
+  const xa=values.xAxis??'ensemble', ya=values.yAxis??'theory';
   const plot=createPlot(root,{width:700,height:400,
     margin:{top:20,right:30,bottom:54,left:80},
     x:{domain:[-0.6,11],label:LAB[xa],ticks:[0,2,4,6,8,10]},
@@ -51,18 +72,45 @@ export function draw(root, values, { createPlot }) {
     plot.points([[x,y]],{className:m.cls,radius:m.n==='Olfaction'?7:5});
     plot.annotate(x+0.28,y+0.1,m.n,{anchor:'start',className:m.cls});
   }
-  const o=M.find(m=>m.n==='Olfaction');
+  const r=xa===ya?null:corr(xa,ya);
+  const rTxt=r===null?null:(r<0?'−':'')+Math.abs(r).toFixed(2);
+
   const n=document.createElement('p'); n.className='x-figure-note';
-  n.innerHTML =
-    `Olfaction is drawn larger. <strong>Try dimensionality against theory maturity</strong> — the two clump ` +
-    `apart, and olfaction sits alone in the high-dimensional, low-theory corner. Then try <strong>ensemble ` +
-    `measured against theory maturity</strong>: the correlation is close to perfect, which is this course's ` +
-    `central empirical claim. Modalities whose input statistics someone measured have theories; the one whose ` +
-    `statistics nobody measured does not. ` +
-    `<br><br>Then try axes that <em>don't</em> separate it. Ordered-array against theory puts gustation with ` +
-    `olfaction, yet gustation has no theoretical difficulty — which is the §5.4 argument that <strong>the problem ` +
-    `is dimensionality, not disorder</strong>. Scores are ordinal and deliberately coarse; they are for locating ` +
-    `modalities relative to each other, not for pretending to precision.`;
+  let body;
+  if(xa===ya){
+    body = `Both axes are showing the same property, so every modality necessarily lies on the diagonal. ` +
+      `Change one of them to compare two different properties.`;
+  } else if(xa==='ensemble'&&ya==='theory'||xa==='theory'&&ya==='ensemble'){
+    body = `<strong>This is the course's central empirical claim, and the opening view.</strong> Measured ensemble ` +
+      `against theoretical maturity, <strong>r = ${rTxt}</strong> across nine modalities. Every modality whose input ` +
+      `statistics someone characterised has a normative theory; the one whose statistics nobody characterised does ` +
+      `not, and olfaction sits alone in the bottom-left corner. ` +
+      `<br><br>The correlation is not evidence of the causal direction, and the honest alternative is that both ` +
+      `track a third variable — tractability, or how long a field has had good tools. The reason to prefer the ` +
+      `causal reading is historical rather than statistical: in vision and audition the ensemble was measured ` +
+      `<em>first</em>, largely by people not thinking about coding theory, and the theory followed. ` +
+      `<br><br>Now try the two rival explanations of <em>why</em> olfaction lacks a theory, and note that the ` +
+      `numbers do not go the way the course's slogan implies. Ordered array against theory gives r = 0.76; ` +
+      `dimensionality against theory gives r = −0.69. <strong>Disorder correlates with poor theory slightly ` +
+      `better than dimensionality does.</strong> ` +
+      `<br><br>The case for blaming dimensionality anyway does not rest on the correlation — it rests on ` +
+      `gustation being an <em>outlier</em> on the disorder axis. Taste is maximally disordered and has a perfectly ` +
+      `serviceable theory, which is a counterexample the correlation coefficient averages away. Highlight it and ` +
+      `see. This is why §11.1 settles on a <strong>disorder × dimensionality interaction</strong> rather than ` +
+      `pinning it on either alone, and it is a good demonstration that a scatter of nine points can mislead you ` +
+      `if you read only the summary statistic.`;
+  } else {
+    body = `Olfaction is drawn larger. <strong>r = ${rTxt}</strong> across the nine modalities on these two axes. ` +
+      `<br><br>For reference, the strongest pair in the whole datasheet is <strong>ensemble measured against ` +
+      `theory maturity, r = 0.91</strong> — this course's central empirical claim, and the view this figure opens ` +
+      `on. Next come dimensionality against sensor speed (−0.83) and ordered array against theory (0.76). ` +
+      `Dimensionality against theory maturity, which the course leans on most heavily in prose, is only ` +
+      `−0.69 — weaker than the disorder axis it is usually contrasted with. §11.1 takes that seriously rather ` +
+      `than explaining it away.`;
+  }
+  n.innerHTML = body + `<br><br>Scores are ordinal and deliberately coarse — they are for locating modalities ` +
+    `relative to one another, not for pretending to precision, and <em>r</em> on nine hand-assigned ordinal ` +
+    `scores is an illustration rather than a statistical result.`;
   root.appendChild(n);
   const c=document.createElement('p'); c.className='x-figure-credit';
   c.textContent='Summary figure generated for this course from the per-module datasheets.';
