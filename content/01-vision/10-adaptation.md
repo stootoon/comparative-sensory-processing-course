@@ -7,14 +7,20 @@ estimatedMinutes: 12
 
 ## Light adaptation
 
-Ambient light varies over about ten log units between starlight and noon. A neuron's firing rate spans perhaps two. The gap is closed by adaptation: the system continuously rescales so that its limited range covers the *current* distribution.
+Ambient light varies over about ten log units between starlight and noon. A ganglion cell's firing rate spans usefully over about two [@kandel2021]. The gap is closed by adaptation: the system continuously rescales so that its limited range covers the *current* distribution.
+
+The decomposition of those ten log units is what makes the design intelligible, and it is §1.1's ill-posed equation restated as an engineering brief. Of the total variation in retinal illuminance, roughly **nine orders of magnitude are contributed by the illuminant** $L$ — mostly because the planet rotates — while surface reflectance $R$, the quantity that characterises objects and is therefore the thing worth measuring, varies over only about **one order of magnitude** within a typical scene [@kandel2021].
+
+So the nuisance variable outweighs the signal by eight orders of magnitude. An ideal gain control that divided out the illuminant exactly would leave the ganglion cell encoding a tenfold range with two decades of firing rate to spend on it — comfortable, with resolution to spare. Adaptation is not a workaround for a limitation of neurons. **It is the operation that converts an unsolvable representational problem into an easy one, and it does so by throwing away almost everything.**
+
+That framing also explains a piece of anatomy that is otherwise arbitrary. The gain changes have to happen in graded potentials, before spikes are generated, because a two-decade firing range cannot survive a ten-decade input — which may be the reason this circuitry sits in the eye rather than at the far end of the optic nerve [@kandel2021]. The bottleneck determines where the computation must live.
 
 <x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
   caption="Adaptation timescales across every modality in the course. Filter to Vision and note the three-decade span from photoreceptor calcium feedback to the rod–cone handover — no single mechanism covers the range, so several are stacked. Then switch to the volatility view for the prediction this section ends on.">
 </x-figure>
 
 
-Mechanisms stack across timescales — pupil (fast, small range), photoreceptor gain via calcium feedback in the transduction cascade, synaptic depression, network-level gain in bipolar and ganglion circuits, and the rod-to-cone handover across the widest range.
+Mechanisms stack across timescales — the pupil (fast, and worth only about one log unit of the ten [@kandel2021]), photoreceptor gain via calcium feedback in the transduction cascade, synaptic depression, network-level gain in bipolar and ganglion circuits, and the rod-to-cone handover across the widest range. The pupil figure is worth noticing: the mechanism everyone names first contributes a tenth of the required range, and the other nine log units are neural.
 
 The result is that visual neurons encode **contrast** rather than absolute intensity, which is the right variable: contrast is a property of surfaces, while absolute intensity mostly reflects illumination the animal does not care about.
 

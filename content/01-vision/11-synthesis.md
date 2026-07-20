@@ -15,7 +15,7 @@ estimatedMinutes: 14
 
 **Beyond V1, nothing comparable.**
 
-**The honest caveats.** Retinal decorrelation is mostly accomplished by nonlinearity rather than the linear surround [@pitkow2012]; centre–surround is over-determined, predicted by several distinct principles; and the retina computes ~20 parallel feature channels that efficient coding does not anticipate.
+**The honest caveats.** Retinal decorrelation is mostly accomplished by nonlinearity rather than the linear surround [@pitkow2012]; centre–surround is over-determined, predicted by several distinct principles; and the retina computes more than 20 parallel feature channels [@kandel2021] that efficient coding does not anticipate.
 
 ## The comparative datasheet
 

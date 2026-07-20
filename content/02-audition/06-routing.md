@@ -19,13 +19,22 @@ The ascending auditory pathway is long. From cochlear nucleus the signal passes 
 </x-figure>
 
 
+## What the lateral lemniscus is for
+
+The list above names the lateral lemniscus as a station and then says nothing about it, which is worth repairing, because its known job answers a problem §2.1 raised and then dropped: **reverberation**.
+
+Every localisation cue an animal computes is corrupted by reflections, which arrive milliseconds later carrying entirely wrong ITDs and ILDs. The behavioural solution is the *precedence effect* — mammals suppress all but the first-arriving copy. The dorsal nucleus of the lateral lemniscus is a plausible mechanism for it: its neurons are GABAergic, driven binaurally from both superior olives, amplified by NMDA receptors so that the inhibition they impose on the inferior colliculus outlasts the sound by tens of milliseconds, and physiological correlates of echo suppression are measurable in the IC [@kandel2021].
+
+Note the shape of that solution, because it recurs. The system is not estimating the room and deconvolving it. It is applying a *prior* — the first arrival is the direct path — implemented as a temporal window during which later evidence is simply refused. Cheap, wrong in principle, and almost always right in practice.
+
 ## The inferior colliculus
 
 Nearly every ascending auditory pathway synapses in the IC. This is unusual: vision has no equivalent obligatory midbrain hub, since retinal output reaches cortex via LGN with the superior colliculus running in parallel rather than in series.
 
 What the IC appears to be for:
 
-- **Convergence.** Timing, level and spectral streams, separated in the cochlear nucleus, are brought back together. Binaural cues computed in the olive meet monaural spectral cues computed in the dorsal cochlear nucleus, and a unified representation of auditory space becomes possible.
+- **Convergence.** Timing, level and spectral streams, separated in the cochlear nucleus, are brought back together. Binaural cues computed in the olive meet monaural spectral cues computed in the dorsal cochlear nucleus, and a unified representation of auditory space becomes possible. This is forced rather than optional: ITD and ILD each specify only a cone of directions, so nothing short of combining them with the spectral cue can name a single point in space.
+- **Tonotopy with a grain.** The central nucleus is tonotopic, but the map is *discontinuous* — best frequencies step rather than vary smoothly, and the step is about a third of an octave, which is the width of the psychophysical critical band plotted in §2.4 [@kandel2021]. A behavioural filter width and a midbrain lamination interval turning out to be the same number is the sort of correspondence the course should collect, because it constrains where the filter is imposed.
 - **Adaptation to stimulus statistics.** IC neurons adjust their rate–level functions to the mean, variance and higher-order structure of the current sound-level distribution, improving population accuracy near the most common levels [@dean2005]. This is §0.2's dynamic efficient coding, measured directly, in the middle of a pathway.
 - **Multisensory and motor integration**, and a route to orienting behaviour that does not require cortex.
 
@@ -46,7 +55,7 @@ Audition must compute location from scratch — it is not in the receptor array 
 
 ## The thalamus, doing thalamus things
 
-The medial geniculate body shows the same features as LGN: driver and modulator inputs, massive descending corticothalamic feedback outnumbering the ascending path, burst and tonic firing modes, and strong modulation by attention and state.
+The medial geniculate body shows the same features as LGN: driver and modulator inputs, burst and tonic firing modes, strong modulation by attention and state, and descending corticothalamic feedback that outnumbers the ascending path by roughly ten to one [@kandel2021]. That ratio is worth stating as a number rather than as "massive", because it is the single most awkward fact for a feedforward reading of any sensory pathway: the thalamus receives an order of magnitude more from cortex than it sends there.
 
 Two independent modalities converging on the same thalamic architecture is decent evidence that the architecture does something necessary rather than accidental. Which makes olfaction's willingness to do without it the more striking — and is exactly the question §3.6 takes up.
 

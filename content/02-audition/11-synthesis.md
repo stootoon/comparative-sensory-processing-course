@@ -13,7 +13,7 @@ estimatedMinutes: 14
 
 **What did not work.** No comparable account of A1. STRFs explain a modest fraction of variance and change with task. The normative programme degrades with depth, exactly as it does in vision.
 
-**What is contested.** ITD coding — place map or two channels — turned out not to be a disagreement about mechanism but about which animal, and the normative resolution (§2.5) is one of the most satisfying results in the course.
+**What is contested.** ITD coding — place map or two channels. The normative move in §2.5 is one of the most satisfying in the course, but be careful what it resolves: head size relative to cycle period predicts the *readout geometry* an animal should use, and does so well. It does not settle the mechanism generating any particular best delay, where axonal delay lines, precisely timed inhibition arriving ahead of excitation, and a contralateral-hemifield map remain live and are not mutually exclusive [@kandel2021]. A resolved question at the computational level sitting on top of an open one at the implementational level is the normal condition, not a defect — but the module should not let the first disguise the second.
 
 ## The comparative datasheet
 

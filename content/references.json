@@ -406,5 +406,13 @@
     "venue": "Nature Neuroscience 15(1):146–154",
     "doi": "10.1038/nn.2983",
     "note": "The direct neural test. MSTd population decoding predicted behavioural cue weighting including its modest deviations from optimality — so the animals are near-optimal rather than optimal, and the neurons track the shortfall."
+  },
+  "kandel2021": {
+    "authors": "Kandel, E. R., Koester, J. D., Mack, S. H. & Siegelbaum, S. A. (eds)",
+    "year": 2021,
+    "title": "Principles of Neural Science, 6th edition — Part IV: Perception",
+    "venue": "McGraw Hill. ISBN 978-1259642241. Part IV edited by Albright, T. D. & Bruno, R. M.",
+    "url": "https://search.worldcat.org/search?q=isbn%3A9781259642241",
+    "note": "The standard textbook, used here to check and fill the course rather than to source arguments. Where a claim in this course rests on Kandel, the citing prose names the chapter. Chapters 17-29 cover sensory coding, somatosensation, touch, pain, vision, audition, vestibular, and the chemical senses."
   }
 }

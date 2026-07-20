@@ -20,6 +20,8 @@ The striking fact: **only about 5–10% of synapses in LGN come from the retina.
 </x-figure>
 
 
+Those laminae are not equally supplied, and the imbalance is another instance of §1.4's budget allocation. Midget ganglion cells, feeding the parvocellular layers, are about 70% of the primate optic nerve; parasol cells feeding the magnocellular layers are about 10%, and the bistratified cells feeding koniocellular layers about 8% [@kandel2021]. The high-acuity, chromatically opponent channel takes seven fibres for every one spent on fast achromatic contrast — a strong revealed preference about which of the two the bottleneck is worth spending on, and a reminder that "parallel streams" describes a set of channels differing by nearly an order of magnitude in cost.
+
 A structure receiving ten times more feedback than feedforward input is not a relay in any ordinary sense of the word.
 
 The standard framework distinguishes **drivers** from **modulators**. Retinal input is the driver: it determines what the LGN cell responds to. The vastly more numerous cortical and brainstem inputs are modulators: they determine *whether, when and how strongly* that response is transmitted.

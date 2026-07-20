@@ -11,9 +11,11 @@ Vestibular is unusual: it is a sense of self-motion, and the animal generates mo
 
 Here is the finding that makes this section the most important in the module for olfaction.
 
-Vestibular nucleus neurons respond robustly to **passively applied** head rotation. The same neurons respond far less — often barely at all — to **actively generated** head rotation of identical amplitude and velocity [@cullen2012].
+A subset of vestibular nucleus neurons respond robustly to **passively applied** head rotation. The same neurons respond far less — often barely at all — to **actively generated** head rotation of identical amplitude and velocity [@cullen2012].
 
 The sensor reports both identically; the afferents fire the same way. The cancellation happens centrally, at the first central synapse, and it depends on the movement being **self-generated and matching the motor command**. Perturb an active movement unexpectedly and the response returns.
+
+**"A subset" is load-bearing, and flattening it would break the reflex.** Near-complete cancellation is confined to the neurons feeding posture and self-motion estimation; the neurons driving the VOR are attenuated but remain responsive during active head turns, which they must be, since gaze needs stabilising whether or not the animal caused the head movement. So the same afferent signal is subtracted on one branch and passed through on another, at the same synapse, in the same nucleus. That is a stronger and more specific finding than "the brain cancels reafference": what is cancelled is decided per consumer, not per stimulus, and it lines up exactly with the type 3 split of §6.8. Any olfactory version of this account has to say which stream it thinks is doing the subtracting; a bulb that cancelled sniff-driven input wholesale would have nothing left to report.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The archetype, and what it hands olfaction</div>
@@ -68,6 +70,8 @@ This is the cleanest localised instance of predictive subtraction in the mammali
 ## The internal model
 
 The cancellation requires the brain to predict the sensory consequences of a motor command, which means a **forward model** of head dynamics.
+
+The model has to be of more than the head. A neck motor command specifies head-on-trunk motion, whereas the canals report head-in-space motion, and the two differ by whatever the trunk is doing. So the prediction is constructed from a forward model of the canals, the otoliths *and* the neck proprioceptors together [@kandel2021] — which is why the cancellation survives when the animal moves its head while the trunk is also moving, and why it is not simply a copy of the neck command subtracted from the afferent.
 
 <x-figure src="content/07-proprioception/figures/forward-model.js"
   caption="A forward model correcting a delayed, noisy sensor. Switch the model off and the estimate inherits both the lag and the noise. This is the object vestibular cancellation requires, and the same one §13 argues olfaction needs for plume transport — with the crucial difference that head dynamics are stationary and turbulence is not.">

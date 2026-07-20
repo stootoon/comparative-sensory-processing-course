@@ -40,9 +40,9 @@ By §13 the claim will be that <em>temporal correlation is to olfaction what har
 - **Content** — for speech and conspecific vocalisation, an entire further layer of structure.
 - **Scene structure** — how many sources are there at all? This has to be inferred, not read off.
 
-Note that **location is a genuine inference in audition in a way it is not in vision.** The retina samples direction directly: which photoreceptor fired tells you where the light came from. The cochlea samples *frequency*, not direction, so spatial location must be computed from interaural time and level differences of a few hundred microseconds and a few decibels.
+Note that **location is a genuine inference in audition in a way it is not in vision.** The retina samples direction directly: which photoreceptor fired tells you where the light came from. The cochlea samples *frequency*, not direction, so spatial location must be computed from interaural differences — a few hundred microseconds of time, and, at frequencies short enough for the head to cast an acoustic shadow, up to some tens of decibels of level.
 
-That has a consequence worth carrying forward: audition builds a map of auditory space in the midbrain, and that map is **computed**, not inherited from the receptor surface. It is one of the clearest existence proofs that a topographic map can exist for a derived variable — which is precisely the possibility §13 raises for olfaction.
+That has a consequence worth carrying forward: audition builds a map of auditory space in the midbrain — in the superior colliculus, where it is registered with the visual and somatosensory maps and with the motor map for orienting — and that map is **computed**, not inherited from the receptor surface [@kandel2021]. It is one of the clearest existence proofs that a topographic map can exist for a derived variable — which is precisely the possibility §13 raises for olfaction.
 
 ## The loss function and the deadline
 

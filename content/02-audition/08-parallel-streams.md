@@ -7,7 +7,9 @@ estimatedMinutes: 12
 
 Beyond primary cortex, auditory processing diverges into broadly separable streams: an **anteroventral** pathway concerned with identity — what is this sound, whose voice, which word — and a **posterodorsal** pathway concerned with location and with auditory-motor mapping.
 
-The parallel with vision's ventral and dorsal streams is close enough to be more than coincidence, and the fact that it is close is the interesting part.
+The parallel with vision's ventral and dorsal streams is close enough to be more than coincidence, and the fact that it is close is the interesting part. It is also, on the anatomy, a tendency rather than a partition — medial belt areas project to both dorsal and ventral frontal targets, and broadly space-tuned neurons are found in caudal and anterior areas alike [@kandel2021]. The claim worth defending is that the streams are separated, not that they are disjoint.
+
+A lesion result sharpens what the cortical "where" pathway is actually for. Removing A1 can produce profound localisation deficits — but not on every task. An animal asked merely to report which side a sound came from is unimpaired; the deficit appears when it must *approach* the location of a brief sound, that is, form a representation of the source, hold it, and move to it. Inactivating the avian equivalent of the frontal eye fields in barn owls does the same thing: orienting to a present sound survives, orienting to a remembered one does not [@kandel2021]. So the subcortical route through the inferior and superior colliculi already suffices for reflexive orienting, and what cortex adds is memory and the ability to act on a source that is no longer sounding. Worth carrying into §3.8: the question "where is olfaction's dorsal stream?" may be better posed as "what does olfaction do that needs a *remembered* source location?"
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Why the convergence is evidence</div>

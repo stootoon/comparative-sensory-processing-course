@@ -50,7 +50,7 @@ Where olfaction sits on this axis is genuinely open, and is one of the more inte
 
 ## The deadline
 
-Behaviourally relevant vision operates on the scale of a saccade: roughly 200–300 ms between fixations, with useful object categorisation available within about 150 ms of stimulus onset. The system cannot afford lengthy iterative inference; whatever it computes, it computes largely in a feedforward sweep with recurrence refining rather than establishing the answer.
+Behaviourally relevant vision operates on the scale of a saccade: roughly 250–350 ms between fixations — about three per second — with useful object categorisation available within about 150 ms of stimulus onset. The system cannot afford lengthy iterative inference; whatever it computes, it computes largely in a feedforward sweep with recurrence refining rather than establishing the answer.
 
 Deadlines recur throughout the course as a design constraint that is too often left out of normative accounts. A theory that predicts the optimal estimator without asking whether it can be computed in time is not yet a theory of the biology.
 

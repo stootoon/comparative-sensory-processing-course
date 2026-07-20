@@ -9,7 +9,7 @@ estimatedMinutes: 18
 
 Sound reaching the ear is a pressure wave in air. It must be transduced into neural signals, and two things make this hard.
 
-**Impedance mismatch.** Air is a poor match to the fluid-filled cochlea; a wave arriving at a fluid surface would mostly reflect. The middle ear ossicles act as an impedance-matching transformer, using a lever ratio and the area difference between eardrum and oval window to gain roughly 30 dB.
+**Impedance mismatch.** Air is a poor match to the fluid-filled cochlea; a wave arriving at a fluid surface would mostly reflect. The middle ear ossicles act as an impedance-matching transformer. Two factors do the work: the tympanum's area is about twenty times that of the stapes footplate, and the malleus–incus linkage is a lever with a modest ratio, the human incus being roughly 70% the length of the malleus. Together they raise pressure at the oval window by up to about thirtyfold — a gain of roughly 30 dB, and frequency-dependent, which is one reason the audiogram is U-shaped [@kandel2021].
 
 **Amplitude.** At threshold, the eardrum moves by less than the diameter of a hydrogen atom. The system operates against the **thermal noise floor of the air itself** — Brownian motion of the medium sets a hard physical limit, and human hearing sits close to it.
 
@@ -45,7 +45,15 @@ In each case the computation is free: no spikes, no energy, no delay. Olfaction 
 
 ## The active cochlea
 
-Passive mechanics alone would give tuning far broader than what is measured, and sensitivity far worse. The resolution is that the cochlea is **active**: outer hair cells change length in response to voltage, feeding mechanical energy back into the travelling wave on a cycle-by-cycle basis.
+Passive mechanics alone would give tuning far broader than what is measured, and sensitivity far worse. Models of a passive cochlea reproduce what is actually measured only at high stimulus levels; at low levels the basilar membrane moves more than a hundred times further than a passive membrane would, and the amplifier is worth 40–50 dB of threshold [@kandel2021]. The resolution is that the cochlea is **active** — it puts energy back into the travelling wave, cycle by cycle.
+
+Two mechanisms do this, and the course should not collapse them into one.
+
+**Somatic electromotility.** Outer hair cells change length when their membrane potential changes — shortening on depolarisation by up to a few micrometres, at rates beyond 80 kHz. The motor is *prestin*, packed in millions of copies into the lateral membrane; the energy comes from the standing electrical gradient across that membrane rather than from local ATP hydrolysis, which is what allows the mechanism to keep up with acoustic frequencies. Abolishing prestin's voltage sensitivity abolishes the active process in mice.
+
+**Active hair-bundle motility.** The bundle itself generates force: it can push back against a stimulus probe, do mechanical work, and oscillate spontaneously. This is the older mechanism and the general one — sharp tuning, high sensitivity and otoacoustic emissions are all found in animals that have neither outer hair cells nor prestin, so electromotility cannot be the whole story even in mammals [@kandel2021].
+
+The likeliest division of labour is that bundle motility acts as tuner and preamplifier and electromotility as power amplifier, with the second superseding the first at high frequencies. That distinction matters for the argument this section is making: the *general* solution to a sensor at the noise floor is an active bundle, present in the first hair cells that ever evolved. Prestin is a mammalian addition bought to extend the same trick past the frequencies a bundle can follow.
 
 <x-figure src="content/media/hair-cells-sem.jpg"
   caption="Scanning electron micrographs of the organ of Corti. Panel A: three rows of outer hair cells with their characteristic V-shaped stereocilia bundles (top), and a single row of inner hair cells (bottom). Panels C and D: individual OHC and IHC bundles. The asymmetry is functional — the ~3,500 inner hair cells are the sensors that report to the brain, while the ~12,000 outer hair cells are mostly the amplifier, contracting and elongating to feed energy back into the travelling wave."
@@ -119,7 +127,7 @@ Three properties come free from one choice:
 
 ## Speed
 
-Hair cell transduction is exceptionally fast: the mechanotransduction channels are gated **directly** by tip-link tension, with no second messenger cascade. Latency is measured in microseconds.
+Hair cell transduction is exceptionally fast: the mechanotransduction channels are gated **directly** by mechanical strain, transmitted through an elastic *gating spring* of which the tip link is the principal component, with no second messenger cascade in between. Latency is a few microseconds — brief enough that direct gating is essentially forced, since no cascade could be that fast [@kandel2021].
 
 That speed is what makes interaural time difference coding possible at all. Localisation depends on comparing arrival times between ears with a precision of tens of microseconds, and no cascade-based transducer could support it.
 

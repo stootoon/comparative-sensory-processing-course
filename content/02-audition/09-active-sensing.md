@@ -27,11 +27,13 @@ This is <strong>structurally identical to casting in odour tracking</strong>. In
 The general form is: <em>ambiguity plus a known forward model of how movement changes the signal equals resolution.</em> §13 argues this is the shape any olfactory localisation account must take, and that the required forward model is a model of turbulent transport.
 </x-callout>
 
-**Pinna movement**, in species that have it, steers spectral filtering.
+**Pinna movement**, in species that have it, steers spectral filtering. The filtering itself is worth being precise about: the head, shoulders and folded auricle impose deep, narrow spectral notches above about 8 kHz whose frequencies shift with source direction, and because the auricle is asymmetric front-to-back as well as top-to-bottom, the notch pattern disambiguates both elevation and front from back. The pattern is idiosyncratic to each individual, so it cannot be innate — and indeed, if the shape of the ear is experimentally altered, even adult humans relearn the new mapping [@kandel2021]. That is the callout's "known forward model" being *acquired*, which is the more demanding claim and the one that has actually been demonstrated here.
 
 **Middle-ear muscle reflexes** attenuate transmission before loud self-generated sounds — a protective gain control that is also an efference-copy mechanism.
 
 **Vocal efference copy.** When an animal vocalises it must not mistake its own sound for another's. Auditory cortex is suppressed during self-generated vocalisation by a corollary discharge from motor areas, and the suppression is *specific*: unexpected feedback breaks through.
+
+And it is not the earliest instance. The dorsal cochlear nucleus already cancels self-generated chewing and licking sounds, using somatosensory and motor information carried in on its parallel fibres (§2.5) — two synapses from the ear. Whatever the auditory system is doing about self-generated sound, it starts long before cortex.
 
 That last one is the same motif as vestibular cancellation of self-generated head motion and the electrosensory negative image. **Subtract what you predicted**; a neuron that has succeeded goes quiet. The recurring interpretive warning applies — silence is a result, not an absence of response.
 

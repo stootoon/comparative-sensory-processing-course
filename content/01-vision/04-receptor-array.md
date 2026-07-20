@@ -17,7 +17,7 @@ Roughly $10^8$ photoreceptors tile a two-dimensional surface. Four properties of
 
 **It is two-dimensional**, with the third dimension recovered by inference from stereo, parallax, and pictorial cues rather than sampled directly.
 
-**It is non-uniformly sampled.** Cone density in the fovea exceeds peripheral density by more than two orders of magnitude.
+**It is non-uniformly sampled.** Cone density in the fovea exceeds peripheral density by roughly two orders of magnitude, and photoreceptors grow larger and more widely spaced monotonically with eccentricity [@kandel2021].
 
 <x-figure src="content/media/cone-mosaic-normal-vs-protanope.jpg"
   caption="The living human cone mosaic, imaged through adaptive optics. Left: a colour-normal retina, with L, M and S cones pseudo-coloured. Right: a protanope, missing L cones entirely — note that the mosaic is still fully tiled, because the remaining classes fill the gaps. The array is ordered and metric in space, but the assignment of spectral class to position is close to random."
@@ -26,6 +26,10 @@ Roughly $10^8$ photoreceptors tile a two-dimensional surface. Four properties of
 </x-figure>
 
 This is a budget allocation: a fixed number of downstream fibres can be spent uniformly for mediocre resolution everywhere, or concentrated for excellent resolution somewhere, with eye movements bringing the somewhere to wherever it is needed.
+
+And the concentration stops at a principled place. Foveal cone spacing is matched to the size of the eye's optical blur circle: the smallest letter strokes a normal observer can resolve are about one minute of arc wide on the retina, which is one to two cone diameters [@kandel2021]. Sampling any finer would buy nothing, because the optics have already destroyed the information; sampling any coarser would discard resolution the optics delivered. The receptor array is tuned to its own front end, and the fovea does the two other things that follow from the same logic — the overlying cell layers are displaced aside in the foveola so light reaches the receptors unscattered, and S cones, which make up only about 10% of cones, are excluded from the foveal centre altogether [@kandel2021] — plausibly because the eye's chromatic aberration leaves short wavelengths badly out of focus, so an S cone placed at the point of highest acuity would sample a blurred image while occupying a slot an L or M cone could have used.
+
+That last point is the more instructive one for this course. **A channel can be worth having globally and worth excluding locally**, if its contribution at the point of highest acuity would cost more than it returns. Optimality here is not a property of the array; it is a property of each position in the array.
 
 The consequences of ordering and metric structure are enormous, and they are so pervasive in visual neuroscience that it takes effort to notice them as assumptions at all:
 

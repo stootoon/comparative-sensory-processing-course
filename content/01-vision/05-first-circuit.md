@@ -5,7 +5,7 @@ lede: The retina is where efficient coding came closest to being proven. It is a
 estimatedMinutes: 20
 ---
 
-The retina is not a relay. Between photoreceptor and optic nerve sit three synaptic layers and more than a dozen interneuron classes, and the signal leaving is profoundly transformed from the signal arriving. Roughly $10^8$ photoreceptors converge onto about $10^6$ ganglion cells — a hundredfold compression — and the retina decides what survives.
+The retina is not a relay. Between photoreceptor and optic nerve sit two synaptic layers, about ten bipolar cell types, and some thirty types of amacrine cell [@kandel2021], and the signal leaving is profoundly transformed from the signal arriving. Roughly $10^8$ photoreceptors converge onto about $10^6$ ganglion cells — a hundredfold compression — and the retina decides what survives.
 
 <x-figure src="content/media/cajal-retina.jpg"
   caption="Cajal's drawing of the mammalian retina, c. 1900. Light enters from below in this orientation and travels through the ganglion and inner nuclear layers before reaching the photoreceptors at the top — the retina is built back to front. Every cell class in the circuit below is visible here: rods and cones (a, b), horizontal cells (e), bipolars (f, g), amacrines (h), and ganglion cells (i, j). Cajal inferred the direction of signal flow from morphology alone, before any of it could be recorded."
@@ -68,11 +68,30 @@ Two consequences that a naive "average the neighbours" account misses:
 
 This is the same computation as whitening, seen from a different angle. Subtracting a local prediction removes the low-frequency, high-power components, flattening the output spectrum. If you prefer the frequency-domain picture, return to the figure in §0.2 and switch it to the receptive-field view — that is this same filter, drawn in space.
 
+## The residual is signed, and spike rates are not
+
+Subtracting a prediction creates a problem the worked example quietly ignored. The residual has a sign: the centre can be brighter than its surround predicted or darker, and both are informative. A firing rate cannot carry a sign cheaply. It is bounded below at zero, and the only way to encode negative residuals in a single channel is to sit at an elevated baseline and modulate around it.
+
+The retina refuses that solution and splits the output instead. Every point in the visual field is covered by both **ON** ganglion cells, which fire above baseline when the centre brightens, and **OFF** cells, which fire when it darkens; the split is already established one synapse earlier, where ON bipolar cells invert the photoreceptor's sign through metabotropic glutamate receptors while OFF bipolars pass it through ionotropic ones [@kandel2021]. Two half-wave-rectified channels, together spanning what one signed channel would have carried.
+
+The cost is obvious — roughly twice the fibres for the same information, in a pathway whose defining constraint is a hundredfold bottleneck. So the argument for paying it has to be strong, and Kandel's chapter 22 puts it in the currency this course cares about most: **latency**. A cell idling at 10 spikes/s that signals darkening by falling silent takes on the order of 100 ms before a downstream neuron can be confident the rate has changed, because at low rates the evidence arrives one interval at a time. The same event signalled by a rise to 200 spikes/s is unambiguous within about 5 ms [@kandel2021]. Encoding both polarities as increases converts a slow inference into a fast one, twentyfold.
+
+<x-callout class="x-callout is-key">
+<div class="x-callout-title">Rectification is a deadline purchase, not a coding one</div>
+This is the clearest case in the module of an architectural feature that <strong>costs bits and buys time</strong>. An efficient-coding account scores the ON/OFF split as a straightforward loss — the same information carried by twice the wires — and it is right about that. The split exists because §1.1's deadline is a real constraint and information that arrives too late has no value.
+
+The general form is worth carrying forward as a prediction to test elsewhere: <strong>wherever a system subtracts a prediction and must transmit a signed residual through a rate code, expect rectification into paired channels, and expect the doubling to be justified by latency rather than by information.</strong> Whether the olfactory bulb pays that same price — and whether excitatory and suppressive mitral responses to an odour are the two halves of one rectified variable or two unrelated things — is a question §3.5 is in a position to ask and this course does not settle.
+</x-callout>
+
 ## The prediction that made it credible
 
 A theory that explains an existing observation is cheap. §0.2 set out the version that made a risky prediction: because the optimal filter trades whitening against noise suppression, the surround should **weaken and broaden as light level falls**.
 
 It does. At scotopic levels, retinal surrounds weaken measurably and receptive fields broaden — the system stops differentiating and starts pooling, precisely as predicted. Direct tests showed LGN responses to natural movies are close to temporally white, as whitening requires [@dan1996].
+
+The prediction is also cashed out in psychophysics, which is what makes it hard to dismiss as a curiosity of single-unit recording. In bright light human contrast sensitivity is **band-pass**: it peaks near 5 cycles per degree and falls away on both sides, with an absolute cutoff around 50 cycles per degree set by the optics and the foveal cone spacing of §1.4. As mean luminance falls the curve does not simply shift down — it changes shape, losing its peak entirely and becoming **low-pass** [@kandel2021]. Low spatial frequencies stop being attenuated because there is no longer a surround attenuating them. Macaque ganglion cells measured the same way reproduce the human curves closely, which is the link that lets a claim about one circuit be tested on a whole organism.
+
+The chain is therefore: measured scene statistics → an SNR-dependent optimal filter → a predicted change in receptive-field shape → a predicted change in the *shape* of a perceptual sensitivity curve, confirmed. Very little in sensory neuroscience closes that loop.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The benchmark, restated</div>
@@ -87,7 +106,7 @@ Three complications, in increasing order of how much they should worry you.
 
 **Centre–surround is over-determined.** It also falls out of arguments about noise and response nonlinearity that never invoke redundancy reduction at all. When several distinct principles predict the same structure, the structure is weak evidence for any one of them — a point worth carrying into every later module.
 
-**The retina does much more than whiten.** Around twenty ganglion cell types leave the eye in parallel, computing direction selectivity, looming detection, and object-motion-versus-self-motion discrimination. These are *feature detectors*, not efficient re-codings, and efficient coding says little about why this particular set. The retina is already doing task-specific inference, which the pure efficient-coding framing does not anticipate.
+**The retina does much more than whiten.** More than twenty ganglion cell types leave the eye in parallel [@kandel2021], computing direction selectivity, looming detection, and object-motion-versus-self-motion discrimination. These are *feature detectors*, not efficient re-codings, and efficient coding says little about why this particular set. The retina is already doing task-specific inference, which the pure efficient-coding framing does not anticipate.
 
 <x-mcq>
 <script type="application/json">

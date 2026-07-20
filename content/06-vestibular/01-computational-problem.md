@@ -68,7 +68,9 @@ This is the most exact analogy in the course, and §3.1 flagged it in advance.
 
 <strong>Olfaction:</strong> instantaneous receptor activation confounds source concentration, distance to source, and plume transport history. A weak source nearby and a strong source far away can produce the same activation. Resolvable only by temporal statistics plus a model of turbulent transport.
 
-Both are <strong>principled ambiguities</strong>, not sensor limitations. Both need extra signals plus a forward model. The vestibular case is solved and the mechanism is known, which makes it the best available template — and it tells you what to look for: <em>neurons whose responses reflect the combination rather than either input alone.</em>
+Both are <strong>principled ambiguities</strong>, not sensor limitations. Both need extra signals plus a forward model. The vestibular case is solved at the computational level and the solution has been localised — convergent canal and otolith signals in the vestibular nuclei and cerebellum, with separate populations coming to encode tilt and translation [@kandel2021; @angelaki2004] — which makes it the best available template. It tells you what to look for: <em>neurons whose responses reflect the combination rather than either input alone.</em>
+
+Be precise about what is settled, because the course leans on this case repeatedly. That the computation is performed, where, and that it requires canal input, are established. The <em>form</em> of the internal model — how the physics is represented in the circuit, and what learns it — is an interpretation fitted to the responses rather than a measured mechanism. "Solved" here means the problem statement and the sufficient inputs are known, not that the implementation has been read out.
 </x-callout>
 
 ## What is being estimated

@@ -21,9 +21,26 @@ Primary auditory cortex is tonotopically organised, inheriting the cochlear freq
 </x-figure>
 
 
+## Time is deliberately thrown away on the way up
+
+Before the linear model, one fact about A1 that the module has so far left implicit and that ought to be uncomfortable.
+
+§2.3 made a great deal of the fast transducer: microsecond gating, phase-locking, timing precision no other sensor in this course approaches. That precision does not survive the trip. The upper limit of phase-locking falls from roughly 3 kHz in the auditory nerve, to below about 300 Hz in the medial geniculate body, to below about 100 Hz in A1 — by which point it is no better than the phase-locking limit in primary visual or somatosensory cortex [@kandel2021].
+
+What replaces it is a rate code, and the handover is measurable. Play periodic click trains to A1 and two populations appear: *synchronised* neurons that fire in step with slow trains, and *nonsynchronised* neurons that do not follow the individual clicks at all but fire faster as the interval shortens. The crossover sits near a 25 ms interval — about 40 Hz — which is close to where a click train stops sounding like a sequence of events and starts sounding like a tone.
+
+Read normatively, this is not degradation. It is a **change in what the representation is about**. The auditory nerve represents the waveform moment by moment; A1 represents *segments*, summarising over a window rather than transcribing. Two things follow, and both matter comparatively:
+
+- Higher-level tasks — recognising a word, grouping a source, deciding — require integration over a window, and a code that spends its resolution on the waveform has nothing left with which to summarise.
+- Audition's periphery runs orders of magnitude faster than vision's or touch's. If cortex is going to combine them, something has to give, and it is audition that gives. The slowing is the price of being combinable [@kandel2021].
+
+This is the sharpest available answer to a question §2.3 leaves hanging: why build a transducer far faster than behaviour needs, then discard the margin? Because the margin is not spent on cortex. It is spent in the brainstem, on ITDs, and the fast pathway ends there.
+
 ## The failure of the linear model
 
 The workhorse description of an A1 neuron is the **spectrotemporal receptive field** — the linear filter over the time-frequency representation that best predicts its response. STRFs are estimable and interpretable, and they do not work very well: for natural sounds a linear STRF typically captures a modest fraction of response variance.
+
+One competing explanation deserves to be stated before the argument proceeds, because it is not obviously wrong. Selectivity increases steadily along the ascending pathway, and by A1 — especially in the upper layers, and only in awake animals — many neurons respond in sustained fashion to a narrow region of a multidimensional stimulus space and give only a transient onset response to everything else. This is why the earliest recordings found auditory cortex so hard to drive: the neurons were selective and the stimuli were not theirs. A neuron probed almost entirely outside its preferred region will yield a poorly-fitting filter no matter what the underlying computation is. So low explained variance alone is weak evidence — it is the *instability* that carries the argument, not the fit.
 
 Worse for the framework, STRFs are **not stable**. The same neuron measured under different stimulus ensembles yields different filters, and measured while an animal performs different tasks yields different filters again. Task-dependent retuning in A1 is rapid and substantial.
 
@@ -68,6 +85,18 @@ That doubt applies with even more force to <strong>piriform cortex</strong> (§3
 }
 </script>
 </x-mcq>
+
+## One thing cortex demonstrably does compute
+
+The pessimism above should not be total, and the exception is precisely the quantity §2.2 said carries the demixing load.
+
+A restricted region near the low-frequency border of A1 and the rostral field in marmosets contains **pitch-selective neurons**: cells tuned to a pure tone at some frequency that also respond to a harmonic complex whose *fundamental* is near that frequency — including when the fundamental is physically absent from the sound and every present harmonic lies outside the cell's excitatory response area. Human imaging finds a region in the same relative position, at the lateral end of Heschl's gyrus. Nearby, **harmonic template neurons** respond weakly to pure tones and strongly to particular combinations of harmonics [@kandel2021].
+
+Two reasons this matters more than a catalogue entry.
+
+First, it is genuinely computed rather than reflected. Subcortical neurons carry information from which pitch could be recovered; these neurons carry pitch, across sounds that share nothing in their spectra but a periodicity. That is a nonlinear inference about a latent cause, done in cortex, and it is the kind of thing the module has otherwise been unable to point at.
+
+Second, it is the cortical payoff of the harmonicity argument. §2.2 claimed harmonicity is the structure that converts an underdetermined mixture into a tractable grouping problem, and §2.8 will claim the grouping cues are likelihood terms in an inference. A dedicated cortical representation of the fundamental — the variable that inference is over — is what that claim predicts. **Olfaction's version of this prediction is the one to hold the field to:** if temporal correlation really occupies harmonicity's slot, there should be cells somewhere downstream tuned to co-fluctuation rather than to composition.
 
 ## Where the normative programme stalls
 

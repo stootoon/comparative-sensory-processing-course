@@ -15,11 +15,15 @@ The properties, in the same order as the other two modules:
 
 **It is ordered.** Position along the cochlea corresponds to frequency, monotonically. Neighbouring hair cells respond to neighbouring frequencies.
 
-**It is metric.** Distance along the membrane is proportional to the *logarithm* of frequency. "How far apart in frequency" is well-defined, and the relevant notion of distance is ratio rather than difference — which is the correct choice, since harmonic and vocal-tract relations are multiplicative.
+**It is metric.** Distance along the membrane is proportional to the *logarithm* of frequency. "How far apart in frequency" is well-defined, and the relevant notion of distance is ratio rather than difference — which is the correct choice, since harmonic and vocal-tract relations are multiplicative. The allocation is close to exact: on the 33 mm human membrane, 20 kHz–2 kHz, 2 kHz–200 Hz and 200 Hz–20 Hz each occupy about a third of its length [@kandel2021].
 
 **It is one-dimensional.** This is the sharpest structural difference from vision. Vision samples a 2-D surface; audition samples a line. Everything else — location, timbre, source identity — is *computed* from that line plus its counterpart in the other ear.
 
-**Tuning is narrow**, and actively sharpened (§2.3). A single auditory nerve fibre responds to a small fraction of the audible range — the opposite of the cone's spectral promiscuity.
+**Tuning is narrow**, and actively sharpened (§2.3). A single auditory nerve fibre responds to a small fraction of the audible range — the opposite of the cone's spectral promiscuity. The spacing is finer than any comparison makes intuitive: adjacent inner hair cells differ in characteristic frequency by about 0.2%, where adjacent piano strings differ by about 6% [@kandel2021].
+
+**But 3,500 is the count of frequency channels, not of wires.** About 30,000 spiral ganglion cells leave each cochlea, at least 90% of them contacting inner hair cells, and each fibre contacts exactly one hair cell — so each inner hair cell drives roughly ten fibres of its own. Those ten are not redundant copies. They differ systematically in threshold and in where they contact the cell: the least sensitive fibres, with little spontaneous activity, terminate on the modiolar face and still respond in graded fashion above 100 dB SPL, while the most sensitive, with high spontaneous rates, terminate on the opposite face and saturate by about 30 dB SPL [@kandel2021].
+
+So the array is tiled twice, along two different axes. Position tiles frequency with ~3,500 narrow channels; divergence tiles *level* with ~10 overlapping channels at each position. Keep the second one in view — it is where the dynamic-range problem of §2.10 is actually solved, and it is the first instance in this module of the rule §2.5 will state in general: one channel cannot optimise sensitivity and dynamic range at once, so build several.
 
 <x-figure src="content/media/oa-auditory-nerve-tuning-curves.jpg"
   caption="Frequency threshold tuning curves from single auditory nerve fibres. Each fibre has a sharply defined best frequency with a steep high-frequency flank — the sharpness is what the cochlear amplifier buys (§2.3), and it is what makes ~3,500 narrow channels an efficient way to tile a one-dimensional stimulus space."

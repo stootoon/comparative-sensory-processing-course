@@ -2,7 +2,7 @@
 id: m06.s05
 title: The first circuit — vestibular nuclei
 lede: Three synapses from sensor to eye muscle. The vestibular nuclei are the clearest case in the course of a first circuit whose design is dictated entirely by a deadline.
-estimatedMinutes: 12
+estimatedMinutes: 14
 ---
 
 Vestibular afferents synapse in the **vestibular nuclei** in the brainstem. From there, remarkably few synapses separate the sensor from behaviour.
@@ -20,7 +20,7 @@ The vestibulo-ocular reflex is: **afferent → vestibular nucleus neuron → ocu
 
 Three neurons. Total latency about 10 ms.
 
-That is dictated by the task. Head movements during locomotion have components above 10 Hz, and image stabilisation must keep up. A visual feedback loop would take 70–100 ms — far too slow. So the reflex is open-loop, feedforward, and as short as physically possible.
+That is dictated by the task. Head movements during locomotion have components above 10 Hz, and image stabilisation must keep up. Visual processing for image stabilisation runs at around 100 ms [@kandel2021] — an order of magnitude too slow. So the reflex is open-loop, feedforward, and as short as physically possible.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Depth is set by the deadline of the fastest behaviour</div>
@@ -58,6 +58,12 @@ Note what this means for the vestibular cortical route: it exists, it reaches pa
 </script>
 </x-order>
 
+## What the three-neuron arc cannot do
+
+The arc is not the whole reflex, and Kandel's chapter 27 is explicit that it could not be [@kandel2021]. The canal signal is proportional to head *velocity*; the eye is held by elastic tissues, so keeping it at an eccentric position requires a tonic drive proportional to *position*. Velocity must therefore be integrated somewhere, and it is — by a separate, slower, indirect pathway through the nucleus prepositus hypoglossi and the interstitial nucleus of Cajal, running in parallel with the direct arc. Lesion it and a head rotation still drives the eye correctly at first, then the eye drifts back as the elastic restoring force wins.
+
+This does not weaken the deadline argument; it specifies it. The deadline constrains the *direct* path to three synapses, and everything the direct path cannot supply is delegated to a parallel pathway with no such constraint. That is the same architecture as the type 3 stream split of §6.8, appearing here at the smallest scale the course examines: not one pathway meeting every requirement, but a minimal pathway meeting the binding one and a longer pathway supplying the rest. Read this way, "three synapses" is a claim about the latency-critical component and not a census of the reflex.
+
 ## Velocity storage
 
 The canals are mechanically band-limited (§6.3): their response to a sustained rotation decays within seconds, because the cupula returns to rest.
@@ -65,6 +71,8 @@ The canals are mechanically band-limited (§6.3): their response to a sustained 
 But the VOR outlasts the canal signal. The brainstem implements **velocity storage** — a neural integrator that extends the effective low-frequency response beyond what the mechanics provide.
 
 This is worth naming precisely: it is a **prior about the world implemented as a circuit**. Sustained rotations are rare and brief in natural behaviour, so a decaying sensor is usually adequate; velocity storage patches the specific frequency range where the mechanics fall short of the ensemble (§6.2). The circuit compensates for a known deficiency in the transducer, informed by the statistics of natural head motion.
+
+One detail sharpens the reading. The velocity-storage network is not a canal accessory: it is also where canal and optokinetic signals interact, and in the light it is driven by visual motion to the point where nystagmus during sustained rotation is maintained indefinitely rather than decaying [@kandel2021]. So the stored quantity is better described as an estimate of self-rotation than as a prolonged canal signal — the canals are one of its inputs, and vision is another. A prior about head motion, held centrally, updated by whatever evidence is available. That is a stronger claim than "the brainstem extends a decaying sensor", and it is the version that transfers: look for the integrator, then ask what else writes to it.
 
 <x-mcq>
 <script type="application/json">
@@ -101,7 +109,9 @@ This is worth naming precisely: it is a **prior about the world implemented as a
 
 ## Commissural inhibition
 
-The two sides are connected by inhibitory commissural fibres, implementing the push–pull comparison centrally as well as mechanically. This is lateral inhibition — but between *matched sensors measuring opposite signs of the same variable*, not between neighbours in a map.
+The two sides are connected by GABAergic commissural fibres [@kandel2021], implementing the push–pull comparison centrally as well as mechanically. This is lateral inhibition — but between *matched sensors measuring opposite signs of the same variable*, not between neighbours in a map.
+
+The pairing is receptor-specific rather than merely bilateral: a neuron driven by the ipsilateral horizontal canal receives inhibition from the contralateral horizontal canal, and each anterior canal is matched against the contralateral posterior. The commissure knows the geometry of §6.4. It is also, unexpectedly, the substrate of recovery — after unilateral labyrinthine loss the commissural set-point rebalances, which is why vertigo subsides over days without any peripheral repair (§6.10).
 
 <x-figure src="content/media/vor-three-neuron-arc-fish.jpg"
   caption="Horizontal VOR circuitry compared across goldfish, flatfish and shark. The same three-neuron plan is rewired to suit each animal's body axis — flatfish lie on their side, and the circuit compensates. A clean demonstration that the deadline fixes the number of synapses while the connectivity adapts to the geometry."

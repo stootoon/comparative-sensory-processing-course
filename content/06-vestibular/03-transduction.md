@@ -46,7 +46,7 @@ Each canal is a fluid-filled torus with a gelatinous **cupula** blocking it. Rot
 
 The mechanics matter: the fluid's inertia and the cupula's elasticity combine so that, over the mid-frequency band, cupula deflection is proportional to angular **velocity** rather than acceleration. **The canal integrates, mechanically, for free.**
 
-Three canals per ear, arranged approximately orthogonally, giving a near-complete basis for three-dimensional rotation. Six canals total, in push–pull pairs across the two ears.
+Three canals per ear, arranged approximately orthogonally, giving a near-complete basis for three-dimensional rotation. Six canals total, in push–pull pairs across the two ears. The basis is not aligned to any obvious anatomical axis: the horizontal canal sits about 30° above the naso-occipital axis, and the vertical canals about 45° from the sagittal plane [@kandel2021]. Those angles are set by the pulling planes of the extraocular muscles, which the canals match pair for pair — the horizontal pair with the medial and lateral recti, each anterior/contralateral-posterior pair with an oblique and a vertical rectus. The sensor basis is chosen to make the reflex a near-identity mapping, which is what removes the need for a coordinate transformation inside a 10 ms budget (§6.5).
 
 ## The otoliths
 
@@ -59,7 +59,9 @@ The utricle and saccule each carry a **macula** — an epithelium overlaid with 
 </x-figure>
 
 
-The utricular macula is roughly horizontal and the saccular roughly vertical, so together they cover linear acceleration in all directions. Hair cell orientations vary systematically across each macula, so direction is coded by which subpopulation is most deflected.
+The utricular macula is roughly horizontal — tilted about 30° up from the naso-occipital axis, the same as the horizontal canal — and the saccular maculae lie vertically in near-parasagittal planes, so together they cover linear acceleration in all directions [@kandel2021]. Hair cell orientations vary systematically across each macula, so direction is coded by which subpopulation is most deflected.
+
+The variation is not arbitrary. Each macula is divided by a curving reversal line, the **striola**, with hair cell polarity pointing toward it on the utricle and away from it on the saccule. Any acceleration therefore excites one subpopulation and inhibits another *within a single organ*. Push–pull in the canals requires two ears (§6.4); in the otoliths it is available unilaterally. That asymmetry is worth holding as a prediction rather than a fact: it implies unilateral labyrinthine loss should cost more in rotational sensing than in tilt sensing, which fits the clinical picture — vertigo and nystagmus dominate, static tilt perception is comparatively spared — but the two are rarely measured against each other on the same scale.
 
 ## Regular and irregular afferents
 

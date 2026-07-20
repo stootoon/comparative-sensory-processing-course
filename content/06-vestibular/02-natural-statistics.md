@@ -19,7 +19,9 @@ So the ensemble is measured, stationary, and low-dimensional. Everything the eff
 
 Vestibular has something no other modality does: **a constant, known, exploitable prior.**
 
-Gravity points down, always, at 9.8 m/s². That is a fact about the world an animal can rely on completely, and it is what makes the tilt–translation ambiguity resolvable in principle. Given canal input reporting rotation and the assumption that any *sustained* acceleration component must be gravity — because sustained translational acceleration is impossible for a body that stays in one place — the two can be separated.
+Gravity points down, always, at 9.8 m/s². That is a fact about the world an animal can rely on completely, and it is what makes the tilt–translation ambiguity resolvable in principle. Gravity's direction in head coordinates can only change if the head rotates, so a signal reporting rotation is exactly what is needed to predict how the gravitational component of the otolith signal should be moving; whatever the otoliths report in excess of that prediction is translation.
+
+It is tempting to shortcut this to a frequency rule — sustained acceleration is gravity, transient acceleration is translation — and that heuristic is roughly right about natural statistics but wrong about the mechanism. It was tested directly and rejected: when tilt and translation are delivered with matched frequency content, so that no filter could separate them, central neurons still segregate the two, and they stop doing so when canal input is removed [@angelaki2004]. The separation is computed from canal signals under an internal model of head dynamics, not read off the spectrum. Kandel's chapter 27 puts the same conclusion less sharply — convergent canal and otolith signals plus "some simple computations" [@kandel2021] — but the negative result is the load-bearing part: a purely peripheral, filter-based solution was available and is not what the system uses.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The prior that makes inference possible</div>

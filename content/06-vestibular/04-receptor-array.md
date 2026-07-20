@@ -2,12 +2,14 @@
 id: m06.s04
 title: The receptor array
 lede: Ten sensors total. Ordered, metric, and orthogonal — a near-perfect basis for the variable being measured. Vestibular is the low-dimensional, well-conditioned extreme of the course's main axis.
-estimatedMinutes: 12
+estimatedMinutes: 16
 ---
 
 ## Ten channels
 
 Three semicircular canals and two otolith organs per ear: **ten sensors in total**, against the retina's $10^8$ and the cochlea's 3,500.
+
+The count needs one clarification, because it is not a cell count. Each organ holds tens of thousands of hair cells — roughly 30,000 in the human utricle and 16,000 in the saccule [@kandel2021] — and every canal afferent is one of thousands. Ten is the number of *independent measurements*, not of transducers. The many cells within an organ are averaged into a small number of channels, which buys signal-to-noise without buying dimensionality. That is the opposite of the retinal arrangement, where cell count and channel count scale together because each photoreceptor samples a distinct location. The distinction matters for every cross-modality comparison in this course: vestibular is low-dimensional, not low-investment.
 
 The array is **ordered** and **metric** in an unusual sense — not spatially, but *geometrically*. Each canal is oriented along a particular axis in head coordinates, and the three canals on one side are approximately mutually orthogonal.
 
@@ -36,11 +38,19 @@ Read down that list and the pattern is that <strong>the array's structure mirror
 
 ## Push–pull
 
-The canals work in **coplanar pairs across the two heads**: the left horizontal canal pairs with the right horizontal canal, and rotation that excites one inhibits the other.
+The canals work in **coplanar pairs across the two ears**: the left horizontal canal pairs with the right horizontal canal, and — because the two labyrinths are mirror images — each anterior canal pairs with the *contralateral* posterior canal rather than with its opposite number [@kandel2021]. Rotation that excites one member of a pair inhibits the other.
 
 Push–pull doubles sensitivity and, more importantly, cancels common-mode signals — temperature changes, systemic noise — that affect both sides equally. It is the same trick as differential amplification.
 
 Note that olfaction has a bilateral arrangement too, and it is one candidate for the location stream (§3.8). But the olfactory version cannot be push–pull in the vestibular sense, because the two nostrils are not measuring opposite signs of the same variable — they are sampling nearly the same air a few millimetres apart. The comparison sharpens what bilateral olfactory comparison could and could not achieve.
+
+## What bidirectional coding costs
+
+A hair cell can be deflected either way, but a spike train cannot go below zero. To signal both directions from a single afferent, the resting rate has to sit well above zero, and it does: canal afferents discharge at roughly **100 spikes/s** at rest [@kandel2021]. That is an extraordinary standing metabolic charge for a sensor that spends most of its life reporting nothing, and it is paid by every one of the ten channels continuously.
+
+It is also a rate with a ceiling problem, and the ceiling is diagnostic. Inhibition can only carry the signal down to zero, so a rotation fast enough to drive an afferent into cutoff is reported asymmetrically — the excited side keeps scaling, the inhibited side saturates. With both labyrinths intact this is invisible, because the excited side is always doing the work. With one labyrinth gone it becomes the dominant failure mode: the VOR remains adequate at low velocity, where the surviving labyrinth can be modulated in both directions, and fails specifically for rapid rotations *toward* the lesioned side. That asymmetry is the basis of the clinical head-impulse test [@kandel2021], and it is a rare case of a sensory system whose deficit profile is predictable from the arithmetic of a firing rate.
+
+The normative reading: the resting rate is the price of encoding a signed variable in an unsigned code, push–pull halves that price by letting two channels share the burden, and the residual cost is what a modality pays when its stimulus has a sign. Olfaction's stimulus does not — concentration is non-negative — and olfactory receptor neurons correspondingly have near-silent baselines. The comparison is worth making before treating high spontaneous rates as a generic feature of sensory afferents.
 
 <x-matrix>
 <script type="application/json">

@@ -20,9 +20,11 @@ The retina compresses $10^8$ photoreceptors to $10^6$ ganglion cells. The bulb c
 </x-figure>
 
 They can even *improve* timing precision over their input by coincidence-detecting a few converging fibres. Their job is to protect phase-locking for the binaural comparison downstream.
-- **Octopus cells** do the opposite: they integrate across many fibres spanning a wide frequency range, responding only to broadband transients. They are onset detectors with sub-millisecond precision.
+- **Octopus cells** do the opposite: they integrate across many fibres spanning a wide frequency range, responding only to broadband transients. They are onset detectors with sub-millisecond precision. Note what that makes them, in the vocabulary of §2.2: a dedicated detector for **common onset** — components that start together came from one source. One of the grouping cues on which the whole scene-analysis argument rests has a cell type of its own at the second synapse.
 - **Stellate cells** encode the spectral envelope with sustained, regular firing — the "what is the spectrum right now" channel.
-- **Fusiform cells** in the dorsal cochlear nucleus integrate auditory input with somatosensory input about head and pinna position, which is what makes spectral cues for elevation usable.
+- **Fusiform cells** in the dorsal cochlear nucleus integrate auditory input with somatosensory input about head and pinna position, which is what makes spectral cues for elevation usable. The dorsal cochlear nucleus is a mammalian invention — no other vertebrate has one — and it is built like a piece of cerebellum, with a molecular layer of parallel fibres and cartwheel interneurons that resemble Purkinje cells. Its circuits appear to subtract *predictable* sound, cancelling an animal's own chewing and licking while leaving unpredicted spectral change intact [@kandel2021]. That is the "subtract what you predicted" motif of §2.9 appearing two synapses in, earlier than anywhere else in this course.
+
+Precision here is bought twice over, and the course's usual story names only half of it. The endbulb is the presynaptic half. The postsynaptic half is intrinsic: bushy and octopus cells carry a large low-voltage-activated K⁺ conductance, which gives them a low input resistance, makes voltage changes fast but small, and prevents repetitive firing. They are deliberately leaky, which is why they need giant synapses in the first place — and it is the leak, not the synapse, that stops them from smearing successive inputs together [@kandel2021]. Stellate and fusiform cells, which are integrating rather than timing, have neither feature.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Three first circuits, three strategies</div>
@@ -39,7 +41,11 @@ This is the comparison the module exists for.
 
 ## Coincidence detection and the ITD problem
 
-Sound localisation in the horizontal plane depends on **interaural time differences**. For a human head the maximum ITD is about 700 µs; discrimination thresholds reach roughly 10 µs. That is finer than the duration of an action potential.
+Sound localisation in the horizontal plane depends on **interaural time differences**. For a human head the maximum ITD is roughly 600–700 µs, and discrimination near the midline reaches about 10 µs — corresponding to about one degree of azimuth, and finer than the duration of an action potential [@kandel2021]. The quantity is set by head size and nothing else: for a small bird the entire range is about 35 µs.
+
+Two cues are available, not one, and which is usable is again a matter of head size relative to wavelength. Sounds whose wavelength is short compared with the head are deflected by it, producing an **interaural level difference**; in humans this becomes usable above about 2 kHz. Below that the head is acoustically transparent and only timing is left. Small-headed mammals therefore localise mostly by ILD at high frequency, and animals that hear low localise by ITD — the classical duplex theory, and the same head-size argument that will resolve the owl/gerbil dispute below, run one level earlier.
+
+The two cues are computed by two adjacent nuclei with different architectures. The **medial superior olive** compares timing, as described next. The **lateral superior olive** compares level, by balancing direct excitation from the ipsilateral cochlear nucleus against inhibition relayed from the contralateral side through the medial nucleus of the trapezoid body; a cell's firing rate then falls monotonically as the source moves from the ipsilateral to the contralateral side. Worth noting for the argument that follows: **the LSO builds no map at all.** It is a rate code, read out from the balance of two opposed inputs — which is to say the two-channel scheme the mammalian ITD literature argues about is uncontroversially what the neighbouring nucleus does for the other cue.
 
 The classical proposal is the **Jeffress model**: axonal delay lines of graded length feeding an array of coincidence detectors, so that each detector fires maximally for one particular ITD, producing a place map of azimuth.
 
@@ -52,7 +58,7 @@ In the **barn owl**, this is essentially correct. Magnocellular axons act as del
 </x-figure>
 
 
-In **small mammals**, it is not. Recordings in the inferior colliculus show a systematic relationship between a neuron's best frequency and its best ITD, such that the steepest part of each neuron's ITD tuning curve — the region of maximum slope, where discrimination is best — falls near the midline for every neuron regardless of frequency. That is not a place map. It is consistent with **two broad hemispheric channels**, with azimuth read out from the *balance* between them [@mcalpine2001].
+In **small mammals**, it is not. Recordings in the inferior colliculus show a systematic relationship between a neuron's best frequency and its best ITD, such that the steepest part of each neuron's ITD tuning curve — the region of maximum slope, where discrimination is best — falls near the midline for every neuron regardless of frequency. That is not a place map of the owl's kind. It is consistent with **two broad hemispheric channels**, with azimuth read out from the *balance* between them [@mcalpine2001] — a reading the field has not fully accepted, for reasons taken up below.
 
 <details class="x-deeper">
 <summary>Go deeper: why the answer differs between owl and gerbil<span class="x-deeper-tag">theory</span></summary>
@@ -62,13 +68,19 @@ This looks like a contradiction and is actually a normative result, which is why
 
 The relevant quantity is the ITD range the animal actually experiences, which is set by head size, relative to the period of the frequencies it uses.
 
-**Barn owl:** high frequencies (4–8 kHz), so many cycles fit inside the physiological ITD range. A place map is feasible and useful, because there are enough distinguishable delays to map.
+**Barn owl:** unusually, it localises using high frequencies (roughly 3–9 kHz), where the period is a few hundred microseconds — comparable to or smaller than its own ITD range. A full cycle or more fits inside the range the animal actually experiences, which is what makes a place map feasible: there are enough distinguishable delays to be worth tiling. (The price is phase ambiguity, which the owl pays and resolves by combining across frequency channels — the same trick Kandel describes for the mammalian medial superior olive, where a broadband sound drives coincidence in a single dorsoventral column and so disambiguates.)
 
 **Gerbil, guinea pig, human at low frequency:** the physiological ITD range is a *small fraction* of one cycle. There is almost no room for a map — only a narrow slice of the ITD tuning curve is ever visited. Under those conditions the optimal arrangement is not to tile the range but to place the **steepest slope** where discrimination matters most, near the midline, and read out the difference between two broad channels.
 
 **The general principle, which recurs throughout the course:** the optimal code depends on the range of stimuli actually encountered, not on the range physically possible. Owl and mammal are not disagreeing about mechanism — they are optimally solving different problems, because their heads are different sizes.
 
 **Carry this into olfaction.** When you ask whether the bulb should build a map of anything, ask first what range of that variable the animal actually experiences, and whether there is room in it for a map to be worth building.
+
+**How settled is this, honestly?** Less than the account above implies, and the module should say so. The standard reference treatment — Kandel's chapter on central auditory processing — does not adopt the two-channel reading: it describes the mammalian medial superior olive as still forming a map, but of the *contralateral hemifield only*, produced by an asymmetric variant of Jeffress in which the contralateral bushy-cell axon branches act as delay lines while the ipsilateral branches are of equal length [@kandel2021]. On that account owl and mammal differ in the symmetry and extent of the delay arrangement, not in whether there is a map.
+
+There is also a third mechanism that both the place-code and two-channel stories underweight. Principal cells of the MSO receive sharply timed *inhibition* driven from both ears, through the medial and lateral nuclei of the trapezoid body, and — despite travelling through an extra synapse — it arrives *before* the excitation, because globular bushy cells have very large axons ending in calyces of Held. Inhibition that reliably precedes excitation can shift a cell's best delay without any axonal delay line at all. So part of what looks like evidence against Jeffress in mammals may be evidence that mammalian best delays are set by inhibitory timing rather than by conduction distance.
+
+None of this dissolves the normative argument. Head size relative to cycle period still predicts which regime an animal is in, and still explains why the owl's arrangement would be pointless in a gerbil. What it does is narrow the claim: the *readout geometry* is what head size predicts, and the mechanism generating a given best delay — delay line, inhibitory timing, or both — is a separate and still-open question. Treat "resolved" as applying to the first and not the second.
 
 </div>
 </details>

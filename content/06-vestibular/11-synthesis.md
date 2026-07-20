@@ -65,7 +65,7 @@ For olfaction this is a genuinely actionable diagnosis. The field's instinct has
 | Forward model | known and **stationary** |
 | Synapses to action | **3** (VOR) |
 | Cortical representation | thin, distributed, multisensory from the start |
-| Strongest result | optimal cue combination, confirmed |
+| Strongest result | **near**-optimal cue combination, with the deviations predicted too |
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The olfaction hook</div>

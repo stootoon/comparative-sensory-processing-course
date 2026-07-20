@@ -57,11 +57,15 @@ So olfaction's peripheral problem is genuinely one of <em>detection</em>, not se
 
 ## Amplification and its cost
 
-A single photon produces a measurable current because the phototransduction cascade amplifies enormously: one activated rhodopsin catalyses hundreds of transducin molecules, each activating a phosphodiesterase, each hydrolysing thousands of cGMP molecules.
+A single photon produces a measurable current because the phototransduction cascade amplifies enormously: one activated rhodopsin catalyses hundreds of transducin molecules, each activating a phosphodiesterase, each hydrolysing more than a thousand cGMP molecules per second [@kandel2021].
 
 Amplification of that depth takes time. The rod's single-photon response peaks after roughly 200 ms — very slow by neural standards. Cones are faster and far less sensitive, which is the trade.
 
-**The duplex retina** resolves the conflict structurally: two receptor systems with different gains, spanning together about ten log units of intensity. Rods for photon-starved conditions with slow, high-gain, saturating responses; cones for daylight with fast, low-gain, non-saturating ones.
+Faster, but not fast. A cone takes about 40 ms to reach peak response to a flash, which is already an awkward delay for an animal that must act on what it sees. Kandel's chapter 22 draws the consequence that matters here: some ganglion cells peak roughly 20 ms after the flash — *before the cone that drives them has finished responding* [@kandel2021]. The retina's temporal filtering does not merely sharpen the signal; it recovers latency the transducer cost, by responding to the rising phase rather than waiting for the peak.
+
+This is worth holding on to, because it is the first instance of a pattern the course returns to: a circuit whose apparent job is coding is simultaneously buying back a deadline (§1.1). Efficient coding does not predict it, and a theory that scored circuits only on bits transmitted would not notice it had happened.
+
+**The duplex retina** resolves the conflict structurally: two receptor systems with different gains, spanning together about ten log units of intensity. Rods for photon-starved conditions with slow, high-gain responses that saturate outright around dawn — every cGMP-gated channel closed, the cell no longer reporting intensity at all [@kandel2021]; cones for daylight with fast, low-gain responses that are held in range by gain control rather than allowed to saturate.
 
 <x-figure src="content/media/cone-mosaic-normal-vs-protanope.jpg"
   caption="The cone mosaic, imaged in a living eye. The duplex arrangement means this mosaic is only half the story — interleaved rods, far more numerous, carry vision at low light with entirely different gain and speed. Two receptor systems for one stimulus dimension, because no single transducer covers ten log units."
