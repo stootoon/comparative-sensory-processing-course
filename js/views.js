@@ -39,6 +39,12 @@ export function renderHome() {
 
       ${manifest.intro ? `<div class="x-home-intro">${manifest.intro.map((p) => `<p>${escapeHtml(p)}</p>`).join('')}</div>` : ''}
 
+      <aside class="x-home-tip">
+        <p><strong>Select any passage to highlight it.</strong> Highlights are saved in
+        this browser, survive edits to the course, and are collected on
+        <a href="#/notes">your notes</a> page along with anything you write about them.</p>
+      </aside>
+
       <section class="x-home-modules">
         <h2>Contents</h2>
         <p class="x-home-note">${escapeHtml(manifest.homeNote ?? '')}</p>

@@ -521,7 +521,7 @@ mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
   align-items: center;
   gap: 0.4rem;
   padding: 0.35rem 0.5rem;
-  background: var(--surface);
+  background: var(--bg-raised);
   border: 1px solid var(--rule-strong);
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
@@ -553,7 +553,7 @@ mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
   font: inherit;
 }
 .x-hl-action:hover { background: var(--rule); }
-.x-hl-danger { color: var(--danger, #b3261e); }
+.x-hl-danger { color: var(--color-error); }
 
 /* --- Notes page ---------------------------------------------------------- */
 
@@ -563,7 +563,7 @@ mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
   margin: 0.75rem 0;
   padding: 0.6rem 0.9rem;
   border-left: 4px solid var(--hl-yellow);
-  background: var(--surface-sunken, transparent);
+  background: var(--bg-sunken);
   border-radius: 0 6px 6px 0;
 }
 .x-notes-item.x-hl-green  { border-left-color: var(--hl-green); }
@@ -572,3 +572,19 @@ mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
 .x-notes-item blockquote { margin: 0; font-style: italic; }
 .x-notes-note { margin: 0.4rem 0 0; color: var(--ink-faint); }
 .x-notes-gone { color: var(--ink-faint); }
+
+/* Quiet, permanent affordance — the highlight feature has no button, so
+   without this a reader has no way to discover it exists. */
+.x-hl-hint {
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+  font-family: var(--font-ui);
+}
+.x-home-tip {
+  margin: 1.5rem 0;
+  padding: 0.85rem 1.1rem;
+  background: var(--bg-sunken);
+  border-left: 3px solid var(--accent-edge);
+  border-radius: 0 6px 6px 0;
+}
+.x-home-tip p { margin: 0; }

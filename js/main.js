@@ -230,6 +230,7 @@ function buildFooter(entry) {
         <input type="checkbox" ${done ? 'checked' : ''}>
         <span>Mark this section complete</span>
       </label>
+      <span class="x-hl-hint">Select any text to highlight it</span>
     </div>
     <nav class="x-pager" aria-label="Section navigation">
       ${
