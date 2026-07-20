@@ -41,6 +41,14 @@
           "file": "02-two-regimes.md",
           "title": "Efficient coding in two regimes",
           "blurb": "Whiten at high SNR, pool at low SNR — the cleanest quantitative prediction in sensory neuroscience."
+        },
+        {
+          "id": "m00.s03",
+          "slug": "quiz",
+          "sectionNumber": "0.3",
+          "file": "03-quiz.md",
+          "title": "Module quiz — The Normative Toolkit",
+          "blurb": "Six questions on the three stances, the five criteria, and the SNR reversal."
         }
       ]
     },
@@ -139,6 +147,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "Where efficient coding came closest to proof, and where its limits are clearest."
+        },
+        {
+          "id": "m01.s12",
+          "slug": "quiz",
+          "sectionNumber": "1.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Vision",
+          "blurb": "Eight questions on what vision established and what it hands forward."
         }
       ]
     },
@@ -237,6 +253,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "The second great derivation of a receptor array — and the same failure at depth that vision shows."
+        },
+        {
+          "id": "m02.s12",
+          "slug": "quiz",
+          "sectionNumber": "2.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Audition",
+          "blurb": "Seven questions on what audition established and what it hands forward."
         }
       ]
     },
@@ -335,6 +359,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and open questions",
           "blurb": "Scoring the attempts honestly, and a ranked list of what to do next."
+        },
+        {
+          "id": "m03.s12",
+          "slug": "quiz",
+          "sectionNumber": "3.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Olfaction",
+          "blurb": "Eight questions, including telling a well-motivated proposal from an established result."
         }
       ]
     },
@@ -433,6 +465,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "Having a map does not mean the code is spatial."
+        },
+        {
+          "id": "m04.s12",
+          "slug": "quiz",
+          "sectionNumber": "4.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Somatosensation",
+          "blurb": "Eight questions on the module whose main job is a correction: a mapped, metric system can still put its key information in spike timing."
         }
       ]
     },
@@ -531,6 +571,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "Two chemosenses, one chemistry, opposite designs."
+        },
+        {
+          "id": "m05.s12",
+          "slug": "quiz",
+          "sectionNumber": "5.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Gustation",
+          "blurb": "Seven questions on the course’s control condition — unordered like olfaction, low-dimensional unlike it, and easy."
         }
       ]
     },
@@ -629,6 +677,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "Where the normative programme succeeded — centrally, not peripherally."
+        },
+        {
+          "id": "m06.s12",
+          "slug": "quiz",
+          "sectionNumber": "6.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Vestibular",
+          "blurb": "Eight questions on the one modality with a complete normative account, and why it succeeded centrally."
         }
       ]
     },
@@ -727,6 +783,14 @@
           "file": "11-synthesis.md",
           "title": "Normative synthesis and the olfaction hook",
           "blurb": "The consumer determines the code — demonstrated, not argued."
+        },
+        {
+          "id": "m07.s12",
+          "slug": "quiz",
+          "sectionNumber": "7.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Proprioception",
+          "blurb": "Eight questions on a good normative account with almost no efficient-coding content."
         }
       ]
     },
@@ -785,6 +849,14 @@
           "file": "06-synthesis.md",
           "title": "Synthesis — what the exotic senses hand olfaction",
           "blurb": "Three mechanistic templates, each with a runnable experiment."
+        },
+        {
+          "id": "m09.s07",
+          "slug": "quiz",
+          "sectionNumber": "9.7",
+          "file": "07-quiz.md",
+          "title": "Module quiz — Exotic Senses",
+          "blurb": "Four natural experiments, and what each holds constant that the familiar five confound."
         }
       ]
     },
@@ -835,6 +907,14 @@
           "file": "05-architecture.md",
           "title": "Architecture",
           "blurb": "Pathway depth against deadlines, thalamus decomposed into services, stream splits and their anatomical signatures, and the consumer that determines the code. Lessons 6 and 7, and the ledger for all seven."
+        },
+        {
+          "id": "m10.s06",
+          "slug": "quiz",
+          "sectionNumber": "10.6",
+          "file": "06-quiz.md",
+          "title": "Module quiz — Common Motifs",
+          "blurb": "Genuinely absent, or never looked for? Eight questions on the distinction that runs the module."
         }
       ]
     },
@@ -885,6 +965,14 @@
           "file": "05-the-consumer.md",
           "title": "What the consumer wants",
           "blurb": "The loss function as a design variable — the only axis here that never fails, and why that should make you uneasy rather than satisfied."
+        },
+        {
+          "id": "m11.s06",
+          "slug": "quiz",
+          "sectionNumber": "11.6",
+          "file": "06-quiz.md",
+          "title": "Module quiz — Key Differences",
+          "blurb": "Holding a weakened claim precisely, including the axis whose perfect record is a symptom."
         }
       ]
     },
@@ -943,6 +1031,14 @@
           "file": "06-conclusion.md",
           "title": "Conclusion — gaps, open questions, and where to read next",
           "blurb": "The four structural gaps behind every experiment in §12.5, the questions the course could not answer, and an annotated route into the literature."
+        },
+        {
+          "id": "m12.s07",
+          "slug": "final-exam",
+          "sectionNumber": "12.7",
+          "file": "07-final-exam.md",
+          "title": "Final exam",
+          "blurb": "Eleven cumulative questions, none answerable from a single module — and three free-response questions that reward saying what is uncertain."
         }
       ]
     }
