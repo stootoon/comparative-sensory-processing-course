@@ -13,6 +13,8 @@ That is now three modalities — vision (§1.8), audition (§2.8), touch — arr
 
 **Three independent instances make this about as well-supported as comparative claims in this course get.** And the prediction for olfaction correspondingly strengthens: §3.8 argued that identity and location are *more* dissimilar in olfaction than in any of these, and nobody can point confidently to the second stream.
 
+Touch's version also comes with a lesion double dissociation, which vision's does and audition's largely does not. Anterior parietal damage impairs the simple tests — thresholds, vibration, two-point discrimination — while leaving skilled hand movement comparatively intact; posterior parietal damage leaves the simple tests near normal and destroys stereognosis and the shaping of the hand during grasp, the "useless hand" of tactile apraxia [@kandel2021]. Each stream can be removed without the other, which is what makes this a division of labour rather than a hierarchy described twice.
+
 ## Discriminative versus affective touch
 
 Touch adds a second division that the others do not have, and it is the one that connects to gustation.

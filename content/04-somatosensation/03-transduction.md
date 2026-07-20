@@ -89,6 +89,6 @@ Each of these is a transformation obtained for free — no spikes, no metabolic 
 
 ## Noise and limits
 
-Tactile thresholds are impressive: a fingertip detects vibration amplitudes of tens of nanometres, and detects a raised dot of a few micrometres. The limit is set partly by Brownian motion of the skin and partly by the mechanical filtering above.
+Tactile thresholds are impressive: grasping a large object, a human detects vibration of about 30 nm at 200 Hz, and a fingertip detects a raised dot a few micrometres high [@kandel2021]. The Pacinian corpuscle is the most sensitive mechanoreceptor in the body, and its sensitivity is band-limited by the same capsule that high-passes it — the threshold curve is a mechanical property, not a tuning curve. The limit is set partly by Brownian motion of the skin and partly by that filtering.
 
 But unlike the rod at the single-photon limit or the ORN at the shot-noise limit, touch is not obviously operating at a *physical* bound. The interesting constraint on touch is not detection but **innervation budget** — how many afferents to spend, and where — which is §4.4's subject.

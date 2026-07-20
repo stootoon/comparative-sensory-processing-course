@@ -79,4 +79,4 @@ Compare olfaction, which also shows strong state-dependent modulation at its fir
 
 ## Pathway note
 
-In rodents, NST projects to the **parabrachial nucleus** and then to thalamus. In primates, the parabrachial relay is largely bypassed and NST projects more directly to VPMpc. A species difference in pathway depth within a single modality — a useful reminder that "how many synapses" is not a fixed property of a sense.
+In rodents, NST projects to the **parabrachial nucleus** and then to thalamus. In primates, the parabrachial relay is largely bypassed and NST projects more directly to VPMpc [@kandel2021]. A species difference in pathway depth within a single modality — a useful reminder that "how many synapses" is not a fixed property of a sense.

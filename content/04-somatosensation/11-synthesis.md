@@ -9,7 +9,7 @@ estimatedMinutes: 12
 
 **What works.** The innervation-density-as-budget argument is solid and quantitative. The four-afferent-class filterbank is a clear instance of the split-early motif, with each class's temporal filtering traceable to accessory-structure mechanics. Grip control is one of the best-characterised predictive loops in any sensory system.
 
-**What is contested.** Labelled lines versus convergence [@johnson2001; @saal2014], with the same shape as the taste dispute and the olfactory timing dispute.
+**What is contested.** Labelled lines versus convergence [@johnson2001; @saal2014], with the same shape as the taste dispute and the olfactory timing dispute. The anatomy locates the transition rather than settling the dispute: the classes stay segregated through the cuneate and the thalamus, and SA1 and RA1 inputs from the same patch of skin first converge on common neurons in area 3b [@kandel2021]. What is genuinely open is whether that convergence discards the class identity or preserves it in the temporal structure of the response.
 
 **What is missing.** No derivation of afferent tuning from measured natural touch statistics with anything like the force of the retinal or cochlear results. The ensemble is hard to define precisely because the animal co-authors it (§4.2), and this is a genuine obstacle rather than an oversight.
 
@@ -55,6 +55,8 @@ estimatedMinutes: 12
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The olfaction hook</div>
 <strong>1. Having a map does not mean the code is spatial.</strong> The single most useful correction touch offers. Touch is topographic, metric, and somatotopically mapped — and encodes fine texture in millisecond spike timing. The olfactory debate between "which glomeruli" and "when they fire" has been posed as exclusive; touch shows a system using both for different aspects of one stimulus.
+
+Two details make the correction sharper than the slogan. <em>The two codes divide by spatial scale.</em> Features coarse enough to indent the skin are carried spatially by SA1 afferents; textures too fine to indent it — the threads in a woven fabric — are carried by RA1 and RA2 afferents firing in phase with the vibration the surface generates as it is scanned [@kandel2021; @saal2014]. The temporal code is not a redundant second copy of the spatial one, it is what the spatial one cannot reach. <em>And the temporal code is converted to a rate code with depth.</em> Peripheral afferents and area 3b lock to the vibratory cycle; the periodicity is weaker in area 1 and gone in S-II, whose neurons instead fire at rates monotonic in frequency [@kandel2021]. So "when they fire" and "how fast they fire" are the same code read at two depths, and asking which one olfaction uses without specifying where you recorded is asking a malformed question. Auditory cortex shows the same temporal-to-rate transition, which makes two independent instances.
 
 <strong>2. Whisking is sniffing's twin, and its decoding machinery is worked out.</strong> Same frequency band, same voluntary control, same phase reference, same alteration of the stimulus. Phase-referenced decoding in barrel cortex is characterised in a way the bulbar equivalent is not, and it is directly importable.
 

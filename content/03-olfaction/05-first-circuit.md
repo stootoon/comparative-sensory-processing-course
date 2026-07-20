@@ -16,7 +16,7 @@ The parallel is close enough to be worth pushing hard, and it breaks in exactly 
 
 ## Convergence: the same argument, more extreme
 
-Thousands of receptor neurons expressing the same receptor converge onto a single glomerulus — ratios in the low thousands in mouse, roughly 50 in *Drosophila*.
+Thousands of receptor neurons expressing the same receptor converge onto a single glomerulus — ratios in the low thousands in mouse, roughly 50 in *Drosophila*. In mouse the axons of several thousand sensory neurons arrive on the dendrites of some 40 to 50 mitral and tufted relay neurons per glomerulus, a roughly hundredfold reduction in the number of cells carrying olfactory signals [@kandel2021].
 
 The argument is the retina's, from §1.5. Pooling $n$ independent noisy sensors improves signal-to-noise:
 
@@ -90,7 +90,7 @@ The bulb does not have all-to-all connectivity. Nothing in the brain does.
 
 So either the bulb is not doing this computation, or it is doing it by some route that does not need dense wiring.
 
-One proposal starts from the bulb's *sister cells* — the several mitral cells that receive input from the same glomerulus, and whose redundancy has no obvious functional explanation. If the inference is distributed across sisters rather than concentrated in one cell per glomerulus, an algorithm exists that provably reaches the MAP solution using only **sparse** connectivity [@tootoonian2022]. On that reading, the apparent redundancy is what makes biologically plausible wiring sufficient.
+One proposal starts from the bulb's *sister cells* — the mitral cells that receive input from the same glomerulus, of which, as counted above, there are some tens per glomerulus, and whose redundancy has no obvious functional explanation. If the inference is distributed across sisters rather than concentrated in one cell per glomerulus, an algorithm exists that provably reaches the MAP solution using only **sparse** connectivity [@tootoonian2022]. On that reading, the apparent redundancy is what makes biologically plausible wiring sufficient.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">How much this is, and is not, established</div>

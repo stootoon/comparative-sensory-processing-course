@@ -16,7 +16,7 @@ estimatedMinutes: 12
 </x-figure>
 
 - **Umami** — T1R1+T1R3, another dimer, detecting L-glutamate and some other amino acids.
-- **Bitter** — the **T2R family, roughly 25 receptors in humans**, collectively responding to hundreds of structurally unrelated compounds.
+- **Bitter** — the **T2R family, roughly 25 functional receptors in humans** out of a gene family of about 30, collectively responding to hundreds of structurally unrelated compounds [@kandel2021]. Individual T2Rs are narrow: each recognises a small set of bitter compounds, and a single receptor can account for a human polymorphism in tasting one of them.
 
 <x-figure src="content/media/taste-transduction-cascade.jpg"
   caption="The taste transduction cascade in a Type II cell: receptor → gustducin → PLCβ2 → IP3 → calcium release → TRPM5 → CALHM channels for neurotransmitter release. Sweet, umami and bitter all share this downstream machinery and differ only in the receptor — which is precisely why twenty-five bitter receptors can converge on one perceptual axis without any additional wiring."
@@ -29,6 +29,8 @@ estimatedMinutes: 12
 
 Note that two of the five bypass GPCRs entirely and detect the relevant ion directly. Sour and salty are about the ionic composition of the food, and there is no need for a receptor protein to recognise a shape when the thing you care about *is* the ion.
 
+Salt is worth one more paragraph, because it is the only quality whose correct answer inverts partway along its own axis. Electrolytes must be held in a narrow range, so low sodium is appetitive and high sodium is aversive. The system does not implement that with a graded readout of one channel. Low concentrations drive dedicated ENaC-expressing cells; high concentrations additionally recruit the bitter and sour cells, borrowing two aversive lines that already exist [@kandel2021]. A non-monotonic valence function is built by handing the two limbs of it to different labelled lines. That is the loss function of §5.1 visible in the wiring: where the required answer changes sign, the architecture splits rather than interpolates.
+
 ## The asymmetry that makes the argument
 
 Put the numbers side by side:
@@ -39,7 +41,7 @@ Put the numbers side by side:
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Twenty-five receptors, one axis</div>
-This is the fact worth pausing on. Evolution built twenty-five distinct bitter receptors — and then <strong>threw away the distinctions between them</strong> by expressing them in a common cell type feeding a single aversive channel.
+This is the fact worth pausing on. Evolution built twenty-five distinct bitter receptors, each narrowly tuned to its own handful of compounds — and then <strong>threw away the distinctions between them</strong> by expressing many or most of them in the same cells, feeding a single aversive channel [@kandel2021]. The discarding is deliberate and it is the receptor-to-cell mapping that does it.
 
 An animal with twenty-five separately-read-out bitter receptors could distinguish twenty-five classes of toxin. It does not. Why?
 

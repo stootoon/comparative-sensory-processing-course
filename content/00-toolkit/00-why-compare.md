@@ -95,7 +95,7 @@ So: *who consumes the olfactory code, and what basis do they want?* If the answe
 </x-figure>
 
 
-Retinal sustained and transient cells. SA/RA/PC afferents in touch. Regular and irregular vestibular afferents. Position, velocity and vibration channels in the fly's chordotonal organ. Mitral and tufted cells.
+Retinal sustained and transient cells. The four SA1/RA1/PC/SA2 afferent classes in touch. Regular and irregular vestibular afferents. Position, velocity and vibration channels in the fly's chordotonal organ. Mitral and tufted cells.
 
 Every one of these is the same move: one channel cannot simultaneously optimise sensitivity, temporal precision and dynamic range, so split early and let the consumer choose. When you meet two cell types with different dynamics, this should be the first hypothesis.
 

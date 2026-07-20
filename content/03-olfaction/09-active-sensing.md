@@ -22,6 +22,12 @@ That is not a small point. A latency code needs a reference, and most modalities
 
 **It shapes the stimulus.** Flow rate affects the sorption of molecules along the epithelium, so sniff vigour changes not just how much odour arrives but the relative activation across receptor types. The animal partly controls its own transfer function.
 
+## The second sampling route, and what it does to the percept
+
+There is a second way to get molecules onto the epithelium, and it makes a stronger point than the sniff does. Chewing and swallowing pump volatiles released in the mouth up the **retronasal passage** into the back of the nasal cavity. The receptors are the same receptors. The transduction is the same transduction. Yet the resulting sensation is not localised in the nose: it is referred to the mouth and experienced as *flavour*, apparently because it coincides with gustatory and somatosensory stimulation of the tongue [@kandel2021].
+
+This is a sharper version of the section's thesis than sniffing supplies. The sniff shows that the motor act controls *what* is sampled. Retronasal olfaction shows that the motor act controls how the sample is *interpreted* — same molecules, same receptors, different sampling behaviour, and the percept is assigned to a different organ and a different modality label. Whatever is doing the assigning is reading the motor context, not the afferent. §5.8 develops the flavour case and §5.9 places the two routes at different stages of the same acceptance cascade; the point to carry from here is that active sensing in olfaction is not only a gating story.
+
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">The 4–12 Hz club</div>
 Sniffing (2–10 Hz), whisking (5–15 Hz), licking (~6 Hz), saccades (~3 Hz), and the theta rhythm all occupy a similar band. That convergence across modalities and species demands explanation and does not have an agreed one.

@@ -18,6 +18,8 @@ Primary somatosensory cortex contains an orderly map of the body surface, with f
 
 The map is grotesquely distorted: hands and lips occupy vastly more cortex than their surface area warrants, and the distortion tracks **innervation density**, which itself tracks behavioural importance.
 
+The magnitude is worth stating, because it is what makes this a budget rather than a bias. Cortical area per unit area of skin varies by **more than a hundredfold** across the body surface, and the fingers command roughly three times as many cortical columns as the entire trunk [@kandel2021]. A hundredfold is not a distortion of a body map; it is a different allocation entirely, and it lines up with acuity — the four most magnified regions in humans have acuity thresholds of about 0.5 mm (lips), 0.6 mm (tongue), 1.0 mm (fingers) and 4.5 mm (toes).
+
 <x-figure src="content/media/somato-homunculus.jpg"
   caption="The sensory homunculus. This is not a picture of the body — it is a picture of how much cortex each part is allocated, which tracks innervation density, which tracks how much the animal needs to resolve there. Maps allocate by importance rather than reproducing sensor layout, which reframes §13's question: is there any olfactory variable whose values differ enough in importance to be worth allocating unevenly?"
   credit="OpenStax College; derivative work by Popadius. CC BY 3.0."
@@ -57,6 +59,10 @@ Two consequences worth drawing out.
 ## Timing in a spatial cortex
 
 §4.2 established that fine texture is coded temporally. That code survives into cortex: S1 neurons carry texture information in precise spike timing at millisecond resolution, not only in firing rate.
+
+It is worth saying how far it survives, because the answer bounds the claim rather than weakening it. Afferents fire in phase with vibratory cycles, and so do neurons in area 3b — the raster of a 3b neuron during 20 Hz vibration is still visibly locked to the cycle. Periodicity is already weaker in area 1, and by S2 it is gone: S2 neurons encode vibratory frequency in *mean rate*, firing monotonically with frequency and no longer phase-locked [@kandel2021]. The same temporal-to-rate transition occurs between primary auditory cortex and its downstream targets.
+
+So the timing code is not carried indefinitely — it is carried until something can read it out, and then converted. That is the honest form of the claim, and it is the more useful one: the question to ask of a candidate temporal code anywhere is not "does the system use timing" but "over which stretch of pathway, and where does the conversion happen".
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The correction this module exists to deliver</div>

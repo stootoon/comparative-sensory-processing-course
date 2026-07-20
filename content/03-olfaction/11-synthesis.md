@@ -78,7 +78,7 @@ Held against the five criteria of §0.2, and the record is mixed in a specific a
 
 Ranked by how ready each is to be acted on.
 
-**1. Does receptor abundance track natural encounter frequency?** The cheapest test on the list. Needs only relative ligand encounter frequencies and existing abundance data, and it has a built-in comparative control across species with different ecologies. A null result would be informative either way.
+**1. Does receptor abundance track natural encounter frequency?** The cheapest test on the list. The quantity in question is the deviation from the ~5,000 neurons per receptor type that is the mouse average (§3.4) — the question is whether that number is flat across the repertoire or is allocated, and allocation is what the efficient-coding argument predicts. Needs only relative ligand encounter frequencies and existing abundance data, and it has a built-in comparative control across species with different ecologies. A null result would be informative either way.
 
 **2. Structured decorrelation or global normalisation in the bulb?** (§3.5) Does the inhibition a glomerulus receives depend on *which* other glomeruli are active or only on *how many*, and does that change after prolonged exposure to a structured odour environment? Settles whether adult neurogenesis has a normative rationale.
 

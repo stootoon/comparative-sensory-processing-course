@@ -9,7 +9,7 @@ estimatedMinutes: 11
 
 **The strongest result is qualitative but compelling.** Receptor breadth allocated by loss function — twenty-five bitter receptors converging on one axis, one sweet receptor for a bounded category — explains a striking design fact from task structure alone, and it makes correct cross-modality predictions (§5.3).
 
-**The contested result** is labelled lines versus ensemble coding, now largely resolved as periphery-labelled and centre-distributed [@chandrashekar2006].
+**The contested result** is labelled lines versus ensemble coding, and it is still contested. Labelled lines are secure at the periphery, where receptor-swap experiments dissociate receptor identity from cell identity and behaviour follows the cell [@chandrashekar2006]. The convenient summary that the centre is therefore distributed is weaker than it is usually stated: quality-specific cortical fields exist, and optogenetically activating them substitutes for the tastant even in animals that have never tasted it [@kandel2021]. §5.4 sets out why stage-matching organises the dispute without settling it.
 
 **What is missing:** no quantitative derivation of receptor tuning breadth from measured statistics of natural food chemistry. In principle this is the *easiest* such calculation in the course — the space is small and the categories are behaviourally defined — and it has not been done.
 

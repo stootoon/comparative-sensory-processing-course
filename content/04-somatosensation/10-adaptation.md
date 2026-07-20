@@ -11,6 +11,10 @@ You do not feel your clothes. A constant pressure fades from awareness within se
 
 Touch is therefore the modality where the general principle is most obvious: **sensory systems report change, not state.** The reason is the one from §0.2 — a sustained signal is predictable, predictable signals carry no information, and dynamic range spent representing them is wasted.
 
+But the clothes example is not the peripheral story it is usually told as, and the discrepancy is instructive. SA1 afferents under maintained pressure keep firing for up to half an hour [@kandel2021]. The signal that your shirt is resting on your shoulder is still on the wire, at a rate proportional to the pressure, long after you have stopped perceiving it. **The fade is central; the subtraction is not happening at the receptor.** Only the rapidly-adapting classes go genuinely silent.
+
+That matters for how the trap below is diagnosed. A silent afferent and an unperceived stimulus are different observations with different causes, and touch supplies both at once — RA1 and PC silent within milliseconds, SA1 firing steadily into a percept that has vanished. Any modality where the two are conflated will attribute to the transducer something the circuit is doing.
+
 <x-figure src="content/00-toolkit/figures/adaptation-timescales.js"
   caption="Touch has the fastest peripheral adaptation in the course — Pacinian afferents stop responding within milliseconds of a step. That speed is partly mechanical rather than neural (§4.3): the corpuscle's lamellae relax and stop transmitting force, so the adaptation costs nothing.">
 </x-figure>

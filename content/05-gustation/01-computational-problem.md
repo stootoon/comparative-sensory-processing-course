@@ -26,7 +26,7 @@ An optimal decision rule under that asymmetry does not sit at the point of equal
 This single fact predicts a great deal:
 
 - **Bitter is aversive and innate**, requiring no learning, because learning a toxin by experience may not be survivable.
-- **Bitter thresholds are much lower than sweet thresholds** — often by orders of magnitude. You detect a trace of a poison and need a substantial concentration of sugar.
+- **Bitter thresholds are much lower than sweet thresholds**, and the gap is built into the receptors themselves. T2Rs bind their ligands with micromolar affinity; the T1R2+T1R3 sweet dimer binds sugars in the millimolar range [@kandel2021]. Three orders of magnitude, in the direction the loss predicts: a trace of a poison is enough, and sugar has to be present in quantities that are nutritionally worth eating before the system reports it. Kandel's chapter 29 gives the low sweet affinity the same normative reading — it is what stops the animal chasing sugar that is not worth the trip.
 - **The response is categorical**, not graded. Reject or accept; there is little use for a precise estimate of how bitter something is.
 
 <x-callout class="x-callout is-key">

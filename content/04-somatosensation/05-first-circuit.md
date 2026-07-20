@@ -18,11 +18,13 @@ Tactile afferents enter the spinal cord and ascend in the dorsal columns to the 
 
 The cuneate nucleus is not a relay. It shows:
 
-**Convergence** — several afferents onto each cuneate neuron, improving signal-to-noise at the cost of spatial resolution, exactly the retinal trade.
+**Convergence** — several afferents onto each cuneate neuron, improving signal-to-noise at the cost of spatial resolution, exactly the retinal trade. Note the constraint on it: the convergence is *within* afferent class. Individual cuneate neurons receive input from afferents of a single type, and cells of different types occupy different territories in the nucleus [@kandel2021]. **§4.4's four-way filterbank therefore survives its first synapse intact** — the pooling that buys signal-to-noise is not allowed to undo the split that buys parallel temporal channels.
 
 **Lateral inhibition** producing centre–surround receptive fields. Since the array is ordered and metric (§4.4), this is *spatial* lateral inhibition of exactly the kind §1.5 described — the surround is a genuine neighbourhood, and the predictive-coding reading applies directly.
 
 **Descending modulation** from cortex, which is heavy, and which gates transmission according to task and expected contact. Another instance of the pattern from §1.6: a structure between sensor and cortex, receiving substantial feedback, gating rather than re-coding.
+
+What that feedback carries is more specific than "modulation", and it is the detail that connects this section to §4.9. Fibres from cortical *motor* areas terminate in the dorsal column nuclei and deliver an efference copy of the motor commands generating the movement [@kandel2021]. So the prediction against which touch signals are compared (Lesson 5) is injected at the very first synapse, not assembled somewhere central — which is why an actively-generated touch and an identical passively-imposed one can be distinguished before either reaches thalamus.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The comparison that clarifies the bulb</div>

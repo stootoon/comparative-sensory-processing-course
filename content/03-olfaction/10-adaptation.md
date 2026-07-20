@@ -76,6 +76,10 @@ The bulb receives more centrifugal input than it does sensory input — from pir
 
 The bulb continuously adds granule cells throughout life. §3.2 offered the normative argument: if odour statistics are non-stationary and the decorrelating transformation must track them, machinery for continuously rebuilding that transformation is a requirement rather than an oddity.
 
+That argument gains force from a comparison one stage earlier, which cuts the opposite way. The receptor neurons themselves turn over continuously — a life span of 30 to 60 days, replaced from basal stem cells in the epithelium — and yet the wiring they rebuild is reconstructed *identically* every time: axons of neurons expressing a given receptor find the same one or two glomeruli, at the same stereotyped positions, so the glomerular map is stable across an animal's life and near-identical across individuals. Kandel makes the functional point explicitly: this is what allows an odour met once to be recognised years later, despite no sensory neuron from that encounter still being alive [@kandel2021].
+
+So the periphery replaces cells in order to hold its code **fixed**, and the bulb adds cells in order to let its code **move**. That is a sharp dissociation, and it is what makes the neurogenesis argument non-vacuous. If continuous replacement were simply what damage-exposed tissue does, both stages would look the same; instead the stage exposed to the outside world is the one under selection for invariance, while the stage two synapses in is the plastic one. Whatever adult neurogenesis is for, it is not maintenance.
+
 The prediction that follows is testable. Neurogenesis rate should depend on the **volatility** of the odour environment, not merely on its richness. An animal in a complex but stable odour world should need less rebuilding than one in a simpler but rapidly changing one — and the standard enrichment paradigms confound the two.
 
 <x-matrix>

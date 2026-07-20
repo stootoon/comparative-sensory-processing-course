@@ -5,13 +5,15 @@ lede: Discriminative touch goes through thalamus like vision and audition. But a
 estimatedMinutes: 12
 ---
 
-From the cuneate nucleus, the medial lemniscus crosses and ascends to the **ventral posterior lateral nucleus** of the thalamus, and from there to primary somatosensory cortex. Four synapses to cortex, the same as vision, through an obligatory thalamic relay with the same driver/modulator architecture (§1.6).
+From the cuneate nucleus, second-order axons cross the midline in the medulla and *form* the medial lemniscus, which then ascends uncrossed to the **ventral posterior lateral nucleus** of the thalamus, and from there to primary somatosensory cortex. Four synapses to cortex, the same as vision, through an obligatory thalamic relay with the same driver/modulator architecture (§1.6). (The count depends on whether the Merkel-cell-to-afferent synapse is included; counted from the afferent fibre, S1 is three synapses out [@kandel2021]. Vision's four is counted from the photoreceptor, so the two are being compared on the same convention.)
 
-So far, unremarkable.
+So far, unremarkable — except in one respect worth carrying into §4.8. **The relay does not merge the submodalities; it keeps sorting them.** Cutaneous signals go to VPL and thence chiefly to area 3b; proprioceptive signals are relayed by a separate nucleus, ventral posterior superior, to a separate cortical area, 3a [@kandel2021]. The split that §4.4 makes at the receptor and §4.5 preserves at the cuneate is still intact at the last synapse before cortex. Whatever else the thalamus is doing here, it is not the place where the parallel channels are recombined.
 
 ## The pathway that does not
 
 **Spinocerebellar tracts carry proprioceptive and some tactile information directly to the cerebellum, bypassing the thalamus entirely.**
+
+The anatomy holds up. Dorsal horn circuits receiving low-threshold mechanoreceptor input project directly to the cerebellum among their brainstem targets, and for the lower half of the body the route has its own name — the dorsolateral tract, listed alongside the dorsal column–medial lemniscal and spinothalamic systems as a third ascending somatosensory pathway [@kandel2021]. It is worth being clear that this is a genuine third route rather than a collateral of the lemniscal one, because the whole argument below depends on it.
 
 <x-figure src="content/00-toolkit/figures/pathway-depth.js"
   caption="Pathway depth across the modalities. Sorted by synapses to action, touch's grip-correction loop is near the top — and the spinocerebellar route bypasses thalamus entirely, exactly as olfaction does. What those two share is a tight deadline and a consumer that wants speed rather than re-mapping, not evolutionary antiquity.">
@@ -73,7 +75,7 @@ The general principle §2.6 proposed — that depth before cortex tracks how muc
     {
       "text": "It explains why touch's grip loop closes in 70 ms, since the thalamus-skipping route is what makes the reflex fast enough.",
       "correct": false,
-      "feedback": "Partly correct in spirit and wrong in detail. The deadline argument runs the other way — the tight deadline is the *reason* to expect a shallow route, not a consequence of it — and the 70 ms grip correction is a spinal reflex loop rather than a spinocerebellar one. Using the deadline to explain the routing and the routing to explain the deadline is circular; the evidential content is in the two pathways sharing a deadline while sharing nothing else."
+      "feedback": "Partly correct in spirit and wrong in detail. The deadline argument runs the other way — the tight deadline is the *reason* to expect a shallow route, not a consequence of it — and the 70 ms grip correction does not use the thalamus-skipping route at all: the corrective grip increase is driven from motor cortex [@kandel2021], so that loop runs through the relay rather than around it. Using the deadline to explain the routing and the routing to explain the deadline is circular; the evidential content is in the two pathways sharing a deadline while sharing nothing else."
     }
   ]
 }

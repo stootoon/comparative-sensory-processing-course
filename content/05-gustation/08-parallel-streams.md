@@ -69,4 +69,6 @@ A learning rule requiring temporal contiguity is optimal when causes and effects
 
 What is colloquially called taste is mostly **flavour** — a fusion of gustation, retronasal olfaction, texture and temperature. Retronasal odour is perceptually attributed to the mouth despite being detected in the nose, and people are poor at separating the contributions.
 
+The mislocalisation looks like a coincidence inference. Chewing and swallowing pump volatiles up the retronasal passage at the same moment the tongue is being stimulated chemically and mechanically, and the standard account is that this three-way coincidence is what assigns the odour to the mouth [@kandel2021]. Which is the ordinary logic of multisensory binding — common cause inferred from common timing — applied to a case where the inference is *wrong* about the receptor location and right about the object. Localisation follows the source of the food, not the site of transduction.
+
 That fusion is itself interesting: two chemosenses with opposite architectures (§5.1) produce a single unified percept, and the binding is obligatory rather than optional. It is one of the stronger cases of forced multisensory integration anywhere, and the full course treats it alongside the vestibular–visual case in §6.

@@ -7,7 +7,7 @@ estimatedMinutes: 16
 
 ## Binding as a stochastic process
 
-An odorant receptor is a G-protein-coupled receptor. Detection begins with a molecule binding, which triggers a cascade — G-protein, adenylyl cyclase, cAMP, a cyclic-nucleotide-gated channel — and a depolarisation.
+An odorant receptor is a G-protein-coupled receptor. Detection begins with a molecule binding, which triggers a cascade — the olfactory-specific G protein **Gα-olf**, **adenylyl cyclase III**, cAMP, and a cyclic-nucleotide-gated channel passing Ca²⁺ and Na⁺ — and a depolarisation, which spreads passively to the soma where spikes are generated [@kandel2021]. The odorant-binding pocket is formed by the transmembrane domains, and it is precisely those domains that are most variable in sequence across the family: the receptors differ from one another chiefly in the part that touches the ligand.
 
 The first stage is stochastic in a way photon absorption is not, and the difference matters. A photon either arrives or does not. A molecule **binds, unbinds, and may rebind**, with rates set by affinity and concentration. What the receptor reports is a time-averaged occupancy, and occupancy is a noisy estimate of concentration.
 
@@ -103,7 +103,7 @@ ORNs adapt strongly through calcium feedback onto the CNG channel, shifting sens
 
 But note the tension it creates, which is specific to olfaction. Adaptation that removes a sustained background is exactly what you want for detecting a new odour against an old one. It is exactly what you do *not* want if the informative signal is the temporal fluctuation itself — because a high-pass filter applied to an intermittent signal discards the intermittency statistics that §3.2 identified as carrying the spatial information.
 
-How the system resolves that is open, and it is a good example of a conflict that only becomes visible once you take the plume statistics seriously.
+How the system resolves that is open, and it is a good example of a conflict that only becomes visible once you take the plume statistics seriously. It is worth adding that the *recovery* half is open in a more basic way: adaptation is attributed in part to modulation of the CNG channel, but the mechanism by which sensitivity is restored so rapidly when the odorant is withdrawn is not established [@kandel2021]. For a system whose signal is a train of whiffs and blanks, de-adaptation kinetics matter at least as much as adaptation kinetics, and they are the less understood half.
 
 <x-free-response>
 <script type="application/json">

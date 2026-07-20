@@ -117,3 +117,28 @@ Live at https://stootoon.github.io/comparative-sensory-processing-course/
 with a live render sweep, and give images generous settle time — several
 "failures" on the live check are network latency on large harvested photos, not
 missing assets.
+
+---
+
+## Kandel cross-check (2026-07-20)
+
+The course has been cross-checked against Kandel's *Principles of Neural
+Science* 6th ed., Part IV. See `PROVENANCE-kandel.md` for what came from where,
+what was declined, and the figures worth commissioning.
+
+Two items from it belong on this list:
+
+- **The piriform -> mediodorsal thalamus -> orbitofrontal disagreement**
+  (§3.6). The course says that route is late and non-obligatory; Kandel says the
+  frontal pathways are the substrate of odour discrimination, and OFC lesions
+  abolish it. The course's claim was kept with the tension surfaced and a
+  falsifiable prediction attached. **Most worth author review of anything in the
+  cross-check.**
+- **The synapse-count convention.** The course counts four synapses to S1,
+  including the Merkel-cell-to-afferent synapse, to match vision's
+  photoreceptor-based count. That convention only holds for the Merkel channel —
+  RA1 and Pacinian afferents transduce at the terminal, so touch is strictly
+  three for three of its four classes. Changing it would touch §7.6, §10.5,
+  §11.4 and the §13.8 exam.
+
+Nociception (Kandel ch20) remains deliberately unread and undone.

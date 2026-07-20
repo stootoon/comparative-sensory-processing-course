@@ -40,6 +40,8 @@ None is established. But it is a rare comparative question with a clear observab
 
 Taste also has a coarse pre-screen: olfaction and vision usually determine whether something reaches the mouth at all. Taste is the last check, not the first — which is another reason it can afford to be conservative and categorical. It only ever adjudicates candidates that earlier senses have already approved.
 
+The last check is also not a single check. Taste buds are not confined to the tongue: they continue onto the palate, pharynx, epiglottis and the upper third of the oesophagus, innervated by cranial nerves IX and X rather than VII [@kandel2021]. The array is laid out along the path the food takes, so the accept/reject question is re-asked at the point of no return, after the animal has already committed to swallowing. That is the arrangement the asymmetric loss of §5.1 predicts — the cheapest place to catch a miss is the last place a rejection is still possible, and taste keeps sensors there.
+
 <x-order>
 <script type="application/json">
 {

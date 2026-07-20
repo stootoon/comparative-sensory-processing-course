@@ -43,7 +43,9 @@ Those demand incompatible things from a sensor. Fine spatial detail needs small 
 
 Touch's loss function is dominated by one asymmetry: **dropping things is expensive**. Grip force must exceed what is needed to prevent slip, but excessive force damages objects and wastes energy. The system runs a continuous control loop with a tight margin.
 
-The deadline follows: corrective grip responses to an unexpected slip occur within about 70 ms, faster than voluntary reaction. That is a reflex loop, and it means much of touch's processing must complete without cortical involvement — a structural fact that shapes the pathway (§4.6).
+The deadline follows: corrective grip responses to an unexpected slip occur within about 70 ms, faster than voluntary reaction. It is tempting to read that as a spinal reflex. It is not — the corrective increase in grip force is driven from motor cortex [@kandel2021], so 70 ms is the round-trip time of a full cortical loop rather than evidence that cortex was bypassed.
+
+That makes the constraint on the pathway sharper than "keep it shallow". Every synapse between skin and motor cortex is paid for twice, once ascending and once descending, and the loop still closes faster than a voluntary response can be initiated. §4.6 asks what that buys and what it costs.
 
 <x-mcq>
 <script type="application/json">

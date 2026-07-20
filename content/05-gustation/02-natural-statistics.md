@@ -13,6 +13,8 @@ The behaviourally relevant classes number about five: sweet (caloric sugars), um
 
 Each corresponds to a **nutritional or toxicological category**, not to a chemical family. That is the key structural fact: taste's dimensions are defined by what the compounds *do to the animal*, not by what they are.
 
+The comparative evidence for that claim is unusually direct: **the dimensions are lost when the consequence stops applying.** Cats, tigers and cheetahs carry no functional sweet receptor; the giant panda, on a bamboo diet, has lost the umami receptor; vampire bats, feeding on blood, have lost both [@kandel2021]. A dimension of the stimulus space disappears from a lineage once the consequence it tracked stops arising. Cone loss in nocturnal and aquatic mammals is the closest parallel elsewhere, but there the lost dimension is one the *world* stopped supplying; here the molecules are still present in the environment and it is their behavioural relevance that lapsed. That is what "defined by consequence" looks like when natural history varies the consequence for you.
+
 <x-figure src="content/media/tongue-foliate-papilla-section.jpg"
   caption="A foliate papilla in section, with taste buds embedded in the trench walls. The anatomy is elaborate; the stimulus space it serves has about five dimensions. Compare the olfactory epithelium, whose anatomy is far simpler and whose stimulus space has hundreds — a reminder that structural complexity does not track computational difficulty."
   credit="Henry Vandyke Carter, Gray's Anatomy (1918), plate 1021. Public domain."

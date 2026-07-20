@@ -7,11 +7,13 @@ estimatedMinutes: 18
 
 ## The spatial array
 
-Roughly 17,000 mechanoreceptive afferents innervate the glabrous skin of one human hand. The array is **ordered** and **metric**: neighbouring receptors report neighbouring skin locations, and distance on the skin is well defined.
+Roughly 17,000 mechanoreceptive afferents innervate the glabrous skin of one human hand — around 20,000 counting the hand as a whole [@kandel2021]. The array is **ordered** and **metric**: neighbouring receptors report neighbouring skin locations, and distance on the skin is well defined.
 
 But with a qualification no other modality has. **The metric is deformable and posture-dependent.** Two points a fixed distance apart on the skin are a variable distance apart in the world. A code that reported skin coordinates would be useless for reaching; a code that reported world coordinates requires proprioceptive information the receptors do not have.
 
 **Innervation density varies enormously** — fingertip density is more than an order of magnitude above the back. This is a budget allocation exactly like the fovea: a fixed number of afferents spent uniformly for mediocre acuity everywhere, or concentrated where acuity matters and brought to bear by moving the hand.
+
+The allocation is also non-uniform *across classes*, and by a wide margin. At the fingertip the densities run roughly 150 RA1, 70 SA1, 21 PC and 9 SA2 per cm² [@kandel2021]. The two classes that carry fine spatial detail take about nine-tenths of the budget; the two with large fields, which need no spatial sampling to do their jobs, are spent sparsely. That is the same logic as the density gradient across the body, applied along a second axis.
 
 <x-figure src="content/media/somato-meissner-micrograph.jpg"
   caption="A Meissner corpuscle in a dermal papilla, close to the skin surface. Meissner density in the fingertip is among the highest anywhere on the body — the peripheral half of the budget allocation whose cortical consequence is the homunculus (§4.7)."
@@ -28,10 +30,12 @@ The four afferent types differ mainly in adaptation rate and receptive field siz
 
 | Class | Adaptation | Field | Best at |
 |---|---|---|---|
-| **SA1** (Merkel) | slow | small | form and fine spatial detail |
-| **RA1** (Meissner) | rapid | small | slip, low-frequency flutter (~5–50 Hz) |
-| **PC** (Pacinian) | very rapid | very large | vibration (~50–400 Hz), tool-transmitted events |
+| **SA1** (Merkel) | slow | small (~11 mm²) | form and fine spatial detail (best below ~5 Hz) |
+| **RA1** (Meissner) | rapid | small (~25 mm²) | slip, low-frequency flutter (most sensitive ~10–50 Hz) |
+| **PC** (Pacinian) | very rapid | very large | vibration (most sensitive ~50–400 Hz, best ~200 Hz), tool-transmitted events |
 | **SA2** (Ruffini) | slow | large | skin stretch, hand conformation |
+
+The field sizes are not a free parameter set independently of the rest: they follow from how the afferent is wired. SA1 and RA1 are **type 1** fibres, each branching to many small end organs — one SA1 axon collects from around 20 Merkel cells, one RA1 axon from 10 to 20 Meissner corpuscles, all within a patch a few millimetres across. PC and SA2 are **type 2**, each axon terminating on a *single* large corpuscle deep in the dermis that picks up displacement from far away [@kandel2021]. Small field and large field are consequences of two different packaging strategies, not two settings of a dial.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">A filterbank in the temporal domain</div>
@@ -52,6 +56,8 @@ And this is the same motif again: <strong>one channel cannot optimise sensitivit
 The tidy version assigns each afferent class a perceptual function: SA1 for form, RA1 for slip, PC for vibration, SA2 for stretch. It is a good first approximation and it appears in every textbook.
 
 It is also too clean [@saal2014]. Artificial stimuli can be designed to excite one class selectively, but **most natural stimuli excite all of them**, and most tactile percepts are shaped by several. In cortex, most neurons receive convergent input from multiple afferent classes rather than staying within a submodality.
+
+Worth being precise about *where* the picture stops being labelled, because the answer is late. Submodality segregation is maintained through the dorsal column nuclei and the thalamus — individual cuneate neurons receive from afferents of a single type, and the types are spatially separated. Convergence begins at cortex: SA1 and RA1 inputs from the same patch of skin meet on common neurons in area 3b [@kandel2021]. So the labelled lines are real for three synapses and then stop being real, which is a more interesting claim than either the tidy version or its blanket rejection. It also sets a boundary the olfactory analogue lacks: the bulb has no comparable stretch of pathway over which a which-glomeruli code is known to be preserved intact.
 
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">A recurring shape of dispute</div>

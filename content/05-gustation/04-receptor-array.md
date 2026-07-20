@@ -7,7 +7,7 @@ estimatedMinutes: 12
 
 ## The array
 
-Taste receptor cells sit in taste buds distributed across the tongue, palate and epiglottis. Roughly 50–100 cells per bud, a few thousand buds.
+Taste receptor cells sit in taste buds distributed across the tongue, palate, pharynx, epiglottis and upper oesophagus. Roughly 50–150 cells per bud, a few thousand buds [@kandel2021]. A single bud can contain cells of every quality, which is the first hint that whatever organisation taste has is not spatial.
 
 <x-figure src="content/media/taste-bud-structure.jpg"
   caption="A taste bud. Fifty to a hundred receptor cells packed into a single structure, with a pore admitting dissolved chemicals at the top. Contrast the olfactory epithelium (§3.4), where each receptor neuron expresses one receptor type and same-type neurons are scattered — here the cells of different types are packed together and it makes no difference, because there is no combinatorial pattern across space to preserve."
@@ -72,7 +72,9 @@ How selective is an individual taste receptor cell? This is the module's live di
 
 <x-callout class="x-callout is-invertebrate">
 <div class="x-callout-title">How to adjudicate a coding dispute</div>
-Both bodies of evidence are real. The resolution most people now accept is that the <strong>periphery is close to labelled-line and the central representation is more distributed</strong> — which is not a compromise so much as a recognition that the two camps were measuring different stages.
+Both bodies of evidence are real. A widely repeated resolution is that the <strong>periphery is close to labelled-line and the central representation is more distributed</strong> — not a compromise so much as a recognition that the two camps were measuring different stages.
+
+<strong>That resolution is not the consensus it is sometimes presented as, and this course previously overstated it.</strong> The labelled-line account does not concede the centre. Kandel's chapter 29 traces labelled lines from taste cell to sensory ganglion to nucleus of the solitary tract, and then reports gustatory cortex containing spatially segregated fields responding preferentially to one quality; optogenetic activation of the sweet field drives appetitive responses and of the bitter field drives aversive orofacial rejection, in animals that have never tasted either — the transduction was knocked out [@kandel2021]. A distributed central code has to explain why stimulating a patch of cortex substitutes for a tastant. So take the stage-matching move as the right <em>method</em> and an open <em>verdict</em>: the two literatures are not simply measuring different stages, they disagree about the same stage.
 
 The generalisable lesson, and the reason this belongs in a comparative course:
 
@@ -107,7 +109,7 @@ The generalisable lesson, and the reason this belongs in a comparative course:
     {
       "text": "It works at the periphery, where the labelled-line claim is true, whereas recordings were made centrally where the code is distributed.",
       "correct": false,
-      "feedback": "Correct under the resolution the callout above endorses — periphery-labelled, centre-distributed — and it correctly diagnoses why the two literatures disagreed. But it answers a different question. Stage-matching explains why the dispute persisted; it does not explain what made the swap experiment conclusive *at* the periphery, which is the dissociation. Note that the same design run centrally would still be informative, and would still be the reason to believe the result."
+      "feedback": "Correct under the periphery-labelled, centre-distributed reading the callout above examines — and it correctly diagnoses part of why the two literatures disagreed, though the callout also notes that reading is contested at the central end. But it answers a different question. Stage-matching explains why the dispute persisted; it does not explain what made the swap experiment conclusive *at* the periphery, which is the dissociation. Note that the same design run centrally would still be informative, and would still be the reason to believe the result."
     }
   ]
 }

@@ -17,6 +17,8 @@ Stated that way it sounds like vision. It is not, and the differences begin at t
 
 **Location.** Where is the source? A statistical inference over an intermittent, turbulent time series — much closer to a signal-processing problem than to anything in the identity story.
 
+Separating them is necessary but not sufficient, because the first two are entangled at the receptor. Raising the concentration of an odorant recruits additional lower-affinity receptors, which changes the combinatorial code, which changes the *percept*: thioterpineol smells of tropical fruit at low concentration, grapefruit higher up, and putrid higher still [@kandel2021]. Identity and intensity are therefore not two readouts of one signal but one signal that the animal must factorise. Nothing in vision behaves this way — a brighter red is not a different hue.
+
 <x-figure src="content/media/oa-odour-plume-turbulent.jpg"
   caption="A turbulent odour plume, side and top view, from direct numerical simulation. This is the signal. Identity must be recovered from the chemical composition of a filament; location must be recovered from the statistics of when filaments arrive. The figure makes plain how little the two problems have in common."
   credit="Rigolli N, Magnoli N, Rosasco L, Seminara A (2022). CC BY 4.0."

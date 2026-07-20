@@ -7,7 +7,7 @@ estimatedMinutes: 10
 
 From NST, taste information takes two broadly different routes.
 
-**The cortical route:** NST → (parabrachial, in rodents) → VPMpc thalamus → **insular cortex**. A conventional thalamocortical pathway with the usual driver/modulator architecture.
+**The cortical route:** NST → (parabrachial, in rodents) → VPMpc thalamus → **gustatory cortex**, which sits on the border between anterior insula and frontal operculum [@kandel2021]. A conventional thalamocortical pathway with the usual driver/modulator architecture.
 
 <x-figure src="content/media/flavor-three-pathways.jpg"
   caption="The three chemosensory routes to cortex, side by side: gustation via NST and thalamus to insula, olfaction direct to piriform with no obligatory relay, and chemesthesis via the trigeminal system. Perceptually these fuse into flavour — two chemosenses with opposite architectures (§5.1) producing a single unified percept, and the binding is obligatory rather than optional."
@@ -45,6 +45,12 @@ Grip-force correction on slip closes in about <strong>70 ms</strong> (§4.9).
 
 Applied to olfaction: the two-synapse route to cortex is short, but olfaction has no reflex arc anywhere near as short as the gape response or the VOR. Which suggests olfaction's shallowness is <em>not</em> primarily about reflex speed — supporting the §3.6 reading that it is about the absence of geometric re-mapping to perform.
 </x-callout>
+
+## The relay olfaction does not have
+
+The point of putting the two chemosenses side by side is that **taste goes through thalamus and smell does not**. Kandel's chapter 29 draws both pathways and the asymmetry is stark: gustatory afferents reach cortex only via VPMpc, while mitral and tufted cells reach piriform directly through the lateral olfactory tract, with a thalamic route to orbitofrontal cortex existing but arriving *after* olfactory cortex rather than before it [@kandel2021].
+
+So the presence of a relay does not track chemistry, dimensionality, or evolutionary age — the two senses match on all three. Whatever thalamus is for, taste needs it and smell does not, and the pair is the tightest available constraint on any theory of what a first-order relay computes. Note also that the thalamic route in taste is not the *only* way to cortex-adjacent action: gustatory cortex and the taste thalamus both project on to hypothalamus [@kandel2021], so the cortical and limbic routes converge again on the structures that control feeding rather than running to separate ends.
 
 <x-mcq>
 <script type="application/json">

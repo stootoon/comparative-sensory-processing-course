@@ -20,6 +20,8 @@ It is worth listing the ways the V1 analogy fails, because each failure is infor
 
 **No topography.** Odour-responsive neurons are distributed across piriform with no discernible spatial organisation. Two neurons responding to the same odorant are not neighbours. Given §3.4 this is expected — there is no metric on the input to be topographic *about* — but it means every spatial intuition from visual cortex is inapplicable.
 
+The disorder is not merely inherited, it is manufactured. The bulb's glomerular map *is* highly ordered — stereotyped positions, near-identical across individuals — and piriform discards it: mitral cells from widely separated parts of the bulb project to the same piriform subregion, so the map is not recapitulated anywhere downstream [@kandel2021]. That is the informative version of the claim. A system that had no order to preserve would tell you nothing; a system that builds an orderly map at synapse one and then deliberately scrambles it at synapse two is telling you the map was for something other than cortex.
+
 **Sparse, distributed ensembles.** Any odour activates a small percentage of neurons, scattered. Identity is carried by which sparse set is active.
 
 <x-figure src="content/media/oa-piriform-sparse.jpg"

@@ -9,9 +9,9 @@ Read §1.4 first if you have not. This section is written to be compared with it
 
 ## The basic architecture
 
-Mammals express a large family of odorant receptor genes — roughly 400 functional types in humans, around 1,100 in mice, about 50 in *Drosophila* [@buckaxel1991]. Each receptor neuron expresses, with rare exceptions, exactly **one** receptor type.
+Mammals express a large family of odorant receptor genes — roughly 350–400 functional types in humans, around 1,000–1,100 in mice, about 60 in *Drosophila* [@buckaxel1991; @kandel2021]. Each receptor neuron expresses, with rare exceptions, exactly **one** receptor type.
 
-Neurons expressing the same receptor are scattered across the epithelium but converge onto one or a few **glomeruli** in the olfactory bulb, with convergence ratios in the thousands. So the glomerular array is a map of *receptor identity*, and each glomerulus reports the total activation of one receptor type.
+Neurons expressing the same receptor are scattered across the epithelium — around 5,000 of them per receptor type in mouse, confined to one broad epithelial zone but randomly interspersed within it — and their axons converge onto a small, stereotyped set of **glomeruli** in the olfactory bulb: typically two per bulb, one medial and one lateral, at positions that are near-identical across individuals [@kandel2021]. So the glomerular array is a map of *receptor identity*, and each glomerulus reports the total activation of one receptor type.
 
 <x-figure src="content/media/orn-glomeruli.jpg"
   caption="The wiring that sentence describes. Each colour is one receptor type. Note that same-coloured neurons are NOT neighbours in the epithelium — they are scattered, and their axons cross over one another to reach the glomerulus of matching colour. The sorting is chemical, not spatial. A retina wired this way, with axons ignoring position and sorting by some other property, would be unable to see."
@@ -34,6 +34,10 @@ The code is combinatorial: one receptor responds to many odorants, one odorant a
 </x-figure>
 
 
+There is a human experiment on this that nobody had to run. Olfactory sensitivity varies up to a thousandfold across people with no clinical abnormality, and the commonest form is **specific anosmia**: normal sensitivity to almost everything and near-blindness to one odorant — 12% of subjects in one study for musk, and the commoner specific anosmias run between 1% and 20%. Several of these have been traced to variants in a single odorant receptor gene [@kandel2021].
+
+That is a sharper result than it looks, and it cuts against the loosest reading of "combinatorial". If identity were carried by a pattern with hundreds of contributing channels, losing one should degrade discrimination slightly and everywhere, not delete one percept. A single-gene variant removing a single smell says the code is combinatorial but **not redundant**: for at least some odorants, one receptor is load-bearing and the remaining several hundred cannot reconstruct what it reported. Contrast the vision case, where losing one of three cone classes does not delete a colour but collapses the whole space onto a plane — the failure mode tells you the geometry.
+
 So far this sounds like trichromacy with more channels. It is not, and the differences are the point.
 
 ### There is a second receptor family, and it argues the opposite way
@@ -46,7 +50,9 @@ Run §1.4's tuning-breadth argument on that fact. The argument is not "broad tun
 
 The MOS faces the first task. The AOS faces the second. Same nose, same molecules, same GPCR chemistry, same evolutionary access to whatever breadth is buildable — and the two repertoires come out at opposite ends of the tuning axis.
 
-That is worth pausing on, because it is the cleanest available demonstration that the §1.4 argument is doing real work. An argument that predicts broad tuning everywhere it looks is not being tested. This one is applied twice under identical physics, told to produce opposite answers by the difference in consumer, and does. §3.8 develops the full comparison and states the caveats — the tuning contrast is best established at the receptor rather than at every stage, and much of the evidence is mouse.
+And the contrast does not even require two organs. The main epithelium itself carries a third repertoire: the **trace amine-associated receptors**, fourteen of them in mouse, GPCRs unrelated in sequence to the odorant receptors, tuned to volatile amines — among them a compound concentrated in male mouse urine and another in the urine of predators [@kandel2021]. They sit in the main epithelium, project to main-bulb glomeruli, and use the same transduction cascade as their odorant-receptor neighbours. What they do not share is a consumer: their ligands are a short fixed list with a fixed behavioural consequence, and their tuning is correspondingly narrow. So the tuning difference cannot be an artefact of the vomeronasal organ being a different organ, sampled differently, with a different cascade. It survives when all of that is held fixed and only the consumer varies.
+
+That is worth pausing on, because it is the cleanest available demonstration that the §1.4 argument is doing real work. An argument that predicts broad tuning everywhere it looks is not being tested. This one is applied under identical physics, told to produce opposite answers by the difference in consumer, and does. §3.8 develops the full comparison and states the caveats — the tuning contrast is best established at the receptor rather than at every stage, and much of the evidence is mouse.
 
 ## The array is unordered
 
@@ -150,8 +156,8 @@ The fly therefore gives a worked example of the full pipeline: compress for SNR,
       "accept": ["non-metric", "no metric", "none", "not metric", "hyperbolic", "contested", "unknown"]
     },
     "Number of channels|Olfaction": {
-      "answer": "~400 human, ~1100 mouse, ~50 fly",
-      "accept": ["400", "1100", "hundreds", "~400", "~1000", "50", "many"]
+      "answer": "~350-400 human, ~1000-1100 mouse, ~60 fly",
+      "accept": ["400", "350", "1100", "1000", "hundreds", "~400", "~1000", "60", "50", "many"]
     },
     "Tuning breadth|Olfaction": {
       "answer": "broad",

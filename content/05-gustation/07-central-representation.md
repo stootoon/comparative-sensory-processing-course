@@ -13,6 +13,8 @@ Imaging in mice has reported **spatially segregated "hotspots"** for different t
 
 That is a striking claim, because it would mean the map is *computed* rather than inherited, exactly as bat delay maps are (§9). Extent and sharpness remain debated, and the spatial scale is coarse.
 
+The hotspots also come with a causal result that the section below has to reckon with. Optogenetic activation of the sweet field produces appetitive licking and of the bitter field produces aversive orofacial rejection — and it does so in mice whose sweet and bitter transduction has been knocked out, so the behaviour cannot be a learned association with a taste they have ever had [@kandel2021]. Whatever else insular cortex is doing, a patch of it can stand in for a tastant and drive the innate response.
+
 **This is worth flagging for §13.** If taste can construct a topographic map from an unordered receptor array, then unorderedness does not preclude central topography. The olfactory question — "is there a map anywhere downstream?" — is not answered by pointing at the bulb's disorder.
 
 <x-mcq>
@@ -64,6 +66,8 @@ And responses are strongly modulated by **expectation**: the same taste delivere
 Gustatory cortex encodes chemical identity, and also palatability, expectation, and internal state — with the palatability signal arriving on the timescale of the behavioural choice.
 
 That is not a sensory representation in the V1 sense. It is closer to an evolving decision variable.
+
+<strong>The honest counterweight is the hotspot result above.</strong> Stimulating a quality-specific cortical field substitutes for the tastant in an animal that has never had it, which is what a labelled sensory line looks like, not what a decision variable looks like. Both findings are in the same cortex. The reading this course prefers is that the two are compatible — a labelled input arriving into a population whose activity is then dominated by evaluation — but that is a proposal, and anyone who takes the hotspots at full strength will read the dynamics as decoration on a labelled line instead.
 
 <strong>Which continues a pattern this course keeps meeting.</strong> A1 retunes with task (§2.7). Piriform is an associative network rather than a map (§3.7). Gustatory cortex is largely about decision. <strong>V1 is starting to look like the outlier</strong> — a genuinely feedforward, stimulus-driven sensory representation — and the field's habit of treating it as the template for "what sensory cortex is" may have distorted expectations for every other modality.
 

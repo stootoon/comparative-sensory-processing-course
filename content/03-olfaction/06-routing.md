@@ -5,7 +5,7 @@ lede: Olfaction reaches cortex in two synapses with no obligatory thalamic relay
 estimatedMinutes: 20
 ---
 
-Mitral and tufted cells leave the olfactory bulb in the lateral olfactory tract and project directly to a set of cortical and limbic targets: piriform cortex, anterior olfactory nucleus, olfactory tubercle, cortical amygdala, entorhinal cortex.
+Mitral and tufted cells leave the olfactory bulb in the lateral olfactory tract and project directly to a set of cortical and limbic targets. Defining olfactory cortex as whatever receives a direct bulbar projection gives six areas: piriform cortex — the largest, and the one usually meant — the anterior olfactory nucleus, which links the two bulbs through the anterior commissure, the anterior and posterior-lateral cortical nuclei of the amygdala, the olfactory tubercle, and part of entorhinal cortex [@kandel2021].
 
 **Two synapses from the sensory surface to cortex.** Vision takes four, audition five or more. And unlike them, olfaction has no obligatory relay.
 
@@ -38,7 +38,11 @@ LGN burst and tonic modes tie transmission to arousal and sleep. The bulb is lik
 
 ### 4. Cross-cortical routing
 
-This is the one where olfaction looks genuinely different, and it is where the mediodorsal thalamus comes in. Olfaction *does* have a thalamic loop: piriform projects to mediodorsal thalamus, which projects to orbitofrontal cortex. But it is **late and non-obligatory** — downstream of cortex rather than upstream of it, and carrying attention, value and decision signals rather than the sensory signal.
+This is the one where olfaction looks genuinely different, and it is where the mediodorsal thalamus comes in. Olfaction *does* have a thalamic loop: piriform projects to mediodorsal thalamus, which projects to orbitofrontal cortex, alongside a direct piriform projection to frontal cortex that skips the thalamus entirely [@kandel2021]. The loop is **late and non-obligatory** — downstream of cortex rather than upstream of it.
+
+The usual reading of what it carries is attention, value and decision rather than the sensory signal, and this course has taken that line. It should be said plainly that the standard textbook reading is different: these frontal pathways are treated as the substrate of odour *discrimination*, on the evidence that orbitofrontal lesions abolish it, and that some orbitofrontal neurons are multimodal, responding to the smell, sight and taste of the same object [@kandel2021]. Those two readings are not straightforwardly compatible. A route that is genuinely post-decisional should not be lesionable into a discrimination deficit.
+
+The reconciliation this course would offer — and it is a proposal, not a result — is that discrimination in the behavioural sense requires reading out an identity that piriform has already computed, so a lesion downstream of the representation abolishes the *report* without abolishing the representation. That prediction is testable and worth stating as such: piriform ensembles should still separate odours in an animal whose orbitofrontal cortex is silenced and which can no longer discriminate them behaviourally. If they do not, the late-and-non-obligatory framing above is wrong and the thalamic route is carrying sensory content after all.
 
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The reframing</div>

@@ -17,6 +17,8 @@ Surface texture spans an enormous range of spatial scales, and the system uses t
 
 **Coarse texture** — features above roughly 1 mm — is resolved **spatially**. The pattern of skin indentation carries the surface geometry, and slowly-adapting afferents with small receptive fields report it more or less directly.
 
+The 1 mm figure is not a rough hedge. Fingertip spatial acuity comes out at 1.0 mm on three psychophysically independent tasks — gap detection, grating orientation, and raised-letter identification — all converging on the same threshold, and Braille exploits it by spacing its dots at about 3 mm so that each falls on a distinct set of SA1 fibres [@kandel2021]. That convergence is what makes the crossover a property of the array rather than of any one task.
+
 <x-predict>
 <script type="application/json">
 {
