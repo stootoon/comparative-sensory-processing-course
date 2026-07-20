@@ -164,3 +164,26 @@ Nociception is now Module 8 (done, 2026-07-20). Two follow-ups it generated:
 - **`pathway-depth.js` has no nociception entry.** §8.6 avoided depending on it
   for that reason. Four ascending tracts to four consumers, only one via
   thalamus, would sit well on that axis.
+
+---
+
+## Highlighting (added 2026-07-20)
+
+Select text in any section to highlight it; collected on `#/notes`. Stored in
+its own `csp:highlights` key and carried in the progress export.
+
+Anchored by quote-plus-context (W3C `TextQuoteSelector`), not by offset, so
+highlights survive edits elsewhere in a section. A highlight whose own words are
+rewritten is **orphaned** — not painted, but kept and still shown in Notes,
+because the note attached to it is the reader's.
+
+**Known limitation:** mobile uses the browser's native long-press selection,
+which is workable but poor. If readers will use this on a phone, that is the
+next thing to improve.
+
+**Two cautions for anyone editing this code.** KaTeX, exercises, figure captions
+and code are excluded from highlighting on purpose — a `<mark>` inside rendered
+maths corrupts it irreversibly, and exercises rebuild their DOM on interaction
+and would drop the wrapper. And `applyHighlights` rebuilds the text index once
+per highlight, so it is quadratic in highlights-per-section; fine at realistic
+counts, but that is where to look if a section ever feels slow.
