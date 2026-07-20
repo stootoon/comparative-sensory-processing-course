@@ -11,30 +11,40 @@ no signup, no backend. Each visitor's progress is stored in their own browser.
 
 ---
 
-## Status: complete, v1.0
+## Status: complete
 
-Twelve modules, 101 sections, ~114,000 words, 157 figures, 51 references.
+15 modules, 141 sections, ~230,000 words (including exercise prose), 186 figures, 337 exercises, 52 references.
 
 | Module | | Sections |
 |---|---|---|
-| 0 | The Normative Toolkit | 3 |
-| 1–7 | Vision, Audition, Olfaction, Somatosensation, Gustation, Vestibular, Proprioception | 11 each |
-| 9 | Exotic Senses | 6 |
-| 10 | Common Motifs | 5 |
-| 11 | Key Differences | 5 |
-| 12 | Olfaction in the Mirror (capstone) | 5 |
+| 0 | The Normative Toolkit | 4 |
+| 1–8 | Vision, Audition, Olfaction, Somatosensation, Gustation, Vestibular, Proprioception, Nociception | 12 each |
+| 9 | Exotic Senses | 7 |
+| 10 | Development and Evolution | 7 |
+| 11 | Common Motifs | 6 |
+| 12 | Key Differences | 6 |
+| 13 | Artificial Sensing | 7 |
+| 14 | Olfaction in the Mirror | 8 |
 
-Every modality module uses the **identical eleven-section skeleton**, in the same
-order, with the same numbering — so §4 means the receptor array whether you are
-reading about cones or odorant receptors, and the course can be read *across*
-modules as easily as down one. No section is ever deleted: where a structure is
-absent, the section says so and asks why, because those absences are the most
-comparatively informative data in the course.
+The eight modality modules use the **identical eleven-section skeleton**, in the
+same order, with the same numbering — so §4 means the receptor array whether you
+are reading about cones or odorant receptors, and the course can be read
+*across* modules as easily as down one, which is where most of its arguments
+come from. Each ends with a quiz, making twelve sections. No section is ever
+deleted: where a structure is absent, the section says so and asks why, because
+those absences are the most comparatively informative data in the course.
 
-The three synthesis modules introduce almost no new material. They pivot what
-the modality modules established: §10 the recurring motifs, §11 the axes on
-which modalities differ, §12 what each modality lends olfaction — ending in a
-ranked, costed research agenda, which is the course's deliverable.
+The six modules after them have their own shapes, because a module about
+convergent evolution has no receptor array to describe and forcing one would be
+padding. §9 and §10 are natural experiments — the exotic senses, then
+development and evolution. §11–§14 are synthesis: the recurring motifs, the axes
+on which modalities differ, an out-of-biology test of the central claim in
+artificial sensing, and the capstone, which ends with a ranked and costed
+research agenda that is the course's deliverable. §14.8 is a cumulative final
+exam.
+
+Select any passage while reading to highlight it; highlights persist and are
+collected on the notes page.
 
 ---
 
