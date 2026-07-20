@@ -197,6 +197,23 @@ exercises and figure captions together — do not widen them individually.
 to every child of `.x-main`, which made the home page's module grid *narrower*
 when the sidebar collapsed. Grid pages should use the freed width.
 
+## Reader reports (added 2026-07-20)
+
+Select a passage, press **⚑ Report**, describe the problem. Stored locally as a
+highlight with `kind: 'report'`, listed on `#/notes` above the ordinary
+highlights, and filed from there as a pre-filled GitHub issue.
+
+Collection and filing are deliberately separate: nothing is sent from the page
+(there is no backend), and a reader working through forty hours should not have
+to stop and file each small thing as they find it.
+
+The repository URL lives in `content/manifest.json` under `repository`. If it is
+absent the UI drops the "File as issue" button and offers copy-to-markdown only,
+rather than rendering a dead link — so a fork with no repo set still works.
+
+Issue bodies clip the quoted passage at 600 characters, because very long URLs
+get truncated by GitHub and browsers disagree about the limit.
+
 ## Highlighting (added 2026-07-20)
 
 Select text in any section to highlight it; collected on `#/notes`. Stored in

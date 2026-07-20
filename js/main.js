@@ -14,6 +14,7 @@ import { mountToc, unmountToc } from './ui/toc.js';
 import { initCitePopover } from './ui/cite-popover.js';
 import { mountSettings, applyStoredTheme } from './ui/settings-panel.js';
 import * as highlights from './highlights/store.js';
+import { asMarkdown } from './highlights/report.js';
 import { initHighlighter, mountHighlighter, unmountHighlighter } from './ui/highlighter.js';
 import {
   renderHome, renderModuleOverview, renderBibliography, renderProgressPage, renderNotesPage, renderNotFound,
@@ -123,6 +124,40 @@ function wireNav() {
   window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).addEventListener('change', syncLabel);
 }
 
+// The notes page is rendered as a string, so its controls are bound after the
+// fact. Re-rendering on change keeps the list honest when a report is removed.
+function wireNotesPage() {
+  const page = app.main.querySelector('.x-notes-page');
+  if (!page) return;
+
+  page.querySelector('.x-copy-reports')?.addEventListener('click', async (e) => {
+    const md = asMarkdown(highlights.reports());
+    try {
+      await navigator.clipboard.writeText(md);
+      e.target.textContent = 'Copied';
+    } catch {
+      // Clipboard is blocked in some contexts; fall back to a selectable box
+      // rather than failing silently.
+      const ta = document.createElement('textarea');
+      ta.className = 'x-reports-fallback';
+      ta.value = md;
+      ta.rows = 12;
+      e.target.replaceWith(ta);
+      ta.select();
+    }
+  });
+
+  page.addEventListener('click', (e) => {
+    const btn = e.target.closest('.x-drop-report');
+    if (!btn) return;
+    const id = btn.closest('[data-report-id]')?.dataset.reportId;
+    if (!id) return;
+    highlights.remove(id);
+    show(renderNotesPage());
+    wireNotesPage();
+  });
+}
+
 async function handleRoute(route) {
   stopReadingTimer();
   unmountToc();
@@ -148,6 +183,7 @@ async function handleRoute(route) {
     case 'notes':
       unmountHighlighter();
       show(renderNotesPage());
+      wireNotesPage();
       setActive(null);
       break;
     case 'subsection':

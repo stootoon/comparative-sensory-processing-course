@@ -63,6 +63,9 @@ function onSelection() {
   b.innerHTML = `
     <span class="x-hl-label">Highlight</span>
     ${colourButtons()}
+    <span class="x-hl-div"></span>
+    <button type="button" class="x-hl-action x-hl-report" data-act="report"
+            title="Report an error in this passage">⚑ Report</button>
   `;
   b.hidden = false;
   placeBar(range.getBoundingClientRect());
@@ -74,6 +77,20 @@ function onSelection() {
       hideBar();
       repaint();
     }, { once: true });
+  });
+
+  b.querySelector('[data-act="report"]').addEventListener('click', () => {
+    const what = window.prompt(
+      'What is wrong with this passage?\n\nSaved locally — you can file it as a GitHub issue later from Your notes.',
+      ''
+    );
+    if (what === null) { hideBar(); return; }
+    highlights.add({
+      subsectionId, ...selector, colour: 'report', kind: 'report', note: what.trim(),
+    });
+    window.getSelection()?.removeAllRanges();
+    hideBar();
+    repaint();
   });
 }
 

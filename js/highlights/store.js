@@ -90,13 +90,19 @@ export const get = (id) => state.highlights[id] ?? null;
 
 export const count = () => all().length;
 
+// Reports are highlights the reader flagged as a problem rather than kept for
+// themselves. Same anchoring, same persistence, same export — only the intent
+// and the styling differ.
+export const reports = () => all().filter((h) => h.kind === 'report');
+export const notes = () => all().filter((h) => h.kind !== 'report');
+
 export function getState() {
   return JSON.parse(JSON.stringify(state));
 }
 
 // --- Writes ---------------------------------------------------------------
 
-export function add({ subsectionId, quote, prefix, suffix, colour = 'yellow', note = '' }) {
+export function add({ subsectionId, quote, prefix, suffix, colour = 'yellow', note = '', kind = 'note' }) {
   const id = newId();
   state.highlights[id] = {
     id,
@@ -106,6 +112,7 @@ export function add({ subsectionId, quote, prefix, suffix, colour = 'yellow', no
     suffix,
     colour,
     note,
+    kind,                       // 'note' | 'report'
     createdAt: new Date().toISOString(),
   };
   scheduleWrite();

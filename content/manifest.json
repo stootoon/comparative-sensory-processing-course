@@ -1,6 +1,7 @@
 {
   "title": "Comparative Sensory Processing",
   "description": "A graduate course on how sensory systems solve their computational problems — and on what the comparison between modalities reveals about olfaction.",
+  "repository": "https://github.com/stootoon/comparative-sensory-processing-course",
   "version": "1.0",
   "intro": [
     "Most sensory neuroscience is taught one modality at a time, as a tour of anatomy: receptors, then relays, then cortex. This course is organised the other way round. Each module begins with a computational problem — what must the animal infer, from what, under what loss, on what deadline — and treats the biology as evidence about how that problem is solved.",

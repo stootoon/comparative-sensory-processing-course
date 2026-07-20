@@ -5,6 +5,7 @@ import { moduleProgress, overallProgress, exerciseScore, resumeTarget, subsectio
 import { allEntries, formatEntry, getCitedBy } from './citations.js';
 import { findById } from './manifest.js';
 import * as highlights from './highlights/store.js';
+import { issueUrl, asMarkdown, hasRepository } from './highlights/report.js';
 
 const escapeHtml = (text) =>
   String(text ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -185,50 +186,74 @@ export function renderProgressPage() {
 }
 
 export function renderNotesPage() {
-  const items = highlights.all();
+  const reports = highlights.reports();
+  const notes = highlights.notes();
 
-  if (!items.length) {
+  if (!reports.length && !notes.length) {
     return `
       <article class="x-notes-page">
         <h1>Your notes</h1>
         <p class="x-lede">Nothing highlighted yet.</p>
-        <p>Select any passage in a section and choose a colour. Highlights are
-        saved in this browser and collected here, with whatever notes you attach
-        to them.</p>
+        <p>Select any passage in a section and choose a colour to keep it, or
+        press <strong>⚑ Report</strong> to flag an error. Both are saved in this
+        browser and collected here; reports can be filed as issues from this page
+        whenever you want, one at a time or in bulk.</p>
       </article>`;
   }
 
-  // Group by module, then by section, in course order rather than by when the
-  // reader made them — the point of this page is to read back an argument.
   const order = getFlatIndex().map((e) => e.id);
-  const bySection = new Map();
-  for (const h of items) {
-    if (!bySection.has(h.subsectionId)) bySection.set(h.subsectionId, []);
-    bySection.get(h.subsectionId).push(h);
-  }
-  const sections = [...bySection.keys()].sort(
-    (a, b) => order.indexOf(a) - order.indexOf(b)
-  );
+  const group = (items) => {
+    const by = new Map();
+    for (const h of items) {
+      if (!by.has(h.subsectionId)) by.set(h.subsectionId, []);
+      by.get(h.subsectionId).push(h);
+    }
+    return [...by.keys()].sort((a, b) => order.indexOf(a) - order.indexOf(b))
+      .map((sid) => [sid, by.get(sid)]);
+  };
 
-  const withNotes = items.filter((h) => h.note).length;
+  const heading = (sid) => {
+    const entry = findById(sid);
+    return entry
+      ? `<a href="${routeFor(entry)}">${entry.sectionNumber ? `§${entry.sectionNumber} ` : ''}${escapeHtml(entry.title)}</a>`
+      : `<span class="x-notes-gone">${escapeHtml(sid)} — this section no longer exists</span>`;
+  };
 
-  return `
-    <article class="x-notes-page">
-      <h1>Your notes</h1>
-      <p class="x-lede">${items.length} highlight${items.length === 1 ? '' : 's'}
-         across ${sections.length} section${sections.length === 1 ? '' : 's'}${
-           withNotes ? `, ${withNotes} with a note` : ''}.
-         Stored in this browser only, and included when you export your progress.</p>
-
-      ${sections.map((sid) => {
-        const entry = findById(sid);
-        const list = bySection.get(sid);
-        const heading = entry
-          ? `<a href="${routeFor(entry)}">${entry.sectionNumber ? `§${entry.sectionNumber} ` : ''}${escapeHtml(entry.title)}</a>`
-          : `<span class="x-notes-gone">${escapeHtml(sid)} — this section no longer exists</span>`;
-        return `
+  const reportsBlock = !reports.length ? '' : `
+    <section class="x-reports">
+      <h2>Reports <span class="x-count">${reports.length}</span></h2>
+      <p class="x-notes-sub">Errors and problems you flagged while reading. Filing
+      opens a pre-filled GitHub issue under your own account — nothing is sent
+      from this page, and nothing leaves your browser until you choose to file it.</p>
+      <div class="x-reports-actions">
+        <button type="button" class="x-btn x-copy-reports">Copy all as Markdown</button>
+      </div>
+      ${group(reports).map(([sid, list]) => `
         <section class="x-notes-section">
-          <h2>${heading}</h2>
+          <h3>${heading(sid)}</h3>
+          <ul class="x-notes-list">
+            ${list.map((r) => `
+              <li class="x-notes-item x-report-item" data-report-id="${r.id}">
+                ${r.quote ? `<blockquote>${escapeHtml(r.quote)}</blockquote>` : ''}
+                <p class="x-notes-note">${escapeHtml(r.note) || '<em>no description</em>'}</p>
+                <div class="x-report-actions">
+                  ${hasRepository()
+                    ? `<a class="x-btn x-btn-small" target="_blank" rel="noopener"
+                          href="${escapeHtml(issueUrl(r))}">File as issue →</a>`
+                    : ''}
+                  <button type="button" class="x-btn x-btn-small x-btn-quiet x-drop-report">Remove</button>
+                </div>
+              </li>`).join('')}
+          </ul>
+        </section>`).join('')}
+    </section>`;
+
+  const notesBlock = !notes.length ? '' : `
+    <section class="x-notes">
+      <h2>Highlights <span class="x-count">${notes.length}</span></h2>
+      ${group(notes).map(([sid, list]) => `
+        <section class="x-notes-section">
+          <h3>${heading(sid)}</h3>
           <ul class="x-notes-list">
             ${list.map((h) => `
               <li class="x-notes-item x-hl-${escapeHtml(h.colour || 'yellow')}">
@@ -236,9 +261,16 @@ export function renderNotesPage() {
                 ${h.note ? `<p class="x-notes-note">${escapeHtml(h.note)}</p>` : ''}
               </li>`).join('')}
           </ul>
-        </section>`;
-      }).join('')}
+        </section>`).join('')}
+    </section>`;
 
+  return `
+    <article class="x-notes-page">
+      <h1>Your notes</h1>
+      <p class="x-lede">Stored in this browser only, and included when you export
+      your progress.</p>
+      ${reportsBlock}
+      ${notesBlock}
       <p class="x-progress-hint">Highlights are anchored to the words themselves,
       not to a position, so they survive edits elsewhere in a section. If a
       highlighted passage is rewritten the highlight stops appearing on the page

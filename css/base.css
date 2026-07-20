@@ -588,3 +588,33 @@ mark.x-hl[data-inexact="true"] { border-bottom: 1px dotted var(--ink-faint); }
   border-radius: 0 6px 6px 0;
 }
 .x-home-tip p { margin: 0; }
+
+/* --- Reports -------------------------------------------------------------
+   A report is a highlight the reader flagged as wrong. It gets a distinct,
+   deliberately unlovely treatment so it cannot be mistaken for a keep-this
+   highlight while scanning a page. */
+
+mark.x-hl-report {
+  background: color-mix(in srgb, var(--color-error-wash) 70%, transparent);
+  border-bottom: 2px wavy var(--color-error);
+}
+
+.x-hl-div {
+  width: 1px; height: 18px;
+  background: var(--rule-strong);
+  margin: 0 0.15rem;
+}
+.x-hl-report { color: var(--color-error); font-weight: 550; }
+
+.x-notes-sub { color: var(--ink-muted); font-size: 0.92rem; }
+.x-count {
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-faint);
+  font-weight: 400;
+}
+.x-reports-actions { margin: 0.75rem 0 1.25rem; }
+.x-report-item { border-left-color: var(--color-error); }
+.x-report-actions { display: flex; gap: 0.5rem; margin-top: 0.6rem; }
+.x-btn-small { font-size: 0.8rem; padding: 0.25rem 0.6rem; }
+.x-reports-fallback { width: 100%; font-family: var(--font-ui); font-size: 0.8rem; }
