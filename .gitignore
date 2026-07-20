@@ -1,2 +1,8 @@
 .claude/settings.local.json
 .DS_Store
+
+# Reference material, not course content. The repo root is the GitHub Pages
+# docroot, so anything committed here is publicly downloadable — do not commit
+# copyrighted source texts. Un-ignore specific files only if they are licensed
+# for redistribution.
+assets/
