@@ -5,7 +5,7 @@ lede: The course's central claim, tested in a substrate with none of biology's c
 estimatedMinutes: 30
 ---
 
-The course's central empirical claim is a correlation across nine modalities between whether the input ensemble was measured and how mature the normative theory is, and the correlation is very strong. It is also built on nine hand-assigned ordinal scores, assigned by the people making the argument, over modalities that are not independent samples — they are all senses, in animals, built by the same evolutionary process, studied by overlapping communities with shared methods and shared fashions. The figure's own caption says as much.
+The course's central empirical claim is a correlation across ten modalities between whether the input ensemble was measured and how mature the normative theory is, and the correlation is very strong. It is also built on nine hand-assigned ordinal scores, assigned by the people making the argument, over modalities that are not independent samples — they are all senses, in animals, built by the same evolutionary process, studied by overlapping communities with shared methods and shared fashions. The figure's own caption says as much.
 
 <x-figure src="content/00-toolkit/figures/modality-space.js"
   caption="The claim this module tests from outside. Nine points, ordinal scores, one kingdom, and the authors of the argument assigned the scores — a set of vulnerabilities the figure states about itself. What follows is not another point on this plot. It is a second dataset with a different sampling frame, in which the ordering of events is documented rather than reconstructed, and in which none of the biological explanations for the outlier are even available.">

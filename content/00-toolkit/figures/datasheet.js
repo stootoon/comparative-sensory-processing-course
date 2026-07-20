@@ -7,7 +7,7 @@
 
 export const controls = [
   { id: 'highlight', label: 'Highlight modality', type: 'select', value: 'Olfaction',
-    options: ['none','Vision','Audition','Olfaction','Touch','Gustation','Vestibular','Proprioception']
+    options: ['none','Vision','Audition','Olfaction','Touch','Gustation','Vestibular','Proprioception','Nociception']
       .map(v=>({value:v,label:v==='none'?'None — show all equally':v})) },
   { id: 'sortBy', label: 'Sort rows by', type: 'select', value: 'spread',
     options: [{value:'spread',label:'How much modalities differ'},
@@ -16,17 +16,17 @@ export const controls = [
 
 // score 0–10; label shown on hover-free readout below
 const PROPS=[
- {k:'Ensemble measured',        v:{Vision:10,Audition:10,Olfaction:3, Touch:5, Gustation:6, Vestibular:9, Proprioception:6}},
- {k:'Statistics stationary',    v:{Vision:10,Audition:9, Olfaction:1, Touch:6, Gustation:7, Vestibular:9, Proprioception:8}},
- {k:'Receptor array ordered',   v:{Vision:10,Audition:10,Olfaction:0, Touch:9, Gustation:0, Vestibular:9, Proprioception:4}},
- {k:'Metric on stimulus space', v:{Vision:10,Audition:10,Olfaction:1, Touch:8, Gustation:2, Vestibular:10,Proprioception:6}},
- {k:'Low dimensionality',       v:{Vision:7, Audition:9, Olfaction:0, Touch:6, Gustation:10,Vestibular:10,Proprioception:7}},
- {k:'Sensor faster than signal',v:{Vision:5, Audition:10,Olfaction:1, Touch:9, Gustation:6, Vestibular:8, Proprioception:8}},
- {k:'Active control of stimulus',v:{Vision:4,Audition:2, Olfaction:6, Touch:8, Gustation:5, Vestibular:1, Proprioception:10}},
- {k:'Forward model available',  v:{Vision:3, Audition:2, Olfaction:1, Touch:6, Gustation:2, Vestibular:10,Proprioception:9}},
- {k:'Normative theory maturity',v:{Vision:8, Audition:8, Olfaction:2, Touch:5, Gustation:5, Vestibular:10,Proprioception:6}},
+ {k:'Ensemble measured',        v:{Vision:10,Audition:10,Olfaction:3, Touch:5, Gustation:6, Vestibular:9, Proprioception:6, Nociception:2}},
+ {k:'Statistics stationary',    v:{Vision:10,Audition:9, Olfaction:1, Touch:6, Gustation:7, Vestibular:9, Proprioception:8, Nociception:6}},
+ {k:'Receptor array ordered',   v:{Vision:10,Audition:10,Olfaction:0, Touch:9, Gustation:0, Vestibular:9, Proprioception:4, Nociception:8}},
+ {k:'Metric on stimulus space', v:{Vision:10,Audition:10,Olfaction:1, Touch:8, Gustation:2, Vestibular:10,Proprioception:6, Nociception:4}},
+ {k:'Low dimensionality',       v:{Vision:7, Audition:9, Olfaction:0, Touch:6, Gustation:10,Vestibular:10,Proprioception:7, Nociception:8}},
+ {k:'Sensor faster than signal',v:{Vision:5, Audition:10,Olfaction:1, Touch:9, Gustation:6, Vestibular:8, Proprioception:8, Nociception:7}},
+ {k:'Active control of stimulus',v:{Vision:4,Audition:2, Olfaction:6, Touch:8, Gustation:5, Vestibular:1, Proprioception:10, Nociception:5}},
+ {k:'Forward model available',  v:{Vision:3, Audition:2, Olfaction:1, Touch:6, Gustation:2, Vestibular:10,Proprioception:9, Nociception:4}},
+ {k:'Normative theory maturity',v:{Vision:8, Audition:8, Olfaction:2, Touch:5, Gustation:5, Vestibular:10,Proprioception:6, Nociception:3}},
 ];
-const MODS=['Vision','Audition','Olfaction','Touch','Gustation','Vestibular','Proprioception'];
+const MODS=['Vision','Audition','Olfaction','Touch','Gustation','Vestibular','Proprioception','Nociception'];
 
 export function draw(root, values, { createDiagram }) {
   const hi=values.highlight??'Olfaction';

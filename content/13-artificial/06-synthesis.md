@@ -37,7 +37,7 @@ Every other module has scored the theories in its field against §0.2's five cri
     {
       "text": "The failure is unavoidable, since there is no population of sensing problems to sample from.",
       "correct": false,
-      "feedback": "Correct under the assumption that 'engineered sensing domains' is not a well-defined reference class — a defensible position, and the same one sometimes taken about comparative biology's nine modalities. But §13.4's remedy 2 shows the class is enumerable enough to be useful: whether a domain exists with excellent cheap instrumentation, strong commercial demand, and no labelled corpus is a question a reader could settle in an afternoon. An unsampled population is not an unsampleable one."
+      "feedback": "Correct under the assumption that 'engineered sensing domains' is not a well-defined reference class — a defensible position, and the same one sometimes taken about comparative biology's ten modalities. But §13.4's remedy 2 shows the class is enumerable enough to be useful: whether a domain exists with excellent cheap instrumentation, strong commercial demand, and no labelled corpus is a question a reader could settle in an afternoon. An unsampled population is not an unsampleable one."
     },
     {
       "text": "It does not matter, because criterion 3 — the risky prediction that the stall would be at the input representation — carries the argument on its own.",

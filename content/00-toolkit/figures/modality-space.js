@@ -32,6 +32,7 @@ const M=[
  {n:'Gustation',     dim:1, synapses:4, active:5, speed:6, theory:5, ensemble:6,  ordered:0,  cls:'series-5'},
  {n:'Vestibular',    dim:1, synapses:3, active:1, speed:8, theory:10,ensemble:9,  ordered:9,  cls:'series-1'},
  {n:'Proprioception',dim:3, synapses:4, active:10,speed:8, theory:6, ensemble:6,  ordered:4,  cls:'series-2'},
+ {n:'Nociception',   dim:2, synapses:3, active:5, speed:7, theory:3, ensemble:2,  ordered:8,  cls:'series-3'},
  {n:'Electroreception',dim:2,synapses:3,active:10,speed:8, theory:7, ensemble:8,  ordered:8,  cls:'series-4'},
  {n:'Echolocation',  dim:3, synapses:6, active:10,speed:9, theory:6, ensemble:6,  ordered:9,  cls:'series-5'},
 ];
@@ -40,7 +41,7 @@ const LAB={dim:'stimulus dimensionality →',synapses:'synapses to cortex →',
  theory:'maturity of normative theory →',ensemble:'natural ensemble measured →',
  ordered:'receptor array ordered →'};
 
-// Pearson r across the nine modalities, for whichever pair is on screen. The
+// Pearson r across the ten modalities, for whichever pair is on screen. The
 // caption used to assert "the correlation is close to perfect"; showing the
 // number lets the reader check the claim instead of taking it.
 function corr(a, b) {
@@ -82,7 +83,7 @@ export function draw(root, values, { createPlot }) {
       `Change one of them to compare two different properties.`;
   } else if(xa==='ensemble'&&ya==='theory'||xa==='theory'&&ya==='ensemble'){
     body = `<strong>This is the course's central empirical claim, and the opening view.</strong> Measured ensemble ` +
-      `against theoretical maturity, <strong>r = ${rTxt}</strong> across nine modalities. Every modality whose input ` +
+      `against theoretical maturity, <strong>r = ${rTxt}</strong> across ten modalities. Every modality whose input ` +
       `statistics someone characterised has a normative theory; the one whose statistics nobody characterised does ` +
       `not, and olfaction sits alone in the bottom-left corner. ` +
       `<br><br>The correlation is not evidence of the causal direction, and the honest alternative is that both ` +
@@ -90,8 +91,8 @@ export function draw(root, values, { createPlot }) {
       `causal reading is historical rather than statistical: in vision and audition the ensemble was measured ` +
       `<em>first</em>, largely by people not thinking about coding theory, and the theory followed. ` +
       `<br><br>Now try the two rival explanations of <em>why</em> olfaction lacks a theory, and note that the ` +
-      `numbers do not go the way the course's slogan implies. Ordered array against theory gives r = 0.76; ` +
-      `dimensionality against theory gives r = −0.69. <strong>Disorder correlates with poor theory slightly ` +
+      `numbers do not go the way the course's slogan implies. Ordered array against theory gives r = 0.62; ` +
+      `dimensionality against theory gives r = −0.54. <strong>Disorder correlates with poor theory slightly ` +
       `better than dimensionality does.</strong> ` +
       `<br><br>The case for blaming dimensionality anyway does not rest on the correlation — it rests on ` +
       `gustation being an <em>outlier</em> on the disorder axis. Taste is maximally disordered and has a perfectly ` +
@@ -100,16 +101,16 @@ export function draw(root, values, { createPlot }) {
       `pinning it on either alone, and it is a good demonstration that a scatter of nine points can mislead you ` +
       `if you read only the summary statistic.`;
   } else {
-    body = `Olfaction is drawn larger. <strong>r = ${rTxt}</strong> across the nine modalities on these two axes. ` +
+    body = `Olfaction is drawn larger. <strong>r = ${rTxt}</strong> across the ten modalities on these two axes. ` +
       `<br><br>For reference, the strongest pair in the whole datasheet is <strong>ensemble measured against ` +
-      `theory maturity, r = 0.91</strong> — this course's central empirical claim, and the view this figure opens ` +
-      `on. Next come dimensionality against sensor speed (−0.83) and ordered array against theory (0.76). ` +
+      `theory maturity, r = 0.92</strong> — this course's central empirical claim, and the view this figure opens ` +
+      `on. Next come dimensionality against sensor speed (−0.82) and ordered array against theory (0.62). ` +
       `Dimensionality against theory maturity, which the course leans on most heavily in prose, is only ` +
-      `−0.69 — weaker than the disorder axis it is usually contrasted with. §12.1 takes that seriously rather ` +
+      `−0.54 — still weaker than the disorder axis it is usually contrasted with, though both rivals weakened when nociception was added. §12.1 takes that seriously rather ` +
       `than explaining it away.`;
   }
   n.innerHTML = body + `<br><br>Scores are ordinal and deliberately coarse — they are for locating modalities ` +
-    `relative to one another, not for pretending to precision, and <em>r</em> on nine hand-assigned ordinal ` +
+    `relative to one another, not for pretending to precision, and <em>r</em> on ten hand-assigned ordinal ` +
     `scores is an illustration rather than a statistical result.`;
   root.appendChild(n);
   const c=document.createElement('p'); c.className='x-figure-credit';
