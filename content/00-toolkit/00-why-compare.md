@@ -116,23 +116,23 @@ The right attitude is to use those results to interpret vertebrate data, not the
 
 ## How the course is laid out
 
-Fourteen modules, doing four different jobs.
+Fifteen modules, doing four different jobs.
 
 **This toolkit (§0)** supplies the vocabulary everything else uses: the three normative stances and how to tell them apart, and why efficient coding predicts opposite structures at high and low SNR. It is short, and worth reading first — every module after it assumes it.
 
-**Seven modality modules (§1–§7)**, each using the identical eleven-section skeleton, in the same order, with the same numbering. §4 means the receptor array whether you are reading about cones or odorant receptors, so you can read *across* modules as easily as down one. Vision comes first because it supplies the templates everything else is measured against; olfaction comes third, after two mature normative theories, so you arrive equipped.
+**Eight modality modules (§1–§8)**, each using the identical eleven-section skeleton, in the same order, with the same numbering. §4 means the receptor array whether you are reading about cones or odorant receptors, so you can read *across* modules as easily as down one. Vision comes first because it supplies the templates everything else is measured against; olfaction comes third, after two mature normative theories, so you arrive equipped. Nociception is last of the eight because it is the strangest: its stimulus is not a form of energy at all but a latent variable, tissue damage, inferred from any of three physical signatures.
 
-**Two modules of natural experiments (§9–§10).** The exotic senses are not a curiosity cabinet — electroreception, echolocation, infrared and magnetoreception each hold constant something the familiar seven confound. Development and evolution then supply the two constraint sources the earlier modules assume without examining: how a system must be *built*, and how it *got here*.
+**Two modules of natural experiments (§9–§10).** The exotic senses are not a curiosity cabinet — electroreception, echolocation, infrared and magnetoreception each hold constant something the familiar eight confound. Development and evolution then supply the two constraint sources the earlier modules assume without examining: how a system must be *built*, and how it *got here*.
 
 **Four synthesis modules (§11–§14)**, which introduce little new material and mostly pivot what is already established. §11 collects the motifs that recur; §12 the axes on which modalities differ, where the course audits its own central claim and weakens it; §13 tests the central empirical claim outside biology, in engineered systems where no evolutionary or metabolic explanation is available; and §14 works through what each modality lends olfaction, ending in a ranked research agenda and a reading guide.
 
 Every module ends with a quiz, and §14.8 is a cumulative final exam.
 
 <x-callout class="x-callout is-invertebrate">
-<div class="x-callout-title">Why there is no module between 7 and 8 in the obvious place</div>
-Nothing is missing. The eleven-section skeleton is used by §1–§7 only, because those are the modules where a receptor array, a first circuit and a central representation all exist to be compared. §9 onward have their own structures because they are asking different questions — a module about convergent evolution has no "receptor array" section to fill, and forcing one would be padding.
+<div class="x-callout-title">Why the skeleton stops after §8</div>
+Nothing is missing. The eleven-section skeleton is used by §1–§8 only, because those are the modules where a receptor array, a first circuit and a central representation all exist to be compared. §9 onward have their own structures because they are asking different questions — a module about convergent evolution has no "receptor array" section to fill, and forcing one would be padding.
 
-If you are reading across rather than down, read across §1–§7. The later modules are where the across-reading gets cashed out.
+If you are reading across rather than down, read across §1–§8. The later modules are where the across-reading gets cashed out.
 </x-callout>
 
 <x-callout class="x-callout is-key">

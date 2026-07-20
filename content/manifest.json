@@ -795,6 +795,112 @@
       ]
     },
     {
+      "id": "m08",
+      "slug": "nociception",
+      "dir": "08-nociception",
+      "label": "Module 8",
+      "title": "Nociception",
+      "blurb": "The modality whose stimulus is not an energy but a consequence — and the only one whose gain goes up under sustained input. The course's starkest loss function, and a correction to its adaptation principle.",
+      "subsections": [
+        {
+          "id": "m08.s01",
+          "slug": "computational-problem",
+          "sectionNumber": "8.1",
+          "file": "01-computational-problem.md",
+          "title": "The computational problem",
+          "blurb": "An extreme asymmetric loss, and a stimulus that is a latent variable rather than a physical quantity."
+        },
+        {
+          "id": "m08.s02",
+          "slug": "natural-statistics",
+          "sectionNumber": "8.2",
+          "file": "02-natural-statistics.md",
+          "title": "The signal and its natural statistics",
+          "blurb": "No carrier, no spectrum — and two different ways a modality can fail step one of the efficient-coding template."
+        },
+        {
+          "id": "m08.s03",
+          "slug": "transduction",
+          "sectionNumber": "8.3",
+          "file": "03-transduction.md",
+          "title": "Transduction and physical limits",
+          "blurb": "Three transducer families on one membrane, and a spec sheet with no units."
+        },
+        {
+          "id": "m08.s04",
+          "slug": "receptor-array",
+          "sectionNumber": "8.4",
+          "file": "04-receptor-array.md",
+          "title": "The receptor array",
+          "blurb": "Ordered but coarse — and a cutaneous/visceral contrast that is the course's best within-modality control."
+        },
+        {
+          "id": "m08.s05",
+          "slug": "first-circuit",
+          "sectionNumber": "8.5",
+          "file": "05-first-circuit.md",
+          "title": "The first circuit — the dorsal horn",
+          "blurb": "Laminar sorting, deliberate pooling, and the gate that was influential and only partly right."
+        },
+        {
+          "id": "m08.s06",
+          "slug": "routing",
+          "sectionNumber": "8.6",
+          "file": "06-routing.md",
+          "title": "Routing",
+          "blurb": "Four ascending tracts to four consumers, and only one of them uses the thalamic relay."
+        },
+        {
+          "id": "m08.s07",
+          "slug": "central-representation",
+          "sectionNumber": "8.7",
+          "file": "07-central-representation.md",
+          "title": "The central representation",
+          "blurb": "There is no pain cortex — and nociception is not pain. The consumer determines the code, at its sharpest."
+        },
+        {
+          "id": "m08.s08",
+          "slug": "parallel-streams",
+          "sectionNumber": "8.8",
+          "file": "08-parallel-streams.md",
+          "title": "Parallel streams",
+          "blurb": "The loss-function split seen from inside the affective arm, which turns out to split three ways itself."
+        },
+        {
+          "id": "m08.s09",
+          "slug": "active-sensing",
+          "sectionNumber": "8.9",
+          "file": "09-active-sensing.md",
+          "title": "Active sensing and the motor loop",
+          "blurb": "No sampling rhythm, because the informative probe is the destructive one — and the strongest descending control in the course."
+        },
+        {
+          "id": "m08.s10",
+          "slug": "adaptation",
+          "sectionNumber": "8.10",
+          "file": "10-adaptation.md",
+          "title": "Adaptation, gain control, and state",
+          "blurb": "The inversion: gain rises rather than falls, why that is derivable, and why chronic pain is where the account stops working."
+        },
+        {
+          "id": "m08.s11",
+          "slug": "synthesis",
+          "sectionNumber": "8.11",
+          "file": "11-synthesis.md",
+          "title": "Normative synthesis and the olfaction hook",
+          "blurb": "Scoring the theories, the datasheet row, and six clues for the capstone."
+        },
+        {
+          "id": "m08.s12",
+          "slug": "quiz",
+          "sectionNumber": "8.12",
+          "file": "12-quiz.md",
+          "title": "Module quiz — Nociception",
+          "blurb": "Eight questions on what nociception establishes and what it corrects elsewhere in the course."
+        }
+      ]
+    },
+    {
       "id": "m09",
       "slug": "exotic",
       "dir": "09-exotic",

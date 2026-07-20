@@ -1,7 +1,7 @@
 # Known gaps and open items
 
-State as of 2026-07-20, course v1.0 — 14 modules, 129 sections, 174 figures,
-311 exercises, ~191,000 words, 51 references.
+State as of 2026-07-20 — 15 modules, 141 sections, 186 figures,
+337 exercises, ~230,000 words, 52 references.
 
 Written down so it survives a new session. Nothing here is broken; these are
 things a future pass should know about. Ordered by how much they matter.
@@ -141,4 +141,13 @@ Two items from it belong on this list:
   three for three of its four classes. Changing it would touch §7.6, §10.5,
   §11.4 and the §13.8 exam.
 
-Nociception (Kandel ch20) remains deliberately unread and undone.
+Nociception is now Module 8 (done, 2026-07-20). Two follow-ups it generated:
+
+- **`adaptation-timescales.js` needs a sign axis.** §8.10 argues the course's
+  adaptation principle had an unstated premise — that repetition implies
+  redundancy — which fails when the referent persists. The figure plots
+  timescales but not the *sign* of the gain change, and both §8.10 and §8.11
+  explicitly call for that amendment.
+- **`pathway-depth.js` has no nociception entry.** §8.6 avoided depending on it
+  for that reason. Four ascending tracts to four consumers, only one via
+  thalamus, would sit well on that axis.
