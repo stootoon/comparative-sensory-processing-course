@@ -2,7 +2,7 @@
 id: m03.s04
 title: The receptor array
 lede: Unordered, high-dimensional, broadly tuned, one receptor per neuron. Read this beside §1.4 — it is the inverse of the visual array in every property that matters.
-estimatedMinutes: 24
+estimatedMinutes: 26
 ---
 
 Read §1.4 first if you have not. This section is written to be compared with it line by line.
@@ -35,6 +35,18 @@ The code is combinatorial: one receptor responds to many odorants, one odorant a
 
 
 So far this sounds like trichromacy with more channels. It is not, and the differences are the point.
+
+### There is a second receptor family, and it argues the opposite way
+
+Everything above describes the odorant receptors of the main epithelium. Most mammals carry a second chemosensory receptor repertoire in the same nose: the **V1R** and **V2R** families of the vomeronasal organ. They are not odorant receptors with a different name. They are separate gene families with a separate transduction cascade — TRPC2 rather than the CNG channel — feeding the accessory olfactory bulb and, from there, the medial amygdala and hypothalamus rather than piriform cortex (§3.8).
+
+They are also, as a population, **narrowly tuned**: individual vomeronasal neurons respond to one or a few ligands, at very low concentration, rather than to broad swathes of chemical space.
+
+Run §1.4's tuning-breadth argument on that fact. The argument is not "broad tuning is better". It is that optimal breadth depends on the task: broad, overlapping tuning with many channels is what you want when the set of things to be identified is unbounded and open-ended, because identity then lives in the pattern and every receptor contributes evidence about every stimulus. Narrow tuning is what you want when the set is small, fixed in advance, and each member has a specific consequence — because then the useful quantity is not a pattern to be interpreted but a detection to be acted on, and a dedicated channel maximises sensitivity for that detection while making the readout trivial.
+
+The MOS faces the first task. The AOS faces the second. Same nose, same molecules, same GPCR chemistry, same evolutionary access to whatever breadth is buildable — and the two repertoires come out at opposite ends of the tuning axis.
+
+That is worth pausing on, because it is the cleanest available demonstration that the §1.4 argument is doing real work. An argument that predicts broad tuning everywhere it looks is not being tested. This one is applied twice under identical physics, told to produce opposite answers by the difference in consumer, and does. §3.8 develops the full comparison and states the caveats — the tuning contrast is best established at the receptor rather than at every stage, and much of the evidence is mouse.
 
 ## The array is unordered
 

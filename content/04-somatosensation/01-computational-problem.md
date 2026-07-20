@@ -44,3 +44,36 @@ Those demand incompatible things from a sensor. Fine spatial detail needs small 
 Touch's loss function is dominated by one asymmetry: **dropping things is expensive**. Grip force must exceed what is needed to prevent slip, but excessive force damages objects and wastes energy. The system runs a continuous control loop with a tight margin.
 
 The deadline follows: corrective grip responses to an unexpected slip occur within about 70 ms, faster than voluntary reaction. That is a reflex loop, and it means much of touch's processing must complete without cortical involvement — a structural fact that shapes the pathway (§4.6).
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m04.s01.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Touch's estimation targets make incompatible demands: fine spatial detail needs small receptive fields and dense innervation, while slip detection needs high-frequency vibration sensitivity and cares nothing about spatial precision. What does the course expect the system to do, and on what grounds?",
+  "options": [
+    {
+      "text": "Split into parallel channels early, because no single channel can optimise sensitivity, temporal precision and dynamic range at once — the same resolution as the retinal duplex system and the mitral/tufted split.",
+      "correct": true,
+      "feedback": "Right, and the strength of the expectation comes from its independence across modalities: retinal sustained/transient, cochlear bushy/stellate/octopus, vestibular regular/irregular, mitral/tufted, and touch's four afferent classes. Five instances, arrived at separately. §4.4 delivers the specific form, and the surprise there is which axis gets tiled — temporal frequency rather than space, on an array that is already spatial."
+    },
+    {
+      "text": "Compromise on a single channel tuned to the mid-range of each requirement, since parallel channels multiply the metabolic and wiring cost.",
+      "correct": false,
+      "feedback": "Correct under the assumption that channel count is the binding constraint, which is a real efficient-coding consideration — §1.5's whole retinal argument is about a limited-capacity optic nerve. But the demands here are not merely different settings of one parameter; they are contradictory. A receptive field cannot be simultaneously small enough for form and driven by whole-hand vibration, and a mid-range compromise fails both tasks rather than half-satisfying each."
+    },
+    {
+      "text": "Solve it centrally, extracting each property from a common afferent representation by different downstream filters.",
+      "correct": false,
+      "feedback": "Correct under the assumption that information not discarded at the periphery is recoverable later — and downstream convergence really does happen [@saal2014], so this is partly right about the destination. It fails at the periphery: what a single afferent class cannot transduce, no central filter can recover. Adaptation rate and receptive field size are properties of the transducer and its packaging, and the choice is made before any spike is available to filter."
+    },
+    {
+      "text": "Resolve it by active movement, choosing the exploratory procedure matched to whichever property is currently being judged.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the animal judges one property at a time, and §4.9 shows exploratory procedures really are near-optimally matched to judgements. But active sensing selects *which* signal arrives; it does not exempt the sensor from having to transduce more than one kind of signal. Grip control needs slip detection and object shape simultaneously, on the same contact, within 70 ms."
+    }
+  ]
+}
+</script>
+</x-mcq>

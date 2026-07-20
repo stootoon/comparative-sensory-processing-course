@@ -159,7 +159,7 @@ That reformulation is worth more than the binary. It says the comparative questi
 <x-order>
 <script type="application/json">
 {
-  "id": "m11.s04.x4", "contentRev": 1, "points": 1, "partialCredit": true,
+  "id": "m11.s04.x4", "shuffleSeed": 43, "contentRev": 1, "points": 1, "partialCredit": true,
   "prompt": "Order these modalities by depth from receptor to cortex, shallowest first.",
   "items": ["Olfaction (2)", "Vision (4)", "Touch (4)", "Gustation (4)", "Audition (6)"]
 }

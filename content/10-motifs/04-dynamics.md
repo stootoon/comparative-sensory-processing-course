@@ -125,7 +125,7 @@ These are cleanly separable and neither has been tested. The measurement is the 
 <x-order>
 <script type="application/json">
 {
-  "id": "m10.s04.o1", "contentRev": 1, "points": 1, "partialCredit": true,
+  "id": "m10.s04.o1", "shuffleSeed": 17, "contentRev": 1, "points": 1, "partialCredit": true,
   "prompt": "Order these adaptation timescales from fastest to slowest, as the course has met them.",
   "items": [
     "Synaptic depression at the first central synapse (tens of milliseconds)",

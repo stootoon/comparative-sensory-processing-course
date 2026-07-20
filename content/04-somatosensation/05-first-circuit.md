@@ -40,3 +40,36 @@ Three modalities with ordered arrays (vision, audition, touch) all implement spa
 Running alongside is the **spinothalamic** system, carrying pain, temperature and affective touch. It differs from the dorsal column system in almost every respect: slower fibres, different receptors, first synapse in the dorsal horn rather than the medulla, and coarse rather than fine spatial resolution.
 
 Two systems in the same tissue with entirely different design points is a useful thing to have. The discriminative system is optimised for spatial and temporal detail; the affective system for valence and slow signalling. **This is the taste-versus-smell contrast in miniature** — same sensory surface, different loss functions, opposite designs — and §5 develops the argument.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m04.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The cuneate nucleus does spatial lateral inhibition and nobody argues about it; the olfactory bulb does lateral inhibition and §3.5 is an argument about what it computes. Why does the dispute arise in one case and not the other?",
+  "options": [
+    {
+      "text": "Cuneate proximity is a proxy for correlation, so a local wiring rule automatically connects the units whose signals are redundant. The bulb has no such proxy, so its inhibition must either be non-specific or learned from odour statistics — and those are different mechanisms with different costs.",
+      "correct": true,
+      "feedback": "Exactly, and the comparative argument is unusually clean: three modalities with ordered arrays — vision, audition, touch — all implement spatial or spectral lateral inhibition in their first circuit, and the one modality without an ordered array is the one where the mechanism is contested. Note what the wiring rule buys in the ordered case. 'Subtract a weighted average of your neighbours' [@srinivasan1982] is specifiable without knowing anything about the world, because geometry has already sorted the correlated units together. The bulb would have to discover which glomeruli are correlated, which is not a spatial fact, must be learned, and must be relearned when the environment changes."
+    },
+    {
+      "text": "The bulb's inhibition is mediated by granule cells with no spiking output, so the circuit is harder to characterise experimentally.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the dispute is methodological — an access problem rather than a computational one. Access is genuinely worse in the bulb. But the dispute would remain even with perfect recordings, because the question is what the inhibition *should* be doing, and that is undetermined until you know whether proximity means anything. Compare the invertebrate case, where the antennal lobe's circuit is well characterised and turns out to implement global normalisation scaled by total ORN activity [@olsen2010] — good access, and it settled the question rather than dissolving it."
+    },
+    {
+      "text": "Touch's input is intermittent and olfaction's is continuous, so a subtractive surround has a stable baseline to work against in the bulb and not in the cuneate.",
+      "correct": false,
+      "feedback": "Correct under the assumption stated, which is backwards on both counts. §4.2 makes intermittency touch's first structural similarity to olfaction — both are modalities of discrete encounters separated by silence, and vision and audition are the continuous ones. Worth noticing that this shared property is precisely what makes touch the useful control: it resembles vision in array structure and olfaction in input intermittency, which isolates the array as the variable."
+    },
+    {
+      "text": "The cuneate is four synapses from cortex and the bulb is two, so the bulb has less depth in which to implement a decorrelating computation.",
+      "correct": false,
+      "feedback": "Correct under the assumption that decorrelation requires depth. It does not — the retina decorrelates at its first synaptic layer, and the cuneate's own centre–surround is built in one step. Depth is about how much must be computed before the signal is useful (§4.6), not about whether a subtraction is available. Conflating pathway length with computational capacity is a recurring error the course flags in the thalamus discussion too."
+    }
+  ]
+}
+</script>
+</x-mcq>

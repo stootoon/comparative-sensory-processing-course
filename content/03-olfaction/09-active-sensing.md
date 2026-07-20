@@ -46,6 +46,39 @@ What works instead is search that treats detections as **evidence** rather than 
 
 The structure is worth naming: **an ambiguous instantaneous signal, a known forward model of how movement changes it, and movement chosen to disambiguate.** §2.9 identified the same structure in head rotation to resolve auditory front-back confusion, and the vestibular tilt–translation problem is a third instance.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m03.s09.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Infotaxis reproduces casting and surging without ever computing a gradient [@vergassola2007]. A referee objects: \"An animal that surges upwind on detection and casts otherwise is following a gradient — it just does so in a noisy, discretised way.\" What is wrong with the objection?",
+  "options": [
+    {
+      "text": "A gradient rule is a function of the local concentration field, and in a turbulent plume that field carries no reliable directional information at the animal's scale — the surge is driven by a detection *event* interpreted against a forward model, which is a different quantity.",
+      "correct": true,
+      "feedback": "Right, and the distinction is measurable rather than semantic. A gradient follower's next move depends on the spatial derivative it just sampled; an infotactic agent's next move depends on its posterior over source location, which encodes the whole history of detections *and non-detections*. The clean discriminator is behaviour during a blank: a gradient rule has nothing to act on, whereas the posterior keeps evolving and drives systematic casting. Real animals cast."
+    },
+    {
+      "text": "Gradient ascent requires simultaneous sampling at two points, and most animals tracking plumes have effectively one sensor.",
+      "correct": false,
+      "feedback": "Correct under the assumption that spatial gradient sensing requires bilateral comparison — and bilateral comparison is genuinely used, so the premise is shaky. But the objection would survive: a single sensor can estimate a temporal gradient while moving, which is how bacteria do it. The problem is not the number of sensors, it is that there is no stable field for either method to differentiate. §3.2 is a claim about the physics, not about the anatomy."
+    },
+    {
+      "text": "Infotaxis maximises expected information gain, which is a fundamentally different objective from reaching the source.",
+      "correct": false,
+      "feedback": "Partly correct, and worth being precise about: the objective really is information gain rather than distance reduction, and that is what generates the exploratory casting a distance-reducing rule would never produce. But stated this way it is a claim about objectives rather than a rebuttal to the referee, who was making a claim about the *signal*. The signal claim is the one that does the work, because it is what rules gradient ascent out in the first place."
+    },
+    {
+      "text": "Nothing is wrong — surging upwind on detection is a gradient rule in wind coordinates, so the objection stands.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a fixed stimulus-triggered response counts as gradient following. It does not: upwind surging uses wind direction, which is a separate anemotactic cue, and it triggers on presence rather than on a difference. If you want to call it a gradient rule you have to say in what variable, and the honest answer is that no spatial derivative of concentration is being taken anywhere."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Closer to echolocation than to vision
 
 The course's suggestion here is that olfaction's usual comparison class is wrong.
@@ -53,3 +86,15 @@ The course's suggestion here is that olfaction's usual comparison class is wrong
 Vision is largely passive: photons arrive, and eye movements select among them but do not create them. Olfaction is closer to **active sensing** in the strong sense — the animal controls the timing, the amount, and to a degree the spectral character of what it samples, and it uses movement to resolve ambiguity that a single sample cannot.
 
 Echolocating bats adapt call rate, bandwidth and beam direction to current uncertainty, increasing rate as they close on a target. **Does sniff strategy adapt the same way?** Sniff frequency does change with task, but whether it tracks posterior uncertainty in the way an optimal-experiment-design account predicts is largely untested — and §13 makes it a concrete proposal.
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m03.s09.p1",
+  "contentRev": 1,
+  "prompt": "Suppose you run the experiment. You track a mouse searching for a source in a controlled plume, with a head-mounted sensor recording what it actually encountered, and you fit an infotactic model to get a posterior entropy on every timestep. You then regress sniff frequency on that entropy. Before reading on: what confound will make a positive correlation uninterpretable, and how would you break it?",
+  "placeholder": "What else covaries with posterior entropy in this task?",
+  "reveal": "**The confound is locomotion.**\n\nSniff frequency in rodents is tightly coupled to running speed and to general arousal, and both covary with the search phase. Early in a trial the animal is uncertain *and* moving fast and aroused; late in a trial it is confident *and* slowing as it approaches. A positive regression coefficient is therefore the expected result whether or not sniffing has anything to do with uncertainty, and reporting it would establish nothing.\n\n**Three ways to break it, in increasing order of strength.**\n\n*Regress out the motor variables.* Include speed, head acceleration and a pupil or arousal proxy as covariates. Cheap, and it is the minimum anyone should accept. Weak, because the covariates are collinear with the regressor of interest, so the residual variance you are testing on may be mostly noise.\n\n*Decouple entropy from phase.* Construct trials where the posterior sharpens and then re-broadens — introduce a spurious second source, or interrupt the plume — so entropy is non-monotonic while locomotion is not. Now the two predictors disagree within a trial, which is what the regression needs.\n\n*Manipulate uncertainty without changing the task.* Hold the plume and the geometry fixed and change only the prior: cue the animal to a likely source location on some trials. If sniff frequency drops on cued trials at matched running speed and matched odour encounter rate, that is a direct effect of posterior entropy with the motor confound held constant.\n\n**The general point.** Active-sensing hypotheses almost always predict a correlation between a sampling variable and an internal uncertainty variable, and in almost every case the animal's motor state covaries with both. The same problem afflicts the bat literature — call rate rises with closing speed as well as with uncertainty — and it is why the strongest version of the experiment manipulates the prior rather than measuring the posterior.\n\nThis is what §13 has to solve before the proposal is testable rather than merely stateable."
+}
+</script>
+</x-predict>

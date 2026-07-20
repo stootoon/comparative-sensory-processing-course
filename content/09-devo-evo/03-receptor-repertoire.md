@@ -92,3 +92,36 @@ A closing observation that runs the other way, because the section should not le
 There is one thing about repertoire *size* that looks robustly design-like: the relationship between the number of receptors and the achievable discrimination in a high-dimensional chemical space. With broadly tuned receptors, a mixture is represented by a pattern across the whole array, and the number of distinguishable patterns grows with the number of receptors in a way that matters at exactly the scale olfaction operates [@malnic1999]. This is the argument that a few hundred to a thousand broad receptors is a sensible number, and it does not depend on the fine composition of the family at all.
 
 That is the right level for a normative claim here. **Order of magnitude, yes; composition, probably not.** The size of the repertoire admits a coding argument. Which receptors are in it, and in what proportion, may be substantially a matter of genomic history. Being clear about which of these two claims one is making would improve a lot of writing in the field, and it is the distinction the capstone needs to keep straight.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m09.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The section argues that birth-and-death dynamics make an otherwise disappointing null result informative. What exactly is it about the birth-and-death account that does that work?",
+  "options": [
+    {
+      "text": "Its parameters — duplication rate, pseudogenisation rate, cluster structure — are estimable from sequence data independently of anything about odours, so it predicts abundance without reference to the ensemble the coding account needs.",
+      "correct": true,
+      "feedback": "That independence is the whole point. A rival hypothesis is only useful if it can be scored on evidence the incumbent does not already own; otherwise the comparison is rhetorical. Because cluster membership and subfamily size come out of a genome rather than out of an odour survey, the abundance experiment becomes a model comparison with three predictors and every outcome interpretable — including the mixed one where both contribute. Contrast the adaptive story, which is scored impressionistically and usually after the repertoire is known."
+    },
+    {
+      "text": "It is a mechanistic account of a process rather than an optimality claim, and mechanistic accounts are more parsimonious.",
+      "correct": false,
+      "feedback": "Correct under the assumption that being mechanistic is itself an epistemic virtue — a common view, and one §0.1 declines. The section does insist the account is mechanistic rather than normative, but for a different reason: so that nobody grades it against §0.2's criteria and marks it down for making no optimality prediction. Being mechanistic does not make a hypothesis informative. Being independently measurable does."
+    },
+    {
+      "text": "It shows that a neutral model can generate the observed distribution of repertoire sizes, so the adaptive account is excluded.",
+      "correct": false,
+      "feedback": "Correct under the assumption that generating the data is sufficient to establish a model — and the generative claim is accurate, since a near-neutral birth-and-death process with plausible rates does produce roughly the right shape. But the section is explicit that this is *not* proof of neutrality; it is proof that neutrality is not excluded, which is the weaker claim the capstone actually needs. Overstating it here would be the same post-hoc move in the opposite direction."
+    },
+    {
+      "text": "It explains why repertoire size varies by two orders of magnitude across species that all navigate by smell.",
+      "correct": false,
+      "feedback": "Partly correct, and the variation is real: elephants near two thousand functional loci, dolphins around ten. But explaining variance is not what makes the null informative — the adaptive account also explains variance, and rather too easily, which is the complaint against it. What converts a null into a finding is that the alternative was written down first and makes *different* testable predictions, such as abundance correlating with cluster membership after controlling for ligand similarity."
+    }
+  ]
+}
+</script>
+</x-mcq>

@@ -37,8 +37,62 @@ This makes a comparative prediction that the full course tests:
 <strong>Prediction: olfactory adaptation should be faster and proportionally larger than visual.</strong> Cortical odour adaptation is indeed strikingly rapid. Whether it is quantitatively what the volatility argument predicts is, as far as this course is aware, untested — and it is a cheap experiment.
 </x-callout>
 
+<x-order>
+<script type="application/json">
+{
+  "id": "m01.s10.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 21,
+  "prompt": "Reconstruct the volatility argument as a chain of steps. Each one is doing work, and the chain is what makes the comparative prediction a prediction rather than an observation.",
+  "items": [
+    { "id": "a", "text": "Observe that the system rescales its limited range to the recent input distribution." },
+    { "id": "b", "text": "Recognise that rescaling requires estimating that distribution from a finite window of history." },
+    { "id": "c", "text": "Identify the trade: a long window tracks a stale distribution, a short one chases noise." },
+    { "id": "d", "text": "Conclude that the optimal window length is set by how fast the statistics actually change." },
+    { "id": "e", "text": "Measure the volatility of each modality's natural statistics and read off the predicted adaptation rates." }
+  ],
+  "correctOrder": ["a", "b", "c", "d", "e"],
+  "modelAnswerNote": "Step (b) is the one people skip, and skipping it is what turns the argument into a story. Without it, 'adapt faster when the world changes faster' is a slogan; with it, adaptation is an estimator and the window is a parameter with an optimum.\n\nStep (e) is where the risk lives. The volatilities have to be measured independently of the neural data, or the argument becomes the accommodation failure §0.2 warns about — and note that this is the same criterion that separates the retinal crossover result from a post-hoc account.\n\nFor olfaction, (e) is exactly what is missing. The claim that odour statistics are non-stationary is well supported qualitatively, but nobody has put a number on the volatility that could be compared against a measured adaptation rate. That is what makes the prediction cheap to state and, so far, untested."
+}
+</script>
+</x-order>
+
 ## State and attention
 
 Gain is modulated by arousal, locomotion, and attention through neuromodulatory systems and through the corticothalamic loop of §1.6. Attending to a location increases gain for stimuli there, as early as LGN.
 
 The functional interpretation is that these are all **priors and precision-weights entering a gain control**, which is the framing that makes them comparable to centrifugal modulation of the olfactory bulb — a structure that receives more feedback than feedforward input, and where the same interpretive options are open.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m01.s10.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A colleague argues that contrast adaptation is straightforwardly the same computation as light adaptation, applied one moment up. What is the strongest reason a comparative account should keep them distinct?",
+  "options": [
+    {
+      "text": "The two moments carry different information about the world: mean luminance mostly reports the illuminant, which the animal does not care about, while contrast is a property of surfaces. A system can sensibly discard one and preserve the other.",
+      "correct": true,
+      "feedback": "This is the reason that survives into other modalities. Rescaling is the same operation formally, but what rescaling *costs you* depends on whether the moment being normalised away carried anything. Discarding mean luminance loses almost nothing; discarding contrast would lose the signal. When you import an adaptation result into a new modality, the question to ask is not 'does it rescale?' but 'what does the normalised-away quantity mean there?' — and for odour concentration the answer is unsettled, since concentration is partly about identity of the source and partly about distance to it."
+    },
+    {
+      "text": "Light adaptation happens in the photoreceptor and contrast adaptation in the network, so they are mechanistically different.",
+      "correct": false,
+      "feedback": "Correct under the assumption that mechanistic locus individuates computations. This section argues the opposite case explicitly: one computation — rescale to recent statistics — is implemented by a stack of mechanisms at pupil, receptor, synapse, and network, spanning three decades of timescale. If locus individuated computations, light adaptation would already be five different things."
+    },
+    {
+      "text": "Contrast adaptation is selective — to orientation, spatial frequency, direction — and light adaptation is not.",
+      "correct": false,
+      "feedback": "Partly correct, and a real asymmetry. But the selectivity belongs to *pattern* adaptation specifically; contrast gain control in its non-selective form is as global as light adaptation, and the auditory version [@dean2005] is a pure level-statistics effect with no feature selectivity at all. This attributes to the moment what actually belongs to the feature dimension."
+    },
+    {
+      "text": "Only the first moment needs adapting, since the dynamic-range argument constrains the operating point rather than the spread.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a limited firing range binds only on where the curve is centred. But a correctly centred curve is still spent badly if the input variance is mismatched to its slope — half the range unused, or most of the inputs saturating. That is Laughlin's argument [@laughlin1981] applied to the second moment, and it is why the constraint binds on both."
+    }
+  ]
+}
+</script>
+</x-mcq>

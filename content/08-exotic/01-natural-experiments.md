@@ -40,6 +40,39 @@ The exotic senses break the correlations:
 Each populates a region of design space the familiar five leave empty. That is the whole justification for the module, and it is why the sharpest imports in §13 come from here rather than from vision.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m08.s01.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The module's claim is that each exotic sense holds constant something the familiar five confound. On that criterion, what does electroreception supply that active touch and active sniffing do not?",
+  "options": [
+    {
+      "text": "The forward model relating the animal's own action to the expected sensory input is exactly known, because the animal generates the carrier and its waveform is stereotyped.",
+      "correct": true,
+      "feedback": "This is the isolated variable. Touch and sniffing are both active, so activity alone is not what distinguishes the case. What is distinctive is that the mapping from action to expected consequence is available to the experimenter as well as to the animal, which is what turns 'the circuit subtracts a prediction' from an interpretation into a measurable claim: you know what the prediction should be."
+    },
+    {
+      "text": "The animal controls when it samples, so self-caused input can be separated from world-caused input.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the variable being isolated is availability of efference copy — and that assumption is half right, since efference copy is exactly what the parallel-fibre pathway carries. But touch and sniffing have efference copy too. Control of sampling is confounded across all three; the *known content* of the prediction is not, and that is the axis this module is exploiting."
+    },
+    {
+      "text": "Its receptors operate closer to the physical limit than any other modality's, so the noise floor is known exactly.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the design variable of interest is proximity to a physical limit. That is a real axis, and vision already anchors it — a rod signals a single photon [@baylor1979]. But it is not confounded in the familiar five, so isolating it buys nothing, and electroreception is in any case not the extreme case. Magnetoreception is (§8.5), and for the opposite reason: there the limit is what makes the sense nearly impossible."
+    },
+    {
+      "text": "The receptor array is spread across the whole body surface rather than confined to a discrete organ, so array geometry can be varied independently of modality.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the isolated variable is array geometry, and the anatomical premise is true. But touch has the same distributed arrangement, so the property is not held constant against the familiar five — it is shared with one of them. Note also that the electrosensory array is *ordered*, like touch and unlike olfaction, so it does not isolate the metric question either."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## What to carry through
 
 Read each section asking two things: what does this animal do that no familiar modality does, and **what problem does that solve that olfaction also has?**

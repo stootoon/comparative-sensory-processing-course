@@ -40,3 +40,36 @@ Olfaction faces the same pair of problems, and §3.1 argued they are <em>more</e
 Worth flagging, because the clean version gets repeated more than it deserves. The dorsal stream is not purely spatial — it carries object information relevant to grasping. The ventral stream is not position-invariant at every stage. The two are heavily interconnected. And "what/where" competes with "perception/action" as a description, with evidence on both sides.
 
 The useful residue is the **computational argument**: incompatible invariance requirements force separate representations. That survives the anatomical untidiness, and it is what transfers to other modalities.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m01.s08.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The section treats audition's independent arrival at the same split as evidence that the split follows from the task rather than the sensor. Which observation would most directly weaken that inference?",
+  "options": [
+    {
+      "text": "A modality whose identity and location problems are as dissimilar as vision's, but which demonstrably serves both from a single representation.",
+      "correct": true,
+      "feedback": "This is the direct refutation, because the argument's load-bearing claim is a impossibility claim: no single code can be position-invariant and position-sensitive at once. One clear existence proof of a shared representation doing both jobs and the necessity evaporates, leaving the two splits as a coincidence in need of a different explanation. Notice that this makes olfaction the crucial case rather than a mere application — if olfaction turns out to have no dorsal stream and no deficit, that is the counterexample."
+    },
+    {
+      "text": "Evidence that the dorsal stream also carries object information relevant to grasping.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the argument requires anatomically pure streams — and the observation is true, which is why the section concedes it. But the invariance argument predicts that two representations exist with different invariances, not that either is dedicated to a single variable. A grasp-relevant identity signal in the dorsal stream is exactly what a stream computing action parameters should carry."
+    },
+    {
+      "text": "Evidence that the two streams are heavily interconnected at every level.",
+      "correct": false,
+      "feedback": "Correct under the assumption that separation means informational independence, which would be the right reading if the claim were modular processing. It is not. Two representations with incompatible invariances can exchange information freely; what they cannot do is be the same representation. Interconnection is a problem for a modularity thesis, not for this one."
+    },
+    {
+      "text": "A finding that audition's split emerges several synapses later in the hierarchy than vision's.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a genuine shared principle should produce matched anatomy — the reasoning one would use to argue for homology. But the argument here is explicitly about convergence from different starting points, and a depth difference is what you would expect: audition has to compute location before it can separate on location, and vision does not. Differing depth strengthens the independence of the two instances rather than weakening it."
+    }
+  ]
+}
+</script>
+</x-mcq>

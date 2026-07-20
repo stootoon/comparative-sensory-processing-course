@@ -47,6 +47,33 @@ So within a single modality, the sub-problem whose input statistics were charact
 
 That is the strongest single observation the module has, and it is worth more than the cross-modality comparison it is embedded in.
 
+<x-matrix>
+<script type="application/json">
+{
+  "id": "m12.s04.mx1",
+  "contentRev": 1,
+  "points": 6,
+  "corner": "Property",
+  "prompt": "Fill in the within-olfaction control, which is the module's strongest single observation. Two sub-problems of one modality, in one animal, on one set of sensors. Answer yes or no in each cell, then read the note — the point is not the six answers but which rivals can and cannot reproduce the pattern.",
+  "rows": [
+    "Input ensemble characterised?",
+    "Normative theory with traction?",
+    "Working engineered systems?"
+  ],
+  "columns": ["Plume / temporal", "Chemical identity"],
+  "cells": {
+    "Input ensemble characterised?|Plume / temporal": { "answer": "yes", "accept": ["yes","measured","characterised","characterized","y"] },
+    "Input ensemble characterised?|Chemical identity": { "answer": "no", "accept": ["no","unmeasured","not measured","n"] },
+    "Normative theory with traction?|Plume / temporal": { "answer": "yes", "accept": ["yes","y","some","yes — infotaxis","tractable"] },
+    "Normative theory with traction?|Chemical identity": { "answer": "no", "accept": ["no","n","none","stalled"] },
+    "Working engineered systems?|Plume / temporal": { "answer": "yes", "accept": ["yes","y","robots","plume tracking","infotaxis"] },
+    "Working engineered systems?|Chemical identity": { "answer": "no", "accept": ["no","n","closed worlds only","only closed worlds"] }
+  },
+  "modelAnswerNote": "The columns differ in exactly one respect and agree on everything a rival could appeal to.\n\nTurbulent transport statistics have been characterised and are analytically tractable [@celani2014; @tootoonian2025], and that is the strand with both normative traction and robots that work — search strategies exploiting the statistics of intermittent detections rather than following a gradient, of which infotaxis is the cleanest [@vergassola2007]. Chemical identity has an unmeasured ensemble, no normative theory, and no open-world machine.\n\nNow apply the rivals. **Sensor hardware** is constant across the split — the same drifting cross-sensitive array serves both. **Commercial pull** is, if anything, larger on the identification side. **Raw dimensionality** is identical. **Ground-truth cost** differs in the convenient direction: plume localisation has free exact ground truth, because the experimenter placed the source, which is a partial hit and the reason §12.5 nominates it as the first benchmark.\n\nSo no rival except the last predicts this split, and the dataset account predicts it exactly. That is why §12.4 rates it worth more than the cross-modality comparison it is embedded in, and why §12.6's first recommendation is to push it to finer grain across sub-problems — it is free, and it is the most discriminating thing in the module."
+}
+</script>
+</x-matrix>
+
 ## Four rivals, at full strength
 
 Now the part that decides whether the test is worth anything. Four other explanations predict machine olfaction stalling while machine vision flies, and at least three of them are good. The course's standard is that a normative argument is worth what its ruled-out alternatives are worth, so these get stated at their strongest rather than at their most refutable.
@@ -80,6 +107,39 @@ It has one component that is clearly right and one that is clearly wrong, and se
 Note carefully what that concession does and does not do to the module's argument. It is a reason odour is genuinely harder. It is *also* a reason the dataset requirement is larger, not smaller, which makes it a partial ally rather than a pure rival. The two accounts are not exclusive and the honest reading is that they compound.
 
 **What the engineering evidence does rule out**, and this is worth stating precisely because it is easy to overclaim: engineered systems face none of biology's constraints and stall in the same place, so the *biological-constraint* versions of "olfaction is harder" — slow receptors, no map, two synapses to cortex, adult neurogenesis, metabolic budget — cannot be the whole explanation of the theoretical gap. That is a real elimination. It leaves the *computational* versions untouched, and the metric argument above is a computational version. The module's brief slogan, that machine failure is evidence against olfaction being intrinsically harder, is too strong as stated; the defensible version is that it is evidence against the biological versions of that story.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s04.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "\"Odour is high-dimensional, which is why machine olfaction stalled while machine vision flew.\" Diagnose this claim as precisely as you can.",
+  "options": [
+    {
+      "text": "It is wrong, and the correct version inverts its consequence: images are far higher-dimensional and yield, so dimensionality is not the barrier. What odour lacks is a *metric*, hence no convolutional prior, hence a higher data requirement — which makes intrinsic difficulty and the dataset account compound rather than compete.",
+      "correct": true,
+      "feedback": "This is the full diagnosis and the second clause is the part that does work. Hundreds of thousands of pixels against a thousand receptor types: raw dimensionality has not been a barrier to engineered sensing for a long time. Convolution works because images have a metric — nearby pixels are related, the same feature is worth detecting everywhere — so weight sharing is a correct prior that cuts sample complexity enormously. Odour has no 'nearby receptor' and no translation to be invariant to, so a learner must acquire the relational structure from data. The intrinsic-difficulty rival therefore *raises* the dataset requirement, and §12.6 flags that the capstone had been treating the two as alternatives when they are additive."
+    },
+    {
+      "text": "It is right, since a thousand receptor types generate a combinatorially vast space of mixtures that no corpus could cover.",
+      "correct": false,
+      "feedback": "Correct under the assumption that coverage of the input space is what a corpus must provide. That assumption fails for the same reason it fails in vision: the space of possible images is unimaginably larger than any corpus, and the corpus works because natural inputs occupy a low-dimensional manifold within it. §12.5's box argues the same for odour scenes — mixtures generated by a modest number of sources with correlated emission profiles, so effective dimensionality is probably tens rather than a thousand."
+    },
+    {
+      "text": "It is wrong because dimensionality is a property of the receptor array rather than of the stimulus, and the array's dimensionality is a design choice.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the claim is about the sensor. It is a real distinction — §12.5 treats array diversity as a designable quantity, and the invertebrate literature makes the optimum precise [@litwinkumar2017]. But relocating the dimensionality does not dispose of the claim, and it misses the substantive error, which is that dimensionality of any kind is not what is binding."
+    },
+    {
+      "text": "It is wrong because the real obstacle is that mixture responses do not superpose at the sensor [@shen2013].",
+      "correct": false,
+      "feedback": "Partly correct, and this is a genuine component of the intrinsic-difficulty rival — non-additivity appears in silicon through competitive adsorption and in biology through competitive binding, with the same consequence. But note where it bites: it obstructs the *linear* calculations, such as pushing a composition ensemble through receptors (§12.5's forward-model problem). It is not the reason the learning problem has a high sample complexity, which is the metric argument."
+    }
+  ]
+}
+</script>
+</x-mcq>
 
 ### Rival 3 — commercial pull
 

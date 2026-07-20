@@ -68,3 +68,36 @@ Vestibular afferents fall into two classes: **regular**, with low variability an
 This is the split-early motif once more — the sixth independent instance in this course, after retinal sustained/transient, cochlear cell types, SA/RA/PC in touch, the fly chordotonal organ, and mitral/tufted. And it is the closest to mitral/tufted in character: **two classes differing in variability, dynamics and downstream target, from the same sensory input.**
 
 Whatever explains one may explain the other, and the vestibular version has the advantage of a well-specified computation to be optimal for.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m06.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "One hair cell, three measurements: frequency in the cochlea, angular velocity in the canals, linear acceleration in the otoliths — differing only in what is built around the transducer. A reviewer objects that this cannot be the general rule, because olfactory receptor neurons compute a great deal with essentially no accessory structure. How should the objection be handled?",
+  "options": [
+    {
+      "text": "It is not an objection but the corollary: where no accessory structure is available to do the work, the computation must be paid for in neurons, so olfaction should look neurally expensive for the same task complexity.",
+      "correct": true,
+      "feedback": "Right, and the reason this matters is that it changes what circuit comparisons mean. Counting synapses or cell types across modalities is only informative once you have accounted for what the periphery did mechanically before any spike was fired. The vestibular case makes the accounting unusually clean because the transducer is held constant and only the packaging varies — so the mechanical contribution is isolated by the comparison itself, which is exactly what §4.3's Pacinian argument could not do."
+    },
+    {
+      "text": "The objection stands: olfaction shows that accessory structure is one strategy among several, so the vestibular case is a special rather than a general lesson.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a principle with exceptions is thereby local — a defensible epistemic stance, and this course does refuse to over-generalise from vision. But the principle here is not 'sensory systems use accessory structures'; it is 'computation performed mechanically is computation not performed neurally'. Olfaction does not violate that. It sits at the zero end of it, which is what the principle predicts for a modality whose stimulus offers no mechanical handle."
+    },
+    {
+      "text": "The objection fails because the nasal turbinates and sniff-driven airflow are accessory structures doing substantial computational work.",
+      "correct": false,
+      "feedback": "Correct under the assumption that any peripheral mechanical structure counts, and the turbinates do shape sorption gradients and impose a chromatographic delay — which is real and belongs in the story (§3.9). But the vestibular sense of accessory computation is stronger: a stiffness gradient or a fluid torus *transforms the stimulus into the variable of interest*, whereas turbinates modulate delivery. Distinguishing the two is worth the effort, because the weaker version is available almost everywhere and explains almost nothing."
+    },
+    {
+      "text": "The objection fails because olfactory receptor neurons do a great deal of transduction-level computation — adaptation, amplification, competitive binding — so the work is done at the transducer instead.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the relevant contrast is transducer-versus-circuit rather than mechanics-versus-neurons, and receptor-level nonlinearity is genuinely substantial in olfaction [@shen2013]. But receptor-level processing is still cellular and metabolically paid for; it is not free the way a stiffness gradient is. This answer relocates the cost rather than removing it, which is close to the right reading but lands on the wrong side of the distinction the section is drawing."
+    }
+  ]
+}
+</script>
+</x-mcq>

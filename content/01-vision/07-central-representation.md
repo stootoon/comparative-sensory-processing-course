@@ -39,6 +39,18 @@ This is the deepest into any sensory hierarchy that a normative derivation has r
 </div>
 </details>
 
+<x-predict>
+<script type="application/json">
+{
+  "id": "m01.s07.p1",
+  "contentRev": 1,
+  "prompt": "Sparse coding succeeded where decorrelation failed because whitening is defined only up to a rotation and sparseness picks a rotation out. Suppose someone runs the identical algorithm on a large set of olfactory receptor activation vectors and it converges. Predict what the learned basis functions would look like, and what would have to be true for anyone to be able to tell whether the result was right.",
+  "placeholder": "What does a learned basis vector look like when the input has no metric, and what would you compare it against?",
+  "reveal": "**What comes out.** Each basis function is a vector of weights over receptor types — an unordered list. Nothing more can be said about its shape, because 'localised', 'oriented' and 'bandpass' are all descriptions that presuppose a metric on the input array. The three properties that made the V1 result striking [@olshausen1996] are not merely absent from the olfactory answer; they are not expressible.\n\n**Why that is a problem for evaluation, not for the calculation.** The algorithm runs perfectly well. What fails is the comparison step — step five of the template. In vision you could hold the learned filter next to a measured receptive field and see the match by eye, in the same coordinates. In olfaction the only available check is quantitative and expensive: record the tuning of real mitral or piriform neurons *across the same receptor basis*, and ask whether the learned vectors predict them. That is a far weaker and far more laborious test, and it is why a positive result would need to be quantitative from the start.\n\n**Two prior obstacles.** The ensemble of natural odour scenes does not exist, so there is nothing to learn from. And receptor activation is not additive across odorants [@shen2013], so the linear generative model the algorithm assumes is wrong at the first stage.\n\n**The useful inversion.** Notice that the metric was doing work you might not have credited it with. It was not needed to *run* efficient coding — it was needed to *recognise the answer*. §1.11 lists this as one of the motifs to audit, and it is the one where the loss is least obvious in advance."
+}
+</script>
+</x-predict>
+
 ## Where the account runs out
 
 Being honest about the limits matters, because the same limits arrive earlier in olfaction and get mistaken for an olfactory problem.
@@ -57,3 +69,36 @@ Olfaction reaches its central representation in two synapses. So the absence of 
 
 What piriform does have going for it is that it looks like a structure the theory of §1.7's capacity argument was built for: recurrent, non-topographic, sparse, associative. The tools that failed on V4 may be better suited to piriform than to anything in vision.
 </x-callout>
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m01.s07.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The deeper box separates three arguments for sparse coding: metabolic, capacity, and separability. Piriform cortex is recurrent, non-laminated, non-topographic, and receives a diffuse bulbar projection. Which argument does that architecture most specifically implicate?",
+  "options": [
+    {
+      "text": "Capacity — dominant recurrence in a structure with no topography is the signature of an associative memory, and the capacity argument is the one that makes claims about pattern overlap and interference during storage.",
+      "correct": true,
+      "feedback": "Right, and the reason this is the specific answer rather than the general one is that recurrence is the discriminating feature. A feedforward sparse layer gets you metabolic savings and separability without any recurrent connectivity at all; storage and retrieval are what recurrence buys. Note the prediction this makes: piriform's sparseness level should track what a memory needs, not what a readout needs."
+    },
+    {
+      "text": "Separability — sparse high-dimensional codes make categories linearly separable, which is what a downstream readout requires.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the operative downstream stage is a linear classifier, which is the right framing for expansion recoding — Kenyon cells, cerebellar granule cells, and the connection-degree optimum that comes with them [@litwinkumar2017]. But that argument is about a feedforward random projection into a much larger layer, and piriform's defining feature is recurrence rather than expansion. Correct architecture, wrong one."
+    },
+    {
+      "text": "Metabolic — spikes cost ATP, and cortex can afford only a small fraction of neurons active at once.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the binding constraint is energy, and the constraint is real. But it applies to every cortical structure equally, so it cannot single out piriform or explain anything about its architecture. An argument that predicts sparseness everywhere makes no prediction about anywhere in particular."
+    },
+    {
+      "text": "All three, since they are the same claim stated at different levels of description.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the three converge, which is how 'efficiently sparse' is usually deployed. They do not converge: maximum capacity wants very sparse patterns, maximum separability wants moderate sparseness at high dimension, and metabolic cost wants the fewest spikes regardless of dimension. A system optimising one is measurably not optimising the others, which is why the box insists on separating them."
+    }
+  ]
+}
+</script>
+</x-mcq>

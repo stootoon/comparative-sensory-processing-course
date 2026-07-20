@@ -31,6 +31,19 @@ Three consequences.
 Olfaction sits in the middle and is usually taught as though it belonged at the passive end. §3.9 argued it is closer to echolocation than to vision; this spectrum places it precisely, and shows that the neighbours worth borrowing from are touch and echolocation rather than vision.
 </x-callout>
 
+<x-predict>
+<script type="application/json">
+{
+  "id": "m07.s09.p1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The spectrum places olfaction in the middle — sampling-controlled, alongside touch and taste — and argues its useful neighbours are echolocation and whisking rather than vision. Before reading on, commit to what specifically transfers from an active-sensing neighbour that would not transfer from vision. Name one concrete borrowing.",
+  "placeholder": "What does the neighbour have that vision does not?",
+  "reveal": "**The transferable thing is that the sampling command is available as a signal, and its consequences are predictable.**\n\nVision's saccades select among signals that exist whether or not the eye moves; the world's luminance does not depend on where you look. Sniffing, whisking and echolocation *create or shape* the stimulus, which has two consequences vision cannot supply.\n\n**First, a self-generated component to subtract.** Because the animal knows what sampling command it issued, it can predict the sensory consequence and cancel it — the vestibular mechanism (§6.9) with a sniff in place of a head turn. That is the whole basis of the common-feature-subtraction account, and it is why §7.10 can argue olfactory recalibration needs no external teacher: sniffing supplies the predictable component that makes self-supervision possible.\n\n**Second, the sampling parameters are themselves informative.** A whisking rodent can infer object distance from the phase at which contact occurred; a bat can infer range from echo delay against its own emission. The general form is that the *timing of the sample relative to the command* carries information the sample alone does not. Applied to olfaction, sniff phase becomes a coordinate rather than a nuisance — and bulbar responses are indeed strongly sniff-phase-locked [@wachowiak2011], which under the passive framing looks like an artefact of respiration and under this one looks like the code.\n\n**The third, less often noticed:** an active sampler chooses *when* to sample, so the statistics of what it receives are not the statistics of the environment. Every efficient-coding calculation for olfaction has to condition on the sampling policy, which is a complication vision largely escapes and which no measured olfactory ensemble currently addresses.\n\nIf you named sniff-phase coding or the subtractable self-generated component, you have the two that matter most."
+}
+</script>
+</x-predict>
+
 ## Tool use and the body schema
 
 The body schema extends to tools. Using a rake changes the represented extent of the arm, and reaching behaviour changes accordingly. Whatever proprioception's central representation is, it is **learned, plastic, and not anatomically fixed** — a model of the effector, updated by experience, rather than a readout of receptor positions.

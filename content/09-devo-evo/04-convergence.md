@@ -103,6 +103,27 @@ The same move works for the expansion layer. What is conserved is not the size b
 
 **Verdict: the objection is right that the shared description is coarse in absolute terms, and wrong that it is uninformative — because the theory's predictions are also about ratios rather than absolutes.** But this defence has to be earned row by row and cannot be assumed.
 
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m09.s04.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Apply the specificity discipline to a case the section does not cover. Someone proposes adding a row to the convergence ledger: \"both lineages sample the chemical world rhythmically — insects flick their antennae, mammals sniff.\" Decide whether the row survives, and in doing so state the general procedure for grading a candidate convergent feature.",
+  "modelAnswer": "**The verdict: the row does not survive as stated, and it is instructive to see why it can be rescued only by making it false.**\n\n**Run the three filters.**\n\n*Too coarse.* 'Samples rhythmically' has a probability near one under any null. Almost every animal that must transport a fluid across a chemosensor moves it periodically, because that is what transport requires — and the two mechanisms are not the same mechanism. Antennal flicking is a limb movement that refreshes the boundary layer around a static sensillum; sniffing is a respiratory manoeuvre that drives bulk flow across a mucosal sheet, on a different timescale, driven by a different motor system. Described at the level where both have the feature, $p$ is high and the evidential force $1/p^2$ vanishes.\n\n*Shared toolkit.* Rhythmic motor patterns are produced by central pattern generators, which predate the split and appear in locomotion, feeding and ventilation in both lineages. A shared oscillator toolkit that produces rhythm whenever a movement must be repeated is entirely plausible, so the olfactory instance carries no special weight — the same objection that removes divisive normalisation and sparse coding from the ledger.\n\n*Physics.* Chemical sampling from a fluid requires renewing the fluid at the sensor. Both animals are subject to that constraint whatever their circuits do. The physics substantially explains the feature, as it substantially explains broad tuning.\n\n**All three objections bite, which is unusual, and the row should be filtered.**\n\n**The rescue attempt, and why it fails honestly.** One could restate the row specifically: 'sampling rate is modulated by current posterior uncertainty about the source.' That is specific enough that either lineage could fail to have it — precisely the discipline §9.4 demands. But now the row is not established: for mammals the evidence is that sniff rate rises during active search, which is consistent with arousal and has not been separated from it (§8.3 proposes the experiment), and the antennal-flicking version is weaker still. **So the specific version is a claim nobody has demonstrated in either lineage, and the demonstrated version is too coarse to constrain anything.** Asserting the row would be choosing the level of description that makes the systems match, after seeing both — the exact failure the specificity rule exists to prevent.\n\n**The general procedure, stated compactly.**\n\n1. State the feature at a level of description at which either lineage could observably have failed to have it. Fix that level *before* checking whether they do.\n2. Ask whether a shared neural or developmental toolkit predates the split and would produce the feature in any circuit. If so, the feature is evidence about circuits, not about chemistry.\n3. Ask whether physics or chemistry forces the feature independently of any coding argument.\n4. If it survives all three, ask what varies across the lineages. Conservation of the feature's *presence* alongside large variation in its *magnitude* is itself informative — it argues against whichever account predicts that the magnitude is set by a constraint that does not differ between the species. That is the move that turns the convergence-ratio disparity into evidence against the SNR reading.\n\n**The reason the procedure is worth internalising:** convergence arguments are cheap to make and expensive to make well, and the whole evidential force sits in step 1. Nothing else in this module has that property.",
+  "rubric": [
+    "Judges the row as filtered rather than surviving",
+    "Applies the too-coarse objection with a real disanalogy between flicking and sniffing, not just an assertion of coarseness",
+    "Invokes the shared-toolkit objection via central pattern generators predating the split",
+    "Notes that fluid renewal at the sensor is forced by transport physics",
+    "States the discipline: fix the level of description before checking, precisely enough that either system could have failed",
+    "Bonus: shows that the specific rescued version is undemonstrated in both lineages, so the rescue trades coarseness for absence of evidence",
+    "Bonus: notes that conserved presence with varying magnitude is itself a discriminator between accounts"
+  ]
+}
+</script>
+</x-free-response>
+
 ## What is left
 
 After all three objections, here is the honest ledger.
@@ -133,3 +154,36 @@ Three observations would damage it, and none has been made.
 **A working artificial system with a different architecture that performs better on the same problem.** This is the cleanest possible test and it is available now, without any biology: train networks to identify and localise chemical sources under realistic mixture and plume statistics, without imposing an architecture, and ask whether the convergent design emerges. If a quite different architecture wins comfortably, the "narrow basin" claim is in trouble. If the biological design keeps appearing, the claim is strengthened in a way no amount of comparative anatomy could achieve — because you would have sampled the design space rather than observed two draws from it.
 
 That last one is the experiment this section most wants done, and it is blocked by the same thing everything else is blocked by: without a measured chemical ensemble, you do not know what statistics to train against [@krishnamurthy2022]. The convergence argument is currently the best evidence olfaction has *because* the calculation that would supersede it cannot be run.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m09.s04.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Insects and vertebrates arrived at the same olfactory architecture from non-homologous receptor proteins, 600 My apart. A reviewer writes: \"Independent convergence on a design is the strongest evidence available that the design is optimal.\" What is wrong with that, stated precisely?",
+  "options": [
+    {
+      "text": "Convergence establishes that the reachable design space contains few good solutions — a narrow basin — but it neither evaluates what lies outside the basin nor names the objective the design is supposed to be good for.",
+      "correct": true,
+      "feedback": "Both halves matter and the second is the one usually dropped. Optimality is a claim relative to a stated objective and stated constraints; convergence supplies neither, so 'optimal' has no argument place filled. And two draws from a space tell you the draws landed together, not that they landed at the maximum — the two lineages could share a constraint that excludes better designs from both. Which is exactly the live alternative: §9.2's specifiability constraint would produce convergence without any optimality at all."
+    },
+    {
+      "text": "The two lineages are not independent draws, since they share a neural and developmental toolkit that predates the split.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the flaw is in the independence premise, and this is a genuine objection that the section takes seriously — it is what removes divisive normalisation and sparse coding from the ledger. But it does not reach the receptor-level rows: no shared inhibitory motif produces 'express exactly one member of a large receptor family per cell'. So the objection reduces the number of usable rows and leaves the reviewer's inference structurally unfixed on the rows that survive."
+    },
+    {
+      "text": "The shared description is too coarse — the sparse layers differ by three orders of magnitude in cell number and the convergence ratios by more than one.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the flaw is in how the shared feature is described, and this is the most corrosive of the three objections in general. But the section shows it cuts in a more interesting direction here: conserved presence with varying magnitude is evidence *against* the SNR reading of convergence, and the theory's own predictions are about ratio structure rather than absolutes [@litwinkumar2017]. It damages some rows and sharpens others. It does not touch the logical gap between 'converged' and 'optimal', which would remain even if the description were perfectly specific."
+    },
+    {
+      "text": "Nothing is wrong in principle; the inference is valid but the sample size of two is too small to support it statistically.",
+      "correct": false,
+      "feedback": "Correct under the assumption that this is an estimation problem awaiting more lineages, which is a natural reading of a likelihood ratio scaling as $1/p^2$ — and more independent lineages would indeed strengthen the constraint claim. But no number of draws converts 'this design keeps being found' into 'this design is best', because you never sample what was not reached. That is why the section's preferred test is computational rather than comparative: training networks without imposing an architecture samples the design space instead of observing draws from it."
+    }
+  ]
+}
+</script>
+</x-mcq>

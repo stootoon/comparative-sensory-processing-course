@@ -62,6 +62,27 @@ The pattern: an initial account assigns each channel a dedicated function based 
 <strong>The methodological lesson is worth carrying:</strong> a coding scheme inferred from stimuli chosen to isolate channels will tend to look more labelled-line than the system is. Olfactory experiments overwhelmingly use monomolecular odorants at steady concentration — the tactile equivalent of only ever probing with single-frequency vibration.
 </x-callout>
 
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m04.s04.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The labelled-line account of touch — SA1 for form, RA1 for slip, PC for vibration, SA2 for stretch — was built on stimuli designed to excite one class at a time, and it is too clean [@saal2014]. State the methodological principle this establishes, then design the olfactory experiment that would expose the analogous error. Say what result would show the labelled picture is an artefact of the stimulus set rather than a property of the system.",
+  "modelAnswer": "**The principle.** A coding scheme inferred from stimuli chosen to isolate channels will tend to look more labelled-line than the system is. The isolation is a property of the probe, and the inference from 'this stimulus drives one class' to 'this class carries one percept' smuggles the probe's design into the conclusion. Natural stimuli excite all four classes, most tactile percepts are shaped by several, and most cortical neurons receive convergent input across classes rather than staying within a submodality.\n\nNote the shape of the dispute, because it recurs: an initial account assigns each channel a dedicated function from well-controlled artificial stimuli; a later account shows natural stimuli engage everything and downstream neurons pool. Taste has it (§5). Olfaction has it as 'which glomeruli' versus 'when they fire'.\n\n**The olfactory analogue of the artificial stimulus.** Monomolecular odorants at steady concentration, delivered on a controlled flow. That is the tactile equivalent of only ever probing with single-frequency vibration, and it is what the overwhelming majority of olfactory experiments use. It is worth being precise about *what* it isolates: single molecules at fixed concentration produce a stationary, well-separated activation pattern with no temporal structure — which is exactly the regime in which a which-glomeruli code would look sufficient whether or not it is.\n\n**The experiment.** Compare coding under monomolecular steady delivery against coding under natural mixtures delivered with realistic plume dynamics — intermittent, fluctuating in concentration, with several sources present [@ackels2021; @celani2014]. Decode identity from the same population under both regimes, using a spatial-pattern decoder and a sniff-phase-referenced timing decoder, and compare their performance.\n\n**The diagnostic result.** If the spatial decoder is sufficient under monomolecular delivery and degrades sharply under natural dynamics while the timing decoder holds up, the labelled 'which glomeruli' picture is an artefact of the stimulus set. If both decoders degrade together, identity coding is genuinely spatial and merely noisy. **The strongest version is the interaction**: the ranking of the two decoders should reverse across regimes, which no account attributing the labelled picture to the system can produce.\n\n**The transferable moral**, and it is the reason touch is worth reading before returning to the bulb: the answer is likely to be 'both, for different things'. Touch is topographic, metric and mapped, and still carries fine texture in millisecond timing [@johnson2001]. The olfactory debate has been posed as exclusive, and touch is the existence proof that it need not be.",
+  "rubric": [
+    "States the principle that stimuli designed to isolate channels bias the inferred code toward labelled lines",
+    "Identifies monomolecular odorants at steady concentration as the olfactory equivalent",
+    "Proposes a comparison across stimulus regimes rather than a single-regime measurement",
+    "Specifies decoders — spatial pattern versus phase-referenced timing — as the read-out",
+    "Names a result that would discriminate artefact from property, ideally an interaction or reversal",
+    "Bonus: notes the same dispute shape in taste and the convergent cortical pooling in touch",
+    "Bonus: concludes the likely answer is both codes serving different aspects of one stimulus"
+  ]
+}
+</script>
+</x-free-response>
+
 <x-matrix>
 <script type="application/json">
 {

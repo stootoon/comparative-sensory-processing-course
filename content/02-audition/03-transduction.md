@@ -84,6 +84,39 @@ Three properties come free from one choice:
 </div>
 </details>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m02.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "No other sensor in this course spends metabolic energy amplifying its own input. Which explanation for that absence is best supported by the material here?",
+  "options": [
+    {
+      "text": "Amplification pays only where the sensor is limited by noise in the medium rather than by the quantity being measured. The eardrum works against the air's own thermal motion, which mechanical feedback can beat; a photon count or a molecule count cannot be increased by pushing back on the stimulus.",
+      "correct": true,
+      "feedback": "This is the distinction that does the work. Thermal noise in the medium is a property of the channel, and adding energy improves the ratio of signal to it. Photon and molecule arrivals are the signal, and no amount of gain creates more of them — amplifying a rod's output amplifies its thermal isomerisations equally. The comparative rule to carry forward: ask what the noise floor is made of before asking whether amplification could help."
+    },
+    {
+      "text": "Only a mechanical stimulus can be amplified by mechanical feedback, and the cochlea is the only mechanical sensor operating at this sensitivity.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the energy type of the stimulus is the binding constraint. But active hair-bundle motility appears in vestibular and lateral-line organs too, which are equally mechanical, without producing anything like cochlear tuning — and the Pacinian corpuscle is mechanical and purely passive. Energy type is what makes the mechanism *possible*; it is not what makes it worth building."
+    },
+    {
+      "text": "The cost is instability, and other modalities cannot tolerate a sensor that sometimes fires spontaneously.",
+      "correct": false,
+      "feedback": "Correct under the assumption that false positives decide the question — and the cost is real, since spontaneous otoacoustic emissions are exactly the amplifier crossing its bifurcation. But vision already tolerates spontaneous events indistinguishable from real ones: thermal isomerisation gives every rod a dark event every hundred seconds or so, and the retina copes. The cost is paid elsewhere, not avoided, so it cannot be what rules amplification out."
+    },
+    {
+      "text": "Other modalities are not close enough to their physical limits for amplification to be under selection.",
+      "correct": false,
+      "feedback": "Correct under the assumption that proximity to the limit creates the pressure, which sounds right and inverts the argument. Vision is *at* its physical limit — the rod detects one photon — and has no amplifier, precisely because being at the limit means there is nothing further to extract. Distance from the limit is not what predicts an amplifier; the composition of the noise floor is."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Speed
 
 Hair cell transduction is exceptionally fast: the mechanotransduction channels are gated **directly** by tip-link tension, with no second messenger cascade. Latency is measured in microseconds.
@@ -100,3 +133,15 @@ This is the row of the datasheet where the modalities part company hardest.
 
 Audition solves timing problems with a fast transducer. Olfaction cannot, and must recover temporal precision from a population instead — §3.2's central puzzle.
 </x-callout>
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m02.s03.p1",
+  "contentRev": 1,
+  "prompt": "Take the last row seriously. Olfactory receptor neurons have response kinetics around 100 ms, while turbulent plumes carry structure at tens of hertz. Predict how a system could report fluctuations faster than any of its sensors can follow, and say what behavioural result would show that it does.",
+  "placeholder": "How do you beat your own sensor's bandwidth? What would count as evidence?",
+  "reveal": "**The general principle.** A population of slow sensors is not restricted to the bandwidth of one sensor, provided they are *not identical*. Two mechanisms do it.\n\n*Heterogeneous kinetics.* If receptor neurons differ in their time constants — and they do, both across receptor types and across cells of the same type — then the population response is a set of differently-filtered copies of the same input. The fast component of the stimulus is not lost; it is distributed across the differences between channels. Recovering it is a deconvolution, which requires knowing the kinetics but not faster ones.\n\n*Onset timing rather than waveform.* A neuron with a 100 ms response can still have a *latency* precise to a few milliseconds. The information about when a filament arrived is in the spike time, not in the response shape, and latency precision is not bounded by response duration. This is the reason a slow transducer is less crippling than it first appears — and it is the opposite trade from audition, which uses a fast transducer to make phase-locking possible so that timing can be read directly.\n\n**The evidence.** Behaviourally: train an animal to discriminate two odour streams that are identical in mean concentration, identical in composition, and differ only in whether the two components fluctuate in-phase or anti-phase at some frequency, then push the frequency up. Mice do this well above the frequencies their receptors can follow as a waveform [@ackels2021]. Physiologically: show that the discriminating information is present in the relative spike timing across the population and absent from any single channel's rate.\n\n**Why this matters beyond olfaction.** It breaks an assumption that vision and audition never had to question, because in both the sensor is at least as fast as the signal. Bandwidth is a property of a population and its heterogeneity, not of a transducer — which also predicts that homogenising the kinetics would be catastrophic in a way that homogenising cone kinetics would not."
+}
+</script>
+</x-predict>

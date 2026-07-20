@@ -25,6 +25,39 @@ Two features of these histories carry the argument.
 
 **The dataset came with a scoring rule.** Less discussed and possibly as important. A corpus alone is data; a corpus plus a held-out test set plus an agreed metric is an *adjudication mechanism*. It makes claims comparable, which means bad methods can be eliminated rather than merely disputed. Progress in both domains was substantially the accumulated effect of many groups being able to check whether a change helped, on a common yardstick, without arguing about the stimulus set. §13.7's Gap 4 names the olfactory absence of this, and correctly notes it is downstream of Gap 1 but not identical to it.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s02.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A sceptic says the dataset–success correlation in engineering is a third-variable artefact: tractable domains attract both corpora and results, so the corpus is a symptom of tractability rather than a cause. Which feature of the engineering record is the *strongest* answer?",
+  "options": [
+    {
+      "text": "The corpora were assembled years before the methods that exploited them existed, by different people, against a contemporaneous expectation about what would work that turned out to be wrong.",
+      "correct": true,
+      "feedback": "This is the argument, and its force comes from the conjunction rather than from the ordering alone. A tractability story predicts corpus and result roughly contemporaneous, or the corpus assembled afterwards to demonstrate a method. It has to explain, additionally, why the corpus-builders were not the method-builders and why the field's own bets at the time were mistaken. Note that this is check 2 from §12.1, and it is exactly the check the biological version can only infer rather than document."
+    },
+    {
+      "text": "The corpora came with a held-out test set and an agreed metric, which made bad methods eliminable rather than merely disputable.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the adjudication mechanism is the operative ingredient, and this course thinks it is genuinely close to as important as the data — §13.7's Gap 4 exists for this reason. But it does not answer the sceptic, because a tractable field is exactly the kind of field that can agree on a metric. The benchmark is as vulnerable to the third-variable story as the corpus is; only the ordering is not."
+    },
+    {
+      "text": "Speech error rates fell steadily under the corpus regime for decades before deep networks arrived.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the challenge to answer is 'maybe the architecture did all the work' — and against *that* challenge this is the decisive observation, since it shows the corpus bought progress independently of the method it was later paired with. Against the tractability sceptic it is neutral: steady progress is what a tractable problem looks like."
+    },
+    {
+      "text": "The same ordering appears in the biological cases, where natural image statistics were characterised before the retinal derivations [@simoncelli2001; @atick1992].",
+      "correct": false,
+      "feedback": "Correct under the assumption that a replicated pattern is stronger evidence than a single one. But the whole reason §12 exists is that the biological instances are not independent of each other and the ordering there is reconstructed rather than documented. Citing them to defend the engineering case reverses the direction of support the module is trying to establish."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## The parallel with natural-scene statistics
 
 The biological version of the same ordering is the course's opening story, and it is worth laying the two side by side because the resemblance is not superficial.
@@ -67,6 +100,39 @@ Now consider what they do not share. The network has no metabolic cost per spike
 When two systems that share the input and the task, and share essentially nothing else, converge on the same early representation, the conclusion is not that either is like the other. It is that **the representation is forced by the input statistics and the task**, because there is nothing else left to force it. This is the logic §8.1 uses on the exotic senses — a natural experiment where the same computational problem is solved in a lineage sharing little else — with the sharing driven further down than any pair of animals can drive it.
 
 The caveat from §12.1's box applies and should be kept in view: convolutional architectures inherited local receptive fields and weight sharing from an explicitly biological ancestry, so the resemblance is not entirely convergent. The bounded version of the claim is that the *architectural prior* was inherited and is far too weak to determine tuning, while the *tuning* — orientation, bandwidth, the spatial-frequency distribution — was discovered by optimisation against image statistics and matches. That narrower claim is the one that survives, and it is enough.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s02.q2",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Trained networks develop oriented, localised, band-limited early filters, and audio front ends trained from raw waveforms arrive at roughly logarithmic filterbanks [@lewicki2002]. What does the convergence license, given that convolutional architectures were themselves borrowed from visual neuroscience?",
+  "options": [
+    {
+      "text": "That the *tuning* — orientation, bandwidth, spatial-frequency distribution — is forced by the input statistics and the task, since the inherited architectural prior is far too weak to determine it.",
+      "correct": true,
+      "feedback": "This is the bounded claim, and the bound is the point. The designer supplied locality and weight sharing; nobody supplied orientation selectivity or the particular bandwidths, and those are what match. The differential argument therefore leaks at the architectural level and holds at the level of what optimisation discovers — narrower than the claim usually made, and enough. Compare [@olshausen1996], where a sparseness objective on natural images recovers the same filters with no biological architecture at all."
+    },
+    {
+      "text": "That the network is a model of early visual cortex, since its layers predict responses in successive visual areas better than the hand-designed models did.",
+      "correct": false,
+      "feedback": "Correct under the assumption that predictive accuracy on neural data establishes mechanistic correspondence — the standard justification for encoding-model work, and a real result. But §12.1 rates algorithmic inference from artefacts thin and implementational inference empty. 'The network is like a brain' is worth nothing on its own; the differential reading is worth something, and they are different claims."
+    },
+    {
+      "text": "Nothing, because the resemblance was designed in.",
+      "correct": false,
+      "feedback": "Correct under the assumption that any inheritance destroys a convergence argument, which is the right instinct applied too bluntly. The leak is bounded and can be located: priors inherited, tuning not. Discarding the whole argument because part of it leaks throws away the one clean positive convergence result the module has."
+    },
+    {
+      "text": "That gradient descent on a supervised loss is a reasonable model of how the visual system was shaped.",
+      "correct": false,
+      "feedback": "Correct under the assumption that shared outcomes imply shared optimisation procedures. They do not — that is the whole content of the differential argument, which works precisely *because* the two systems arrived at the same place by procedures with nothing in common. Brains are not doing gradient descent on a labelled corpus, and the convergence is interesting for that reason rather than in spite of it."
+    }
+  ]
+}
+</script>
+</x-mcq>
 
 ## What this predicts for a modality with no dataset
 

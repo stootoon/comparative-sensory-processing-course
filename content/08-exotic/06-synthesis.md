@@ -58,3 +58,33 @@ Bats map echo delay, which the cochlea never measures. So unorderedness of the r
 Every one of those five is a **specific, runnable experiment** derived from a system nobody studying olfaction would ordinarily read.
 
 That is the argument for comparative work, stated as concretely as this course can state it. Studying olfaction alone, "why are so many bulbar neurons silent?" is a puzzle. Set beside the electrosensory lobe, it is a question with a known mechanism, a predicted timecourse, and a distinguishing experiment.
+
+<x-matrix>
+<script type="application/json">
+{
+  "id": "m08.s06.mx1",
+  "contentRev": 1,
+  "points": 4,
+  "corner": "Exotic sense",
+  "prompt": "For each of the four, name the variable it isolates and the single olfactory question it speaks to. Do it from memory before checking — if you cannot state the isolated variable, the sense is still a curiosity to you rather than an experiment.",
+  "rows": [
+    "Electroreception",
+    "Echolocation",
+    "Infrared",
+    "Magnetoreception"
+  ],
+  "columns": ["Variable isolated", "Olfactory question"],
+  "cells": {
+    "Electroreception|Variable isolated": { "answer": "active sensing with an exactly known forward model", "accept": ["known forward model","forward model known","self-generated carrier","known probe","exactly known forward model"] },
+    "Electroreception|Olfactory question": { "answer": "why are so many bulbar neurons silent — is the bulb subtracting a learned prediction?", "accept": ["silent neurons","silent neuron account","predictive subtraction","cancellation","negative image","hyperacuity from slow receptors","speed problem"] },
+    "Echolocation|Variable isolated": { "answer": "real-time design of the probe signal, plus maps of derived variables", "accept": ["probe designed in real time","optimal experiment design","active control of the stimulus","real-time probe control","maps of computed variables"] },
+    "Echolocation|Olfactory question": { "answer": "does sniff rate track posterior uncertainty, and is a map of a derived olfactory variable possible?", "accept": ["sniff strategy","sniff rate","sampling strategy","is a map possible","olfactory map","maps of derived variables"] },
+    "Infrared|Variable isolated": { "answer": "acuity as a computational rather than optical achievement, with a known blur kernel", "accept": ["deconvolution","known blur kernel","acuity as deconvolution","bad optics good performance","blur kernel"] },
+    "Infrared|Olfactory question": { "answer": "how are odour sources localised — deblurring under a transport model rather than gradient-following", "accept": ["localisation","source localisation","odour localisation","plume as blur kernel","deblurring"] },
+    "Magnetoreception|Variable isolated": { "answer": "a sense at the edge of physical possibility, with no identified receptor", "accept": ["no known receptor","physical limit","ungrounded channel","minimal bandwidth","low dimensionality"] },
+    "Magnetoreception|Olfactory question": { "answer": "can theory constrain a code when the bottom-up route is blocked?", "accept": ["constraining theory without mechanism","top-down constraint","unknown stimulus space","what to do when bottom-up stalls","grounding a channel"] }
+  },
+  "modelAnswerNote": "Three of the four hand over a template. Magnetoreception hands over a warning, and the warning is the one most likely to be ignored.\n\nThe templates are cancellation, sampling-tracks-uncertainty plus maps-of-derived-variables, and deblurring — each attached to a runnable olfactory experiment listed above. Magnetoreception supplies none, and its contribution is the observation that a modality can have first-rate normative reasoning, decades of effort, and no mechanism, because the binding constraint was a biological fact rather than a theoretical one.\n\nThe reason that matters here: olfaction's binding constraint is also a measurement, not a theory. Steps two through five of the efficient-coding template are ready and step one does not exist (§3.11). A field in that position should be careful about how much of its effort goes into refining the theory."
+}
+</script>
+</x-matrix>

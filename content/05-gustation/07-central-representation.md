@@ -15,6 +15,39 @@ That is a striking claim, because it would mean the map is *computed* rather tha
 
 **This is worth flagging for §13.** If taste can construct a topographic map from an unordered receptor array, then unorderedness does not preclude central topography. The olfactory question — "is there a map anywhere downstream?" — is not answered by pointing at the bulb's disorder.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m05.s07.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Insular \"hotspots\" would be a topographic map of an array with no metric on it. Why does that matter more for olfaction than for taste?",
+  "options": [
+    {
+      "text": "Because it removes disorder at the receptor array as a sufficient reason to stop looking for a central olfactory map — the bulb's lack of chemotopy would no longer settle the question downstream.",
+      "correct": true,
+      "feedback": "This is the transfer, and it is why a contested taste result earns space in an olfaction course. §1.4's wiring-length argument explains map absence by appeal to a missing metric at the input. If a map of an unordered array can be *constructed* centrally — as bat delay maps are, for a quantity the cochlea never measures — then the argument constrains inherited maps only. The olfactory question becomes what derived variable a map might be of, which is where §13 goes."
+    },
+    {
+      "text": "Because taste has only five qualities, so a five-region map is trivial to build, whereas olfaction would need hundreds of regions.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a map needs one region per category, which is how the taste hotspot result is usually pictured. But maps of continuous variables — retinotopy, tonotopy, bat delay maps — are not partitions into categories, and an olfactory map would presumably be of a low-dimensional derived variable rather than of odorant identity. The dimensionality objection bites against a version of the hypothesis nobody holds."
+    },
+    {
+      "text": "Because taste's map would be inherited from the tongue's papilla arrangement, whereas olfaction has no comparable peripheral order to inherit.",
+      "correct": false,
+      "feedback": "Correct under the assumption that insular hotspots reflect peripheral topography — and NST does carry a rough topography by nerve of origin (§5.5), so the worry is well founded as a possible artefact. But that topography is by body region, not by taste quality, and it is quality hotspots that are reported. If the hotspots were inherited spatial order they would be uninteresting, which is precisely why the extent and sharpness of the claim are worth arguing about."
+    },
+    {
+      "text": "Because the result is contested, and a contested result cannot support inference in either modality.",
+      "correct": false,
+      "feedback": "Correct under the assumption that only settled results license inference — a defensible standard, and the section does flag that extent and sharpness are debated. But the inferential role here is to reopen a question rather than to answer one. Establishing that central topography from an unordered array is *possible* does not require the taste case to be secure; it requires it to be live. Demanding certainty before a possibility can be entertained would have blocked the bat comparison too."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Dynamics and expectation
 
 The other body of work finds gustatory cortical responses that are **temporally structured and state-dependent**. Responses evolve through identifiable phases — an early detection phase, then identity, then palatability — with the palatability phase timed near when the decision to swallow or reject is made.
@@ -36,3 +69,15 @@ That is not a sensory representation in the V1 sense. It is closer to an evolvin
 
 For olfaction specifically: piriform's failure to look like V1 is not evidence that olfaction is odd. It is evidence that V1 is.
 </x-callout>
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m05.s07.p1",
+  "contentRev": 1,
+  "prompt": "The claim is that gustatory cortex carries an evolving decision variable rather than a code for chemical identity. But the detection → identity → palatability sequence is also exactly what you would expect from a sensory code read out by a downstream decision process, with the palatability phase reflecting feedback. Predict an experiment that separates the two, and say what each account predicts.",
+  "placeholder": "What manipulation makes the two accounts disagree?",
+  "reveal": "**The manipulation: hold the chemistry fixed and change the correct action.**\n\nA code for chemical identity is a function of the tastant. A decision variable is a function of the tastant *and* everything else that bears on whether to swallow. So the discriminating experiments all break the correspondence between the two.\n\n*Change internal state.* Deliver an identical sodium solution to a sodium-replete and a sodium-depleted animal, where the correct action inverts (§5.10). An identity code predicts the early and identity phases are unchanged and only late activity shifts. A decision-variable account predicts the palatability phase inverts with state — and that is roughly what is found, which is why the decision reading has traction.\n\n*Change the contingency without changing the taste.* Conditioned taste aversion is the sharpest version: train an aversion to a familiar flavour and re-record. Identity is unchanged by construction; palatability is reversed. If the identity phase is untouched and only the palatability phase flips, both accounts survive. **If the identity phase itself changes, the identity reading is in trouble**, because chemical identity did not change.\n\n*Decouple expectation from delivery.* Cue an expected taste and omit it. A sensory code with feedback predicts little or nothing, since no stimulus arrived. A decision variable predicts activity anyway — the animal is evaluating a prospect. Anticipatory activity before delivery, which the figure above shows, is already this result in weak form.\n\n**Why the question is harder than it looks.**\n\nNone of these fully separates the accounts, because 'sensory code plus feedback' can absorb any of them by placing enough of the effect in the feedback. The distinction is not clean, and the honest position is that it is a question of what the region's activity is *best described as* rather than a binary.\n\nThe useful move is the one §5.11 makes for coding disputes generally: **specify a stage and specify a readout.** 'Decision variable' becomes testable when you say which downstream population reads it and commit to a decoding accuracy for the behavioural choice from cortical activity, trial by trial. If choice is decodable from the palatability phase better than the tastant is, on trials where the two disagree, that is the result the decision reading needs — and it is a measurement rather than an interpretation."
+}
+</script>
+</x-predict>

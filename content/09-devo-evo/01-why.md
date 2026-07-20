@@ -56,6 +56,27 @@ An explanation type that makes no differential prediction is not an explanation.
 
 The general shape: **optimality predicts covariation with the task, contingency predicts covariation with the tree, and developmental accessibility predicts covariation with the specification problem.** These come apart in real data. They come apart best in a comparative dataset, which is why this module sits in a comparative course rather than in a developmental one.
 
+<x-order>
+<script type="application/json">
+{
+  "id": "m09.s01.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 29,
+  "prompt": "You want to know whether a sensory design feature is explained by optimality, by developmental accessibility, or by contingency. Put the five steps of the comparative discriminator in the order they must be carried out. The order is doing more work here than it looks.",
+  "items": [
+    { "id": "a", "text": "State the feature at a level of description precise enough that a species could have failed to have it." },
+    { "id": "b", "text": "Score the ecological demand independently, on a measured variable rather than an impression." },
+    { "id": "c", "text": "Score the specification problem — array size, whether a metric is available — independently as well." },
+    { "id": "d", "text": "Score the feature across a set of species spanning both the ecological and the phylogenetic axes." },
+    { "id": "e", "text": "Ask which predictor the feature follows: task, tree, or specification problem." }
+  ],
+  "correctOrder": ["a", "b", "c", "d", "e"],
+  "modelAnswerNote": "Two things about the order, and they are the two failure modes this module is exposed to.\n\n**Step (a) comes first because the level of description is otherwise chosen after seeing the answer.** Describe the feature loosely enough and every species has it, so the comparison has no variance to explain. §9.4 has to fight this explicitly, and the discipline is the one stated there: state the feature so specifically that either system could have failed to have it, then ask whether it does.\n\n**Steps (b) and (c) come before (d) because otherwise the predictors get scored to fit.** 'This species relies heavily on olfaction' is the standard offender — it is almost always assigned after the repertoire size is known, which makes the correlation guaranteed and meaningless (§9.3). The same trap waits in §9.5, where chemical volatility and odour-learning demand must both be scored before anyone looks at neurogenesis rates, or the comparative test collapses into the adaptationist exercise it was designed to replace.\n\n**What (e) can and cannot deliver.** It is a model comparison across three predictors, not a test of one, and its most useful outcomes are the mixed ones. Note that the three explanation types are not exclusive — a feature can be good, cheap, and inherited at once — so the question is which predictor carries the variance, not which story is true."
+}
+</script>
+</x-order>
+
 ## The trap, named
 
 Evolutionary explanation is the natural home of unfalsifiable storytelling. The pattern is familiar: observe a feature, invent a selective advantage, declare the feature explained. The story is unconstrained because you get to choose the advantage after seeing the feature, and because there is no version of the observation that would have refuted it.
@@ -71,6 +92,39 @@ Three specific disciplines follow, and they are worth stating as rules because i
 **Two. Do not let the level of description do the work.** "Both lineages use a hierarchical representation" is true of almost every nervous system and explains nothing. §9.4 has to fight this explicitly, because the convergence argument is only as strong as its most specific shared feature, not its most general one.
 
 **Three. Do not smuggle in optimality by calling it efficiency.** "The genome could not specify it any other way" is a real constraint. "The genome would not have wanted to specify it any other way" is a selective story wearing a developmental costume. §9.2 argues the first; it is careful not to argue the second.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m09.s01.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A colleague argues: \"Glomerular convergence pools ~1000 receptor neurons, which improves the estimate of that receptor's activation by roughly thirtyfold before the 200 ms deadline [@uchida2003]. So convergence exists because it is good.\" Which of the module's three disciplines does this most clearly violate, and why does the violation matter?",
+  "options": [
+    {
+      "text": "Discipline One. The argument establishes that convergence is good, and then treats goodness as the explanation — without checking whether an equally good alternative exists and is absent, or whether a cheaper account produces the same structure.",
+      "correct": true,
+      "feedback": "Right, and the check is available rather than hypothetical. §9.2 offers a competing account on which convergence is what you build when no metric supplies an ordering, and §9.4 supplies the discriminating observation: convergence ratios differ more than twentyfold between flies and mice, which is hard to reconcile with a ratio set by noise level and deadline. The SNR argument is not wrong — pooling really does help — it is unfinished, because it never asked whether the goodness is what put the structure there."
+    },
+    {
+      "text": "Discipline Two. \"Pooling improves the estimate\" is a description so general it applies to every convergent projection in the nervous system.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the argument's weakness is its generality, and it is a fair worry in the abstract. But this particular argument is unusually specific: it names a convergence ratio, a noise regime, and a behavioural deadline measured independently [@uchida2003], and it predicts a number. Discipline Two catches claims like 'both lineages use hierarchical processing'; it does not catch a quantitative SNR argument. The problem here is not the level of description."
+    },
+    {
+      "text": "Discipline Three. It presents a developmental necessity as though it were a selective advantage.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the SNR argument is the developmental one wearing a costume — but it is the other way round. Discipline Three warns against the reverse smuggling: dressing a selective story in developmental language ('the genome would not have wanted to specify it otherwise'). This argument is straightforwardly and honestly selective. Its fault is not disguise; it is failing to compete against the developmental account at all."
+    },
+    {
+      "text": "None. The argument is quantitative, cites an independently measured deadline, and makes a prediction — it meets §0.2's standard.",
+      "correct": false,
+      "feedback": "Correct under the assumption that §0.2's criteria are the whole test, and the argument does score respectably against them. But §9.1 is making a cut at a different level. A design feature can have a well-grounded optimality account and still be present for another reason entirely, with the optimality account true and idle. The criteria grade the derivation; they do not ask whether the derivation is what explains the feature's presence, and that second question is the one this module exists to force."
+    }
+  ]
+}
+</script>
+</x-mcq>
 
 ## What this module claims
 

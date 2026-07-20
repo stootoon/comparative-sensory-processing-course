@@ -22,6 +22,39 @@ So olfaction's peripheral problem is genuinely one of <em>detection</em>, not se
 <strong>When a normative account is imported from vision to olfaction, check first whether it assumes an abundance of signal.</strong> Several do.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m01.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The single-photon result is used here to argue that vision's downstream problem is selection rather than detection. A colleague objects that the rod bipolar pathway applies a nonlinear threshold which discards genuine single-photon events, so the retina is evidently still solving a detection problem. What is the best response?",
+  "options": [
+    {
+      "text": "The objection correctly identifies detection-like inference in the circuit, but it does not restore a detection bottleneck: the threshold discards events because most rods in dim light contain only noise, and no downstream stage could improve on a transducer already at the physical limit.",
+      "correct": true,
+      "feedback": "This keeps the two claims at their proper levels. 'The sensor cannot be improved' is a statement about the transducer; 'the retina decides what to believe' is a statement about allocation under a bottleneck. The threshold is a decision about which reports to keep, which is the selection problem in its sharpest form — and it is lossy on purpose."
+    },
+    {
+      "text": "The threshold is lossy and therefore not what efficient coding predicts, so it falls outside the framing altogether.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the selection/detection contrast is a claim about efficient coding specifically, and the observation itself is right — the deeper box below makes exactly this point, that the threshold is task-optimal inference rather than efficient transmission. But the selection/detection contrast is about where the physical limit sits, and it survives whichever normative theory you then apply."
+    },
+    {
+      "text": "Behavioural thresholds approach the limit set by photon statistics, so single-photon signals must be transmitted essentially losslessly and the objection's premise is false.",
+      "correct": false,
+      "feedback": "Correct under the assumption that behavioural performance tightly constrains per-rod fidelity — an inference that looks safe and is not [@field2005]. Behavioural thresholds involve pooling over many rods and long integration times, so the resulting bound on the intervening circuitry is loose. The premise of the objection is in fact right."
+    },
+    {
+      "text": "Hundreds of rods converge onto one ganglion cell in dim light, so pooling recovers whatever the threshold discarded.",
+      "correct": false,
+      "feedback": "Correct under the assumption that convergence recovers information. It does not — pooling improves the signal-to-noise ratio of what survives, by roughly $\\sqrt{n}$, but information destroyed at a nonlinearity is gone before the pooling happens. Ordering matters here: the threshold is applied first, and that is what makes it a commitment rather than a filter."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Amplification and its cost
 
 A single photon produces a measurable current because the phototransduction cascade amplifies enormously: one activated rhodopsin catalyses hundreds of transducin molecules, each activating a phosphodiesterase, each hydrolysing thousands of cGMP molecules.
@@ -61,3 +94,22 @@ That is a deliberate, lossy, task-optimal choice, and it is not what pure effici
 
 </div>
 </details>
+
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m01.s03.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Both vision and olfaction are limited at the periphery by shot noise — photons in one case, molecules in the other. §1.5 will use the photon case to derive a prediction with a sign attached: whiten at high SNR, pool at low. State what the analogous olfactory prediction would be, then give the strongest reason it might not transfer.",
+  "modelAnswer": "**The naive transfer.**\n\nMolecular arrivals at a receptor are, to a first approximation, Poisson in the same way photon arrivals are: a mean of $N$ binding events carries standard deviation $\\sqrt{N}$, so fractional noise grows as concentration falls. Run the vision argument unchanged and you get: at high concentration, decorrelate across receptor channels; at low concentration, pool. Convergence in the bulb should therefore be concentration-dependent, and lateral inhibition should weaken at low concentration exactly as the retinal surround does.\n\n**Three reasons to distrust it, in increasing order of severity.**\n\n*The regime is different, not just the level.* Vision spends most of its life photon-rich and occasionally photon-starved, and the crossover is a genuine crossover. Olfaction at behavioural threshold may bind a handful of molecules per sniff, so the low-SNR branch is arguably the normal operating point rather than the exception. A prediction whose interest lies in a switch is less interesting in a system that sits on one side of it.\n\n*Decorrelation needs correlations to remove, and those are not spatial.* The retinal surround works because neighbouring receptors see correlated parts of the world, which is a fact about geometry and can be wired locally. Olfactory receptor channels are correlated because odorants co-occur in the world, which is a fact about chemistry and ecology, and cannot be specified by a local rule (§1.4, §3.5).\n\n*Superposition fails at the sensor.* This is the deepest one. The photon count at a cone is additive across sources; receptor activation is not additive across odorants, because competitive binding and antagonism intervene [@shen2013]. A linear whitening calculation on a stage that is not linear is not obviously the right calculation to be doing.\n\n**The residue that does transfer.** The structural claim — that the optimal peripheral operation depends on where the system sits relative to its noise floor, and that this predicts a *change* rather than a fixed design — survives all three objections. It is the prediction of a switch that transfers, not the specific filter.",
+  "rubric": [
+    "States the naive prediction with a direction: decorrelate when signal is plentiful, pool when it is scarce",
+    "Identifies that olfaction may live permanently on the low-SNR branch, so the crossover is less diagnostic",
+    "Notes that olfactory correlations are ecological rather than geometric, so the wiring cannot be local",
+    "Bonus: raises the failure of superposition at the receptor as an obstacle to the linear calculation",
+    "Bonus: separates the transferable structural claim (SNR-dependence of the optimum) from the untransferable specific filter"
+  ]
+}
+</script>
+</x-free-response>

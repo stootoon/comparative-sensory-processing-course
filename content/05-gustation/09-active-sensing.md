@@ -39,3 +39,24 @@ None is established. But it is a rare comparative question with a clear observab
 ## Selection before ingestion
 
 Taste also has a coarse pre-screen: olfaction and vision usually determine whether something reaches the mouth at all. Taste is the last check, not the first — which is another reason it can afford to be conservative and categorical. It only ever adjudicates candidates that earlier senses have already approved.
+
+<x-order>
+<script type="application/json">
+{
+  "id": "m05.s09.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 21,
+  "prompt": "Order the stages by which a foraging rodent decides whether a substance ends up metabolised, from the earliest screen to the final one. Then read the note, which is about what each stage's position implies for its design.",
+  "items": [
+    { "id": "a", "text": "Vision and orthonasal olfaction: is this worth approaching at all?" },
+    { "id": "b", "text": "Orofacial contact — texture, temperature, trigeminal irritation: is this food-like?" },
+    { "id": "c", "text": "Gustation across a few lick cycles: accept or reject this mouthful." },
+    { "id": "d", "text": "Retronasal olfaction and flavour learning: what was that, and should I seek it again?" },
+    { "id": "e", "text": "Post-ingestive nutrient signalling: was that decision correct?" }
+  ],
+  "correctOrder": ["a", "b", "c", "d", "e"],
+  "modelAnswerNote": "The ordering is worth having explicit because **position in the cascade predicts design**, and this is the strongest form of the section's closing remark.\n\nEarly stages face an enormous candidate set and a cheap rejection cost, so they should be high-throughput, permissive and inexpensive — which is what distal senses are. By the time gustation acts, the candidate set has been filtered several times over, the rejection cost is one mouthful, and the miss cost is a poison. **That is a completely different operating point, and it is why taste can afford five channels, categorical output and a threshold placed far toward rejection** (§5.1). A sense that had to adjudicate every substance in the world could not be built this way.\n\nTwo consequences worth carrying.\n\n*Sensitivity and specificity trade along the cascade, not within a stage.* The usual framing asks whether a given detector is well calibrated. The right question is whether the *sequence* is, and a stage that looks recklessly permissive or absurdly conservative in isolation may be neither in context.\n\n*Only the last stage gets ground truth.* Stage (e) is the only one that observes the outcome, and it teaches stages (c) and (d) — §5.2's point, and the reason taste can be hard-wired and still corrigible. Note that stages (a) and (b) are largely *not* taught by it, which predicts that distal food preferences should be more plastic through social and observational routes than through direct nutritional feedback.\n\nThe olfactory comparison: orthonasal olfaction sits at stage (a), retronasal at stage (d), and they are the same receptors. **One receptor array, two positions in the cascade, two operating points** — which is a within-modality version of the loss-function argument, and a reason to expect the two routes to be processed differently downstream."
+}
+</script>
+</x-order>

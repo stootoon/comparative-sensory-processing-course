@@ -106,7 +106,7 @@ The olfactory architecture has the same shape: granule cells carrying cortical f
 <x-order>
 <script type="application/json">
 {
-  "id": "m10.s02.o1", "contentRev": 1, "points": 1, "partialCredit": true,
+  "id": "m10.s02.o1", "shuffleSeed": 31, "contentRev": 1, "points": 1, "partialCredit": true,
   "prompt": "Order these four early-circuit operations by how well the comparative evidence supports them holding in olfaction — best supported first.",
   "items": [
     "Divisive normalisation (quantitatively confirmed in the fly antennal lobe)",

@@ -54,6 +54,39 @@ Each of these is a transformation obtained for free — no spikes, no metabolic 
 <strong>Olfaction has almost none of it.</strong> The mucus layer imposes some chromatographic sorting, and nasal airflow patterns bias which receptors see what, but there is no accessory structure performing a useful transformation of the kind these others get. Every olfactory computation has to be paid for in neurons. When comparing circuit complexity across modalities, that is worth remembering: olfaction may look like it does more neural work because it has less mechanical help.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m04.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Strip the capsule from a Pacinian corpuscle and the same ending now responds to sustained pressure. Two claims are often drawn from this. Which pair of consequences is correct?",
+  "options": [
+    {
+      "text": "The high-pass filter belongs to the packaging rather than the neuron; and since olfaction has almost no equivalent accessory structure, some of its apparent extra neural machinery is doing work that physics does elsewhere.",
+      "correct": true,
+      "feedback": "Both halves hold, and the second is the comparative payoff. The running list — cochlear stiffness gradient, Pacinian lamellae, semicircular canal fluid inertia, the pit organ's pinhole — is a list of transformations obtained with no spikes, no metabolic cost and no delay. Olfaction gets mucus chromatography and airflow biasing and little else, so every olfactory computation is paid for neurally. When comparing circuit complexity across modalities, that is a confound, not a finding."
+    },
+    {
+      "text": "The four afferent classes must therefore differ mainly in their transduction machinery, and each class's tuning is a property of its channel complement.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a transducer's dynamics are set by its molecular apparatus, which is the default expectation and is right in plenty of systems. Here it is inverted by the decapsulation result: the four classes differ *less* in transduction machinery than in what is built around the ending. §4.11 makes the point explicitly — each class's temporal filtering is traceable to accessory-structure mechanics."
+    },
+    {
+      "text": "The corpuscle is therefore an adaptation mechanism, so touch's rapid adaptation is neural gain control implemented peripherally.",
+      "correct": false,
+      "feedback": "Partly correct, and §4.10 does treat the lamellae as the fastest adaptation in the course. But 'neural gain control implemented peripherally' gets the mechanism wrong in a way that matters for cost accounting: mechanical relaxation is not gain control, it is a passive filter, and it is free. Adaptation in touch operates at several levels — mechanical relaxation, channel inactivation, synaptic depression, central gain control — and conflating them loses the reason touch's is the cheapest."
+    },
+    {
+      "text": "Piezo2's sub-millisecond gating is what makes the high-pass characteristic possible, so direct mechanical gating and the capsule are two descriptions of one mechanism.",
+      "correct": false,
+      "feedback": "Correct under the assumption that filter shape follows from transducer speed. It does not, and the decapsulation experiment is the demonstration: the same fast channel, in the same ending, now responds to sustained pressure. Direct gating explains why touch is *fast* — cascades buy gain and cost speed, which is why vision and olfaction are slow — and explains nothing about which temporal band any given afferent reports."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Noise and limits
 
 Tactile thresholds are impressive: a fingertip detects vibration amplitudes of tens of nanometres, and detects a raised dot of a few micrometres. The limit is set partly by Brownian motion of the skin and partly by the mechanical filtering above.

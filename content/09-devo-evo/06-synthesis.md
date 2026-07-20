@@ -67,6 +67,36 @@ Three revisions, stated plainly because they contradict things said earlier.
 
 **The fly literature's status has been upgraded and bounded simultaneously.** It was being used as though it generalised. It does generalise, on seven specified rows, and does not on the others.
 
+<x-matrix>
+<script type="application/json">
+{
+  "id": "m09.s06.mx1",
+  "contentRev": 1,
+  "points": 4,
+  "corner": "Claim",
+  "prompt": "Score the module's four claims yourself before reading §9.6's verdicts. For each, give the strongest evidence it has and the criterion on which it most clearly fails. The exercise is whether you can tell a supported inference from a story without being told which is which.",
+  "rows": [
+    "Convergence between insects and vertebrates",
+    "Developmental specifiability",
+    "Birth-and-death repertoire dynamics",
+    "Non-stationarity account of adult neurogenesis"
+  ],
+  "columns": ["Strongest evidence", "Where it fails"],
+  "cells": {
+    "Convergence between insects and vertebrates|Strongest evidence": { "answer": "non-homologous receptor proteins and non-homologous brain structures, so the two draws are genuinely independent; seven features survive both filters", "accept": ["non-homologous receptors","receptors are not homologous","independence of the two lineages","independent invention","seven surviving features","different receptor proteins"] },
+    "Convergence between insects and vertebrates|Where it fails": { "answer": "it licenses a constraint, not optimality, and does not identify which constraint", "accept": ["does not establish optimality","not optimality","cannot name the objective","does not identify the constraint","narrow basin only"] },
+    "Developmental specifiability|Strongest evidence": { "answer": "the scaling — a gradient rule is flat in array size and a labelling scheme is not — and it unifies four separate olfactory oddities", "accept": ["scaling argument","rule is flat in N","unifies four facts","specification cost scaling","cost scaling"] },
+    "Developmental specifiability|Where it fails": { "answer": "no quantitative version: nobody has computed a real specification cost against a real genomic budget", "accept": ["no quantitative version","qualitative only","no numbers","no risky quantitative prediction","never computed"] },
+    "Birth-and-death repertoire dynamics|Strongest evidence": { "answer": "its parameters are estimable from sequence data independently of anything about odours", "accept": ["independently estimable parameters","estimable from sequence data","independent of the odour ensemble","genomic parameters measurable"] },
+    "Birth-and-death repertoire dynamics|Where it fails": { "answer": "it is not a normative account at all and should not be graded as one", "accept": ["not an optimality account","not normative","mechanistic not normative","should not be graded against 0.2"] },
+    "Non-stationarity account of adult neurogenesis|Strongest evidence": { "answer": "it connects two independently motivated facts and explains an otherwise anomalous one", "accept": ["plausibility","connects two independent facts","explains an anomaly","coherence"] },
+    "Non-stationarity account of adult neurogenesis|Where it fails": { "answer": "no measured ensemble and no risky quantitative prediction — it predicts only that neurogenesis exists", "accept": ["predicts existence only","no risky prediction","no quantitative prediction","no measured ensemble","fails four of five criteria"] }
+  },
+  "modelAnswerNote": "The ranking that falls out is the point, and it is not the ranking the field's rhetoric would give you.\n\n**The strongest claim does not score against §0.2 at all**, because it is not a derivation. Convergence is an inference from a distribution over lineages, and its force comes from the independence of the two draws rather than from the tightness of a calculation. Grading it against criteria written for derivations would mark it down for a virtue it was never claiming.\n\n**The weakest claim is the one that sounds most like a normative result.** 'The bulb replaces its interneurons because its statistics keep moving' has the grammar of an optimality argument — objective, constraint, consequence — and none of the substance, because the premise is unmeasured and the prediction is existence.\n\n**The discipline this module is teaching is exactly that discrimination.** Note that all four claims are plausible and none is refuted. Plausibility is not the axis; what separates them is whether an observation could have come out the other way, and whether anyone specified in advance what that observation would be."
+}
+</script>
+</x-matrix>
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The olfaction hook</div>
 <strong>1. Convergence is the strongest normative evidence olfaction has, and it is evidence for a constraint rather than for optimality.</strong> Two lineages, 600 My apart, non-homologous receptor proteins, seven shared architectural features. The capstone should use this wherever it wants to claim an olfactory design feature is not arbitrary — and should stop short of calling it optimal, because convergence identifies a narrow basin without evaluating what lies outside it. The experiment that would go further is computational: train networks on realistic chemical and plume statistics without imposing an architecture, and ask whether the convergent design emerges.

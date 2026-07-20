@@ -37,6 +37,32 @@ estimatedMinutes: 14
 
 Read down the olfaction column: every bold entry is a place where olfaction is the odd one out among three, not two. That is the difference a third modality makes — it turns "olfaction differs from vision" into "olfaction differs from both modalities that have working theories, in the same direction, on the same properties."
 
+<x-matrix>
+<script type="application/json">
+{
+  "id": "m02.s11.mx1",
+  "contentRev": 1,
+  "points": 4,
+  "corner": "Property",
+  "prompt": "Cover the table above and reproduce audition's column. It is the control condition for the whole course, so it is worth being able to state without looking.",
+  "rows": [
+    "Array dimensionality",
+    "Tuning breadth",
+    "Obligatory relay",
+    "Strongest normative result"
+  ],
+  "columns": ["Audition"],
+  "cells": {
+    "Array dimensionality|Audition": { "answer": "1 (frequency)", "accept": ["1","one","frequency","1 (frequency)","one dimension","1d","one-dimensional"] },
+    "Tuning breadth|Audition": { "answer": "narrow", "accept": ["narrow","narrowly tuned","sharp","sharply tuned","very narrow"] },
+    "Obligatory relay|Audition": { "answer": "IC and MGB", "accept": ["ic","ic and mgb","inferior colliculus","inferior colliculus and mgb","mgb","inferior colliculus and medial geniculate","yes"] },
+    "Strongest normative result|Audition": { "answer": "cochlear filterbank derived from natural sounds", "accept": ["filterbank","filter bank","cochlear filters from natural sounds","lewicki","efficient coding of natural sounds","filterbank derivation"] }
+  },
+  "modelAnswerNote": "Two of these rows are the reason audition is worth a module of its own rather than a paragraph.\n\n**Dimensionality and tuning together are the clean test of the tuning-breadth theory.** The theory says an optimal code tiles the stimulus space, so the number of channels and their width should be set by the dimensionality of what is being encoded. Vision has three spectral channels so broad they overlap almost completely; audition has ~3,500 channels so narrow they barely do. Those are opposite designs, and the theory predicts both from one number — the dimensionality of the space each is tiling. A one-dimensional space can be tiled densely by narrow filters at modest cost; a space tiled at that resolution in three dimensions would need thousands of pigments. This is why audition is not merely a second example but a *control*: it varies the input variable and the prediction tracks it.\n\n**The relay row turns a two-way contrast into a trend.** Vision has one obligatory relay, audition has two or more, olfaction has none. With two modalities you can only say olfaction differs from vision; with three you have a direction, and the direction is what §2.6's depth hypothesis has to explain."
+}
+</script>
+</x-matrix>
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">The olfaction hook</div>
 Three things audition hands forward.

@@ -36,6 +36,39 @@ The canals are mechanically band-limited: fluid inertia and cupula elasticity ma
 
 That band is not arbitrary. It matches the frequency content of natural head movement. The sensor is tuned to the ensemble, mechanically, without any neural computation — another instance of accessory-structure computation (§4.3).
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m06.s02.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The canal's mechanical passband matches natural head-motion statistics, and where it fails at low frequencies the brainstem patches it with velocity storage (§6.5). Someone calls this \"a sensor matched to its ensemble\" and stops there. What does the velocity-storage half add that the matching claim alone misses?",
+  "options": [
+    {
+      "text": "It shows that matching is negotiable — where mechanics could not deliver the required band, a neural circuit supplied a prior about head motion instead, so the same statistical knowledge is split across two very different implementations.",
+      "correct": true,
+      "feedback": "This is the point, and it generalises. The ensemble determines what the system needs to represent; it does not determine where that knowledge is stored. Here the same fact about natural head motion — most of it lives in a particular band, sustained rotation is rare — appears once as cupula elasticity and once as a brainstem integrator. Any comparative claim of the form 'modality X does less neural processing' has to account for the accessory structure before it means anything, which is exactly the asymmetry that makes olfactory circuits look complex (§6.3)."
+    },
+    {
+      "text": "It shows the mechanical matching is imperfect, so the ensemble was probably measured under conditions unrepresentative of natural behaviour.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a mismatch between sensor and measured statistics indicts the measurement, which is a reasonable default when a normative prediction fails. It does not apply here, because the mismatch is at the low-frequency end where the cupula's return to rest is a hard mechanical constraint, not a tuning choice. The mechanics could not have been matched there at any price, which is why the fix is neural."
+    },
+    {
+      "text": "It shows the canal is really an acceleration sensor and the velocity signal is constructed centrally.",
+      "correct": false,
+      "feedback": "Correct under the assumption that mechanical integration is an approximation the brain must finish, and the first clause is genuinely true — the canal transduces cupula deflection, and it approximates velocity only within its passband. But velocity storage does not construct the velocity signal; it extends the duration of one the mechanics already deliver. Getting this backwards makes the mechanical integration look like a convenience rather than the load-bearing computation it is."
+    },
+    {
+      "text": "It shows the system prefers neural solutions because they are adaptable, whereas mechanics are fixed.",
+      "correct": false,
+      "feedback": "Correct under the assumption that adaptability is what selects the implementation — a good general instinct, and it explains why the olfactory forward model must be neural (§6.1). But it predicts the wrong thing here. Head dynamics are stationary, so there is nothing for adaptability to buy, and the system uses mechanics wherever mechanics will reach. The circuit appears only where the mechanics cannot, which is the opposite ordering of preferences."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 <x-figure src="content/06-vestibular/figures/head-motion-stats.js"
   caption="The canal's mechanical passband sits on top of where natural head motion has its power, and the match holds as you change behaviour. Where it fails — at very low frequencies, as the cupula returns to rest — velocity storage patches it neurally. A prior about the world, implemented as a circuit, covering a known deficiency in the transducer.">
 </x-figure>

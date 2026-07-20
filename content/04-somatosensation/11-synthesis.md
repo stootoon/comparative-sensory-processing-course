@@ -13,6 +13,27 @@ estimatedMinutes: 12
 
 **What is missing.** No derivation of afferent tuning from measured natural touch statistics with anything like the force of the retinal or cochlear results. The ensemble is hard to define precisely because the animal co-authors it (§4.2), and this is a genuine obstacle rather than an oversight.
 
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m04.s11.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Touch has an ordered metric array, a topographic cortical map, and centre–surround receptive fields — everything §1.4 said vision's ordering buys — and yet no derivation of afferent tuning from measured natural touch statistics with anything like the force of the retinal or cochlear results. Explain why the ordering did not deliver a normative theory here, and say what that implies about how much of olfaction's theoretical gap can be blamed on its unordered array.",
+  "modelAnswer": "**Ordering and a measured ensemble are independent goods, and touch has the first without the second.**\n\nWhat ordering buys is a set of *mechanisms*: proximity as a proxy for correlation, so a local wiring rule implements a genuine predictive surround [@srinivasan1982]; a map that can be laid out to minimise wire; interpolation and convolution as available operations. Touch collects all of these — the cuneate's centre–surround is real spatial lateral inhibition, and §4.5 uses it as the clean comparative case against the bulb.\n\nWhat ordering does not buy is step one of the efficient-coding template. You still have to measure the ensemble, and touch's is hard to define because **the animal co-authors it** (§4.2): the vibration spectrum arriving at the fingertip is a joint function of the surface and the exploratory policy, so optimising a code against it is a fixed-point problem rather than a solve. That is a genuine obstacle rather than an oversight, and it is why touch's successes are the budget argument, the filterbank, and grip control — all of which are strong and none of which is a derivation from measured statistics.\n\n**The implication for olfaction is a partial exoneration of the array and a redirection of blame.**\n\nIf an unordered array were the binding cause of olfaction's theoretical gap, touch should have a mature normative theory and does not. Ordering is therefore not sufficient. So the standard framing — olfaction is stuck because its receptors have no metric — is at best incomplete, and touch is the control that shows it.\n\nWhat the two share is the missing ensemble, and touch's version is instructive because its cause is *nameable*: co-authorship by the animal. Olfaction has co-authorship too, through sniff vigour changing both the amount arriving and the relative receptor activation (§3.9), and it additionally lacks any characterisation of the chemical marginal. **The two modalities with the weakest normative theories are the two active senses whose ensembles are co-authored** — which is a better-supported diagnosis than the array-ordering one and points at a different remedy.\n\n**The honest counterweight.** The array still does work, and §11.1's audit is the place to look: it separates the motifs that genuinely need a metric from those that do not, and the answer is that more survive without one than expected. The defensible position is that disorder costs olfaction specific mechanisms — the surround, the map, the convolutional prior (§12.4) — while the absent ensemble costs it the theory. Two deficits, different consequences, and the course's central claim is about the second.",
+  "rubric": [
+    "Separates what ordering buys (mechanisms) from what it does not (a measured ensemble)",
+    "Identifies co-authorship of the ensemble by the animal's exploratory policy as touch's specific obstacle",
+    "Draws the inference that ordering is not sufficient for a normative theory, using touch as the control",
+    "Concludes that the unordered array is an incomplete explanation of olfaction's gap",
+    "Notes what touch and olfaction share — an unmeasured or ill-defined ensemble — and that both are active senses",
+    "Bonus: distinguishes the two deficits, disorder costing mechanisms and the absent ensemble costing the theory",
+    "Bonus: references the audit of which motifs actually require a metric rather than assuming all do"
+  ]
+}
+</script>
+</x-free-response>
+
 ## Datasheet row
 
 <x-figure src="content/00-toolkit/figures/datasheet.js"

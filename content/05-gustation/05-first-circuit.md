@@ -36,6 +36,39 @@ Four first circuits, four different answers, and taste completes the set:
 <strong>There is no universal first-circuit operation.</strong> Each does what its input statistics and its consumer demand. Any claim that early sensory processing "does X" should be checked against all four — and the fact that taste's first circuit largely does not do X is the evidence that X was never fundamental.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m05.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The callout claims that taste's first circuit not doing decorrelation is evidence that decorrelation was never a fundamental property of early sensory processing. A sceptic replies that this is like concluding cars do not need brakes because a stationary car does not use them. What is the best response?",
+  "options": [
+    {
+      "text": "The analogy fails because decorrelation was proposed as a principle governing what first circuits are *for*, and a first circuit facing uncorrelated input has no redundancy to remove — the condition for the principle to apply is absent, not merely unexercised.",
+      "correct": true,
+      "feedback": "This is the right response, and it turns on the difference between a capacity and a rationale. Efficient coding does not say circuits decorrelate; it says they remove redundancy when redundancy is present, which is the same conditional structure as the SNR reversal in §1.5. Taste supplies the low-redundancy regime, and the principle correctly predicts nothing happens there. That is the principle working, not failing — but it does refute the stronger, commonly asserted claim that decorrelation is what early circuits do."
+    },
+    {
+      "text": "The sceptic is right that a single negative case cannot refute a general principle, but taste is one of four first circuits and the other three do different things too.",
+      "correct": false,
+      "feedback": "Partly correct, and the enumeration in the callout is the section's actual argument. But conceding the sceptic's framing gives away too much: the point is not that we have accumulated enough counterexamples, it is that the principle was conditional all along and taste satisfies its null condition. Counting cases is a weaker argument than showing the antecedent is false."
+    },
+    {
+      "text": "Taste does have correlated channels — sweet and umami share a receptor subunit — so the premise that there is nothing to decorrelate is wrong.",
+      "correct": false,
+      "feedback": "Correct under the assumption that shared molecular machinery implies correlated activation, and there is a genuine partial correlation between sweet and umami channels. But the magnitude is nothing like the correlation between neighbouring photoreceptors, which is what makes retinal decorrelation worth a dedicated circuit. A weak correlation among five channels does not repay the machinery, and 'is there redundancy' is a quantitative question rather than a binary one."
+    },
+    {
+      "text": "Decorrelation could be happening but be invisible in NST recordings, since the relevant redundancy may be between taste and the visceral afferents NST also receives.",
+      "correct": false,
+      "feedback": "Correct under the assumption that redundancy should be assessed across the full input to a circuit rather than within one modality — an interesting reframing, and not obviously wrong, since NST really is a convergence point. But taste and gut signals are informative about the same latent variable at different delays, which makes their relationship predictive rather than redundant. Subtracting one from the other would discard the teaching signal that §5.2 identifies as taste's greatest asset."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## What NST does instead
 
 NST is a **visceral integration hub**. It receives taste input alongside gut, cardiovascular and respiratory afferents, and it is where taste first meets the internal state that will modulate it.

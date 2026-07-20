@@ -32,3 +32,36 @@ The deepest computation downstream is **auditory scene analysis**: deciding how 
 The grouping cues from §2.2 — harmonicity, common onset, common modulation, spatial coincidence — are best understood not as heuristics but as **likelihood terms in an inference over generative models of the scene**. A set of components sharing a fundamental is far more probable under "one harmonic source" than under "several coincidentally related sources."
 
 That framing matters for the comparison. Olfaction's demixing problem has the same logical structure and almost none of the same cues: no harmonicity, minimal spatial resolution, leaving temporal correlation to carry the load. When §13 argues that temporal correlation is olfaction's harmonicity, this is the claim being made — not that they are similar cues, but that they occupy the same slot in the same inference.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m02.s08.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "\"Temporal correlation occupies the same slot as harmonicity.\" Read as a claim about likelihood terms rather than as an analogy, what does that commit you to?",
+  "options": [
+    {
+      "text": "That there is a generative model of odour scenes under which co-fluctuating channels are far more probable given one source than given several — so the cue's force is derivable from transport physics and is quantifiable, as harmonicity's is derivable from how vibrating bodies produce sound.",
+      "correct": true,
+      "feedback": "This is the commitment, and it is what makes the claim testable rather than decorative. Harmonicity is powerful because the physics of a vibrating body makes integer-ratio components overwhelmingly more likely under one source than under several — a likelihood ratio, computable in principle. The olfactory version demands the same thing from turbulent transport: molecules released together stay together and fluctuate together, and the strength of the cue is whatever the transport statistics say it is. Anyone making the claim owes that calculation."
+    },
+    {
+      "text": "That temporal correlation is as reliable a cue for olfaction as harmonicity is for audition.",
+      "correct": false,
+      "feedback": "Correct under the assumption that occupying the same slot means matching in strength, which is how analogies are usually meant. This one is structural. The cue could be much weaker than harmonicity and still be the correct answer to 'what fills this role', simply because it is the only candidate left once chemistry declines to supply a lawful relation. Expecting parity is what makes the claim look overstated when it is not."
+    },
+    {
+      "text": "That the olfactory bulb must contain a circuit dedicated to computing cross-channel correlation.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a term in an inference implies a dedicated detector for it — a common and often productive move, and the reason people go looking. But it converts a computational-level claim into an implementational prediction without the intervening argument: the correlation could be exploited at any stage, or distributed, or read out only where it is needed. Marr's levels are being collapsed one step too early."
+    },
+    {
+      "text": "That odour sources must emit their components in fixed ratios, since harmonicity is a lawful relation among a source's components.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the analogy runs through the *lawfulness* of the relation — and that is exactly what chemistry does not provide. There is no rule relating the components a source emits, which is why fixed-ratio templates are the wrong model. The cue is co-fluctuation in time, which requires no lawful relation among components at all, only that they travelled together. Mice can discriminate on this basis at surprisingly high frequencies [@ackels2021]."
+    }
+  ]
+}
+</script>
+</x-mcq>

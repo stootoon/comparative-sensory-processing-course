@@ -33,3 +33,24 @@ But §3.8 argued that a large part of what olfaction does is <em>navigation</em>
 
 <strong>The concrete version:</strong> what does olfactory-guided navigation demand of the code, and is anyone measuring that instead of discrimination performance?
 </x-callout>
+
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m07.s08.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A proprioception literature built on conscious position sense would have missed the cerebellum. Suppose the analogous mistake is being made in olfaction — that discrimination and identification are the by-product and navigation is the point. Design the strongest single experiment you can to find out, and state honestly what a negative result would and would not license.",
+  "placeholder": "What would you measure, and what would a null mean?",
+  "modelAnswer": "**The shape of the argument first.** The proprioceptive case is convincing because of a dissociation with a specific structure: patients with large-fibre neuropathy lose conscious position sense yet, with visual guidance, relearn substantial motor control. The perceptual representation can be removed while the control representation carries on. The olfactory version needs the same shape — a manipulation that removes one function and leaves the other — and the hard part is that both functions run through the same tissue.\n\n**The experiment.** Train an animal on two tasks with the same stimuli: a go/no-go discrimination between two odorants, and free navigation to a source releasing one of them into a turbulent plume. Then compare what the bulbar population encodes under each, and — the load-bearing part — ask which stimulus features each task's *performance* actually depends on. Manipulate plume intermittency and encounter timing while holding time-averaged identity information constant. Navigation should degrade sharply; discrimination should not. Then run the reverse: degrade identity information while preserving temporal structure.\n\n**What a double dissociation would establish.** That the two tasks make genuinely different demands of the code, which is the necessary premise of the whole reframing. Without it, 'the field is studying the by-product' is not even well-posed, because the by-product and the point would be the same signal.\n\n**What a negative result would and would not license.** A failure to dissociate would *not* show that navigation is unimportant. It would show that these two tasks do not distinguish the codes, which is compatible with the demands being genuinely different but the manipulation too weak, or with the animal solving navigation by repeated discrimination — a real possibility, and one that would make the reframing wrong in an interesting way rather than merely unsupported.\n\n**The honest caveat.** Unlike the neuropathy case, there is no known olfactory preparation that removes the percept and spares the control. Until there is, the argument is an analogy rather than a demonstration, and should be labelled as one. What makes it worth pursuing anyway is that it is cheap to check whether anyone is measuring navigation-relevant coding at all — and largely, nobody is.",
+  "rubric": [
+    "Identifies that the proprioceptive argument's force comes from a dissociation, and that olfaction lacks the equivalent preparation",
+    "Proposes a comparison of the same stimuli under a discrimination and a navigation task",
+    "Manipulates temporal or plume structure independently of identity information, in both directions",
+    "States that a double dissociation establishes only that the tasks demand different codes — the premise, not the conclusion",
+    "Handles the null honestly: weak manipulation, or navigation solved by serial discrimination, both remain open",
+    "Bonus: labels the argument as analogy rather than demonstration until a percept-sparing manipulation exists"
+  ]
+}
+</script>
+</x-free-response>

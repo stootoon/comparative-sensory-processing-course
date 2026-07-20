@@ -33,6 +33,27 @@ Two consequences worth drawing out.
 
 **Maps track importance, not geometry.** The homunculus is not a picture of the body; it is a picture of how much the animal cares about each part. That reframing matters for §13's retinotopy question — if maps allocate by importance rather than reproducing sensor layout, the question for olfaction becomes "is there any variable whose values differ in importance enough to be worth allocating unevenly?"
 
+<x-order>
+<script type="application/json">
+{
+  "id": "m04.s07.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 41,
+  "prompt": "Put the homunculus argument in causal order, from the behavioural fact to the cortical observation. The point is that the map is the last item in the chain rather than the first — which is what the usual textbook presentation obscures.",
+  "items": [
+    { "id": "a", "text": "Some body regions need finer resolution than others, because of what the animal does with them." },
+    { "id": "b", "text": "Afferents are allocated non-uniformly, concentrating innervation density where resolution matters." },
+    { "id": "c", "text": "Those regions therefore deliver disproportionately many afferent channels to the ascending pathway." },
+    { "id": "d", "text": "Cortical territory scales with the number of channels arriving rather than with the skin area they came from." },
+    { "id": "e", "text": "The cortical map is grotesquely distorted — the homunculus." }
+  ],
+  "correctOrder": ["a", "b", "c", "d", "e"],
+  "modelAnswerNote": "Reading the chain forwards makes the map a consequence and reading it backwards makes the map a mystery, which is why it is usually presented as an endpoint.\n\n**The same chain runs in vision**: foveal magnification is (b), and cortical magnification factor is (d). Two modalities, same argument, and neither needs a separate account of why the map is distorted.\n\n**Plasticity is the evidence that the chain is live rather than merely developmental.** Cortical magnification changes with use — expanded for trained digits, reorganised after amputation — which is what a budget being reallocated looks like and not what a fixed wiring diagram looks like. If (d) held only during development, the distortion would be a historical fact about the animal; that it tracks current use means the allocation is being maintained.\n\n**The consequence for §13's retinotopy question is the reframing.** If maps allocate by importance rather than reproducing sensor layout, then the absence of an olfactory map is not answered by noting that olfactory receptors are unordered. The live question becomes: is there any olfactory variable whose values differ enough in behavioural importance to be worth allocating unevenly? That is a question about ecology and loss functions, and it is answerable, which the geometric version is not."
+}
+</script>
+</x-order>
+
 ## Timing in a spatial cortex
 
 §4.2 established that fine texture is coded temporally. That code survives into cortex: S1 neurons carry texture information in precise spike timing at millisecond resolution, not only in firing rate.
@@ -45,3 +66,36 @@ Having a map does not mean the code is spatial. A system can be topographically 
 
 <strong>Apply this to olfaction.</strong> The debate over whether odour identity is carried by which glomeruli are active or by their latencies relative to the sniff has often been posed as exclusive. Touch shows a system doing both at once, in the same afferents, for different aspects of the same stimulus. The olfactory answer is likely to be "both, for different things" — and §3.7 already showed piriform using a timing-based mechanism to solve an intensity problem.
 </x-callout>
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m04.s07.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A colleague argues: \"Olfaction has no topographic map, which is why the field is stuck arguing about spatial versus temporal codes. Modalities with maps use spatial codes.\" Which correction does touch supply, and what does it cost the colleague's position?",
+  "options": [
+    {
+      "text": "Touch is topographic, metric and somatotopically mapped, and still carries fine texture in millisecond spike timing into cortex [@johnson2001; @saal2014] — so possessing a map is no evidence at all about which code carries the information.",
+      "correct": true,
+      "feedback": "This is the correction the module exists to deliver, and note how much it costs the position: not a weakening but a severed inference. Having a map and using a spatial code are independent facts, so the colleague's premise licenses nothing about olfaction either way. The positive lesson is that the olfactory question should be posed the way touch answers it — both codes, for different aspects of one stimulus — rather than as a choice."
+    },
+    {
+      "text": "Touch shows that maps are allocated by behavioural importance rather than by sensor geometry, so the absence of an olfactory map is a claim about ecology rather than about coding.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the question at issue is why the map is missing, and this is a genuinely useful reframing — it converts §13's retinotopy question into whether any olfactory variable differs enough in importance to be worth allocating unevenly. But it addresses the map's *origin*, and the colleague's error is about what a map implies for the *code*. Answering a different question is the most common way this argument goes wrong."
+    },
+    {
+      "text": "Touch's temporal code exists only because the finger moves, so the comparison holds only for active sensing and olfaction's sniff makes it applicable.",
+      "correct": false,
+      "feedback": "Partly correct and usefully so — sliding is what converts spatial microstructure into vibration, and sniffing supplies olfaction with the analogous self-generated phase reference (§4.9). But the correction does not need the active-sensing premise. The claim being refuted is that a map implies a spatial code, and one counterexample of any provenance suffices."
+    },
+    {
+      "text": "Touch's four afferent classes tile temporal frequency rather than space, so its array is not really doing spatial work at all.",
+      "correct": false,
+      "feedback": "Correct about the filterbank and wrong about the conclusion. The array does substantial spatial work — coarse texture, object shape, and the cuneate's genuine centre–surround all depend on proximity meaning something (§4.5). The interesting fact is the coexistence: a system with a real metric, using it for some computations and ignoring it for others, in the same afferents."
+    }
+  ]
+}
+</script>
+</x-mcq>

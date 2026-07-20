@@ -58,6 +58,39 @@ That reframing makes a prediction the SNR account does not: convergence should b
 
 This is the same argument as ocular dominance column formation, run on a system that has no alternative. In vision, activity refines a map that molecular gradients already got roughly right. In olfaction, there is no roughly-right map to refine, and activity is doing more of the work.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m09.s02.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The specifiability account and the SNR account both predict glomerular convergence. The section claims the specifiability account makes an extra prediction the SNR account does not. Which observation would most sharply favour specifiability over SNR?",
+  "options": [
+    {
+      "text": "A lineage with a large unordered chemoreceptor repertoire but only tens of neurons per receptor type, which builds full one-receptor-per-neuron convergence onto discrete glomeruli anyway.",
+      "correct": true,
+      "feedback": "This is the discriminating case, and it is roughly what flies are. Pooling fifty neurons buys a factor of about seven, which is worth having but is not what a system designed around a shot-noise-limited estimate and a hard deadline would settle for — whereas the specification problem is just as acute at fifty as at a thousand, because the cost is in labelling the *types*, not the cells. Not decisive on its own, since sevenfold pooling is still a benefit, but it is the right shape of evidence and §9.4 pushes it further: convergence ratios varying twentyfold with the architecture conserved is hard for an account in which the ratio is set by the noise."
+    },
+    {
+      "text": "Convergence ratios that scale with the animal's discrimination deadline across species — faster deciders pooling more.",
+      "correct": false,
+      "feedback": "Correct under the assumption that we are looking for the observation that best *tests* the SNR account, and this is exactly that test — a quantitative prediction with a sign, of the kind §0.2 asks for. But it favours SNR if it comes out positive and merely fails to support it if null. The question asked for evidence favouring specifiability, and a null here would be consistent with several things, including a bad deadline measurement. Positive evidence for the alternative is stronger than a failed test of the incumbent."
+    },
+    {
+      "text": "Elimination of convergence degrading fine odour discrimination near threshold.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a perturbation which degrades performance identifies the function — the standard optimality probe (§9.1), and a reasonable experiment. But it cannot separate the accounts, because both predict it. Specifiability says convergence is how the addressable central array gets built; destroy it and the readout is broken, so discrimination fails for reasons that have nothing to do with pooling. Perturbations that both hypotheses predict are the ones worth not running."
+    },
+    {
+      "text": "Gustation, which has ~5 receptor types and no glomeruli.",
+      "correct": false,
+      "feedback": "Partly correct, and the section does lean on it — a small repertoire is cheap to specify directly, so the account predicts no glomeruli, and there are none. But taste differs from olfaction in dimensionality, in receptor family, in the existence of an innate loss function, and in half a dozen other ways, so the comparison confounds the specification variable with everything else. It is the right *kind* of control (§5.11), and it is much weaker than a lineage that holds the unordered high-dimensional array fixed and varies only the pooling gain."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">Where the missing metric actually costs you</div>
 The course has stated eight times that the olfactory receptor array is unordered, and has used the fact mainly to explain why familiar motifs are absent — no surround, no map, no convolution, no interpolation (§3.4, §11.1). Those are absences.
@@ -66,6 +99,18 @@ The course has stated eight times that the olfactory receptor array is unordered
 
 That is three mechanisms in place of one gradient, and each of them has consequences that §9.3 and the capstone have to live with.
 </x-callout>
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m09.s02.p1",
+  "contentRev": 1,
+  "prompt": "The taste receptor swap is decisive: express a bitter receptor in a sweet-detecting cell and the animal finds the bitter ligand appetitive, so behaviour follows the cell and the labelled-line question is settled in one stroke [@chandrashekar2006]. The capstone proposes the olfactory version — change which receptor a sensory neuron expresses, present the new ligand, ask whether behaviour follows the receptor or the glomerulus. Given the three signatures above, predict what goes wrong.",
+  "placeholder": "Which of the three developmental signatures makes the olfactory version ambiguous, and what exactly does it break?",
+  "reveal": "**The third signature is the problem: the receptor protein participates in axon targeting.**\n\nChange which receptor a neuron expresses and its axon may no longer go where the old receptor's axons went. It may go to the glomerulus appropriate to the *new* receptor, or somewhere novel, or fail to coalesce at all. The experiment then has not swapped a receptor inside a fixed circuit — it has changed the circuit.\n\n**Why that is fatal rather than merely inconvenient.** The design assumes the two candidate answers are distinguishable. If the receptor takes its wiring with it, 'behaviour follows the receptor' becomes true by construction and carries no information about the code: of course the animal reports the new ligand as the new receptor's odour, because the input is arriving at the new receptor's glomerulus. The experiment can no longer come out the other way, so it is not a test.\n\n**Why gustation is spared.** Taste receptor cells do not use their receptor to find their target — and that is possible only because there are about five of them, so the wiring can be specified directly. The very fact that makes the taste experiment clean is the fact §9.2 says olfaction cannot have. The developmental constraint and the experimental confound are the same constraint seen twice.\n\n**The general form, which is worth carrying past this experiment.** *In a system where the receptor determines the wiring, receptor manipulations are not clean perturbations of the code.* Any olfactory experiment that changes what a neuron expresses is potentially changing where it projects.\n\n**Three ways to design around it**, developed below: swap after targeting is complete and verify the anatomy; treat targeting as a measured outcome in every animal rather than an assumption; or build a chimeric receptor separating ligand binding from targeting. The third is the clean reagent, and it is a molecular problem rather than a conceptual one."
+}
+</script>
+</x-predict>
 
 ## The receptor-swap experiment may be uninterpretable
 

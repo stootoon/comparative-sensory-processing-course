@@ -45,6 +45,18 @@ Adding new interneurons is a mechanism for changing the basis. Granule cells sha
 
 That is a coherent argument, it connects to a measured property of olfactory input, and it explains an otherwise anomalous fact. It is also, as things stand, untested.
 
+<x-predict>
+<script type="application/json">
+{
+  "id": "m09.s05.p1",
+  "contentRev": 1,
+  "prompt": "Before reading on, grade the non-stationarity account yourself. §0.2's five criteria are: a measured input ensemble; a stated physical constraint; a risky quantitative prediction; confirmation against independent data; few free parameters. Go through them one at a time for the claim that adult bulbar neurogenesis exists because olfactory input statistics keep moving, and decide how many it passes.",
+  "placeholder": "One line per criterion — pass, fail, or partial, and why.",
+  "reveal": "**It fails four of the five.**\n\n**Measured ensemble: no.** The account's central premise is that olfactory statistics are non-stationary and other modalities' are not. Nobody has measured the rate of change of natural odour statistics. The premise is asserted, using the same absent ensemble that blocks everything else in the modality (§3.11) — so the argument is resting on the one thing olfaction does not have.\n\n**Physical constraint: partial.** There is a real cost to generating and integrating new interneurons and a real benefit to a matched basis. Neither is quantified, so the constraint cannot bound anything.\n\n**Risky quantitative prediction: no, and this is the decisive one.** The account predicts that neurogenesis exists. It predicts no rate, no cell number, no timescale, no functional magnitude. A theory that predicts the existence of something already observed has taken no risk, and §0.2 exists to separate exactly this from the retinal case, where the prediction had a sign and a magnitude and could have come out wrong.\n\n**Confirmed against independent data: no.** Blocking neurogenesis impairs some olfactory learning and discrimination, which is consistent with the account — and equally consistent with neurogenesis serving learning capacity, memory clearance, or circuit maintenance. Evidence that fails to discriminate among the live hypotheses is not confirmation of any of them.\n\n**Few free parameters: not applicable,** since there is no model with parameters.\n\n**What it does pass on: plausibility, and connecting two independently motivated facts.** That is worth something. It is not a normative result, and the useful move is to say so rather than to repeat the story — because naming which criterion fails is what tells you which experiment to run. The account fails because it predicts existence rather than magnitude, so every fix below is a way of getting a number out of it.\n\nIf you scored it more generously than this, check whether you were grading the *plausibility* of the story rather than the evidence for it. That substitution is the single most common failure in evolutionary argument, and this module is where the course is most exposed to it."
+}
+</script>
+</x-predict>
+
 <x-callout class="x-callout is-key">
 <div class="x-callout-title">This is a story we currently cannot test</div>
 Held against §0.2's five criteria, the non-stationarity account of adult neurogenesis fails on four of them.
@@ -108,3 +120,36 @@ That division makes a prediction that could fail. Newly generated sensory neuron
 The four predictions above would change that, and the first is the one worth doing, because it is comparative and this is a comparative course. It also has the property §9.1 asked for: it distinguishes an optimality account from its rivals by asking whether the feature co-varies with the task or with the tree.
 
 Until then, this belongs in the module's column of things that are believed rather than known, and §9.6 scores it accordingly.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m09.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Peripheral olfactory neurons and bulbar interneurons are both continuously replaced. The section argues these two facts should be explained separately, and that only one of them needs a coding account. What carries that argument?",
+  "options": [
+    {
+      "text": "Taste. Taste receptor cells also turn over and are also directly exposed to the environment, and nobody proposes a volatility story for gustation — so exposure suffices to explain peripheral turnover, and the bulbar interneuron result is what remains unexplained.",
+      "correct": true,
+      "feedback": "Taste is doing the work of a control here, and this is the module's cleanest use of one. Two exposed epithelia, both turning over, one with a non-stationarity story attached and one without — and taste's statistics are not notably volatile. The parsimonious reading is that exposure explains both peripheries, which strips the easy case away and leaves the genuinely anomalous fact standing alone: lifelong interneuron addition to a first sensory circuit, which no other modality does and which exposure cannot explain, since bulbar granule cells are not exposed to anything. Note that this also tells you which experiments matter — the ones targeting the subventricular route rather than the epithelium."
+    },
+    {
+      "text": "The two populations regenerate on different timescales, so they cannot be serving the same function.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a shared function requires a shared timescale, which is not generally true — and the timescales here are in fact similar, both on the order of weeks. Worse, the section uses timescale matching as a *test* of the coding account (prediction four): the mechanism's integration time has to match the environmental changes it is supposed to track. Timescale is evidence about whether an account can work, not about whether two mechanisms are distinct."
+    },
+    {
+      "text": "Peripheral turnover is found across many species while bulbar neurogenesis is not, so only the latter needs an adaptive explanation.",
+      "correct": false,
+      "feedback": "Correct under the assumption that phylogenetic distribution identifies which feature needs explaining, which is a reasonable heuristic and the one §9.1 endorses in general — features tracking the tree get a contingency reading. But the premise is not what the section argues from, and the inference runs backwards: a feature being widespread is not evidence that it needs no functional account. Retinal centre–surround is universal and has one. What removes the peripheral case is the availability of a competing mechanism-level explanation, not its distribution."
+    },
+    {
+      "text": "Blocking experiments target the subventricular zone and leave peripheral turnover intact, so the peripheral case is inaccessible to experiment.",
+      "correct": false,
+      "feedback": "Correct under the assumption that what cannot be manipulated cannot be explained — and the anatomical observation is right and useful, since it means the existing blocking literature speaks to the bulbar account rather than the peripheral one. But it inverts the logic. The peripheral case is set aside because it has a better explanation available, not because it is hard to test; and it *is* testable in the obvious way, by rearing animals in filtered air and asking whether turnover tracks insult rather than volatility."
+    }
+  ]
+}
+</script>
+</x-mcq>

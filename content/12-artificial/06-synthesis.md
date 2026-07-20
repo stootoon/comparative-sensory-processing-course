@@ -21,6 +21,39 @@ Every other module has scored the theories in its field against §0.2's five cri
 
 **Overall.** This module makes a good comparative argument and not a good normative one. It scores about as well as §13's eliminations do — which is to say it is most valuable for what it subtracts rather than for what it establishes, and its central claim, per §12.4, is supported and not isolated.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s06.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "This module fails §0.2's criterion one — a measured ensemble — and passes criterion five vacuously. What is the right reading of that scorecard?",
+  "options": [
+    {
+      "text": "The module commits the same error it convicts olfactory theory of: three domains, chosen by the author with the conclusion known, from a population of sensing problems nobody enumerated or sampled.",
+      "correct": true,
+      "feedback": "Exactly, and the self-application is the point rather than an act of modesty. §12.4 names the specific consequence: the informative cells are off-diagonal — good hardware and strong demand but no corpus, or poor hardware with a good corpus — and this module has sampled only the diagonal. That is a concrete, cheap remedy rather than a caveat, which is what distinguishes an honest failure from a ritual one. Note also that criterion five passing vacuously is a caution, not a credential: a verbal argument with no parameters has nothing to fit and nothing to be wrong about."
+    },
+    {
+      "text": "The failure is unavoidable, since there is no population of sensing problems to sample from.",
+      "correct": false,
+      "feedback": "Correct under the assumption that 'engineered sensing domains' is not a well-defined reference class — a defensible position, and the same one sometimes taken about comparative biology's nine modalities. But §12.4's remedy 2 shows the class is enumerable enough to be useful: whether a domain exists with excellent cheap instrumentation, strong commercial demand, and no labelled corpus is a question a reader could settle in an afternoon. An unsampled population is not an unsampleable one."
+    },
+    {
+      "text": "It does not matter, because criterion 3 — the risky prediction that the stall would be at the input representation — carries the argument on its own.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a single risky confirmed prediction outweighs a biased sample, which is roughly the Popperian reading and is why §12.6 calls criterion 3 the module's best claim to being a test. But the prediction is qualitative — a location, with no sign and no magnitude — and §0.2 asks for more. A weak prediction confirmed on a hand-picked sample is not enough to carry the argument alone."
+    },
+    {
+      "text": "The scorecard shows the module is a normative argument of moderate quality.",
+      "correct": false,
+      "feedback": "Correct under the assumption that scoring against §0.2 is the right instrument for this argument, which is what the section itself does. But the verdict it reaches is a category correction: this is a good *comparative* argument and not a normative one at all. Its value is in what it subtracts — every biological-constraint explanation of the theory gap — which is the same profile §13's eliminations have."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Datasheet row
 
 <x-figure src="content/00-toolkit/figures/datasheet.js"
@@ -60,3 +93,24 @@ The last two rows are the ones to carry forward. Everything above them describes
 
 <strong>7. The decisive cheap experiment: hand a learner the composition vector directly.</strong> Bypass the sensors and the superposition problem entirely by training on GC-MS compositions with source labels, at whatever small scale is affordable. If a learner cannot recover source identity from exact composition, the difficulty is intrinsic and neither datasets nor better sensors are the story. If it can, then the entire gap sits between the air and the sensor, which is an instrumentation problem rather than a scientific one. This separates the two leading accounts in §12.4, it is affordable now, and nobody appears to be running it.
 </x-callout>
+
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m12.s06.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Hook 6 states that datasets buy engineering success and normative understanding separately, and that this cuts against the module's own thesis. Suppose the corpus gets built, a large network trained on it identifies odours superbly, and §13.7's questions remain unanswered. Say what the course should conclude, and what design decision would have prevented the outcome.",
+  "modelAnswer": "**What the course should conclude: that 'dataset' was doing double duty, and the module tested the wrong one.**\n\nEfficient-coding theory consumes the unlabelled marginal $p(x)$ — a characterisation of what the world delivers, from which a code is derived given a channel constraint and an objective. Supervised engineering consumes the conditional $p(y \\mid x)$ — inputs paired with the answers a human would give. These are different objects with different costs: $p(x)$ costs collection, $p(y\\mid x)$ costs annotation.\n\nVision had both, which is why the conflation went unnoticed. But the two goods came from different places and different decades. **The labelled corpus bought recognition; the normative theory came from unlabelled natural image statistics measured years earlier by people doing something else** [@simoncelli2001]. The engineering evidence in §12.2 and §12.3 is about the conditional; the course's central claim is about the marginal. So the imagined outcome would not refute the central claim — it would show that the parallel used to support it was weaker than advertised, and that the module had been running an argument about $p(y\\mid x)$ to license a conclusion about $p(x)$.\n\n**The honest narrowing**, and §12.4's callout states it: what olfaction lacks is the *shared prerequisite* of both goods. Nobody has gone out and recorded, at scale and in a common format, what actually arrives at the sensor. Taking that step is necessary for both and sufficient for neither.\n\n**The design decision that prevents it.** Publish the unlabelled compositional ensemble as a first-class object rather than as an intermediate consumed by a training pipeline. If only the labelled pairs and the trained model are released, olfaction gets a device and the theory gets nothing; if the ensemble is published, the derivations become possible whether or not the device is ever built — and per §12.5 that is the cheaper half, since it needs no panel, no annotation, and no agreement about what anything smells like.\n\n**The uncomfortable feature of that recommendation** is that it is about publication policy rather than science, which is where the binding constraint appears to sit. A second decision belongs with it: fund the receptor forward model, because without a model of composition → activation including non-additivity [@shen2013], even a published ensemble leaves the flagship calculation unrunnable.\n\n**And a caveat that survives all of it.** None of this touches Gap 2. A corpus does not state an objective. If olfaction is an inference problem rather than an efficient-coding problem, a beautifully characterised $p(x)$ still leaves you needing to name the latent variable and the loss — which costs nothing but thought and is not helped by any amount of data.",
+  "rubric": [
+    "Distinguishes the marginal $p(x)$ from the conditional $p(y \\mid x)$ and identifies which each good requires",
+    "States that the module's engineering evidence concerns the conditional while the course's claim concerns the marginal",
+    "Concludes the parallel is narrowed rather than the central claim refuted",
+    "Identifies collecting the input in a common format as the shared prerequisite, necessary for both and sufficient for neither",
+    "Names publishing the unlabelled ensemble as a first-class object as the preventive design decision",
+    "Bonus: uses vision as the cautionary case, where the two goods arrived decades and communities apart",
+    "Bonus: notes that no corpus states an objective, so Gap 2 is untouched either way"
+  ]
+}
+</script>
+</x-free-response>

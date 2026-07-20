@@ -56,3 +56,36 @@ Magnetoreception has made progress that way: quantum-coherence arguments <em>con
 For the course's dimensionality axis, magnetoreception anchors the far end. The stimulus is essentially **two numbers** — field direction and intensity — with almost no bandwidth, used for a single low-dimensional inference (heading, and possibly position) over very long timescales.
 
 Set against olfaction's several hundred dimensions with millisecond-relevant structure, the two occupy opposite corners. And both are hard, for opposite reasons: olfaction because the space is too large to characterise, magnetoreception because the signal is too small to detect.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m08.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Magnetoreception has had decades of work, a well-documented behaviour, and normative reasoning good enough to rule candidate mechanisms out on physical grounds — and still no agreed transducer. What is the correct methodological lesson for a theorist working on a modality whose mechanism is unsettled?",
+  "options": [
+    {
+      "text": "Normative and physical reasoning can constrain a mechanism sharply without identifying it, because the remaining bottleneck may be a biological fact — where the receptor is, what it is made of — that no amount of theory will supply.",
+      "correct": true,
+      "feedback": "This is the lesson, and it is unwelcome in a normative course, which is why it is worth stating. The quantum-coherence argument is excellent theory: it establishes that thermal energy exceeds the interaction energy, which eliminates whole classes of detector, and it predicts a light-dependent inclination compass that bird behaviour matches. All of that is real progress, and none of it locates a cell. Theory narrows the hypothesis space; it does not perform the dissection. Recognising which of your open questions is theory-limited and which is fact-limited is a scheduling decision, and getting it wrong wastes years."
+    },
+    {
+      "text": "The behavioural evidence should be treated as unsafe until a receptor is identified, since a sense with no known transducer may be an artefact of experimental design.",
+      "correct": false,
+      "feedback": "Correct under the assumption that mechanism is the ground truth against which behaviour is validated — the ordinary route in every other modality, and the one this section says is blocked here. But the ordering is backwards. Magnetic orientation behaviour replicates across birds, turtles, salmon and insects under controlled field manipulation; it is among the better-established behavioural facts in sensory biology. A phenomenon does not become doubtful because its mechanism is unknown, and a field that required mechanism before believing behaviour would have rejected olfactory coding in 1985."
+    },
+    {
+      "text": "Effort should move to modalities where the bottom-up route works, because a channel that cannot be grounded in a receptor cannot support quantitative theory.",
+      "correct": false,
+      "feedback": "Correct under the assumption that quantitative theory requires a characterised transducer, and there is a real point buried here — the strongest results in this course do sit on modalities with well-measured front ends. But the inference fails on its own example. The physical constraint argument in magnetoreception *is* quantitative theory, derived without a receptor, and it did useful eliminative work. And the olfactory parallel runs the other way: olfaction's receptors are exceptionally well characterised and the field is still stuck, because its missing item is the stimulus ensemble rather than the transducer."
+    },
+    {
+      "text": "The failure shows that the sense is probably distributed across several mechanisms, which is why no single receptor has been found.",
+      "correct": false,
+      "feedback": "Correct under the assumption that failure to find one thing is evidence for many things, and the substantive claim may well be true — elasmobranchs use induction, birds appear to use a radical-pair compass, and magnetite candidates persist. But as a *methodological* lesson it is the wrong shape: it converts a negative result into a positive hypothesis with no independent support, which is the move §9.1 names as the standard route to unfalsifiable storytelling. Multiplicity is a live possibility, not the lesson of the difficulty."
+    }
+  ]
+}
+</script>
+</x-mcq>

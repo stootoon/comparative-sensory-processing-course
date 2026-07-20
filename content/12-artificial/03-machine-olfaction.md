@@ -29,6 +29,18 @@ The failure is entirely downstream of the array, and it has a specific shape.
 
 **Cross-sensitivity.** Each sensor responds to many compounds, which is the design intent. It also means no sensor's output can be interpreted on its own, so there is no quantity in the raw data with a device-independent meaning.
 
+<x-predict>
+<script type="application/json">
+{
+  "id": "m12.s03.p1",
+  "contentRev": 1,
+  "prompt": "Drift and cross-sensitivity are always named together in the electronic-nose literature. Before reading on: take each alone and say whether it is survivable, and what rescue is available. Then say what happens when both are present at once, and why the rescues stop working.",
+  "placeholder": "What invariant survives drift alone? What survives cross-sensitivity alone? What survives both?",
+  "reveal": "Each alone leaves an invariant, and the rescues are built on it.\n\n**Drift with selective sensors.** Each channel still means 'the amount of compound X'. Drift merely rescales that quantity, so ratios, internal standards or periodic recalibration against a known reference recover it. The meaning of a channel is stable even when its gain is not.\n\n**Cross-sensitivity with stable sensors.** Each channel reports a fixed weighted mixture. The mixing matrix is a property of the device, so characterise it once and invert it, or simply train a classifier on the raw pattern and use it indefinitely. The gain is stable and so is the mixing.\n\n**Both together.** Every channel reports a mixture, and the mixing weights themselves wander. Now there is no quantity in the raw data with a device-independent meaning and no quantity with a *time*-independent meaning either. Normalisation has nothing to key on, because there is no channel whose reading can be interpreted alone and therefore no reference against which to fit the transform. The pattern *is* the measurement, and the pattern moves.\n\n**The consequence that matters for this module** is not that classification is hard. It is that no corpus transfers: a dataset collected on one device is a dataset about that device, on that day. §12.4 promotes this to Rival 1, and the deeper box in this section states its strongest form — an odour corpus is not merely expensive, it is not a redistributable object.\n\nNotice also what this implies about the fix. The rescue is not drift-free hardware, which is a materials problem that has resisted decades of work. It is a shared reference object that restores a common frame — which is why §12.5 puts the transfer standard first, ahead of the sensors."
+}
+</script>
+</x-predict>
+
 Separately, each of these is manageable. A drifting but selective sensor can be rescued by ratios, internal standards, or periodic recalibration against a known reference, because "the amount of compound X" survives as a quantity the drift merely rescales. A stable but cross-sensitive array can be characterised once and used indefinitely, because the mixing is fixed and invertible.
 
 Together they are not manageable, and the figure shows why. When every channel reports a different weighted mixture and the weights themselves wander, the representation has no invariant. There is nothing the classifier could have keyed on that persists. The pattern *is* the measurement, and the pattern moves.
@@ -59,6 +71,39 @@ So the field's difficulty splits cleanly in two, and only one half is stuck:
 - **Map composition, or a cheap proxy for it, onto the things an animal cares about — sources, objects, categories, percepts.** Not solved, and stuck for want of examples of the mapping.
 
 The second is a supervised learning problem with no training set. That is a strikingly specific way to be stuck, and it is check 3 from §12.1's list: the stall is at the input representation and at the input–output pairs, not at the classifier.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "GC-MS recovers the composition of an air sample routinely and to a standard no nose approaches. Which story about machine olfaction's stall does that fact decisively kill?",
+  "options": [
+    {
+      "text": "That the information is not recoverable from the physical signal — that odour identity is simply not there to be extracted.",
+      "correct": true,
+      "feedback": "Right, and this is §12.1's first rung being used in its cheapest and most decisive form. An existence proof about the information licenses nothing about mechanism, but it removes one explanation permanently. What remains is the second half of the split: mapping composition onto sources, objects and categories, which is a supervised problem with no training set. That is a strikingly specific way to be stuck, and it is check 3 passing."
+    },
+    {
+      "text": "That chemical sensor hardware is the binding constraint.",
+      "correct": false,
+      "feedback": "Correct under the assumption that GC-MS counts as a chemical sensor for these purposes — and it does bound the *nose* rather than the problem, which is genuinely a hit against Rival 1 (§12.4). But it does not kill the hardware story, because GC-MS is not deployable as a nose: too slow by three or four orders of magnitude, too large, sample-consuming. A perfect fast array delivered tomorrow would still leave the composition-to-source mapping unlearned."
+    },
+    {
+      "text": "That the problem is intrinsically harder than vision.",
+      "correct": false,
+      "feedback": "Correct under the assumption that intrinsic difficulty means difficulty of *measurement*. But §12.4's surviving version of that rival is computational, not measurement-related: odour has no metric, hence no convolutional prior, hence a higher sample requirement. GC-MS says nothing about that, and the two are compatible."
+    },
+    {
+      "text": "That the stall is at the classifier rather than the input representation.",
+      "correct": false,
+      "feedback": "Correct as a conclusion, wrong as an inference from this premise. The stall's location is established by the field having full access to every classifier and optimiser the successful domains used and stalling anyway. GC-MS contributes something different — that composition is obtainable — which sharpens *what* the missing input is rather than showing where the failure sits."
+    }
+  ]
+}
+</script>
+</x-mcq>
 
 ## No standard representation, and no benchmark
 

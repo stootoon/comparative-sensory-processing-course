@@ -41,3 +41,36 @@ The second ensemble is what happens *after* swallowing. Gut receptors detect nut
 This is a **supervised learning signal with a delayed, noisy, but ground-truth teacher**. Taste has something no other modality in this course has: an independent channel that tells it whether its decision was right.
 
 Vision never learns whether it identified an object correctly except through behavioural consequence. Taste gets a direct nutritional report. That asymmetry probably explains why taste can afford to be hard-wired — it has a mechanism for correcting the hard-wiring where it is wrong.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m05.s02.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "§1.2 and §2.2 both begin by measuring a natural stimulus ensemble; §3.2 reports that olfaction's chemical ensemble does not exist. Taste's ensemble question looks trivial. What does the triviality actually consist in?",
+  "options": [
+    {
+      "text": "The dimensions were fixed in advance by behavioural consequence, so the ensemble is a distribution over a handful of pre-defined categories rather than over an unbounded stimulus space.",
+      "correct": true,
+      "feedback": "Right, and stating it this way makes clear that the triviality is bought rather than given. Vision and audition had to *discover* their coordinates from the statistics of the signal. Taste's coordinates were supplied by evolution from the consequences, so the hard half of the problem — what are the axes — was solved before any measuring began. That is why the callout above treats taste as the exemplar of the second hope for olfactory coordinates, and why the two hopes are different research programmes rather than two routes to one answer."
+    },
+    {
+      "text": "Taste's chemical space really is small — there are far fewer tastants than odorants.",
+      "correct": false,
+      "feedback": "Correct under the assumption that stimulus-space size tracks the number of relevant molecules. It does not, and the section says so directly: bitter compounds are chemically wildly heterogeneous, and there are hundreds of them. The set of molecules is large; the set of *categories* is small, because the categories were defined by what the compounds do rather than by what they are. Confusing the two is what makes taste look like an easy chemistry problem when it is really a solved coordinates problem."
+    },
+    {
+      "text": "The post-ingestive channel supplies ground truth, so the ensemble can be estimated online rather than measured in advance.",
+      "correct": false,
+      "feedback": "Partly correct, and it is the right account of something else — how taste corrects its hard-wiring, which the section's last paragraph develops. But a teaching signal tells you whether a decision was right; it does not tell you what the stimulus dimensions are. An animal with a perfect nutritional report and no pre-defined categories would still face the coordinates problem. The teacher fixes the mapping, not the axes."
+    },
+    {
+      "text": "With five channels, the covariance structure can be estimated from a small number of samples, so the measurement is cheap.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the obstacle in olfaction is sample complexity — the same assumption the vision quiz flags as a soluble practical worry rather than the deep one. Low dimensionality does make estimation cheap, and that is a genuine advantage. But it presupposes you already know which five quantities to compute covariances among, which is exactly what olfaction lacks. Estimation is easy once the coordinates exist."
+    }
+  ]
+}
+</script>
+</x-mcq>

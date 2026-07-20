@@ -63,6 +63,39 @@ This has a specific and uncomfortable consequence for the flagship calculation. 
 
 So the specification has a fourth component that the "olfaction needs its ImageNet" framing hides: **the ensemble is not enough without a model of the transduction it passes through.** It is medium-cost, it is measurable with existing methods, and it is a prerequisite for the calculation the course most wants run. That it is rarely named as part of Gap 1 is a small failure of the field's own accounting, and this module's most concrete addition to §13.7.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A funder offers to build one item from this specification. You want the flagship efficient-coding calculation — the olfactory analogue of deriving opponent axes from natural cone responses [@buchsbaum1983; @ruderman1998] — to become runnable. Which single item is the binding one, and why?",
+  "options": [
+    {
+      "text": "The receptor forward model, because a compositional ensemble cannot be pushed through a receptor array without a map from composition to activation that handles non-additivity [@shen2013].",
+      "correct": true,
+      "feedback": "This is the piece the 'olfaction needs its ImageNet' framing hides, and it is the module's most concrete addition to §13.7's accounting. The colour calculation worked because cone responses to a mixture of wavelengths add, so the map from spectrum to activation is linear, known, and PCA on the result is well defined. The olfactory version has neither property. Note the corollary: without the forward model, a perfect compositional corpus leaves the flagship calculation still unrunnable, which is why the item's usual omission from lists of what is missing is consequential rather than pedantic."
+    },
+    {
+      "text": "The unlabelled compositional corpus, since that is $p(x)$ and step one of the efficient-coding template consumes exactly that.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the ensemble is the only prerequisite — which is the course's own repeated framing and is why this is the tempting answer. It is genuinely necessary, and the section's headline result is that this version of Gap 1 is far cheaper than the labelled one. But the ensemble is over *compositions*, and the calculation is about *receptor activations*. The transduction between them is the item that has to exist as well, and the question asks which is binding given the other pieces."
+    },
+    {
+      "text": "The transfer standard, because without a common frame no two labs' measurements can be pooled.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the corpus will be built from sensor-array responses, in which case this is item one for exactly the stated reason and has the best consequence-to-cost ratio on the list. But §12.5's escape route is to make *composition* the interchange format, and a GC-MS composition is already device-independent. The transfer standard is essential for the device and largely bypassed for the theory."
+    },
+    {
+      "text": "The benchmark task, since without an agreed scoring rule nobody can tell whether a derived representation is any good.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the goal is engineering progress, where the elimination mechanism is what drives a field (§12.2). For a normative derivation it is the wrong instrument: the retinal filter was not validated by a benchmark but by comparison against independently measured biology. Benchmarks adjudicate methods; normative theories are tested against measurements they did not fit."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## 5. A benchmark task, chosen carefully because it will shape the field
 
 Benchmarks are not neutral instruments. A field optimises what its benchmark scores, so the choice of task determines what gets built for a decade. §12.3 noted that the one benchmark-shaped episode in machine olfaction was built on single molecules at fixed concentration rated by human panellists — a well-designed challenge on a badly chosen stimulus, which is §13.7's Gap 3 in engineering dress.

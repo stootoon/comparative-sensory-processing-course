@@ -41,3 +41,30 @@ The canals work in **coplanar pairs across the two heads**: the left horizontal 
 Push–pull doubles sensitivity and, more importantly, cancels common-mode signals — temperature changes, systemic noise — that affect both sides equally. It is the same trick as differential amplification.
 
 Note that olfaction has a bilateral arrangement too, and it is one candidate for the location stream (§3.8). But the olfactory version cannot be push–pull in the vestibular sense, because the two nostrils are not measuring opposite signs of the same variable — they are sampling nearly the same air a few millimetres apart. The comparison sharpens what bilateral olfactory comparison could and could not achieve.
+
+<x-matrix>
+<script type="application/json">
+{
+  "id": "m06.s04.mx1",
+  "contentRev": 1,
+  "points": 3,
+  "corner": "Property",
+  "prompt": "Fill both columns before revealing. The interest is not in either column alone but in the fact that the same three questions have opposite answers — and that the answers are consequences of what is known about the stimulus space rather than of how sophisticated each system is.",
+  "rows": [
+    "Approximate channel count",
+    "Is the array a basis for the stimulus space?",
+    "Is redundancy across channels needed?"
+  ],
+  "columns": ["Vestibular", "Olfaction"],
+  "cells": {
+    "Approximate channel count|Vestibular": { "answer": "10", "accept": ["10","ten","10 (6 canals + 4 otolith organs)","6 canals + 4 otoliths"] },
+    "Approximate channel count|Olfaction": { "answer": "~1000", "accept": ["1000","~1000","about 1000","1,000","~350 in humans","hundreds to a thousand"] },
+    "Is the array a basis for the stimulus space?|Vestibular": { "answer": "yes — three orthogonal canals span 3-D rotation", "accept": ["yes","yes, orthogonal","basis","yes - orthogonal basis","exactly"] },
+    "Is the array a basis for the stimulus space?|Olfaction": { "answer": "unknown — the space has no known dimension or basis", "accept": ["no","unknown","not known","no known basis","undefined"] },
+    "Is redundancy across channels needed?|Vestibular": { "answer": "no — minimum sufficient basis, push-pull aside", "accept": ["no","minimal","none","not needed","no (only push-pull)"] },
+    "Is redundancy across channels needed?|Olfaction": { "answer": "yes — broad overlapping tuning is the rational response to ignorance", "accept": ["yes","heavily","essential","broad overlapping","yes, extensive"] }
+  },
+  "modelAnswerNote": "The row that does the work is the third one.\n\nVestibular can afford a minimum sufficient basis because the physics is known in advance: angular velocity is a 3-vector, so three orthogonal sensors are provably enough and a fourth would add nothing. That is a design available only when the coordinates of the stimulus space are known before the animal is built.\n\nOlfaction's ~1,000 broad, overlapping, disordered channels are what you build when you do *not* know the coordinates. A random projection into a high-dimensional space preserves structure you have not yet identified, and preserves it well enough that a downstream learner can find the relevant directions later. That is the compressed-sensing reading, and it is also what expansion recoding in the mushroom body and piriform is set up to exploit [@litwinkumar2017].\n\n**So the two arrays are not more and less sophisticated versions of the same thing.** They are optimal under different states of knowledge — one under a known basis, the other under ignorance of whether a basis exists. Read that way, olfactory disorder stops being a puzzle about olfaction and becomes a prediction about any sensor built for a space nobody has coordinates for."
+}
+</script>
+</x-matrix>

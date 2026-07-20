@@ -49,3 +49,36 @@ Audition must compute location from scratch — it is not in the receptor array 
 The medial geniculate body shows the same features as LGN: driver and modulator inputs, massive descending corticothalamic feedback outnumbering the ascending path, burst and tonic firing modes, and strong modulation by attention and state.
 
 Two independent modalities converging on the same thalamic architecture is decent evidence that the architecture does something necessary rather than accidental. Which makes olfaction's willingness to do without it the more striking — and is exactly the question §3.6 takes up.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m02.s06.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "This section proposes that pathway depth tracks how much of the behaviourally relevant variable is absent from the receptor array, rather than evolutionary age. Which finding would count most strongly against it?",
+  "options": [
+    {
+      "text": "A modality whose receptor array supplies the behaviourally relevant variable directly, and which nonetheless has many obligatory stations before the signal can drive behaviour.",
+      "correct": true,
+      "feedback": "This is the disconfirming case, because it is the combination the hypothesis forbids: nothing to compute, yet depth anyway. Note that the hypothesis is genuinely at risk here, which is what makes it worth stating. Proprioception is the obvious place to look — the array reports joint configuration close to directly — and the fact that it is also the shortest route to action is the hypothesis surviving a test it could have failed."
+    },
+    {
+      "text": "The observation that olfaction is both the phylogenetically oldest of the three and the shallowest, as the age account predicts.",
+      "correct": false,
+      "feedback": "Correct under the antiquity hypothesis, which is the live rival and is probably part of the story. But the two accounts agree on olfaction — it is old *and* it computes little geometry — so the case discriminates nothing. Evidence against a hypothesis has to come from where the rivals disagree, which means finding a young modality that is shallow or an old one that is deep."
+    },
+    {
+      "text": "A finding that the inferior colliculus is bypassed in some species, reducing audition's effective depth below vision's.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the raw synapse count is the predicted quantity. It is not quite: the account predicts depth from computational demand, so a species that bypasses the IC is a counterexample only if it also computes auditory space to the same precision. Without the behavioural half, the finding is uninterpretable — and if the bypassing species turned out to localise poorly, it would be a confirmation."
+    },
+    {
+      "text": "Evidence that the IC's main functions are statistical adaptation and multisensory integration rather than geometric computation.",
+      "correct": false,
+      "feedback": "Partly correct, and the observation is largely true [@dean2005]. It bites to the extent that it removes the geometric work the account attributes to the pathway. But the account predicts *total* depth from total computational demand, and does not require each station to be doing the geometry — stations acquire further functions once they exist. It would be damaging only if no station in the pathway did geometric work, and the superior olive plainly does."
+    }
+  ]
+}
+</script>
+</x-mcq>

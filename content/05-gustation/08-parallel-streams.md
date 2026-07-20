@@ -32,6 +32,39 @@ A learning rule requiring temporal contiguity is optimal when causes and effects
 <strong>The olfactory version is worth asking about.</strong> Olfactory learning also supports rapid acquisition with relatively long delays, and olfaction shares taste's problem: the consequences of an odour (a food was good, a predator was near) often arrive well after the odour itself. If learning rules track feedback statistics, olfaction and gustation should have similar rules for similar reasons — and both should differ from vision, where consequences are usually immediate.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m05.s08.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Conditioned taste aversion is one-trial and tolerates hour-long delays. The section explains this by matching the learning rule to the teacher's statistics. Which prediction follows most directly, and would most sharply test the explanation?",
+  "options": [
+    {
+      "text": "Within one animal, the tolerable delay should differ by modality according to how delayed that modality's consequences typically are — long for taste, short for a cue predicting a foot shock.",
+      "correct": true,
+      "feedback": "This is the prediction that puts the account at risk, because it forbids the obvious alternative: that the animal simply has a slow general-purpose eligibility trace. A single trace predicts one delay tolerance across all cues. The statistics-matching account predicts cue-specific tolerances within the same nervous system, and the classic selective-association findings are exactly that — tastes associate with illness across long delays, audiovisual cues with shock across short ones. Same animal, same illness, different rules."
+    },
+    {
+      "text": "Aversion strength should scale with the severity of the post-ingestive consequence.",
+      "correct": false,
+      "feedback": "Correct under the assumption that learning magnitude tracks the teaching signal's magnitude, which is true and is observed. But it is predicted by essentially every associative account, including ones with no matching to feedback statistics at all. A prediction shared by all competitors discriminates among none of them — the same objection §1.5 raises about centre–surround being over-determined."
+    },
+    {
+      "text": "Aversions should form to novel flavours more readily than to familiar ones.",
+      "correct": false,
+      "feedback": "Partly correct, and latent inhibition is a real and relevant effect: a familiar flavour eaten safely many times is poor evidence about the current illness. That is genuinely a statistics-driven feature, so this is not a wrong answer. But it is a prediction about the *prior* over which cue caused the illness rather than about the delay structure, and the delay tolerance is the anomaly the section is trying to explain."
+    },
+    {
+      "text": "Olfactory learning should show the same one-trial, long-delay profile, since both chemosenses face delayed consequences.",
+      "correct": false,
+      "feedback": "Correct under the account, and the callout makes exactly this extension — so this is the right *transfer* rather than the right test. The reason it is weaker as a test is that olfaction and gustation are confounded: they share pathways, share the flavour percept, and share an evolutionary history, so a shared learning rule has explanations other than shared feedback statistics. The within-animal, cross-modality contrast holds all of that fixed."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Flavour
 
 What is colloquially called taste is mostly **flavour** — a fusion of gustation, retronasal olfaction, texture and temperature. Retronasal odour is perceptually attributed to the mouth despite being detected in the nose, and people are poor at separating the contributions.

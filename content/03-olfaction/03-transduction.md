@@ -64,6 +64,39 @@ The catch is the independence assumption (§3.5). Receptor neurons of one type s
 </div>
 </details>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m03.s03.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "A student proposes to test the pooling account directly: record simultaneously from many same-receptor ORNs while an animal samples a real turbulent plume, pool their spike times, and check whether the precision of the pooled event-time estimate improves as √n. What will this experiment actually measure?",
+  "options": [
+    {
+      "text": "Only the improvement available from the independent noise sources, because same-receptor neurons sample the same air and the plume-driven component of their variability is shared.",
+      "correct": true,
+      "feedback": "Right, and the consequence is that √n scaling will saturate at an n set by the ratio of independent to shared variance. Pooling averages away binding stochasticity, transduction noise and spike jitter. It cannot average away the fact that the concentration waveform itself fluctuated — every neuron of that type saw the same waveform. The experiment is still worth doing; it just measures the independent fraction rather than the bound."
+    },
+    {
+      "text": "The full √n improvement, since binding events at separate neurons are independent Poisson draws.",
+      "correct": false,
+      "feedback": "Correct under the assumption that all the variability originates at the binding step — which would hold if the stimulus were a constant concentration, and is exactly how the bound in the box above is derived. A turbulent plume violates it. The assumption quietly converts a stimulus-driven fluctuation into measurement noise, which is the single most common error in reading pooling arguments."
+    },
+    {
+      "text": "Kinetic heterogeneity rather than pooling, since same-receptor neurons differ in their time constants.",
+      "correct": false,
+      "feedback": "Partly correct, under the assumption that kinetic diversity exists *within* a receptor type as well as between types. If it does, the design confounds the two mechanisms rather than isolating either, and that is a real objection to the experiment. But the diversity that the filterbank account needs is diversity across the population as a whole, and the design's deeper problem — shared plume noise — would remain even in a kinetically homogeneous population."
+    },
+    {
+      "text": "Nothing useful, because the ~100 ms cascade time constant bounds ORN timing precision no matter how many neurons are pooled.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a filter's time constant bounds the precision of estimates derived from its output. It does not. A slow, noisy filter still permits an unbiased estimate of event time whose variance falls with the number of samples — this is why electric fish achieve sub-microsecond behavioural precision from millisecond neurons, the precedent the callout above cites. Conflating a time constant with an estimator's precision would rule out that result too."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Adaptation at the receptor
 
 ORNs adapt strongly through calcium feedback onto the CNG channel, shifting sensitivity toward the recent concentration range. This is Weber-like and serves the same function as light adaptation: keep a limited output range positioned over the current input distribution.
@@ -71,3 +104,23 @@ ORNs adapt strongly through calcium feedback onto the CNG channel, shifting sens
 But note the tension it creates, which is specific to olfaction. Adaptation that removes a sustained background is exactly what you want for detecting a new odour against an old one. It is exactly what you do *not* want if the informative signal is the temporal fluctuation itself — because a high-pass filter applied to an intermittent signal discards the intermittency statistics that §3.2 identified as carrying the spatial information.
 
 How the system resolves that is open, and it is a good example of a conflict that only becomes visible once you take the plume statistics seriously.
+
+<x-free-response>
+<script type="application/json">
+{
+  "id": "m03.s03.f1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Glomerular convergence has been justified twice in this section: to beat molecular shot noise, and to manufacture temporal precision a slow sensor cannot supply. These are different arguments that happen to predict the same anatomy. Give one measurement on which they make different predictions, and say what makes the comparison hard.",
+  "modelAnswer": "**Where they come apart.**\n\nThe two arguments make convergence a function of different variables.\n\nThe **shot-noise** argument makes convergence ratio a function of the expected binding count at behavioural threshold. It should therefore be largest for receptors whose relevant ligands occur at low concentration or bind with low affinity, and it should be indifferent to how fast the animal needs to resolve fluctuations. Under this account, convergence is set by the *amplitude* regime.\n\nThe **timing** argument makes convergence a function of the temporal bandwidth the receptor's ligands must support. It should be largest for receptors carrying ligands whose fluctuation structure matters — plume-tracking cues — and it should be indifferent to absolute sensitivity. Under this account, convergence is set by the *frequency* regime.\n\n**The measurement.** Rank receptor types by convergence ratio, which is measurable from glomerular innervation counts, and ask which of the two orderings it tracks: threshold concentration, or the temporal precision required for behaviours that depend on those ligands. The two predictions come apart most sharply for a high-affinity ligand used in fast plume tracking, where shot noise predicts low convergence and timing predicts high.\n\n**Why it is hard.**\n\nThree reasons, in increasing order of seriousness.\n\nFirst, the two variables are correlated in nature: the ligands that matter for tracking are often the ones present at trace concentration, so the orderings largely agree and the informative cases are rare.\n\nSecond, convergence ratio varies with receptor abundance, and abundance is itself under selection for reasons — encounter frequency — that neither argument controls. The §3.11 question about whether abundance tracks encounter frequency has to be answered before this one is interpretable.\n\nThird, and most seriously, **the arguments are not exclusive.** Convergence could be doing both jobs, in which case no ordering is diagnostic and the honest design is a within-animal manipulation rather than a cross-receptor correlation. This is the same over-determination problem §1.5 flagged for centre–surround: when several principles predict one structure, the structure is weak evidence for any of them.",
+  "rubric": [
+    "Identifies that the two accounts make convergence a function of different variables — amplitude regime versus temporal bandwidth",
+    "Proposes a concrete comparison across receptor types with measurable convergence ratios",
+    "Names the informative case where the two predictions disagree",
+    "Notes that the two variables are correlated in nature, so most cases are uninformative",
+    "Bonus: recognises the accounts are not exclusive, making the structure weak evidence for either",
+    "Bonus: connects to the over-determination problem raised for centre–surround in §1.5"
+  ]
+}
+</script>
+</x-free-response>

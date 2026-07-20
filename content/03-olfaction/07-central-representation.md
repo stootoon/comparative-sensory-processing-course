@@ -56,6 +56,39 @@ That is a primacy code, implemented by recurrent inhibition, and it connects dir
 <strong>Worth carrying to other modalities:</strong> wherever a system needs invariance to intensity and has a temporal reference, first-spike or rank-order codes are a candidate solution — and they are cheap. Retinal latency codes and tactile first-spike codes may be doing the same thing.
 </x-callout>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m03.s07.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Concentration invariance in piriform is achieved by responding to the earliest bulbar inputs and then shutting the network down with recurrent inhibition [@bolding2018]. Which observation would most damage the claim that this is a *primacy* mechanism rather than something else that happens to produce invariance?",
+  "options": [
+    {
+      "text": "The rank order of first-spiking bulbar cells changes substantially with concentration, even though piriform decoding stays invariant.",
+      "correct": true,
+      "feedback": "This is the load-bearing assumption, and it is separable from everything else in the account. Primacy only buys invariance if the identity of the earliest responders is concentration-stable — see the latency figure in §3.9, where amplitudes move across three decades and the order barely does. If the order moved and invariance survived anyway, the invariance would have to be coming from somewhere else, and the truncation would be doing something other than what the account says."
+    },
+    {
+      "text": "Blocking recurrent collaterals abolishes concentration-invariant decoding.",
+      "correct": false,
+      "feedback": "Correct under the assumption that this is a test of the mechanism — but it is the result [@bolding2018], and it *supports* the account rather than damaging it. Worth noticing that it is nonetheless weak evidence for primacy specifically: recurrence could produce invariance by divisive normalisation, which would also be abolished by the same manipulation. The manipulation establishes that recurrence is necessary, not what it computes."
+    },
+    {
+      "text": "Piriform responses to a fixed odour are sparser at high concentration than at low.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a code for identity should have concentration-independent sparseness. But the account predicts roughly this: more bulbar drive recruits global inhibition sooner, truncating the response earlier. Slightly sparser responses at high concentration are what the mechanism does, not a problem for it."
+    },
+    {
+      "text": "Concentration-invariant decoding is already present in bulbar output, before piriform.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a cortical computation must be absent from its input to count as cortical — a reasonable inferential standard, and this would indeed remove the motivation for the whole story. But it is contradicted by the premise stated above: bulbar output is strongly concentration-dependent. Treat it as the observation that would make the question moot rather than one that discriminates among mechanisms."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## The normative gap, in context
 
 There is no derivation of piriform organisation from natural odour statistics with anything like the force of the retinal or cochlear results.
@@ -65,3 +98,36 @@ But §1.7 and §2.7 established the relevant baseline: **vision's theory is stro
 Olfaction reaches its central representation in two synapses. The absence of a good normative account of piriform is the same wall, hit sooner because there is less pathway.
 
 There is even a reason for optimism specific to piriform. The theoretical tools that failed on V4 and IT — sparse coding, associative memory capacity, expansion recoding, random projections — were built for exactly the kind of structure piriform is. A recurrent, non-topographic, sparse associative network is what those theories describe. The tools may fit olfaction's cortex *better* than vision's.
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m03.s07.q2",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The section closes by arguing that piriform's failure to resemble V1 is not evidence that olfaction is anomalous. Which version of that argument is strongest, given what §1.7 and §2.7 established?",
+  "options": [
+    {
+      "text": "Normative accounts of sensory cortex are weak in every modality at comparable depth, so piriform's missing theory is the ordinary wall arriving sooner, not a special olfactory failure.",
+      "correct": true,
+      "feedback": "This is the argument, and its force comes from being a comparison at matched depth rather than matched anatomy. Vision's theory is strong at retina, partial at V1, absent beyond; audition's is strong at cochlea and absent at A1. Olfaction reaches its central representation in two synapses, so the wall arrives at synapse two. The claim is falsifiable: if someone produced a strong normative account of A1 while piriform stayed opaque, this reading would be in trouble."
+    },
+    {
+      "text": "Piriform is paleocortex, so expecting neocortical organisation from it is a category error [@haberly2001].",
+      "correct": false,
+      "feedback": "Correct under the assumption that cytoarchitecture constrains computation — and the anatomical fact is right and relevant. But as an argument it proves too little: it explains why piriform does not *look* like V1 without saying anything about why we cannot derive what it does. Hippocampus is also three-layered and has a far better developed theory. Lamination is not what sets the theoretical wall."
+    },
+    {
+      "text": "The input to piriform is unordered, so no theory built on spatial structure could apply.",
+      "correct": false,
+      "feedback": "Partly correct, and it is the right explanation for the absence of topography specifically. But it is too strong as a general claim: the theories the section names — sparse coding, associative memory capacity, random projections — require no metric at all, which is exactly why the section is optimistic about them. The disorder blocks the spatial motifs and leaves the statistical ones intact."
+    },
+    {
+      "text": "Piriform is doing memory rather than sensory processing, so a sensory-coding theory should not be expected to describe it.",
+      "correct": false,
+      "feedback": "Correct under the assumption that memory and sensory coding are separate enterprises with separate theories. The associative-memory framing is productive and this course endorses it. But the distinction does not survive contact with the case: associative memory has a well developed quantitative theory, so classifying piriform as memory should make it *more* tractable, not less. This distractor concedes the theoretical gap when the section's point is that it may be closable."
+    }
+  ]
+}
+</script>
+</x-mcq>

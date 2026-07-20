@@ -200,6 +200,7 @@ Worse for the theory's evidential status: centre–surround structure also falls
 <script type="application/json">
 {
   "id": "m00.s02.o1",
+  "shuffleSeed": 11,
   "contentRev": 1,
   "points": 1,
   "partialCredit": true,

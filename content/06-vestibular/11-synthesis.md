@@ -28,6 +28,26 @@ Not because vestibular circuits are simpler. Because <strong>the objective can b
 For olfaction this is a genuinely actionable diagnosis. The field's instinct has been to gather better data. The vestibular case suggests the binding constraint may instead be that nobody has written down precisely what the olfactory system is estimating — and §3.11 already noted the candidates (identity, concentration, source location) demand different answers.
 </x-callout>
 
+<x-order>
+<script type="application/json">
+{
+  "id": "m06.s11.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 29,
+  "prompt": "Order the four consumers of the vestibular signal by the deadline each must meet, fastest first. Then ask yourself what the ordering does *not* tell you.",
+  "items": [
+    { "id": "a", "text": "Oculomotor — the VOR, stabilising the retinal image during locomotion." },
+    { "id": "b", "text": "Spinal and postural — vestibulospinal tracts, antigravity tone and balance." },
+    { "id": "c", "text": "Cerebellar — updating the forward model of head dynamics." },
+    { "id": "d", "text": "Cortical — conscious self-motion perception and navigation." }
+  ],
+  "correctOrder": ["a", "b", "c", "d"],
+  "modelAnswerNote": "Pathway depth tracks this ordering almost exactly: three synapses for the VOR, a few more for the postural tracts, a cerebellar loop, and finally a thalamocortical route that the reflexes never wait for.\n\n**What the ordering does not tell you is importance.** The cortical consumer is last on the clock and thinnest in pathway terms, and vestibular's cortical representation is the most meagre in this course — no primary area, signals distributed across regions that are multisensory from the start (§6.6). Yet vestibular is arguably the most essential sense an animal has; losing it is catastrophic in a way losing colour vision is not.\n\nSo **distance to cortex measures the deadline of the fastest dependent behaviour, not the significance of the modality.** This is the correction to make before importing any argument of the form 'olfaction reaches cortex in two synapses, therefore it is primitive'. Olfaction's short pathway says its fastest consumer needs an answer within a sniff. It says nothing about how much the animal's life depends on the answer.\n\nThe second thing the ordering conceals: consumers (c) and (d) receive substantially the *same content* as (a). That is what makes this a type 3 split (§6.8) rather than a division of labour by information — and it is the framing this course argues has been under-explored for mitral and tufted cells."
+}
+</script>
+</x-order>
+
 ## Datasheet row
 
 <x-figure src="content/00-toolkit/figures/datasheet.js"

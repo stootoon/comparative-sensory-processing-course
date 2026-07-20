@@ -61,6 +61,39 @@ This matters more than it looks, because the folk explanation of olfaction's the
 
 **It supports the differential explanation only as strongly as the alternatives are ruled out.** This is the rung §12.4 stands on, and the figure above rates it moderate on purpose. The argument's form is: vision and audition had a large labelled dataset before their breakthrough; olfaction never had one; olfaction has no breakthrough; therefore the dataset is the difference that mattered. That is valid only if the other differences — sensor physics, intrinsic problem difficulty, commercial incentive, the cost of ground truth — are either controlled or shown to be insufficient. There are four such differences, at least three of them are good, and the honest conclusion is not that the dataset account wins but that it is *supported and not isolated*.
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m12.s01.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "An electronic nose, given decades of effort, still cannot identify odours in an open world. Which conclusion does §12.1's ladder actually license?",
+  "options": [
+    {
+      "text": "Every explanation of olfaction's theoretical backwardness that appeals to a specifically biological constraint has been subtracted from being the whole story, because the artefact has none of those constraints and stalls anyway.",
+      "correct": true,
+      "feedback": "This is the clean rung, and note its logical form: it is an elimination, not a positive account. The artefact has no metabolic budget, no 200 ms deadline [@uchida2003], no adult neurogenesis, no missing relay, no receptors it did not choose. It stalls regardless. That subtracts a list; it does not name a cause, and §12.4 has to do the naming against four rivals."
+    },
+    {
+      "text": "Open-world odour identification is probably not solvable by any system built the way electronic noses are built.",
+      "correct": false,
+      "feedback": "Correct under the assumption that sustained engineering failure is evidence of impossibility — the inductive step the history of artificial intelligence has punished most consistently. §12.1 says to discard arguments of this form on sight. Note also that the premise is available for cheap refutation: animals do this task, on hardware with the same broad-tuning design."
+    },
+    {
+      "text": "The brain must therefore be using an algorithm that machine olfaction has not discovered.",
+      "correct": false,
+      "feedback": "Correct under the assumption that engineering evidence transfers at the algorithmic level. §12.1 rates that rung thin and rates implementation empty. A designer picks a method for differentiability and library availability, not for biological plausibility, so the absence of a method in engineering says almost nothing about its presence in cortex. The stall is informative about *where* the difficulty is, not about what solves it."
+    },
+    {
+      "text": "Nothing — only working artefacts carry information about biology.",
+      "correct": false,
+      "feedback": "Correct under the assumption that existence proofs are the only usable form of engineering evidence, which is the standard and overly cautious reading. But this course's most durable products are eliminations (§13), and a failure in a system missing all of biology's constraints eliminates precisely the constraint-based explanations. The failure direction is where this module's argument lives."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## Where the inference sits in Marr's levels
 
 A compact way to hold all of the above. Engineering evidence is strong at the computational level, weak at the algorithmic level, and empty at the implementational level.
@@ -68,6 +101,18 @@ A compact way to hold all of the above. Engineering evidence is strong at the co
 That is convenient, because the computational level is where this course's central claim lives. "The input statistics determine the code" is not a statement about synapses. It is a statement about what any system solving a sensory problem must know in order to solve it well — and if it is true, it should be true of a system with no synapses at all. §0.1's insistence on separating the three stances earns its keep here: a claim pitched at the computational level can be tested by artefacts, and a claim pitched lower cannot.
 
 The converse is worth stating too, because it constrains what this module may conclude. Nothing here can adjudicate the disputes that occupy most of the olfactory literature — whether the bulb decorrelates or normalises or subtracts a negative image, whether identity is carried by which glomeruli or by when they fire, whether piriform is an associative network [@haberly2001] or something more V1-like. Those are algorithmic and implementational questions. A machine olfaction system that worked perfectly would settle none of them, and a machine olfaction system that fails settles none of them either.
+
+<x-predict>
+<script type="application/json">
+{
+  "id": "m12.s01.p1",
+  "contentRev": 1,
+  "prompt": "The course's claim is that measuring the input ensemble is a precondition for understanding a sensory code. Before reading on: write down what that claim predicts about engineered sensing, stated so that the historical record could falsify it. Aim for conditions that specify not just *which* domains succeed but the *ordering* of events and the *location* of the failure.",
+  "placeholder": "What would have to be true of the engineering record, and what would embarrass the claim?",
+  "reveal": "§12.1 commits to four checks, and the value of stating them in advance is that §12.4 is then scored against something fixed rather than assembled afterwards.\n\n**1. Presence/absence.** Engineered modalities with large characterised input corpora have working systems; those without do not.\n\n**2. Ordering.** The corpus came *first*. If the machines were built and the corpora assembled afterwards to evaluate them, the ordering that makes the biological argument persuasive is gone and the parallel collapses. This is the check a third-variable story — both are downstream of a field maturing — cannot reproduce for free.\n\n**3. Location.** The stall is at the input representation, not downstream. If machine olfaction had failed for want of classifiers, the parallel would be spurious. This is the genuinely risky one, and §12.6 rates it the module's best claim to being a test.\n\n**4. Persistence without biological constraints.** The stall survives in systems with no metabolism, deadline, development or anatomy — otherwise the artefact adds nothing biology did not already supply.\n\nIf you wrote only check 1, notice how weak it is alone: any account in which odour is simply harder predicts it too. Checks 2 and 3 are what carry evidential weight, because each of them could have come out the other way and the record would have said so."
+}
+</script>
+</x-predict>
 
 ## The shape of the test
 

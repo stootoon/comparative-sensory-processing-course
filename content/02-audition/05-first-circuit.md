@@ -77,6 +77,39 @@ The relevant quantity is the ITD range the animal actually experiences, which is
   caption="Two ways to code interaural time difference. Drag head size and frequency, and watch which scheme has more usable resolution. Large head or high frequency: many cycles fit in the ITD range, a place map is worth building, and the owl builds one. Small head or low frequency: the whole range is a fraction of a cycle, and two broad channels with their steepest slopes at midline do better.">
 </x-figure>
 
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m02.s05.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "The owl/gerbil resolution rests on a rule: the optimal code depends on the range of values actually encountered, not the range physically possible. Which application of that rule is correct?",
+  "options": [
+    {
+      "text": "Before asking whether the bulb should map some olfactory variable, ask what range of it the animal actually experiences and whether there is enough room in that range for a map to beat a two-channel readout.",
+      "correct": true,
+      "feedback": "This is the transfer the section is set up for, and note what it changes: 'is there a map?' becomes 'is a map worth building here?', which is answerable in advance from the ecology rather than only by recording. Applied to plume-derived bearing, for instance, the encountered range is wide but the per-sample precision is terrible — which argues for a coarse two-channel comparison of the kind the gerbil uses, not a place map."
+    },
+    {
+      "text": "Human ITDs span about ±700 µs and discrimination reaches 10 µs, giving roughly 70 distinguishable values — ample room for a place map, so humans should use one.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the number of discriminable values is what determines the code, which is the natural reading and the wrong comparison. The argument turns on the physiological ITD range measured against the *period of the frequencies the animal uses for ITD*. Humans localise by ITD at low frequencies, where 700 µs is a fraction of one cycle, so only a narrow slice of each tuning curve is ever visited — which is the gerbil's situation, not the owl's."
+    },
+    {
+      "text": "Channels should be allocated in proportion to how often stimuli occur, so values that are never encountered get no representation at all.",
+      "correct": false,
+      "feedback": "Correct under a strict proportional-allocation reading of efficient coding, and closely related to Laughlin's result — but that result is about the *transfer function of one channel* matching a cumulative distribution, while this argument is about the geometry of a population code. They are different claims. A system with literally no representation outside the common range could not signal novelty, and stimulus-specific adaptation (§2.10) shows that novelty is signalled."
+    },
+    {
+      "text": "Since owl and mammal genuinely differ, ITD coding is a species-specific implementation detail rather than an instance of any general principle.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a difference in mechanism implies the absence of a shared theory — the conclusion the field drew for some years, and the one the normative reading overturns. The two are the same rule evaluated at different parameter values. A principle that predicts *different* mechanisms from measurable differences between animals is stronger evidence than one predicting the same mechanism everywhere, because it can fail."
+    }
+  ]
+}
+</script>
+</x-mcq>
+
 ## What the brainstem tells you about first circuits generally
 
 Three features of this circuit generalise, and each shows up again in the olfaction module.
@@ -86,3 +119,24 @@ Three features of this circuit generalise, and each shows up again in the olfact
 **Splitting happens early.** By the second synapse, timing, level, spectrum and onset are already in separate streams. Compare the mitral/tufted split (§3.5), retinal sustained/transient, SA/RA/PC in touch. **One channel cannot optimise sensitivity, precision and dynamic range simultaneously**, and every modality in this course discovered that independently.
 
 **The obligatory hub.** Almost everything ascending in the auditory system passes through the **inferior colliculus** — an unusually strict bottleneck with no real analogue in vision. Olfaction sits at the opposite extreme, with two synapses to cortex and no obligatory relay at all. §2.6 asks what that buys, and §3.6 asks what olfaction gave up by skipping it.
+
+<x-order>
+<script type="application/json">
+{
+  "id": "m02.s05.o1",
+  "contentRev": 1,
+  "points": 1,
+  "shuffleSeed": 7,
+  "prompt": "Reconstruct the reasoning that turns the owl/gerbil contradiction into a normative result. The order is the argument; getting it right is what lets you run the same move on a dispute you have not seen before.",
+  "items": [
+    { "id": "a", "text": "Note that the two findings are inconsistent only if read as claims about a universal mechanism." },
+    { "id": "b", "text": "Identify the physical parameter that differs between the animals: head size, and hence the range of ITDs encountered." },
+    { "id": "c", "text": "Express that range relative to the period of the frequencies each animal actually uses for localisation." },
+    { "id": "d", "text": "Ask, separately in each regime, which readout gives the best discrimination where discrimination matters." },
+    { "id": "e", "text": "Conclude that both are optimal solutions, to different problems." }
+  ],
+  "correctOrder": ["a", "b", "c", "d", "e"],
+  "modelAnswerNote": "Step (c) is the one that carries the result, and it is the one most easily skipped. Head size alone does not settle anything — a large head with high-frequency hearing and a small head with low-frequency hearing can occupy the same regime, because what matters is the *dimensionless* ratio of encountered range to cycle period. Any version of the argument that stops at (b) has produced a correlation with body size rather than a normative explanation.\n\nStep (a) is a disposition rather than a deduction, and it is worth naming as a step because it is where the field spent years. Two careful labs measuring different things in different animals and disagreeing is a strong hint that a parameter is varying, not that one of them is wrong.\n\nThe transferable procedure: when two preparations disagree, look for the parameter that differs, non-dimensionalise it against something the system cares about, and re-solve. This is the same manoeuvre §1.5 performs on light level, where the parameter is SNR and the systems being compared are the same retina at two times of day."
+}
+</script>
+</x-order>

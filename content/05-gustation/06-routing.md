@@ -45,3 +45,36 @@ Grip-force correction on slip closes in about <strong>70 ms</strong> (§4.9).
 
 Applied to olfaction: the two-synapse route to cortex is short, but olfaction has no reflex arc anywhere near as short as the gape response or the VOR. Which suggests olfaction's shallowness is <em>not</em> primarily about reflex speed — supporting the §3.6 reading that it is about the absence of geometric re-mapping to perform.
 </x-callout>
+
+<x-mcq>
+<script type="application/json">
+{
+  "id": "m05.s06.q1",
+  "contentRev": 1,
+  "points": 1,
+  "prompt": "Taste has a short limbic arc *and* a full thalamocortical route; olfaction has a short cortical route and no obligatory relay at all. If the rule is that pathway length is set by the deadline of the fastest dependent behaviour, what does olfaction's architecture imply?",
+  "options": [
+    {
+      "text": "Nothing about deadlines, because olfaction has no behaviour requiring the speed the gape reflex or the VOR does — so the rule is silent on olfaction and its shallowness needs a different explanation.",
+      "correct": true,
+      "feedback": "Correct, and noticing that a rule is silent is a more useful skill than applying it everywhere. The rule sets a *lower bound* on how short the fastest arc must be. Olfaction's fastest behaviours — a surge on detection, a sniff adjustment — operate on the ~200 ms sniff cycle, which two synapses vastly overshoots. So the shallowness is unexplained by deadline, and §3.6's alternative reading takes over: there is no geometric re-mapping to perform, and thalamus is where re-mapping happens."
+    },
+    {
+      "text": "That olfaction's fastest behaviours are faster than gustation's, since its cortical route is shorter than taste's cortical route.",
+      "correct": false,
+      "feedback": "Correct under the assumption that the rule constrains every pathway rather than the shortest one. It does not. Taste's cortical route is long *and* taste has a two-synapse arc; the two coexist precisely because the deadline binds only the reflex path. Comparing cortical routes across modalities and inferring deadlines from them inverts the logic — the callout's own examples show slow cortical routes running in parallel with fast ones."
+    },
+    {
+      "text": "That olfaction should have an undiscovered short reflex arc, since every modality with a shallow cortical route has one.",
+      "correct": false,
+      "feedback": "Correct under the assumption that shallow cortical depth and short reflex arcs are causally linked — plausible on the face of it, and the prediction is at least checkable. But the callout's cases separate them: the VOR is a three-neuron arc in a system whose cortical route is long, so arc length and cortical depth are independent quantities. There is no reason for a short cortical route to imply a short reflex."
+    },
+    {
+      "text": "That olfaction's missing thalamic relay is evidence the deadline rule generalises to relays: relays cost time, so time-critical senses drop them.",
+      "correct": false,
+      "feedback": "Correct under the assumption that a relay's cost is its latency. A synapse costs a few milliseconds, which is negligible against olfaction's ~200 ms sniff-limited deadline — the transducer alone is slower than that (§3.3). If latency were the reason to drop thalamus, vision and audition, whose deadlines are far tighter, should have dropped it first. They did not, which is good evidence that thalamus is retained for what it computes rather than despite what it costs."
+    }
+  ]
+}
+</script>
+</x-mcq>
