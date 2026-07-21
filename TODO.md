@@ -101,6 +101,13 @@ conditions rather than the clock. **If a suite fails after adding content,
 suspect the harness before the site**, and verify the specific page or flow
 individually before believing it.
 
+**A sweep that only watches for errors proves less than it looks.** 25 of the 29
+`<x-order>` exercises rendered every item as the literal string
+`[object Object]` and the full-course render sweep passed them, because broken
+output is still valid DOM and throws nothing. The exercises are now driven to
+their correct answer through the UI by `order-test.mjs`. Prefer tests that
+*use* a component over tests that merely load it.
+
 Two harness traps found while building highlights, both of which produced
 *passing* tests that proved nothing:
 

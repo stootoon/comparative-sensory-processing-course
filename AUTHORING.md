@@ -160,6 +160,8 @@ having written something adjacent.
 
 ### `<x-order>`
 
+Two item forms. Prefer the second.
+
 ```json
 {
   "id": "m00.s02.o1", "contentRev": 1, "points": 1, "partialCredit": true,
@@ -168,9 +170,31 @@ having written something adjacent.
 }
 ```
 
-Author `items` in the **correct** order; the component shuffles and persists the
-shuffle seed. Up/down buttons are the primary interface; dragging is a bonus,
-since HTML5 drag fails on touch and for keyboard users.
+With bare strings the **array order is the answer**, so the correct sequence is
+written down the page in the source. The richer form names the answer separately,
+which lets you list the items in a neutral or deliberately misleading order:
+
+```json
+{
+  "id": "m00.s03.o1", "contentRev": 1, "points": 1, "shuffleSeed": 7,
+  "prompt": "Put the steps of a normative derivation in the order they must be carried out.",
+  "items": [
+    { "id": "a", "text": "State the input ensemble." },
+    { "id": "b", "text": "State the objective being optimised." },
+    { "id": "c", "text": "Solve for the optimal code." }
+  ],
+  "correctOrder": ["a", "b", "c"],
+  "modelAnswerNote": "Shown once the reader checks their answer. This is where the teaching goes — the ordering itself rarely carries the point."
+}
+```
+
+`correctOrder` must list every item id exactly once; `?dev=1` fails loudly if it
+does not, and if any item lacks `text`. `shuffleSeed` fixes the starting
+scramble so every reader sees the same one and it can be discussed by position.
+`modelAnswerNote` is optional and appears under the verdict after checking.
+
+Up/down buttons are the primary interface; dragging is a bonus, since HTML5 drag
+fails on touch and for keyboard users.
 
 ### `<x-matrix>`
 
