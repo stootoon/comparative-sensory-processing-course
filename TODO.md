@@ -188,6 +188,23 @@ Nociception is now Module 8 (done, 2026-07-20). Two follow-ups it generated:
 
 ---
 
+## The one canvas figure (added 2026-07-22)
+
+`01-vision/figures/ill-posed.js` renders shaded spheres on a `<canvas>`. Every
+other figure is SVG, deliberately, so that it follows the theme through CSS
+variables — a canvas cannot, because `draw()` only re-runs when a control
+changes, not when the theme does.
+
+The exception holds **only because nothing drawn on those canvases is
+theme-dependent**: they are physical luminances, and a luminance is the same in
+dark mode. All chrome around them is ordinary themed HTML. If you ever put a
+themed colour on a canvas here, it will silently go stale on a theme toggle —
+so either keep it physical, or give the figure host a `prefers-color-scheme`
+listener that re-runs `draw()`.
+
+The `.io-*` styles in `css/figures.css` are layout only, for the same reason:
+colours that encode a quantity are computed in the module and set inline.
+
 ## Sidebar collapse (added 2026-07-20)
 
 The header toggle collapses the sidebar on desktop and opens it as a drawer on

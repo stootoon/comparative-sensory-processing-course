@@ -18,7 +18,7 @@ where $R$ is surface reflectance, $L$ is illumination, and $\theta$ is the angle
 Inversion is therefore impossible without additional constraints. Those constraints come from the statistics of the world: illumination varies smoothly over space while reflectance has sharp edges; surfaces are mostly locally planar; light usually comes from above. Vision works because the world is not arbitrary, and §1.2 is about exactly which regularities it exploits.
 
 <x-figure src="content/01-vision/figures/ill-posed.js"
-  caption="One measurement, three unknowns. Move reflectance and illumination in opposite directions and the receptor reading barely changes — a dark surface brightly lit and a light surface dimly lit are, at this receptor, identical. Compare §3.1, where the same shape of problem has five unknowns and no straight lines to help recover the geometry.">
+  caption="One measurement, three unknowns — rendered rather than asserted. The sphere is shaded by Lambert's cosine law, so every point on it sits at a different angle to the light and the marked point is the one this receptor samples. Trade reflectance against illumination and the rendered image does not merely change little; it is identical, because the image depends on R and L only through their product. The row underneath solves R·L·cos θ for other world states at the same receptor value: the worlds differ, the measurement does not. Compare §3.1, where the same shape of problem has five unknowns and no straight lines to help recover the geometry.">
 </x-figure>
 
 
