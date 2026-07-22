@@ -108,6 +108,15 @@ output is still valid DOM and throws nothing. The exercises are now driven to
 their correct answer through the UI by `order-test.mjs`. Prefer tests that
 *use* a component over tests that merely load it.
 
+**Lazy figures need a slow scroll, not a jump.** A live check reported that
+five of six figures in §1.2 had failed to render, including one this session
+never touched. They were fine: `scrollIntoViewIfNeeded()` figure-by-figure
+outruns the `IntersectionObserver` on a slow network, because the page reflows
+as images and fonts arrive and the element moves before the callback runs. A
+slow wheel scroll down the whole page, then a wait, gives identical results to
+localhost. Suspect the harness first — this one nearly produced a bug report
+against working code.
+
 Two harness traps found while building highlights, both of which produced
 *passing* tests that proved nothing:
 
@@ -187,6 +196,46 @@ Nociception is now Module 8 (done, 2026-07-20). Two follow-ups it generated:
   thalamus, would sit well on that axis.
 
 ---
+
+## Measured natural-image statistics, §1.2 (added 2026-07-22)
+
+Four figures there compute their own numbers in the browser from three CC0
+photographs in `content/media/nis-*.jpg`, sharing
+`01-vision/figures/spectrum-core.js` (radix-2 FFT, radial averaging, Gaussian
+blur, phase scrambling). Checked against a numpy reference; agrees to three
+decimals.
+
+**Three method choices change the answer. Do not alter them casually.**
+
+- **Linear luminance, not JPEG code values.** The same photograph fits -2.45 on
+  code values, -2.22 on linear luminance, -2.63 on log. Published exponents are
+  not always comparable for this reason.
+- **Hann window before every transform, except the phase-scramble panel.**
+  Windowing is a convolution in frequency and does not commute with a change of
+  phase: with it on, two spectra identical to floating point appear to separate
+  by 0.6 dex. That panel alone passes `{ windowed: false }`.
+- **Crops at native resolution, never downsampled.** Downsampling is a lowpass.
+  An earlier version cropped from a downsampled copy and appeared to *refute*
+  scale invariance, the exponent drifting -2.13 to -2.50 as the window shrank.
+  Native crops hold -2.25 to -2.47 over a fourfold range.
+
+The zoom figure's 128px window is a deliberate outlier at -2.72: at that size
+the top of the fit band is ~4 pixels per cycle, so it measures the lens and the
+JPEG rather than the wood. It is kept and explained, not dropped.
+
+**Figure notes and captions are NOT citation-processed.** Notes are assigned as
+`innerHTML` by the module; captions are set as `textContent`. A `[@key]` in
+either renders literally — it had shipped in three module-12 figures and was
+visible on two live pages. Write the author and year out instead;
+`tools/check-content.mjs` now fails on `[@` in any figure module.
+
+## tools/check-content.mjs (added 2026-07-22)
+
+Static checks, no browser or server: `node tools/check-content.mjs`. Citation
+graph, `[@key]` in figure modules, duplicate exercise ids, object-where-string
+in exercise configs, missing assets, manifest paths, unstyled callout classes.
+Every check is there because that mistake shipped once and looked fine on the
+page. Run it before pushing content.
 
 ## The one canvas figure (added 2026-07-22)
 

@@ -196,6 +196,15 @@ scramble so every reader sees the same one and it can be discussed by position.
 Up/down buttons are the primary interface; dragging is a bonus, since HTML5 drag
 fails on touch and for keyboard users.
 
+### Citations inside figures
+
+`[@key]` works in prose only. A figure's `caption` attribute is assigned as
+`textContent` and a figure module's note is assigned as `innerHTML`; neither
+passes through the citation pipeline, so a `[@key]` in either renders literally
+on the page. Write the author and year out — "(Ruderman & Bialek 1994)" — and
+cite the key in the surrounding prose so it reaches the section's reference
+list. `node tools/check-content.mjs` fails on `[@` in any figure module.
+
 ### `<x-matrix>`
 
 The comparative datasheet workhorse.
