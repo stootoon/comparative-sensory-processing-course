@@ -31,19 +31,39 @@ export async function loadReferences() {
 export const getEntry = (key) => entries.get(key) ?? null;
 export const allEntries = () => [...entries.entries()];
 
-/** Short form shown inline: "Atick & Redlich 1992". */
+// One author in the bibliography's format: a surname, then initials.
+// "Yau, K.-W." and "Ryba, N. J. P." both have to count as one.
+const AUTHOR = /([A-ZÀ-Þ][A-Za-zÀ-ÿ'’-]+(?:\s+[A-Za-zÀ-ÿ'’-]+)?),\s*(?:[A-ZÀ-Þ]\.\s*-?\s*)+/g;
+
+/**
+ * Short form shown inline: "Atick & Redlich 1992", "Baylor et al. 1979".
+ *
+ * The author COUNT cannot come from splitting on "&": the bibliography writes
+ * a nine-author paper as "Ackels, T., Erskine, A., … & Schaefer, A. T.", which
+ * has exactly one ampersand and so used to render as "Ackels & Schaefer 2021".
+ * That was wrong for 27 of the 55 entries — every paper with three or more
+ * authors was silently attributed to two of them. Counting proper
+ * surname-plus-initials groups fixes it.
+ *
+ * The surnames themselves still come from the ampersand split, because that
+ * handles particles correctly: "van Hateren, J. H. & van der Schaaf, A."
+ * must yield "van Hateren", which a surname regex anchored on a capital
+ * letter would truncate to "Hateren".
+ */
 export function shortForm(entry) {
   const authors = entry.authors || '';
-  // "Atick, J. J. & Redlich, A. N." -> "Atick & Redlich"
   const surnames = authors
     .split('&')
     .map((part) => part.trim().split(',')[0].trim())
     .filter(Boolean);
 
+  const matched = authors.match(AUTHOR)?.length ?? 0;
+  const count = Math.max(matched, surnames.length);
+
   let names;
   if (surnames.length === 0) names = 'Anon.';
-  else if (surnames.length === 1) names = surnames[0];
-  else if (surnames.length === 2) names = `${surnames[0]} & ${surnames[1]}`;
+  else if (count === 1) names = surnames[0];
+  else if (count === 2) names = `${surnames[0]} & ${surnames[surnames.length - 1]}`;
   else names = `${surnames[0]} et al.`;
 
   return entry.year ? `${names} ${entry.year}` : names;

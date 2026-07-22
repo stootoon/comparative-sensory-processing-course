@@ -25,8 +25,8 @@ const S=[
    Vision:'LGN preserves retinotopy', Audition:'IC builds a space map', Touch:'VPL preserves somatotopy',
    Proprioception:'Clarke\'s nucleus — to limb variables', Olfaction:'no geometry to re-map'}],
  ['Temporal decorrelation', {
-   Vision:'LGN [@dan1996]', Audition:'cochlear nucleus', Touch:'cuneate',
-   Proprioception:'not described', Olfaction:'bulbar slow patterning [@friedrich2001]'}],
+   Vision:'LGN (Dan et al. 1996)', Audition:'cochlear nucleus', Touch:'cuneate',
+   Proprioception:'not described', Olfaction:'bulbar slow patterning (Friedrich & Laurent 2001)'}],
  ['Cortico-thalamic comparison loop', {
    Vision:'layer 6 → LGN', Audition:'layer 6 → MGB', Touch:'layer 6 → VPL',
    Proprioception:'cerebellar forward model', Olfaction:'piriform → granule cells'}],

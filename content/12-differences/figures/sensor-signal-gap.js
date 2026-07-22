@@ -61,7 +61,7 @@ export function draw(root, values, { createPlot }) {
   n.innerHTML = view==='ratio'
     ? `Everything to the right of the line has a sensor that keeps up. <strong>Two modalities sit to the left: ` +
       `olfaction and electroreception.</strong> That pairing is the argument of this section. Olfactory receptor ` +
-      `neurons follow roughly 5 Hz while mice use plume structure up to about 40 Hz [@ackels2021], a shortfall near ` +
+      `neurons follow roughly 5 Hz while mice use plume structure up to about 40 Hz (Ackels et al. 2021), a shortfall near ` +
       `an order of magnitude. Electric fish are worse off by three orders and solve it anyway, by pooling across ` +
       `many afferents — so a sub-unity ratio is a solvable problem with a known solution, not a barrier. ` +
       `<br><br>Note gustation, plotted near unity and flagged POORLY measured: the bandwidth of taste structure ` +

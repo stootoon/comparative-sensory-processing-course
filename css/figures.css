@@ -423,3 +423,100 @@
   .io-main { grid-template-columns: 1fr; }
   .io-arrow { display: none; }
 }
+
+/* ---------------------------------------------------------------------------
+   §1.2 natural-image statistics. Layout for the figures that measure real
+   photographs; the images themselves are canvases drawn by the figure modules.
+   ------------------------------------------------------------------------- */
+
+.nis-loading {
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+.nis-strip,
+.nis-pair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.nis-cell { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 0.35rem; }
+.nis-cell-cap { display: flex; flex-direction: column; align-items: center; gap: 0.1rem; }
+.nis-pair-cell { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; }
+
+.nis-image {
+  display: block;
+  border: 1px solid var(--rule-strong);
+  border-radius: 3px;
+  /* Zoomed windows must show the camera's pixels, not the browser's guess at
+     what lies between them — the scale figure is about real detail. */
+  image-rendering: pixelated;
+}
+
+.nis-key {
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  font-weight: 650;
+  color: var(--ink);
+}
+/* The label carries the series colour so the strip and the legend agree. */
+.nis-key.series-1 { color: var(--series-1); }
+.nis-key.series-2 { color: var(--series-2); }
+.nis-key.series-3 { color: var(--series-3); }
+.nis-key.series-4 { color: var(--series-4); }
+.nis-key.series-5 { color: var(--series-5); }
+
+.nis-cell-note,
+.nis-slope {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  color: var(--ink-faint);
+}
+.nis-slope { font-family: var(--font-mono); }
+
+.nis-panel-title {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+}
+
+.nis-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.2rem 0 0.9rem;
+}
+.nis-stat {
+  flex: 0 1 auto;
+  min-width: 6rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-sunken);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+.nis-stat.is-current { border-color: var(--accent-edge); background: var(--accent-wash); }
+.nis-stat-label {
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  text-align: center;
+}
+.nis-stat-value {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+}

@@ -13,7 +13,13 @@ Take the two-dimensional Fourier transform of a natural image and average power 
 
 $$S(f) \propto \frac{1}{f^{2-\eta}},$$
 
-with $\eta$ small — typically $0.1$ to $0.3$. To a good approximation, power falls as the inverse square of spatial frequency.
+with $\eta$ small — typically $0.1$ to $0.3$. To a good approximation, power falls as the inverse square of spatial frequency [@field1987].
+
+That claim is easy to state and rarely shown, so the figure below does the measurement rather than drawing the curve. Three photographs ship with this course; their spectra are computed in your browser when the figure loads, alongside white noise as a control for what *no* correlation looks like. Published exponents rest on databases of hundreds of images [@vanhateren1998] — but the effect is already unmistakable in three.
+
+<x-figure src="content/01-vision/figures/image-spectra.js"
+  caption="Real photographs, measured. Each image is windowed, Fourier transformed, and its power averaged over orientation into rings of constant spatial frequency; the dashed line is a pure inverse-square law drawn for reference rather than fitted. The two natural scenes track it across roughly two decades; white noise is flat. Switch to the compensated view to see the residual, and to the phase-scrambled view for the control that matters most — an image with an identical power spectrum and no visible structure at all.">
+</x-figure>
 
 ### What that actually means, in pictures
 
@@ -21,9 +27,21 @@ The equation is compact and easy to nod at without absorbing. Three concrete way
 
 **As a statement about blur.** Most of an image's energy is in its slow, gradual variation. Blur a photograph heavily and it still looks broadly like the scene — the layout, the large regions of light and dark survive. Keep *only* the fine detail (subtract the blurred version) and you get a faint edge map that is nearly black. The blurred version holds nearly all the variance; that is $1/f^2$ restated.
 
-**As a statement about neighbours.** As §0.2 set out, a steeply falling spectrum and strong spatial correlation are the same fact seen through a Fourier transform. Adjacent pixels in a natural image typically correlate at $r > 0.9$; pixels ten apart still correlate at maybe $0.6$. That slow decay is a wide autocorrelation function, and a wide function has a narrow transform concentrated at low frequencies.
+<x-figure src="content/01-vision/figures/blur-spectrum.js"
+  caption="Blur applied to a real photograph, with the unblurred spectrum held on the same axes. The coarse structure below about ten cycles per image width is untouched no matter how hard you blur; the fine structure falls away by orders of magnitude. At a blur that leaves the fern perfectly recognisable, the power at 96 cycles has already dropped a thousandfold — which is why an eye can afford optics a camera could not, and the setup for the retina choosing to lowpass in dim light in §1.5.">
+</x-figure>
 
-**As a statement about scale.** Photograph a forest from 2 m and from 20 m. The second image is not statistically different from the first — it just contains different objects at the same range of angular sizes. Natural scenes contain structure at every scale, because they contain objects at every distance, so no spatial frequency is privileged. An ensemble with no preferred scale must have a power-law spectrum: power laws are the only functions that look the same under rescaling [@simoncelli2001].
+**As a statement about neighbours.** As §0.2 set out, a steeply falling spectrum and strong spatial correlation are the same fact seen through a Fourier transform. Adjacent pixels in a natural image typically correlate at $r > 0.9$; pixels ten apart still correlate at around $0.8$. That slow decay is a wide autocorrelation function, and a wide function has a narrow transform concentrated at low frequencies.
+
+<x-figure src="content/01-vision/figures/neighbour-correlation.js"
+  caption="Every point is a real pair of pixels a chosen distance apart in the photograph, and the coefficient beside it is computed over all of them. At one pixel the cloud is barely a cloud — knowing one pixel fixes most of the variance of the next, which is the redundancy the retina is argued to remove. Drag the separation out and the cloud opens, slowly and with no characteristic distance. The curve on the right is the autocorrelation function whose Fourier transform is the power spectrum.">
+</x-figure>
+
+**As a statement about scale.** Photograph a forest from 2 m and from 20 m. The second image is not statistically different from the first — it just contains different objects at the same range of angular sizes. Natural scenes contain structure at every scale, because they contain objects at every distance, so no spatial frequency is privileged. An ensemble with no preferred scale must have a power-law spectrum: power laws are the only functions that look the same under rescaling [@simoncelli2001]. Measured directly in woodland, the statistics do hold up under magnification [@ruderman1994].
+
+<x-figure src="content/01-vision/figures/scale-invariance.js"
+  caption="Four windows spanning an eightfold range of scale, cropped from one photograph at the camera's own resolution, plotted against cycles per window and scaled to agree at four cycles, since the question is whether they have the same shape. Three of the four then coincide: shown a patch with the scale bar removed, you could not easily say which zoom level it came from. The smallest window peels away at high frequency, and that departure is the camera's own blur rather than the wood — the same lowpass the previous figure makes explicit. A scene with a characteristic size would fan the curves apart instead, which is what the courtyard does in the first figure.">
+</x-figure>
 
 <x-figure src="content/01-vision/figures/correlation-spectrum.js"
   caption="The same fact, two ways. Left: the autocorrelation function — how similar are two points a given distance apart. Right: its Fourier transform, the power spectrum. Drag the correlation length and watch the two move in opposite directions: broader correlation means a steeper, more concentrated spectrum. Switch to the scale-invariance view to see why natural scenes have no characteristic length at all.">

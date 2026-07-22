@@ -575,3 +575,41 @@ copied.
 - **Credit:** Rando M, James M, Verri A, Rosasco L, Seminara A (2025), eLife 13:RP102906, Figure 1. CC BY 4.0.
 - **Licence:** CC BY 4.0
 - **Source:** https://elifesciences.org/articles/102906
+
+---
+
+## nis-forest.jpg
+
+- **Title:** Beech and ferns in Gullmarsskogen
+- **Author:** W.carter
+- **Licence:** CC0 — no attribution required, credited anyway
+- **Source:** https://commons.wikimedia.org/wiki/File:Beech_and_ferns_in_Gullmarsskogen.jpg
+- **Original:** 5472x3648
+- **Preparation:** converted to greyscale, 1024x1024 centre crop at native resolution. Used by the §1.2 figures that
+  measure power spectra, blur, pixel correlation and scale invariance. Crops are
+  taken at the camera's own resolution wherever possible because downsampling is
+  itself a lowpass filter and would show up as a steeper spectrum.
+
+## nis-landscape.jpg
+
+- **Title:** Alone in the unspoilt wilderness (Unsplash)
+- **Author:** David Marcu davidmarcu
+- **Licence:** CC0 — no attribution required, credited anyway
+- **Source:** https://commons.wikimedia.org/wiki/File:Alone_in_the_unspoilt_wilderness_(Unsplash).jpg
+- **Original:** 3506x2329
+- **Preparation:** converted to greyscale, 512x512 centre crop at native resolution. Used by the §1.2 figures that
+  measure power spectra, blur, pixel correlation and scale invariance. Crops are
+  taken at the camera's own resolution wherever possible because downsampling is
+  itself a lowpass filter and would show up as a steeper spectrum.
+
+## nis-colonnade.jpg
+
+- **Title:** Courtyard Zappeion Athens, Greece
+- **Author:** Jebulon
+- **Licence:** CC0 — no attribution required, credited anyway
+- **Source:** https://commons.wikimedia.org/wiki/File:Courtyard_Zappeion_Athens,_Greece.jpg
+- **Original:** 5552x3875
+- **Preparation:** converted to greyscale, 2048x2048 region reduced 4x, to bring several columns inside the window. Used by the §1.2 figures that
+  measure power spectra, blur, pixel correlation and scale invariance. Crops are
+  taken at the camera's own resolution wherever possible because downsampling is
+  itself a lowpass filter and would show up as a steeper spectrum.

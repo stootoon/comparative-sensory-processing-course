@@ -20,7 +20,7 @@ export const controls = [
 // [motif, the property of the metric it actually consumes, verdict, what happens in olfaction]
 const M=[
  ['Centre–surround',      'neighbourhood', 'fails',
-  'no neighbourhood; but divisive normalisation over ALL glomeruli does the gain-control half [@olsen2010]'],
+  'no neighbourhood; but divisive normalisation over ALL glomeruli does the gain-control half (Olsen et al. 2010)'],
  ['Topographic map',      'neighbourhood', 'fails',
   'glomerular position is stereotyped but not similarity-ordered'],
  ['Convolution',          'translation',   'fails',
@@ -38,13 +38,13 @@ const M=[
  ['Opponent axes from PCA','none',         'free',
   'the colour calculation transfers verbatim; blocked on the ensemble, not the metric'],
  ['Divisive normalisation','none',         'free',
-  'pool over the whole population; confirmed in the antennal lobe [@olsen2010]'],
+  'pool over the whole population; confirmed in the antennal lobe (Olsen et al. 2010)'],
  ['Sparse coding',        'none',          'free',
-  'dictionary learning never used pixel adjacency, only co-occurrence [@olshausen1996]'],
+  'dictionary learning never used pixel adjacency, only co-occurrence (Olshausen & Field 1996)'],
  ['Random projection / expansion','none',  'free',
-  'optimal degree depends on D, not on order [@litwinkumar2017; @caron2013]'],
+  'optimal degree depends on D, not on order (Litwin-Kumar et al. 2017; Caron et al. 2013)'],
  ['Predictive subtraction','none',         'free',
-  'needs a predictor, not a neighbourhood; cancellation circuits are generic [@cullen2012]'],
+  'needs a predictor, not a neighbourhood; cancellation circuits are generic (Cullen 2012)'],
  ['Central map of a derived variable','neighbourhood','rederived',
   'bats map echo delay the cochlea never measures — order can be BUILT downstream'],
 ];

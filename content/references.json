@@ -1,4 +1,28 @@
 {
+  "ackels2021": {
+    "authors": "Ackels, T., Erskine, A., Dasgupta, D., Marin, A. C., Warner, T. P. A., Tootoonian, S., Fukunaga, I., Harris, J. J. & Schaefer, A. T.",
+    "year": 2021,
+    "title": "Fast odour dynamics are encoded in the olfactory system and guide behaviour",
+    "venue": "Nature 593(7860):558–563",
+    "doi": "10.1038/s41586-021-03514-2",
+    "note": "Mice discriminate odour correlations up to 40 Hz — far faster than single-ORN kinetics allow."
+  },
+  "angelaki2004": {
+    "authors": "Angelaki, D. E., Shaikh, A. G., Green, A. M. & Dickman, J. D.",
+    "year": 2004,
+    "title": "Neurons compute internal models of the physical laws of motion",
+    "venue": "Nature 430(6999):560–564",
+    "doi": "10.1038/nature02754",
+    "note": "Brainstem and cerebellar neurons resolve the tilt–translation ambiguity — neurons implementing a specified estimator."
+  },
+  "atick1992": {
+    "authors": "Atick, J. J. & Redlich, A. N.",
+    "year": 1992,
+    "title": "What does the retina know about natural scenes?",
+    "venue": "Neural Computation 4(2):196–210",
+    "doi": "10.1162/neco.1992.4.2.196",
+    "note": "The SNR-dependent whitening solution: bandpass at high SNR, lowpass at low SNR."
+  },
   "attneave1954": {
     "authors": "Attneave, F.",
     "year": 1954,
@@ -15,62 +39,6 @@
     "doi": "10.7551/mitpress/9780262518420.003.0013",
     "note": "Redundancy reduction as the organising principle of sensory coding."
   },
-  "laughlin1981": {
-    "authors": "Laughlin, S. B.",
-    "year": 1981,
-    "title": "A simple coding procedure enhances a neuron's information capacity",
-    "venue": "Zeitschrift für Naturforschung C 36(9–10):910–912",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/7303823/",
-    "note": "The founding empirical success: fly LMC contrast-response matches the cumulative distribution of natural contrasts."
-  },
-  "srinivasan1982": {
-    "authors": "Srinivasan, M. V., Laughlin, S. B. & Dubs, A.",
-    "year": 1982,
-    "title": "Predictive coding: a fresh view of inhibition in the retina",
-    "venue": "Proceedings of the Royal Society B 216(1205):427–459",
-    "doi": "10.1098/rspb.1982.0085",
-    "note": "Centre–surround as subtraction of a statistical prediction; predicts the surround weakens at low light."
-  },
-  "buchsbaum1983": {
-    "authors": "Buchsbaum, G. & Gottschalk, A.",
-    "year": 1983,
-    "title": "Trichromacy, opponent colours coding and optimum colour information transmission in the retina",
-    "venue": "Proceedings of the Royal Society B 220(1218):89–113",
-    "doi": "10.1098/rspb.1983.0090",
-    "note": "Opponent axes derived from first principles — the closest existing analogue to a derived coordinate system for odour."
-  },
-  "atick1992": {
-    "authors": "Atick, J. J. & Redlich, A. N.",
-    "year": 1992,
-    "title": "What does the retina know about natural scenes?",
-    "venue": "Neural Computation 4(2):196–210",
-    "doi": "10.1162/neco.1992.4.2.196",
-    "note": "The SNR-dependent whitening solution: bandpass at high SNR, lowpass at low SNR."
-  },
-  "olshausen1996": {
-    "authors": "Olshausen, B. A. & Field, D. J.",
-    "year": 1996,
-    "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
-    "venue": "Nature 381(6583):607–609",
-    "doi": "10.1038/381607a0",
-    "note": "Sparseness alone yields localised, oriented, bandpass receptive fields."
-  },
-  "ruderman1998": {
-    "authors": "Ruderman, D. L., Cronin, T. W. & Chiao, C.-C.",
-    "year": 1998,
-    "title": "Statistics of cone responses to natural images: implications for visual coding",
-    "venue": "Journal of the Optical Society of America A 15(8):2036–2045",
-    "doi": "10.1364/JOSAA.15.002036",
-    "note": "PCA of natural LMS cone signals recovers the opponent axes empirically."
-  },
-  "simoncelli2001": {
-    "authors": "Simoncelli, E. P. & Olshausen, B. A.",
-    "year": 2001,
-    "title": "Natural image statistics and neural representation",
-    "venue": "Annual Review of Neuroscience 24:1193–1216",
-    "doi": "10.1146/annurev.neuro.24.1.1193",
-    "note": "The standard synthesis of the efficient-coding programme in vision."
-  },
   "baylor1979": {
     "authors": "Baylor, D. A., Lamb, T. D. & Yau, K.-W.",
     "year": 1979,
@@ -78,70 +46,6 @@
     "venue": "Journal of Physiology 288:613–634",
     "url": "https://pubmed.ncbi.nlm.nih.gov/112243/",
     "note": "The rod detects a single photon — the sensor is already at the physical limit."
-  },
-  "field2005": {
-    "authors": "Field, G. D., Sampath, A. P. & Rieke, F.",
-    "year": 2005,
-    "title": "Retinal processing near absolute threshold: from behavior to mechanism",
-    "venue": "Annual Review of Physiology 67:491–514",
-    "doi": "10.1146/annurev.physiol.67.031103.151256",
-    "note": "What single-photon sensitivity does and does not imply about noiseless transmission."
-  },
-  "pitkow2012": {
-    "authors": "Pitkow, X. & Meister, M.",
-    "year": 2012,
-    "title": "Decorrelation and efficient coding by retinal ganglion cells",
-    "venue": "Nature Neuroscience 15(4):628–635",
-    "doi": "10.1038/nn.3064",
-    "note": "The honest counterweight: most retinal decorrelation comes from nonlinearity, not from the receptive field."
-  },
-  "ganguli2014": {
-    "authors": "Ganguli, D. & Simoncelli, E. P.",
-    "year": 2014,
-    "title": "Efficient sensory encoding and Bayesian inference with heterogeneous neural populations",
-    "venue": "Neural Computation 26(10):2103–2134",
-    "doi": "10.1162/NECO_a_00638",
-    "note": "Optimal tuning-curve density is proportional to the prior — the machinery for comparing receptor arrays across modalities."
-  },
-  "buckaxel1991": {
-    "authors": "Buck, L. & Axel, R.",
-    "year": 1991,
-    "title": "A novel multigene family may encode odorant receptors: a molecular basis for odor recognition",
-    "venue": "Cell 65(1):175–187",
-    "doi": "10.1016/0092-8674(91)90418-x",
-    "note": "Discovery of the odorant receptor gene family."
-  },
-  "malnic1999": {
-    "authors": "Malnic, B., Hirono, J., Sato, T. & Buck, L. B.",
-    "year": 1999,
-    "title": "Combinatorial receptor codes for odors",
-    "venue": "Cell 96(5):713–723",
-    "doi": "10.1016/s0092-8674(00)80581-4",
-    "note": "One receptor recognises many odorants and one odorant many receptors — the combinatorial code."
-  },
-  "friedrich2001": {
-    "authors": "Friedrich, R. W. & Laurent, G.",
-    "year": 2001,
-    "title": "Dynamic optimization of odor representations by slow temporal patterning of mitral cell activity",
-    "venue": "Science 291(5505):889–894",
-    "doi": "10.1126/science.291.5505.889",
-    "note": "Decorrelation over time in zebrafish bulb: ensembles separate without individual tuning sharpening."
-  },
-  "uchida2003": {
-    "authors": "Uchida, N. & Mainen, Z. F.",
-    "year": 2003,
-    "title": "Speed and accuracy of olfactory discrimination in the rat",
-    "venue": "Nature Neuroscience 6(11):1224–1229",
-    "doi": "10.1038/nn1142",
-    "note": "One sniff, under 200 ms, at maximum accuracy — the deadline the olfactory code must meet."
-  },
-  "koulakov2011": {
-    "authors": "Koulakov, A. A. & Rinberg, D.",
-    "year": 2011,
-    "title": "Sparse incomplete representations: a potential role of olfactory granule cells",
-    "venue": "Neuron 72(1):124–136",
-    "doi": "10.1016/j.neuron.2011.07.031",
-    "note": "Sparse bulbar codes from a balance of excitation and granule-cell inhibition."
   },
   "bhandawat2007": {
     "authors": "Bhandawat, V., Olsen, S. R., Gouwens, N. W., Schlief, M. L. & Wilson, R. I.",
@@ -151,30 +55,6 @@
     "doi": "10.1038/nn1976",
     "note": "Weak ORN input is amplified, strong input is not — broadening tuning and equalising distances between odours."
   },
-  "olsen2010": {
-    "authors": "Olsen, S. R., Bhandawat, V. & Wilson, R. I.",
-    "year": 2010,
-    "title": "Divisive normalization in olfactory population codes",
-    "venue": "Neuron 66(2):287–299",
-    "doi": "10.1016/j.neuron.2010.04.009",
-    "note": "Lateral inhibition in the antennal lobe scales with total ORN activity — global normalisation, not structured decorrelation."
-  },
-  "caron2013": {
-    "authors": "Caron, S. J. C., Ruta, V., Abbott, L. F. & Axel, R.",
-    "year": 2013,
-    "title": "Random convergence of olfactory inputs in the Drosophila mushroom body",
-    "venue": "Nature 497(7447):113–117",
-    "doi": "10.1038/nature12063",
-    "note": "Kenyon cells sample glomeruli at random — no discernible structure with respect to odour tuning."
-  },
-  "litwinkumar2017": {
-    "authors": "Litwin-Kumar, A., Harris, K. D., Axel, R., Sompolinsky, H. & Abbott, L. F.",
-    "year": 2017,
-    "title": "Optimal degrees of synaptic connectivity",
-    "venue": "Neuron 93(5):1153–1164",
-    "doi": "10.1016/j.neuron.2017.01.030",
-    "note": "Representation dimension is maximised at the connection degree actually observed in mushroom body and cerebellum."
-  },
   "bolding2018": {
     "authors": "Bolding, K. A. & Franks, K. M.",
     "year": 2018,
@@ -182,206 +62,6 @@
     "venue": "Science 361(6407):eaat6904",
     "doi": "10.1126/science.aat6904",
     "note": "Piriform recurrence, not bulbar input, produces concentration invariance."
-  },
-  "haberly2001": {
-    "authors": "Haberly, L. B.",
-    "year": 2001,
-    "title": "Parallel-distributed processing in olfactory cortex: new insights from morphological and physiological analysis of neuronal circuitry",
-    "venue": "Chemical Senses 26(5):551–576",
-    "doi": "10.1093/chemse/26.5.551",
-    "note": "Piriform as association cortex rather than a primary sensory area."
-  },
-  "vergassola2007": {
-    "authors": "Vergassola, M., Villermaux, E. & Shraiman, B. I.",
-    "year": 2007,
-    "title": "'Infotaxis' as a strategy for searching without gradients",
-    "venue": "Nature 445(7126):406–409",
-    "doi": "10.1038/nature05464",
-    "note": "Search by maximising expected information gain; reproduces casting and zigzagging."
-  },
-  "celani2014": {
-    "authors": "Celani, A., Villermaux, E. & Vergassola, M.",
-    "year": 2014,
-    "title": "Odor landscapes in turbulent environments",
-    "venue": "Physical Review X 4:041015",
-    "doi": "10.1103/PhysRevX.4.041015",
-    "note": "The statistical structure of turbulent odour plumes: intermittency and whiff/blank distributions."
-  },
-  "zhou2018": {
-    "authors": "Zhou, Y., Smith, B. H. & Sharpee, T. O.",
-    "year": 2018,
-    "title": "Hyperbolic geometry of the olfactory space",
-    "venue": "Science Advances 4(8):eaaq1458",
-    "doi": "10.1126/sciadv.aaq1458",
-    "note": "Odours map to a three-dimensional hyperbolic space derived from natural co-occurrence statistics."
-  },
-  "krishnamurthy2022": {
-    "authors": "Krishnamurthy, K., Hermundstad, A. M., Mora, T., Walczak, A. M. & Balasubramanian, V.",
-    "year": 2022,
-    "title": "Disorder and the neural representation of complex odors",
-    "venue": "Frontiers in Computational Neuroscience 16:917786",
-    "doi": "10.3389/fncom.2022.917786",
-    "note": "Argues disorder is functional: introducing any order into receptor binding degrades similarity preservation."
-  },
-  "ackels2021": {
-    "authors": "Ackels, T., Erskine, A., Dasgupta, D., Marin, A. C., Warner, T. P. A., Tootoonian, S., Fukunaga, I., Harris, J. J. & Schaefer, A. T.",
-    "year": 2021,
-    "title": "Fast odour dynamics are encoded in the olfactory system and guide behaviour",
-    "venue": "Nature 593(7860):558–563",
-    "doi": "10.1038/s41586-021-03514-2",
-    "note": "Mice discriminate odour correlations up to 40 Hz — far faster than single-ORN kinetics allow."
-  },
-  "tootoonian2022": {
-    "authors": "Tootoonian, S., Schaefer, A. T. & Latham, P. E.",
-    "year": 2022,
-    "title": "Sparse connectivity for MAP inference in linear models using sister mitral cells",
-    "venue": "PLoS Computational Biology 18(1):e1009808",
-    "doi": "10.1371/journal.pcbi.1009808",
-    "note": "MAP inference without all-to-all connectivity, using the sister-cell architecture of the bulb."
-  },
-  "tootoonian2025": {
-    "authors": "Tootoonian, S., True, A. C., Stark, E., Crimaldi, J. P. & Schaefer, A. T.",
-    "year": 2025,
-    "title": "Quantifying spectral information about source separation in multisource odour plumes",
-    "venue": "PLoS ONE 20(1):e0297754",
-    "doi": "10.1371/journal.pone.0297754",
-    "note": "High-frequency components of plume correlations are most informative about source separation when sources are close."
-  },
-  "shen2013": {
-    "authors": "Shen, K., Tootoonian, S. & Laurent, G.",
-    "year": 2013,
-    "title": "Encoding of mixtures in a simple olfactory system",
-    "venue": "Neuron 80(5):1246–1262",
-    "doi": "10.1016/j.neuron.2013.08.026",
-    "note": "Strong hypoadditivity in locust PNs; sparse Kenyon cells often signal single components within mixtures."
-  },
-  "wachowiak2011": {
-    "authors": "Wachowiak, M.",
-    "year": 2011,
-    "title": "All in a sniff: olfaction as a model for active sensing",
-    "venue": "Neuron 71(6):962–973",
-    "doi": "10.1016/j.neuron.2011.08.030",
-    "note": "Sniffing as the active-sensing act that structures all olfactory input."
-  },
-  "dan1996": {
-    "authors": "Dan, Y., Atick, J. J. & Reid, R. C.",
-    "year": 1996,
-    "title": "Efficient coding of natural scenes in the lateral geniculate nucleus: experimental test of a computational theory",
-    "venue": "Journal of Neuroscience 16(10):3351–3362",
-    "doi": "10.1523/JNEUROSCI.16-10-03351.1996",
-    "note": "LGN responses to natural movies are temporally white, as whitening predicts."
-  },
-  "lewicki2002": {
-    "authors": "Lewicki, M. S.",
-    "year": 2002,
-    "title": "Efficient coding of natural sounds",
-    "venue": "Nature Neuroscience 5(4):356–363",
-    "doi": "10.1038/nn831",
-    "note": "Filters optimised to encode natural sounds reproduce auditory-nerve tuning — audition's answer to the derivation vision got for colour."
-  },
-  "smith2006": {
-    "authors": "Smith, E. C. & Lewicki, M. S.",
-    "year": 2006,
-    "title": "Efficient auditory coding",
-    "venue": "Nature 439(7079):978–982",
-    "doi": "10.1038/nature04485",
-    "note": "A spike-based code optimised for natural sounds matches cochlear filter estimates quantitatively."
-  },
-  "mcdermott2011": {
-    "authors": "McDermott, J. H. & Simoncelli, E. P.",
-    "year": 2011,
-    "title": "Sound texture perception via statistics of the auditory periphery: evidence from sound synthesis",
-    "venue": "Neuron 71(5):926–940",
-    "doi": "10.1016/j.neuron.2011.06.032",
-    "note": "Time-averaged statistics of an auditory model are sufficient to synthesise recognisable textures — the ensemble, characterised."
-  },
-  "dean2005": {
-    "authors": "Dean, I., Harper, N. S. & McAlpine, D.",
-    "year": 2005,
-    "title": "Neural population coding of sound level adapts to stimulus statistics",
-    "venue": "Nature Neuroscience 8(12):1684–1689",
-    "doi": "10.1038/nn1541",
-    "note": "Midbrain neurons re-tune their dynamic range to the current sound-level distribution — dynamic efficient coding, measured."
-  },
-  "mcalpine2001": {
-    "authors": "McAlpine, D., Jiang, D. & Palmer, A. R.",
-    "year": 2001,
-    "title": "A neural code for low-frequency sound localization in mammals",
-    "venue": "Nature Neuroscience 4(4):396–401",
-    "doi": "10.1038/86049",
-    "note": "Two broad hemispheric channels rather than a Jeffress place map — optimal given the ITD range a small head actually experiences."
-  },
-  "carr1990": {
-    "authors": "Carr, C. E. & Konishi, M.",
-    "year": 1990,
-    "title": "A circuit for detection of interaural time differences in the brain stem of the barn owl",
-    "venue": "Journal of Neuroscience 10(10):3227–3246",
-    "doi": "10.1523/JNEUROSCI.10-10-03227.1990",
-    "note": "Delay lines and coincidence detectors, as Jeffress proposed — the mechanism exists, in the owl."
-  },
-  "shera2002": {
-    "authors": "Shera, C. A., Guinan, J. J. & Oxenham, A. J.",
-    "year": 2002,
-    "title": "Revised estimates of human cochlear tuning from otoacoustic and behavioral measurements",
-    "venue": "PNAS 99(5):3318–3323",
-    "doi": "10.1073/pnas.032675099",
-    "note": "Human cochlear tuning is sharper than the other mammals measured — a species difference a normative theory should explain."
-  },
-  "johnson2001": {
-    "authors": "Johnson, K. O.",
-    "year": 2001,
-    "title": "The roles and functions of cutaneous mechanoreceptors",
-    "venue": "Current Opinion in Neurobiology 11(4):455–461",
-    "doi": "10.1016/s0959-4388(00)00234-8",
-    "note": "Each of the four afferent classes serves a distinct perceptual function, and each receptor is specialised for it."
-  },
-  "saal2014": {
-    "authors": "Saal, H. P. & Bensmaia, S. J.",
-    "year": 2014,
-    "title": "Touch is a team effort: interplay of submodalities in cutaneous sensibility",
-    "venue": "Trends in Neurosciences 37(12):689–697",
-    "doi": "10.1016/j.tins.2014.08.012",
-    "note": "The corrective to labelled lines in touch: natural stimuli excite all afferent classes and cortical neurons pool across them."
-  },
-  "chandrashekar2006": {
-    "authors": "Chandrashekar, J., Hoon, M. A., Ryba, N. J. P. & Zuker, C. S.",
-    "year": 2006,
-    "title": "The receptors and cells for mammalian taste",
-    "venue": "Nature 444(7117):288–294",
-    "doi": "10.1038/nature05401",
-    "note": "The labelled-line case: distinct cell types with unique receptors, each tuned to one basic taste."
-  },
-  "angelaki2004": {
-    "authors": "Angelaki, D. E., Shaikh, A. G., Green, A. M. & Dickman, J. D.",
-    "year": 2004,
-    "title": "Neurons compute internal models of the physical laws of motion",
-    "venue": "Nature 430(6999):560–564",
-    "doi": "10.1038/nature02754",
-    "note": "Brainstem and cerebellar neurons resolve the tilt–translation ambiguity — neurons implementing a specified estimator."
-  },
-  "cullen2012": {
-    "authors": "Cullen, K. E.",
-    "year": 2012,
-    "title": "The vestibular system: multimodal integration and encoding of self-motion for motor control",
-    "venue": "Trends in Neurosciences 35(3):185–196",
-    "doi": "10.1016/j.tins.2011.12.001",
-    "note": "Vestibular nuclei cancel self-generated head motion but not passive motion — explicit subtraction of an efference-copy prediction."
-  },
-  "wolpert1995": {
-    "authors": "Wolpert, D. M., Ghahramani, Z. & Jordan, M. I.",
-    "year": 1995,
-    "title": "An internal model for sensorimotor integration",
-    "venue": "Science 269(5232):1880–1882",
-    "doi": "10.1126/science.7569931",
-    "note": "Direct evidence for a forward model: error propagation follows optimal state estimation."
-  },
-  "gracheva2010": {
-    "authors": "Gracheva, E. O., Ingolia, N. T., Kelly, Y. M., Cordero-Morales, J. F., Hollopeter, G., Chesler, A. T., Sánchez, E. E., Perez, J. C., Weissman, J. S. & Julius, D.",
-    "year": 2010,
-    "title": "Molecular basis of infrared detection by snakes",
-    "venue": "Nature 464(7291):1006–1011",
-    "doi": "10.1038/nature08943",
-    "note": "TRPA1 as the infrared transducer — a nociceptive channel repurposed as an imaging sensor."
   },
   "bosco2001": {
     "authors": "Bosco, G. & Poppele, R. E.",
@@ -399,6 +79,78 @@
     "doi": "10.1152/jn.00204.2003",
     "note": "Decouples limb geometry from endpoint position to ask whether the global representation is neural or biomechanical. About half of 89 cells changed response pattern; muscle stimulation revealed explicit representation of stimulus parameters. The answer is partly neural, not wholly."
   },
+  "buchsbaum1983": {
+    "authors": "Buchsbaum, G. & Gottschalk, A.",
+    "year": 1983,
+    "title": "Trichromacy, opponent colours coding and optimum colour information transmission in the retina",
+    "venue": "Proceedings of the Royal Society B 220(1218):89–113",
+    "doi": "10.1098/rspb.1983.0090",
+    "note": "Opponent axes derived from first principles — the closest existing analogue to a derived coordinate system for odour."
+  },
+  "buckaxel1991": {
+    "authors": "Buck, L. & Axel, R.",
+    "year": 1991,
+    "title": "A novel multigene family may encode odorant receptors: a molecular basis for odor recognition",
+    "venue": "Cell 65(1):175–187",
+    "doi": "10.1016/0092-8674(91)90418-x",
+    "note": "Discovery of the odorant receptor gene family."
+  },
+  "caron2013": {
+    "authors": "Caron, S. J. C., Ruta, V., Abbott, L. F. & Axel, R.",
+    "year": 2013,
+    "title": "Random convergence of olfactory inputs in the Drosophila mushroom body",
+    "venue": "Nature 497(7447):113–117",
+    "doi": "10.1038/nature12063",
+    "note": "Kenyon cells sample glomeruli at random — no discernible structure with respect to odour tuning."
+  },
+  "carr1990": {
+    "authors": "Carr, C. E. & Konishi, M.",
+    "year": 1990,
+    "title": "A circuit for detection of interaural time differences in the brain stem of the barn owl",
+    "venue": "Journal of Neuroscience 10(10):3227–3246",
+    "doi": "10.1523/JNEUROSCI.10-10-03227.1990",
+    "note": "Delay lines and coincidence detectors, as Jeffress proposed — the mechanism exists, in the owl."
+  },
+  "celani2014": {
+    "authors": "Celani, A., Villermaux, E. & Vergassola, M.",
+    "year": 2014,
+    "title": "Odor landscapes in turbulent environments",
+    "venue": "Physical Review X 4:041015",
+    "doi": "10.1103/PhysRevX.4.041015",
+    "note": "The statistical structure of turbulent odour plumes: intermittency and whiff/blank distributions."
+  },
+  "chandrashekar2006": {
+    "authors": "Chandrashekar, J., Hoon, M. A., Ryba, N. J. P. & Zuker, C. S.",
+    "year": 2006,
+    "title": "The receptors and cells for mammalian taste",
+    "venue": "Nature 444(7117):288–294",
+    "doi": "10.1038/nature05401",
+    "note": "The labelled-line case: distinct cell types with unique receptors, each tuned to one basic taste."
+  },
+  "cullen2012": {
+    "authors": "Cullen, K. E.",
+    "year": 2012,
+    "title": "The vestibular system: multimodal integration and encoding of self-motion for motor control",
+    "venue": "Trends in Neurosciences 35(3):185–196",
+    "doi": "10.1016/j.tins.2011.12.001",
+    "note": "Vestibular nuclei cancel self-generated head motion but not passive motion — explicit subtraction of an efference-copy prediction."
+  },
+  "dan1996": {
+    "authors": "Dan, Y., Atick, J. J. & Reid, R. C.",
+    "year": 1996,
+    "title": "Efficient coding of natural scenes in the lateral geniculate nucleus: experimental test of a computational theory",
+    "venue": "Journal of Neuroscience 16(10):3351–3362",
+    "doi": "10.1523/JNEUROSCI.16-10-03351.1996",
+    "note": "LGN responses to natural movies are temporally white, as whitening predicts."
+  },
+  "dean2005": {
+    "authors": "Dean, I., Harper, N. S. & McAlpine, D.",
+    "year": 2005,
+    "title": "Neural population coding of sound level adapts to stimulus statistics",
+    "venue": "Nature Neuroscience 8(12):1684–1689",
+    "doi": "10.1038/nn1541",
+    "note": "Midbrain neurons re-tune their dynamic range to the current sound-level distribution — dynamic efficient coding, measured."
+  },
   "fetsch2011": {
     "authors": "Fetsch, C. R., Pouget, A., DeAngelis, G. C. & Angelaki, D. E.",
     "year": 2011,
@@ -407,6 +159,62 @@
     "doi": "10.1038/nn.2983",
     "note": "The direct neural test. MSTd population decoding predicted behavioural cue weighting including its modest deviations from optimality — so the animals are near-optimal rather than optimal, and the neurons track the shortfall."
   },
+  "field1987": {
+    "authors": "Field, D. J.",
+    "year": 1987,
+    "title": "Relations between the statistics of natural images and the response properties of cortical cells",
+    "venue": "Journal of the Optical Society of America A 4(12):2379–2394",
+    "doi": "10.1364/JOSAA.4.002379",
+    "note": "The 1/f amplitude spectrum and the argument that cortical filters are matched to it."
+  },
+  "field2005": {
+    "authors": "Field, G. D., Sampath, A. P. & Rieke, F.",
+    "year": 2005,
+    "title": "Retinal processing near absolute threshold: from behavior to mechanism",
+    "venue": "Annual Review of Physiology 67:491–514",
+    "doi": "10.1146/annurev.physiol.67.031103.151256",
+    "note": "What single-photon sensitivity does and does not imply about noiseless transmission."
+  },
+  "friedrich2001": {
+    "authors": "Friedrich, R. W. & Laurent, G.",
+    "year": 2001,
+    "title": "Dynamic optimization of odor representations by slow temporal patterning of mitral cell activity",
+    "venue": "Science 291(5505):889–894",
+    "doi": "10.1126/science.291.5505.889",
+    "note": "Decorrelation over time in zebrafish bulb: ensembles separate without individual tuning sharpening."
+  },
+  "ganguli2014": {
+    "authors": "Ganguli, D. & Simoncelli, E. P.",
+    "year": 2014,
+    "title": "Efficient sensory encoding and Bayesian inference with heterogeneous neural populations",
+    "venue": "Neural Computation 26(10):2103–2134",
+    "doi": "10.1162/NECO_a_00638",
+    "note": "Optimal tuning-curve density is proportional to the prior — the machinery for comparing receptor arrays across modalities."
+  },
+  "gracheva2010": {
+    "authors": "Gracheva, E. O., Ingolia, N. T., Kelly, Y. M., Cordero-Morales, J. F., Hollopeter, G., Chesler, A. T., Sánchez, E. E., Perez, J. C., Weissman, J. S. & Julius, D.",
+    "year": 2010,
+    "title": "Molecular basis of infrared detection by snakes",
+    "venue": "Nature 464(7291):1006–1011",
+    "doi": "10.1038/nature08943",
+    "note": "TRPA1 as the infrared transducer — a nociceptive channel repurposed as an imaging sensor."
+  },
+  "haberly2001": {
+    "authors": "Haberly, L. B.",
+    "year": 2001,
+    "title": "Parallel-distributed processing in olfactory cortex: new insights from morphological and physiological analysis of neuronal circuitry",
+    "venue": "Chemical Senses 26(5):551–576",
+    "doi": "10.1093/chemse/26.5.551",
+    "note": "Piriform as association cortex rather than a primary sensory area."
+  },
+  "johnson2001": {
+    "authors": "Johnson, K. O.",
+    "year": 2001,
+    "title": "The roles and functions of cutaneous mechanoreceptors",
+    "venue": "Current Opinion in Neurobiology 11(4):455–461",
+    "doi": "10.1016/s0959-4388(00)00234-8",
+    "note": "Each of the four afferent classes serves a distinct perceptual function, and each receptor is specialised for it."
+  },
   "kandel2021": {
     "authors": "Kandel, E. R., Koester, J. D., Mack, S. H. & Siegelbaum, S. A. (eds)",
     "year": 2021,
@@ -414,5 +222,221 @@
     "venue": "McGraw Hill. ISBN 978-1259642241. Part IV edited by Albright, T. D. & Bruno, R. M.",
     "url": "https://search.worldcat.org/search?q=isbn%3A9781259642241",
     "note": "The standard textbook, used here to check and fill the course rather than to source arguments. Where a claim in this course rests on Kandel, the citing prose names the chapter. Chapters 17-29 cover sensory coding, somatosensation, touch, pain, vision, audition, vestibular, and the chemical senses."
+  },
+  "koulakov2011": {
+    "authors": "Koulakov, A. A. & Rinberg, D.",
+    "year": 2011,
+    "title": "Sparse incomplete representations: a potential role of olfactory granule cells",
+    "venue": "Neuron 72(1):124–136",
+    "doi": "10.1016/j.neuron.2011.07.031",
+    "note": "Sparse bulbar codes from a balance of excitation and granule-cell inhibition."
+  },
+  "krishnamurthy2022": {
+    "authors": "Krishnamurthy, K., Hermundstad, A. M., Mora, T., Walczak, A. M. & Balasubramanian, V.",
+    "year": 2022,
+    "title": "Disorder and the neural representation of complex odors",
+    "venue": "Frontiers in Computational Neuroscience 16:917786",
+    "doi": "10.3389/fncom.2022.917786",
+    "note": "Argues disorder is functional: introducing any order into receptor binding degrades similarity preservation."
+  },
+  "laughlin1981": {
+    "authors": "Laughlin, S. B.",
+    "year": 1981,
+    "title": "A simple coding procedure enhances a neuron's information capacity",
+    "venue": "Zeitschrift für Naturforschung C 36(9–10):910–912",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7303823/",
+    "note": "The founding empirical success: fly LMC contrast-response matches the cumulative distribution of natural contrasts."
+  },
+  "lewicki2002": {
+    "authors": "Lewicki, M. S.",
+    "year": 2002,
+    "title": "Efficient coding of natural sounds",
+    "venue": "Nature Neuroscience 5(4):356–363",
+    "doi": "10.1038/nn831",
+    "note": "Filters optimised to encode natural sounds reproduce auditory-nerve tuning — audition's answer to the derivation vision got for colour."
+  },
+  "litwinkumar2017": {
+    "authors": "Litwin-Kumar, A., Harris, K. D., Axel, R., Sompolinsky, H. & Abbott, L. F.",
+    "year": 2017,
+    "title": "Optimal degrees of synaptic connectivity",
+    "venue": "Neuron 93(5):1153–1164",
+    "doi": "10.1016/j.neuron.2017.01.030",
+    "note": "Representation dimension is maximised at the connection degree actually observed in mushroom body and cerebellum."
+  },
+  "malnic1999": {
+    "authors": "Malnic, B., Hirono, J., Sato, T. & Buck, L. B.",
+    "year": 1999,
+    "title": "Combinatorial receptor codes for odors",
+    "venue": "Cell 96(5):713–723",
+    "doi": "10.1016/s0092-8674(00)80581-4",
+    "note": "One receptor recognises many odorants and one odorant many receptors — the combinatorial code."
+  },
+  "mcalpine2001": {
+    "authors": "McAlpine, D., Jiang, D. & Palmer, A. R.",
+    "year": 2001,
+    "title": "A neural code for low-frequency sound localization in mammals",
+    "venue": "Nature Neuroscience 4(4):396–401",
+    "doi": "10.1038/86049",
+    "note": "Two broad hemispheric channels rather than a Jeffress place map — optimal given the ITD range a small head actually experiences."
+  },
+  "mcdermott2011": {
+    "authors": "McDermott, J. H. & Simoncelli, E. P.",
+    "year": 2011,
+    "title": "Sound texture perception via statistics of the auditory periphery: evidence from sound synthesis",
+    "venue": "Neuron 71(5):926–940",
+    "doi": "10.1016/j.neuron.2011.06.032",
+    "note": "Time-averaged statistics of an auditory model are sufficient to synthesise recognisable textures — the ensemble, characterised."
+  },
+  "olsen2010": {
+    "authors": "Olsen, S. R., Bhandawat, V. & Wilson, R. I.",
+    "year": 2010,
+    "title": "Divisive normalization in olfactory population codes",
+    "venue": "Neuron 66(2):287–299",
+    "doi": "10.1016/j.neuron.2010.04.009",
+    "note": "Lateral inhibition in the antennal lobe scales with total ORN activity — global normalisation, not structured decorrelation."
+  },
+  "olshausen1996": {
+    "authors": "Olshausen, B. A. & Field, D. J.",
+    "year": 1996,
+    "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
+    "venue": "Nature 381(6583):607–609",
+    "doi": "10.1038/381607a0",
+    "note": "Sparseness alone yields localised, oriented, bandpass receptive fields."
+  },
+  "pitkow2012": {
+    "authors": "Pitkow, X. & Meister, M.",
+    "year": 2012,
+    "title": "Decorrelation and efficient coding by retinal ganglion cells",
+    "venue": "Nature Neuroscience 15(4):628–635",
+    "doi": "10.1038/nn.3064",
+    "note": "The honest counterweight: most retinal decorrelation comes from nonlinearity, not from the receptive field."
+  },
+  "ruderman1994": {
+    "authors": "Ruderman, D. L. & Bialek, W.",
+    "year": 1994,
+    "title": "Statistics of natural images: scaling in the woods",
+    "venue": "Physical Review Letters 73(6):814–817",
+    "doi": "10.1103/PhysRevLett.73.814",
+    "note": "Scale invariance measured in the woods; the empirical basis for treating natural-image statistics as scale-free."
+  },
+  "ruderman1998": {
+    "authors": "Ruderman, D. L., Cronin, T. W. & Chiao, C.-C.",
+    "year": 1998,
+    "title": "Statistics of cone responses to natural images: implications for visual coding",
+    "venue": "Journal of the Optical Society of America A 15(8):2036–2045",
+    "doi": "10.1364/JOSAA.15.002036",
+    "note": "PCA of natural LMS cone signals recovers the opponent axes empirically."
+  },
+  "saal2014": {
+    "authors": "Saal, H. P. & Bensmaia, S. J.",
+    "year": 2014,
+    "title": "Touch is a team effort: interplay of submodalities in cutaneous sensibility",
+    "venue": "Trends in Neurosciences 37(12):689–697",
+    "doi": "10.1016/j.tins.2014.08.012",
+    "note": "The corrective to labelled lines in touch: natural stimuli excite all afferent classes and cortical neurons pool across them."
+  },
+  "shen2013": {
+    "authors": "Shen, K., Tootoonian, S. & Laurent, G.",
+    "year": 2013,
+    "title": "Encoding of mixtures in a simple olfactory system",
+    "venue": "Neuron 80(5):1246–1262",
+    "doi": "10.1016/j.neuron.2013.08.026",
+    "note": "Strong hypoadditivity in locust PNs; sparse Kenyon cells often signal single components within mixtures."
+  },
+  "shera2002": {
+    "authors": "Shera, C. A., Guinan, J. J. & Oxenham, A. J.",
+    "year": 2002,
+    "title": "Revised estimates of human cochlear tuning from otoacoustic and behavioral measurements",
+    "venue": "PNAS 99(5):3318–3323",
+    "doi": "10.1073/pnas.032675099",
+    "note": "Human cochlear tuning is sharper than the other mammals measured — a species difference a normative theory should explain."
+  },
+  "simoncelli2001": {
+    "authors": "Simoncelli, E. P. & Olshausen, B. A.",
+    "year": 2001,
+    "title": "Natural image statistics and neural representation",
+    "venue": "Annual Review of Neuroscience 24:1193–1216",
+    "doi": "10.1146/annurev.neuro.24.1.1193",
+    "note": "The standard synthesis of the efficient-coding programme in vision."
+  },
+  "smith2006": {
+    "authors": "Smith, E. C. & Lewicki, M. S.",
+    "year": 2006,
+    "title": "Efficient auditory coding",
+    "venue": "Nature 439(7079):978–982",
+    "doi": "10.1038/nature04485",
+    "note": "A spike-based code optimised for natural sounds matches cochlear filter estimates quantitatively."
+  },
+  "srinivasan1982": {
+    "authors": "Srinivasan, M. V., Laughlin, S. B. & Dubs, A.",
+    "year": 1982,
+    "title": "Predictive coding: a fresh view of inhibition in the retina",
+    "venue": "Proceedings of the Royal Society B 216(1205):427–459",
+    "doi": "10.1098/rspb.1982.0085",
+    "note": "Centre–surround as subtraction of a statistical prediction; predicts the surround weakens at low light."
+  },
+  "tootoonian2022": {
+    "authors": "Tootoonian, S., Schaefer, A. T. & Latham, P. E.",
+    "year": 2022,
+    "title": "Sparse connectivity for MAP inference in linear models using sister mitral cells",
+    "venue": "PLoS Computational Biology 18(1):e1009808",
+    "doi": "10.1371/journal.pcbi.1009808",
+    "note": "MAP inference without all-to-all connectivity, using the sister-cell architecture of the bulb."
+  },
+  "tootoonian2025": {
+    "authors": "Tootoonian, S., True, A. C., Stark, E., Crimaldi, J. P. & Schaefer, A. T.",
+    "year": 2025,
+    "title": "Quantifying spectral information about source separation in multisource odour plumes",
+    "venue": "PLoS ONE 20(1):e0297754",
+    "doi": "10.1371/journal.pone.0297754",
+    "note": "High-frequency components of plume correlations are most informative about source separation when sources are close."
+  },
+  "uchida2003": {
+    "authors": "Uchida, N. & Mainen, Z. F.",
+    "year": 2003,
+    "title": "Speed and accuracy of olfactory discrimination in the rat",
+    "venue": "Nature Neuroscience 6(11):1224–1229",
+    "doi": "10.1038/nn1142",
+    "note": "One sniff, under 200 ms, at maximum accuracy — the deadline the olfactory code must meet."
+  },
+  "vanhateren1998": {
+    "authors": "van Hateren, J. H. & van der Schaaf, A.",
+    "year": 1998,
+    "title": "Independent component filters of natural images compared with simple cells in primary visual cortex",
+    "venue": "Proceedings of the Royal Society B 265(1394):359–366",
+    "doi": "10.1098/rspb.1998.0303",
+    "note": "The natural-image database behind much of this literature, plus the ICA-to-simple-cell comparison."
+  },
+  "vergassola2007": {
+    "authors": "Vergassola, M., Villermaux, E. & Shraiman, B. I.",
+    "year": 2007,
+    "title": "'Infotaxis' as a strategy for searching without gradients",
+    "venue": "Nature 445(7126):406–409",
+    "doi": "10.1038/nature05464",
+    "note": "Search by maximising expected information gain; reproduces casting and zigzagging."
+  },
+  "wachowiak2011": {
+    "authors": "Wachowiak, M.",
+    "year": 2011,
+    "title": "All in a sniff: olfaction as a model for active sensing",
+    "venue": "Neuron 71(6):962–973",
+    "doi": "10.1016/j.neuron.2011.08.030",
+    "note": "Sniffing as the active-sensing act that structures all olfactory input."
+  },
+  "wolpert1995": {
+    "authors": "Wolpert, D. M., Ghahramani, Z. & Jordan, M. I.",
+    "year": 1995,
+    "title": "An internal model for sensorimotor integration",
+    "venue": "Science 269(5232):1880–1882",
+    "doi": "10.1126/science.7569931",
+    "note": "Direct evidence for a forward model: error propagation follows optimal state estimation."
+  },
+  "zhou2018": {
+    "authors": "Zhou, Y., Smith, B. H. & Sharpee, T. O.",
+    "year": 2018,
+    "title": "Hyperbolic geometry of the olfactory space",
+    "venue": "Science Advances 4(8):eaaq1458",
+    "doi": "10.1126/sciadv.aaq1458",
+    "note": "Odours map to a three-dimensional hyperbolic space derived from natural co-occurrence statistics."
   }
 }
